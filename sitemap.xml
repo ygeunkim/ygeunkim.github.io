@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ygeunkim.github.io/authors/admin/</loc>
+    <lastmod>2019-08-14T21:18:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/bookdown/</loc>
+    <lastmod>2019-08-14T00:26:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/post/</loc>
+    <lastmod>2019-08-13T23:25:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/</loc>
+    <lastmod>2019-08-14T21:18:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/publication_types/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/publication/</loc>
+    <lastmod>2019-08-13T23:25:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
