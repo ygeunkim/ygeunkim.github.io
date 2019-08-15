@@ -2,23 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Young-geun Kim</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ygeunkim.github.io/</link>
+      <atom:link href="https://ygeunkim.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Young-geun Kim</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>Young-geun Kim</title>
-      <link>/</link>
+      <link>https://ygeunkim.github.io/</link>
     </image>
-    
-    <item>
-      <title>NSR Anomaly Detection</title>
-      <link>/project/nsr_project/nsr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/nsr_project/nsr/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
