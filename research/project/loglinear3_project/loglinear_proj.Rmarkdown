@@ -6,6 +6,7 @@ categories: ["project"]
 tags: ["r"]
 external_link: "https://github.com/ygeunkim/loglinear3"
 draft: false
+featured: true
 summary: "R functions automatically finding the best loglinear models for 3-way table"
 image:
   placement: 1

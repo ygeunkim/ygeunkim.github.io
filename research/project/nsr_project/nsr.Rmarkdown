@@ -7,6 +7,7 @@ tags: ["research-project", "anomaly-detection", "time-series", "r", "python"]
 # output: blogdown::html_page
 math: true
 draft: true
+featured: true
 summary: "Anomaly detection on Cyber Physical System using error pattern. RNN performed on [SWaT dataset](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/)"
 # header:
 #   image: "../../../static/img/anomaly.png"

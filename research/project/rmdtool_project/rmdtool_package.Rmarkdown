@@ -6,6 +6,7 @@ categories: ["project"]
 tags: ["r"]
 external_link: "https://github.com/ygeunkim/rmdtool"
 draft: false
+featured: true
 summary: "Built an R package that includes my private tools for writing R markdown documents"
 image:
   placement: 1

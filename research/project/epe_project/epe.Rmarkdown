@@ -6,6 +6,7 @@ categories: ["project"]
 tags: ["r"]
 external_link: "https://github.com/ygeunkim/simul-epe"
 draft: false
+featured: true
 summary: "R functions simulating expected test error of assumed model"
 image:
   placement: 1
