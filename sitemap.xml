@@ -3,6 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ygeunkim.github.io/contact/experience/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/research/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/research/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/contact/skills/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/contact/extracurricular/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/contact/contact/</loc>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/authors/admin/</loc>
     <lastmod>2019-08-15T13:57:30+09:00</lastmod>
   </url>
@@ -19,6 +43,11 @@
   
   <url>
     <loc>https://ygeunkim.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/contact/</loc>
     <priority>0</priority>
   </url>
   
@@ -40,6 +69,11 @@
   <url>
     <loc>https://ygeunkim.github.io/publication/</loc>
     <lastmod>2019-08-13T23:25:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/research/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
