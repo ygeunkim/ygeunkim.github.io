@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://ygeunkim.github.io/research/</loc>
+    <lastmod>2019-08-16T11:39:53+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/author/</loc>
     <priority>0</priority>
   </url>
@@ -28,8 +33,17 @@
   </url>
   
   <url>
+    <loc>https://ygeunkim.github.io/project/loglinear3_project/</loc>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/post/</loc>
     <lastmod>2019-08-13T23:25:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/</loc>
+    <lastmod>2019-08-14T21:18:04+09:00</lastmod>
   </url>
   
   <url>
@@ -38,13 +52,41 @@
   </url>
   
   <url>
+    <loc>https://ygeunkim.github.io/publication/</loc>
+    <lastmod>2019-08-13T23:25:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/rmdtool_project/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/epe_project/</loc>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/young-geun-kim/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/</loc>
     <lastmod>2019-08-16T14:34:22+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/categories/project/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/r/</loc>
     <priority>0</priority>
   </url>
   
