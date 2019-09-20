@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/author/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,13 +30,18 @@
   
   <url>
     <loc>https://ygeunkim.github.io/categories/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/project/loglinear3_project/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/nsr_project/</loc>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
   </url>
   
   <url>
@@ -71,19 +76,25 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/author/young-geun-kim/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/anomaly-detection/</loc>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -107,7 +118,13 @@
   
   <url>
     <loc>https://ygeunkim.github.io/categories/project/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/python/</loc>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -120,6 +137,12 @@
   <url>
     <loc>https://ygeunkim.github.io/tags/r-package/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/research-project/</loc>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -138,6 +161,12 @@
   <url>
     <loc>https://ygeunkim.github.io/tags/tidyverse/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/time-series/</loc>
+    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   

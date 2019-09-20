@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>anomaly-detection</title>
+      <link>https://ygeunkim.github.io/tags/anomaly-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/tags/anomaly-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>categorical-data</title>
       <link>https://ygeunkim.github.io/tags/categorical-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,6 +45,14 @@
     </item>
     
     <item>
+      <title>python</title>
+      <link>https://ygeunkim.github.io/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>r</title>
       <link>https://ygeunkim.github.io/tags/r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -49,6 +65,14 @@
       <link>https://ygeunkim.github.io/tags/r-package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/tags/r-package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research-project</title>
+      <link>https://ygeunkim.github.io/tags/research-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/tags/research-project/</guid>
       <description></description>
     </item>
     
@@ -73,6 +97,14 @@
       <link>https://ygeunkim.github.io/tags/tidyverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time-series</title>
+      <link>https://ygeunkim.github.io/tags/time-series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/tags/time-series/</guid>
       <description></description>
     </item>
     

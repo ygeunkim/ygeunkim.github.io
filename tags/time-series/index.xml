@@ -2,32 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>time-series | Young-geun Kim</title>
-    <link>/tags/time-series/</link>
-      <atom:link href="/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ygeunkim.github.io/tags/time-series/</link>
+      <atom:link href="https://ygeunkim.github.io/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     <description>time-series</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/younggeun.jpeg</url>
+      <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>time-series</title>
-      <link>/tags/time-series/</link>
+      <link>https://ygeunkim.github.io/tags/time-series/</link>
     </image>
     
     <item>
       <title>NSR Anomaly Detection</title>
-      <link>/project/nsr_project/</link>
+      <link>https://ygeunkim.github.io/project/nsr_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/nsr_project/</guid>
-      <description>
-
-&lt;h1 id=&#34;anomaly-detection-on-cyber-physical-system&#34;&gt;Anomaly Detection on Cyber Physical System&lt;/h1&gt;
-
-&lt;h2 id=&#34;setting&#34;&gt;Setting&lt;/h2&gt;
-
-&lt;p&gt;The data-set comes from CPS. We are given normal (non-anomaly) sample. We treat this set as training set. We have to train a model using this data-set. At some point, new sample will arrive. This sample is not purely normal. Some are normal, but somre are anomaly. Our mission is &lt;em&gt;detecting anomaly among this updating data-set&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-
-&lt;p&gt;This project uses prediction error from RNN, and thinks anomalies are revealed as unique &lt;em&gt;pattern&lt;/em&gt;. Note that the data-set is time series. We should find pattern in time series data-set.&lt;/p&gt;
+      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
+      <description>&lt;!-- Anomaly detection on Cyber Physical System using error pattern. RNN performed on [SWaT dataset](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/) --&gt;
 </description>
     </item>
     
