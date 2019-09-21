@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>simulation | Young-geun Kim</title>
-    <link>/tags/simulation/</link>
-      <atom:link href="/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ygeunkim.github.io/tags/simulation/</link>
+      <atom:link href="https://ygeunkim.github.io/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
     <description>simulation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>simulation</title>
-      <link>/tags/simulation/</link>
+      <link>https://ygeunkim.github.io/tags/simulation/</link>
     </image>
     
     <item>
       <title>Simulating Expected Error</title>
-      <link>/project/epe_project/</link>
+      <link>https://ygeunkim.github.io/project/epe_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/epe_project/</guid>
+      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
       <description></description>
     </item>
     

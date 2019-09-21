@@ -2,117 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Young-geun Kim</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ygeunkim.github.io/tags/</link>
+      <atom:link href="https://ygeunkim.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://ygeunkim.github.io/tags/</link>
     </image>
     
     <item>
       <title>anomaly-detection</title>
-      <link>/tags/anomaly-detection/</link>
+      <link>https://ygeunkim.github.io/tags/anomaly-detection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/anomaly-detection/</guid>
+      <guid>https://ygeunkim.github.io/tags/anomaly-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>categorical-data</title>
-      <link>/tags/categorical-data/</link>
+      <link>https://ygeunkim.github.io/tags/categorical-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/categorical-data/</guid>
+      <guid>https://ygeunkim.github.io/tags/categorical-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>datatable</title>
-      <link>/tags/datatable/</link>
+      <link>https://ygeunkim.github.io/tags/datatable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/datatable/</guid>
+      <guid>https://ygeunkim.github.io/tags/datatable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>knitr</title>
-      <link>/tags/knitr/</link>
+      <link>https://ygeunkim.github.io/tags/knitr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/knitr/</guid>
+      <guid>https://ygeunkim.github.io/tags/knitr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>/tags/python/</link>
+      <link>https://ygeunkim.github.io/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/python/</guid>
+      <guid>https://ygeunkim.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>r</title>
-      <link>/tags/r/</link>
+      <link>https://ygeunkim.github.io/tags/r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/r/</guid>
+      <guid>https://ygeunkim.github.io/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>r-package</title>
-      <link>/tags/r-package/</link>
+      <link>https://ygeunkim.github.io/tags/r-package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/r-package/</guid>
+      <guid>https://ygeunkim.github.io/tags/r-package/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research-project</title>
-      <link>/tags/research-project/</link>
+      <link>https://ygeunkim.github.io/tags/research-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/research-project/</guid>
+      <guid>https://ygeunkim.github.io/tags/research-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rmarkdown</title>
-      <link>/tags/rmarkdown/</link>
+      <link>https://ygeunkim.github.io/tags/rmarkdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/rmarkdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rstats</title>
-      <link>/tags/rstats/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/rstats/</guid>
+      <guid>https://ygeunkim.github.io/tags/rmarkdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>simulation</title>
-      <link>/tags/simulation/</link>
+      <link>https://ygeunkim.github.io/tags/simulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/simulation/</guid>
+      <guid>https://ygeunkim.github.io/tags/simulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidyverse</title>
-      <link>/tags/tidyverse/</link>
+      <link>https://ygeunkim.github.io/tags/tidyverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/tidyverse/</guid>
+      <guid>https://ygeunkim.github.io/tags/tidyverse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>time-series</title>
-      <link>/tags/time-series/</link>
+      <link>https://ygeunkim.github.io/tags/time-series/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/time-series/</guid>
+      <guid>https://ygeunkim.github.io/tags/time-series/</guid>
       <description></description>
     </item>
     

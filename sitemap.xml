@@ -3,186 +3,169 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>https://ygeunkim.github.io/authors/admin/</loc>
     <lastmod>2019-09-21T14:35:43+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>https://ygeunkim.github.io/contact/</loc>
     <lastmod>2019-08-16T14:34:22+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/research/</loc>
+    <loc>https://ygeunkim.github.io/research/</loc>
     <lastmod>2019-08-16T15:22:05+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/</loc>
-    <lastmod>2019-09-21T14:19:54+09:00</lastmod>
+    <loc>https://ygeunkim.github.io/author/</loc>
+    <lastmod>2019-09-21T14:05:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/bookdown/</loc>
+    <loc>https://ygeunkim.github.io/bookdown/</loc>
     <lastmod>2019-08-14T00:26:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-09-21T14:19:54+09:00</lastmod>
+    <loc>https://ygeunkim.github.io/categories/</loc>
+    <lastmod>2019-09-21T14:05:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/project/loglinear3_project/</loc>
+    <loc>https://ygeunkim.github.io/project/loglinear3_project/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/nsr_project/</loc>
+    <loc>https://ygeunkim.github.io/project/nsr_project/</loc>
     <lastmod>2019-09-21T14:05:28+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://ygeunkim.github.io/post/</loc>
     <lastmod>2019-08-13T23:25:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/</loc>
+    <loc>https://ygeunkim.github.io/project/</loc>
     <lastmod>2019-08-16T15:22:05+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://ygeunkim.github.io/publication_types/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>https://ygeunkim.github.io/publication/</loc>
     <lastmod>2019-08-16T15:22:05+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/rmdtool_project/</loc>
+    <loc>https://ygeunkim.github.io/project/rmdtool_project/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/rstat/rstats/</loc>
-    <lastmod>2019-09-21T14:19:54+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/epe_project/</loc>
+    <loc>https://ygeunkim.github.io/project/epe_project/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-09-21T14:19:54+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/author/young-geun-kim/</loc>
-    <lastmod>2019-09-21T14:19:54+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-09-21T14:19:54+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/anomaly-detection/</loc>
+    <loc>https://ygeunkim.github.io/tags/</loc>
     <lastmod>2019-09-21T14:05:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/categorical-data/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/datatable/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/knitr/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/posts/</loc>
-    <lastmod>2019-09-21T14:19:54+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/project/</loc>
+    <loc>https://ygeunkim.github.io/author/young-geun-kim/</loc>
     <lastmod>2019-09-21T14:05:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>https://ygeunkim.github.io/</loc>
     <lastmod>2019-09-21T14:05:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r-package/</loc>
-    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/research-project/</loc>
+    <loc>https://ygeunkim.github.io/tags/anomaly-detection/</loc>
     <lastmod>2019-09-21T14:05:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/rmarkdown/</loc>
+    <loc>https://ygeunkim.github.io/tags/categorical-data/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/rstats/</loc>
-    <lastmod>2019-09-21T14:19:54+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/simulation/</loc>
+    <loc>https://ygeunkim.github.io/tags/datatable/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/tidyverse/</loc>
+    <loc>https://ygeunkim.github.io/tags/knitr/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/time-series/</loc>
+    <loc>https://ygeunkim.github.io/categories/project/</loc>
+    <lastmod>2019-09-21T14:05:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/python/</loc>
+    <lastmod>2019-09-21T14:05:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/r/</loc>
+    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/r-package/</loc>
+    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/research-project/</loc>
+    <lastmod>2019-09-21T14:05:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/rmarkdown/</loc>
+    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/simulation/</loc>
+    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/tidyverse/</loc>
+    <lastmod>2019-08-16T16:38:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/time-series/</loc>
     <lastmod>2019-09-21T14:05:28+09:00</lastmod>
     <priority>0</priority>
   </url>
