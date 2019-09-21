@@ -5,7 +5,7 @@
     <link>https://ygeunkim.github.io/author/</link>
       <atom:link href="https://ygeunkim.github.io/author/index.xml" rel="self" type="application/rss+xml" />
     <description>Author</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>Author</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Young Geun Kim</title>
       <link>https://ygeunkim.github.io/author/young-geun-kim/</link>
-      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/author/young-geun-kim/</guid>
       <description></description>
     </item>
