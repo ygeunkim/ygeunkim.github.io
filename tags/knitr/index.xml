@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>knitr | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/tags/knitr/</link>
-      <atom:link href="https://ygeunkim.github.io/tags/knitr/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/knitr/</link>
+      <atom:link href="/tags/knitr/index.xml" rel="self" type="application/rss+xml" />
     <description>knitr</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>knitr</title>
-      <link>https://ygeunkim.github.io/tags/knitr/</link>
+      <link>/tags/knitr/</link>
     </image>
     
     <item>
       <title>R markdown tool package</title>
-      <link>https://ygeunkim.github.io/project/rmdtool_project/</link>
+      <link>/project/rmdtool_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/rmdtool_project/</guid>
+      <guid>/project/rmdtool_project/</guid>
       <description></description>
     </item>
     

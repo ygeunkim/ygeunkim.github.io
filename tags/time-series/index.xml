@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>time-series | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/tags/time-series/</link>
-      <atom:link href="https://ygeunkim.github.io/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/time-series/</link>
+      <atom:link href="/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     <description>time-series</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>time-series</title>
-      <link>https://ygeunkim.github.io/tags/time-series/</link>
+      <link>/tags/time-series/</link>
     </image>
     
     <item>
       <title>NSR Anomaly Detection</title>
-      <link>https://ygeunkim.github.io/project/nsr_project/</link>
+      <link>/project/nsr_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
+      <guid>/project/nsr_project/</guid>
       <description>&lt;!-- Anomaly detection on Cyber Physical System using error pattern. RNN performed on [SWaT dataset](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/) --&gt;
 </description>
     </item>

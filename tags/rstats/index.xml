@@ -7,7 +7,7 @@
     <description>rstats</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/younggeun.jpeg</url>
+      <url>/img/icon-192.png</url>
       <title>rstats</title>
       <link>/tags/rstats/</link>
     </image>
@@ -66,48 +66,38 @@ unlist()
 &lt;h3 id=&#34;make-a-tibble&#34;&gt;Make a &lt;code&gt;tibble&lt;/code&gt;&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;(tag_tibble &amp;lt;- tibble(x = other_tag))
-#&amp;gt; # A tibble: 150 x 1
-#&amp;gt;    x               
-#&amp;gt;    &amp;lt;chr&amp;gt;           
-#&amp;gt;  1 #MachineLearning
-#&amp;gt;  2 #DataScience    
-#&amp;gt;  3 #AI             
-#&amp;gt;  4 #BigData        
-#&amp;gt;  5 #Analytics      
-#&amp;gt;  6 #IoT            
-#&amp;gt;  7 #IIoT           
-#&amp;gt;  8 #Python         
-#&amp;gt;  9 #DataScience    
-#&amp;gt; 10 #BigData        
-#&amp;gt; # … with 140 more rows
+#&amp;gt; # A tibble: 24 x 1
+#&amp;gt;    x              
+#&amp;gt;    &amp;lt;chr&amp;gt;          
+#&amp;gt;  1 #canberra      
+#&amp;gt;  2 #gganimate     
+#&amp;gt;  3 #ggplot        
+#&amp;gt;  4 #ggplot2       
+#&amp;gt;  5 #ggplot        
+#&amp;gt;  6 #ggplot        
+#&amp;gt;  7 #DataScience   
+#&amp;gt;  8 #ggplot        
+#&amp;gt;  9 #Keras.#BigData
+#&amp;gt; 10 #Analytics     
+#&amp;gt; # … with 14 more rows
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;tag_tibble %&amp;gt;% 
   count(x) %&amp;gt;% 
   arrange(desc(n))
-#&amp;gt; # A tibble: 20 x 2
+#&amp;gt; # A tibble: 10 x 2
 #&amp;gt;    x                    n
 #&amp;gt;    &amp;lt;chr&amp;gt;            &amp;lt;int&amp;gt;
-#&amp;gt;  1 #DataScience        19
-#&amp;gt;  2 #AI                 16
-#&amp;gt;  3 #Analytics          16
-#&amp;gt;  4 #BigData            16
-#&amp;gt;  5 #IIoT               14
-#&amp;gt;  6 #IoT                14
-#&amp;gt;  7 #MachineLearning    14
-#&amp;gt;  8 #Python             13
-#&amp;gt;  9 #PyTorch             8
-#&amp;gt; 10 #Keras               3
-#&amp;gt; 11 #T                   3
-#&amp;gt; 12 #TensorF             3
-#&amp;gt; 13 #Mac                 2
-#&amp;gt; 14 #Mathematics         2
-#&amp;gt; 15 #Sydney              2
-#&amp;gt; 16 #                    1
-#&amp;gt; 17 #PyTor               1
-#&amp;gt; 18 #rs                  1
-#&amp;gt; 19 #Ten                 1
-#&amp;gt; 20 #TensorFlow          1
+#&amp;gt;  1 #ggplot              8
+#&amp;gt;  2 #DataScience         3
+#&amp;gt;  3 #AI                  2
+#&amp;gt;  4 #Analytics           2
+#&amp;gt;  5 #IoT                 2
+#&amp;gt;  6 #Keras.#BigData      2
+#&amp;gt;  7 #MachineLearning     2
+#&amp;gt;  8 #canberra            1
+#&amp;gt;  9 #gganimate           1
+#&amp;gt; 10 #ggplot2             1
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>

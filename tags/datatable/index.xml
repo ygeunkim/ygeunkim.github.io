@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>datatable | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/tags/datatable/</link>
-      <atom:link href="https://ygeunkim.github.io/tags/datatable/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/datatable/</link>
+      <atom:link href="/tags/datatable/index.xml" rel="self" type="application/rss+xml" />
     <description>datatable</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>datatable</title>
-      <link>https://ygeunkim.github.io/tags/datatable/</link>
+      <link>/tags/datatable/</link>
     </image>
     
     <item>
       <title>Simulating Expected Error</title>
-      <link>https://ygeunkim.github.io/project/epe_project/</link>
+      <link>/project/epe_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
+      <guid>/project/epe_project/</guid>
       <description></description>
     </item>
     

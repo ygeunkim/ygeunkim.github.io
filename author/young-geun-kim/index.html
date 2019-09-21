@@ -31,7 +31,7 @@
   <meta name="description" content="Student at Department of Statistics">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ygeunkim.github.io/author/young-geun-kim/">
+  <link rel="alternate" hreflang="en-us" href="/author/young-geun-kim/">
 
   
 
@@ -98,7 +98,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ygeunkim.github.io/author/young-geun-kim/">
+  <link rel="canonical" href="/author/young-geun-kim/">
 
   
   
@@ -114,10 +114,10 @@
   <meta property="twitter:creator" content="@blendmacaron">
   
   <meta property="og:site_name" content="Young-geun Kim">
-  <meta property="og:url" content="https://ygeunkim.github.io/author/young-geun-kim/">
+  <meta property="og:url" content="/author/young-geun-kim/">
   <meta property="og:title" content="Young Geun Kim | Young-geun Kim">
-  <meta property="og:description" content="Student at Department of Statistics"><meta property="og:image" content="https://ygeunkim.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://ygeunkim.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Student at Department of Statistics"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
   
@@ -376,28 +376,6 @@
         
         
 
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/cv/index.html"><span>CV</span></a>
-        </li>
-
-        
-        
-
       
       </ul>
       <ul class="navbar-nav ml-auto">
@@ -484,6 +462,17 @@
     <div class="article-style">
       
       Built an R package that includes my private tools for writing R markdown documents
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/rstat/rstats/">Recent rstats hashtag</a></h2>
+    <div class="article-style">
+      
+      library(tidyverse)  library(twitteR) setup_twitter_oauth( consumer_key = token$consumer_key, consumer_secret = token$consumer_secret, access_token = token$token, access_secret = token$token_secret ) #&gt; [1] &quot;Using direct authentication&quot;  Find rstats Hashtag searchtwit &lt;- searchTwitter(&quot;#rstats&quot;)  Hashtags appearing with rstats Note that searchtwit is a list.
+ Find any non-whitespace pattern after a hashtag. Remove elements #rstats.
+other_tag &lt;- lapply( searchtwit, function(x) { str_extract_all( x$text, pattern = &quot;#\\S+&quot; ) %&gt;% unlist() %&gt;% str_remove_all(pattern = &quot;[:punct:]$&quot;) %&gt;% .
       
     </div>
   </div>
