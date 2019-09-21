@@ -5,12 +5,258 @@
     <link>https://ygeunkim.github.io/author/young-geun-kim/</link>
       <atom:link href="https://ygeunkim.github.io/author/young-geun-kim/index.xml" rel="self" type="application/rss+xml" />
     <description>Young Geun Kim</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>Young Geun Kim</title>
       <link>https://ygeunkim.github.io/author/young-geun-kim/</link>
     </image>
+    
+    <item>
+      <title>Young Geun Kim</title>
+      <link>https://ygeunkim.github.io/cv/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/cv/</guid>
+      <description>
+
+&lt;h1 id=&#34;aside&#34;&gt;Aside&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;cv_avatar.png&#34; alt=&#34;Young Geun Kim&#34; /&gt;{width=80%}&lt;/p&gt;
+
+&lt;h2 id=&#34;contact-info-contact&#34;&gt;Contact Info {#contact}&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://ygeunkim.github.io&#34; target=&#34;_blank&#34;&gt;ygeunkim.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt; dudrms33@g.skku.edu&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-phone&#34;&gt;&lt;/i&gt; +82 2-760-1274
+&lt;!-- - For more information, please contact me via email. --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;computer-skills-skills&#34;&gt;Computer Skills {#skills}&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Languages &amp;amp; Software: R, SAS, LaTex, Python&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/ygeunkim&#34; target=&#34;_blank&#34;&gt;github.com/ygeunkim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;disclaimer-disclaimer&#34;&gt;Disclaimer {#disclaimer}&lt;/h2&gt;
+
+&lt;p&gt;This resume was made with the R package &lt;a href=&#34;https://github.com/rstudio/pagedown&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;pagedown&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Last updated on 2019-09-21.&lt;/p&gt;
+
+&lt;h1 id=&#34;main&#34;&gt;Main&lt;/h1&gt;
+
+&lt;h2 id=&#34;young-geun-kim-title&#34;&gt;Young Geun Kim {#title}&lt;/h2&gt;
+
+&lt;h3 id=&#34;sungkyunkwan-university-seoul-korea-republic-of-https-www-skku-edu-skku-index-do&#34;&gt;&lt;a href=&#34;https://www.skku.edu/skku/index.do&#34; target=&#34;_blank&#34;&gt;Sungkyunkwan University, Seoul, Korea, Republic of&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id=&#34;education-data-icon-graduation-cap-data-concise-true&#34;&gt;Education {data-icon=graduation-cap data-concise=true}&lt;/h2&gt;
+
+&lt;h3 id=&#34;sungkyunkwan-university-skku-https-www-skku-edu-skku-index-do&#34;&gt;&lt;a href=&#34;https://www.skku.edu/skku/index.do&#34; target=&#34;_blank&#34;&gt;Sungkyunkwan University (SKKU)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Master student&lt;/em&gt;, Statistics (advisor: &lt;a href=&#34;http://web.skku.edu/~crbaek/index.htm&#34; target=&#34;_blank&#34;&gt;Changryong Baek&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Seoul, Korea, Republic of&lt;/p&gt;
+
+&lt;p&gt;Mar. 2019 - Present&lt;/p&gt;
+
+&lt;p&gt;Concentration: Statistics&lt;/p&gt;
+
+&lt;h3 id=&#34;sungkyunkwan-university-skku-https-www-skku-edu-skku-index-do-1&#34;&gt;&lt;a href=&#34;https://www.skku.edu/skku/index.do&#34; target=&#34;_blank&#34;&gt;Sungkyunkwan University (SKKU)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Bachelor of Economics, Statistics&lt;/p&gt;
+
+&lt;p&gt;Seoul, Korea, Republic of&lt;/p&gt;
+
+&lt;p&gt;Mar. 2013 - Feb. 2019&lt;/p&gt;
+
+&lt;p&gt;Concentration: Statistics&lt;/p&gt;
+
+&lt;h2 id=&#34;honors-and-awards-data-icon-award&#34;&gt;Honors and Awards {data-icon=award}&lt;/h2&gt;
+
+&lt;h3 id=&#34;graduated-at-top-in-department-of-statistics&#34;&gt;Graduated at top in Department of Statistics&lt;/h3&gt;
+
+&lt;p&gt;Representative of department of statistics receiving bachelor degree&lt;/p&gt;
+
+&lt;p&gt;Sungkyunkwan University&lt;/p&gt;
+
+&lt;p&gt;Feb. 2019&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Overall GPA 4.18 / 4.5&lt;/li&gt;
+&lt;li&gt;Major GPA 4.41 / 4.5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;graduate-school-association-scholarship&#34;&gt;Graduate school association scholarship&lt;/h3&gt;
+
+&lt;p&gt;awarded to students who are willing to go to graduate school, based on grades and recommendation letters&lt;/p&gt;
+
+&lt;p&gt;Sungkyunkwan University&lt;/p&gt;
+
+&lt;p&gt;2018 - Present&lt;/p&gt;
+
+&lt;h3 id=&#34;dean-s-list&#34;&gt;Dean&amp;rsquo;s List&lt;/h3&gt;
+
+&lt;p&gt;awarded to students who achieved high grades in each semester&lt;/p&gt;
+
+&lt;p&gt;Sungkyunkwan University&lt;/p&gt;
+
+&lt;p&gt;2014 - 2015&lt;/p&gt;
+
+&lt;h2 id=&#34;experience-data-icon-laptop&#34;&gt;Experience {data-icon=laptop}&lt;/h2&gt;
+
+&lt;h3 id=&#34;statistics-student-researcher&#34;&gt;Statistics student researcher&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://shb.skku.edu/stat/&#34; target=&#34;_blank&#34;&gt;Department of Statistics, SKKU&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Seoul, Korea, Republic of&lt;/p&gt;
+
+&lt;p&gt;Jun. 2019 – Present&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;advisor: &lt;a href=&#34;http://web.skku.edu/~crbaek/index.htm&#34; target=&#34;_blank&#34;&gt;Changryong Baek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;M.S. degree track in Statistics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;research-intern&#34;&gt;Research Intern&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://dash.skku.edu&#34; target=&#34;_blank&#34;&gt;Data-driven AI Security HCI Lab, SKKU&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Suwon, Korea, Republic of&lt;/p&gt;
+
+&lt;p&gt;Apr. 2019 – Oct. 2019&lt;/p&gt;
+
+&lt;p&gt;Participated in project of National Security Research Institute&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Detect cyber attack in cyber physical system&lt;/li&gt;
+&lt;li&gt;Develop anomaly detection algorithm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;answering-stack-overflow&#34;&gt;Answering Stack Overflow&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://stackexchange.com/users/14340293&#34;&gt;&lt;img src=&#34;https://stackexchange.com/users/flair/14340293.png&#34; width=&#34;208&#34; height=&#34;58&#34; alt=&#34;profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;amp;A sites&#34; title=&#34;profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;amp;A sites&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&#34;fab fa-stack-overflow&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://stackoverflow.com/users/story/10358660&#34; target=&#34;_blank&#34;&gt;Stack-Overflow&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sep. 2018 - Present&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Top 20\% in &lt;a href=&#34;https://stackoverflow.com/questions/tagged/r&#34; target=&#34;_blank&#34;&gt;r&lt;/a&gt; tag&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/users/10358660/blended?tab=answers&#34; target=&#34;_blank&#34;&gt;Answered questions mainly about wrangling or visualizing data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Professional Experience {data-icon=suitcase} --&gt;
+
+&lt;!-- -------------------------------------------------------------------------------- --&gt;
+
+&lt;!-- ### Data Scientist, intern --&gt;
+
+&lt;!-- SupStat Inc. --&gt;
+
+&lt;!-- Beijing, China --&gt;
+
+&lt;!-- 2014 --&gt;
+
+&lt;!-- ::: concise --&gt;
+
+&lt;!-- - Taught R language to beginners.  --&gt;
+
+&lt;!-- - Wrote Shiny app demos. --&gt;
+
+&lt;!-- - Converted statistical tutorials from SPSS to R language. --&gt;
+
+&lt;!-- ::: --&gt;
+
+&lt;!-- ### Bioinformatician --&gt;
+
+&lt;!-- My Health Gene Technology Co., Ltd. --&gt;
+
+&lt;!-- Beijing, China --&gt;
+
+&lt;!-- 2015 - 2016 --&gt;
+
+&lt;!-- ::: concise --&gt;
+
+&lt;!-- - Analyzed whole-exome sequencing data.  --&gt;
+
+&lt;!-- - Wrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq. --&gt;
+
+&lt;!-- - Studied tumor metastasis and wrote research reports.  --&gt;
+
+&lt;!-- - Also did case studies to identify the genetic defect causing rare disease. --&gt;
+
+&lt;!-- ::: --&gt;
+
+&lt;h2 id=&#34;teaching-assistanship-data-icon-chalkboard-teacher&#34;&gt;Teaching Assistanship {data-icon=chalkboard-teacher}&lt;/h2&gt;
+
+&lt;h3 id=&#34;mathematics-for-statistics-sta2008&#34;&gt;Mathematics for Statistics (STA2008)&lt;/h3&gt;
+
+&lt;p&gt;Graduate school association scholarship TA&lt;/p&gt;
+
+&lt;p&gt;Sungkyunkwan University&lt;/p&gt;
+
+&lt;p&gt;Sep. 2019 – Dec. 2019&lt;/p&gt;
+
+&lt;h3 id=&#34;matrix-algebra-for-statistics-sta2017&#34;&gt;Matrix algebra for Statistics (STA2017)&lt;/h3&gt;
+
+&lt;p&gt;Graduate school association scholarship TA&lt;/p&gt;
+
+&lt;p&gt;Sungkyunkwan University&lt;/p&gt;
+
+&lt;p&gt;Mar. 2019 – Jun. 2019&lt;/p&gt;
+
+&lt;!-- Selected Publications and Posters {data-icon=file} --&gt;
+
+&lt;!-- -------------------------------------------------------------------------------- --&gt;
+
+&lt;!-- ### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing. --&gt;
+
+&lt;!-- Poster for 2013 International Conference of Genomics --&gt;
+
+&lt;!-- Qingdao, China --&gt;
+
+&lt;!-- 2014 --&gt;
+
+&lt;!-- **Yu L**, Chen B, Zhang Z. --&gt;
+
+&lt;!-- ### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling. --&gt;
+
+&lt;!-- J Cell Sci. 2016 May 15;129(10):2075-84. --&gt;
+
+&lt;!-- N/A --&gt;
+
+&lt;!-- 2016  --&gt;
+
+&lt;!-- Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W.  --&gt;
+
+&lt;h2 id=&#34;extracurricular-activities-data-icon-play&#34;&gt;Extracurricular Activities {data-icon=play}&lt;/h2&gt;
+
+&lt;h3 id=&#34;gaudium-https-gaudium-modoo-at&#34;&gt;&lt;a href=&#34;https://gaudium.modoo.at&#34; target=&#34;_blank&#34;&gt;Gaudium&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Amateur Orchestra&lt;/p&gt;
+
+&lt;p&gt;Seoul, Korea, Republic of&lt;/p&gt;
+
+&lt;p&gt;Jul. 2019 – Present&lt;/p&gt;
+
+&lt;p&gt;Second Vionlin section&lt;/p&gt;
+
+&lt;h3 id=&#34;sungkyunkwan-university-orchestra&#34;&gt;Sungkyunkwan University Orchestra&lt;/h3&gt;
+
+&lt;p&gt;University Orchestra&lt;/p&gt;
+
+&lt;p&gt;Sungkyunkwan University, Korea, Republic of&lt;/p&gt;
+
+&lt;p&gt;Mar. 2013 – Sep. 2018&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Participated as Second Violin section&lt;/li&gt;
+&lt;li&gt;Participated as Executive&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Loglinear Models for Three-way Tables</title>

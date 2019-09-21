@@ -3,8 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ygeunkim.github.io/author/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/young-geun-kim/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/cv/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/authors/admin/</loc>
-    <lastmod>2019-08-16T20:11:29+09:00</lastmod>
+    <lastmod>2019-09-20T22:42:51+09:00</lastmod>
   </url>
   
   <url>
@@ -18,19 +41,13 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/author/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/bookdown/</loc>
     <lastmod>2019-08-14T00:26:21+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/categories/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <lastmod>2019-09-20T22:42:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -41,7 +58,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/project/nsr_project/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <lastmod>2019-09-20T22:42:51+09:00</lastmod>
   </url>
   
   <url>
@@ -76,25 +93,13 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/author/young-geun-kim/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <lastmod>2019-09-20T22:42:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/tags/anomaly-detection/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <lastmod>2019-09-20T22:42:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,13 +123,13 @@
   
   <url>
     <loc>https://ygeunkim.github.io/categories/project/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <lastmod>2019-09-20T22:42:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/tags/python/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <lastmod>2019-09-20T22:42:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,7 +147,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/research-project/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <lastmod>2019-09-20T22:42:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -166,7 +171,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/time-series/</loc>
-    <lastmod>2019-09-04T14:12:12+09:00</lastmod>
+    <lastmod>2019-09-20T22:42:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
