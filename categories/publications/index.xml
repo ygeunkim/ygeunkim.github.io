@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/publication/</link>
-      <atom:link href="https://ygeunkim.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>publications | Young-geun Kim</title>
+    <link>https://ygeunkim.github.io/categories/publications/</link>
+      <atom:link href="https://ygeunkim.github.io/categories/publications/index.xml" rel="self" type="application/rss+xml" />
+    <description>publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://ygeunkim.github.io/img/icon-192.png</url>
-      <title>Publications</title>
-      <link>https://ygeunkim.github.io/publication/</link>
+      <title>publications</title>
+      <link>https://ygeunkim.github.io/categories/publications/</link>
     </image>
     
     <item>

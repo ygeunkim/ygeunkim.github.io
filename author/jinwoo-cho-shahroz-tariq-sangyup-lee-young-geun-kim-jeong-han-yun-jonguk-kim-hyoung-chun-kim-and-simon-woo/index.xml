@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jinwoo Cho, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim and Simon Woo | Young-geun Kim</title>
+    <link>https://ygeunkim.github.io/author/jinwoo-cho-shahroz-tariq-sangyup-lee-young-geun-kim-jeong-han-yun-jonguk-kim-hyoung-chun-kim-and-simon-woo/</link>
+      <atom:link href="https://ygeunkim.github.io/author/jinwoo-cho-shahroz-tariq-sangyup-lee-young-geun-kim-jeong-han-yun-jonguk-kim-hyoung-chun-kim-and-simon-woo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jinwoo Cho, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim and Simon Woo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <title>Jinwoo Cho, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim and Simon Woo</title>
+      <link>https://ygeunkim.github.io/author/jinwoo-cho-shahroz-tariq-sangyup-lee-young-geun-kim-jeong-han-yun-jonguk-kim-hyoung-chun-kim-and-simon-woo/</link>
+    </image>
+    
+    <item>
+      <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</title>
+      <link>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
