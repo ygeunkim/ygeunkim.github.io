@@ -5,7 +5,7 @@
     <link>https://ygeunkim.github.io/tags/</link>
       <atom:link href="https://ygeunkim.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,8 +15,40 @@
     <item>
       <title>anomaly-detection</title>
       <link>https://ygeunkim.github.io/tags/anomaly-detection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/tags/anomaly-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r</title>
+      <link>https://ygeunkim.github.io/tags/r/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research-project</title>
+      <link>https://ygeunkim.github.io/tags/research-project/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/tags/research-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>team-project</title>
+      <link>https://ygeunkim.github.io/tags/team-project/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/tags/team-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time-series</title>
+      <link>https://ygeunkim.github.io/tags/time-series/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/tags/time-series/</guid>
       <description></description>
     </item>
     
@@ -53,26 +85,10 @@
     </item>
     
     <item>
-      <title>r</title>
-      <link>https://ygeunkim.github.io/tags/r/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>r-package</title>
       <link>https://ygeunkim.github.io/tags/r-package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/tags/r-package/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research-project</title>
-      <link>https://ygeunkim.github.io/tags/research-project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/research-project/</guid>
       <description></description>
     </item>
     
@@ -93,26 +109,10 @@
     </item>
     
     <item>
-      <title>team-project</title>
-      <link>https://ygeunkim.github.io/tags/team-project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/team-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tidyverse</title>
       <link>https://ygeunkim.github.io/tags/tidyverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/tags/tidyverse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>time-series</title>
-      <link>https://ygeunkim.github.io/tags/time-series/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/time-series/</guid>
       <description></description>
     </item>
     

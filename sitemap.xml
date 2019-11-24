@@ -3,8 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ygeunkim.github.io/tags/anomaly-detection/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/categories/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/categories/publication/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/r/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/research-project/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/team-project/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/time-series/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/</loc>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/authors/admin/</loc>
-    <lastmod>2019-11-23T22:14:25+09:00</lastmod>
+    <lastmod>2019-11-24T10:38:10+09:00</lastmod>
   </url>
   
   <url>
@@ -15,11 +65,6 @@
   <url>
     <loc>https://ygeunkim.github.io/research/</loc>
     <lastmod>2019-08-16T15:22:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/anomaly-detection/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
   </url>
   
   <url>
@@ -42,18 +87,8 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/categories/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/tags/datatable/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
   </url>
   
   <url>
@@ -87,11 +122,6 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/categories/publication/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/publication_types/</loc>
   </url>
   
@@ -106,11 +136,6 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tags/r/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/project/rmdtool_project/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
   </url>
@@ -118,11 +143,6 @@
   <url>
     <loc>https://ygeunkim.github.io/tags/r-package/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/research-project/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
   </url>
   
   <url>
@@ -141,33 +161,13 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tags/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/team-project/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/tags/tidyverse/</loc>
     <lastmod>2019-08-16T16:38:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tags/time-series/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/author/young-geun-kim/</loc>
     <lastmod>2019-11-24T00:21:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/</loc>
-    <lastmod>2019-11-24T10:23:41+09:00</lastmod>
   </url>
   
 </urlset>
