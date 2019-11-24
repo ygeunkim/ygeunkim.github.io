@@ -122,36 +122,10 @@ other_tag &lt;- lapply( searchtwit, function(x) { str_extract_all( x$text, patte
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-    <meta property="article:modified_time" content="2019-11-24T10:54:14&#43;09:00">
+    <meta property="article:modified_time" content="2019-11-24T11:31:07&#43;09:00">
   
 
   
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
-  window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "hsl(339, 90%, 68%)",
-          "text": "#fff"
-        },
-        "button": {
-          "background": "#fff",
-          "text": "hsl(339, 90%, 68%)"
-        }
-      },
-      "theme": "classic",
-      "content": {
-        "message": "This website uses cookies to ensure you get the best experience on our website.",
-        "dismiss": "Got it!",
-        "link": "Learn more",
-        "href": "https://cookies.insites.com"
-      }
-    })});
-</script>
-
 
 
   
@@ -438,7 +412,7 @@ other_tag &lt;- lapply( searchtwit, function(x) { str_extract_all( x$text, patte
 
 
 <meta content="" itemprop="datePublished">
-<meta content="2019-11-24 10:54:14 &#43;0900 KST" itemprop="dateModified">
+<meta content="2019-11-24 11:31:07 &#43;0900 KST" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -640,47 +614,46 @@ unlist()
 <h3 id="make-a-tibble">Make a <code>tibble</code></h3>
 
 <pre><code class="language-r">(tag_tibble &lt;- tibble(x = other_tag))
-#&gt; # A tibble: 79 x 1
-#&gt;    x               
-#&gt;    &lt;chr&gt;           
-#&gt;  1 #Analytics      
-#&gt;  2 #DataScience    
-#&gt;  3 #AI             
-#&gt;  4 #MachineLearning
-#&gt;  5 #IoT            
-#&gt;  6 #IIoT           
-#&gt;  7 #PyTorch        
-#&gt;  8 #Python         
-#&gt;  9 #RS             
-#&gt; 10 #DataEngineering
-#&gt; # … with 69 more rows
+#&gt; # A tibble: 117 x 1
+#&gt;    x                 
+#&gt;    &lt;chr&gt;             
+#&gt;  1 #BigData          
+#&gt;  2 #Analyt           
+#&gt;  3 #BigData          
+#&gt;  4 #Analyt           
+#&gt;  5 #MachineLearning  
+#&gt;  6 #BigData          
+#&gt;  7 #DataScience      
+#&gt;  8 #Dat              
+#&gt;  9 #30DayMapChallenge
+#&gt; 10 #BigData          
+#&gt; # … with 107 more rows
 </code></pre>
 
 <pre><code class="language-r">tag_tibble %&gt;% 
   count(x) %&gt;% 
   arrange(desc(n))
-#&gt; # A tibble: 19 x 2
-#&gt;    x                            n
-#&gt;    &lt;chr&gt;                    &lt;int&gt;
-#&gt;  1 #AI                         11
-#&gt;  2 #Analytics                  11
-#&gt;  3 #DataScience                11
-#&gt;  4 #BigData                    10
-#&gt;  5 #MachineLearning             9
-#&gt;  6 #IoT                         8
-#&gt;  7 #IIoT                        2
-#&gt;  8 #Machin                      2
-#&gt;  9 #maps                        2
-#&gt; 10 #population                  2
-#&gt; 11 #rprogramming                2
-#&gt; 12 #rstats/#MachineLearning     2
-#&gt; 13 #DataEngineering             1
-#&gt; 14 #I                           1
-#&gt; 15 #NoSQL                       1
-#&gt; 16 #Python                      1
-#&gt; 17 #PyTorc                      1
-#&gt; 18 #PyTorch                     1
-#&gt; 19 #RS                          1
+#&gt; # A tibble: 18 x 2
+#&gt;    x                      n
+#&gt;    &lt;chr&gt;              &lt;int&gt;
+#&gt;  1 #BigData              16
+#&gt;  2 #DataScience          14
+#&gt;  3 #AI                   13
+#&gt;  4 #Analytics            13
+#&gt;  5 #MachineLearning      12
+#&gt;  6 #IoT                   7
+#&gt;  7 #IIoT                  6
+#&gt;  8 #Neo4J                 6
+#&gt;  9 #NoSQL                 6
+#&gt; 10 #Python                6
+#&gt; 11 #PyTorch               6
+#&gt; 12 #30DayMapChallenge     2
+#&gt; 13 #Analyt                2
+#&gt; 14 #CyberSecurity         2
+#&gt; 15 #I                     2
+#&gt; 16 #Machin                2
+#&gt; 17 #Dat                   1
+#&gt; 18 #dplyr                 1
 </code></pre>
 
     </div>

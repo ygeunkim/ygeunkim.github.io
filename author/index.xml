@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Author | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/author/</link>
-      <atom:link href="https://ygeunkim.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/</link>
+      <atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
     <description>Author</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Author</title>
-      <link>https://ygeunkim.github.io/author/</link>
+      <link>/author/</link>
     </image>
     
     <item>
       <title>Young Geun Kim</title>
-      <link>https://ygeunkim.github.io/author/young-geun-kim/</link>
+      <link>/author/young-geun-kim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/author/young-geun-kim/</guid>
+      <guid>/author/young-geun-kim/</guid>
       <description></description>
     </item>
     

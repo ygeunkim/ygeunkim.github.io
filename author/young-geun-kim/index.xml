@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Young Geun Kim | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/author/young-geun-kim/</link>
-      <atom:link href="https://ygeunkim.github.io/author/young-geun-kim/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/young-geun-kim/</link>
+      <atom:link href="/author/young-geun-kim/index.xml" rel="self" type="application/rss+xml" />
     <description>Young Geun Kim</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Young Geun Kim</title>
-      <link>https://ygeunkim.github.io/author/young-geun-kim/</link>
+      <link>/author/young-geun-kim/</link>
     </image>
     
     <item>
-      <title>Loglinear Models for Three-way Tables</title>
-      <link>https://ygeunkim.github.io/project/loglinear3_project/</link>
+      <title>Anomaly Detection using Cyber Physical Systerm Error Pattern</title>
+      <link>/project/nsr_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/loglinear3_project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NSR Anomaly Detection</title>
-      <link>https://ygeunkim.github.io/project/nsr_project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
+      <guid>/project/nsr_project/</guid>
       <description>&lt;!-- Anomaly detection on Cyber Physical System using error pattern. RNN performed on [SWaT dataset](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/) --&gt;
 </description>
     </item>
     
     <item>
-      <title>R markdown tool package</title>
-      <link>https://ygeunkim.github.io/project/rmdtool_project/</link>
+      <title>Loglinear Models for Three-way Tables</title>
+      <link>/project/loglinear3_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/rmdtool_project/</guid>
+      <guid>/project/loglinear3_project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R markdown tool package</title>
+      <link>/project/rmdtool_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/rmdtool_project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simulating Expected Error</title>
-      <link>https://ygeunkim.github.io/project/epe_project/</link>
+      <link>/project/epe_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
+      <guid>/project/epe_project/</guid>
       <description></description>
     </item>
     
