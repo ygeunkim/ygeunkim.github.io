@@ -66,38 +66,47 @@ unlist()
 &lt;h3 id=&#34;make-a-tibble&#34;&gt;Make a &lt;code&gt;tibble&lt;/code&gt;&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;(tag_tibble &amp;lt;- tibble(x = other_tag))
-#&amp;gt; # A tibble: 24 x 1
-#&amp;gt;    x              
-#&amp;gt;    &amp;lt;chr&amp;gt;          
-#&amp;gt;  1 #canberra      
-#&amp;gt;  2 #gganimate     
-#&amp;gt;  3 #ggplot        
-#&amp;gt;  4 #ggplot2       
-#&amp;gt;  5 #ggplot        
-#&amp;gt;  6 #ggplot        
-#&amp;gt;  7 #DataScience   
-#&amp;gt;  8 #ggplot        
-#&amp;gt;  9 #Keras.#BigData
-#&amp;gt; 10 #Analytics     
-#&amp;gt; # … with 14 more rows
+#&amp;gt; # A tibble: 79 x 1
+#&amp;gt;    x               
+#&amp;gt;    &amp;lt;chr&amp;gt;           
+#&amp;gt;  1 #Analytics      
+#&amp;gt;  2 #DataScience    
+#&amp;gt;  3 #AI             
+#&amp;gt;  4 #MachineLearning
+#&amp;gt;  5 #IoT            
+#&amp;gt;  6 #IIoT           
+#&amp;gt;  7 #PyTorch        
+#&amp;gt;  8 #Python         
+#&amp;gt;  9 #RS             
+#&amp;gt; 10 #DataEngineering
+#&amp;gt; # … with 69 more rows
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;tag_tibble %&amp;gt;% 
   count(x) %&amp;gt;% 
   arrange(desc(n))
-#&amp;gt; # A tibble: 10 x 2
-#&amp;gt;    x                    n
-#&amp;gt;    &amp;lt;chr&amp;gt;            &amp;lt;int&amp;gt;
-#&amp;gt;  1 #ggplot              8
-#&amp;gt;  2 #DataScience         3
-#&amp;gt;  3 #AI                  2
-#&amp;gt;  4 #Analytics           2
-#&amp;gt;  5 #IoT                 2
-#&amp;gt;  6 #Keras.#BigData      2
-#&amp;gt;  7 #MachineLearning     2
-#&amp;gt;  8 #canberra            1
-#&amp;gt;  9 #gganimate           1
-#&amp;gt; 10 #ggplot2             1
+#&amp;gt; # A tibble: 19 x 2
+#&amp;gt;    x                            n
+#&amp;gt;    &amp;lt;chr&amp;gt;                    &amp;lt;int&amp;gt;
+#&amp;gt;  1 #AI                         11
+#&amp;gt;  2 #Analytics                  11
+#&amp;gt;  3 #DataScience                11
+#&amp;gt;  4 #BigData                    10
+#&amp;gt;  5 #MachineLearning             9
+#&amp;gt;  6 #IoT                         8
+#&amp;gt;  7 #IIoT                        2
+#&amp;gt;  8 #Machin                      2
+#&amp;gt;  9 #maps                        2
+#&amp;gt; 10 #population                  2
+#&amp;gt; 11 #rprogramming                2
+#&amp;gt; 12 #rstats/#MachineLearning     2
+#&amp;gt; 13 #DataEngineering             1
+#&amp;gt; 14 #I                           1
+#&amp;gt; 15 #NoSQL                       1
+#&amp;gt; 16 #Python                      1
+#&amp;gt; 17 #PyTorc                      1
+#&amp;gt; 18 #PyTorch                     1
+#&amp;gt; 19 #RS                          1
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>

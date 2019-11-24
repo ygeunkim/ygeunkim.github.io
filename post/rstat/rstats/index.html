@@ -28,10 +28,12 @@
   
     
   
-  <meta name="description" content="Student at Department of Statistics">
+  <meta name="description" content="library(tidyverse)  library(twitteR) setup_twitter_oauth( consumer_key = token$consumer_key, consumer_secret = token$consumer_secret, access_token = token$token, access_secret = token$token_secret ) #&gt; [1] &quot;Using direct authentication&quot;  Find rstats Hashtag searchtwit &lt;- searchTwitter(&quot;#rstats&quot;)  Hashtags appearing with rstats Note that searchtwit is a list.
+ Find any non-whitespace pattern after a hashtag. Remove elements #rstats.
+other_tag &lt;- lapply( searchtwit, function(x) { str_extract_all( x$text, pattern = &quot;#\\S&#43;&quot; ) %&gt;% unlist() %&gt;% str_remove_all(pattern = &quot;[:punct:]$&quot;) %&gt;% .">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ygeunkim.github.io/tags/time-series/">
+  <link rel="alternate" hreflang="en-us" href="/post/rstat/rstats/">
 
   
 
@@ -91,14 +93,12 @@
   
 
   
-  <link rel="alternate" href="/tags/time-series/index.xml" type="application/rss+xml" title="Young-geun Kim">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ygeunkim.github.io/tags/time-series/">
+  <link rel="canonical" href="/post/rstat/rstats/">
 
   
   
@@ -114,12 +114,15 @@
   <meta property="twitter:creator" content="@blendmacaron">
   
   <meta property="og:site_name" content="Young-geun Kim">
-  <meta property="og:url" content="https://ygeunkim.github.io/tags/time-series/">
-  <meta property="og:title" content="time-series | Young-geun Kim">
-  <meta property="og:description" content="Student at Department of Statistics"><meta property="og:image" content="https://ygeunkim.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://ygeunkim.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/post/rstat/rstats/">
+  <meta property="og:title" content="Recent rstats hashtag | Young-geun Kim">
+  <meta property="og:description" content="library(tidyverse)  library(twitteR) setup_twitter_oauth( consumer_key = token$consumer_key, consumer_secret = token$consumer_secret, access_token = token$token, access_secret = token$token_secret ) #&gt; [1] &quot;Using direct authentication&quot;  Find rstats Hashtag searchtwit &lt;- searchTwitter(&quot;#rstats&quot;)  Hashtags appearing with rstats Note that searchtwit is a list.
+ Find any non-whitespace pattern after a hashtag. Remove elements #rstats.
+other_tag &lt;- lapply( searchtwit, function(x) { str_extract_all( x$text, pattern = &quot;#\\S&#43;&quot; ) %&gt;% unlist() %&gt;% str_remove_all(pattern = &quot;[:punct:]$&quot;) %&gt;% ."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-08-05T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-11-24T10:54:14&#43;09:00">
   
 
   
@@ -157,7 +160,7 @@
 
 
 
-  <title>time-series | Young-geun Kim</title>
+  <title>Recent rstats hashtag | Young-geun Kim</title>
 
 </head>
 
@@ -404,63 +407,463 @@
 </nav>
 
 
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Recent rstats hashtag</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="" itemprop="datePublished">
+<meta content="2019-11-24 10:54:14 &#43;0900 KST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    <time>Nov 24, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/posts/">posts</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/rstat/rstats/&amp;text=Recent%20rstats%20hashtag" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/rstat/rstats/&amp;t=Recent%20rstats%20hashtag" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Recent%20rstats%20hashtag&amp;body=/post/rstat/rstats/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/rstat/rstats/&amp;title=Recent%20rstats%20hashtag" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Recent%20rstats%20hashtag%20/post/rstat/rstats/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/rstat/rstats/&amp;title=Recent%20rstats%20hashtag" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<pre><code class="language-r">library(tidyverse)
+</code></pre>
+
+<pre><code class="language-r">library(twitteR)
+setup_twitter_oauth(
+  consumer_key = token$consumer_key, 
+  consumer_secret = token$consumer_secret,
+  access_token = token$token, 
+  access_secret = token$token_secret
+)
+#&gt; [1] &quot;Using direct authentication&quot;
+</code></pre>
+
+<h1 id="find-rstats-hashtag">Find <code>rstats</code> Hashtag</h1>
+
+<pre><code class="language-r">searchtwit &lt;- searchTwitter(&quot;#rstats&quot;)
+</code></pre>
+
+<h2 id="hashtags-appearing-with-rstats">Hashtags appearing with <code>rstats</code></h2>
+
+<p>Note that <code>searchtwit</code> is a <code>list</code>.</p>
+
+<ol>
+<li>Find any non-whitespace pattern after a hashtag.</li>
+
+<li><p>Remove elements <code>#rstats</code>.</p>
+
+<pre><code class="language-r">other_tag &lt;- 
+lapply(
+searchtwit,
+function(x) {
+  str_extract_all(
+    x$text,
+    pattern = &quot;#\\S+&quot;
+  ) %&gt;% 
+    unlist() %&gt;% 
+    str_remove_all(pattern = &quot;[:punct:]$&quot;) %&gt;% 
+    .[str_to_lower(.) != &quot;#rstats&quot;]
+}
+) %&gt;% 
+unlist()
+</code></pre></li>
+</ol>
+
+<h3 id="make-a-tibble">Make a <code>tibble</code></h3>
+
+<pre><code class="language-r">(tag_tibble &lt;- tibble(x = other_tag))
+#&gt; # A tibble: 79 x 1
+#&gt;    x               
+#&gt;    &lt;chr&gt;           
+#&gt;  1 #Analytics      
+#&gt;  2 #DataScience    
+#&gt;  3 #AI             
+#&gt;  4 #MachineLearning
+#&gt;  5 #IoT            
+#&gt;  6 #IIoT           
+#&gt;  7 #PyTorch        
+#&gt;  8 #Python         
+#&gt;  9 #RS             
+#&gt; 10 #DataEngineering
+#&gt; # … with 69 more rows
+</code></pre>
+
+<pre><code class="language-r">tag_tibble %&gt;% 
+  count(x) %&gt;% 
+  arrange(desc(n))
+#&gt; # A tibble: 19 x 2
+#&gt;    x                            n
+#&gt;    &lt;chr&gt;                    &lt;int&gt;
+#&gt;  1 #AI                         11
+#&gt;  2 #Analytics                  11
+#&gt;  3 #DataScience                11
+#&gt;  4 #BigData                    10
+#&gt;  5 #MachineLearning             9
+#&gt;  6 #IoT                         8
+#&gt;  7 #IIoT                        2
+#&gt;  8 #Machin                      2
+#&gt;  9 #maps                        2
+#&gt; 10 #population                  2
+#&gt; 11 #rprogramming                2
+#&gt; 12 #rstats/#MachineLearning     2
+#&gt; 13 #DataEngineering             1
+#&gt; 14 #I                           1
+#&gt; 15 #NoSQL                       1
+#&gt; 16 #Python                      1
+#&gt; 17 #PyTorc                      1
+#&gt; 18 #PyTorch                     1
+#&gt; 19 #RS                          1
+</code></pre>
+
+    </div>
+
+    
+
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/rstats/">rstats</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
   
 
 
 
 
-
-
-
-
-
-
-
-
-  
 
   
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">time-series</h1>
-
   
-
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-  
-
-  
-  
-  <div>
-    <h2><a href="/publication/kl_poster/kl_poster/">Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence (Poster)</a></h2>
-    <div class="article-style">
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
       
-      5th Workshop on Mining and Learning from Time Series, held in conjunction with KDD'19 Aug 5, 2019 - Anchorage, Alaska, USA
-      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu492f36953a6b317abbb3b98cd50ee203_21885551_250x250_fill_lanczos_center_2.png" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/">Young Geun Kim</a></h5>
+      <h6 class="card-subtitle">Student at Department of Statistics</h6>
+      <p class="card-text" itemprop="description">I am a master&rsquo;s student at statistics, Sungkyunkwan university.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+          <li>
+            <a itemprop="sameAs" href="mailto:dudrms33@g.skku.edu" >
+              <i class="fas fa-paper-plane"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/blendmacaron" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/ygeunkim" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Young_Geun_Kim2" target="_blank" rel="noopener">
+              <i class="fab fa-researchgate"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/young-geun-k-390338175/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://stackoverflow.com/users/10358660/blended" target="_blank" rel="noopener">
+              <i class="fab fa-stack-overflow"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/cv/index.html" >
+              <i class="ai ai-cv"></i>
+            </a>
+          </li>
+        
+      </ul>
     </div>
   </div>
-  
-  <div>
-    <h2><a href="/project/nsr_project/">NSR Anomaly Detection</a></h2>
-    <div class="article-style">
+
+
+
       
-      Ongoing project, so the link is locked
       
-    </div>
+    
+
+    
+
+    
+
+
   </div>
-  
-
-  
-
-</div>
+</article>
 
       
 
