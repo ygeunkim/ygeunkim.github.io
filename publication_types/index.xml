@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Young-geun Kim</title>
-    <link>/publication_types/</link>
-      <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ygeunkim.github.io/publication_types/</link>
+      <atom:link href="https://ygeunkim.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>Publication_types</title>
-      <link>/publication_types/</link>
+      <link>https://ygeunkim.github.io/publication_types/</link>
     </image>
     
     <item>
       <title>9</title>
-      <link>/publication_types/9/</link>
+      <link>https://ygeunkim.github.io/publication_types/9/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication_types/9/</guid>
+      <guid>https://ygeunkim.github.io/publication_types/9/</guid>
       <description></description>
     </item>
     

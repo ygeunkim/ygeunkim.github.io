@@ -1,0 +1,38 @@
+---
+title: "Research Tool Package"
+authors: ["admin"]
+date: "`r format(as.Date('2019-05-12'), '%d %b, %Y')`"
+categories: ["project"]
+tags: ["r", "simulation", "tidyverse", "datatable"]
+# external_link: "https://github.com/ygeunkim/youngtool"
+url_code: "https://github.com/ygeunkim/youngtool"
+draft: false
+# featured: false
+summary: "Made an R package helping statistical research, especially, simulation study."
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  out.width = "70%",
+  fig.align = "center",
+  fig.width = 6,
+  fig.asp = .618
+  )
+options(digits = 3)
+pander::panderOptions("round", 3)
+```
+
+# youngtool
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
+
+## Overview
+
+- This package can do Monte Carlo simulation using `data.table` structure and compute the expected test error of the model. Actually, I provide optimism feature but it might be useless in this setting.
+- Model functions in `R` has several forms of arguments, e.g. `formula, data` or `x, y`, etc.
+- I am trying to cover every model function.

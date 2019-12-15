@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Young-geun Kim</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ygeunkim.github.io/authors/admin/</link>
+      <atom:link href="https://ygeunkim.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Young-geun Kim</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>Young-geun Kim</title>
-      <link>/authors/admin/</link>
+      <link>https://ygeunkim.github.io/authors/admin/</link>
     </image>
     
     <item>
       <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence (Poster)</title>
-      <link>/publication/kl_poster/kl_poster/</link>
+      <link>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/kl_poster/kl_poster/</guid>
+      <guid>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -25,25 +25,25 @@
     
     <item>
       <title>Anomaly detection on Cyber Physical System using error pattern</title>
-      <link>/project/nsr_project/</link>
+      <link>https://ygeunkim.github.io/project/nsr_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/nsr_project/</guid>
+      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Loglinear Models for Three-way Tables</title>
-      <link>/project/loglinear3_project/</link>
+      <link>https://ygeunkim.github.io/project/loglinear3_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/loglinear3_project/</guid>
+      <guid>https://ygeunkim.github.io/project/loglinear3_project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nonparametric statistics course project</title>
-      <link>/project/nonparam_project/</link>
+      <link>https://ygeunkim.github.io/project/nonparam_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/nonparam_project/</guid>
+      <guid>https://ygeunkim.github.io/project/nonparam_project/</guid>
       <description>&lt;h1 id=&#34;nonparametric-estimation-of-conditional-expected-shortfall&#34;&gt;Nonparametric Estimation of Conditional Expected Shortfall&lt;/h1&gt;
 &lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Nonparametric statistics course (&lt;a href=&#34;https://sites.google.com/site/eunryungleestat/&#34;&gt;STA5015&lt;/a&gt;)&lt;/strong&gt;. It aims at:&lt;/p&gt;
 &lt;ul&gt;
@@ -64,17 +64,17 @@
     
     <item>
       <title>R markdown tool package</title>
-      <link>/project/rmdtool_project/</link>
+      <link>https://ygeunkim.github.io/project/rmdtool_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/rmdtool_project/</guid>
+      <guid>https://ygeunkim.github.io/project/rmdtool_project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research Tool Package</title>
-      <link>/project/epe_project/</link>
+      <link>https://ygeunkim.github.io/project/epe_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/epe_project/</guid>
+      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
       <description>&lt;h1 id=&#34;youngtool&#34;&gt;youngtool&lt;/h1&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>simulation | Young-geun Kim</title>
-    <link>/tags/simulation/</link>
-      <atom:link href="/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ygeunkim.github.io/tags/simulation/</link>
+      <atom:link href="https://ygeunkim.github.io/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
     <description>simulation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>simulation</title>
-      <link>/tags/simulation/</link>
+      <link>https://ygeunkim.github.io/tags/simulation/</link>
     </image>
     
     <item>
       <title>Nonparametric statistics course project</title>
-      <link>/project/nonparam_project/</link>
+      <link>https://ygeunkim.github.io/project/nonparam_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/nonparam_project/</guid>
+      <guid>https://ygeunkim.github.io/project/nonparam_project/</guid>
       <description>&lt;h1 id=&#34;nonparametric-estimation-of-conditional-expected-shortfall&#34;&gt;Nonparametric Estimation of Conditional Expected Shortfall&lt;/h1&gt;
 &lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Nonparametric statistics course (&lt;a href=&#34;https://sites.google.com/site/eunryungleestat/&#34;&gt;STA5015&lt;/a&gt;)&lt;/strong&gt;. It aims at:&lt;/p&gt;
 &lt;ul&gt;
@@ -37,9 +37,9 @@
     
     <item>
       <title>Research Tool Package</title>
-      <link>/project/epe_project/</link>
+      <link>https://ygeunkim.github.io/project/epe_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/epe_project/</guid>
+      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
       <description>&lt;h1 id=&#34;youngtool&#34;&gt;youngtool&lt;/h1&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;

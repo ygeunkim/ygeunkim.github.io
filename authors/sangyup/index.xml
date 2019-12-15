@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Young-geun Kim</title>
-    <link>/authors/sangyup/</link>
-      <atom:link href="/authors/sangyup/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ygeunkim.github.io/authors/sangyup/</link>
+      <atom:link href="https://ygeunkim.github.io/authors/sangyup/index.xml" rel="self" type="application/rss+xml" />
     <description>Young-geun Kim</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ygeunkim.github.io/img/icon-192.png</url>
       <title>Young-geun Kim</title>
-      <link>/authors/sangyup/</link>
+      <link>https://ygeunkim.github.io/authors/sangyup/</link>
     </image>
     
     <item>
       <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence (Poster)</title>
-      <link>/publication/kl_poster/kl_poster/</link>
+      <link>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/kl_poster/kl_poster/</guid>
+      <guid>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -25,9 +25,9 @@
     
     <item>
       <title>Anomaly detection on Cyber Physical System using error pattern</title>
-      <link>/project/nsr_project/</link>
+      <link>https://ygeunkim.github.io/project/nsr_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/nsr_project/</guid>
+      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
       <description></description>
     </item>
     
