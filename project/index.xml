@@ -29,6 +29,24 @@
     </item>
     
     <item>
+      <title>Nonparametric statistics course project</title>
+      <link>https://ygeunkim.github.io/project/nonparam_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/nonparam_project/</guid>
+      <description>&lt;h1 id=&#34;nonparametric-estimation-of-conditional-expected-shortfall&#34;&gt;Nonparametric Estimation of Conditional Expected Shortfall&lt;/h1&gt;
+&lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Nonparametric statistics course (&lt;a href=&#34;https://sites.google.com/site/eunryungleestat/&#34;&gt;STA5015&lt;/a&gt;)&lt;/strong&gt;. It aims at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;intensive review on existing statistical methods for an advanced topic not covered in the course&lt;/li&gt;
+&lt;li&gt;own simulation or real data simulation&lt;/li&gt;
+&lt;li&gt;development of new statistical methodology related to the course&lt;/li&gt;
+&lt;li&gt;new analysis of a real data set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reviewd-paper&#34;&gt;Reviewd Paper&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0304407608001292&#34;&gt;Cai, Z., &amp;amp; Wang, X. (2008). &lt;em&gt;Nonparametric estimation of conditional VaR and expected shortfall&lt;/em&gt;. Journal of Econometrics, 147(1), 120-130.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R markdown tool package</title>
       <link>https://ygeunkim.github.io/project/rmdtool_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

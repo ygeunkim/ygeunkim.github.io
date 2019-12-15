@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://ygeunkim.github.io/authors/admin/</loc>
-    <lastmod>2019-12-03T23:45:30+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
@@ -29,17 +29,17 @@
   
   <url>
     <loc>https://ygeunkim.github.io/authors/sangyup/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/authors/shahroz/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/authors/simon/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
@@ -49,17 +49,17 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/anomaly-detection/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/authors/</loc>
-    <lastmod>2019-12-03T23:45:30+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/categories/</loc>
-    <lastmod>2019-12-03T23:45:30+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
@@ -84,42 +84,42 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/research-project/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/tags/</loc>
-    <lastmod>2019-12-03T23:45:30+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/tags/team-project/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/tags/time-series/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/</loc>
-    <lastmod>2019-12-03T23:45:30+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/authors/rok/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/authors/seoyoung/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/authors/yujin/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
@@ -139,7 +139,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/project/nsr_project/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
@@ -168,13 +168,21 @@
   </url>
   
   <url>
+    <loc>https://ygeunkim.github.io/project/nonparam_project/</loc>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/post/</loc>
     <lastmod>2019-08-13T23:25:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/categories/project/</loc>
-    <lastmod>2019-12-03T23:45:30+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tags/project-in-course/</loc>
   </url>
   
   <url>
@@ -189,7 +197,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/python/</loc>
-    <lastmod>2019-12-03T23:28:32+09:00</lastmod>
+    <lastmod>2019-12-08T20:47:05+09:00</lastmod>
   </url>
   
   <url>
