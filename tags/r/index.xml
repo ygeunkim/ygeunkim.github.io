@@ -46,6 +46,11 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;reviewd-paper&#34;&gt;Reviewd Paper&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0304407608001292&#34;&gt;Cai, Z., &amp;amp; Wang, X. (2008). &lt;em&gt;Nonparametric estimation of conditional VaR and expected shortfall&lt;/em&gt;. Journal of Econometrics, 147(1), 120-130.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ceshat-a-hrefhttpsgithubcomygeunkimceshatimg-srcstaticimgceshatpng-alignright-height139-a&#34;&gt;ceshat &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a href=&#34;https://travis-ci.com/ygeunkim/ceshat&#34;&gt;&lt;img src=&#34;https://travis-ci.com/ygeunkim/ceshat.svg?branch=master&#34; alt=&#34;Build Status&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://codecov.io/gh/ygeunkim/ceshat?branch=master&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/ygeunkim/ceshat/branch/master/graph/badge.svg&#34; alt=&#34;Codecov test coverage&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is an R package to help this project, which tries to reproduce the above paper.&lt;/p&gt;
 </description>
     </item>
     
@@ -62,7 +67,19 @@
       <link>https://ygeunkim.github.io/project/epe_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/project/epe_project/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;youngtool-a-hrefhttpsgithubcomygeunkimyoungtoolimg-srcstaticimgyoungtoolpng-alignright-height139-a&#34;&gt;youngtool &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://travis-ci.org/ygeunkim/youngtool&#34;&gt;&lt;img src=&#34;https://travis-ci.org/ygeunkim/youngtool.svg?branch=master&#34; alt=&#34;Build Status&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://codecov.io/gh/ygeunkim/youngtool?branch=master&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/ygeunkim/youngtool/branch/master/graph/badge.svg&#34; alt=&#34;Codecov test coverage&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This package can do Monte Carlo simulation using &lt;code&gt;data.table&lt;/code&gt; structure and compute the expected test error of the model. Actually, I provide optimism feature but it might be useless in this setting.&lt;/li&gt;
+&lt;li&gt;Model functions in &lt;code&gt;R&lt;/code&gt; has several forms of arguments, e.g. &lt;code&gt;formula, data&lt;/code&gt; or &lt;code&gt;x, y&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;I am trying to cover every model function.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
