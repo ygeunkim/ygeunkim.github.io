@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>9 | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/publication_types/9/</link>
-      <atom:link href="https://ygeunkim.github.io/publication_types/9/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication_types/9/</link>
+      <atom:link href="/publication_types/9/index.xml" rel="self" type="application/rss+xml" />
     <description>9</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>9</title>
-      <link>https://ygeunkim.github.io/publication_types/9/</link>
+      <link>/publication_types/9/</link>
     </image>
     
     <item>
       <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence (Poster)</title>
-      <link>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</link>
+      <link>/publication/kl_poster/kl_poster/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</guid>
+      <guid>/publication/kl_poster/kl_poster/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;

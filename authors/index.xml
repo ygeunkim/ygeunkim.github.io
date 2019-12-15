@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/authors/</link>
-      <atom:link href="https://ygeunkim.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Authors</title>
-      <link>https://ygeunkim.github.io/authors/</link>
+      <link>/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/admin/</guid>
+      <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Young-geun Kim is a master&#39;s student at statistics, Sungkyunkwan University (SKKU). His research interest mainly begins at a time series. The first project was anomaly detection in streaming multivariate time series. Nonetheless, he is a beginning researcher, so he reads articles from various subjects and always tries to find attractive issues.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/hyoung/</link>
+      <link>/authors/hyoung/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/hyoung/</guid>
+      <guid>/authors/hyoung/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/jeong/</link>
+      <link>/authors/jeong/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/jeong/</guid>
+      <guid>/authors/jeong/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/jinwoo/</link>
+      <link>/authors/jinwoo/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/jinwoo/</guid>
+      <guid>/authors/jinwoo/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/jonguk/</link>
+      <link>/authors/jonguk/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/jonguk/</guid>
+      <guid>/authors/jonguk/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/sangyup/</link>
+      <link>/authors/sangyup/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/sangyup/</guid>
+      <guid>/authors/sangyup/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/shahroz/</link>
+      <link>/authors/shahroz/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/shahroz/</guid>
+      <guid>/authors/shahroz/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/simon/</link>
+      <link>/authors/simon/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/simon/</guid>
+      <guid>/authors/simon/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/rok/</link>
+      <link>/authors/rok/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/rok/</guid>
+      <guid>/authors/rok/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/seoyoung/</link>
+      <link>/authors/seoyoung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/seoyoung/</guid>
+      <guid>/authors/seoyoung/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/authors/yujin/</link>
+      <link>/authors/yujin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/yujin/</guid>
+      <guid>/authors/yujin/</guid>
       <description></description>
     </item>
     

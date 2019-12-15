@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/</link>
-      <atom:link href="https://ygeunkim.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Young-geun Kim</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Young-geun Kim</title>
-      <link>https://ygeunkim.github.io/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/contact/</link>
+      <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/contact/</guid>
+      <guid>/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ygeunkim.github.io/research/</link>
+      <link>/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/research/</guid>
+      <guid>/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bookdown</title>
-      <link>https://ygeunkim.github.io/bookdown/</link>
+      <link>/bookdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/bookdown/</guid>
+      <guid>/bookdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://ygeunkim.github.io/post/</link>
+      <link>/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/post/</guid>
+      <guid>/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://ygeunkim.github.io/project/</link>
+      <link>/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/</guid>
+      <guid>/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://ygeunkim.github.io/publication/</link>
+      <link>/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/</guid>
+      <guid>/publication/</guid>
       <description></description>
     </item>
     

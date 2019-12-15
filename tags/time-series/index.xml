@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>time-series | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/tags/time-series/</link>
-      <atom:link href="https://ygeunkim.github.io/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/time-series/</link>
+      <atom:link href="/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     <description>time-series</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>time-series</title>
-      <link>https://ygeunkim.github.io/tags/time-series/</link>
+      <link>/tags/time-series/</link>
     </image>
     
     <item>
       <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence (Poster)</title>
-      <link>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</link>
+      <link>/publication/kl_poster/kl_poster/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</guid>
+      <guid>/publication/kl_poster/kl_poster/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -25,9 +25,9 @@
     
     <item>
       <title>Anomaly detection on Cyber Physical System using error pattern</title>
-      <link>https://ygeunkim.github.io/project/nsr_project/</link>
+      <link>/project/nsr_project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
+      <guid>/project/nsr_project/</guid>
       <description></description>
     </item>
     
