@@ -5,12 +5,20 @@
     <link>https://ygeunkim.github.io/categories/</link>
       <atom:link href="https://ygeunkim.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/img/younglogo.png</url>
       <title>Categories</title>
       <link>https://ygeunkim.github.io/categories/</link>
     </image>
+    
+    <item>
+      <title>post</title>
+      <link>https://ygeunkim.github.io/categories/post/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/categories/post/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>publication</title>
@@ -23,7 +31,7 @@
     <item>
       <title>project</title>
       <link>https://ygeunkim.github.io/categories/project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/categories/project/</guid>
       <description></description>
     </item>

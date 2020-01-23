@@ -5,7 +5,7 @@
     <link>https://ygeunkim.github.io/tags/knitr/</link>
       <atom:link href="https://ygeunkim.github.io/tags/knitr/index.xml" rel="self" type="application/rss+xml" />
     <description>knitr</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/img/younglogo.png</url>
       <title>knitr</title>
@@ -15,7 +15,7 @@
     <item>
       <title>R markdown tool package</title>
       <link>https://ygeunkim.github.io/project/rmdtool_project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/project/rmdtool_project/</guid>
       <description></description>
     </item>

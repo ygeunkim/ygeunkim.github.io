@@ -5,12 +5,30 @@
     <link>https://ygeunkim.github.io/tags/simulation/</link>
       <atom:link href="https://ygeunkim.github.io/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
     <description>simulation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 12 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/img/younglogo.png</url>
       <title>simulation</title>
       <link>https://ygeunkim.github.io/tags/simulation/</link>
     </image>
+    
+    <item>
+      <title>Research Tool Package</title>
+      <link>https://ygeunkim.github.io/project/epe_project/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
+      <description>&lt;h1 id=&#34;youngtool&#34;&gt;youngtool&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This package can do Monte Carlo simulation using &lt;code&gt;data.table&lt;/code&gt; structure and compute the expected test error of the model. Actually, I provide optimism feature but it might be useless in this setting.&lt;/li&gt;
+&lt;li&gt;Model functions in &lt;code&gt;R&lt;/code&gt; has several forms of arguments, e.g. &lt;code&gt;formula, data&lt;/code&gt; or &lt;code&gt;x, y&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;I am trying to cover every model function.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Nonparametric statistics course project</title>
@@ -32,24 +50,6 @@
 &lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;This is an R package to help this project, which tries to reproduce the above paper.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Research Tool Package</title>
-      <link>https://ygeunkim.github.io/project/epe_project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
-      <description>&lt;h1 id=&#34;youngtool&#34;&gt;youngtool&lt;/h1&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;This package can do Monte Carlo simulation using &lt;code&gt;data.table&lt;/code&gt; structure and compute the expected test error of the model. Actually, I provide optimism feature but it might be useless in this setting.&lt;/li&gt;
-&lt;li&gt;Model functions in &lt;code&gt;R&lt;/code&gt; has several forms of arguments, e.g. &lt;code&gt;formula, data&lt;/code&gt; or &lt;code&gt;x, y&lt;/code&gt;, etc.&lt;/li&gt;
-&lt;li&gt;I am trying to cover every model function.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
