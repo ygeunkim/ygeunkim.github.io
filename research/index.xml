@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Researches | Young-geun Kim</title>
-    <link>https://ygeunkim.github.io/research/</link>
-      <atom:link href="https://ygeunkim.github.io/research/index.xml" rel="self" type="application/rss+xml" />
-    <description>Researches</description>
+    <title>Projects | Young-geun Kim</title>
+    <link>/research/</link>
+      <atom:link href="/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://ygeunkim.github.io/img/icon-192.png</url>
-      <title>Researches</title>
-      <link>https://ygeunkim.github.io/research/</link>
+      <url>/img/younglogo.png</url>
+      <title>Projects</title>
+      <link>/research/</link>
     </image>
     
     <item>
       <title>Recent Publications</title>
-      <link>https://ygeunkim.github.io/research/publications/</link>
+      <link>/research/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/research/publications/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Quickly discover relevant content by &lt;a href=&#34;https://ygeunkim.github.io/publication/&#34; target=&#34;_blank&#34;&gt;filtering publications&lt;/a&gt;.
-  &lt;/div&gt;
-&lt;/div&gt;
+      <guid>/research/publication/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://ygeunkim.github.io/research/projects/</link>
+      <link>/research/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/research/projects/</guid>
+      <guid>/research/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/</guid>
       <description></description>
     </item>
     
