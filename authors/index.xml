@@ -15,16 +15,16 @@
     <item>
       <title></title>
       <link>https://ygeunkim.github.io/authors/admin/</link>
-      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Young-geun Kim is a master&#39;s student at statistics, Sungkyunkwan University (SKKU). His research interest mainly begins at a time series. The first project was anomaly detection in streaming multivariate time series. Nonetheless, he is a beginning researcher, so he reads articles from various subjects and always tries to find attractive issues.&lt;/p&gt;
+      <description>&lt;p&gt;Welcome to Young-geun Kim&amp;rsquo;s long-range dependent academic path! Young-geun Kim is a master&amp;rsquo;s student at statistics, Sungkyunkwan University (SKKU). His research interest mainly begins at a time series. It includes long-range dependency, spectral analysis, anomaly detection, et cetera. He is a beginning researcher, so he reads articles from various subjects and always tries to find attractive issues.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
       <link>https://ygeunkim.github.io/authors/hyoung/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/authors/hyoung/</guid>
       <description></description>
     </item>
@@ -32,7 +32,7 @@
     <item>
       <title></title>
       <link>https://ygeunkim.github.io/authors/jeong/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/authors/jeong/</guid>
       <description></description>
     </item>
@@ -40,7 +40,7 @@
     <item>
       <title></title>
       <link>https://ygeunkim.github.io/authors/jinwoo/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/authors/jinwoo/</guid>
       <description></description>
     </item>
@@ -48,32 +48,8 @@
     <item>
       <title></title>
       <link>https://ygeunkim.github.io/authors/jonguk/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/authors/jonguk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ygeunkim.github.io/authors/sangyup/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/sangyup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ygeunkim.github.io/authors/shahroz/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/shahroz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ygeunkim.github.io/authors/simon/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/authors/simon/</guid>
       <description></description>
     </item>
     
@@ -87,9 +63,33 @@
     
     <item>
       <title></title>
+      <link>https://ygeunkim.github.io/authors/sangyup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/authors/sangyup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://ygeunkim.github.io/authors/seoyoung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/authors/seoyoung/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ygeunkim.github.io/authors/shahroz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/authors/shahroz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ygeunkim.github.io/authors/simon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/authors/simon/</guid>
       <description></description>
     </item>
     

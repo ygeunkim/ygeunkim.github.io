@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ygeunkim.github.io/authors/admin/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/authors/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -19,7 +14,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/categories/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -29,7 +24,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -43,48 +38,8 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/post/forum_kssbank/</loc>
     <lastmod>2020-01-24T17:56:09+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/hyoung/</loc>
-    <lastmod>2020-01-23T20:20:08+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/jeong/</loc>
-    <lastmod>2020-01-23T20:20:08+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/jinwoo/</loc>
-    <lastmod>2020-01-23T20:20:08+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/jonguk/</loc>
-    <lastmod>2020-01-23T20:20:08+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/sangyup/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/shahroz/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/simon/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
   </url>
   
   <url>
@@ -94,7 +49,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/anomaly-detection/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -114,22 +69,22 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/r/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/tags/research-project/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/tags/team-project/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/tags/time-series/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -139,12 +94,12 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/datatable/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/categories/project/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -154,7 +109,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/simulation/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -193,18 +148,58 @@
   </url>
   
   <url>
+    <loc>https://ygeunkim.github.io/authors/admin/</loc>
+    <lastmod>2020-02-02T12:12:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/authors/hyoung/</loc>
+    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/authors/jeong/</loc>
+    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/authors/jinwoo/</loc>
+    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/authors/jonguk/</loc>
+    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/authors/rok/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2019-11-24T22:55:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/authors/sangyup/</loc>
+    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/authors/seoyoung/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2019-11-24T22:55:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/authors/shahroz/</loc>
+    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/authors/simon/</loc>
+    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/authors/yujin/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2019-11-24T22:55:05+09:00</lastmod>
   </url>
   
   <url>
@@ -219,7 +214,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/project/nsr_project/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -229,7 +224,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/project/nonparam_project/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -239,7 +234,7 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/project-in-course/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
   </url>
   
   <url>
@@ -254,7 +249,12 @@
   
   <url>
     <loc>https://ygeunkim.github.io/tags/python/</loc>
-    <lastmod>2020-02-17T13:59:36+09:00</lastmod>
+    <lastmod>2020-02-19T14:25:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/</loc>
+    <lastmod>2020-01-24T17:56:09+09:00</lastmod>
   </url>
   
 </urlset>
