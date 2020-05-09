@@ -1,0 +1,53 @@
+---
+title: "Nonparametric statistics course project"
+authors: ["admin"]
+date: "`r format(Sys.time(), '%d %b, %Y')`"
+categories: ["project"]
+tags: ["r", "project-in-course", "research-project", "simulation", "datatable"]
+# external_link: "https://github.com/ygeunkim/nonparam-cvar"
+draft: false
+# featured: true
+summary: "Estimate conditional value-at-risk and conditional expected shortfall in nonparametric way."
+url_code: "https://github.com/ygeunkim/ceshat"
+url_project: "https://github.com/ygeunkim/nonparam-cvar"
+url_slides: "https://github.com/ygeunkim/nonparam-cvar/tree/master/static/slides"
+# image:
+#   placement: 1
+#   caption: "Downloaded from [Pixabay](https://pixabay.com/photos/light-bulb-energy-nature-4379273/)"
+#   focal_point: "Center"
+#   preview_only: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  out.width = "70%",
+  fig.align = "center",
+  fig.width = 6,
+  fig.asp = .618
+  )
+options(digits = 3)
+pander::panderOptions("round", 3)
+```
+
+# Nonparametric Estimation of Conditional Expected Shortfall
+
+This is a project perfomed in SKKU **Nonparametric statistics course ([STA5015](https://sites.google.com/site/eunryungleestat/))**. It aims at:
+
+- intensive review on existing statistical methods for an advanced topic not covered in the course
+- own simulation or real data simulation
+- development of new statistical methodology related to the course
+- new analysis of a real data set
+
+## Reviewd Paper
+
+[Cai, Z., & Wang, X. (2008). *Nonparametric estimation of conditional VaR and expected shortfall*. Journal of Econometrics, 147(1), 120-130.](https://www.sciencedirect.com/science/article/abs/pii/S0304407608001292)
+
+## ceshat
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
+This is an R package to help this project, which tries to reproduce the above paper.

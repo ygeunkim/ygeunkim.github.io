@@ -1,0 +1,16 @@
+---
+title: "Loglinear Models for Three-way Tables"
+authors: ["admin"]
+date: 2019-03-03
+categories: ["project"]
+tags: ["r", "categorical-data", "tidyverse"]
+external_link: "https://github.com/ygeunkim/loglinear3"
+draft: false
+summary: "R functions automatically finding the best loglinear models for 3-way table"
+image:
+  placement: 1
+  caption: "Downloaded from [Pixabay](https://pixabay.com/photos/clothespins-wood-woods-old-4386487/)"
+  focal_point: "Center"
+  preview_only: true
+---
+
