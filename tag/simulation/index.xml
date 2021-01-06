@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simulation | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/tag/simulation/</link>
+      <atom:link href="https://ygeunkim.github.io/tag/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>simulation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>simulation</title>
+      <link>https://ygeunkim.github.io/tag/simulation/</link>
+    </image>
+    
+    <item>
+      <title>Causal Inference course project</title>
+      <link>https://ygeunkim.github.io/project/causal_project/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/causal_project/</guid>
+      <description>&lt;h1 id=&#34;propensity-score-estimating-using-machine-learning&#34;&gt;Propensity Score Estimating Using Machine Learning&lt;/h1&gt;
+&lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Modern Statistical Methods (&lt;a href=&#34;https://www.kwonsanglee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5012&lt;/a&gt;)&lt;/strong&gt; about causal inference&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simulation study or data analysis&lt;/li&gt;
+&lt;li&gt;Extension of statistical method or theoretical result&lt;/li&gt;
+&lt;li&gt;Conducting a thorough data analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;paper&#34;&gt;Paper&lt;/h1&gt;
+&lt;p&gt;I reviewed&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.3782&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lee, B. K., Lessler, J., &amp;amp; Stuart, E. A. (2010). Improving propensity score weighting using machine learning. Statistics in Medicine, 29(3), 337–346. doi:10.1002/sim.3782&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;r-package-a-hrefhttpsgithubcomygeunkimpropensitymlimg-srcdocslogopng-alignright-height139-a&#34;&gt;R Package &lt;a href=&#39;https://github.com/ygeunkim/propensityml&#39;&gt;&lt;img src=&#39;docs/logo.png&#39; align=&#34;right&#34; height=&#34;139&#34; /&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I made an R package with &lt;code&gt;devtools&lt;/code&gt; for this project: &lt;a href=&#34;https://github.com/ygeunkim/propensityml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;propensityml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nonparametric statistics course project</title>
+      <link>https://ygeunkim.github.io/project/nonparam_project/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/nonparam_project/</guid>
+      <description>&lt;h1 id=&#34;nonparametric-estimation-of-conditional-expected-shortfall&#34;&gt;Nonparametric Estimation of Conditional Expected Shortfall&lt;/h1&gt;
+&lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Nonparametric statistics course (&lt;a href=&#34;https://sites.google.com/site/eunryungleestat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5015&lt;/a&gt;)&lt;/strong&gt;. It aims at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;intensive review on existing statistical methods for an advanced topic not covered in the course&lt;/li&gt;
+&lt;li&gt;own simulation or real data simulation&lt;/li&gt;
+&lt;li&gt;development of new statistical methodology related to the course&lt;/li&gt;
+&lt;li&gt;new analysis of a real data set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reviewd-paper&#34;&gt;Reviewd Paper&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0304407608001292&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cai, Z., &amp;amp; Wang, X. (2008). &lt;em&gt;Nonparametric estimation of conditional VaR and expected shortfall&lt;/em&gt;. Journal of Econometrics, 147(1), 120-130.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ceshat&#34;&gt;ceshat&lt;/h2&gt;
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- badges: end --&gt;
+&lt;p&gt;This is an R package to help this project, which tries to reproduce the above paper.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research Tool Package</title>
+      <link>https://ygeunkim.github.io/project/epe_project/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
+      <description>&lt;h1 id=&#34;youngtool&#34;&gt;youngtool&lt;/h1&gt;
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- badges: end --&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This package can do Monte Carlo simulation using &lt;code&gt;data.table&lt;/code&gt; structure and compute the expected test error of the model. Actually, I provide optimism feature but it might be useless in this setting.&lt;/li&gt;
+&lt;li&gt;Model functions in &lt;code&gt;R&lt;/code&gt; has several forms of arguments, e.g. &lt;code&gt;formula, data&lt;/code&gt; or &lt;code&gt;x, y&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;I am trying to cover every model function.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,144 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Young-geun Kim</title>
+    <title>Tags | Young Geun Kim</title>
     <link>https://ygeunkim.github.io/tags/</link>
       <atom:link href="https://ygeunkim.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/img/younglogo.png</url>
+      <url>https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
       <link>https://ygeunkim.github.io/tags/</link>
     </image>
-    
-    <item>
-      <title>conference</title>
-      <link>https://ygeunkim.github.io/tags/conference/</link>
-      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/conference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>travel</title>
-      <link>https://ygeunkim.github.io/tags/travel/</link>
-      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>anomaly-detection</title>
-      <link>https://ygeunkim.github.io/tags/anomaly-detection/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/anomaly-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r</title>
-      <link>https://ygeunkim.github.io/tags/r/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research-project</title>
-      <link>https://ygeunkim.github.io/tags/research-project/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/research-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>team-project</title>
-      <link>https://ygeunkim.github.io/tags/team-project/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/team-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>time-series</title>
-      <link>https://ygeunkim.github.io/tags/time-series/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/time-series/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>datatable</title>
-      <link>https://ygeunkim.github.io/tags/datatable/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/datatable/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>simulation</title>
-      <link>https://ygeunkim.github.io/tags/simulation/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/simulation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tidyverse</title>
-      <link>https://ygeunkim.github.io/tags/tidyverse/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/tidyverse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>knitr</title>
-      <link>https://ygeunkim.github.io/tags/knitr/</link>
-      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/knitr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r-package</title>
-      <link>https://ygeunkim.github.io/tags/r-package/</link>
-      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/r-package/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rmarkdown</title>
-      <link>https://ygeunkim.github.io/tags/rmarkdown/</link>
-      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/rmarkdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>categorical-data</title>
-      <link>https://ygeunkim.github.io/tags/categorical-data/</link>
-      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/categorical-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>project-in-course</title>
-      <link>https://ygeunkim.github.io/tags/project-in-course/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/project-in-course/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://ygeunkim.github.io/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/tags/python/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

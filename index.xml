@@ -1,16 +1,286 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Young-geun Kim</title>
+    <title>Young Geun Kim</title>
     <link>https://ygeunkim.github.io/</link>
       <atom:link href="https://ygeunkim.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Young-geun Kim</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <description>Young Geun Kim</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/img/younglogo.png</url>
-      <title>Young-geun Kim</title>
+      <url>https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Young Geun Kim</title>
       <link>https://ygeunkim.github.io/</link>
     </image>
+    
+    <item>
+      <title>Causal Inference course project</title>
+      <link>https://ygeunkim.github.io/project/causal_project/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/causal_project/</guid>
+      <description>&lt;h1 id=&#34;propensity-score-estimating-using-machine-learning&#34;&gt;Propensity Score Estimating Using Machine Learning&lt;/h1&gt;
+&lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Modern Statistical Methods (&lt;a href=&#34;https://www.kwonsanglee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5012&lt;/a&gt;)&lt;/strong&gt; about causal inference&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simulation study or data analysis&lt;/li&gt;
+&lt;li&gt;Extension of statistical method or theoretical result&lt;/li&gt;
+&lt;li&gt;Conducting a thorough data analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;paper&#34;&gt;Paper&lt;/h1&gt;
+&lt;p&gt;I reviewed&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.3782&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lee, B. K., Lessler, J., &amp;amp; Stuart, E. A. (2010). Improving propensity score weighting using machine learning. Statistics in Medicine, 29(3), 337–346. doi:10.1002/sim.3782&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;r-package-a-hrefhttpsgithubcomygeunkimpropensitymlimg-srcdocslogopng-alignright-height139-a&#34;&gt;R Package &lt;a href=&#39;https://github.com/ygeunkim/propensityml&#39;&gt;&lt;img src=&#39;docs/logo.png&#39; align=&#34;right&#34; height=&#34;139&#34; /&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I made an R package with &lt;code&gt;devtools&lt;/code&gt; for this project: &lt;a href=&#34;https://github.com/ygeunkim/propensityml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;propensityml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Anomaly detection on Cyber Physical System using error pattern</title>
+      <link>https://ygeunkim.github.io/project/nsr_project/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonparametric statistics course project</title>
+      <link>https://ygeunkim.github.io/project/nonparam_project/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/nonparam_project/</guid>
+      <description>&lt;h1 id=&#34;nonparametric-estimation-of-conditional-expected-shortfall&#34;&gt;Nonparametric Estimation of Conditional Expected Shortfall&lt;/h1&gt;
+&lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Nonparametric statistics course (&lt;a href=&#34;https://sites.google.com/site/eunryungleestat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5015&lt;/a&gt;)&lt;/strong&gt;. It aims at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;intensive review on existing statistical methods for an advanced topic not covered in the course&lt;/li&gt;
+&lt;li&gt;own simulation or real data simulation&lt;/li&gt;
+&lt;li&gt;development of new statistical methodology related to the course&lt;/li&gt;
+&lt;li&gt;new analysis of a real data set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reviewd-paper&#34;&gt;Reviewd Paper&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0304407608001292&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cai, Z., &amp;amp; Wang, X. (2008). &lt;em&gt;Nonparametric estimation of conditional VaR and expected shortfall&lt;/em&gt;. Journal of Econometrics, 147(1), 120-130.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ceshat&#34;&gt;ceshat&lt;/h2&gt;
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- badges: end --&gt;
+&lt;p&gt;This is an R package to help this project, which tries to reproduce the above paper.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visited 2019 KSS Autumn Conference</title>
+      <link>https://ygeunkim.github.io/post/kss_fall2019/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/post/kss_fall2019/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ygeunkim.github.io/img/korstat_fall2019.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.kss.or.kr/bbs/board.php?bo_table=photo&amp;amp;wr_id=447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 The Korean Statistical Society Autumn Conference&lt;/a&gt;, held in University of Seoul.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AI Forum Hosted by KSS and Bank of Korea</title>
+      <link>https://ygeunkim.github.io/post/forum_kssbank/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/post/forum_kssbank/</guid>
+      <description>&lt;p&gt;I attended the joint Forum of the &lt;a href=&#34;http://www.kss.or.kr/bbs/board.php?bo_table=notice&amp;amp;wr_id=1426&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Korean Statistical Society&lt;/a&gt; and &lt;a href=&#34;https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10053915&amp;amp;menuNo=200690&amp;amp;pageIndex=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bank of Korea&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ygeunkim.github.io/img/aiforum2019.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The topic was &lt;strong&gt;AI, Statistics, and Central Bank&lt;/strong&gt;, and many talks focuced on machine learning and deep learning concerning to the economics area.
+Bayesian machine learning was unfamiliar but interesting topic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</title>
+      <link>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</guid>
+      <description>&lt;!-- ```{r, include=FALSE, message=FALSE, warning=FALSE} --&gt;
+&lt;!-- library(RefManageR) --&gt;
+&lt;!-- bib &lt;- ReadBib(&#34;cite.bib&#34;) --&gt;
+&lt;!-- NoCite(bib, &#34;*&#34;) --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ## Citation --&gt;
+&lt;!-- ```{r, echo=FALSE, comment=NULL, results=&#39;asis&#39;} --&gt;
+&lt;!-- PrintBibliography(bib, .opts = list(style = &#34;markdown&#34;, max.names = 1, bib.style = &#34;authoryear&#34;, hyperlink = FALSE)) --&gt;
+&lt;!-- ``` --&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-cho2019&#34;&gt;
+&lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.”&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visited 2019 KSS Spring Conference</title>
+      <link>https://ygeunkim.github.io/post/kss_spring2019/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/post/kss_spring2019/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ygeunkim.github.io/img/korstat_spring2019.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I visited the conference for the first time, which was hosted by &lt;a href=&#34;http://www.kss.or.kr/bbs/board.php?bo_table=photo&amp;amp;wr_id=446&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Korean Statistical Society&lt;/a&gt;.
+It was held in Kangwon national university.&lt;/p&gt;
+&lt;p&gt;I listened to lots of talks, and it was experience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research Tool Package</title>
+      <link>https://ygeunkim.github.io/project/epe_project/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
+      <description>&lt;h1 id=&#34;youngtool&#34;&gt;youngtool&lt;/h1&gt;
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- badges: end --&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This package can do Monte Carlo simulation using &lt;code&gt;data.table&lt;/code&gt; structure and compute the expected test error of the model. Actually, I provide optimism feature but it might be useless in this setting.&lt;/li&gt;
+&lt;li&gt;Model functions in &lt;code&gt;R&lt;/code&gt; has several forms of arguments, e.g. &lt;code&gt;formula, data&lt;/code&gt; or &lt;code&gt;x, y&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;I am trying to cover every model function.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R markdown tool package</title>
+      <link>https://ygeunkim.github.io/project/rmdtool_project/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/rmdtool_project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loglinear Models for Three-way Tables</title>
+      <link>https://ygeunkim.github.io/project/loglinear3_project/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/loglinear3_project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://ygeunkim.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title></title>
@@ -25,38 +295,6 @@
       <link>https://ygeunkim.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bookdown</title>
-      <link>https://ygeunkim.github.io/bookdown/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/bookdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>https://ygeunkim.github.io/post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://ygeunkim.github.io/project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://ygeunkim.github.io/publication/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/</guid>
       <description></description>
     </item>
     

@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types | Young-geun Kim</title>
+    <title>Publication_types | Young Geun Kim</title>
     <link>https://ygeunkim.github.io/publication_types/</link>
       <atom:link href="https://ygeunkim.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/img/younglogo.png</url>
+      <url>https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Publication_types</title>
       <link>https://ygeunkim.github.io/publication_types/</link>
     </image>
-    
-    <item>
-      <title>9</title>
-      <link>https://ygeunkim.github.io/publication_types/9/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication_types/9/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

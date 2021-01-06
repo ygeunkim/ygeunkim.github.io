@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bookdown | Young-geun Kim</title>
+    <title>Bookdown | Young Geun Kim</title>
     <link>https://ygeunkim.github.io/bookdown/</link>
       <atom:link href="https://ygeunkim.github.io/bookdown/index.xml" rel="self" type="application/rss+xml" />
     <description>Bookdown</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://ygeunkim.github.io/img/younglogo.png</url>
+      <url>https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Bookdown</title>
       <link>https://ygeunkim.github.io/bookdown/</link>
     </image>

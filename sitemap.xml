@@ -4,262 +4,277 @@
   
   <url>
     <loc>https://ygeunkim.github.io/authors/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/categories/blog/</loc>
-    <lastmod>2020-01-24T17:56:09+09:00</lastmod>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/categories/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tags/conference/</loc>
-    <lastmod>2020-01-24T17:56:09+09:00</lastmod>
+    <loc>https://ygeunkim.github.io/project/causal_project/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/datatable/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/category/project/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/project-in-course/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/r/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/research-project/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/simulation/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/tags/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tags/travel/</loc>
-    <lastmod>2020-01-24T17:56:09+09:00</lastmod>
+    <loc>https://ygeunkim.github.io/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/young-geun-kim/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/nsr_project/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/anomaly-detection/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/python/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/sangyup-lee/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/seoyoung-park/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/shahroz-tariq/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/simon-woo/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/team-project/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/time-series/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/youngrok-choi/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/yujin-shin/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/nonparam_project/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/category/blog/</loc>
+    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/conference/</loc>
+    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/post/</loc>
+    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/travel/</loc>
+    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/post/kss_fall2019/</loc>
-    <lastmod>2020-01-24T17:56:09+09:00</lastmod>
+    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/post/forum_kssbank/</loc>
-    <lastmod>2020-01-24T17:56:09+09:00</lastmod>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/publication_types/9/</loc>
-    <lastmod>2020-01-23T20:20:08+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/anomaly-detection/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/publication/kl_poster/kl_poster-2/</loc>
+    <loc>https://ygeunkim.github.io/publication-type/1/</loc>
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</loc>
-    <lastmod>2020-01-23T20:20:08+09:00</lastmod>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/categories/publication/</loc>
-    <lastmod>2020-01-23T20:20:08+09:00</lastmod>
+    <loc>https://ygeunkim.github.io/author/hyoung-chun-kim/</loc>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/jeong-han-yun/</loc>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/jinwoo-cho/</loc>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/jonguk-kim/</loc>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/category/publication/</loc>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/publication_types/</loc>
-    <lastmod>2020-01-23T20:20:08+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/r/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/research-project/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/team-project/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/time-series/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/post/kss_spring2019/</loc>
-    <lastmod>2020-01-24T17:56:09+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/datatable/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/categories/project/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/project/epe_project/</loc>
-    <lastmod>2020-01-23T18:05:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/simulation/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/tidyverse/</loc>
-    <lastmod>2020-01-23T18:05:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/knitr/</loc>
-    <lastmod>2020-01-23T18:05:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/project/rmdtool_project/</loc>
-    <lastmod>2020-01-23T18:05:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/r-package/</loc>
-    <lastmod>2020-01-23T18:05:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/rmarkdown/</loc>
-    <lastmod>2020-01-23T18:05:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/categorical-data/</loc>
-    <lastmod>2020-01-23T18:05:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/project/loglinear3_project/</loc>
-    <lastmod>2020-01-23T18:05:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/admin/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/hyoung/</loc>
-    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/jeong/</loc>
-    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/jinwoo/</loc>
-    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/jonguk/</loc>
-    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/rok/</loc>
-    <lastmod>2019-11-24T22:55:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/sangyup/</loc>
-    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/seoyoung/</loc>
-    <lastmod>2019-11-24T22:55:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/shahroz/</loc>
-    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/simon/</loc>
-    <lastmod>2019-11-24T11:31:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/authors/yujin/</loc>
-    <lastmod>2019-11-24T22:55:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/contact/</loc>
-    <lastmod>2019-08-16T14:34:22+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/research/</loc>
-    <lastmod>2020-05-09T13:51:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/project/nsr_project/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/bookdown/</loc>
-    <lastmod>2019-08-14T00:26:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/project/nonparam_project/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/post/</loc>
-    <lastmod>2019-08-13T23:25:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tags/project-in-course/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/project/</loc>
-    <lastmod>2020-05-09T13:51:43+09:00</lastmod>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ygeunkim.github.io/publication/</loc>
-    <lastmod>2019-11-24T15:14:21+09:00</lastmod>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tags/python/</loc>
-    <lastmod>2020-05-09T10:49:59+09:00</lastmod>
+    <loc>https://ygeunkim.github.io/post/kss_spring2019/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/</loc>
-    <lastmod>2020-05-09T13:51:43+09:00</lastmod>
+    <loc>https://ygeunkim.github.io/project/epe_project/</loc>
+    <lastmod>2019-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/tidyverse/</loc>
+    <lastmod>2019-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/knitr/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/rmdtool_project/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/r-package/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/rmarkdown/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/categorical-data/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/project/loglinear3_project/</loc>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/research/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/bookdown/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/event/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
   
 </urlset>
