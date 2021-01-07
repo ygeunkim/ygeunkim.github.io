@@ -138,22 +138,22 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/post/</loc>
-    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/tag/travel/</loc>
     <lastmod>2019-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/post/kss_fall2019/</loc>
+    <loc>https://ygeunkim.github.io/travel/</loc>
     <lastmod>2019-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/post/forum_kssbank/</loc>
+    <loc>https://ygeunkim.github.io/travel/kss_fall2019/</loc>
+    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/travel/forum_kssbank/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -203,7 +203,7 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/post/kss_spring2019/</loc>
+    <loc>https://ygeunkim.github.io/travel/kss_spring2019/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -258,6 +258,10 @@
   </url>
   
   <url>
+    <loc>https://ygeunkim.github.io/blog/</loc>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/contact/</loc>
   </url>
   
@@ -267,6 +271,10 @@
   
   <url>
     <loc>https://ygeunkim.github.io/bookdown/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/post/</loc>
   </url>
   
   <url>
