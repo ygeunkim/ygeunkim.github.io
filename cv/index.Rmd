@@ -19,7 +19,7 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fas fa-link"></i> [ygeunkim.github.io](https://ygeunkim.github.io)
-- <i class="fa fa-envelope"></i> dudrms33@g.skku.edu
+- <i class="fa fa-envelope"></i> dudrms33 at g dot skku dot edu
 <!-- - <i class="fa fa-phone"></i> +82 2-760-1274 -->
 <!-- - For more information, please contact me via email. -->
 
@@ -169,16 +169,16 @@ Participated in project of National Security Research Institute
 - Detect cyber attack in cyber physical system
 - Develop anomaly detection algorithm
 
-### Answering Stack Overflow
+<!-- ### Answering Stack Overflow -->
 
-<a href="https://stackexchange.com/users/14340293"><img src="https://stackexchange.com/users/flair/14340293.png" width="208" height="58" alt="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+<!-- <a href="https://stackexchange.com/users/14340293"><img src="https://stackexchange.com/users/flair/14340293.png" width="208" height="58" alt="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a> -->
 
-<i class="fab fa-stack-overflow"></i> [StackOverflow](https://stackoverflow.com/users/story/10358660)
+<!-- <i class="fab fa-stack-overflow"></i> [StackOverflow](https://stackoverflow.com/users/story/10358660) -->
 
-Sep. 2018 - Present
+<!-- Sep. 2018 - Present -->
 
-- Top 20\% in [r](https://stackoverflow.com/questions/tagged/r) tag
-- [Answered questions mainly about wrangling or visualizing data](https://stackoverflow.com/users/10358660/blended?tab=answers)
+<!-- - Top 20\% in [r](https://stackoverflow.com/questions/tagged/r) tag -->
+<!-- - [Answered questions mainly about wrangling or visualizing data](https://stackoverflow.com/users/10358660/blended?tab=answers) -->
 
 
 <!-- Professional Experience {data-icon=suitcase} -->
@@ -302,6 +302,17 @@ Extracurricular Activities {data-icon=play}
 <!-- Jul. 2019 – Present -->
 
 <!-- Second Vionlin section -->
+
+### Answering Stack Overflow
+
+<a href="https://stackexchange.com/users/14340293"><img src="https://stackexchange.com/users/flair/14340293.png" width="208" height="58" alt="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+
+<i class="fab fa-stack-overflow"></i> [StackOverflow](https://stackoverflow.com/users/story/10358660)
+
+Sep. 2018 - Present
+
+- Top 20\% in [r](https://stackoverflow.com/questions/tagged/r) tag
+- [Answered questions mainly about wrangling or visualizing data](https://stackoverflow.com/users/10358660/blended?tab=answers)
 
 ### Sungkyunkwan University Orchestra
 
