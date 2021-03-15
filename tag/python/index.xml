@@ -13,11 +13,13 @@
     </image>
     
     <item>
-      <title>Anomaly detection on Cyber Physical System using error pattern</title>
+      <title>Anomaly detection on Cyber Physical System</title>
       <link>https://ygeunkim.github.io/project/nsr_project/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
-      <description></description>
+      <description>&lt;p&gt;This project tried to detect anomalies in real time using deep learning error dataset.
+I made a simple Python module in the linked repo (click the &lt;code&gt;Code&lt;/code&gt; button under the title).&lt;/p&gt;
+</description>
     </item>
     
   </channel>
