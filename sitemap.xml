@@ -33,11 +33,6 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tag/project-in-course/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/project/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -48,12 +43,12 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tag/research-project/</loc>
+    <loc>https://ygeunkim.github.io/tag/simulation/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tag/simulation/</loc>
+    <loc>https://ygeunkim.github.io/tag/statistics/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,6 +78,11 @@
   </url>
   
   <url>
+    <loc>https://ygeunkim.github.io/tag/deep-learning/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/tag/python/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
@@ -104,11 +104,6 @@
   
   <url>
     <loc>https://ygeunkim.github.io/author/simon-woo/</loc>
-    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tag/team-project/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -148,11 +143,6 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tag/travel/</loc>
-    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/travel/</loc>
     <lastmod>2019-11-10T00:00:00+00:00</lastmod>
   </url>
@@ -168,12 +158,7 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/publication-type/1/</loc>
-    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/publication/kl_poster/kl_poster/</loc>
+    <loc>https://ygeunkim.github.io/publication-type/0/</loc>
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -194,6 +179,11 @@
   
   <url>
     <loc>https://ygeunkim.github.io/author/jonguk-kim/</loc>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/publication/kl_poster/</loc>
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -289,6 +279,10 @@
   
   <url>
     <loc>https://ygeunkim.github.io/event/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/siho-han/</loc>
   </url>
   
   <url>

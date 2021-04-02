@@ -267,6 +267,16 @@ Mar. 2019 – Jun. 2019
 Selected Publications and Posters {data-icon=file}
 --------------------------------------------------------------------------------
 
+### Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns (*Under revision*)
+
+36th International Conference on ICT Systems Security and Privacy Protection
+
+Oslo, Norway
+
+June 22, 2021 - June 24, 2021
+
+**Young Geun Kim**, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, Simon Woo
+
 ### Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence
 
 Poster for 5th Workshop on Mining and Learning from Time Series, held in conjunction with KDD'19
