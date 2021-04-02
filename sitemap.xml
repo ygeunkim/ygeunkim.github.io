@@ -103,11 +103,6 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tag/datatable/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/category/project/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -123,6 +118,11 @@
   </url>
   
   <url>
+    <loc>https://ygeunkim.github.io/tag/r-package/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/tag/simulation/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -134,6 +134,11 @@
   
   <url>
     <loc>https://ygeunkim.github.io/project/nsr_project/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/author/jinwoo-cho/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -203,11 +208,6 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/author/jinwoo-cho/</loc>
-    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/author/jonguk-kim/</loc>
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url>
@@ -228,27 +228,7 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tag/tidyverse/</loc>
-    <lastmod>2019-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tag/knitr/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ygeunkim.github.io/project/rmdtool_project/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tag/r-package/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tag/rmarkdown/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
   </url>
   

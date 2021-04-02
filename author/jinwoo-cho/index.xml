@@ -5,12 +5,22 @@
     <link>https://ygeunkim.github.io/author/jinwoo-cho/</link>
       <atom:link href="https://ygeunkim.github.io/author/jinwoo-cho/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinwoo Cho</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/author/jinwoo-cho/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Jinwoo Cho</title>
       <link>https://ygeunkim.github.io/author/jinwoo-cho/</link>
     </image>
+    
+    <item>
+      <title>Anomaly detection on Cyber Physical System</title>
+      <link>https://ygeunkim.github.io/project/nsr_project/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
+      <description>&lt;p&gt;This project tried to detect anomalies in real time using deep learning error dataset.
+I made a simple Python module in the linked repo (click the &lt;code&gt;Code&lt;/code&gt; button under the title).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</title>
