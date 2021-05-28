@@ -5,12 +5,22 @@
     <link>https://ygeunkim.github.io/travel/</link>
       <atom:link href="https://ygeunkim.github.io/travel/index.xml" rel="self" type="application/rss+xml" />
     <description>Trips</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Trips</title>
       <link>https://ygeunkim.github.io/travel/</link>
     </image>
+    
+    <item>
+      <title>2021 KSS Autumn Conference</title>
+      <link>https://ygeunkim.github.io/travel/kss_fall2021/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/travel/kss_fall2021/</guid>
+      <description>&lt;p&gt;First time to attend the conference in remote 😄!&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href=&#34;https://www.manuscriptlink.com/society/tkss/conference/tkss2021spring&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.manuscriptlink.com/society/tkss/conference/tkss2021spring&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Visited 2019 KSS Autumn Conference</title>

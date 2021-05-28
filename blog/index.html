@@ -95,6 +95,9 @@
     
 
     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.9.0/instantsearch.min.css" integrity="sha256-ZtmLe16p4jS4/2wPwwH6NzJt460SJzgLmhKrYo5yn7g=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch-theme-algolia.min.css" integrity="sha256-uL8LUd3zkI/lXvc/Hv/oOu8ld6RJcOZiUY/8c+I+3/o=" crossorigin="anonymous">
+    
 
     
     
@@ -367,8 +370,7 @@
 
       <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
         
       </div>
 
@@ -952,13 +954,118 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
+      <a href="/travel/kss_fall2021/" >2021 KSS Autumn Conference</a>
+    </h3>
+
+    
+    <a href="/travel/kss_fall2021/"  class="summary-link">
+      <div class="article-style">
+        2021 The KSS Autumn Conference (2021년도 한국통계학회 춘계학술논문발표회)
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/young-geun-kim/">Young Geun Kim</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 28, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/blog/">blog</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/travel/kss_fall2021/" >
+      <img src="/travel/kss_fall2021/featured_hu91b63a66a501d112d80b7b21a4507eba_2157262_37ce4f23c8175493675b7b8455de72c8.png" data-src="/travel/kss_fall2021/featured_hu91b63a66a501d112d80b7b21a4507eba_2157262_150x0_resize_lanczos_2.png" alt="2021 KSS Autumn Conference" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
       <a href="/travel/kss_fall2019/" >Visited 2019 KSS Autumn Conference</a>
     </h3>
 
     
     <a href="/travel/kss_fall2019/"  class="summary-link">
       <div class="article-style">
-        2019 The KSS Autumn Conference
+        2019 The KSS Autumn Conference (2019년도 한국통계학회 추계학술논문발표회)
       </div>
     </a>
     
@@ -1063,7 +1170,7 @@
     
     <a href="/travel/forum_kssbank/"  class="summary-link">
       <div class="article-style">
-        AI, Statistics, and Central Bank
+        2019 한국통계학회-한국은행 공동포럼 (인공지능, 통계, 그리고 중앙은행)
       </div>
     </a>
     
@@ -1168,7 +1275,7 @@
     
     <a href="/travel/kss_spring2019/"  class="summary-link">
       <div class="article-style">
-        2019 The KSS Spring Conference
+        2019 The KSS Spring Conference (2019년도 한국통계학회 춘계학술논문발표회)
       </div>
     </a>
     
@@ -1389,26 +1496,35 @@
 
     
     
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
+    <script id="search-hit-algolia-template" type="text/html">
+      <div class="search-hit">
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{{_highlightResult.title.value}}}</a>
+          </div>
           <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
+          <p class="search-hit-description">{{{_highlightResult.summary.value}}}</p>
         </div>
-      </div>
       </div>
     </script>
     
 
     
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    
 
     
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch.min.js" integrity="sha256-gFCtPk/sonctyfwYOgjrPoWApQ0rqB6ezBBZ7p32yGc=" crossorigin="anonymous"></script>
+    
+    <script>
+      const algoliaConfig = {
+        appId: "KQU8J326RR",
+        apiKey: "6800e0fe9bfc18b51ef57963864796bf",
+        indexName: "young_blogdown",
+        poweredBy:  false 
+      };
+    </script>
     
 
     
@@ -1435,7 +1551,7 @@
       
     
     
-    <script src="/js/wowchemy.min.572b7caf7fe601716a0f74d67d754c21.js"></script>
+    <script src="/js/wowchemy.min.1c692550b22f7538ed6d9b17dcbdc114.js"></script>
 
     
 
