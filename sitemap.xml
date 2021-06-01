@@ -93,12 +93,12 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/category/post/</loc>
+    <loc>https://ygeunkim.github.io/shiny/lrd-shiny/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/post/</loc>
+    <loc>https://ygeunkim.github.io/shiny/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -113,8 +113,23 @@
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/post/lrd-shiny/</loc>
+    <loc>https://ygeunkim.github.io/category/shiny/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/post/startshiny/</loc>
+    <lastmod>2021-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/category/post/</loc>
+    <lastmod>2021-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/post/</loc>
+    <lastmod>2021-05-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -309,10 +324,6 @@
   
   <url>
     <loc>https://ygeunkim.github.io/talks/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
   
 </urlset>

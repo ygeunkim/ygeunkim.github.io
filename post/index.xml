@@ -5,7 +5,7 @@
     <link>https://ygeunkim.github.io/post/</link>
       <atom:link href="https://ygeunkim.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
@@ -13,11 +13,12 @@
     </image>
     
     <item>
-      <title>Shiny: Generating Long-range-dependent Time Series</title>
-      <link>https://ygeunkim.github.io/post/lrd-shiny/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/post/lrd-shiny/</guid>
-      <description></description>
+      <title>First Shiny App using Flexdashboard</title>
+      <link>https://ygeunkim.github.io/post/startshiny/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/post/startshiny/</guid>
+      <description>&lt;p&gt;I made my first Shiny app on &lt;a href=&#34;https://blended.shinyapps.io/sim-lrd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blended.shinyapps.io/sim-lrd/&lt;/a&gt; 😄.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

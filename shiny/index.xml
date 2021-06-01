@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/shiny/</link>
+      <atom:link href="https://ygeunkim.github.io/shiny/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>https://ygeunkim.github.io/shiny/</link>
+    </image>
+    
+    <item>
+      <title>Generating Long-range-dependent Time Series</title>
+      <link>https://ygeunkim.github.io/shiny/lrd-shiny/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/shiny/lrd-shiny/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
