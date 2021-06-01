@@ -93,17 +93,42 @@
   </url>
   
   <url>
+    <loc>https://ygeunkim.github.io/category/post/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/post/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/r/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/tag/shiny/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ygeunkim.github.io/post/lrd-shiny/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ygeunkim.github.io/travel/kss_fall2021/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/category/blog/</loc>
+    <loc>https://ygeunkim.github.io/tag/conference/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ygeunkim.github.io/tag/conference/</loc>
+    <loc>https://ygeunkim.github.io/category/travel/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -134,11 +159,6 @@
   
   <url>
     <loc>https://ygeunkim.github.io/project/</loc>
-    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/tag/r/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -281,10 +301,6 @@
   
   <url>
     <loc>https://ygeunkim.github.io/bookdown/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ygeunkim.github.io/post/</loc>
   </url>
   
   <url>

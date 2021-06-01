@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Graduate student at Department of Statistics">
+  <meta name="description" content="Flexdashboard (Shiny app) generating multivariate LRD time series. This post is directly connected to the Shiny application.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ygeunkim.github.io/categories/">
+  <link rel="alternate" hreflang="en-us" href="https://ygeunkim.github.io/post/lrd-shiny/">
 
   
 
@@ -290,14 +290,12 @@
   
 
   
-  <link rel="alternate" href="/categories/index.xml" type="application/rss+xml" title="Young Geun Kim">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://ygeunkim.github.io/categories/">
+  <link rel="canonical" href="https://ygeunkim.github.io/post/lrd-shiny/">
 
   
   
@@ -307,35 +305,86 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Young Geun Kim">
-  <meta property="og:url" content="https://ygeunkim.github.io/categories/">
-  <meta property="og:title" content="Categories | Young Geun Kim">
-  <meta property="og:description" content="Graduate student at Department of Statistics"><meta property="og:image" content="https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://ygeunkim.github.io/post/lrd-shiny/">
+  <meta property="og:title" content="Shiny: Generating Long-range-dependent Time Series | Young Geun Kim">
+  <meta property="og:description" content="Flexdashboard (Shiny app) generating multivariate LRD time series. This post is directly connected to the Shiny application."><meta property="og:image" content="https://ygeunkim.github.io/post/lrd-shiny/featured.png">
+  <meta property="twitter:image" content="https://ygeunkim.github.io/post/lrd-shiny/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-06-24T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2021-06-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-06-01T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ygeunkim.github.io/post/lrd-shiny/"
+  },
+  "headline": "Shiny: Generating Long-range-dependent Time Series",
+  
+  "image": [
+    "https://ygeunkim.github.io/post/lrd-shiny/featured.png"
+  ],
+  
+  "datePublished": "2021-06-01T00:00:00Z",
+  "dateModified": "2021-06-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Young Geun Kim"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Young Geun Kim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ygeunkim.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Flexdashboard (Shiny app) generating multivariate LRD time series. This post is directly connected to the Shiny application."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>Categories | Young Geun Kim</title>
+  <title>Shiny: Generating Long-range-dependent Time Series | Young Geun Kim</title>
 
 </head>
 
@@ -684,6 +733,84 @@
   </div>
 
   <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Shiny: Generating Long-range-dependent Time Series</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/young-geun-kim/">Young Geun Kim</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 1, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    0 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/post/">post</a></span>
+  
+
+</div>
+
     
 
 
@@ -697,72 +824,330 @@
 
 
 
+
+<div class="btn-links mb-3">
+  
+  <a class="btn btn-outline-primary my-1" href="http://blended.shinyapps.io/sim-lrd" target="_blank" rel="noopener">Go to Project Site</a>
+  
   
 
-  
-  
-  
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>Categories</h1>
+
+
+
+
+
+
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-    
-    
-    
-    <div>
-      <h2><a href="/category/publication/" >publication</a></h2>
-      <div class="article-style">
-        
-      </div>
+    <div class="article-style">
+      
     </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/category/post/" >post</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/category/travel/" >travel</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/category/project/" >project</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
 
-  
+    
 
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/shiny/">shiny</a>
+  
+  <a class="badge badge-light" href="/tag/time-series/">time-series</a>
+  
+  <a class="badge badge-light" href="/tag/r/">r</a>
+  
 </div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://ygeunkim.github.io/post/lrd-shiny/&amp;text=Shiny:%20Generating%20Long-range-dependent%20Time%20Series" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://ygeunkim.github.io/post/lrd-shiny/&amp;t=Shiny:%20Generating%20Long-range-dependent%20Time%20Series" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Shiny:%20Generating%20Long-range-dependent%20Time%20Series&amp;body=https://ygeunkim.github.io/post/lrd-shiny/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://ygeunkim.github.io/post/lrd-shiny/&amp;title=Shiny:%20Generating%20Long-range-dependent%20Time%20Series" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Shiny:%20Generating%20Long-range-dependent%20Time%20Series%20https://ygeunkim.github.io/post/lrd-shiny/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://ygeunkim.github.io/post/lrd-shiny/&amp;title=Shiny:%20Generating%20Long-range-dependent%20Time%20Series" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://ygeunkim.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/young-geun-kim/avatar_huf1d3a031b8ed791e2fa8dc55d60a330f_3517870_270x270_fill_lanczos_center_2.png" alt="Young Geun Kim"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://ygeunkim.github.io/">Young Geun Kim</a></h5>
+      <h6 class="card-subtitle">Graduate student at Department of Statistics</h6>
+      <p class="card-text">I am a graduate student at statistics, Sungkyunkwan university.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:dudrms33@g.skku.edu" >
+        <i class="fas fa-paper-plane"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ygeunkim" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=hM-D53EAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/young-geun-k-390338175/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/cv/index.html" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+<section id="comments">
+  
+    <script src="https://utteranc.es/client.js"
+        repo="ygeunkim/young-comment"
+        issue-term="pathname"
+        theme="github-dark-orange"
+        label="💬"
+        crossorigin="anonymous"
+        async
+        type="text/javascript">
+</script>
+
+  
+</section>
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/nonparam_project/">Nonparametric statistics course project</a></li>
+      
+      <li><a href="/publication/kl_poster/">Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</a></li>
+      
+      <li><a href="/publication/somifip/">Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</a></li>
+      
+      <li><a href="/project/ecg_experiment/">Coffee-ECG Experiment</a></li>
+      
+      <li><a href="/project/causal_project/">Causal Inference course project</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
   </div>
 
   <div class="page-footer">
