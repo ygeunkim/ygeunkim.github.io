@@ -25,7 +25,10 @@
       <link>https://ygeunkim.github.io/post/startshiny/</link>
       <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/post/startshiny/</guid>
-      <description>&lt;p&gt;I made my first Shiny app on &lt;a href=&#34;https://blended.shinyapps.io/sim-lrd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blended.shinyapps.io/sim-lrd/&lt;/a&gt; 😄.&lt;/p&gt;
+      <description>&lt;p&gt;I made my first Shiny app on &lt;a href=&#34;https://blended.shinyapps.io/sim-lrd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blended.shinyapps.io/sim-lrd/&lt;/a&gt; 😄.
+It was rendered by &lt;code&gt;output: flexdashboard::flex_dashboard&lt;/code&gt; with &lt;code&gt;runtime: shiny&lt;/code&gt;.
+Above &lt;code&gt;Code&lt;/code&gt; button links to the flexdashboard R markdown file in the Github repository.&lt;/p&gt;
+&lt;p&gt;Also, I added a section for the Shiny apps in the research menu in this site.&lt;/p&gt;
 </description>
     </item>
     
