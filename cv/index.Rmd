@@ -267,9 +267,9 @@ Mar. 2019 – Jun. 2019
 Selected Publications and Posters {data-icon=file}
 --------------------------------------------------------------------------------
 
-### Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns (*Under revision*)
+### Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns
 
-36th International Conference on ICT Systems Security and Privacy Protection
+36th International Conference on ICT Systems Security and Privacy Protection - IFIP SEC 2021
 
 Oslo, Norway
 
