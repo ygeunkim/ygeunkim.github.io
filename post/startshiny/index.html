@@ -915,9 +915,40 @@
 
     <div class="article-style">
       <p>I made my first Shiny app on <a href="https://blended.shinyapps.io/sim-lrd/" target="_blank" rel="noopener">https://blended.shinyapps.io/sim-lrd/</a> 😄.
-It was rendered by <code>output: flexdashboard::flex_dashboard</code> with <code>runtime: shiny</code>.
 Above <code>Code</code> button links to the flexdashboard R markdown file in the Github repository.</p>
 <p>Also, I added a section for the Shiny apps in the research menu in this site.</p>
+<h1 id="fast-guide">Fast Guide</h1>
+<h2 id="writing-yaml">Writing <code>yaml</code></h2>
+<p>For <code>yaml</code> output, write <code>flexdashboard::flex_dashborad</code>.
+There are lots of options.
+See the specifics in my repo if you want.</p>
+<pre><code>---
+title: &quot;Generating Multivariate Long-range-dependent Time series&quot;
+output: 
+  flexdashboard::flex_dashboard:
+    source_code: https://github.com/ygeunkim/sim-lrd/blob/master/index.Rmd
+runtime: shiny
+---
+</code></pre>
+<h2 id="template">Template</h2>
+<p>Actually, if you click in the menu,</p>
+<ol>
+<li>File</li>
+<li>New file</li>
+<li>R Markdown</li>
+<li>From Template</li>
+<li>Flex Dashboard</li>
+</ol>
+<p>then the file will have some structure.</p>
+<p><img src="flexdash.png" width="70%" style="display: block; margin: auto;" /></p>
+<p>We can customize the arrangement such as sidebar, row, and column.</p>
+<p>To use <code>shiny</code> engine, I added <code>runtime: shiny</code> with</p>
+<pre><code class="language-r">library(shiny)
+</code></pre>
+<h2 id="comments">Comments</h2>
+<p>The next steps are related to defining input and making the dashboad.
+The website of the package, <a href="https://pkgs.rstudio.com/flexdashboard/" target="_blank" rel="noopener">https://pkgs.rstudio.com/flexdashboard/</a>, is useful.</p>
+<p>If you try the shiny app yourself, click <code>Shiny</code> above 😊</p>
 
     </div>
 
