@@ -103,6 +103,9 @@
     
 
     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.9.0/instantsearch.min.css" integrity="sha256-ZtmLe16p4jS4/2wPwwH6NzJt460SJzgLmhKrYo5yn7g=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch-theme-algolia.min.css" integrity="sha256-uL8LUd3zkI/lXvc/Hv/oOu8ld6RJcOZiUY/8c+I+3/o=" crossorigin="anonymous">
+    
 
     
     
@@ -425,6 +428,41 @@
   
 
 
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
 
 
   <div class="page-header">
@@ -688,6 +726,10 @@
       
 
       
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
       
@@ -1267,6 +1309,23 @@ Above <code>Code</code> button links to the flexdashboard R markdown file in the
     
     
     
+      
+      <script id="search-hit-algolia-template" type="text/html">
+        <div class="search-hit">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{{_highlightResult.title.value}}}</a>
+            </div>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{{_highlightResult.summary.value}}}</p>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch.min.js" integrity="sha256-gFCtPk/sonctyfwYOgjrPoWApQ0rqB6ezBBZ7p32yGc=" crossorigin="anonymous"></script>
+      
+      
+    
 
     
     
@@ -1281,6 +1340,14 @@ Above <code>Code</code> button links to the flexdashboard R markdown file in the
 
     
     
+      
+      
+      
+      
+      
+      
+      
+    
 
     
     
@@ -1290,8 +1357,11 @@ Above <code>Code</code> button links to the flexdashboard R markdown file in the
     
     
     
+      
+      
     
-    <script src="/en/js/wowchemy.min.9d61d83fd2ae986071a8cb13e03df865.js"></script>
+    
+    <script src="/en/js/wowchemy.min.c1c1402c99e1f3a2ae7dfa19548e731d.js"></script>
 
     
 
