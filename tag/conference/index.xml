@@ -5,12 +5,24 @@
     <link>https://ygeunkim.github.io/tag/conference/</link>
       <atom:link href="https://ygeunkim.github.io/tag/conference/index.xml" rel="self" type="application/rss+xml" />
     <description>conference</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Young Geun Kim</copyright><lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Young Geun Kim</copyright><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_300x300_fit_lanczos_2.png</url>
       <title>conference</title>
       <link>https://ygeunkim.github.io/tag/conference/</link>
     </image>
+    
+    <item>
+      <title>IFIP SEC 2021</title>
+      <link>https://ygeunkim.github.io/travel/ifipsec2021/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/travel/ifipsec2021/</guid>
+      <description>&lt;p&gt;I presented my paper:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ygeunkim.github.io/publication/somifip/&#34;&gt;Kim Y.G., Yun JH., Han S., Kim H.C., Woo S.S. (2021) Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns. In: Jøsang A., Futcher L., Hagen J. (eds) ICT Systems Security and Privacy Protection. SEC 2021. IFIP Advances in Information and Communication Technology, vol 625. Springer, Cham. https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;in &lt;strong&gt;Session 11: Machine Learning for Security&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This is my first conference presentation, so I was very nervous 😱&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2021 KSS Autumn Conference</title>
