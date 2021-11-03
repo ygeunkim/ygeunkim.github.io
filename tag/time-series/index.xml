@@ -26,6 +26,14 @@
     </item>
     
     <item>
+      <title>somanomaly: Self Organizing Map for Anomaly Detection</title>
+      <link>https://ygeunkim.github.io/codes/somanomaly_python/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/somanomaly_python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generating Long-range-dependent Time Series</title>
       <link>https://ygeunkim.github.io/shiny/lrd-shiny/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
@@ -84,6 +92,22 @@ The website of the package, &lt;a href=&#34;https://pkgs.rstudio.com/flexdashboa
       <description>&lt;p&gt;This project tried to detect anomalies in real time using deep learning error dataset.
 I made a simple Python module in the linked repo (click the &lt;code&gt;Code&lt;/code&gt; button under the title).&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>swatanomaly: Anomaly Detection using KL Divergence</title>
+      <link>https://ygeunkim.github.io/codes/swatanomaly_pkg/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/swatanomaly_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ceshat: Nonparametric Estimation of CES</title>
+      <link>https://ygeunkim.github.io/codes/ceshat_pkg/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/ceshat_pkg/</guid>
+      <description></description>
     </item>
     
     <item>

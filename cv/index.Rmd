@@ -56,11 +56,11 @@ Education {data-icon=graduation-cap data-concise=true}
 
 ### [Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)
 
-*Graduate student*, Statistics (advisor: [Changryong Baek](https://sites.google.com/view/crbaek))
+*Ph.D. Candidate*, Statistics (advisor: [Changryong Baek](https://sites.google.com/view/crbaek))
 
 [Seoul, Korea, Republic of](https://www.google.com/maps/place/성균관대학교/@37.5882312,126.9914173,17z/data=!4m5!3m4!1s0x357ca2d4cdb87315:0x5b2b20a2005c6114!8m2!3d37.588227!4d126.993606)
 
-Mar. 2019 - Present
+Mar. 2019 - Dec. 2021
 
 Concentration: Statistics
 
@@ -152,7 +152,7 @@ Research Experience {data-icon=laptop}
 Jun. 2019 – Present
 
 - advisor: [Changryong Baek](https://sites.google.com/view/crbaek)
-- Combined Master-Ph.D. degree track in Statistics
+- Integrated Ph.D. program at Statistics
 
 ### Student Researcher
 
@@ -167,49 +167,22 @@ Participated in project of National Security Research Institute
 - Detect cyber attack in cyber physical system
 - Develop anomaly detection algorithm
 
-<!-- ### Answering Stack Overflow -->
 
-<!-- <a href="https://stackexchange.com/users/14340293"><img src="https://stackexchange.com/users/flair/14340293.png" width="208" height="58" alt="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a> -->
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
 
-<!-- <i class="fab fa-stack-overflow"></i> [StackOverflow](https://stackoverflow.com/users/story/10358660) -->
+### Preprocess panel data, part time
 
-<!-- Sep. 2018 - Present -->
+Korea Disabled people’s Development Institute
 
-<!-- - Top 20\% in [r](https://stackoverflow.com/questions/tagged/r) tag -->
-<!-- - [Answered questions mainly about wrangling or visualizing data](https://stackoverflow.com/users/10358660/blended?tab=answers) -->
+Seoul, Korea, Republic of
 
+Sep. 2021 - Oct. 2021
 
-<!-- Professional Experience {data-icon=suitcase} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ### Data Scientist, intern -->
-
-<!-- SupStat Inc. -->
-
-<!-- Beijing, China -->
-
-<!-- 2014 -->
-
-<!-- ::: concise -->
-<!-- - Taught R language to beginners.  -->
-<!-- - Wrote Shiny app demos. -->
-<!-- - Converted statistical tutorials from SPSS to R language. -->
-<!-- ::: -->
-
-<!-- ### Bioinformatician -->
-
-<!-- My Health Gene Technology Co., Ltd. -->
-
-<!-- Beijing, China -->
-
-<!-- 2015 - 2016 -->
-
-<!-- ::: concise -->
-<!-- - Analyzed whole-exome sequencing data.  -->
-<!-- - Wrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq. -->
-<!-- - Studied tumor metastasis and wrote research reports.  -->
-<!-- - Also did case studies to identify the genetic defect causing rare disease. -->
-<!-- ::: -->
+::: concise
+- [Survey of the life of the persons with disabilities](https://www.koddi.or.kr/data/research01_view.jsp?brdNum=7410781)
+- Required to use `SAS`: `proc surveymeans` and `proc surveyfreq`
+:::
 
 
 Teaching Assistanship {data-icon=chalkboard-teacher}
@@ -287,29 +260,9 @@ Aug 5, 2019
 
 Jinwoo Cho, Shahroz Tariq, Sangyup Lee, **Young Geun Kim**, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon Woo
 
-<!-- ### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling. -->
-
-<!-- J Cell Sci. 2016 May 15;129(10):2075-84. -->
-
-<!-- N/A -->
-
-<!-- 2016 -->
-
-<!-- Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W. -->
-
 
 Extracurricular Activities {data-icon=play}
 --------------------------------------------------------------------------------
-
-<!-- ### [Gaudium](https://gaudium.modoo.at) -->
-
-<!-- Amateur Orchestra -->
-
-<!-- Seoul, Korea, Republic of -->
-
-<!-- Jul. 2019 – Present -->
-
-<!-- Second Vionlin section -->
 
 ### Answering Stack Overflow
 

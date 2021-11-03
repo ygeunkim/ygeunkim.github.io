@@ -5,12 +5,20 @@
     <link>https://ygeunkim.github.io/</link>
       <atom:link href="https://ygeunkim.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Young Geun Kim</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Young Geun Kim</copyright><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Young Geun Kim</copyright><lastBuildDate>Mon, 25 Oct 2021 02:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_300x300_fit_lanczos_2.png</url>
       <title>Young Geun Kim</title>
       <link>https://ygeunkim.github.io/</link>
     </image>
+    
+    <item>
+      <title>(Seminar) R Statistical Computation and Packages</title>
+      <link>https://ygeunkim.github.io/talk/seminar-r-statistical-computation-and-packages/</link>
+      <pubDate>Mon, 25 Oct 2021 02:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/talk/seminar-r-statistical-computation-and-packages/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
@@ -35,6 +43,14 @@
 &lt;p&gt;in &lt;strong&gt;Session 11: Machine Learning for Security&lt;/strong&gt; (06-24 11:00 CEST - 13:00 CEST).&lt;/p&gt;
 &lt;p&gt;This is my first conference presentation, so I was very nervous 😱&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>somanomaly: Self Organizing Map for Anomaly Detection</title>
+      <link>https://ygeunkim.github.io/codes/somanomaly_python/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/somanomaly_python/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -278,6 +294,22 @@ I made a simple Python module in the linked repo (click the &lt;code&gt;Code&lt;
     </item>
     
     <item>
+      <title>swatanomaly: Anomaly Detection using KL Divergence</title>
+      <link>https://ygeunkim.github.io/codes/swatanomaly_pkg/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/swatanomaly_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ceshat: Nonparametric Estimation of CES</title>
+      <link>https://ygeunkim.github.io/codes/ceshat_pkg/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/ceshat_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nonparametric statistics course project</title>
       <link>https://ygeunkim.github.io/project/nonparam_project/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
@@ -354,37 +386,34 @@ It was held in Kangwon national university.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Research Tool Package</title>
-      <link>https://ygeunkim.github.io/project/epe_project/</link>
+      <title>propensityml: Propensity Score Weighting using Machine Learning</title>
+      <link>https://ygeunkim.github.io/codes/propensityml_pkg/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
-      <description>&lt;h1 id=&#34;youngtool&#34;&gt;youngtool&lt;/h1&gt;
-&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;!-- badges: start --&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;!-- badges: end --&gt;
-&lt;ul&gt;
-&lt;li&gt;This package can do Monte Carlo simulation using &lt;code&gt;data.table&lt;/code&gt; structure and compute the expected test error of the model. Actually, I provide optimism feature but it might be useless in this setting.&lt;/li&gt;
-&lt;li&gt;Model functions in &lt;code&gt;R&lt;/code&gt; has several forms of arguments, e.g. &lt;code&gt;formula, data&lt;/code&gt; or &lt;code&gt;x, y&lt;/code&gt;, etc.&lt;/li&gt;
-&lt;li&gt;I am trying to cover every model function.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#39;https://github.com/ygeunkim/youngtool&#39;&gt;&lt;img src=&#39;https://raw.githubusercontent.com/ygeunkim/youngtool/master/man/figures/logo.png&#39; align=&#34;center&#34; height=&#34;139&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://ygeunkim.github.io/codes/propensityml_pkg/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>R markdown tool package</title>
-      <link>https://ygeunkim.github.io/project/rmdtool_project/</link>
+      <title>youngtool: Research Tool Package</title>
+      <link>https://ygeunkim.github.io/codes/youngtool_pkg/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/youngtool_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmdtool: R markdown tool package</title>
+      <link>https://ygeunkim.github.io/codes/rmdtool_pkg/</link>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/rmdtool_project/</guid>
+      <guid>https://ygeunkim.github.io/codes/rmdtool_pkg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Loglinear Models for Three-way Tables</title>
-      <link>https://ygeunkim.github.io/project/loglinear3_project/</link>
+      <link>https://ygeunkim.github.io/codes/loglinear3_r/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/loglinear3_project/</guid>
+      <guid>https://ygeunkim.github.io/codes/loglinear3_r/</guid>
       <description></description>
     </item>
     
@@ -538,6 +567,14 @@ Three
       <link>https://ygeunkim.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ygeunkim.github.io/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/software/</guid>
       <description></description>
     </item>
     

@@ -212,37 +212,10 @@ I made a simple Python module in the linked repo (click the &lt;code&gt;Code&lt;
     </item>
     
     <item>
-      <title>Research Tool Package</title>
-      <link>https://ygeunkim.github.io/project/epe_project/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/epe_project/</guid>
-      <description>&lt;h1 id=&#34;youngtool&#34;&gt;youngtool&lt;/h1&gt;
-&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;!-- badges: start --&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#experimental&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-experimental-orange.svg&#34; alt=&#34;Lifecycle: experimental&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;!-- badges: end --&gt;
-&lt;ul&gt;
-&lt;li&gt;This package can do Monte Carlo simulation using &lt;code&gt;data.table&lt;/code&gt; structure and compute the expected test error of the model. Actually, I provide optimism feature but it might be useless in this setting.&lt;/li&gt;
-&lt;li&gt;Model functions in &lt;code&gt;R&lt;/code&gt; has several forms of arguments, e.g. &lt;code&gt;formula, data&lt;/code&gt; or &lt;code&gt;x, y&lt;/code&gt;, etc.&lt;/li&gt;
-&lt;li&gt;I am trying to cover every model function.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#39;https://github.com/ygeunkim/youngtool&#39;&gt;&lt;img src=&#39;https://raw.githubusercontent.com/ygeunkim/youngtool/master/man/figures/logo.png&#39; align=&#34;center&#34; height=&#34;139&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R markdown tool package</title>
-      <link>https://ygeunkim.github.io/project/rmdtool_project/</link>
-      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/rmdtool_project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Loglinear Models for Three-way Tables</title>
-      <link>https://ygeunkim.github.io/project/loglinear3_project/</link>
+      <link>https://ygeunkim.github.io/codes/loglinear3_r/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/loglinear3_project/</guid>
+      <guid>https://ygeunkim.github.io/codes/loglinear3_r/</guid>
       <description></description>
     </item>
     

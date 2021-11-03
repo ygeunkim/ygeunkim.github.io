@@ -181,5 +181,13 @@ sample(LETTERS[1:4])
 </description>
     </item>
     
+    <item>
+      <title>propensityml: Propensity Score Weighting using Machine Learning</title>
+      <link>https://ygeunkim.github.io/codes/propensityml_pkg/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/propensityml_pkg/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
