@@ -36,3 +36,5 @@ vignettes/*.pdf
 rsconnect/
 
 twitter.csv
+
+.DS_Store
