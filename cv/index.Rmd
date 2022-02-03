@@ -27,7 +27,7 @@ Contact Info {#contact}
 Skills and Expertise {#skills}
 --------------------------------------------------------------------------------
 
-- Displines: Statistics, Statistical learning, Machine learning
+- Displines: Statistics, Time series analysis
 - Technical skills: R, SAS, LaTex, Python
 <!-- - <i class="fab fa-researchgate"></i> [Researchgate profile](https://www.researchgate.net/profile/Young_Geun_Kim2) -->
 - <i class="fa fa-github"></i> [github.com/ygeunkim](https://github.com/ygeunkim)
@@ -140,6 +140,40 @@ Awarded based on GPA in each semester
 Fall 2013
 
 
+Selected Publications and Posters {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series (Accepted)
+
+The 37th ACM/SIGAPP Symposium On Applied Computing - SAC 2022
+
+Virtual
+
+April 25, 2022 - April 29, 2022
+
+Jeong-Han Yun, Jonguk Kim, Won-Seok Hwang, **Young Geun Kim**, Simon S. Woo, Byung-Gil Min
+
+### Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns
+
+36th International Conference on ICT Systems Security and Privacy Protection - IFIP SEC 2021
+
+Oslo, Norway
+
+June 22, 2021 - June 24, 2021
+
+**Young Geun Kim**, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, Simon S. Woo
+
+### Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence
+
+Poster for 5th Workshop on Mining and Learning from Time Series, held in conjunction with KDD'19
+
+Anchorage, Alaska, USA
+
+Aug 5, 2019
+
+Jinwoo Cho, Shahroz Tariq, Sangyup Lee, **Young Geun Kim**, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon S. Woo
+
+
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
@@ -166,23 +200,6 @@ Participated in project of National Security Research Institute
 
 - Detect cyber attack in cyber physical system
 - Develop anomaly detection algorithm
-
-
-Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-### Preprocess panel data, part time
-
-Korea Disabled people’s Development Institute
-
-Seoul, Korea, Republic of
-
-Sep. 2021 - Oct. 2021
-
-::: concise
-- [Survey of the life of the persons with disabilities](https://www.koddi.or.kr/data/research01_view.jsp?brdNum=7410781)
-- Required to use `SAS`: `proc surveymeans` and `proc surveyfreq`
-:::
 
 
 Teaching Assistanship {data-icon=chalkboard-teacher}
@@ -237,28 +254,21 @@ Graduate Merit Scholarship TA
 Mar. 2019 – Jun. 2019
 
 
-Selected Publications and Posters {data-icon=file}
+Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
-### Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns
+### Preprocess panel data, part time
 
-36th International Conference on ICT Systems Security and Privacy Protection - IFIP SEC 2021
+Korea Disabled people’s Development Institute
 
-Oslo, Norway
+Seoul, Korea, Republic of
 
-June 22, 2021 - June 24, 2021
+Sep. 2021 - Oct. 2021
 
-**Young Geun Kim**, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, Simon Woo
-
-### Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence
-
-Poster for 5th Workshop on Mining and Learning from Time Series, held in conjunction with KDD'19
-
-Anchorage, Alaska, USA
-
-Aug 5, 2019
-
-Jinwoo Cho, Shahroz Tariq, Sangyup Lee, **Young Geun Kim**, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon Woo
+::: concise
+- [Survey of the life of the persons with disabilities](https://www.koddi.or.kr/data/research01_view.jsp?brdNum=7410781)
+- Required to use `SAS`: `proc surveymeans` and `proc surveyfreq`
+:::
 
 
 Extracurricular Activities {data-icon=play}
