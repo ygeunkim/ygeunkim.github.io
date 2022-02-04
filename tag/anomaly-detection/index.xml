@@ -5,25 +5,12 @@
     <link>https://ygeunkim.github.io/tag/anomaly-detection/</link>
       <atom:link href="https://ygeunkim.github.io/tag/anomaly-detection/index.xml" rel="self" type="application/rss+xml" />
     <description>anomaly-detection</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_300x300_fit_lanczos_2.png</url>
       <title>anomaly-detection</title>
       <link>https://ygeunkim.github.io/tag/anomaly-detection/</link>
     </image>
-    
-    <item>
-      <title>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</title>
-      <link>https://ygeunkim.github.io/publication/nndsac/</link>
-      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/nndsac/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
-&lt;div id=&#34;ref-yunsac2022&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Yun, Jeong-Han, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, and Byung-Gil Min. 2022. “Residual Size Is Not Enough for Anomaly Detection: Improving Detection Performance Using Residual Similarity in Multivariate Time Series.” In &lt;em&gt;SAC ’21: Proceedings of the 37th Annual ACM Symposium on Applied Computing&lt;/em&gt;, 87–96. New York, NY, USA: Association for Computing Machinery.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
     
     <item>
       <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
@@ -77,22 +64,13 @@ I made a simple Python module in the linked repo (click the &lt;code&gt;Code&lt;
     </item>
     
     <item>
-      <title>Poster: Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</title>
+      <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</title>
       <link>https://ygeunkim.github.io/publication/kl_poster/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/publication/kl_poster/</guid>
-      <description>&lt;!-- ```{r, include=FALSE, message=FALSE, warning=FALSE} --&gt;
-&lt;!-- library(RefManageR) --&gt;
-&lt;!-- bib &lt;- ReadBib(&#34;cite.bib&#34;) --&gt;
-&lt;!-- NoCite(bib, &#34;*&#34;) --&gt;
-&lt;!-- ``` --&gt;
-&lt;!-- ## Citation --&gt;
-&lt;!-- ```{r, echo=FALSE, comment=NULL, results=&#39;asis&#39;} --&gt;
-&lt;!-- PrintBibliography(bib, .opts = list(style = &#34;markdown&#34;, max.names = 1, bib.style = &#34;authoryear&#34;, hyperlink = FALSE)) --&gt;
-&lt;!-- ``` --&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
 &lt;div id=&#34;ref-chomilets2019&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.” Anchorage, Alaska, USA.&lt;/p&gt;
+&lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon S. Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.” Anchorage, Alaska, USA.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>

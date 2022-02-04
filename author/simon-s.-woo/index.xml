@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jeong-Han Yun | Young Geun Kim</title>
-    <link>https://ygeunkim.github.io/author/jeong-han-yun/</link>
-      <atom:link href="https://ygeunkim.github.io/author/jeong-han-yun/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jeong-Han Yun</description>
+    <title>Simon S. Woo | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/author/simon-s.-woo/</link>
+      <atom:link href="https://ygeunkim.github.io/author/simon-s.-woo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Simon S. Woo</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/author/jeong-han-yun/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
-      <title>Jeong-Han Yun</title>
-      <link>https://ygeunkim.github.io/author/jeong-han-yun/</link>
+      <url>https://ygeunkim.github.io/author/simon-s.-woo/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Simon S. Woo</title>
+      <link>https://ygeunkim.github.io/author/simon-s.-woo/</link>
     </image>
     
     <item>
@@ -22,6 +22,16 @@
 &lt;p&gt;Kim, Young Geun, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, and Simon S. Woo. 2021. “Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns.” In &lt;em&gt;ICT Systems Security and Privacy Protection&lt;/em&gt;, edited by Audun Jøsang, Lynn Futcher, and Janne Hagen, 382–97. Cham: Springer International Publishing.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Anomaly detection on Cyber Physical System</title>
+      <link>https://ygeunkim.github.io/project/nsr_project/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
+      <description>&lt;p&gt;This project tried to detect anomalies in real time using deep learning error dataset.
+I made a simple Python module in the linked repo (click the &lt;code&gt;Code&lt;/code&gt; button under the title).&lt;/p&gt;
 </description>
     </item>
     
