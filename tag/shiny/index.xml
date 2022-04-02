@@ -7,7 +7,7 @@
     <description>shiny</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_300x300_fit_lanczos_2.png</url>
+      <url>https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_300x300_fit_lanczos_3.png</url>
       <title>shiny</title>
       <link>https://ygeunkim.github.io/tag/shiny/</link>
     </image>
@@ -51,7 +51,7 @@ runtime: shiny
 &lt;li&gt;Flex Dashboard&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;then the file will have some structure.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;flexdash.png&#34; width=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;flexdash.png&#34; width=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;We can customize the arrangement such as sidebar, row, and column.&lt;/p&gt;
 &lt;p&gt;To use &lt;code&gt;shiny&lt;/code&gt; engine, I added &lt;code&gt;runtime: shiny&lt;/code&gt; with&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(shiny)
