@@ -1,0 +1,2713 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Young Geun Kim" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Ph.D. Candidate at Department of Statistics" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ygeunkim.github.io/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#ff3860" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+      
+    
+
+    
+    
+    
+
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.9.0/instantsearch.min.css" integrity="sha256-ZtmLe16p4jS4/2wPwwH6NzJt460SJzgLmhKrYo5yn7g=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch-theme-algolia.min.css" integrity="sha256-uL8LUd3zkI/lXvc/Hv/oOu8ld6RJcOZiUY/8c+I+3/o=" crossorigin="anonymous">
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0d6f58b6502d1e3bf50a2c8c2222536d.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8MDJTTDCK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-N8MDJTTDCK', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Young Geun Kim" />
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu4230a2af565661a24a3c1570e705c8f8_150008_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4230a2af565661a24a3c1570e705c8f8_150008_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://ygeunkim.github.io/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Young Geun Kim" />
+  <meta property="og:url" content="https://ygeunkim.github.io/" />
+  <meta property="og:title" content="Young Geun Kim" />
+  <meta property="og:description" content="Ph.D. Candidate at Department of Statistics" /><meta property="og:image" content="https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_300x300_fit_lanczos_3.png" />
+    <meta property="twitter:image" content="https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2022-04-02T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ygeunkim.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://ygeunkim.github.io/"
+}
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Young Geun Kim</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_0x70_resize_lanczos_3.png" alt="Young Geun Kim"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_0x70_resize_lanczos_3.png" alt="Young Geun Kim"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#bookdown" data-target="#bookdown"><span>Bookdown</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/research/"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/software/"><span>Software</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contact/"><span>About/Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="about" class="home-section wg-about  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle" src="/author/young-geun-kim/avatar_hucc980f41d44546dfe8dc45f5e262aa9b_3342578_270x270_fill_lanczos_center_3.png" alt="Young Geun Kim">
+      
+
+      <div class="portrait-title">
+        <h2>Young Geun Kim</h2>
+        <h3>Ph.D. Candidate at Department of Statistics</h3>
+
+        
+        <h3>
+          <a href="https://www.skku.edu/eng/" target="_blank" rel="noopener">
+          <span>Sungkyunkwan University (SKKU)</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <li>
+          <a href="mailto:dudrms33@g.skku.edu"  aria-label="paper-plane">
+            <i class="fas fa-paper-plane big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/ygeunkim" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=hM-D53EAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="google-scholar">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/young-geun-k-390338175/" target="_blank" rel="noopener" aria-label="linkedin">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/cv/index.html"  aria-label="cv">
+            <i class="ai ai-cv big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>Biography</h1>
+
+    <div class="article-style">
+      <p>Welcome to Young Geun Kim&rsquo;s long-range dependent academic path! Young-geun Kim is a Ph.D. candidate at statistics, Sungkyunkwan University (SKKU).
+His research interest mainly begins with a time series. It includes high-dimensional time series, long-range dependency, change point detection, et cetera.
+He is developing forecasting models for multivariate high-frequency data.</p>
+
+    </div>
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <div class="section-subheading">Interests</div>
+        <ul class="ul-interests mb-0">
+          
+          <li>Long-range dependence</li>
+          
+          <li>Vector autoregression</li>
+          
+          <li>Bayesian approach to time series</li>
+          
+          <li>Change point analysis</li>
+          
+          <li>Anomaly detection</li>
+          
+          <li>and more 🤔</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <div class="section-subheading">Education</div>
+        <ul class="ul-edu fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Ph.D. Candidate in Statistics, 2021</p>
+              <p class="institution">Sungkyunkwan University, Seoul, Korea</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">B.E. in Statistics, 2019</p>
+              <p class="institution">Sungkyunkwan University, Seoul, Korea</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="featured" class="home-section wg-featured  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Recent Publications</h1>
+            <p class="mt-1">Go to <a href="/research/">Research page &gt;</a></p>
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/somifip/" >Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</a>
+    </div>
+
+    
+    <a href="/publication/somifip/"  class="summary-link">
+      <div class="article-style">
+        IFIP SEC 2021 - Oslo, Norway
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      <a href="/author/young-geun-kim/">Young Geun Kim</a></span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="First author"></i>, <span >
+      <a href="/author/jeong-han-yun/">Jeong-Han Yun</a></span>, <span >
+      <a href="/author/siho-han/">Siho Han</a></span>, <span >
+      <a href="/author/hyoung-chun-kim/">Hyoung Chun Kim</a></span>, <span >
+      <a href="/author/simon-s.-woo/">Simon S. Woo</a></span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Last author"></i>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://link.springer.com/content/pdf/10.1007%2F978-3-030-78120-0_25.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/somifip/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/ygeunkim/somanomaly" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/nsr_project" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publish/ifipsec2021speak.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://itrust.sutd.edu.sg/itrust-labs-home/itrust-labs_swat/" target="_blank" rel="noopener">
+    
+    Data - SWaT
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/icsdataset/hai" target="_blank" rel="noopener">
+    
+    Data - HAI
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/somifip/" >
+      <img src="/publication/somifip/featured_hu8bb79b2a910a103276f0c5d0a40ccc6e_1177016_150x0_resize_q75_lanczos.jpg" alt="Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/kl_poster/" >Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</a>
+    </div>
+
+    
+    <a href="/publication/kl_poster/"  class="summary-link">
+      <div class="article-style">
+        5th Workshop on Mining and Learning from Time Series, held in conjunction with KDD'19 Aug 5, 2019 - Anchorage, Alaska, USA
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/jinwoo-cho/">Jinwoo Cho</a></span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="First author"></i>, <span >
+      <a href="/author/shahroz-tariq/">Shahroz Tariq</a></span>, <span >
+      <a href="/author/sangyup-lee/">Sangyup Lee</a></span>, <span class="author-highlighted">
+      <a href="/author/young-geun-kim/">Young Geun Kim</a></span>, <span >
+      <a href="/author/jeong-han-yun/">Jeong-Han Yun</a></span>, <span >
+      <a href="/author/jonguk-kim/">Jonguk Kim</a></span>, <span >
+      <a href="/author/hyoung-chun-kim/">Hyoung Chun Kim</a></span>, <span >
+      <a href="/author/simon-s.-woo/">Simon S. Woo</a></span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Last author"></i>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://milets19.github.io/papers/milets19_poster_6.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/kl_poster/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/ygeunkim/swatanomaly" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/#swat" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/nsr_project" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/kl_poster/" >
+      <img src="/publication/kl_poster/featured_hu87d0f0795cfbed1cfce6525a22d38294_30595_150x0_resize_lanczos_3.png" alt="Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="teaching" class="home-section wg-accomplishments  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Teaching Assistantships</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://skb.skku.edu/en/index.do" target="_blank" rel="noopener"><img src="/media/icons/brands/skk_gsb.svg" width="56px" height="56px" alt="SKK GSB"></a></div>
+          <div>
+        <a href="https://skb.skku.edu/gsb/AIMBA/Curriculum.do" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Data Analysis and Modeling 2</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://skb.skku.edu/en/index.do" target="_blank" rel="noopener">SKK GSB</a><span class="middot-divider"></span>
+
+              Nov 2020
+              
+              – Dec 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+          <div class="card-text"><ul>
+<li>Instructor: Changryong Baek</li>
+<li>Time series analysis course for KB bank employees</li>
+<li>in <a href="https://skb.skku.edu/gsb/AIMBA/Overview.do">AI MBA</a></li>
+</ul>
+</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://stat.skku.edu/" target="_blank" rel="noopener"><img src="/media/icons/brands/skku.svg" width="56px" height="56px" alt="SKKU"></a></div>
+          <div>
+        <a href="https://stat.skku.edu/stat/under/under_intro.do?pager.offset=15#a" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">보험통계 (Insurance Statistics) - STA3018</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://stat.skku.edu/" target="_blank" rel="noopener">SKKU</a><span class="middot-divider"></span>
+
+              Mar 2020
+              
+              – Jun 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+          <div class="card-text"><ul>
+<li>Instructor: SooYeon Kwon</li>
+<li>Graduate Merit Scholarship Teaching Assistant</li>
+</ul>
+</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://sites.google.com/view/crbaek" target="_blank" rel="noopener"><img src="/media/icons/brands/skku.svg" width="56px" height="56px" alt="SKKU"></a></div>
+          <div>
+        <a href="https://stat.skku.edu/stat/under/under_intro.do#a" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Introduction to Time Series Analysis - STA3001</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://sites.google.com/view/crbaek" target="_blank" rel="noopener">SKKU</a><span class="middot-divider"></span>
+
+              Mar 2020
+              
+              – Jun 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+          <div class="card-text">Instructor: Changryong Baek</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://sites.google.com/view/crbaek" target="_blank" rel="noopener"><img src="/media/icons/brands/skku.svg" width="56px" height="56px" alt="SKKU"></a></div>
+          <div>
+        <a href="https://stat.skku.edu/stat/graduate/grad_intro.do?pager.offset=30#a" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Recent Advances in Applied Statistics - STA5037</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://sites.google.com/view/crbaek" target="_blank" rel="noopener">SKKU</a><span class="middot-divider"></span>
+
+              Mar 2020
+              
+              – Jun 2020
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+          <div class="card-text">Instructor: Changryong Baek</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://stat.skku.edu/" target="_blank" rel="noopener"><img src="/media/icons/brands/skku.svg" width="56px" height="56px" alt="SKKU"></a></div>
+          <div>
+        <a href="https://stat.skku.edu/stat/under/under_intro.do#a" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">통계수학 (Mathematics for Statistics) - STA2008</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://stat.skku.edu/" target="_blank" rel="noopener">SKKU</a><span class="middot-divider"></span>
+
+              Sep 2019
+              
+              – Dec 2019
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+          <div class="card-text"><ul>
+<li>Instructor: Soo-Hyung An</li>
+<li>Graduate Merit Scholarship Teaching Assistant</li>
+</ul>
+</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body">
+        <div class="d-flex align-content-start">
+          <div class="mr-2 mb-2"><a href="https://stat.skku.edu/" target="_blank" rel="noopener"><img src="/media/icons/brands/skku.svg" width="56px" height="56px" alt="SKKU"></a></div>
+          <div>
+        <a href="https://stat.skku.edu/stat/under/under_intro.do#a" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">행렬대수학 (Matrix Algebra for Statistics) - STA2017</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://stat.skku.edu/" target="_blank" rel="noopener">SKKU</a><span class="middot-divider"></span>
+
+              Mar 2019
+              
+              – Jun 2019
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+          <div class="card-text"><ul>
+<li>Instructor: Soo-Hyung An</li>
+<li>Graduate Merit Scholarship Teaching Assistant</li>
+</ul>
+</div>
+        
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="bookdown" class="home-section wg-slider   carousel slide"  data-ride="carousel" data-interval="5000">
+   <div class="home-section-bg " ></div>
+    
+
+    
+
+      
+
+
+
+
+<ol class="carousel-indicators">
+  
+  <li data-target="#bookdown" data-slide-to="0" class="active"></li>
+  
+  <li data-target="#bookdown" data-slide-to="1" ></li>
+  
+  <li data-target="#bookdown" data-slide-to="2" ></li>
+  
+</ol>
+
+
+<div class="carousel-inner">
+  
+
+    
+    
+      
+    
+    
+      
+    
+    
+
+  <div class="wg-hero dark carousel-item active" style=" height: 300px; background-color: #666;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title">
+          <a href="https://github.com/ygeunkim/regression-analysis">Regression Analysis</a>
+        </h1>
+
+        
+        <p class="hero-lead" style="margin: 0 auto 0 auto;">
+          STA5017, SKKU, Spring 2019
+        </p>
+        
+
+        
+        
+        
+        
+          
+        
+        <p>
+          <a href="books/regression-analysis.pdf" class="btn btn-light btn-lg"><i class="fas fa-book" style="padding-right: 10px;"></i>PDF</a>
+        </p>
+        
+      </div>
+  </div>
+  
+
+    
+    
+      
+    
+    
+      
+    
+    
+
+  <div class="wg-hero dark carousel-item" style=" height: 300px; background-color: #555;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title">
+          <a href="https://github.com/ygeunkim/statistical-computing">Statistical Computing</a>
+        </h1>
+
+        
+        <p class="hero-lead" style="margin: 0 auto 0 auto;">
+          STA5011, SKKU, Spring 2019
+        </p>
+        
+
+        
+        
+        
+        
+          
+        
+        <p>
+          <a href="books/statistical-computing.pdf" class="btn btn-light btn-lg"><i class="fas fa-book" style="padding-right: 10px;"></i>PDF</a>
+        </p>
+        
+      </div>
+  </div>
+  
+
+    
+    
+      
+    
+    
+      
+    
+    
+
+  <div class="wg-hero dark carousel-item" style=" height: 300px; background-color: #333;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title">
+          <a href="https://github.com/ygeunkim/CDA">Categorical Data Analysis</a>
+        </h1>
+
+        
+        <p class="hero-lead" style="margin: 0 auto 0 auto;">
+          STA5004, SKKU, Fall 2018
+        </p>
+        
+
+        
+        
+        
+        
+          
+        
+        <p>
+          <a href="books/categorical.pdf" class="btn btn-light btn-lg"><i class="fas fa-book" style="padding-right: 10px;"></i>PDF</a>
+        </p>
+        
+      </div>
+  </div>
+  
+</div>
+
+
+<a class="carousel-control-prev" href="#bookdown" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#bookdown" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+  <span class="sr-only">Next</span>
+</a>
+
+
+    
+
+    
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="posts" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Recent Posts</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/tscp/" >Univariate Change Point Analysis</a>
+    </div>
+
+    
+    <a href="/post/tscp/"  class="summary-link">
+      <div class="article-style">
+        Introduction to change-point detection techniques. Focusing on univariate time series, we talk about both single and multiple changes in mean.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/young-geun-kim/">Young Geun Kim</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 2, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    168 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/post/">post</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/post/tscp/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/tscp/" >
+      <img src="/post/tscp/featured_hu2e4e64d62d0ad1c4459bc4fc6300d941_3778764_150x0_resize_q75_lanczos.jpg" alt="Univariate Change Point Analysis" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/startshiny/" >First Shiny App using Flexdashboard</a>
+    </div>
+
+    
+    <a href="/post/startshiny/"  class="summary-link">
+      <div class="article-style">
+        Shiny app generating LRD time series
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/young-geun-kim/">Young Geun Kim</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jun 21, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/post/">post</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/ygeunkim/sim-lrd/blob/master/index.Rmd" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://blended.shinyapps.io/sim-lrd/" target="_blank" rel="noopener">
+    
+    Shiny
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/startshiny/" >
+      <img src="/post/startshiny/featured_hu82f9ed146a88664a950f11d415b9bd67_349450_150x0_resize_lanczos_3.png" alt="First Shiny App using Flexdashboard" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="tags" class="home-section wg-tag-cloud  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Popular Topics</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+
+    
+    
+    
+    
+    
+    
+
+    <div class="tag-cloud">
+      
+        
+        
+        
+        <a href="/tag/anomaly-detection/" style="font-size:1.6713882572019783rem">anomaly-detection</a>
+      
+        
+        
+        
+        <a href="/tag/categorical-data/" style="font-size:0.7rem">categorical-data</a>
+      
+        
+        
+        
+        <a href="/tag/causal-inference/" style="font-size:1.295603982988724rem">causal-inference</a>
+      
+        
+        
+        
+        <a href="/tag/change-point/" style="font-size:0.7rem">change-point</a>
+      
+        
+        
+        
+        <a href="/tag/conference/" style="font-size:0.7rem">conference</a>
+      
+        
+        
+        
+        <a href="/tag/deep-learning/" style="font-size:1.295603982988724rem">deep-learning</a>
+      
+        
+        
+        
+        <a href="/tag/experimental-design/" style="font-size:0.7rem">experimental-design</a>
+      
+        
+        
+        
+        <a href="/tag/nonparametric-statistics/" style="font-size:1.0757842742132542rem">nonparametric-statistics</a>
+      
+        
+        
+        
+        <a href="/tag/python/" style="font-size:1.295603982988724rem">python</a>
+      
+        
+        
+        
+        <a href="/tag/r/" style="font-size:1.4515685484265082rem">r</a>
+      
+        
+        
+        
+        <a href="/tag/r-package/" style="font-size:1.8273528226397624rem">r-package</a>
+      
+        
+        
+        
+        <a href="/tag/rcpp/" style="font-size:0.7rem">Rcpp</a>
+      
+        
+        
+        
+        <a href="/tag/seminar/" style="font-size:0.7rem">seminar</a>
+      
+        
+        
+        
+        <a href="/tag/shiny/" style="font-size:1.0757842742132542rem">shiny</a>
+      
+        
+        
+        
+        <a href="/tag/simulation/" style="font-size:1.6713882572019783rem">simulation</a>
+      
+        
+        
+        
+        <a href="/tag/statistics/" style="font-size:1.4515685484265082rem">statistics</a>
+      
+        
+        
+        
+        <a href="/tag/time-series/" style="font-size:1.9483283381258658rem">time-series</a>
+      
+    </div>
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2022 Young Geun Kim
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-algolia-template" type="text/html">
+        <div class="search-hit">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{{_highlightResult.title.value}}}</a>
+            </div>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{{_highlightResult.summary.value}}}</p>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch.min.js" integrity="sha256-gFCtPk/sonctyfwYOgjrPoWApQ0rqB6ezBBZ7p32yGc=" crossorigin="anonymous"></script>
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.5a4f01cc585649e7fc85a754e9bb49c0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

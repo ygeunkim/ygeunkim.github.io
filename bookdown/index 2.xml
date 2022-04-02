@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bookdown | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/bookdown/</link>
+      <atom:link href="https://ygeunkim.github.io/bookdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bookdown</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright>
+    <image>
+      <url>https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_300x300_fit_lanczos_3.png</url>
+      <title>Bookdown</title>
+      <link>https://ygeunkim.github.io/bookdown/</link>
+    </image>
+    
+  </channel>
+</rss>

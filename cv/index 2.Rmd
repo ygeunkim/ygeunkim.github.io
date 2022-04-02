@@ -1,0 +1,299 @@
+---
+title: "Young Geun Kim"
+author: Young Geun Kim
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+---
+
+Aside
+================================================================================
+
+
+![Young Geun Kim](cv_avatar.png){width=80%}
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fas fa-link"></i> [ygeunkim.github.io](https://ygeunkim.github.io)
+- <i class="fa fa-envelope"></i> dudrms33 at g dot skku dot edu
+<!-- - <i class="fa fa-phone"></i> +82 2-760-1274 -->
+<!-- - For more information, please contact me via email. -->
+
+
+Skills and Expertise {#skills}
+--------------------------------------------------------------------------------
+
+- Displines: Statistics, Time series analysis
+- Technical skills: R, SAS, LaTex, Python
+<!-- - <i class="fab fa-researchgate"></i> [Researchgate profile](https://www.researchgate.net/profile/Young_Geun_Kim2) -->
+- <i class="fa fa-github"></i> [github.com/ygeunkim](https://github.com/ygeunkim)
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Young Geun Kim {#title}
+--------------------------------------------------------------------------------
+
+### [Sungkyunkwan University](https://www.skku.edu/eng/), Seoul, Korea, Republic of
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### [Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)
+
+*Ph.D. Candidate*, Statistics (advisor: [Changryong Baek](https://sites.google.com/view/crbaek))
+
+[Seoul, Korea, Republic of](https://www.google.com/maps/place/성균관대학교/@37.5882312,126.9914173,17z/data=!4m5!3m4!1s0x357ca2d4cdb87315:0x5b2b20a2005c6114!8m2!3d37.588227!4d126.993606)
+
+Mar. 2019 - Dec. 2021
+
+Concentration: Statistics
+
+### [Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)
+
+Bachelor of Economics, Statistics
+
+[Seoul, Korea, Republic of](https://www.google.com/maps/place/성균관대학교/@37.5882312,126.9914173,17z/data=!4m5!3m4!1s0x357ca2d4cdb87315:0x5b2b20a2005c6114!8m2!3d37.588227!4d126.993606)
+
+Mar. 2013 - Feb. 2019
+
+Concentration: Statistics
+
+
+Honors and Awards {data-icon=award}
+--------------------------------------------------------------------------------
+
+### Graduated at top in Department of Statistics
+
+Representative of department of statistics receiving bachelor degree
+
+[SKKU](https://www.skku.edu/eng/)
+
+Feb. 2019
+
+
+### Dean's List
+
+awarded to students who achieved high grades in each semester
+
+[SKKU](https://www.skku.edu/eng/)
+
+2014 - Spring 2015
+
+
+Scholarships {data-icon=hand-holding-usd}
+--------------------------------------------------------------------------------
+
+### Graduate Merit Scholarship
+
+awarded to students who are willing to go to graduate school, based on grades and recommendation letters
+
+[SKKU](https://www.skku.edu/eng/)
+
+Spring 2019 - Present
+
+### Masters and Doctors Connected Track Scholarship
+
+Give to students who are willing to go to graduate school
+
+[SKKU](https://www.skku.edu/eng/)
+
+Fall 2018
+
+### Academic Excellence Scholarship
+
+Awarded based on GPA in each semester
+
+[SKKU](https://www.skku.edu/eng/)
+
+Fall 2017
+
+### Jinggeomdari Scholarship
+
+Track C, awarded to students who achieved high grades but do not benefit from any scholarship
+
+[SKKU](https://www.skku.edu/eng/)
+
+Spring 2015
+
+### Academic Excellence Scholarship
+
+Awarded based on GPA in each semester
+
+[SKKU](https://www.skku.edu/eng/)
+
+Fall 2013
+
+
+Selected Publications and Posters {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series (Accepted)
+
+The 37th ACM/SIGAPP Symposium On Applied Computing - SAC 2022
+
+Virtual
+
+April 25, 2022 - April 29, 2022
+
+Jeong-Han Yun, Jonguk Kim, Won-Seok Hwang, **Young Geun Kim**, Simon S. Woo, Byung-Gil Min
+
+### Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns
+
+36th International Conference on ICT Systems Security and Privacy Protection - IFIP SEC 2021
+
+Oslo, Norway
+
+June 22, 2021 - June 24, 2021
+
+**Young Geun Kim**, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, Simon S. Woo
+
+### Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence
+
+Poster for 5th Workshop on Mining and Learning from Time Series, held in conjunction with KDD'19
+
+Anchorage, Alaska, USA
+
+Aug 5, 2019
+
+Jinwoo Cho, Shahroz Tariq, Sangyup Lee, **Young Geun Kim**, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon S. Woo
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Statistics Student Researcher
+
+[Department of Statistics, SKKU](https://stat.skku.edu/stat/index.do)
+
+[Seoul, Korea, Republic of](https://www.google.com/maps/place/성균관대학교/@37.5882312,126.9914173,17z/data=!4m5!3m4!1s0x357ca2d4cdb87315:0x5b2b20a2005c6114!8m2!3d37.588227!4d126.993606)
+
+Jun. 2019 – Present
+
+- advisor: [Changryong Baek](https://sites.google.com/view/crbaek)
+- Integrated Ph.D. program at Statistics
+
+### Student Researcher
+
+[Data-driven AI Security HCI Lab, SKKU](https://dash-lab.github.io/)
+
+[Suwon, Korea, Republic of](https://www.google.com/maps/place/성균관대학교+자연과학캠퍼스/@37.293921,126.9732106,17z/data=!3m1!4b1!4m5!3m4!1s0x357b42b61ce1867f:0xb38e2754eb2dbb08!8m2!3d37.2939168!4d126.9753993)
+
+Apr. 2019 – Feb. 2020
+
+Participated in project of National Security Research Institute
+
+- Detect cyber attack in cyber physical system
+- Develop anomaly detection algorithm
+
+
+Teaching Assistanship {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Data Analysis and Modeling 2 (KB bank)
+
+Teaching assistant for AI MBA (advisor: Changryong Baek)
+
+[SKK GSB](https://skb.skku.edu/en/index.do)
+
+Nov. 2020 - Dec. 2020
+
+### Recent Advances in Applied Statistics (STA5037)
+
+Statistics student researcher (advisor: Changryong Baek)
+
+[SKKU](https://www.skku.edu/eng/)
+
+Mar. 2020 - Jun. 2020
+
+### Introduction to Time Series Analysis (STA3001)
+
+Statistics student researcher (advisor: Changryong Baek)
+
+[SKKU](https://www.skku.edu/eng/)
+
+Mar. 2020 - Jun. 2020
+
+### Insurance Statistics (STA3018)
+
+Graduate Merit Scholarship TA
+
+[SKKU](https://www.skku.edu/eng/)
+
+Mar. 2020 - Jun. 2020
+
+### Mathematics for Statistics (STA2008)
+
+Graduate Merit Scholarship TA
+
+[SKKU](https://www.skku.edu/eng/)
+
+Sep. 2019 – Dec. 2019
+
+### Matrix algebra for Statistics (STA2017)
+
+Graduate Merit Scholarship TA
+
+[SKKU](https://www.skku.edu/eng/)
+
+Mar. 2019 – Jun. 2019
+
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Preprocess panel data, part time
+
+Korea Disabled people’s Development Institute
+
+Seoul, Korea, Republic of
+
+Sep. 2021 - Oct. 2021
+
+::: concise
+- [Survey of the life of the persons with disabilities](https://www.koddi.or.kr/data/research01_view.jsp?brdNum=7410781)
+- Required to use `SAS`: `proc surveymeans` and `proc surveyfreq`
+:::
+
+
+Extracurricular Activities {data-icon=play}
+--------------------------------------------------------------------------------
+
+### Answering Stack Overflow
+
+<a href="https://stackexchange.com/users/14340293"><img src="https://stackexchange.com/users/flair/14340293.png" width="208" height="58" alt="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+
+<i class="fab fa-stack-overflow"></i> [StackOverflow](https://stackoverflow.com/users/story/10358660)
+
+Sep. 2018 - Present
+
+- Top 20\% in [r](https://stackoverflow.com/questions/tagged/r) tag
+- [Answered questions mainly about wrangling or visualizing data](https://stackoverflow.com/users/10358660/blended?tab=answers)
+
+### Sungkyunkwan University Orchestra
+
+University Orchestra
+
+[SKKU, Korea, Republic of](https://ko-kr.facebook.com/skku.orchestra/)
+
+Mar. 2013 – Sep. 2018
+
+- Participated as Second Violin section
+- Participated as Executive
+
+

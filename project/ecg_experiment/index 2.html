@@ -1,0 +1,1584 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Young Geun Kim" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Experiment about caffeine effect to ECG (average heart rate), based on Latin square design." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ygeunkim.github.io/project/ecg_experiment/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#ff3860" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+      
+    
+
+    
+    
+    
+
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.9.0/instantsearch.min.css" integrity="sha256-ZtmLe16p4jS4/2wPwwH6NzJt460SJzgLmhKrYo5yn7g=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch-theme-algolia.min.css" integrity="sha256-uL8LUd3zkI/lXvc/Hv/oOu8ld6RJcOZiUY/8c+I+3/o=" crossorigin="anonymous">
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0d6f58b6502d1e3bf50a2c8c2222536d.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8MDJTTDCK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-N8MDJTTDCK', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu4230a2af565661a24a3c1570e705c8f8_150008_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4230a2af565661a24a3c1570e705c8f8_150008_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://ygeunkim.github.io/project/ecg_experiment/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Young Geun Kim" />
+  <meta property="og:url" content="https://ygeunkim.github.io/project/ecg_experiment/" />
+  <meta property="og:title" content="Coffee-ECG Experiment | Young Geun Kim" />
+  <meta property="og:description" content="Experiment about caffeine effect to ECG (average heart rate), based on Latin square design." /><meta property="og:image" content="https://ygeunkim.github.io/project/ecg_experiment/featured.png" />
+    <meta property="twitter:image" content="https://ygeunkim.github.io/project/ecg_experiment/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-05-24T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-06-14T22:44:31&#43;09:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ygeunkim.github.io/project/ecg_experiment/"
+  },
+  "headline": "Coffee-ECG Experiment",
+  
+  "image": [
+    "https://ygeunkim.github.io/project/ecg_experiment/featured.png"
+  ],
+  
+  "datePublished": "2021-05-24T00:00:00Z",
+  "dateModified": "2021-06-14T22:44:31+09:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Young Geun Kim"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Young Geun Kim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "Experiment about caffeine effect to ECG (average heart rate), based on Latin square design."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Coffee-ECG Experiment | Young Geun Kim</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="bcd238d3171bda478188f9af62876ecd" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_0x70_resize_lanczos_3.png" alt="Young Geun Kim"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_0x70_resize_lanczos_3.png" alt="Young Geun Kim"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#bookdown"><span>Bookdown</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/research/"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/software/"><span>Software</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contact/"><span>About/Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Coffee-ECG Experiment</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/young-geun-kim/">Young Geun Kim</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jun 14, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/project/">project</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/ygeunkim/ecg-experiment/tree/master/r" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/ygeunkim/ecg-experiment" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/ygeunkim/ecg-experiment/blob/master/static/slides/youngslide.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/ygeunkim/ecg-experiment/tree/master/data" target="_blank" rel="noopener">
+    
+    Dataset
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/ygeunkim/ecg-experiment/blob/master/static/appendix/youngsuppl.pdf" target="_blank" rel="noopener">
+    
+    Appendix
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="about-the-project">About the project</h1>
+<p>This is a project performed in <a href="https://www.kwonsanglee.com" target="_blank" rel="noopener">SKKU <strong>Design and Analysis of Experiments (STA 5031)</strong></a>.</p>
+<ul>
+<li>Conduct a real randomized experiment, collect data, and analyze them.</li>
+<li>Present a non-statistical paper using an (quasi-)experiment in the field outside statistics and critize them.</li>
+<li>Bring my own research that is related to an (quasi-)experiment.</li>
+</ul>
+<p>I chose real experimental design, the first one.</p>
+<h1 id="coffee-electrocardiogram-experiment">Coffee-Electrocardiogram Experiment</h1>
+<h2 id="goal-of-the-experiment">Goal of the Experiment</h2>
+<ul>
+<li><strong>Does caffeine affect electrocardiogram (ECG) or average heart rate?</strong></li>
+<li>Caffeine: ☕ drinking capsule coffee 40 ml</li>
+<li>ECG result: ⌚ average heart rate</li>
+</ul>
+<h2 id="design">Design</h2>
+<p>We implement Latin square design. For example,</p>
+<table>
+  <caption>Reduced latin square</caption>
+  <thead>
+    <tr>
+      <td colspan = 2></td>
+      <th colspan=5>Drinking speed</th>
+    </tr>
+  </thead>    
+  <tbody>
+    <tr>
+      <td colspan = 2></td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th rowspan=4>Coffee to water ratio</th>
+      <td>1</td>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>C</td>
+      <td>D</td>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>D</td>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+<ul>
+<li>A, B, C, D once in every row,</li>
+<li>once in every column</li>
+</ul>
+<h3 id="about-factors">About factors</h3>
+<ul>
+<li>Latin square: 4 by 4</li>
+<li>2 blocking factors
+<ul>
+<li><strong>Row</strong>: Coffee (40 ml) to water ratio
+<ol>
+<li>1:0 (Espresso)</li>
+<li>1:2.5 (Water 100 ml)</li>
+<li>1:5 (Water 200 ml)</li>
+<li>1:7.5 (Water 300 ml)</li>
+</ol>
+</li>
+<li><strong>Column</strong>: Drinking speed
+<ol>
+<li>&lt;=5 sec</li>
+<li>5-15 sec</li>
+<li>15-30 sec</li>
+<li>30&lt; sec</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Interesting factor: <a href="https://www.reddit.com/r/nespresso/comments/id31r5/i_recieved_the_caffiene_content_numbers_for/" target="_blank" rel="noopener">Intake of caffeine</a> from <a href="https://athome.starbucks.com/coffees-by-format/nespresso-original/" target="_blank" rel="noopener">Starbucks by Nespresso</a>
+<ol>
+<li>House blend: 74.5 mg</li>
+<li>Sumatra: 54.5 mg</li>
+<li>Decaf espresso roast: 3 mg</li>
+<li>None or water: 0 mg</li>
+</ol>
+</li>
+<li>Randomly allocate these treatments <code>1</code>, <code>2</code>, <code>3</code>, and <code>4</code> to A, B, C, and D
+<ul>
+<li>assign these to above table</li>
+<li>random treatment assignment</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-r">set.seed(1)
+sample(LETTERS[1:4])
+#&gt; [1] &quot;A&quot; &quot;C&quot; &quot;D&quot; &quot;B&quot;
+</code></pre>
+<h3 id="output">Output</h3>
+<ul>
+<li>Measure ECG using <em>Apple watch Series 4</em>: See <a href="https://support.apple.com/en-us/HT208955" target="_blank" rel="noopener">https://support.apple.com/en-us/HT208955</a></li>
+<li>Output
+<ul>
+<li><strong>Average Heart rate (in BPM) difference</strong> between after and before taking the coffee</li>
+<li>log return might be better (<em>after got feedback</em>)</li>
+</ul>
+</li>
+</ul>
+<h3 id="controlling-other-variables">Controlling other variables</h3>
+<ul>
+<li>Drink coffee every morning (between 8:30 a.m. and 9:00 a.m. KST), after eating a piece of bread</li>
+<li>When Measuring ECG,
+<ul>
+<li>sit at my desk</li>
+<li>rest arms on a my desk</li>
+</ul>
+</li>
+<li>Use same strip for apple watch: <a href="https://www.apple.com/shop/product/MX8C2AM/A/40mm-anthracite-black-nike-sport-band-regular?fnode=5e9ad1340eb02decfee1689be9360555f2f276ad270a672413266cfba01ad7b0e20a1c634dbd66eaec20c01170cf533573070d71c910b376e339037f157174b7e6f45e144d64e052e5274d1069eb67b4" target="_blank" rel="noopener">Nike sport band</a> of same fit</li>
+<li>Nespresso machine: <a href="https://www.nespresso.com/kr/en/order/machines/original/pixie-electric-red-coffee-machine" target="_blank" rel="noopener">Pixie C61</a> in my home</li>
+</ul>
+<h3 id="for-more-details">For more details</h3>
+<p>Click <code>Slides</code> on the 🔝.</p>
+<ul>
+<li><code>Project</code>: <code>Github</code> repository</li>
+<li><code>Slides</code>: presentation pdf</li>
+<li><code>Code</code>: Source codes including <code>Rmd</code> for the slide</li>
+<li><code>Dataset</code>: datsets by this experiment including preprocessed ones</li>
+<li><code>Appendix</code>: Supplementary material related to the dataset</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/statistics/">statistics</a>
+  
+  <a class="badge badge-light" href="/tag/experimental-design/">experimental-design</a>
+  
+  <a class="badge badge-light" href="/tag/causal-inference/">causal-inference</a>
+  
+  <a class="badge badge-light" href="/tag/r/">r</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://ygeunkim.github.io/project/ecg_experiment/&amp;text=Coffee-ECG%20Experiment" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://ygeunkim.github.io/project/ecg_experiment/&amp;t=Coffee-ECG%20Experiment" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Coffee-ECG%20Experiment&amp;body=https://ygeunkim.github.io/project/ecg_experiment/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://ygeunkim.github.io/project/ecg_experiment/&amp;title=Coffee-ECG%20Experiment" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Coffee-ECG%20Experiment%20https://ygeunkim.github.io/project/ecg_experiment/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://ygeunkim.github.io/project/ecg_experiment/&amp;title=Coffee-ECG%20Experiment" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://ygeunkim.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/young-geun-kim/avatar_hucc980f41d44546dfe8dc45f5e262aa9b_3342578_270x270_fill_lanczos_center_3.png" alt="Young Geun Kim"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://ygeunkim.github.io/">Young Geun Kim</a></h5>
+      <h6 class="card-subtitle">Ph.D. Candidate at Department of Statistics</h6>
+      <p class="card-text">I am a Ph.D. candidate at statistics, Sungkyunkwan university.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:dudrms33@g.skku.edu" >
+        <i class="fas fa-paper-plane"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ygeunkim" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=hM-D53EAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/young-geun-k-390338175/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/cv/index.html" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+<section id="comments">
+  
+    <script src="https://utteranc.es/client.js"
+        repo="ygeunkim/young-comment"
+        issue-term="pathname"
+        theme="github-dark-orange"
+        label="💬"
+        crossorigin="anonymous"
+        async
+        type="text/javascript">
+</script>
+
+  
+</section>
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/causal_project/">Causal Inference course project</a></li>
+      
+      <li><a href="/project/nonparam_project/">Nonparametric statistics course project</a></li>
+      
+      <li><a href="/codes/loglinear3_r/">Loglinear Models for Three-way Tables</a></li>
+      
+      <li><a href="/talk/seminar-r-statistical-computation-and-packages/">(Seminar) R Statistical Computation and Packages</a></li>
+      
+      <li><a href="/codes/ceshat_pkg/">ceshat: Nonparametric Estimation of CES</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2022 Young Geun Kim
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-algolia-template" type="text/html">
+        <div class="search-hit">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{{_highlightResult.title.value}}}</a>
+            </div>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{{_highlightResult.summary.value}}}</p>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch.min.js" integrity="sha256-gFCtPk/sonctyfwYOgjrPoWApQ0rqB6ezBBZ7p32yGc=" crossorigin="anonymous"></script>
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.5a4f01cc585649e7fc85a754e9bb49c0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

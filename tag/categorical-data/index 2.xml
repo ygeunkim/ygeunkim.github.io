@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>categorical-data | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/tag/categorical-data/</link>
+      <atom:link href="https://ygeunkim.github.io/tag/categorical-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>categorical-data</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ygeunkim.github.io/media/logo_hu4230a2af565661a24a3c1570e705c8f8_150008_300x300_fit_lanczos_3.png</url>
+      <title>categorical-data</title>
+      <link>https://ygeunkim.github.io/tag/categorical-data/</link>
+    </image>
+    
+    <item>
+      <title>Loglinear Models for Three-way Tables</title>
+      <link>https://ygeunkim.github.io/codes/loglinear3_r/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/loglinear3_r/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
