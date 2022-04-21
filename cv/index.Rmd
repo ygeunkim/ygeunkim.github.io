@@ -12,7 +12,7 @@ Aside
 ================================================================================
 
 
-![Young Geun Kim](cv_avatar.png){width=80%}
+![Young Geun Kim](cv_avatar.png){width=70%}
 
 
 Contact Info {#contact}
@@ -28,7 +28,7 @@ Skills and Expertise {#skills}
 --------------------------------------------------------------------------------
 
 - Displines: Statistics, Time series analysis
-- Technical skills: R, SAS, LaTex, Python
+- Technical skills: *R*, SAS, LaTex, Python
 <!-- - <i class="fab fa-researchgate"></i> [Researchgate profile](https://www.researchgate.net/profile/Young_Geun_Kim2) -->
 - <i class="fa fa-github"></i> [github.com/ygeunkim](https://github.com/ygeunkim)
 
@@ -50,41 +50,61 @@ Young Geun Kim {#title}
 
 ### [Sungkyunkwan University](https://www.skku.edu/eng/), Seoul, Korea, Republic of
 
+*Research interests*: Long-range dependence, vector autoregression, Bayesian, Change point analysis, Anomaly detection, R
+
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ### [Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)
 
-*Ph.D. Candidate*, Statistics (advisor: [Changryong Baek](https://sites.google.com/view/crbaek))
+Ph.D. Candidate, *Statistics*
 
 [Seoul, Korea, Republic of](https://www.google.com/maps/place/성균관대학교/@37.5882312,126.9914173,17z/data=!4m5!3m4!1s0x357ca2d4cdb87315:0x5b2b20a2005c6114!8m2!3d37.588227!4d126.993606)
 
 Mar. 2019 - Dec. 2021
 
-Concentration: Statistics
+Advisor: [Changryong Baek](https://sites.google.com/view/crbaek)
+
+<details>
+  <summary>Relevant Coursework</summary>
+  <ul>
+    <li>Mathematical Statistics, Statistical Inferences, Probability Theory, Large sample theory</li>
+    <li>Regression Analysis, Statistical Computing, Advanced Categorical Data Analysis, Multivariate Statistical Analysis, Design and Analysis of Experiments, Nonparametric Statistics, Bayesian Statistics, Advanced time series analysis, Advanced Statistical Computing</li>
+    <li>Advanced Statistical Data Mining, Topics in Applied Statistics, Modern Statistical Methods, Deep Learning</li>
+  </ul>
+</details>
+
 
 ### [Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)
 
-Bachelor of Economics, Statistics
+Bachelor of Economics, *Statistics*
 
 [Seoul, Korea, Republic of](https://www.google.com/maps/place/성균관대학교/@37.5882312,126.9914173,17z/data=!4m5!3m4!1s0x357ca2d4cdb87315:0x5b2b20a2005c6114!8m2!3d37.588227!4d126.993606)
 
 Mar. 2013 - Feb. 2019
 
-Concentration: Statistics
-
+<details>
+  <summary>Relevant Coursework</summary>
+  <ul>
+    <li>Statistics, Matrix algebra for statistics, Statistical Analysis for Economics, Introduction to Mathematical Statistics, Introduction to Statistical Inferences</li>
+    <li>Introduction to statistical programming, Introduction to Statistical Computing</li>
+    <li>Introduction to Regression Analysis, Experimental Design, Introduction to Multivariate Statistical Analysis, Statistical Simulation, An Introduction to Stochastic Processes, Introduction to Time Series Analysis, Financial Econometrics, Introduction to Bayesian Statistics, Categorical Data Analysis, Introduction to Biostatistics</li>
+    <li>Intermediate Regression Analysis, Statistical Data Mining, Large Data Management and Data Visualization</li>
+    <li>Analysis, Analysis 2, Real Variables, Topics in Analysis</li>
+  </ul>
+</details>
 
 Honors and Awards {data-icon=award}
 --------------------------------------------------------------------------------
 
-### Graduated at top in Department of Statistics
+<!-- ### Graduated at top in Department of Statistics -->
 
-Representative of department of statistics receiving bachelor degree
+<!-- Representative of department of statistics receiving bachelor degree -->
 
-[SKKU](https://www.skku.edu/eng/)
+<!-- [SKKU](https://www.skku.edu/eng/) -->
 
-Feb. 2019
+<!-- Feb. 2019 -->
 
 
 ### Dean's List
@@ -187,6 +207,7 @@ Jun. 2019 – Present
 
 - advisor: [Changryong Baek](https://sites.google.com/view/crbaek)
 - Integrated Ph.D. program at Statistics
+- Research time series analysis
 
 ### Student Researcher
 
@@ -202,7 +223,7 @@ Participated in project of National Security Research Institute
 - Develop anomaly detection algorithm
 
 
-Teaching Assistanship {data-icon=chalkboard-teacher}
+Teaching Assistantship {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ### Data Analysis and Modeling 2 (KB bank)
@@ -265,10 +286,22 @@ Seoul, Korea, Republic of
 
 Sep. 2021 - Oct. 2021
 
-::: concise
+<!-- ::: concise -->
 - [Survey of the life of the persons with disabilities](https://www.koddi.or.kr/data/research01_view.jsp?brdNum=7410781)
 - Required to use `SAS`: `proc surveymeans` and `proc surveyfreq`
-:::
+<!-- ::: -->
+
+
+Professional Membership {data-icon=certificate}
+--------------------------------------------------------------------------------
+
+### ACM Professional Member
+
+Certified professional member of ACM
+
+[Association for Computing Machinery](https://www.acm.org)
+
+Jan. 2022 - Dec. 2022
 
 
 Extracurricular Activities {data-icon=play}

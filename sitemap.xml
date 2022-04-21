@@ -33,7 +33,7 @@
     <lastmod>2021-11-15T23:42:37+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/tag/r/</loc>
-    <lastmod>2022-02-04T11:32:10+09:00</lastmod>
+    <lastmod>2021-11-15T23:42:37+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/tag/r-package/</loc>
     <lastmod>2021-11-15T23:42:37+09:00</lastmod>
@@ -47,7 +47,7 @@
     <loc>https://ygeunkim.github.io/tag/anomaly-detection/</loc>
     <lastmod>2022-04-08T20:51:12+09:00</lastmod>
   </url><url>
-    <loc>https://ygeunkim.github.io/tag/deep-learning/</loc>
+    <loc>https://ygeunkim.github.io/tag/cyber-physical-system/</loc>
     <lastmod>2022-04-08T20:51:12+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/category/publication/</loc>
@@ -56,10 +56,10 @@
     <loc>https://ygeunkim.github.io/publication_types/</loc>
     <lastmod>2022-04-08T20:51:12+09:00</lastmod>
   </url><url>
-    <loc>https://ygeunkim.github.io/tag/python/</loc>
+    <loc>https://ygeunkim.github.io/publication/somifip/</loc>
     <lastmod>2022-04-08T20:51:12+09:00</lastmod>
   </url><url>
-    <loc>https://ygeunkim.github.io/publication/somifip/</loc>
+    <loc>https://ygeunkim.github.io/tag/self-organizing-map/</loc>
     <lastmod>2022-04-08T20:51:12+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/talk/oral-presentation-revitalizing-self-organizing-map-anomaly-detection-using-forecasting-error-patterns/</loc>
@@ -69,6 +69,9 @@
     <lastmod>2021-06-26T22:56:46+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/category/code/</loc>
+    <lastmod>2021-11-03T16:03:16+09:00</lastmod>
+  </url><url>
+    <loc>https://ygeunkim.github.io/tag/python/</loc>
     <lastmod>2021-11-03T16:03:16+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/codes/somanomaly_python/</loc>
@@ -99,7 +102,7 @@
     <lastmod>2021-06-14T22:44:31+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/category/project/</loc>
-    <lastmod>2021-11-03T16:03:16+09:00</lastmod>
+    <lastmod>2021-06-14T22:44:31+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/tag/statistics/</loc>
     <lastmod>2021-11-03T16:03:16+09:00</lastmod>
@@ -108,6 +111,9 @@
     <lastmod>2021-06-14T22:44:31+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/project/nsr_project/</loc>
+    <lastmod>2021-06-14T22:44:31+09:00</lastmod>
+  </url><url>
+    <loc>https://ygeunkim.github.io/tag/deep-learning/</loc>
     <lastmod>2021-06-14T22:44:31+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/tag/rcpp/</loc>
@@ -128,14 +134,20 @@
     <loc>https://ygeunkim.github.io/publication/kl_poster/</loc>
     <lastmod>2022-02-04T11:32:10+09:00</lastmod>
   </url><url>
+    <loc>https://ygeunkim.github.io/tag/kullback-leibler-divergence/</loc>
+    <lastmod>2022-02-04T11:32:10+09:00</lastmod>
+  </url><url>
     <loc>https://ygeunkim.github.io/codes/propensityml_pkg/</loc>
     <lastmod>2021-11-03T16:03:16+09:00</lastmod>
   </url><url>
-    <loc>https://ygeunkim.github.io/codes/youngtool_pkg/</loc>
-    <lastmod>2021-11-03T16:03:16+09:00</lastmod>
+    <loc>https://ygeunkim.github.io/project/youngtool_pkg/</loc>
+    <lastmod>2019-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ygeunkim.github.io/codes/rmdtool_pkg/</loc>
-    <lastmod>2021-11-03T16:03:16+09:00</lastmod>
+    <loc>https://ygeunkim.github.io/tag/r-markdown/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ygeunkim.github.io/project/rmdtool_pkg/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/tag/categorical-data/</loc>
     <lastmod>2021-11-03T16:03:16+09:00</lastmod>
