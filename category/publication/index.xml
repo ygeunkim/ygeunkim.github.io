@@ -5,12 +5,64 @@
     <link>https://ygeunkim.github.io/category/publication/</link>
       <atom:link href="https://ygeunkim.github.io/category/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>publication</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/media/logo_hudf9bff99e24e5b4c458a3b9fec5e5095_216635_300x300_fit_lanczos_3.png</url>
+      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>publication</title>
       <link>https://ygeunkim.github.io/category/publication/</link>
     </image>
+    
+    <item>
+      <title>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</title>
+      <link>https://ygeunkim.github.io/publication/nndsac/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/publication/nndsac/</guid>
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-yunsac2022&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Yun, Jeong-Han, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, and Byung-Gil Min. 2022. “Residual Size Is Not Enough for Anomaly Detection: Improving Detection Performance Using Residual Similarity in Multivariate Time Series.” In &lt;em&gt;Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing&lt;/em&gt;, 87–96. SAC ’22. New York, NY, USA: Association for Computing Machinery. &lt;a href=&#34;https://doi.org/10.1145/3477314.3506990&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3477314.3506990&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.__dimensions_badge_embed__ {
+  margin-left: 3rem;
+  position: absolute;
+}
+
+.altmetric-embed {
+  margin-left: 10rem;
+  position: absolute;
+}
+
+.plx-pop {
+  margin-top: -1.5rem;
+  margin-left: 15rem;
+  position: absolute;
+}
+
+#badge-box {
+  text-align: center;
+}
+.__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
+  display: inline;
+}
+&lt;/style&gt;
+&lt;h3 id=&#34;article-metrics&#34;&gt;Article Metrics&lt;/h3&gt;
+&lt;div class=&#34;badge-box&#34; style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt;
+&lt;div class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1145/3477314.3506990&#34; data-style=&#34;small_circle&#34; data-hide-zero-citations=&#34;false&#34; data-legend=&#34;hover-right&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-doi=&#34;10.1145/3477314.3506990&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;donut&#34; data-hide-no-mentions=&#34;false&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;plx-pop&#34;&gt;
+&lt;p&gt;&lt;a target=&#34;_blank&#34;
+href=&#34;https://plu.mx/plum/a/?doi=10.1145/3477314.3506990&#34;
+class=&#34;plumx-plum-print-popup&#34;
+data-popup=&#34;right&#34;
+data-size=&#34;large&#34;
+data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
