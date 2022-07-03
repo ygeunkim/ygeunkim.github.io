@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>bvhar: Bayesian Vector Heterogeneous Autoregressive Modeling</title>
+      <link>https://ygeunkim.github.io/codes/bvhar/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/bvhar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Univariate Change Point Analysis</title>
       <link>https://ygeunkim.github.io/post/tscp/</link>
       <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>

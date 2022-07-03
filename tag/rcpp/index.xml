@@ -5,12 +5,20 @@
     <link>https://ygeunkim.github.io/tag/rcpp/</link>
       <atom:link href="https://ygeunkim.github.io/tag/rcpp/index.xml" rel="self" type="application/rss+xml" />
     <description>Rcpp</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>Rcpp</title>
       <link>https://ygeunkim.github.io/tag/rcpp/</link>
     </image>
+    
+    <item>
+      <title>bvhar: Bayesian Vector Heterogeneous Autoregressive Modeling</title>
+      <link>https://ygeunkim.github.io/codes/bvhar/</link>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/bvhar/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>swatanomaly: Anomaly Detection using KL Divergence</title>

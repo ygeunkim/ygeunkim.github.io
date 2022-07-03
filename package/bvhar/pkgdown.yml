@@ -1,0 +1,10 @@
+pandoc: 2.17.1.1
+pkgdown: 2.0.5
+pkgdown_sha: ~
+articles:
+  bvhar: bvhar.html
+  empirical-bayes: empirical-bayes.html
+  forecasting: forecasting.html
+  minnesota: minnesota.html
+last_built: 2022-07-03T11:13Z
+
