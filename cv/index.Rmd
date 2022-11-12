@@ -19,7 +19,7 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fas fa-link"></i> [ygeunkim.github.io](https://ygeunkim.github.io)
-- <i class="fa fa-envelope"></i> dudrms33 at g dot skku dot edu
+- <i class="fa fa-envelope"></i> dudrms33 at dot skku dot edu or ygeunkimstat at gmail dot com
 <!-- - <i class="fa fa-phone"></i> +82 2-760-1274 -->
 <!-- - For more information, please contact me via email. -->
 
@@ -50,7 +50,7 @@ Young Geun Kim {#title}
 
 ### [Sungkyunkwan University](https://www.skku.edu/eng/), Seoul, Korea, Republic of
 
-*Research interests*: Long-range dependence, vector autoregression, Bayesian, Change point analysis, Anomaly detection, R
+*Research interests*: Long-range dependence, Vector autoregression, Bayesian time series, Change point analysis, Anomaly detection, R
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -62,7 +62,7 @@ Ph.D. Candidate, *Statistics*
 
 [Seoul, Korea, Republic of](https://www.google.com/maps/place/성균관대학교/@37.5882312,126.9914173,17z/data=!4m5!3m4!1s0x357ca2d4cdb87315:0x5b2b20a2005c6114!8m2!3d37.588227!4d126.993606)
 
-Mar. 2019 - Dec. 2021
+Mar. 2019 - Present
 
 Advisor: [Changryong Baek](https://sites.google.com/view/crbaek)
 
@@ -125,7 +125,7 @@ awarded to students who are willing to go to graduate school, based on grades an
 
 [SKKU](https://www.skku.edu/eng/)
 
-Spring 2019 - Present
+Spring 2019 - Fall 2021
 
 ### Masters and Doctors Connected Track Scholarship
 
@@ -160,10 +160,26 @@ Awarded based on GPA in each semester
 Fall 2013
 
 
-Selected Publications and Posters {data-icon=file}
+Papers Under Review {data-icon=file}
 --------------------------------------------------------------------------------
 
-### Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series (Accepted)
+### Bayesian Vector Heterogeneous Autoregressive Modeling
+
+Submitted
+
+N/A
+
+July. 2022
+
+**Young Geun Kim**, Changryong Baek
+
+
+<!-- Selected Publications and Posters {data-icon=file} -->
+<!-- -------------------------------------------------------------------------------- -->
+Conference Papers and Posters {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series
 
 The 37th ACM/SIGAPP Symposium On Applied Computing - SAC 2022
 
@@ -292,16 +308,16 @@ Sep. 2021 - Oct. 2021
 <!-- ::: -->
 
 
-Professional Membership {data-icon=certificate}
---------------------------------------------------------------------------------
+<!-- Professional Membership {data-icon=certificate} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-### ACM Professional Member
+<!-- ### ACM Professional Member -->
 
-Certified professional member of ACM
+<!-- Certified professional member of ACM -->
 
-[Association for Computing Machinery](https://www.acm.org)
+<!-- [Association for Computing Machinery](https://www.acm.org) -->
 
-Jan. 2022 - Dec. 2022
+<!-- Jan. 2022 - Dec. 2022 -->
 
 
 Extracurricular Activities {data-icon=play}

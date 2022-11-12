@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nonparametric-statistics | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/tag/nonparametric-statistics/</link>
+      <atom:link href="https://ygeunkim.github.io/tag/nonparametric-statistics/index.xml" rel="self" type="application/rss+xml" />
+    <description>nonparametric-statistics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
+      <title>nonparametric-statistics</title>
+      <link>https://ygeunkim.github.io/tag/nonparametric-statistics/</link>
+    </image>
+    
+    <item>
+      <title>ceshat: Nonparametric Estimation of CES</title>
+      <link>https://ygeunkim.github.io/codes/ceshat_pkg/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/ceshat_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonparametric statistics course project</title>
+      <link>https://ygeunkim.github.io/project/nonparam_project/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/nonparam_project/</guid>
+      <description>&lt;h1 id=&#34;nonparametric-estimation-of-conditional-expected-shortfall&#34;&gt;Nonparametric Estimation of Conditional Expected Shortfall&lt;/h1&gt;
+&lt;p&gt;This is a project performed in SKKU &lt;strong&gt;Nonparametric statistics course (&lt;a href=&#34;https://sites.google.com/site/eunryungleestat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5015&lt;/a&gt;)&lt;/strong&gt;. It aims at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;intensive review on existing statistical methods for an advanced topic not covered in the course&lt;/li&gt;
+&lt;li&gt;own simulation or real data simulation&lt;/li&gt;
+&lt;li&gt;development of new statistical methodology related to the course&lt;/li&gt;
+&lt;li&gt;new analysis of a real data set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reviewd-paper&#34;&gt;Reviewd Paper&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0304407608001292&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cai, Z., &amp;amp; Wang, X. (2008). &lt;em&gt;Nonparametric estimation of conditional VaR and expected shortfall&lt;/em&gt;. Journal of Econometrics, 147(1), 120-130.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ceshat&#34;&gt;ceshat&lt;/h2&gt;
+&lt;p&gt;This is an R package to help this project, which tries to reproduce the above paper. Click the &lt;code&gt;Code&lt;/code&gt; button!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

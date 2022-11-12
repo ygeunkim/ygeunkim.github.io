@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>r-markdown | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/tag/r-markdown/</link>
+      <atom:link href="https://ygeunkim.github.io/tag/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>r-markdown</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
+      <title>r-markdown</title>
+      <link>https://ygeunkim.github.io/tag/r-markdown/</link>
+    </image>
+    
+    <item>
+      <title>rmdtool: R markdown tool package</title>
+      <link>https://ygeunkim.github.io/project/rmdtool_pkg/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/project/rmdtool_pkg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
