@@ -2,46 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ygeunkim.github.io/publication-type/3/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
     <loc>https://ygeunkim.github.io/authors/</loc>
     <lastmod>2022-11-12T21:56:21+09:00</lastmod>
   </url><url>
-    <loc>https://ygeunkim.github.io/tag/bayesian/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/publication/bvhar/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
     <loc>https://ygeunkim.github.io/categories/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/tag/consistency/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/tag/heterogeneous-autoregression/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/tag/long-memory/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/category/publication/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/publication_types/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/tags/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/tag/time-series/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/tag/vector-autoregression/</loc>
-    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
-  </url><url>
-    <loc>https://ygeunkim.github.io/</loc>
     <lastmod>2022-11-12T21:56:21+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/tag/change-point-analysis/</loc>
@@ -50,8 +14,17 @@
     <loc>https://ygeunkim.github.io/category/post/</loc>
     <lastmod>2022-04-26T23:39:04+09:00</lastmod>
   </url><url>
+    <loc>https://ygeunkim.github.io/tags/</loc>
+    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
+  </url><url>
+    <loc>https://ygeunkim.github.io/tag/time-series/</loc>
+    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
+  </url><url>
     <loc>https://ygeunkim.github.io/post/tscp/</loc>
     <lastmod>2022-04-26T23:39:04+09:00</lastmod>
+  </url><url>
+    <loc>https://ygeunkim.github.io/</loc>
+    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/publication-type/1/</loc>
     <lastmod>2022-11-12T21:56:21+09:00</lastmod>
@@ -63,6 +36,12 @@
     <lastmod>2022-11-12T21:56:21+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/tag/deep-learning/</loc>
+    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
+  </url><url>
+    <loc>https://ygeunkim.github.io/category/publication/</loc>
+    <lastmod>2022-11-12T21:56:21+09:00</lastmod>
+  </url><url>
+    <loc>https://ygeunkim.github.io/publication_types/</loc>
     <lastmod>2022-11-12T21:56:21+09:00</lastmod>
   </url><url>
     <loc>https://ygeunkim.github.io/publication/nndsac/</loc>

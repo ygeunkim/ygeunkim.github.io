@@ -13,65 +13,6 @@
     </image>
     
     <item>
-      <title>Bayesian Vector Heterogeneous Autoregressive Modeling</title>
-      <link>https://ygeunkim.github.io/publication/bvhar/</link>
-      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/bvhar/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
-&lt;div id=&#34;ref-kim2023&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2022. “Bayesian Vector Heterogeneous Autoregressive Modeling.”&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;style type=&#34;text/css&#34;&gt;
-.__dimensions_badge_embed__ {
-  margin-left: 3rem;
-  position: absolute;
-}
-
-.altmetric-embed {
-  margin-left: 10rem;
-  position: absolute;
-}
-
-.plx-pop {
-  margin-top: -1.5rem;
-  margin-left: 15rem;
-  position: absolute;
-}
-
-#badge-box {
-  text-align: center;
-}
-.__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
-  display: inline;
-}
-&lt;/style&gt;
-&lt;!-- ### Article Metrics --&gt;
-&lt;!-- &lt;div class=&#34;badge-box&#34; --&gt;
-&lt;!--   style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt; --&gt;
-&lt;!-- &lt;div class=&#34;__dimensions_badge_embed__&#34; --&gt;
-&lt;!--   data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; --&gt;
-&lt;!--   data-style=&#34;small_circle&#34; --&gt;
-&lt;!--   data-hide-zero-citations=&#34;false&#34; --&gt;
-&lt;!--   data-legend=&#34;hover-right&#34;&gt;&lt;/div&gt; --&gt;
-&lt;!-- &lt;div class=&#34;altmetric-embed&#34; --&gt;
-&lt;!--   data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; --&gt;
-&lt;!--    data-badge-popover=&#34;right&#34; --&gt;
-&lt;!--    data-badge-type=&#34;donut&#34; --&gt;
-&lt;!--    data-hide-no-mentions=&#34;false&#34;&gt;&lt;/div&gt; --&gt;
-&lt;!-- &lt;div class=&#34;plx-pop&#34;&gt; --&gt;
-&lt;!-- &lt;a target=&#34;_blank&#34; --&gt;
-&lt;!--   href=&#34;https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25&#34; --&gt;
-&lt;!--   class=&#34;plumx-plum-print-popup&#34; --&gt;
-&lt;!--   data-popup=&#34;right&#34; --&gt;
-&lt;!--   data-size=&#34;large&#34; --&gt;
-&lt;!--   data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt; --&gt;
-&lt;!-- &lt;/div&gt; --&gt;
-&lt;!-- &lt;/div&gt; --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>R Statistical Computation and Packages</title>
       <link>https://ygeunkim.github.io/talk/r-statistical-computation-and-packages/</link>
       <pubDate>Mon, 25 Oct 2021 02:00:00 +0000</pubDate>
