@@ -5,9 +5,9 @@
     <link>https://ygeunkim.github.io/author/byung-gil-min/</link>
       <atom:link href="https://ygeunkim.github.io/author/byung-gil-min/index.xml" rel="self" type="application/rss+xml" />
     <description>Byung-Gil Min</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/author/byung-gil-min/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>Byung-Gil Min</title>
       <link>https://ygeunkim.github.io/author/byung-gil-min/</link>
     </image>
@@ -47,11 +47,11 @@
 }
 &lt;/style&gt;
 &lt;h3 id=&#34;article-metrics&#34;&gt;Article Metrics&lt;/h3&gt;
-&lt;div class=&#34;badge-box&#34; style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt;
+&lt;div class=&#34;badge-box&#34;
+  style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt;
 &lt;div class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1145/3477314.3506990&#34; data-style=&#34;small_circle&#34; data-hide-zero-citations=&#34;false&#34; data-legend=&#34;hover-right&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-doi=&#34;10.1145/3477314.3506990&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;donut&#34; data-hide-no-mentions=&#34;false&#34;&gt;
-&lt;/div&gt;
 &lt;div class=&#34;plx-pop&#34;&gt;
 &lt;p&gt;&lt;a target=&#34;_blank&#34;
 href=&#34;https://plu.mx/plum/a/?doi=10.1145/3477314.3506990&#34;

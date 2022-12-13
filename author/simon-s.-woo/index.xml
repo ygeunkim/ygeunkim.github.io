@@ -5,9 +5,9 @@
     <link>https://ygeunkim.github.io/author/simon-s.-woo/</link>
       <atom:link href="https://ygeunkim.github.io/author/simon-s.-woo/index.xml" rel="self" type="application/rss+xml" />
     <description>Simon S. Woo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/author/simon-s.-woo/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>Simon S. Woo</title>
       <link>https://ygeunkim.github.io/author/simon-s.-woo/</link>
     </image>
@@ -47,11 +47,11 @@
 }
 &lt;/style&gt;
 &lt;h3 id=&#34;article-metrics&#34;&gt;Article Metrics&lt;/h3&gt;
-&lt;div class=&#34;badge-box&#34; style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt;
+&lt;div class=&#34;badge-box&#34;
+  style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt;
 &lt;div class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1145/3477314.3506990&#34; data-style=&#34;small_circle&#34; data-hide-zero-citations=&#34;false&#34; data-legend=&#34;hover-right&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-doi=&#34;10.1145/3477314.3506990&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;donut&#34; data-hide-no-mentions=&#34;false&#34;&gt;
-&lt;/div&gt;
 &lt;div class=&#34;plx-pop&#34;&gt;
 &lt;p&gt;&lt;a target=&#34;_blank&#34;
 href=&#34;https://plu.mx/plum/a/?doi=10.1145/3477314.3506990&#34;
@@ -99,11 +99,11 @@ data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 }
 &lt;/style&gt;
 &lt;h3 id=&#34;article-metrics&#34;&gt;Article Metrics&lt;/h3&gt;
-&lt;div class=&#34;badge-box&#34; style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt;
+&lt;div class=&#34;badge-box&#34;
+  style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt;
 &lt;div class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; data-style=&#34;small_circle&#34; data-hide-zero-citations=&#34;false&#34; data-legend=&#34;hover-right&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;donut&#34; data-hide-no-mentions=&#34;false&#34;&gt;
-&lt;/div&gt;
 &lt;div class=&#34;plx-pop&#34;&gt;
 &lt;p&gt;&lt;a target=&#34;_blank&#34;
 href=&#34;https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25&#34;
@@ -124,7 +124,6 @@ data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
       <description>&lt;p&gt;I presented my paper,&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ygeunkim.github.io/publication/somifip/&#34;&gt;Kim Y.G., Yun JH., Han S., Kim H.C., Woo S.S. (2021) Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns. In: Jøsang A., Futcher L., Hagen J. (eds) ICT Systems Security and Privacy Protection. SEC 2021. IFIP Advances in Information and Communication Technology, vol 625. Springer, Cham. https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;in &lt;strong&gt;Session 11: Machine Learning for Security&lt;/strong&gt; (06-24 11:00 CEST - 13:00 CEST).&lt;/p&gt;
-&lt;p&gt;This is my first conference presentation, so I was very nervous 😱&lt;/p&gt;
 </description>
     </item>
     
