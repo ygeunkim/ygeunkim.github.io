@@ -12,7 +12,7 @@ Aside
 ================================================================================
 
 
-![Young Geun Kim](cv_avatar.png){width=70%}
+<!-- ![Young Geun Kim](cv_avatar.png){width=70%} -->
 
 
 Contact Info {#contact}
@@ -29,7 +29,6 @@ Skills and Expertise {#skills}
 
 - Displines: Statistics, Time series analysis
 - Technical skills: *R*, SAS, LaTex, Python
-<!-- - <i class="fab fa-researchgate"></i> [Researchgate profile](https://www.researchgate.net/profile/Young_Geun_Kim2) -->
 - <i class="fa fa-github"></i> [github.com/ygeunkim](https://github.com/ygeunkim)
 
 
@@ -50,7 +49,7 @@ Young Geun Kim {#title}
 
 ### [Sungkyunkwan University](https://www.skku.edu/eng/), Seoul, Korea, Republic of
 
-*Research interests*: Long-range dependence, Vector autoregression, Bayesian time series, Change point analysis, Anomaly detection, R
+*Research interests*: Long-range dependence, Vector autoregression, Bayesian econometrics, Change point analysis, Anomaly detection, R
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -95,8 +94,8 @@ Mar. 2013 - Feb. 2019
   </ul>
 </details>
 
-Honors and Awards {data-icon=award}
---------------------------------------------------------------------------------
+<!-- Honors and Awards {data-icon=award} -->
+<!-- -------------------------------------------------------------------------------- -->
 
 <!-- ### Graduated at top in Department of Statistics -->
 
@@ -107,13 +106,13 @@ Honors and Awards {data-icon=award}
 <!-- Feb. 2019 -->
 
 
-### Dean's List
+<!-- ### Dean's List -->
 
-awarded to students who achieved high grades in each semester
+<!-- awarded to students who achieved high grades in each semester -->
 
-[SKKU](https://www.skku.edu/eng/)
+<!-- [SKKU](https://www.skku.edu/eng/) -->
 
-2014 - Spring 2015
+<!-- 2014 - Spring 2015 -->
 
 
 Scholarships {data-icon=hand-holding-usd}
@@ -141,7 +140,7 @@ Awarded based on GPA in each semester
 
 [SKKU](https://www.skku.edu/eng/)
 
-Fall 2017
+Fall 2013 and 2017
 
 ### Jinggeomdari Scholarship
 
@@ -151,13 +150,13 @@ Track C, awarded to students who achieved high grades but do not benefit from an
 
 Spring 2015
 
-### Academic Excellence Scholarship
+<!-- ### Academic Excellence Scholarship -->
 
-Awarded based on GPA in each semester
+<!-- Awarded based on GPA in each semester -->
 
-[SKKU](https://www.skku.edu/eng/)
+<!-- [SKKU](https://www.skku.edu/eng/) -->
 
-Fall 2013
+<!-- Fall 2013 -->
 
 
 Papers Under Review {data-icon=file}
@@ -289,60 +288,5 @@ Graduate Merit Scholarship TA
 [SKKU](https://www.skku.edu/eng/)
 
 Mar. 2019 – Jun. 2019
-
-
-Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-### Preprocess panel data, part time
-
-Korea Disabled people’s Development Institute
-
-Seoul, Korea, Republic of
-
-Sep. 2021 - Oct. 2021
-
-<!-- ::: concise -->
-- [Survey of the life of the persons with disabilities](https://www.koddi.or.kr/data/research01_view.jsp?brdNum=7410781)
-- Required to use `SAS`: `proc surveymeans` and `proc surveyfreq`
-<!-- ::: -->
-
-
-<!-- Professional Membership {data-icon=certificate} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ### ACM Professional Member -->
-
-<!-- Certified professional member of ACM -->
-
-<!-- [Association for Computing Machinery](https://www.acm.org) -->
-
-<!-- Jan. 2022 - Dec. 2022 -->
-
-
-Extracurricular Activities {data-icon=play}
---------------------------------------------------------------------------------
-
-### Answering Stack Overflow
-
-<a href="https://stackexchange.com/users/14340293"><img src="https://stackexchange.com/users/flair/14340293.png" width="208" height="58" alt="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Blended on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
-
-<i class="fab fa-stack-overflow"></i> [StackOverflow](https://stackoverflow.com/users/story/10358660)
-
-Sep. 2018 - Present
-
-- Top 20\% in [r](https://stackoverflow.com/questions/tagged/r) tag
-- [Answered questions mainly about wrangling or visualizing data](https://stackoverflow.com/users/10358660/blended?tab=answers)
-
-### Sungkyunkwan University Orchestra
-
-University Orchestra
-
-[SKKU, Korea, Republic of](https://ko-kr.facebook.com/skku.orchestra/)
-
-Mar. 2013 – Sep. 2018
-
-- Participated as Second Violin section
-- Participated as Executive
 
 
