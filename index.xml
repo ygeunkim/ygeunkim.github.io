@@ -5,12 +5,68 @@
     <link>https://ygeunkim.github.io/</link>
       <atom:link href="https://ygeunkim.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Young Geun Kim</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Young Geun Kim</copyright><lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Young Geun Kim</copyright><lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>Young Geun Kim</title>
       <link>https://ygeunkim.github.io/</link>
     </image>
+    
+    <item>
+      <title>Bayesian Vector Heterogeneous Autoregressive Modeling</title>
+      <link>https://ygeunkim.github.io/publication/bvhar/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/publication/bvhar/</guid>
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-kim2023&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2023. “Bayesian Vector Heterogeneous Autoregressive Modeling.” &lt;em&gt;Preprint&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.__dimensions_badge_embed__ {
+  margin-left: 3rem;
+  position: absolute;
+}
+&amp;#10;.altmetric-embed {
+  margin-left: 10rem;
+  position: absolute;
+}
+&amp;#10;.plx-pop {
+  margin-top: -1.5rem;
+  margin-left: 15rem;
+  position: absolute;
+}
+&amp;#10;#badge-box {
+  text-align: center;
+}
+.__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
+  display: inline;
+}
+&lt;/style&gt;
+&lt;!-- ### Article Metrics --&gt;
+&lt;!-- &lt;div class=&#34;badge-box&#34; --&gt;
+&lt;!--   style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt; --&gt;
+&lt;!-- &lt;div class=&#34;__dimensions_badge_embed__&#34; --&gt;
+&lt;!--   data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; --&gt;
+&lt;!--   data-style=&#34;small_circle&#34; --&gt;
+&lt;!--   data-hide-zero-citations=&#34;false&#34; --&gt;
+&lt;!--   data-legend=&#34;hover-right&#34;&gt;&lt;/div&gt; --&gt;
+&lt;!-- &lt;div class=&#34;altmetric-embed&#34; --&gt;
+&lt;!--   data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; --&gt;
+&lt;!-- 	data-badge-popover=&#34;right&#34; --&gt;
+&lt;!-- 	data-badge-type=&#34;donut&#34; --&gt;
+&lt;!-- 	data-hide-no-mentions=&#34;false&#34;&gt;&lt;/div&gt; --&gt;
+&lt;!-- &lt;div class=&#34;plx-pop&#34;&gt; --&gt;
+&lt;!-- &lt;a target=&#34;_blank&#34; --&gt;
+&lt;!--   href=&#34;https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25&#34; --&gt;
+&lt;!--   class=&#34;plumx-plum-print-popup&#34; --&gt;
+&lt;!--   data-popup=&#34;right&#34; --&gt;
+&lt;!--   data-size=&#34;large&#34; --&gt;
+&lt;!--   data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+</description>
+    </item>
     
     <item>
       <title>Univariate Change Point Analysis</title>
@@ -61,7 +117,7 @@ Table of Contents
 &lt;!-- toc: end --&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Based on the lecture of Baek (&lt;a href=&#34;#ref-sta5037&#34;&gt;2020&lt;/a&gt;) in &lt;a href=&#34;https://www.skku.edu/eng/&#34;&gt;SKKU&lt;/a&gt;
+    Based on the lecture of Baek (&lt;a href=&#34;#ref-sta5037&#34;&gt;2020&lt;/a&gt;) in &lt;a href=&#34;https://www.skku.edu/eng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SKKU&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# tidyverse family---------------------------------
@@ -189,7 +245,29 @@ sim_multiple &amp;lt;-
 &lt;/ul&gt;
 &lt;h2 id=&#34;a-namebinsegabinary-segmentation&#34;&gt;&lt;a name=&#39;binseg&#39;&gt;&lt;/a&gt;Binary Segmentation&lt;/h2&gt;
 &lt;p&gt;Binary segmentation suggested by Vostrikova (&lt;a href=&#34;#ref-vostrikova1981detecting&#34;&gt;1981&lt;/a&gt;) is famous with its effective computation. This is basic algorithm, so it is also called standard binary segmentation (SBS). It performs single detection by top-down way. This helps computation cheap. Fryzlewicz (&lt;a href=&#34;#ref-Fryzlewicz.2014&#34;&gt;2014&lt;/a&gt;) provides well-organized pseudocode (section 3.2).&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ygeunkim.github.io/media/binseg.png&#34; alt=&#34;binseg-fig&#34; title=&#34;Top Down method&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-top-down-method&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://ygeunkim.github.io/media/binseg.png&#34; alt=&#34;binseg-fig&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Top Down method
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;SBS cuts the entire sample &lt;code&gt;\(\{ y_t \mathpunct{:} t = 1, \ldots n \}\)&lt;/code&gt; with change point. In turn, it explores each part thoroughly. In the algorithm, we can find CUSUM in single stick by means of detecting change point, respectively.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;find_binseg &amp;lt;- function(data, s = 0, e) {
   cusum_out &amp;lt;- 
@@ -268,7 +346,29 @@ boot_eg
 #&amp;gt; em  251  254  312  186  311  183  347  185  268   192
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;WBS also begins with the entire sequence as SBS does. However, it should get statistic maximum and change point for each bootstrap interval. Among them, the interval whose maxima is the largest.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ygeunkim.github.io/media/wbs.png&#34; alt=&#34;wbs-fig&#34; title=&#34;WBS Algorithm Illustration&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-wbs-algorithm-illustration&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://ygeunkim.github.io/media/wbs.png&#34; alt=&#34;wbs-fig&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      WBS Algorithm Illustration
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Fryzlewicz (&lt;a href=&#34;#ref-Fryzlewicz.2014&#34;&gt;2014&lt;/a&gt;) provides algorithms of the wild binary segmentation (section 3.3). In this post, we follow the step as in &lt;a href=&#34;#binseg&#34;&gt;previous section&lt;/a&gt; to help understand the whole procedure.&lt;/p&gt;
 &lt;p&gt;For the entire sequence (bootstrap size &lt;code&gt;100&lt;/code&gt;):&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# bootstrap----------------------------
@@ -380,14 +480,14 @@ Also in MOSUM framework, some asymptotic theorem holds. Under above null hypothe
 &lt;p&gt;Vostrikova, Lyudmila Yur’evna. 1981. “Detecting ‘Disorder’ in Multidimensional Random Processes.” In &lt;em&gt;Doklady Akademii Nauk&lt;/em&gt;, 259:270–74. 2. Russian Academy of Sciences.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;Please read the article if you are interested 😎&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -396,7 +496,7 @@ Also in MOSUM framework, some asymptotic theorem holds. Under above null hypothe
       <link>https://ygeunkim.github.io/publication/nndsac/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/publication/nndsac/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-yunsac2022&#34; class=&#34;csl-entry&#34;&gt;
 &lt;p&gt;Yun, Jeong-Han, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, and Byung-Gil Min. 2022. “Residual Size Is Not Enough for Anomaly Detection: Improving Detection Performance Using Residual Similarity in Multivariate Time Series.” In &lt;em&gt;Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing&lt;/em&gt;, 87–96. SAC ’22. New York, NY, USA: Association for Computing Machinery. &lt;a href=&#34;https://doi.org/10.1145/3477314.3506990&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3477314.3506990&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
@@ -406,19 +506,16 @@ Also in MOSUM framework, some asymptotic theorem holds. Under above null hypothe
   margin-left: 3rem;
   position: absolute;
 }
-
-.altmetric-embed {
+&amp;#10;.altmetric-embed {
   margin-left: 10rem;
   position: absolute;
 }
-
-.plx-pop {
+&amp;#10;.plx-pop {
   margin-top: -1.5rem;
   margin-left: 15rem;
   position: absolute;
 }
-
-#badge-box {
+&amp;#10;#badge-box {
   text-align: center;
 }
 .__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
@@ -444,10 +541,34 @@ data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
     </item>
     
     <item>
+      <title>Bayesian Modeling for Vector Heterogeneous Autoregressive Model</title>
+      <link>https://ygeunkim.github.io/projects/bvhar_research/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/projects/bvhar_research/</guid>
+      <description>&lt;p&gt;This research project develops Bayesian econometrics model that shares prior with Bayesian VAR (VAR).
+It aims at extending them to Vector heterogeneous autoregressive (VHAR) model.&lt;/p&gt;
+&lt;h2 id=&#34;working-papers&#34;&gt;Working papers&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-kim2023&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2023. “Bayesian Vector Heterogeneous Autoregressive Modeling.” &lt;em&gt;Preprint&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R Statistical Computation and Packages</title>
-      <link>https://ygeunkim.github.io/talk/r-statistical-computation-and-packages/</link>
+      <link>https://ygeunkim.github.io/event/lrdlab2021/</link>
       <pubDate>Mon, 25 Oct 2021 02:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/talk/r-statistical-computation-and-packages/</guid>
+      <guid>https://ygeunkim.github.io/event/lrdlab2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Statistical Computation and Packages</title>
+      <link>https://ygeunkim.github.io/seminar/lrdlab2021/</link>
+      <pubDate>Mon, 25 Oct 2021 02:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/seminar/lrdlab2021/</guid>
       <description></description>
     </item>
     
@@ -456,7 +577,7 @@ data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
       <link>https://ygeunkim.github.io/publication/somifip/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/publication/somifip/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-kimifip2021&#34; class=&#34;csl-entry&#34;&gt;
 &lt;p&gt;Kim, Young Geun, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, and Simon S. Woo. 2021. “Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns.” In &lt;em&gt;ICT Systems Security and Privacy Protection&lt;/em&gt;, edited by Audun Jøsang, Lynn Futcher, and Janne Hagen, 382–97. Cham: Springer International Publishing. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-78120-0_25&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
@@ -466,19 +587,16 @@ data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
   margin-left: 3rem;
   position: absolute;
 }
-
-.altmetric-embed {
+&amp;#10;.altmetric-embed {
   margin-left: 10rem;
   position: absolute;
 }
-
-.plx-pop {
+&amp;#10;.plx-pop {
   margin-top: -1.5rem;
   margin-left: 15rem;
   position: absolute;
 }
-
-#badge-box {
+&amp;#10;#badge-box {
   text-align: center;
 }
 .__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
@@ -505,11 +623,21 @@ data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
     
     <item>
       <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
-      <link>https://ygeunkim.github.io/talk/revitalizing-self-organizing-map-anomaly-detection-using-forecasting-error-patterns/</link>
+      <link>https://ygeunkim.github.io/event/ifipsec2021/</link>
       <pubDate>Tue, 22 Jun 2021 09:30:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/talk/revitalizing-self-organizing-map-anomaly-detection-using-forecasting-error-patterns/</guid>
+      <guid>https://ygeunkim.github.io/event/ifipsec2021/</guid>
       <description>&lt;p&gt;I presented my paper,&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ygeunkim.github.io/publication/somifip/&#34;&gt;Kim Y.G., Yun JH., Han S., Kim H.C., Woo S.S. (2021) Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns. In: Jøsang A., Futcher L., Hagen J. (eds) ICT Systems Security and Privacy Protection. SEC 2021. IFIP Advances in Information and Communication Technology, vol 625. Springer, Cham. https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;in &lt;strong&gt;Session 11: Machine Learning for Security&lt;/strong&gt; (06-24 11:00 CEST - 13:00 CEST).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
+      <link>https://ygeunkim.github.io/presentations/ifipsec2021/</link>
+      <pubDate>Tue, 22 Jun 2021 09:30:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/presentations/ifipsec2021/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ygeunkim.github.io/publication/somifip/&#34;&gt;Kim Y.G., Yun JH., Han S., Kim H.C., Woo S.S. (2021) Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns. In: Jøsang A., Futcher L., Hagen J. (eds) ICT Systems Security and Privacy Protection. SEC 2021. IFIP Advances in Information and Communication Technology, vol 625. Springer, Cham. https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;in &lt;strong&gt;Session 11: Machine Learning for Security&lt;/strong&gt; (06-24 11:00 CEST - 13:00 CEST).&lt;/p&gt;
 </description>
     </item>
@@ -575,9 +703,9 @@ The website of the package, &lt;a href=&#34;https://pkgs.rstudio.com/flexdashboa
     
     <item>
       <title>Coffee-ECG Experiment</title>
-      <link>https://ygeunkim.github.io/project/ecg_experiment/</link>
+      <link>https://ygeunkim.github.io/sides/ecg_experiment/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/ecg_experiment/</guid>
+      <guid>https://ygeunkim.github.io/sides/ecg_experiment/</guid>
       <description>&lt;h1 id=&#34;about-the-project&#34;&gt;About the project&lt;/h1&gt;
 &lt;p&gt;This is a project performed in &lt;a href=&#34;https://www.kwonsanglee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SKKU &lt;strong&gt;Design and Analysis of Experiments (STA 5031)&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
@@ -724,9 +852,9 @@ sample(LETTERS[1:4])
     
     <item>
       <title>Causal Inference course project</title>
-      <link>https://ygeunkim.github.io/project/causal_project/</link>
+      <link>https://ygeunkim.github.io/sides/causal_project/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/causal_project/</guid>
+      <guid>https://ygeunkim.github.io/sides/causal_project/</guid>
       <description>&lt;h1 id=&#34;propensity-score-estimating-using-machine-learning&#34;&gt;Propensity Score Estimating Using Machine Learning&lt;/h1&gt;
 &lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Modern Statistical Methods (&lt;a href=&#34;https://www.kwonsanglee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5012&lt;/a&gt;)&lt;/strong&gt; about causal inference&lt;/p&gt;
 &lt;ul&gt;
@@ -744,9 +872,9 @@ sample(LETTERS[1:4])
     
     <item>
       <title>Anomaly detection in Cyber-Physical Systems</title>
-      <link>https://ygeunkim.github.io/project/nsr_project/</link>
+      <link>https://ygeunkim.github.io/projects/nsr_project/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/nsr_project/</guid>
+      <guid>https://ygeunkim.github.io/projects/nsr_project/</guid>
       <description>&lt;p&gt;This &lt;em&gt;deep learning&lt;/em&gt; project tried to detect anomalies in real time.
 I collaborated with &lt;a href=&#34;https://dash-lab.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DASH lab&lt;/a&gt; members.&lt;/p&gt;
 &lt;p&gt;The given dataset is error data generated by deep learning model.
@@ -785,9 +913,9 @@ Original dataset is &lt;a href=&#34;https://itrust.sutd.edu.sg/itrust-labs_datas
     
     <item>
       <title>Nonparametric statistics course project</title>
-      <link>https://ygeunkim.github.io/project/nonparam_project/</link>
+      <link>https://ygeunkim.github.io/sides/nonparam_project/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/nonparam_project/</guid>
+      <guid>https://ygeunkim.github.io/sides/nonparam_project/</guid>
       <description>&lt;h1 id=&#34;nonparametric-estimation-of-conditional-expected-shortfall&#34;&gt;Nonparametric Estimation of Conditional Expected Shortfall&lt;/h1&gt;
 &lt;p&gt;This is a project performed in SKKU &lt;strong&gt;Nonparametric statistics course (&lt;a href=&#34;https://sites.google.com/site/eunryungleestat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5015&lt;/a&gt;)&lt;/strong&gt;. It aims at:&lt;/p&gt;
 &lt;ul&gt;
@@ -808,7 +936,7 @@ Original dataset is &lt;a href=&#34;https://itrust.sutd.edu.sg/itrust-labs_datas
       <link>https://ygeunkim.github.io/publication/kl_poster/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/publication/kl_poster/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-chomilets2019&#34; class=&#34;csl-entry&#34;&gt;
 &lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon S. Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.” Anchorage, Alaska, USA.&lt;/p&gt;
 &lt;/div&gt;
@@ -826,17 +954,17 @@ Original dataset is &lt;a href=&#34;https://itrust.sutd.edu.sg/itrust-labs_datas
     
     <item>
       <title>youngtool: Research Tool Package</title>
-      <link>https://ygeunkim.github.io/project/youngtool_pkg/</link>
+      <link>https://ygeunkim.github.io/sides/youngtool_pkg/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/youngtool_pkg/</guid>
+      <guid>https://ygeunkim.github.io/sides/youngtool_pkg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rmdtool: R markdown tool package</title>
-      <link>https://ygeunkim.github.io/project/rmdtool_pkg/</link>
+      <link>https://ygeunkim.github.io/sides/rmdtool_pkg/</link>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/project/rmdtool_pkg/</guid>
+      <guid>https://ygeunkim.github.io/sides/rmdtool_pkg/</guid>
       <description></description>
     </item>
     
@@ -916,13 +1044,13 @@ $$&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-   One 
+  One
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-   **Two** 
+  &lt;strong&gt;Two&lt;/strong&gt;
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-   Three 
+  Three
 &lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
@@ -1006,6 +1134,14 @@ $$&lt;/p&gt;
       <link>https://ygeunkim.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ygeunkim.github.io/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/lab/</guid>
       <description></description>
     </item>
     

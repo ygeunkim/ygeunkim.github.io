@@ -19,7 +19,7 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fas fa-link"></i> [ygeunkim.github.io](https://ygeunkim.github.io)
-- <i class="fa fa-envelope"></i> dudrms33 at dot skku dot edu or ygeunkimstat at gmail dot com
+- <i class="fa fa-envelope"></i> dudrms33 at g dot skku dot edu or ygeunkimstat at gmail dot com
 <!-- - <i class="fa fa-phone"></i> +82 2-760-1274 -->
 <!-- - For more information, please contact me via email. -->
 
@@ -27,7 +27,7 @@ Contact Info {#contact}
 Skills and Expertise {#skills}
 --------------------------------------------------------------------------------
 
-- Displines: Statistics, Time series analysis
+- Displines: Statistics, Time series analysis, Bayesian econometrics
 - Technical skills: *R*, SAS, LaTex, Python
 - <i class="fa fa-github"></i> [github.com/ygeunkim](https://github.com/ygeunkim)
 
@@ -209,6 +209,18 @@ Aug 5, 2019
 Jinwoo Cho, Shahroz Tariq, Sangyup Lee, **Young Geun Kim**, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon S. Woo
 
 
+Presentations {data-icon=person-chalkboard}
+--------------------------------------------------------------------------------
+
+### Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns
+
+36th International Conference on ICT Systems Security and Privacy Protection - IFIP SEC 2021
+
+Oslo, Norway
+
+June 24, 2021
+
+
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
@@ -240,6 +252,14 @@ Participated in project of National Security Research Institute
 
 Teaching Assistantship {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
+
+### Time Series Analysis and its Applications (The University of Samsung Electronics)
+
+PyTorch Lab (Data scientist track, advisor: Changryong Baek)
+
+The university of Samsung Electronics
+
+Aug. 2023
 
 ### Data Analysis and Modeling 2 (KB bank)
 

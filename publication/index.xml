@@ -13,11 +13,67 @@
     </image>
     
     <item>
+      <title>Bayesian Vector Heterogeneous Autoregressive Modeling</title>
+      <link>https://ygeunkim.github.io/publication/bvhar/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/publication/bvhar/</guid>
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-kim2023&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2023. “Bayesian Vector Heterogeneous Autoregressive Modeling.” &lt;em&gt;Preprint&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.__dimensions_badge_embed__ {
+  margin-left: 3rem;
+  position: absolute;
+}
+&amp;#10;.altmetric-embed {
+  margin-left: 10rem;
+  position: absolute;
+}
+&amp;#10;.plx-pop {
+  margin-top: -1.5rem;
+  margin-left: 15rem;
+  position: absolute;
+}
+&amp;#10;#badge-box {
+  text-align: center;
+}
+.__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
+  display: inline;
+}
+&lt;/style&gt;
+&lt;!-- ### Article Metrics --&gt;
+&lt;!-- &lt;div class=&#34;badge-box&#34; --&gt;
+&lt;!--   style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt; --&gt;
+&lt;!-- &lt;div class=&#34;__dimensions_badge_embed__&#34; --&gt;
+&lt;!--   data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; --&gt;
+&lt;!--   data-style=&#34;small_circle&#34; --&gt;
+&lt;!--   data-hide-zero-citations=&#34;false&#34; --&gt;
+&lt;!--   data-legend=&#34;hover-right&#34;&gt;&lt;/div&gt; --&gt;
+&lt;!-- &lt;div class=&#34;altmetric-embed&#34; --&gt;
+&lt;!--   data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; --&gt;
+&lt;!-- 	data-badge-popover=&#34;right&#34; --&gt;
+&lt;!-- 	data-badge-type=&#34;donut&#34; --&gt;
+&lt;!-- 	data-hide-no-mentions=&#34;false&#34;&gt;&lt;/div&gt; --&gt;
+&lt;!-- &lt;div class=&#34;plx-pop&#34;&gt; --&gt;
+&lt;!-- &lt;a target=&#34;_blank&#34; --&gt;
+&lt;!--   href=&#34;https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25&#34; --&gt;
+&lt;!--   class=&#34;plumx-plum-print-popup&#34; --&gt;
+&lt;!--   data-popup=&#34;right&#34; --&gt;
+&lt;!--   data-size=&#34;large&#34; --&gt;
+&lt;!--   data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</title>
       <link>https://ygeunkim.github.io/publication/nndsac/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/publication/nndsac/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-yunsac2022&#34; class=&#34;csl-entry&#34;&gt;
 &lt;p&gt;Yun, Jeong-Han, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, and Byung-Gil Min. 2022. “Residual Size Is Not Enough for Anomaly Detection: Improving Detection Performance Using Residual Similarity in Multivariate Time Series.” In &lt;em&gt;Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing&lt;/em&gt;, 87–96. SAC ’22. New York, NY, USA: Association for Computing Machinery. &lt;a href=&#34;https://doi.org/10.1145/3477314.3506990&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3477314.3506990&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
@@ -27,19 +83,16 @@
   margin-left: 3rem;
   position: absolute;
 }
-
-.altmetric-embed {
+&amp;#10;.altmetric-embed {
   margin-left: 10rem;
   position: absolute;
 }
-
-.plx-pop {
+&amp;#10;.plx-pop {
   margin-top: -1.5rem;
   margin-left: 15rem;
   position: absolute;
 }
-
-#badge-box {
+&amp;#10;#badge-box {
   text-align: center;
 }
 .__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
@@ -69,7 +122,7 @@ data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
       <link>https://ygeunkim.github.io/publication/somifip/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/publication/somifip/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-kimifip2021&#34; class=&#34;csl-entry&#34;&gt;
 &lt;p&gt;Kim, Young Geun, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, and Simon S. Woo. 2021. “Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns.” In &lt;em&gt;ICT Systems Security and Privacy Protection&lt;/em&gt;, edited by Audun Jøsang, Lynn Futcher, and Janne Hagen, 382–97. Cham: Springer International Publishing. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-78120-0_25&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
@@ -79,19 +132,16 @@ data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
   margin-left: 3rem;
   position: absolute;
 }
-
-.altmetric-embed {
+&amp;#10;.altmetric-embed {
   margin-left: 10rem;
   position: absolute;
 }
-
-.plx-pop {
+&amp;#10;.plx-pop {
   margin-top: -1.5rem;
   margin-left: 15rem;
   position: absolute;
 }
-
-#badge-box {
+&amp;#10;#badge-box {
   text-align: center;
 }
 .__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
@@ -121,7 +171,7 @@ data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
       <link>https://ygeunkim.github.io/publication/kl_poster/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/publication/kl_poster/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-chomilets2019&#34; class=&#34;csl-entry&#34;&gt;
 &lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon S. Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.” Anchorage, Alaska, USA.&lt;/p&gt;
 &lt;/div&gt;

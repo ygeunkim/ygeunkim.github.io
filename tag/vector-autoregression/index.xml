@@ -5,7 +5,7 @@
     <link>https://ygeunkim.github.io/tag/vector-autoregression/</link>
       <atom:link href="https://ygeunkim.github.io/tag/vector-autoregression/index.xml" rel="self" type="application/rss+xml" />
     <description>vector-autoregression</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Young Geun Kim</copyright><lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Young Geun Kim</copyright><lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>vector-autoregression</title>
@@ -15,11 +15,11 @@
     <item>
       <title>Bayesian Vector Heterogeneous Autoregressive Modeling</title>
       <link>https://ygeunkim.github.io/publication/bvhar/</link>
-      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/publication/bvhar/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-kim2023&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2022. “Bayesian Vector Heterogeneous Autoregressive Modeling.”&lt;/p&gt;
+&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2023. “Bayesian Vector Heterogeneous Autoregressive Modeling.” &lt;em&gt;Preprint&lt;/em&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;style type=&#34;text/css&#34;&gt;
@@ -27,19 +27,16 @@
   margin-left: 3rem;
   position: absolute;
 }
-
-.altmetric-embed {
+&amp;#10;.altmetric-embed {
   margin-left: 10rem;
   position: absolute;
 }
-
-.plx-pop {
+&amp;#10;.plx-pop {
   margin-top: -1.5rem;
   margin-left: 15rem;
   position: absolute;
 }
-
-#badge-box {
+&amp;#10;#badge-box {
   text-align: center;
 }
 .__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
@@ -56,9 +53,9 @@
 &lt;!--   data-legend=&#34;hover-right&#34;&gt;&lt;/div&gt; --&gt;
 &lt;!-- &lt;div class=&#34;altmetric-embed&#34; --&gt;
 &lt;!--   data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; --&gt;
-&lt;!--    data-badge-popover=&#34;right&#34; --&gt;
-&lt;!--    data-badge-type=&#34;donut&#34; --&gt;
-&lt;!--    data-hide-no-mentions=&#34;false&#34;&gt;&lt;/div&gt; --&gt;
+&lt;!-- 	data-badge-popover=&#34;right&#34; --&gt;
+&lt;!-- 	data-badge-type=&#34;donut&#34; --&gt;
+&lt;!-- 	data-hide-no-mentions=&#34;false&#34;&gt;&lt;/div&gt; --&gt;
 &lt;!-- &lt;div class=&#34;plx-pop&#34;&gt; --&gt;
 &lt;!-- &lt;a target=&#34;_blank&#34; --&gt;
 &lt;!--   href=&#34;https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25&#34; --&gt;

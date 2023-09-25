@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/authors/admin/</link>
+      <atom:link href="https://ygeunkim.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Young Geun Kim</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Young Geun Kim</copyright>
+    <image>
+      <url>https://ygeunkim.github.io/authors/admin/avatar_hucc980f41d44546dfe8dc45f5e262aa9b_3342578_270x270_fill_lanczos_center_3.png</url>
+      <title>Young Geun Kim</title>
+      <link>https://ygeunkim.github.io/authors/admin/</link>
+    </image>
+    
+    <item>
+      <title>Bayesian Vector Heterogeneous Autoregressive Modeling</title>
+      <link>https://ygeunkim.github.io/publication/bvhar/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/publication/bvhar/</guid>
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-kim2023&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2023. “Bayesian Vector Heterogeneous Autoregressive Modeling.” &lt;em&gt;Preprint&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.__dimensions_badge_embed__ {
+  margin-left: 3rem;
+  position: absolute;
+}
+&amp;#10;.altmetric-embed {
+  margin-left: 10rem;
+  position: absolute;
+}
+&amp;#10;.plx-pop {
+  margin-top: -1.5rem;
+  margin-left: 15rem;
+  position: absolute;
+}
+&amp;#10;#badge-box {
+  text-align: center;
+}
+.__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
+  display: inline;
+}
+&lt;/style&gt;
+&lt;!-- ### Article Metrics --&gt;
+&lt;!-- &lt;div class=&#34;badge-box&#34; --&gt;
+&lt;!--   style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt; --&gt;
+&lt;!-- &lt;div class=&#34;__dimensions_badge_embed__&#34; --&gt;
+&lt;!--   data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; --&gt;
+&lt;!--   data-style=&#34;small_circle&#34; --&gt;
+&lt;!--   data-hide-zero-citations=&#34;false&#34; --&gt;
+&lt;!--   data-legend=&#34;hover-right&#34;&gt;&lt;/div&gt; --&gt;
+&lt;!-- &lt;div class=&#34;altmetric-embed&#34; --&gt;
+&lt;!--   data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; --&gt;
+&lt;!-- 	data-badge-popover=&#34;right&#34; --&gt;
+&lt;!-- 	data-badge-type=&#34;donut&#34; --&gt;
+&lt;!-- 	data-hide-no-mentions=&#34;false&#34;&gt;&lt;/div&gt; --&gt;
+&lt;!-- &lt;div class=&#34;plx-pop&#34;&gt; --&gt;
+&lt;!-- &lt;a target=&#34;_blank&#34; --&gt;
+&lt;!--   href=&#34;https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25&#34; --&gt;
+&lt;!--   class=&#34;plumx-plum-print-popup&#34; --&gt;
+&lt;!--   data-popup=&#34;right&#34; --&gt;
+&lt;!--   data-size=&#34;large&#34; --&gt;
+&lt;!--   data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Univariate Change Point Analysis</title>
+      <link>https://ygeunkim.github.io/post/tscp/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/post/tscp/</guid>
+      <description>&lt;!-- MathJax: start --&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
+      displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&#34;\\[&#34;,&#34;\\]&#34;] ],
+      skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;],
+      processEscapes: true
+    }
+  });
+&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34;
+    src=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
+&lt;/script&gt;
+&lt;!-- MathJax: end --&gt;
+&lt;!-- toc: start --&gt;
+&lt;details&gt;
+&lt;summary&gt;
+Table of Contents
+&lt;/summary&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#prob&#34;&gt;Change Point Problem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#single&#34;&gt;Single Change Point&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#lsedetect&#34;&gt;LSE Change Point Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cusumest&#34;&gt;Cumulative Sum (CUSUM) Estimator&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#multiple&#34;&gt;Multiple Change Pints&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#binseg&#34;&gt;Binary Segmentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#wildbinseg&#34;&gt;Wild Binary Segmentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mosumest&#34;&gt;Moving Sum (MOSUM) Statistic and Tests&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#wrap&#34;&gt;Wrapping up&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#reflist&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;!-- toc: end --&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Based on the lecture of Baek (&lt;a href=&#34;#ref-sta5037&#34;&gt;2020&lt;/a&gt;) in &lt;a href=&#34;https://www.skku.edu/eng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SKKU&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# tidyverse family---------------------------------
+library(tidyverse)
+# rolling arithmetics------------------------------
+library(zoo)
+# set seed for reproducibility---------------------
+set.seed(1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;a-nameprobachange-point-detection-problem&#34;&gt;&lt;a name=&#39;prob&#39;&gt;&lt;/a&gt;Change Point Detection Problem&lt;/h1&gt;
+&lt;p&gt;When analyzing time series, we often use parameter models to fit given dataset. In the sample from 2005 to 2006, for example, the chosen model might forecast well. Imagine, however, we should include 2007 to 2008 period in which financial crisis occurred. The estimators of the model would change due to this event😭. It is important to figure out these change points because the model parameter could change at the point. The goal of change point analysis is to mark the timestamp when some parameter has changed. Here the simplest setting is to detect change of the mean &lt;code&gt;\(\mu_t\)&lt;/code&gt; in location model.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$Y_t = \mu_t + \epsilon_t, \quad t = 1, \ldots, n$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then change point detection can be expressed by&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$H_0: \mu_1 = \cdots = \mu_n \quad \text{vs} \quad H_1: \exists k \colon \mu_1 = \cdots = \mu_k \neq \mu_{k + 1} = \cdots = \mu_n$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Now, each method should&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Estimate unknown &lt;code&gt;\(k\)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Test.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;a-namesingleasingle-change-point&#34;&gt;&lt;a name=&#39;single&#39;&gt;&lt;/a&gt;Single Change Point&lt;/h1&gt;
+&lt;p&gt;First consider single change point problem with &lt;code&gt;\(k = 100\)&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;y1 &amp;lt;- tibble(key = &amp;quot;a&amp;quot;, value = rnorm(100, mean = 0), mean = 0)
+y2 &amp;lt;- tibble(key = &amp;quot;b&amp;quot;, value = rnorm(150, mean = 5), mean = 5)
+# bind rows and bind time index column----------------
+sim_single &amp;lt;- 
+  bind_rows(y1, y2) %&amp;gt;% 
+  mutate(index = 1:n())
+&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe src=&#34;single_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;LSE&lt;/li&gt;
+&lt;li&gt;CUSUM (&lt;a href=&#34;#ref-page1954&#34;&gt;PAGE 1954&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These 2 methods can find one change point.&lt;/p&gt;
+&lt;h2 id=&#34;a-namelsedetectalse-change-point-detection&#34;&gt;&lt;a name=&#39;lsedetect&#39;&gt;&lt;/a&gt;LSE Change Point Detection&lt;/h2&gt;
+&lt;iframe src=&#34;point_single_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Above figure just changes time plot to point. To estimate &lt;code&gt;\(k\)&lt;/code&gt;, the most easiest way is to minimize sum of within sums of square.&lt;/p&gt;
+&lt;p&gt;Let&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\(\overline{Y}_k = \frac{1}{k} \sum_{t = 1}^k Y_t\)&lt;/code&gt; and let &lt;code&gt;\(\overline{Y}_k^\ast = \frac{1}{n - k} \sum_{t = k + 1}^n Y_t\)&lt;/code&gt;. Then&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\begin{aligned}   \hat{k}^{LS} &amp;amp; = \arg\min_{1 \le k \le n - 1} \left( \sum_{t = 1}^k (Y_t - \overline{Y}_k)^2 + \sum_{t = k + 1}^n (Y_t - \overline{Y}_k^\ast)^2 \right) \\   &amp;amp; = \arg\max_{1 \le k \le n - 1} \sqrt{\frac{k (n - k)}{n}} \left\lvert \overline{Y}_k - \overline{Y}_k^\ast \right\rvert \end{aligned}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Observe that by multiplying &lt;code&gt;\(\sqrt{\frac{k (n - k)}{n}}\)&lt;/code&gt;, it adjusts the location of &lt;code&gt;\(k\)&lt;/code&gt; and the sample size. You can see this feature in the following figure.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;lse_output &amp;lt;- 
+  sim_single %&amp;gt;% 
+  mutate(
+    mean_k = cumsum(value) / index,
+    mean_ast = sapply(
+      index + 1, function(i) {
+        sum(value[i:n()])
+      }
+    ) / (n() - index),
+    lse_unadjust = abs(mean_k - mean_ast),
+    lse_adjust = sqrt(index * (n() - index) / n()) * lse_unadjust
+  )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe src=&#34;lse_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;While LSE estimator performs well, unadjusted LSE inflates against &lt;code&gt;\(k\)&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;a-namecusumestacumulative-sum-cusum-estimator&#34;&gt;&lt;a name=&#39;cusumest&#39;&gt;&lt;/a&gt;Cumulative Sum (CUSUM) Estimator&lt;/h2&gt;
+&lt;p&gt;This method is called CUSUM because it deals with cumulative sum (of &lt;code&gt;\(Y_t - \overline{Y}\)&lt;/code&gt; until &lt;code&gt;\(k\)&lt;/code&gt;) as follows.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\begin{aligned}   \left\lvert \chi(k) \right\rvert &amp;amp; = \frac{1}{\sqrt{n}} \left\lvert \sum_{t = 1}^k Y_t - \frac{k}{n} \sum_{t = 1}^n Y_t \right\rvert \\     &amp;amp; = \frac{1}{\sqrt{n}} \left\lvert \sum_{t = 1}^k (Y_t - \overline{Y}) \right\rvert \end{aligned}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;where &lt;code&gt;\(\overline{Y} = \frac{1}{n} \sum_{t = 1}^n Y_t\)&lt;/code&gt;. In turn, we estimate &lt;code&gt;\(k\)&lt;/code&gt; by &lt;em&gt;maximizing the CUSUM&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\hat{k}^{CUSUM} = \arg\max_{1 \le k \le n} \left\lvert \chi(k) \right\rvert$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;In fact, CUSUM inspect the absolute difference between &lt;code&gt;\(\overline{Y}_k\)&lt;/code&gt; and &lt;code&gt;\(\overline{Y}_k^\ast\)&lt;/code&gt;, i.e.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\lvert \chi(k) \rvert = \frac{1}{\sqrt{n}} \frac{k (n - k)}{n} \left\lvert \overline{Y}_k - \overline{Y}_k^\ast \right\rvert$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It follows that CUSUM change point estimator is &lt;em&gt;also an LSE estimator&lt;/em&gt; in that&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\begin{aligned}   \hat{k}^{LS} &amp;amp; = \arg\max_{1 \le k \le n - 1} \sqrt{\frac{k (n - k)}{n}} \left\lvert \overline{Y}_k - \overline{Y}_k^\ast \right\rvert \\   &amp;amp; = \arg\max_{1 \le k \le n - 1} \sqrt{\frac{n}{k (n - k)}} \left\lvert \chi(k) \right\rvert \\   &amp;amp; = \arg\max_{1 \le k \le n - 1} \left\lvert \widetilde\chi(k) \right\rvert \end{aligned}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;where &lt;code&gt;\(\left\lvert \widetilde\chi(k) \right\rvert\)&lt;/code&gt; is adjusted CUSUM defined by &lt;code&gt;\(\left\lvert \widetilde\chi(k) \right\rvert = \sqrt{\frac{n}{k (n - k)}} \lvert \chi(k) \rvert\)&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;cusum_output &amp;lt;- 
+  sim_single %&amp;gt;% 
+  mutate(
+    ave = mean(value),
+    cusum = abs(cumsum(value - ave)) / sqrt(n())
+  )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can easily find the value which maximizes CUSUM😀. See the trajectory of CUSUM figure. Its maximum stands out.&lt;/p&gt;
+&lt;iframe src=&#34;cusum_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;The second step is test. For this testing, we investigate some theory. As in the &lt;a href=&#34;#prob&#34;&gt;first Section&lt;/a&gt;, we test null hypothesis of no change point that &lt;code&gt;\(H_0: \mu_1 = \cdots = \mu_n\)&lt;/code&gt; versus &lt;em&gt;single change point existence&lt;/em&gt;. Given each &lt;code&gt;\(\hat{k}\)&lt;/code&gt;, we build test statistic and derive its (asymptotic) distribution. Under &lt;code&gt;\(H_0\)&lt;/code&gt;, functional central limit theorem holds under some conditions (see the tables below). Let &lt;code&gt;\(B(t)\)&lt;/code&gt; is a &lt;a href=&#34;https://en.wikipedia.org/wiki/Brownian_bridge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brownian bridge&lt;/a&gt; (standard Brownian motion) and let &lt;code&gt;\(\sigma^2\)&lt;/code&gt; be the long-run variance. The different part is scaling &lt;code&gt;\(\sqrt{u (1 - u)}\)&lt;/code&gt; for sample size. Multiplying unbalance against sample size raises precision of &lt;code&gt;\(\hat{k}^{LS}\)&lt;/code&gt;, but it makes difficult to get p-value of &lt;code&gt;\(T_{LS}\)&lt;/code&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;LSE&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;CUSUM&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Statistic&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$T_{LS} = \max_{1 \le k \le n - 1} \left\lvert \widetilde\chi(k) \right\rvert$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$T_{CUSUM} = \max_{1 \le k \le n} \left\lvert \chi(k) \right\rvert$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Distribution&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$T_{LS} \stackrel{\cal{D}}{\rightarrow} \sigma \sup_{0 \le u \le 1} \frac{\left\lvert B(u) \right\rvert}{\sqrt{u (1 - u)}}$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$T_{CUSUM} \stackrel{\cal{D}}{\rightarrow} \sigma \sup_{0 \le u \le 1} \left\lvert B(u) \right\rvert$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;p-value (computation)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;hard&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;easy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$\hat{k}$&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;precision good&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;bias bad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;a-namemultipleamultiple-change-points&#34;&gt;&lt;a name=&#39;multiple&#39;&gt;&lt;/a&gt;Multiple Change Points&lt;/h1&gt;
+&lt;p&gt;Consider 3 change points: &lt;code&gt;\(k_1 = 100\)&lt;/code&gt;, &lt;code&gt;\(k_2 = 250\)&lt;/code&gt;, and &lt;code&gt;\(k_3 = 300\)&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;y1 &amp;lt;- tibble(key = &amp;quot;a&amp;quot;, value = rnorm(100, mean = 0), mean = 0)
+y2 &amp;lt;- tibble(key = &amp;quot;b&amp;quot;, value = rnorm(150, mean = 3), mean = 3)
+y3 &amp;lt;- tibble(key = &amp;quot;c&amp;quot;, value = rnorm(50, mean = -1), mean = -1)
+y4 &amp;lt;- tibble(key = &amp;quot;d&amp;quot;, value = rnorm(50, mean = 1), mean = 1)
+# bind rows and bind time index column----------------
+sim_multiple &amp;lt;- 
+  bind_rows(y1, y2, y3, y4) %&amp;gt;% 
+  mutate(index = 1:n())
+&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe src=&#34;multi_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;In multiple change points problem, we do not know both location and the number of of &lt;code&gt;\(k\)&lt;/code&gt;’s. In single change point problem, alternative hypothesis was literally the existence of one single point. Now, we should extend this hypothesis to &lt;em&gt;at least one change point&lt;/em&gt;. Based on above CUSUM statistic detection, we introduce the following methods. Of course there are the other advanced detection methods, this post focus on simple approach in location model.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Binary segmentation (&lt;a href=&#34;#ref-vostrikova1981detecting&#34;&gt;Vostrikova 1981&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Wild binary segmentation (&lt;a href=&#34;#ref-Fryzlewicz.2014&#34;&gt;Fryzlewicz 2014&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;MOSUM (&lt;a href=&#34;#ref-Eichinger.2018&#34;&gt;Eichinger and Kirch 2018&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;a-namebinsegabinary-segmentation&#34;&gt;&lt;a name=&#39;binseg&#39;&gt;&lt;/a&gt;Binary Segmentation&lt;/h2&gt;
+&lt;p&gt;Binary segmentation suggested by Vostrikova (&lt;a href=&#34;#ref-vostrikova1981detecting&#34;&gt;1981&lt;/a&gt;) is famous with its effective computation. This is basic algorithm, so it is also called standard binary segmentation (SBS). It performs single detection by top-down way. This helps computation cheap. Fryzlewicz (&lt;a href=&#34;#ref-Fryzlewicz.2014&#34;&gt;2014&lt;/a&gt;) provides well-organized pseudocode (section 3.2).&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-top-down-method&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://ygeunkim.github.io/media/binseg.png&#34; alt=&#34;binseg-fig&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Top Down method
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;SBS cuts the entire sample &lt;code&gt;\(\{ y_t \mathpunct{:} t = 1, \ldots n \}\)&lt;/code&gt; with change point. In turn, it explores each part thoroughly. In the algorithm, we can find CUSUM in single stick by means of detecting change point, respectively.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;find_binseg &amp;lt;- function(data, s = 0, e) {
+  cusum_out &amp;lt;- 
+    data %&amp;gt;% 
+    dplyr::filter(index &amp;gt; s, index &amp;lt;= e) %&amp;gt;% 
+    mutate(
+      ave = mean(value),
+      cusum = abs(cumsum(value - ave)) / sqrt(n())
+    ) %&amp;gt;% 
+    filter(cusum == max(cusum))
+  list(
+    stat = cusum_out$cusum,
+    change_point = cusum_out$index
+  )
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;First, we find &lt;code&gt;\(k = 250\)&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;(binseg1 &amp;lt;- find_binseg(sim_multiple, 0, nrow(sim_multiple)))
+#&amp;gt; $stat
+#&amp;gt; [1] 7.13
+#&amp;gt; 
+#&amp;gt; $change_point
+#&amp;gt; [1] 250
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next, see before and after &lt;code&gt;\(k = 250\)&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;find_binseg(sim_multiple, 0, 250)
+#&amp;gt; $stat
+#&amp;gt; [1] 10.9
+#&amp;gt; 
+#&amp;gt; $change_point
+#&amp;gt; [1] 99
+find_binseg(sim_multiple, 251, nrow(sim_multiple))
+#&amp;gt; $stat
+#&amp;gt; [1] 5.06
+#&amp;gt; 
+#&amp;gt; $change_point
+#&amp;gt; [1] 300
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Both statistics seems large, so we say these two points are change points.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;find_binseg(sim_multiple, 0, 100)
+#&amp;gt; $stat
+#&amp;gt; [1] 0.506
+#&amp;gt; 
+#&amp;gt; $change_point
+#&amp;gt; [1] 73
+find_binseg(sim_multiple, 100, 250)
+#&amp;gt; $stat
+#&amp;gt; [1] 0.755
+#&amp;gt; 
+#&amp;gt; $change_point
+#&amp;gt; [1] 209
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Every statistic is small, so we stop here. Consider the last block, after &lt;code&gt;250&lt;/code&gt;. Following figure computes CUSUM in multiple change points setting. Recall that it is expected to be huge at the change point. In first two breaks, the estimators seem works okay. However, it does not at the last. Why?&lt;/p&gt;
+&lt;iframe src=&#34;mcusum_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Observe their true mean from the simulation step:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#&amp;gt; [1]  0  3 -1  1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can expect that &lt;code&gt;-1&lt;/code&gt; and &lt;code&gt;1&lt;/code&gt; were canceled. In the above figure, blue line is calculating CUSUM only in this area. The estimator looks like working better. In this example, binary segmentation could find &lt;code&gt;300&lt;/code&gt; as change point since this block came at once after &lt;code&gt;\(k = 250\)&lt;/code&gt; was found. SBS, however, is &lt;em&gt;not guaranteed to include this specific local range&lt;/em&gt; since the process of detection is not predictable.&lt;/p&gt;
+&lt;p&gt;Fryzlewicz (&lt;a href=&#34;#ref-Fryzlewicz.2014&#34;&gt;2014&lt;/a&gt;) suggested &lt;em&gt;randomly splitted localization&lt;/em&gt; as the solution. It is called Wild binary segmentation (WBS).&lt;/p&gt;
+&lt;h2 id=&#34;a-namewildbinsegawild-binary-segmentation&#34;&gt;&lt;a name=&#39;wildbinseg&#39;&gt;&lt;/a&gt;Wild Binary Segmentation&lt;/h2&gt;
+&lt;p&gt;Wild Binary Segmentation (WBS) is bootstrap version for binary segmentation. It chooses random interval &lt;code&gt;\([s_m, e_m]\)&lt;/code&gt; ($m = 1, \ldots M$) in each step. Moreover, the reason this technique is related to bootstrap is &lt;code&gt;\(s_m &amp;lt; e_m\)&lt;/code&gt; are &lt;em&gt;sampled with replacement&lt;/em&gt;. For instance:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;boot_size &amp;lt;- 10
+# sampling with replacement--------------------
+boot_eg &amp;lt;- 
+  matrix(
+    sample(sim_multiple$index, size = boot_size * 2, replace = TRUE), 
+    nrow = 2, 
+    ncol = boot_size
+  ) %&amp;gt;% 
+  apply(2, sort)
+# rownames-------------------------------------
+rownames(boot_eg) &amp;lt;- c(&amp;quot;sm&amp;quot;, &amp;quot;em&amp;quot;)
+boot_eg
+#&amp;gt;    [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+#&amp;gt; sm   88  199   22  118   52  118  294   77  113   114
+#&amp;gt; em  251  254  312  186  311  183  347  185  268   192
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;WBS also begins with the entire sequence as SBS does. However, it should get statistic maximum and change point for each bootstrap interval. Among them, the interval whose maxima is the largest.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-wbs-algorithm-illustration&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://ygeunkim.github.io/media/wbs.png&#34; alt=&#34;wbs-fig&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      WBS Algorithm Illustration
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Fryzlewicz (&lt;a href=&#34;#ref-Fryzlewicz.2014&#34;&gt;2014&lt;/a&gt;) provides algorithms of the wild binary segmentation (section 3.3). In this post, we follow the step as in &lt;a href=&#34;#binseg&#34;&gt;previous section&lt;/a&gt; to help understand the whole procedure.&lt;/p&gt;
+&lt;p&gt;For the entire sequence (bootstrap size &lt;code&gt;100&lt;/code&gt;):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# bootstrap----------------------------
+boot1 &amp;lt;- 
+  matrix(
+    sample(sim_multiple$index, size = 100 * 2, replace = TRUE), 
+    nrow = 2, 
+    ncol = 100
+  ) %&amp;gt;% 
+  apply(2, sort)
+# WBS----------------------------------
+wbs1 &amp;lt;- 
+  boot1 %&amp;gt;% 
+  apply(2, function(x) {find_binseg(data = sim_multiple, s = x[1], e = x[2])})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe src=&#34;wbs1_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Among 100 intervals, &lt;code&gt;250&lt;/code&gt; gives the maximum CUSUM statistic. Next step, before &lt;code&gt;250&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# bootstrap----------------------------
+boot2 &amp;lt;- 
+  matrix(
+    sample(1:250, size = 100 * 2, replace = TRUE), 
+    nrow = 2, 
+    ncol = 100
+  ) %&amp;gt;% 
+  apply(2, sort)
+# WBS----------------------------------
+wbs2 &amp;lt;- 
+  boot2 %&amp;gt;% 
+  apply(2, function(x) {find_binseg(data = sim_multiple, s = x[1], e = x[2])})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After &lt;code&gt;250&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# bootstrap----------------------------
+boot3 &amp;lt;- 
+  matrix(
+    sample(251:last(sim_multiple$index), size = 100 * 2, replace = TRUE), 
+    nrow = 2, 
+    ncol = 100
+  ) %&amp;gt;% 
+  apply(2, sort)
+# WBS----------------------------------
+wbs3 &amp;lt;- 
+  boot3 %&amp;gt;% 
+  apply(2, function(x) {find_binseg(data = sim_multiple, s = x[1], e = x[2])})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe src=&#34;wbs23_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Choose the point with the highest value in each color. Denote that they are similar to the true ones 👍🏼.&lt;/p&gt;
+&lt;h2 id=&#34;a-namemosumestamoving-sum-mosum-statistic-and-tests&#34;&gt;&lt;a name=&#39;mosumest&#39;&gt;&lt;/a&gt;Moving Sum (MOSUM) Statistic and Tests&lt;/h2&gt;
+&lt;p&gt;As we have seen above, localization of CUSUM can improve performance. MOSUM is localization of CUSUM statistic of window size &lt;code&gt;\(G\)&lt;/code&gt; (&lt;a href=&#34;#ref-Eichinger.2018&#34;&gt;Eichinger and Kirch 2018&lt;/a&gt;). In each window, moving sum is computed.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\left\lvert T_{k, n}(G) \right\rvert = \frac{1}{\sqrt{2 G}} \left\lvert \sum_{t = k + 1}^{k + G} Y_t - \sum_{t = k - G + 1}^k Y_t \right\rvert$$&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;mosum_output &amp;lt;- 
+  sim_multiple %&amp;gt;% 
+  mutate(
+    roll_mean = rollsum(value, k = 20, na.pad = TRUE, align = &amp;quot;right&amp;quot;),
+    mosum = abs(lead(roll_mean, n = 20) - roll_mean) / sqrt(2 * 20)
+  )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unlike CUSUM, MOSUM is detecting the last change point by localization.&lt;/p&gt;
+&lt;iframe src=&#34;mosum_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;The next step is similar to CUSUM or the other statistic.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$T_n(G) = \max_{G \le k \le n - G} \frac{\left\lvert T_{k, n}(G) \right\rvert}{\sigma}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;with long-run variance &lt;code&gt;\(\sigma\)&lt;/code&gt;. Now we can see additional topics to solve:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Estimate long-run variance&lt;/li&gt;
+&lt;li&gt;and choose the bandwidth.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let &lt;code&gt;\(q = q_n\)&lt;/code&gt; be the number of changes and let &lt;code&gt;\(k_1 &amp;lt; k_2 &amp;lt; \cdots &amp;lt; k_q\)&lt;/code&gt; be each change point. Then the &lt;em&gt;null hypothesis of no change point&lt;/em&gt; can be represented by&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$H_0: q_n = 0$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;versus alternative hypothesis of at least one change&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$H_1: q_n \ge 1$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Recall that CUSUM converges in distribution to Brownian bridge. This enables the computation of p-value.
+Also in MOSUM framework, some asymptotic theorem holds. Under above null hypothesis, &lt;code&gt;\(T_n(G)\)&lt;/code&gt; can use the distribution Gumbel extreme value distribution asymptotically. The form is quite complex, so we skip the details in this post. Please see &lt;strong&gt;Theorem 2.1&lt;/strong&gt; of Eichinger and Kirch (&lt;a href=&#34;#ref-Eichinger.2018&#34;&gt;2018&lt;/a&gt;) 😱.&lt;/p&gt;
+&lt;h3 id=&#34;variance&#34;&gt;Variance&lt;/h3&gt;
+&lt;p&gt;Now, we estimate long-run variance in each break instead of sample variance &lt;code&gt;\(\hat\sigma^2 = \frac{1}{n - 1}\sum_{t = 1}^n (Y_t - \overline{Y})^2\)&lt;/code&gt;. Assuming &lt;em&gt;i.i.d. errors&lt;/em&gt;, implementing the sample variance formula is suggested. Let &lt;code&gt;\(\overline{Y}_{k - G + 1, k} = \frac{1}{G} \sum_{t = k - G + 1}^k Y_t\)&lt;/code&gt; be the sample mean of &lt;code&gt;\(G\)&lt;/code&gt; points before &lt;code&gt;\(k\)&lt;/code&gt; and let &lt;code&gt;\(\overline{Y}_{k + 1, k + G} = \frac{1}{G} \sum_{t = k + 1}^{k + G} Y_t\)&lt;/code&gt; be the sample mean of &lt;code&gt;\(G\)&lt;/code&gt; points after &lt;code&gt;\(k\)&lt;/code&gt;. Eichinger and Kirch (&lt;a href=&#34;#ref-Eichinger.2018&#34;&gt;2018&lt;/a&gt;) computed sample variance in this window of &lt;code&gt;\(k\)&lt;/code&gt;-th point:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\hat\sigma_{k, n}^2 = \frac{1}{2G} \left( \sum_{t = k - G + 1}^k (Y_t - \overline{Y}_{k - G + 1, k})^2 + \sum_{t = k + 1}^{k + G} (Y_t - \overline{Y}_{k + 1, k + G})^2 \right)$$&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;mosum_var &amp;lt;- 
+  sim_multiple %&amp;gt;% 
+  mutate(
+    roll_mean = rollsum(value, k = 20, na.pad = TRUE, align = &amp;quot;right&amp;quot;),
+    mosum = abs(lead(roll_mean, n = 20) - roll_mean) / sqrt(2 * 20),
+    roll_var = 
+      (rollapply(value, width = 20, var, fill = NA, align = &amp;quot;right&amp;quot;) * 19 + 
+         rollapply(value, width = 20, var, fill = NA, align = &amp;quot;left&amp;quot;) * 19) / 40,
+    mosum_est = mosum / sqrt(roll_var)
+  )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The following shows MOSUM statistic &lt;code&gt;\(\hat\sigma_{k, n}^{-1} \left\lvert T_{k, n}(G) \right\rvert\)&lt;/code&gt;. By multiplying standard deviation to the sum, now we can detect change point more clearly.&lt;/p&gt;
+&lt;iframe src=&#34;mosumest_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;bandwidth-selection&#34;&gt;Bandwidth Selection&lt;/h3&gt;
+&lt;p&gt;Try &lt;code&gt;\(G = 5, 10, 20, 40, 45\)&lt;/code&gt;. One of many assumptions in the paper of Eichinger and Kirch (&lt;a href=&#34;#ref-Eichinger.2018&#34;&gt;2018&lt;/a&gt;) is that the window size &lt;code&gt;\(2G\)&lt;/code&gt; should be large enough (Assumption A.2). The figure below is MOSUM statistic for each bandwidth. When &lt;code&gt;\(G = 3, 5\)&lt;/code&gt;, i.e. the &lt;em&gt;bandwidth is small, you can see it is not easy to find maximum&lt;/em&gt; of the statistic. &lt;em&gt;In large bandwidth, the maximum points stand out&lt;/em&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;mosumgrid_interactive.html&#34; scrolling=&#34;no&#34; seamless=&#34;seamless&#34; frameBorder=&#34;0&#34; width=&#34;90%&#34; height=&#34;415.296&#34;&gt;&lt;/iframe&gt;
+&lt;h1 id=&#34;a-namewrapawrapping-up&#34;&gt;&lt;a name=&#39;wrap&#39;&gt;&lt;/a&gt;Wrapping up&lt;/h1&gt;
+&lt;p&gt;We have covered change point analysis for univariate time series. Codes I have written are absolutely not practical. In fact, many researchers already developed useful packages for this topic. Later, I plan to write a post about detecting change point using &lt;code&gt;R&lt;/code&gt; (of course, using CRAN packages 🤗).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;a-namereflistareferences&#34;&gt;&lt;a name=&#39;reflist&#39;&gt;&lt;/a&gt;References&lt;/h1&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-sta5037&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Baek, Changryong. 2020. “Recent Advances in Applied Statistics (Sta5037).” Department of Statistics, Sungkyunkwan University; &lt;a href=&#34;https://sites.google.com/view/crbaek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sites.google.com/view/crbaek&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Eichinger.2018&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Eichinger, Birte, and Claudia Kirch. 2018. “&lt;span class=&#34;nocase&#34;&gt;A MOSUM procedure for the estimation of multiple random change points&lt;/span&gt;.” &lt;em&gt;Bernoulli&lt;/em&gt; 24 (1): 526–64. &lt;a href=&#34;https://doi.org/10.3150/16-bej887&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.3150/16-bej887&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Fryzlewicz.2014&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Fryzlewicz, Piotr. 2014. “&lt;span class=&#34;nocase&#34;&gt;Wild binary segmentation for multiple change-point detection&lt;/span&gt;.” &lt;em&gt;The Annals of Statistics&lt;/em&gt; 42 (6): 2243–81. &lt;a href=&#34;https://doi.org/10.1214/14-aos1245&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1214/14-aos1245&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-page1954&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;PAGE, E. S. 1954. “CONTINUOUS INSPECTION SCHEMES.” &lt;em&gt;Biometrika&lt;/em&gt; 41 (1-2): 100–115. &lt;a href=&#34;https://doi.org/10.1093/biomet/41.1-2.100&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1093/biomet/41.1-2.100&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-vostrikova1981detecting&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Vostrikova, Lyudmila Yur’evna. 1981. “Detecting ‘Disorder’ in Multidimensional Random Processes.” In &lt;em&gt;Doklady Akademii Nauk&lt;/em&gt;, 259:270–74. 2. Russian Academy of Sciences.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Please read the article if you are interested 😎&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</title>
+      <link>https://ygeunkim.github.io/publication/nndsac/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/publication/nndsac/</guid>
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-yunsac2022&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Yun, Jeong-Han, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, and Byung-Gil Min. 2022. “Residual Size Is Not Enough for Anomaly Detection: Improving Detection Performance Using Residual Similarity in Multivariate Time Series.” In &lt;em&gt;Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing&lt;/em&gt;, 87–96. SAC ’22. New York, NY, USA: Association for Computing Machinery. &lt;a href=&#34;https://doi.org/10.1145/3477314.3506990&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3477314.3506990&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.__dimensions_badge_embed__ {
+  margin-left: 3rem;
+  position: absolute;
+}
+&amp;#10;.altmetric-embed {
+  margin-left: 10rem;
+  position: absolute;
+}
+&amp;#10;.plx-pop {
+  margin-top: -1.5rem;
+  margin-left: 15rem;
+  position: absolute;
+}
+&amp;#10;#badge-box {
+  text-align: center;
+}
+.__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
+  display: inline;
+}
+&lt;/style&gt;
+&lt;h3 id=&#34;article-metrics&#34;&gt;Article Metrics&lt;/h3&gt;
+&lt;div class=&#34;badge-box&#34;
+  style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt;
+&lt;div class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1145/3477314.3506990&#34; data-style=&#34;small_circle&#34; data-hide-zero-citations=&#34;false&#34; data-legend=&#34;hover-right&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-doi=&#34;10.1145/3477314.3506990&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;donut&#34; data-hide-no-mentions=&#34;false&#34;&gt;
+&lt;div class=&#34;plx-pop&#34;&gt;
+&lt;p&gt;&lt;a target=&#34;_blank&#34;
+href=&#34;https://plu.mx/plum/a/?doi=10.1145/3477314.3506990&#34;
+class=&#34;plumx-plum-print-popup&#34;
+data-popup=&#34;right&#34;
+data-size=&#34;large&#34;
+data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Modeling for Vector Heterogeneous Autoregressive Model</title>
+      <link>https://ygeunkim.github.io/projects/bvhar_research/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/projects/bvhar_research/</guid>
+      <description>&lt;p&gt;This research project develops Bayesian econometrics model that shares prior with Bayesian VAR (VAR).
+It aims at extending them to Vector heterogeneous autoregressive (VHAR) model.&lt;/p&gt;
+&lt;h2 id=&#34;working-papers&#34;&gt;Working papers&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-kim2023&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2023. “Bayesian Vector Heterogeneous Autoregressive Modeling.” &lt;em&gt;Preprint&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Statistical Computation and Packages</title>
+      <link>https://ygeunkim.github.io/event/lrdlab2021/</link>
+      <pubDate>Mon, 25 Oct 2021 02:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/event/lrdlab2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Statistical Computation and Packages</title>
+      <link>https://ygeunkim.github.io/seminar/lrdlab2021/</link>
+      <pubDate>Mon, 25 Oct 2021 02:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/seminar/lrdlab2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
+      <link>https://ygeunkim.github.io/publication/somifip/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/publication/somifip/</guid>
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-kimifip2021&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Kim, Young Geun, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, and Simon S. Woo. 2021. “Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns.” In &lt;em&gt;ICT Systems Security and Privacy Protection&lt;/em&gt;, edited by Audun Jøsang, Lynn Futcher, and Janne Hagen, 382–97. Cham: Springer International Publishing. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-78120-0_25&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.__dimensions_badge_embed__ {
+  margin-left: 3rem;
+  position: absolute;
+}
+&amp;#10;.altmetric-embed {
+  margin-left: 10rem;
+  position: absolute;
+}
+&amp;#10;.plx-pop {
+  margin-top: -1.5rem;
+  margin-left: 15rem;
+  position: absolute;
+}
+&amp;#10;#badge-box {
+  text-align: center;
+}
+.__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
+  display: inline;
+}
+&lt;/style&gt;
+&lt;h3 id=&#34;article-metrics&#34;&gt;Article Metrics&lt;/h3&gt;
+&lt;div class=&#34;badge-box&#34;
+  style=&#34;margin-top:1rem; margin-bottom:6rem;&#34;&gt;
+&lt;div class=&#34;__dimensions_badge_embed__&#34; data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; data-style=&#34;small_circle&#34; data-hide-zero-citations=&#34;false&#34; data-legend=&#34;hover-right&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-doi=&#34;10.1007/978-3-030-78120-0_25&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;donut&#34; data-hide-no-mentions=&#34;false&#34;&gt;
+&lt;div class=&#34;plx-pop&#34;&gt;
+&lt;p&gt;&lt;a target=&#34;_blank&#34;
+href=&#34;https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25&#34;
+class=&#34;plumx-plum-print-popup&#34;
+data-popup=&#34;right&#34;
+data-size=&#34;large&#34;
+data-hide-when-empty=&#34;false&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
+      <link>https://ygeunkim.github.io/event/ifipsec2021/</link>
+      <pubDate>Tue, 22 Jun 2021 09:30:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/event/ifipsec2021/</guid>
+      <description>&lt;p&gt;I presented my paper,&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ygeunkim.github.io/publication/somifip/&#34;&gt;Kim Y.G., Yun JH., Han S., Kim H.C., Woo S.S. (2021) Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns. In: Jøsang A., Futcher L., Hagen J. (eds) ICT Systems Security and Privacy Protection. SEC 2021. IFIP Advances in Information and Communication Technology, vol 625. Springer, Cham. https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;in &lt;strong&gt;Session 11: Machine Learning for Security&lt;/strong&gt; (06-24 11:00 CEST - 13:00 CEST).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
+      <link>https://ygeunkim.github.io/presentations/ifipsec2021/</link>
+      <pubDate>Tue, 22 Jun 2021 09:30:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/presentations/ifipsec2021/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ygeunkim.github.io/publication/somifip/&#34;&gt;Kim Y.G., Yun JH., Han S., Kim H.C., Woo S.S. (2021) Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns. In: Jøsang A., Futcher L., Hagen J. (eds) ICT Systems Security and Privacy Protection. SEC 2021. IFIP Advances in Information and Communication Technology, vol 625. Springer, Cham. https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;in &lt;strong&gt;Session 11: Machine Learning for Security&lt;/strong&gt; (06-24 11:00 CEST - 13:00 CEST).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>somanomaly: Self Organizing Map for Anomaly Detection</title>
+      <link>https://ygeunkim.github.io/codes/somanomaly_python/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/somanomaly_python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Long-range-dependent Time Series</title>
+      <link>https://ygeunkim.github.io/shiny/lrd-shiny/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/shiny/lrd-shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First Shiny App using Flexdashboard</title>
+      <link>https://ygeunkim.github.io/post/startshiny/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/post/startshiny/</guid>
+      <description>&lt;p&gt;I made my first Shiny app on &lt;a href=&#34;https://blended.shinyapps.io/sim-lrd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blended.shinyapps.io/sim-lrd/&lt;/a&gt; 😄.
+Above &lt;code&gt;Code&lt;/code&gt; button links to the flexdashboard R markdown file in the Github repository.&lt;/p&gt;
+&lt;p&gt;Also, I added a section for the Shiny apps in the research menu in this site.&lt;/p&gt;
+&lt;h1 id=&#34;fast-guide&#34;&gt;Fast Guide&lt;/h1&gt;
+&lt;h2 id=&#34;writing-yaml&#34;&gt;Writing &lt;code&gt;yaml&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;For &lt;code&gt;yaml&lt;/code&gt; output, write &lt;code&gt;flexdashboard::flex_dashborad&lt;/code&gt;.
+There are lots of options.
+See the specifics in my repo if you want.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;Generating Multivariate Long-range-dependent Time series&amp;quot;
+output: 
+  flexdashboard::flex_dashboard:
+    source_code: https://github.com/ygeunkim/sim-lrd/blob/master/index.Rmd
+runtime: shiny
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;template&#34;&gt;Template&lt;/h2&gt;
+&lt;p&gt;Actually, if you click in the menu,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;File&lt;/li&gt;
+&lt;li&gt;New file&lt;/li&gt;
+&lt;li&gt;R Markdown&lt;/li&gt;
+&lt;li&gt;From Template&lt;/li&gt;
+&lt;li&gt;Flex Dashboard&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;then the file will have some structure.&lt;/p&gt;
+&lt;img src=&#34;flexdash.png&#34; width=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;We can customize the arrangement such as sidebar, row, and column.&lt;/p&gt;
+&lt;p&gt;To use &lt;code&gt;shiny&lt;/code&gt; engine, I added &lt;code&gt;runtime: shiny&lt;/code&gt; with&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(shiny)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;The next steps are related to defining input and making the dashboad.
+The website of the package, &lt;a href=&#34;https://pkgs.rstudio.com/flexdashboard/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pkgs.rstudio.com/flexdashboard/&lt;/a&gt;, is useful.&lt;/p&gt;
+&lt;p&gt;If you try the shiny app yourself, click &lt;code&gt;Shiny&lt;/code&gt; above 😊&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coffee-ECG Experiment</title>
+      <link>https://ygeunkim.github.io/sides/ecg_experiment/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/ecg_experiment/</guid>
+      <description>&lt;h1 id=&#34;about-the-project&#34;&gt;About the project&lt;/h1&gt;
+&lt;p&gt;This is a project performed in &lt;a href=&#34;https://www.kwonsanglee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SKKU &lt;strong&gt;Design and Analysis of Experiments (STA 5031)&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conduct a real randomized experiment, collect data, and analyze them.&lt;/li&gt;
+&lt;li&gt;Present a non-statistical paper using an (quasi-)experiment in the field outside statistics and critize them.&lt;/li&gt;
+&lt;li&gt;Bring my own research that is related to an (quasi-)experiment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I chose real experimental design, the first one.&lt;/p&gt;
+&lt;h1 id=&#34;coffee-electrocardiogram-experiment&#34;&gt;Coffee-Electrocardiogram Experiment&lt;/h1&gt;
+&lt;h2 id=&#34;goal-of-the-experiment&#34;&gt;Goal of the Experiment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Does caffeine affect electrocardiogram (ECG) or average heart rate?&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Caffeine: ☕ drinking capsule coffee 40 ml&lt;/li&gt;
+&lt;li&gt;ECG result: ⌚ average heart rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
+&lt;p&gt;We implement Latin square design. For example,&lt;/p&gt;
+&lt;table&gt;
+  &lt;caption&gt;Reduced latin square&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;td colspan = 2&gt;&lt;/td&gt;
+      &lt;th colspan=5&gt;Drinking speed&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;    
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td colspan = 2&gt;&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th rowspan=4&gt;Coffee to water ratio&lt;/th&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+      &lt;td&gt;D&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+      &lt;td&gt;D&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+      &lt;td&gt;D&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;D&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;A, B, C, D once in every row,&lt;/li&gt;
+&lt;li&gt;once in every column&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;about-factors&#34;&gt;About factors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Latin square: 4 by 4&lt;/li&gt;
+&lt;li&gt;2 blocking factors
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Row&lt;/strong&gt;: Coffee (40 ml) to water ratio
+&lt;ol&gt;
+&lt;li&gt;1:0 (Espresso)&lt;/li&gt;
+&lt;li&gt;1:2.5 (Water 100 ml)&lt;/li&gt;
+&lt;li&gt;1:5 (Water 200 ml)&lt;/li&gt;
+&lt;li&gt;1:7.5 (Water 300 ml)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Column&lt;/strong&gt;: Drinking speed
+&lt;ol&gt;
+&lt;li&gt;&amp;lt;=5 sec&lt;/li&gt;
+&lt;li&gt;5-15 sec&lt;/li&gt;
+&lt;li&gt;15-30 sec&lt;/li&gt;
+&lt;li&gt;30&amp;lt; sec&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Interesting factor: &lt;a href=&#34;https://www.reddit.com/r/nespresso/comments/id31r5/i_recieved_the_caffiene_content_numbers_for/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Intake of caffeine&lt;/a&gt; from &lt;a href=&#34;https://athome.starbucks.com/coffees-by-format/nespresso-original/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Starbucks by Nespresso&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;House blend: 74.5 mg&lt;/li&gt;
+&lt;li&gt;Sumatra: 54.5 mg&lt;/li&gt;
+&lt;li&gt;Decaf espresso roast: 3 mg&lt;/li&gt;
+&lt;li&gt;None or water: 0 mg&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Randomly allocate these treatments &lt;code&gt;1&lt;/code&gt;, &lt;code&gt;2&lt;/code&gt;, &lt;code&gt;3&lt;/code&gt;, and &lt;code&gt;4&lt;/code&gt; to A, B, C, and D
+&lt;ul&gt;
+&lt;li&gt;assign these to above table&lt;/li&gt;
+&lt;li&gt;random treatment assignment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(1)
+sample(LETTERS[1:4])
+#&amp;gt; [1] &amp;quot;A&amp;quot; &amp;quot;C&amp;quot; &amp;quot;D&amp;quot; &amp;quot;B&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;output&#34;&gt;Output&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Measure ECG using &lt;em&gt;Apple watch Series 4&lt;/em&gt;: See &lt;a href=&#34;https://support.apple.com/en-us/HT208955&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://support.apple.com/en-us/HT208955&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Output
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Average Heart rate (in BPM) difference&lt;/strong&gt; between after and before taking the coffee&lt;/li&gt;
+&lt;li&gt;log return might be better (&lt;em&gt;after got feedback&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;controlling-other-variables&#34;&gt;Controlling other variables&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Drink coffee every morning (between 8:30 a.m. and 9:00 a.m. KST), after eating a piece of bread&lt;/li&gt;
+&lt;li&gt;When Measuring ECG,
+&lt;ul&gt;
+&lt;li&gt;sit at my desk&lt;/li&gt;
+&lt;li&gt;rest arms on a my desk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use same strip for apple watch: &lt;a href=&#34;https://www.apple.com/shop/product/MX8C2AM/A/40mm-anthracite-black-nike-sport-band-regular?fnode=5e9ad1340eb02decfee1689be9360555f2f276ad270a672413266cfba01ad7b0e20a1c634dbd66eaec20c01170cf533573070d71c910b376e339037f157174b7e6f45e144d64e052e5274d1069eb67b4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nike sport band&lt;/a&gt; of same fit&lt;/li&gt;
+&lt;li&gt;Nespresso machine: &lt;a href=&#34;https://www.nespresso.com/kr/en/order/machines/original/pixie-electric-red-coffee-machine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixie C61&lt;/a&gt; in my home&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;for-more-details&#34;&gt;For more details&lt;/h3&gt;
+&lt;p&gt;Click &lt;code&gt;Slides&lt;/code&gt; on the 🔝.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Project&lt;/code&gt;: &lt;code&gt;Github&lt;/code&gt; repository&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Slides&lt;/code&gt;: presentation pdf&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Code&lt;/code&gt;: Source codes including &lt;code&gt;Rmd&lt;/code&gt; for the slide&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Dataset&lt;/code&gt;: datsets by this experiment including preprocessed ones&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Appendix&lt;/code&gt;: Supplementary material related to the dataset&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Causal Inference course project</title>
+      <link>https://ygeunkim.github.io/sides/causal_project/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/causal_project/</guid>
+      <description>&lt;h1 id=&#34;propensity-score-estimating-using-machine-learning&#34;&gt;Propensity Score Estimating Using Machine Learning&lt;/h1&gt;
+&lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Modern Statistical Methods (&lt;a href=&#34;https://www.kwonsanglee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5012&lt;/a&gt;)&lt;/strong&gt; about causal inference&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simulation study or data analysis&lt;/li&gt;
+&lt;li&gt;Extension of statistical method or theoretical result&lt;/li&gt;
+&lt;li&gt;Conducting a thorough data analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;paper&#34;&gt;Paper&lt;/h1&gt;
+&lt;p&gt;I reviewed&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.3782&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lee, B. K., Lessler, J., &amp;amp; Stuart, E. A. (2010). Improving propensity score weighting using machine learning. Statistics in Medicine, 29(3), 337–346. doi:10.1002/sim.3782&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;r-package-a-hrefhttpsgithubcomygeunkimpropensitymlimg-srchttpsrawgithubusercontentcomygeunkimpsweighting-mlmasterdocslogopng-alignright-height139-a&#34;&gt;R Package &lt;a href=&#39;https://github.com/ygeunkim/propensityml&#39;&gt;&lt;img src=&#39;https://raw.githubusercontent.com/ygeunkim/psweighting-ml/master/docs/logo.png&#39; align=&#34;right&#34; height=&#34;139&#34; /&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I made an R package with &lt;code&gt;devtools&lt;/code&gt; for this project: &lt;a href=&#34;https://github.com/ygeunkim/propensityml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;propensityml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Anomaly detection in Cyber-Physical Systems</title>
+      <link>https://ygeunkim.github.io/projects/nsr_project/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/projects/nsr_project/</guid>
+      <description>&lt;p&gt;This &lt;em&gt;deep learning&lt;/em&gt; project tried to detect anomalies in real time.
+I collaborated with &lt;a href=&#34;https://dash-lab.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DASH lab&lt;/a&gt; members.&lt;/p&gt;
+&lt;p&gt;The given dataset is error data generated by deep learning model.
+Original dataset is &lt;a href=&#34;https://itrust.sutd.edu.sg/itrust-labs_datasets/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SWaT (Secure Water Treatment) dataset&lt;/a&gt; and &lt;a href=&#34;https://github.com/icsdataset/hai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HAI (HIL-based Augmented ICS) security dataset&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Additionally, I made a simple R package and Python module in the linked repo (click the &lt;code&gt;Code&lt;/code&gt; button under the title).&lt;/p&gt;
+&lt;h2 id=&#34;papers-i-am-involved-in&#34;&gt;Papers I am involved in&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-chomilets2019&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon S. Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.” Anchorage, Alaska, USA.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-kimifip2021&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Kim, Young Geun, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, and Simon S. Woo. 2021. “Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns.” In &lt;em&gt;ICT Systems Security and Privacy Protection&lt;/em&gt;, edited by Audun Jøsang, Lynn Futcher, and Janne Hagen, 382–97. Cham: Springer International Publishing. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-78120-0_25&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-yunsac2022&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Yun, Jeong-Han, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, and Byung-Gil Min. 2022. “Residual Size Is Not Enough for Anomaly Detection: Improving Detection Performance Using Residual Similarity in Multivariate Time Series.” In &lt;em&gt;Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing&lt;/em&gt;, 87–96. SAC ’22. New York, NY, USA: Association for Computing Machinery. &lt;a href=&#34;https://doi.org/10.1145/3477314.3506990&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3477314.3506990&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>swatanomaly: Anomaly Detection using KL Divergence</title>
+      <link>https://ygeunkim.github.io/codes/swatanomaly_pkg/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/swatanomaly_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ceshat: Nonparametric Estimation of CES</title>
+      <link>https://ygeunkim.github.io/codes/ceshat_pkg/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/ceshat_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonparametric statistics course project</title>
+      <link>https://ygeunkim.github.io/sides/nonparam_project/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/nonparam_project/</guid>
+      <description>&lt;h1 id=&#34;nonparametric-estimation-of-conditional-expected-shortfall&#34;&gt;Nonparametric Estimation of Conditional Expected Shortfall&lt;/h1&gt;
+&lt;p&gt;This is a project performed in SKKU &lt;strong&gt;Nonparametric statistics course (&lt;a href=&#34;https://sites.google.com/site/eunryungleestat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5015&lt;/a&gt;)&lt;/strong&gt;. It aims at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;intensive review on existing statistical methods for an advanced topic not covered in the course&lt;/li&gt;
+&lt;li&gt;own simulation or real data simulation&lt;/li&gt;
+&lt;li&gt;development of new statistical methodology related to the course&lt;/li&gt;
+&lt;li&gt;new analysis of a real data set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reviewd-paper&#34;&gt;Reviewd Paper&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0304407608001292&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cai, Z., &amp;amp; Wang, X. (2008). &lt;em&gt;Nonparametric estimation of conditional VaR and expected shortfall&lt;/em&gt;. Journal of Econometrics, 147(1), 120-130.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ceshat&#34;&gt;ceshat&lt;/h2&gt;
+&lt;p&gt;This is an R package to help this project, which tries to reproduce the above paper. Click the &lt;code&gt;Code&lt;/code&gt; button!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</title>
+      <link>https://ygeunkim.github.io/publication/kl_poster/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/publication/kl_poster/</guid>
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-chomilets2019&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon S. Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.” Anchorage, Alaska, USA.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>propensityml: Propensity Score Weighting using Machine Learning</title>
+      <link>https://ygeunkim.github.io/codes/propensityml_pkg/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/propensityml_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youngtool: Research Tool Package</title>
+      <link>https://ygeunkim.github.io/sides/youngtool_pkg/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/youngtool_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmdtool: R markdown tool package</title>
+      <link>https://ygeunkim.github.io/sides/rmdtool_pkg/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/rmdtool_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loglinear Models for Three-way Tables</title>
+      <link>https://ygeunkim.github.io/codes/loglinear3_r/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/loglinear3_r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression Analysis</title>
+      <link>https://ygeunkim.github.io/codes/regression-analysis-book/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/regression-analysis-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Computing</title>
+      <link>https://ygeunkim.github.io/codes/stat-computing-book/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/stat-computing-book/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

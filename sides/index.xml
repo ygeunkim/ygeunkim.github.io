@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Side Projects | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/sides/</link>
+      <atom:link href="https://ygeunkim.github.io/sides/index.xml" rel="self" type="application/rss+xml" />
+    <description>Side Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Young Geun Kim</copyright><lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
+      <title>Side Projects</title>
+      <link>https://ygeunkim.github.io/sides/</link>
+    </image>
+    
+    <item>
+      <title>Coffee-ECG Experiment</title>
+      <link>https://ygeunkim.github.io/sides/ecg_experiment/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/ecg_experiment/</guid>
+      <description>&lt;h1 id=&#34;about-the-project&#34;&gt;About the project&lt;/h1&gt;
+&lt;p&gt;This is a project performed in &lt;a href=&#34;https://www.kwonsanglee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SKKU &lt;strong&gt;Design and Analysis of Experiments (STA 5031)&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conduct a real randomized experiment, collect data, and analyze them.&lt;/li&gt;
+&lt;li&gt;Present a non-statistical paper using an (quasi-)experiment in the field outside statistics and critize them.&lt;/li&gt;
+&lt;li&gt;Bring my own research that is related to an (quasi-)experiment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I chose real experimental design, the first one.&lt;/p&gt;
+&lt;h1 id=&#34;coffee-electrocardiogram-experiment&#34;&gt;Coffee-Electrocardiogram Experiment&lt;/h1&gt;
+&lt;h2 id=&#34;goal-of-the-experiment&#34;&gt;Goal of the Experiment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Does caffeine affect electrocardiogram (ECG) or average heart rate?&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Caffeine: ☕ drinking capsule coffee 40 ml&lt;/li&gt;
+&lt;li&gt;ECG result: ⌚ average heart rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
+&lt;p&gt;We implement Latin square design. For example,&lt;/p&gt;
+&lt;table&gt;
+  &lt;caption&gt;Reduced latin square&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;td colspan = 2&gt;&lt;/td&gt;
+      &lt;th colspan=5&gt;Drinking speed&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;    
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td colspan = 2&gt;&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th rowspan=4&gt;Coffee to water ratio&lt;/th&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+      &lt;td&gt;D&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+      &lt;td&gt;D&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+      &lt;td&gt;D&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;D&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;B&lt;/td&gt;
+      &lt;td&gt;C&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;A, B, C, D once in every row,&lt;/li&gt;
+&lt;li&gt;once in every column&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;about-factors&#34;&gt;About factors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Latin square: 4 by 4&lt;/li&gt;
+&lt;li&gt;2 blocking factors
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Row&lt;/strong&gt;: Coffee (40 ml) to water ratio
+&lt;ol&gt;
+&lt;li&gt;1:0 (Espresso)&lt;/li&gt;
+&lt;li&gt;1:2.5 (Water 100 ml)&lt;/li&gt;
+&lt;li&gt;1:5 (Water 200 ml)&lt;/li&gt;
+&lt;li&gt;1:7.5 (Water 300 ml)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Column&lt;/strong&gt;: Drinking speed
+&lt;ol&gt;
+&lt;li&gt;&amp;lt;=5 sec&lt;/li&gt;
+&lt;li&gt;5-15 sec&lt;/li&gt;
+&lt;li&gt;15-30 sec&lt;/li&gt;
+&lt;li&gt;30&amp;lt; sec&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Interesting factor: &lt;a href=&#34;https://www.reddit.com/r/nespresso/comments/id31r5/i_recieved_the_caffiene_content_numbers_for/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Intake of caffeine&lt;/a&gt; from &lt;a href=&#34;https://athome.starbucks.com/coffees-by-format/nespresso-original/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Starbucks by Nespresso&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;House blend: 74.5 mg&lt;/li&gt;
+&lt;li&gt;Sumatra: 54.5 mg&lt;/li&gt;
+&lt;li&gt;Decaf espresso roast: 3 mg&lt;/li&gt;
+&lt;li&gt;None or water: 0 mg&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Randomly allocate these treatments &lt;code&gt;1&lt;/code&gt;, &lt;code&gt;2&lt;/code&gt;, &lt;code&gt;3&lt;/code&gt;, and &lt;code&gt;4&lt;/code&gt; to A, B, C, and D
+&lt;ul&gt;
+&lt;li&gt;assign these to above table&lt;/li&gt;
+&lt;li&gt;random treatment assignment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(1)
+sample(LETTERS[1:4])
+#&amp;gt; [1] &amp;quot;A&amp;quot; &amp;quot;C&amp;quot; &amp;quot;D&amp;quot; &amp;quot;B&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;output&#34;&gt;Output&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Measure ECG using &lt;em&gt;Apple watch Series 4&lt;/em&gt;: See &lt;a href=&#34;https://support.apple.com/en-us/HT208955&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://support.apple.com/en-us/HT208955&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Output
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Average Heart rate (in BPM) difference&lt;/strong&gt; between after and before taking the coffee&lt;/li&gt;
+&lt;li&gt;log return might be better (&lt;em&gt;after got feedback&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;controlling-other-variables&#34;&gt;Controlling other variables&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Drink coffee every morning (between 8:30 a.m. and 9:00 a.m. KST), after eating a piece of bread&lt;/li&gt;
+&lt;li&gt;When Measuring ECG,
+&lt;ul&gt;
+&lt;li&gt;sit at my desk&lt;/li&gt;
+&lt;li&gt;rest arms on a my desk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use same strip for apple watch: &lt;a href=&#34;https://www.apple.com/shop/product/MX8C2AM/A/40mm-anthracite-black-nike-sport-band-regular?fnode=5e9ad1340eb02decfee1689be9360555f2f276ad270a672413266cfba01ad7b0e20a1c634dbd66eaec20c01170cf533573070d71c910b376e339037f157174b7e6f45e144d64e052e5274d1069eb67b4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nike sport band&lt;/a&gt; of same fit&lt;/li&gt;
+&lt;li&gt;Nespresso machine: &lt;a href=&#34;https://www.nespresso.com/kr/en/order/machines/original/pixie-electric-red-coffee-machine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixie C61&lt;/a&gt; in my home&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;for-more-details&#34;&gt;For more details&lt;/h3&gt;
+&lt;p&gt;Click &lt;code&gt;Slides&lt;/code&gt; on the 🔝.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Project&lt;/code&gt;: &lt;code&gt;Github&lt;/code&gt; repository&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Slides&lt;/code&gt;: presentation pdf&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Code&lt;/code&gt;: Source codes including &lt;code&gt;Rmd&lt;/code&gt; for the slide&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Dataset&lt;/code&gt;: datsets by this experiment including preprocessed ones&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Appendix&lt;/code&gt;: Supplementary material related to the dataset&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Causal Inference course project</title>
+      <link>https://ygeunkim.github.io/sides/causal_project/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/causal_project/</guid>
+      <description>&lt;h1 id=&#34;propensity-score-estimating-using-machine-learning&#34;&gt;Propensity Score Estimating Using Machine Learning&lt;/h1&gt;
+&lt;p&gt;This is a project perfomed in SKKU &lt;strong&gt;Modern Statistical Methods (&lt;a href=&#34;https://www.kwonsanglee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5012&lt;/a&gt;)&lt;/strong&gt; about causal inference&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simulation study or data analysis&lt;/li&gt;
+&lt;li&gt;Extension of statistical method or theoretical result&lt;/li&gt;
+&lt;li&gt;Conducting a thorough data analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;paper&#34;&gt;Paper&lt;/h1&gt;
+&lt;p&gt;I reviewed&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.3782&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lee, B. K., Lessler, J., &amp;amp; Stuart, E. A. (2010). Improving propensity score weighting using machine learning. Statistics in Medicine, 29(3), 337–346. doi:10.1002/sim.3782&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;r-package-a-hrefhttpsgithubcomygeunkimpropensitymlimg-srchttpsrawgithubusercontentcomygeunkimpsweighting-mlmasterdocslogopng-alignright-height139-a&#34;&gt;R Package &lt;a href=&#39;https://github.com/ygeunkim/propensityml&#39;&gt;&lt;img src=&#39;https://raw.githubusercontent.com/ygeunkim/psweighting-ml/master/docs/logo.png&#39; align=&#34;right&#34; height=&#34;139&#34; /&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I made an R package with &lt;code&gt;devtools&lt;/code&gt; for this project: &lt;a href=&#34;https://github.com/ygeunkim/propensityml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;propensityml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nonparametric statistics course project</title>
+      <link>https://ygeunkim.github.io/sides/nonparam_project/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/nonparam_project/</guid>
+      <description>&lt;h1 id=&#34;nonparametric-estimation-of-conditional-expected-shortfall&#34;&gt;Nonparametric Estimation of Conditional Expected Shortfall&lt;/h1&gt;
+&lt;p&gt;This is a project performed in SKKU &lt;strong&gt;Nonparametric statistics course (&lt;a href=&#34;https://sites.google.com/site/eunryungleestat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STA5015&lt;/a&gt;)&lt;/strong&gt;. It aims at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;intensive review on existing statistical methods for an advanced topic not covered in the course&lt;/li&gt;
+&lt;li&gt;own simulation or real data simulation&lt;/li&gt;
+&lt;li&gt;development of new statistical methodology related to the course&lt;/li&gt;
+&lt;li&gt;new analysis of a real data set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reviewd-paper&#34;&gt;Reviewd Paper&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0304407608001292&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cai, Z., &amp;amp; Wang, X. (2008). &lt;em&gt;Nonparametric estimation of conditional VaR and expected shortfall&lt;/em&gt;. Journal of Econometrics, 147(1), 120-130.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ceshat&#34;&gt;ceshat&lt;/h2&gt;
+&lt;p&gt;This is an R package to help this project, which tries to reproduce the above paper. Click the &lt;code&gt;Code&lt;/code&gt; button!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>youngtool: Research Tool Package</title>
+      <link>https://ygeunkim.github.io/sides/youngtool_pkg/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/youngtool_pkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmdtool: R markdown tool package</title>
+      <link>https://ygeunkim.github.io/sides/rmdtool_pkg/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/sides/rmdtool_pkg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

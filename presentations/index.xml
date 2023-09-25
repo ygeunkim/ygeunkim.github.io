@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/presentations/</link>
+      <atom:link href="https://ygeunkim.github.io/presentations/index.xml" rel="self" type="application/rss+xml" />
+    <description>Presentations</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Young Geun Kim</copyright><lastBuildDate>Tue, 22 Jun 2021 09:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
+      <title>Presentations</title>
+      <link>https://ygeunkim.github.io/presentations/</link>
+    </image>
+    
+    <item>
+      <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
+      <link>https://ygeunkim.github.io/presentations/ifipsec2021/</link>
+      <pubDate>Tue, 22 Jun 2021 09:30:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/presentations/ifipsec2021/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ygeunkim.github.io/publication/somifip/&#34;&gt;Kim Y.G., Yun JH., Han S., Kim H.C., Woo S.S. (2021) Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns. In: Jøsang A., Futcher L., Hagen J. (eds) ICT Systems Security and Privacy Protection. SEC 2021. IFIP Advances in Information and Communication Technology, vol 625. Springer, Cham. https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;in &lt;strong&gt;Session 11: Machine Learning for Security&lt;/strong&gt; (06-24 11:00 CEST - 13:00 CEST).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
