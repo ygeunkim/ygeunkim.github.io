@@ -23,7 +23,7 @@ I collaborated with &lt;a href=&#34;https://dash-lab.github.io&#34; target=&#34;
 Original dataset is &lt;a href=&#34;https://itrust.sutd.edu.sg/itrust-labs_datasets/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SWaT (Secure Water Treatment) dataset&lt;/a&gt; and &lt;a href=&#34;https://github.com/icsdataset/hai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HAI (HIL-based Augmented ICS) security dataset&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Additionally, I made a simple R package and Python module in the linked repo (click the &lt;code&gt;Code&lt;/code&gt; button under the title).&lt;/p&gt;
 &lt;h2 id=&#34;papers-i-am-involved-in&#34;&gt;Papers I am involved in&lt;/h2&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-chomilets2019&#34; class=&#34;csl-entry&#34;&gt;
 &lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon S. Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.” Anchorage, Alaska, USA.&lt;/p&gt;
 &lt;/div&gt;
@@ -42,7 +42,7 @@ Original dataset is &lt;a href=&#34;https://itrust.sutd.edu.sg/itrust-labs_datas
       <link>https://ygeunkim.github.io/publication/kl_poster/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/publication/kl_poster/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-chomilets2019&#34; class=&#34;csl-entry&#34;&gt;
 &lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon S. Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.” Anchorage, Alaska, USA.&lt;/p&gt;
 &lt;/div&gt;
