@@ -5,9 +5,9 @@
     <link>https://ygeunkim.github.io/tag/rcppeigen/</link>
       <atom:link href="https://ygeunkim.github.io/tag/rcppeigen/index.xml" rel="self" type="application/rss+xml" />
     <description>RcppEigen</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Young Geun Kim</copyright><lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Young Geun Kim</copyright><lastBuildDate>Sat, 04 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_box_3.png</url>
+      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>RcppEigen</title>
       <link>https://ygeunkim.github.io/tag/rcppeigen/</link>
     </image>
@@ -15,7 +15,7 @@
     <item>
       <title>bvhar: Bayesian Vector Heterogeneous Autoregressive Modeling</title>
       <link>https://ygeunkim.github.io/codes/bvhar/</link>
-      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/codes/bvhar/</guid>
       <description></description>
     </item>

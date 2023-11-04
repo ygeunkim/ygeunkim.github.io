@@ -1,0 +1,11 @@
+pandoc: 3.1.9
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  bvhar: bvhar.html
+  empirical-bayes: empirical-bayes.html
+  forecasting: forecasting.html
+  minnesota: minnesota.html
+  sparse-bvhar: sparse-bvhar.html
+last_built: 2023-11-04T02:27Z
+
