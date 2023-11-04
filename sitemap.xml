@@ -3,10 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ygeunkim.github.io/authors/</loc>
+    <lastmod>2023-11-04T13:15:02+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://ygeunkim.github.io/tag/bayesian-econometrics/</loc>
     <lastmod>2023-11-04T12:01:57+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ygeunkim.github.io/tag/bayesian/</loc>
+    <loc>https://ygeunkim.github.io/tag/bayesian-var/</loc>
     <lastmod>2023-11-04T12:01:57+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -19,6 +23,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://ygeunkim.github.io/category/code/</loc>
+    <lastmod>2023-11-04T12:01:57+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://ygeunkim.github.io/tag/heterogeneous-autoregression/</loc>
     <lastmod>2023-11-04T12:01:57+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -50,19 +58,15 @@
     <lastmod>2023-11-04T12:01:57+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://ygeunkim.github.io/</loc>
+    <loc>https://ygeunkim.github.io/tag/vector-autoregression/</loc>
     <lastmod>2023-11-04T12:01:57+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://ygeunkim.github.io/</loc>
+    <lastmod>2023-11-04T13:15:02+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://ygeunkim.github.io/projects/bvhar_research/</loc>
-    <lastmod>2023-10-02T15:40:00+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://ygeunkim.github.io/tag/bayesian-econometrics/</loc>
-    <lastmod>2023-10-02T15:40:00+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://ygeunkim.github.io/tag/bayesian-var/</loc>
     <lastmod>2023-10-02T15:40:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -399,7 +403,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://ygeunkim.github.io/authors/admin/</loc>
-    <lastmod>2023-09-26T14:56:06+09:00</lastmod>
+    <lastmod>2023-11-04T13:15:02+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
