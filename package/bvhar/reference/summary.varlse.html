@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.14.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0.9000</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +30,18 @@
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
-    <a class="dropdown-item" href="../articles/sparse-bvhar.html">Sparse Priors</a>
   </div>
 </li>
-<li class="nav-item">
-  <a class="nav-link" href="../news/index.html">Changelog</a>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-news">News</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-news">
+    <h6 class="dropdown-header" data-toc-skip>Releases</h6>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">Version 0.9.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">Version 0.12.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="../news/index.html">Changelog</a>
+  </div>
 </li>
 <li class="nav-item">
   <a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code">
@@ -114,7 +121,7 @@
 
 <p><code>summary.varlse</code></p>
 <p></p>
-<p><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a> additionaly computes the following</p>
+<p><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a> additionally computes the following</p>
 <dl><dt><code>names</code></dt>
 <dd><p>Variable names</p></dd>
 
@@ -123,6 +130,9 @@
 
 <dt><code>obs</code></dt>
 <dd><p>Sample size used when training = <code>totobs</code> - <code>p</code></p></dd>
+
+<dt><code>p</code></dt>
+<dd><p>Lag of VAR</p></dd>
 
 <dt><code>coefficients</code></dt>
 <dd><p>Coefficient Matrix</p></dd>
@@ -145,6 +155,9 @@
 <dt><code>is_stable</code></dt>
 <dd><p>Whether the process is stable or not based on <code>roots</code></p></dd>
 
+<dt><code>log_lik</code></dt>
+<dd><p>log-likelihood</p></dd>
+
 <dt><code>ic</code></dt>
 <dd><p>Information criteria vector</p></dd>
 
@@ -155,7 +168,7 @@
 </ul></div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Lütkepohl, H. (2007). <em>New Introduction to Multiple Time Series Analysis</em>. Springer Publishing. <a href="https://doi.org/10.1007/978-3-540-27752-1" class="external-link">https://doi.org/10.1007/978-3-540-27752-1</a></p>
+    <p>Lütkepohl, H. (2007). <em>New Introduction to Multiple Time Series Analysis</em>. Springer Publishing.</p>
     </div>
 
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>

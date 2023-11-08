@@ -34,9 +34,6 @@
     <loc>/articles/minnesota.html</loc>
   </url>
   <url>
-    <loc>/articles/sparse-bvhar.html</loc>
-  </url>
-  <url>
     <loc>/authors.html</loc>
   </url>
   <url>
@@ -140,12 +137,6 @@
   </url>
   <url>
     <loc>/reference/coef.varlse.html</loc>
-  </url>
-  <url>
-    <loc>/reference/compute_cov.html</loc>
-  </url>
-  <url>
-    <loc>/reference/compute_dic.bvarmn.html</loc>
   </url>
   <url>
     <loc>/reference/compute_dic.html</loc>
@@ -278,9 +269,6 @@
   </url>
   <url>
     <loc>/reference/sim_matgaussian.html</loc>
-  </url>
-  <url>
-    <loc>/reference/sim_mgaussian.html</loc>
   </url>
   <url>
     <loc>/reference/sim_mncoef.html</loc>

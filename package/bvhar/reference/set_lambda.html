@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.14.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0.9000</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +30,18 @@
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
-    <a class="dropdown-item" href="../articles/sparse-bvhar.html">Sparse Priors</a>
   </div>
 </li>
-<li class="nav-item">
-  <a class="nav-link" href="../news/index.html">Changelog</a>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-news">News</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-news">
+    <h6 class="dropdown-header" data-toc-skip>Releases</h6>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">Version 0.9.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">Version 0.12.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="../news/index.html">Changelog</a>
+  </div>
 </li>
 <li class="nav-item">
   <a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code">
@@ -126,6 +133,12 @@
 
 </dl></div>
     <div class="section level2">
+    <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
+    
+
+<p><code>bvharpriorspec</code> object</p>
+    </div>
+    <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     <p>In addition to Normal-IW priors <code><a href="set_bvar.html">set_bvar()</a></code>, <code><a href="set_bvar.html">set_bvhar()</a></code>, and <code><a href="set_bvar.html">set_weight_bvhar()</a></code>,
 these functions give hierarchical structure to the model.</p><ul><li><p><code>set_lambda()</code> specifies hyperprior for \(\lambda\) (<code>lambda</code>), which is Gamma distribution.</p></li>
@@ -137,7 +150,7 @@ It chooses (0.02)^2 based on its empirical data set.</p>
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Giannone, D., Lenza, M., &amp; Primiceri, G. E. (2015). <em>Prior Selection for Vector Autoregressions</em>. Review of Economics and Statistics, 97(2). doi:<a href="https://doi.org/10.1162/REST_a_00483" class="external-link">10.1162/REST_a_00483</a></p>
+    <p>Giannone, D., Lenza, M., &amp; Primiceri, G. E. (2015). <em>Prior Selection for Vector Autoregressions</em>. Review of Economics and Statistics, 97(2).</p>
     </div>
 
     <div class="section level2">

@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.14.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0.9000</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +30,18 @@
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
-    <a class="dropdown-item" href="../articles/sparse-bvhar.html">Sparse Priors</a>
   </div>
 </li>
-<li class="nav-item">
-  <a class="nav-link" href="../news/index.html">Changelog</a>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-news">News</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-news">
+    <h6 class="dropdown-header" data-toc-skip>Releases</h6>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">Version 0.9.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">Version 0.12.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="../news/index.html">Changelog</a>
+  </div>
 </li>
 <li class="nav-item">
   <a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code">
@@ -126,13 +133,70 @@
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
     
 
-<p><code>summary</code> for <code>bvarmn</code> object returns <code>summary.bvarmn</code></p>
+<p><code>summary.normaliw</code></p>
 <p></p>
-<p><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a>.</p><dl><dt>coefficients</dt>
-<dd><p>iter x k x m array: each column of the array indicate the draw for each lag corresponding to that variable</p></dd>
+<p><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a> has the following components:</p><dl><dt>names</dt>
+<dd><p>Variable names</p></dd>
+
+<dt>totobs</dt>
+<dd><p>Total number of the observation</p></dd>
+
+<dt>obs</dt>
+<dd><p>Sample size used when training = <code>totobs</code> - <code>p</code></p></dd>
+
+<dt>p</dt>
+<dd><p>Lag of VAR</p></dd>
+
+<dt>m</dt>
+<dd><p>Dimension of the data</p></dd>
+
+<dt>call</dt>
+<dd><p>Matched call</p></dd>
+
+<dt>spec</dt>
+<dd><p>Model specification (<code>bvharspec</code>)</p></dd>
+
+<dt>mn_mean</dt>
+<dd><p>MN Mean of posterior distribution (MN-IW)</p></dd>
+
+<dt>mn_prec</dt>
+<dd><p>MN Precision of posterior distribution (MN-IW)</p></dd>
+
+<dt>iw_scale</dt>
+<dd><p>IW scale of posterior distribution (MN-IW)</p></dd>
+
+<dt>iw_shape</dt>
+<dd><p>IW df of posterior distribution (MN-IW)</p></dd>
+
+<dt>iter</dt>
+<dd><p>Number of MCMC iterations</p></dd>
+
+<dt>burn</dt>
+<dd><p>Number of MCMC burn-in</p></dd>
+
+<dt>thin</dt>
+<dd><p>MCMC thinning</p></dd>
+
+<dt>alpha_record (BVAR) and phi_record (BVHAR)</dt>
+<dd><p>MCMC record of coefficients vector</p></dd>
+
+<dt>psi_record</dt>
+<dd><p>MCMC record of upper cholesky factor</p></dd>
+
+<dt>omega_record</dt>
+<dd><p>MCMC record of diagonal of cholesky factor</p></dd>
+
+<dt>eta_record</dt>
+<dd><p>MCMC record of upper part of cholesky factor</p></dd>
+
+<dt>param</dt>
+<dd><p>MCMC record of every parameter</p></dd>
+
+<dt>coefficients</dt>
+<dd><p>Posterior mean of coefficients</p></dd>
 
 <dt>covmat</dt>
-<dd><p>iter x m x m array: each column of teh array indicate the draw for each varable corresponding to that variable</p></dd>
+<dd><p>Posterior mean of covariance</p></dd>
 
 
 </dl></div>
@@ -140,16 +204,16 @@
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     <p>From Minnesota prior, set of coefficient matrices and residual covariance matrix have matrix Normal Inverse-Wishart distribution.</p>
 <p>BVAR:</p>
-<p>$$(A, \Sigma_e) \sim MNIW(\hat{A}, \hat{V}^{-1}, \hat\Sigma_e, \alpha_0 + s)$$
+<p>$$(A, \Sigma_e) \sim MNIW(\hat{A}, \hat{V}^{-1}, \hat\Sigma_e, \alpha_0 + n)$$
 where \(\hat{V} = X_\ast^T X_\ast\) is the posterior precision of MN.</p>
 <p>BVHAR:</p>
-<p>$$(\Phi, \Sigma_e) \sim MNIW(\hat\Phi, \hat{V}_H^{-1}, \hat\Sigma_e, d_0 + s)$$
+<p>$$(\Phi, \Sigma_e) \sim MNIW(\hat\Phi, \hat{V}_H^{-1}, \hat\Sigma_e, \nu + n)$$
 where \(\hat{V}_H = X_{+}^T X_{+}\) is the posterior precision of MN.</p>
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Litterman, R. B. (1986). <em>Forecasting with Bayesian Vector Autoregressions: Five Years of Experience</em>. Journal of Business &amp; Economic Statistics, 4(1), 25. doi:<a href="https://doi.org/10.2307/1391384" class="external-link">10.2307/1391384</a></p>
-<p>Bańbura, M., Giannone, D., &amp; Reichlin, L. (2010). <em>Large Bayesian vector auto regressions</em>. Journal of Applied Econometrics, 25(1). doi:<a href="https://doi:10.1002/jae.1137" class="external-link">10.1002/jae.1137</a></p>
+    <p>Litterman, R. B. (1986). <em>Forecasting with Bayesian Vector Autoregressions: Five Years of Experience</em>. Journal of Business &amp; Economic Statistics, 4(1), 25.</p>
+<p>Bańbura, M., Giannone, D., &amp; Reichlin, L. (2010). <em>Large Bayesian vector auto regressions</em>. Journal of Applied Econometrics, 25(1).</p>
     </div>
 
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>

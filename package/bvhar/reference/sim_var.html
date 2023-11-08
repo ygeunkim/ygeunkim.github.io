@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.14.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0.9000</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +30,18 @@
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
-    <a class="dropdown-item" href="../articles/sparse-bvhar.html">Sparse Priors</a>
   </div>
 </li>
-<li class="nav-item">
-  <a class="nav-link" href="../news/index.html">Changelog</a>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-news">News</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-news">
+    <h6 class="dropdown-header" data-toc-skip>Releases</h6>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">Version 0.9.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">Version 0.12.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="../news/index.html">Changelog</a>
+  </div>
 </li>
 <li class="nav-item">
   <a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code">
@@ -117,7 +124,9 @@
 
 
 <dt>method</dt>
-<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="figures/lifecycle-experimental.svg" alt="[Experimental]"></a> Method to compute \(\Sigma^{1/2}\).</p></dd>
+<dd><p>Method to compute \(\Sigma^{1/2}\).
+Choose between <code>"eigen"</code> (spectral decomposition) and <code>"chol"</code> (cholesky decomposition).
+By default, <code>"eigen"</code>.</p></dd>
 
 
 <dt>process</dt>
@@ -126,11 +135,15 @@
 
 
 <dt>t_param</dt>
-<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="figures/lifecycle-experimental.svg" alt="[Experimental]"></a> argument for MVT, e.g. DF: 5.
-Choose between <code>"eigen"</code> (spectral decomposition) and <code>"chol"</code> (cholesky decomposition).
-By default, <code>"eigen"</code>.</p></dd>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="figures/lifecycle-experimental.svg" alt="[Experimental]"></a> argument for MVT, e.g. DF: 5.</p></dd>
 
 </dl></div>
+    <div class="section level2">
+    <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
+    
+
+<p>T x k matrix</p>
+    </div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     
@@ -142,7 +155,7 @@ $$y_{p + i} = (y_{p + i - 1}^T, \ldots, y_i^T, 1)^T B + \epsilon_i$$</p></li>
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Lütkepohl, H. (2007). <em>New Introduction to Multiple Time Series Analysis</em>. Springer Publishing. doi:<a href="https://doi.org/10.1007/978-3-540-27752-1" class="external-link">10.1007/978-3-540-27752-1</a></p>
+    <p>Lütkepohl, H. (2007). <em>New Introduction to Multiple Time Series Analysis</em>. Springer Publishing.</p>
     </div>
 
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>

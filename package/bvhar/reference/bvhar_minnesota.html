@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.14.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0.9000</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +30,18 @@
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
-    <a class="dropdown-item" href="../articles/sparse-bvhar.html">Sparse Priors</a>
   </div>
 </li>
-<li class="nav-item">
-  <a class="nav-link" href="../news/index.html">Changelog</a>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-news">News</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-news">
+    <h6 class="dropdown-header" data-toc-skip>Releases</h6>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">Version 0.9.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">Version 0.12.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="../news/index.html">Changelog</a>
+  </div>
 </li>
 <li class="nav-item">
   <a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code">
@@ -154,6 +161,12 @@ It is a list with the following components:</p>
 <dt>p</dt>
 <dd><p>3, this element exists to run the other functions</p></dd>
 
+<dt>week</dt>
+<dd><p>Order for weekly term</p></dd>
+
+<dt>month</dt>
+<dd><p>Order for monthly term</p></dd>
+
 <dt>m</dt>
 <dd><p>Dimension of the time series</p></dd>
 
@@ -167,7 +180,7 @@ It is a list with the following components:</p>
 <dd><p>Matched call</p></dd>
 
 <dt>process</dt>
-<dd><p>Process string in the <code>bayes_spec</code>: <code>"BVHAR_MN_VAR"</code> or <code>"BVHAR_MN_VHAR"</code></p></dd>
+<dd><p>Process string in the <code>bayes_spec</code>: <code>"BVHAR_MN_VAR"</code> (BVHAR-S) or <code>"BVHAR_MN_VHAR"</code> (BVHAR-L)</p></dd>
 
 <dt>spec</dt>
 <dd><p>Model specification (<code>bvharspec</code>)</p></dd>
@@ -200,7 +213,8 @@ It is a list with the following components:</p>
 <dd><p>Raw input (<code>matrix</code>)</p></dd>
 
 
-</dl></div>
+</dl><p>It is also <code>normaliw</code> and <code>bvharmod</code> class.</p>
+    </div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     <p>Apply Minnesota prior to Vector HAR: \(\Phi\) (VHAR matrices) and \(\Sigma_e\) (residual covariance).</p>
@@ -214,13 +228,13 @@ See <a href="var_design_formulation.html">var_design_formulation</a>.</p>
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Kim, Y. G., and Baek, C. (n.d.). <em>Bayesian vector heterogeneous autoregressive modeling</em>. submitted.</p>
+    <p>Kim, Y. G., and Baek, C. (2023+). <em>Bayesian vector heterogeneous autoregressive modeling</em>. Journal of Statistical Computation and Simulation.</p>
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
     <div class="dont-index">
-<ul><li><p><code><a href="set_bvar.html">set_bvhar()</a></code> to specify the hyperparameters of VAR-type Minnesota prior.</p></li>
-<li><p><code><a href="set_bvar.html">set_weight_bvhar()</a></code> to specify the hyperparameters of HAR-type Minnesota prior.</p></li>
+<ul><li><p><code><a href="set_bvar.html">set_bvhar()</a></code> to specify the hyperparameters of BVHAR-S</p></li>
+<li><p><code><a href="set_bvar.html">set_weight_bvhar()</a></code> to specify the hyperparameters of BVHAR-L</p></li>
 <li><p><code><a href="coef.varlse.html">coef.bvharmn()</a></code>, <code><a href="residuals.varlse.html">residuals.bvharmn()</a></code>, and <code><a href="fitted.varlse.html">fitted.bvharmn()</a></code></p></li>
 <li><p><code><a href="summary.normaliw.html">summary.normaliw()</a></code> to summarize BVHAR model</p></li>
 <li><p><code><a href="predict.varlse.html">predict.bvharmn()</a></code> to forecast the BVHAR process</p></li>

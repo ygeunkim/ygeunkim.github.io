@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research | Young Geun Kim</title>
+    <link>https://ygeunkim.github.io/tag/research/</link>
+      <atom:link href="https://ygeunkim.github.io/tag/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>research</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Young Geun Kim</copyright><lastBuildDate>Wed, 08 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
+      <title>research</title>
+      <link>https://ygeunkim.github.io/tag/research/</link>
+    </image>
+    
+    <item>
+      <title>bvhar: Bayesian Vector Heterogeneous Autoregressive Modeling</title>
+      <link>https://ygeunkim.github.io/codes/bvhar/</link>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/bvhar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>somanomaly: Self Organizing Map for Anomaly Detection</title>
+      <link>https://ygeunkim.github.io/codes/somanomaly_python/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/somanomaly_python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swatanomaly: Anomaly Detection using KL Divergence</title>
+      <link>https://ygeunkim.github.io/codes/swatanomaly_pkg/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/codes/swatanomaly_pkg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

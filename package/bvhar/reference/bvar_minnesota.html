@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.14.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0.9000</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +30,18 @@
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
-    <a class="dropdown-item" href="../articles/sparse-bvhar.html">Sparse Priors</a>
   </div>
 </li>
-<li class="nav-item">
-  <a class="nav-link" href="../news/index.html">Changelog</a>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-news">News</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-news">
+    <h6 class="dropdown-header" data-toc-skip>Releases</h6>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">Version 0.9.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">Version 0.12.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="../news/index.html">Changelog</a>
+  </div>
 </li>
 <li class="nav-item">
   <a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code">
@@ -77,7 +84,7 @@
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">bvar_minnesota</span><span class="op">(</span><span class="va">y</span>, <span class="va">p</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="set_bvar.html">set_bvar</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">bvar_minnesota</span><span class="op">(</span><span class="va">y</span>, p <span class="op">=</span> <span class="fl">1</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="set_bvar.html">set_bvar</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for bvarmn</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">x</span>, digits <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html" class="external-link">max</a></span><span class="op">(</span><span class="fl">3L</span>, <span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">getOption</a></span><span class="op">(</span><span class="st">"digits"</span><span class="op">)</span> <span class="op">-</span> <span class="fl">3L</span><span class="op">)</span>, <span class="va">...</span><span class="op">)</span></span>
@@ -92,7 +99,7 @@
 
 
 <dt>p</dt>
-<dd><p>VAR lag</p></dd>
+<dd><p>VAR lag (Default: 1)</p></dd>
 
 
 <dt>bayes_spec</dt>
@@ -119,7 +126,7 @@
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
     
 
-<p><code>bvar_minnesota</code> returns an object <code>bvarmn</code></p>
+<p><code>bvar_minnesota()</code> returns an object <code>bvarmn</code></p>
 <p></p>
 <p><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a>.
 It is a list with the following components:</p>
@@ -174,7 +181,7 @@ It is a list with the following components:</p>
 <dd><p>Prior mean matrix of Matrix Normal distribution: \(A_0\)</p></dd>
 
 <dt>prior_precision</dt>
-<dd><p>Prior precision matrix of Matrix Normal distribution: \(\Omega_0\)^-1</p></dd>
+<dd><p>Prior precision matrix of Matrix Normal distribution: \(\Omega_0^{-1}\)</p></dd>
 
 <dt>prior_scale</dt>
 <dd><p>Prior scale matrix of inverse-Wishart distribution: \(S_0\)</p></dd>
@@ -192,7 +199,8 @@ It is a list with the following components:</p>
 <dd><p>Raw input (<code>matrix</code>)</p></dd>
 
 
-</dl></div>
+</dl><p>It is also <code>normaliw</code> and <code>bvharmod</code> class.</p>
+    </div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     <p>Minnesota prior gives prior to parameters \(A\) (VAR matrices) and \(\Sigma_e\) (residual covariance).</p>
@@ -202,12 +210,12 @@ $$\Sigma_e \sim IW(S_0, \alpha_0)$$
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Bańbura, M., Giannone, D., &amp; Reichlin, L. (2010). <em>Large Bayesian vector auto regressions</em>. Journal of Applied Econometrics, 25(1). doi:<a href="https://doi:10.1002/jae.1137" class="external-link">10.1002/jae.1137</a></p>
-<p>Giannone, D., Lenza, M., &amp; Primiceri, G. E. (2015). <em>Prior Selection for Vector Autoregressions</em>. Review of Economics and Statistics, 97(2). doi:<a href="https://doi.org/10.1162/REST_a_00483" class="external-link">10.1162/REST_a_00483</a></p>
-<p>Litterman, R. B. (1986). <em>Forecasting with Bayesian Vector Autoregressions: Five Years of Experience</em>. Journal of Business &amp; Economic Statistics, 4(1), 25. doi:<a href="https://doi.org/10.2307/1391384" class="external-link">10.2307/1391384</a></p>
-<p>KADIYALA, K.R. and KARLSSON, S. (1997), <em>NUMERICAL METHODS FOR ESTIMATION AND INFERENCE IN BAYESIAN VAR-MODELS</em>. J. Appl. Econ., 12: 99-132. doi:<a href="https://doi.org/10.1002/(SICI)1099-1255(199703)12:2&lt;99::AID-JAE429&gt;3.0.CO;2-A" class="external-link">10.1002/(SICI)1099-1255(199703)12:2&lt;99::AID-JAE429&gt;3.0.CO;2-A</a></p>
-<p>Karlsson, S. (2013). <em>Chapter 15 Forecasting with Bayesian Vector Autoregression</em>. Handbook of Economic Forecasting, 2, 791–897. doi:<a href="https://doi.org/10.1016/B978-0-444-62731-5.00015-4" class="external-link">10.1016/b978-0-444-62731-5.00015-4</a></p>
-<p>Sims, C. A., &amp; Zha, T. (1998). <em>Bayesian Methods for Dynamic Multivariate Models</em>. International Economic Review, 39(4), 949–968. doi:<a href="https://doi.org/10.2307/2527347" class="external-link">10.2307/2527347</a></p>
+    <p>Bańbura, M., Giannone, D., &amp; Reichlin, L. (2010). <em>Large Bayesian vector auto regressions</em>. Journal of Applied Econometrics, 25(1).</p>
+<p>Giannone, D., Lenza, M., &amp; Primiceri, G. E. (2015). <em>Prior Selection for Vector Autoregressions</em>. Review of Economics and Statistics, 97(2).</p>
+<p>Litterman, R. B. (1986). <em>Forecasting with Bayesian Vector Autoregressions: Five Years of Experience</em>. Journal of Business &amp; Economic Statistics, 4(1), 25.</p>
+<p>KADIYALA, K.R. and KARLSSON, S. (1997), <em>NUMERICAL METHODS FOR ESTIMATION AND INFERENCE IN BAYESIAN VAR-MODELS</em>. J. Appl. Econ., 12: 99-132.</p>
+<p>Karlsson, S. (2013). <em>Chapter 15 Forecasting with Bayesian Vector Autoregression</em>. Handbook of Economic Forecasting, 2, 791–897.</p>
+<p>Sims, C. A., &amp; Zha, T. (1998). <em>Bayesian Methods for Dynamic Multivariate Models</em>. International Economic Review, 39(4), 949–968.</p>
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>

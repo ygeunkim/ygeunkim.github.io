@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.14.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0.9000</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +30,18 @@
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
-    <a class="dropdown-item" href="../articles/sparse-bvhar.html">Sparse Priors</a>
   </div>
 </li>
-<li class="nav-item">
-  <a class="nav-link" href="../news/index.html">Changelog</a>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-news">News</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-news">
+    <h6 class="dropdown-header" data-toc-skip>Releases</h6>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">Version 0.9.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">Version 0.12.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="../news/index.html">Changelog</a>
+  </div>
 </li>
 <li class="nav-item">
   <a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code">
@@ -198,8 +205,8 @@ $$p (\Sigma_e) \propto 1$$</p>
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Ghosh, S., Khare, K., &amp; Michailidis, G. (2018). <em>High-Dimensional Posterior Consistency in Bayesian Vector Autoregressive Models</em>. Journal of the American Statistical Association, 114(526). doi:<a href="https://doi.org/10.1080/01621459.2018.1437043" class="external-link">10.1080/01621459.2018.1437043</a></p>
-<p>Litterman, R. B. (1986). <em>Forecasting with Bayesian Vector Autoregressions: Five Years of Experience</em>. Journal of Business &amp; Economic Statistics, 4(1), 25. doi:<a href="https://doi.org/10.2307/1391384" class="external-link">10.2307/1391384</a></p>
+    <p>Ghosh, S., Khare, K., &amp; Michailidis, G. (2018). <em>High-Dimensional Posterior Consistency in Bayesian Vector Autoregressive Models</em>. Journal of the American Statistical Association, 114(526).</p>
+<p>Litterman, R. B. (1986). <em>Forecasting with Bayesian Vector Autoregressions: Five Years of Experience</em>. Journal of Business &amp; Economic Statistics, 4(1), 25.</p>
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
@@ -210,41 +217,6 @@ $$p (\Sigma_e) \propto 1$$</p>
 </ul></div>
     </div>
 
-    <div class="section level2">
-    <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># Perform the function using etf_vix dataset</span></span></span>
-<span class="r-in"><span><span class="va">fit</span> <span class="op">&lt;-</span> <span class="fu">bvar_flat</span><span class="op">(</span>y <span class="op">=</span> <span class="va">etf_vix</span><span class="op">[</span>,<span class="fl">1</span><span class="op">:</span><span class="fl">3</span><span class="op">]</span>, p <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></span>
-<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "bvarflat" "normaliw" "bvharmod"</span>
-<span class="r-in"><span></span></span>
-<span class="r-in"><span><span class="co"># Extract coef, fitted values, and residuals</span></span></span>
-<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/stats/coef.html" class="external-link">coef</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                  GVZCLS       OVXCLS    VXFXICLS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_1    0.950309906 -0.026501651 -0.03489811</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_1    0.051823304  1.010021584  0.02717471</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_1 -0.035878187 -0.006718154  0.94532154</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_2    0.007263959  0.037496675  0.04101545</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_2   -0.054543690 -0.017120730 -0.02486478</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_2  0.044530598 -0.007762788  0.01662030</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> const       0.627844797  0.354739726  0.76784661</span>
-<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/residuals.html" class="external-link">residuals</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>          GVZCLS     OVXCLS   VXFXICLS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,]  0.9624917  0.1887874  0.2950938</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] -0.5656201  1.1710422 -0.4457076</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] -0.3486044 -0.9317559  1.1117046</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [4,]  0.4109920 -0.7389710 -0.2649134</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [5,]  0.3499824 -0.7215499 -0.2849624</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] -0.3000129 -1.2909049 -0.5758355</span>
-<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/fitted.values.html" class="external-link">fitted</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>        GVZCLS   OVXCLS VXFXICLS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 21.37751 35.33121 28.76491</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 22.16562 35.41896 28.90571</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 21.54860 36.55176 28.42830</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 20.98901 35.53397 29.36991</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 21.25002 34.69155 28.95496</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 21.44001 33.88090 28.53584</span>
-</code></pre></div>
-    </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
     </nav></aside></div>
 
