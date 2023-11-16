@@ -14,53 +14,10 @@
     
     <item>
       <title>Generating Long-range-dependent Time Series</title>
-      <link>https://ygeunkim.github.io/shiny/lrd-shiny/</link>
+      <link>https://ygeunkim.github.io/codes/lrd-shiny/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/shiny/lrd-shiny/</guid>
+      <guid>https://ygeunkim.github.io/codes/lrd-shiny/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>First Shiny App using Flexdashboard</title>
-      <link>https://ygeunkim.github.io/post/startshiny/</link>
-      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/post/startshiny/</guid>
-      <description>&lt;p&gt;I made my first Shiny app on &lt;a href=&#34;https://blended.shinyapps.io/sim-lrd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blended.shinyapps.io/sim-lrd/&lt;/a&gt; 😄.
-Above &lt;code&gt;Code&lt;/code&gt; button links to the flexdashboard R markdown file in the Github repository.&lt;/p&gt;
-&lt;p&gt;Also, I added a section for the Shiny apps in the research menu in this site.&lt;/p&gt;
-&lt;h1 id=&#34;fast-guide&#34;&gt;Fast Guide&lt;/h1&gt;
-&lt;h2 id=&#34;writing-yaml&#34;&gt;Writing &lt;code&gt;yaml&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;For &lt;code&gt;yaml&lt;/code&gt; output, write &lt;code&gt;flexdashboard::flex_dashborad&lt;/code&gt;.
-There are lots of options.
-See the specifics in my repo if you want.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: &amp;quot;Generating Multivariate Long-range-dependent Time series&amp;quot;
-output: 
-  flexdashboard::flex_dashboard:
-    source_code: https://github.com/ygeunkim/sim-lrd/blob/master/index.Rmd
-runtime: shiny
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;template&#34;&gt;Template&lt;/h2&gt;
-&lt;p&gt;Actually, if you click in the menu,&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;File&lt;/li&gt;
-&lt;li&gt;New file&lt;/li&gt;
-&lt;li&gt;R Markdown&lt;/li&gt;
-&lt;li&gt;From Template&lt;/li&gt;
-&lt;li&gt;Flex Dashboard&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;then the file will have some structure.&lt;/p&gt;
-&lt;img src=&#34;flexdash.png&#34; width=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-&lt;p&gt;We can customize the arrangement such as sidebar, row, and column.&lt;/p&gt;
-&lt;p&gt;To use &lt;code&gt;shiny&lt;/code&gt; engine, I added &lt;code&gt;runtime: shiny&lt;/code&gt; with&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(shiny)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
-&lt;p&gt;The next steps are related to defining input and making the dashboad.
-The website of the package, &lt;a href=&#34;https://pkgs.rstudio.com/flexdashboard/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pkgs.rstudio.com/flexdashboard/&lt;/a&gt;, is useful.&lt;/p&gt;
-&lt;p&gt;If you try the shiny app yourself, click &lt;code&gt;Shiny&lt;/code&gt; above 😊&lt;/p&gt;
-</description>
     </item>
     
   </channel>
