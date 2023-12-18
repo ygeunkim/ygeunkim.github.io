@@ -1,4 +1,4 @@
-pandoc: 3.1.9
+pandoc: 3.1.11
 pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
@@ -6,5 +6,6 @@ articles:
   empirical-bayes: empirical-bayes.html
   forecasting: forecasting.html
   minnesota: minnesota.html
-last_built: 2023-12-06T11:42Z
+  shrinkage: shrinkage.html
+last_built: 2023-12-18T05:57Z
 

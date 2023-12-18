@@ -34,6 +34,9 @@
     <loc>/articles/minnesota.html</loc>
   </url>
   <url>
+    <loc>/articles/shrinkage.html</loc>
+  </url>
+  <url>
     <loc>/authors.html</loc>
   </url>
   <url>
@@ -97,6 +100,9 @@
     <loc>/reference/bvar_flat.html</loc>
   </url>
   <url>
+    <loc>/reference/bvar_horseshoe.html</loc>
+  </url>
+  <url>
     <loc>/reference/bvar_minnesota.html</loc>
   </url>
   <url>
@@ -113,6 +119,9 @@
   </url>
   <url>
     <loc>/reference/bvhar-package.html</loc>
+  </url>
+  <url>
+    <loc>/reference/bvhar_horseshoe.html</loc>
   </url>
   <url>
     <loc>/reference/bvhar_minnesota.html</loc>
@@ -190,6 +199,9 @@
     <loc>/reference/gg_loss.html</loc>
   </url>
   <url>
+    <loc>/reference/horseshoe_bvar_algo.html</loc>
+  </url>
+  <url>
     <loc>/reference/index.html</loc>
   </url>
   <url>
@@ -206,6 +218,9 @@
   </url>
   <url>
     <loc>/reference/logLik.varlse.html</loc>
+  </url>
+  <url>
+    <loc>/reference/lpl.html</loc>
   </url>
   <url>
     <loc>/reference/mae.html</loc>
@@ -259,10 +274,16 @@
     <loc>/reference/set_bvar.html</loc>
   </url>
   <url>
+    <loc>/reference/set_horseshoe.html</loc>
+  </url>
+  <url>
     <loc>/reference/set_lambda.html</loc>
   </url>
   <url>
     <loc>/reference/set_ssvs.html</loc>
+  </url>
+  <url>
+    <loc>/reference/sim_horseshoe_var.html</loc>
   </url>
   <url>
     <loc>/reference/sim_iw.html</loc>

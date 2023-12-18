@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.2</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.1.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +30,7 @@
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
+    <a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a>
   </div>
 </li>
 <li class="nav-item dropdown">
@@ -41,6 +42,7 @@
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="../news/index.html">Changelog</a>
   </div>
@@ -91,7 +93,8 @@
 <span>  <span class="va">p</span>,</span>
 <span>  dim_data <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  include_mean <span class="op">=</span> <span class="cn">TRUE</span>,</span>
-<span>  relax <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  minnesota <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  mn_prob <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  method <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"eigen"</span>, <span class="st">"chol"</span><span class="op">)</span></span>
 <span><span class="op">)</span></span>
 <span></span>
@@ -100,7 +103,8 @@
 <span>  har <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">5</span>, <span class="fl">22</span><span class="op">)</span>,</span>
 <span>  dim_data <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  include_mean <span class="op">=</span> <span class="cn">TRUE</span>,</span>
-<span>  relax <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"no"</span>, <span class="st">"minnesota"</span>, <span class="st">"longrun"</span><span class="op">)</span>,</span>
+<span>  minnesota <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"no"</span>, <span class="st">"short"</span>, <span class="st">"longrun"</span><span class="op">)</span>,</span>
+<span>  mn_prob <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  method <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"eigen"</span>, <span class="st">"chol"</span><span class="op">)</span></span>
 <span><span class="op">)</span></span></code></pre></div>
     </div>
@@ -123,10 +127,14 @@
 <dd><p>Add constant term (Default: <code>TRUE</code>) or not (<code>FALSE</code>)</p></dd>
 
 
-<dt>relax</dt>
+<dt>minnesota</dt>
 <dd><p>Only use off-diagonal terms of each coefficient matrices for restriction.
 In <code>sim_ssvs_var()</code> function, use <code>TRUE</code> or <code>FALSE</code> (default).
-In <code>sim_ssvs_vhar()</code> function, <code>"no"</code> (default), <code>"minnesota"</code> type, or <code>"longrun"</code> type.</p></dd>
+In <code>sim_ssvs_vhar()</code> function, <code>"no"</code> (default), <code>"short"</code> type, or <code>"longrun"</code> type.</p></dd>
+
+
+<dt>mn_prob</dt>
+<dd><p>Probability for own-lags.</p></dd>
 
 
 <dt>method</dt>

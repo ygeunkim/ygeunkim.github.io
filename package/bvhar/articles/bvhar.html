@@ -35,7 +35,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.2</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.1.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,6 +56,7 @@
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
+    <a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a>
   </div>
 </li>
 <li class="nav-item dropdown">
@@ -67,6 +68,7 @@
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="../news/index.html">Changelog</a>
   </div>
@@ -957,28 +959,28 @@ performs MCMC based on conjugate MNIW distribution.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter record:</span></span>
 <span><span class="co">#&gt; # A draws_df: 5000 iterations, 1 chains, and 94 variables</span></span>
-<span><span class="co">#&gt;     alpha[1]   alpha[2]  alpha[3]  alpha[4]  alpha[5]  alpha[6]  alpha[7]</span></span>
-<span><span class="co">#&gt; 1      0.820   0.019605   0.12492   0.02531   0.00687  -0.01338  -0.04851</span></span>
-<span><span class="co">#&gt; 2      0.795   0.007979   0.09445   0.05895   0.02278   0.00293  -0.05980</span></span>
-<span><span class="co">#&gt; 3      0.813   0.012340  -0.05820   0.07561   0.05255  -0.01601  -0.00655</span></span>
-<span><span class="co">#&gt; 4      0.782   0.019493   0.08584   0.02119   0.09506  -0.03123   0.02730</span></span>
-<span><span class="co">#&gt; 5      0.768  -0.009142   0.09392   0.03948   0.08138  -0.00295  -0.00351</span></span>
-<span><span class="co">#&gt; 6      0.771   0.011332   0.09950  -0.02576   0.08608  -0.00639  -0.05020</span></span>
-<span><span class="co">#&gt; 7      0.795   0.019384   0.10791  -0.00390   0.08048  -0.00746   0.01931</span></span>
-<span><span class="co">#&gt; 8      0.802   0.000266  -0.00538   0.01950   0.08556  -0.00813   0.01188</span></span>
-<span><span class="co">#&gt; 9      0.702  -0.005293   0.10201   0.01811   0.09624  -0.00128  -0.03663</span></span>
-<span><span class="co">#&gt; 10     0.777   0.017014   0.05109  -0.00907   0.10565  -0.00598  -0.01886</span></span>
+<span><span class="co">#&gt;     alpha[1]  alpha[2]  alpha[3]  alpha[4]  alpha[5]   alpha[6]  alpha[7]</span></span>
+<span><span class="co">#&gt; 1      0.765   0.00375    0.0694  -0.00362    0.0925   0.014890  -0.01842</span></span>
+<span><span class="co">#&gt; 2      0.788  -0.00364    0.0663   0.03680    0.0794   0.001625  -0.00424</span></span>
+<span><span class="co">#&gt; 3      0.755  -0.00229    0.0635   0.06843    0.0887  -0.001483  -0.02967</span></span>
+<span><span class="co">#&gt; 4      0.735   0.00518    0.1076   0.05235    0.1060   0.009827  -0.05517</span></span>
+<span><span class="co">#&gt; 5      0.805  -0.00161    0.0563   0.06018    0.0758  -0.010183   0.02141</span></span>
+<span><span class="co">#&gt; 6      0.773   0.01873    0.0326   0.04110    0.0913   0.001636  -0.01471</span></span>
+<span><span class="co">#&gt; 7      0.757   0.00462    0.0705   0.07086    0.0687  -0.000258  -0.04979</span></span>
+<span><span class="co">#&gt; 8      0.726   0.00702    0.1080   0.02586    0.0696  -0.011588   0.05543</span></span>
+<span><span class="co">#&gt; 9      0.823   0.01297    0.0675  -0.04727    0.0855  -0.004409   0.01853</span></span>
+<span><span class="co">#&gt; 10     0.802   0.02027    0.0446   0.00386    0.0882  -0.000215  -0.02978</span></span>
 <span><span class="co">#&gt;     alpha[8]</span></span>
-<span><span class="co">#&gt; 1    0.01462</span></span>
-<span><span class="co">#&gt; 2   -0.03054</span></span>
-<span><span class="co">#&gt; 3    0.00174</span></span>
-<span><span class="co">#&gt; 4    0.02500</span></span>
-<span><span class="co">#&gt; 5   -0.02445</span></span>
-<span><span class="co">#&gt; 6    0.00166</span></span>
-<span><span class="co">#&gt; 7    0.00568</span></span>
-<span><span class="co">#&gt; 8    0.00844</span></span>
-<span><span class="co">#&gt; 9    0.00128</span></span>
-<span><span class="co">#&gt; 10   0.04123</span></span>
+<span><span class="co">#&gt; 1    0.05819</span></span>
+<span><span class="co">#&gt; 2    0.03053</span></span>
+<span><span class="co">#&gt; 3   -0.03172</span></span>
+<span><span class="co">#&gt; 4   -0.03788</span></span>
+<span><span class="co">#&gt; 5   -0.01096</span></span>
+<span><span class="co">#&gt; 6    0.02101</span></span>
+<span><span class="co">#&gt; 7   -0.04361</span></span>
+<span><span class="co">#&gt; 8    0.00837</span></span>
+<span><span class="co">#&gt; 9    0.04849</span></span>
+<span><span class="co">#&gt; 10   0.00324</span></span>
 <span><span class="co">#&gt; # ... with 4990 more draws, and 86 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 <p><code><a href="https://ggplot2.tidyverse.org/reference/autoplot.html" class="external-link">autoplot()</a></code> gives several Bayes visualization based on
