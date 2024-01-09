@@ -14,9 +14,9 @@
 <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="../apple-touch-icon-76x76.png">
 <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="../apple-touch-icon-60x60.png">
 <script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="../deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
-<script src="../deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><link href="../deps/Noto_Sans-0.4.7/font.css" rel="stylesheet">
-<link href="../deps/Anonymous_Pro-0.4.7/font.css" rel="stylesheet">
+<link href="../deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
+<script src="../deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="../deps/Noto_Sans-0.4.8/font.css" rel="stylesheet">
+<link href="../deps/Anonymous_Pro-0.4.8/font.css" rel="stylesheet">
 <!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Shrinkage Priors">
@@ -35,7 +35,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.1.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.2.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,9 +66,8 @@
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
-    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a>
-    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="../news/index.html">Changelog</a>
   </div>
@@ -172,42 +171,31 @@ shrinkage.</li>
 <code>verbose = FALSE</code>: Progress bar</li>
 </ul>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ssvs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_ssvs.html">bvhar_ssvs</a></span><span class="op">(</span><span class="va">etf_train</span>, num_iter <span class="op">=</span> <span class="fl">500</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ssvs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_ssvs.html">bvhar_ssvs</a></span><span class="op">(</span><span class="va">etf_train</span>, num_iter <span class="op">=</span> <span class="fl">50</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; bvhar_ssvs(y = etf_train, num_iter = 500, include_mean = FALSE, </span></span>
+<span><span class="co">#&gt; bvhar_ssvs(y = etf_train, num_iter = 50, include_mean = FALSE, </span></span>
 <span><span class="co">#&gt;     minnesota = "longrun")</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with SSVS Prior</span></span>
 <span><span class="co">#&gt; Fitted by Gibbs sampling</span></span>
-<span><span class="co">#&gt; Total number of iteration: 500</span></span>
-<span><span class="co">#&gt; Number of burn-in: 250</span></span>
+<span><span class="co">#&gt; Total number of iteration: 50</span></span>
+<span><span class="co">#&gt; Number of burn-in: 25</span></span>
 <span><span class="co">#&gt; ====================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter Record:</span></span>
-<span><span class="co">#&gt; # A draws_df: 250 iterations, 1 chains, and 112 variables</span></span>
-<span><span class="co">#&gt;     phi[1]    phi[2]    phi[3]    phi[4]     phi[5]    phi[6]    phi[7]</span></span>
-<span><span class="co">#&gt; 1    0.748   0.01790  -0.00374   0.02106  -0.000456   0.04807   0.06563</span></span>
-<span><span class="co">#&gt; 2    0.781   0.00923  -0.00232   0.03816  -0.010998  -0.00211   0.07880</span></span>
-<span><span class="co">#&gt; 3    0.913  -0.00539   0.01807   0.02018  -0.001692  -0.02208  -0.00346</span></span>
-<span><span class="co">#&gt; 4    0.902   0.00744  -0.03854  -0.00351  -0.006867  -0.00886   0.05922</span></span>
-<span><span class="co">#&gt; 5    0.840   0.04047  -0.02481   0.01366   0.017026   0.02911  -0.01055</span></span>
-<span><span class="co">#&gt; 6    0.868   0.01580  -0.02302   0.00926   0.000999   0.00435  -0.02162</span></span>
-<span><span class="co">#&gt; 7    0.879   0.00565   0.06542  -0.00299  -0.051311   0.02893   0.08144</span></span>
-<span><span class="co">#&gt; 8    0.935   0.01331   0.05494  -0.01276  -0.000930   0.00466   0.06335</span></span>
-<span><span class="co">#&gt; 9    0.789   0.00135   0.06510   0.03359   0.006046  -0.00691  -0.00422</span></span>
-<span><span class="co">#&gt; 10   0.930  -0.00100   0.08661  -0.00681  -0.018950   0.00269   0.05719</span></span>
-<span><span class="co">#&gt;        phi[8]</span></span>
-<span><span class="co">#&gt; 1   -0.002071</span></span>
-<span><span class="co">#&gt; 2    0.036708</span></span>
-<span><span class="co">#&gt; 3    0.014261</span></span>
-<span><span class="co">#&gt; 4    0.019664</span></span>
-<span><span class="co">#&gt; 5    0.000975</span></span>
-<span><span class="co">#&gt; 6    0.006086</span></span>
-<span><span class="co">#&gt; 7    0.024824</span></span>
-<span><span class="co">#&gt; 8   -0.025001</span></span>
-<span><span class="co">#&gt; 9    0.021118</span></span>
-<span><span class="co">#&gt; 10   0.011626</span></span>
-<span><span class="co">#&gt; # ... with 240 more draws, and 104 more variables</span></span>
+<span><span class="co">#&gt; # A draws_df: 25 iterations, 1 chains, and 112 variables</span></span>
+<span><span class="co">#&gt;     phi[1]    phi[2]   phi[3]     phi[4]    phi[5]    phi[6]    phi[7]   phi[8]</span></span>
+<span><span class="co">#&gt; 1    0.698  -0.00226  -0.0123   0.037430   0.02887   0.03234   0.04147  0.00751</span></span>
+<span><span class="co">#&gt; 2    0.873   0.02821   0.0360   0.010323   0.04918   0.01284   0.03641  0.00163</span></span>
+<span><span class="co">#&gt; 3    0.763   0.01056  -0.0212  -0.000826  -0.02758   0.01102   0.05360  0.04717</span></span>
+<span><span class="co">#&gt; 4    0.889   0.00357  -0.0204   0.034986  -0.00416  -0.02446  -0.03122  0.02264</span></span>
+<span><span class="co">#&gt; 5    0.859   0.01599   0.0599   0.029510   0.01150   0.00536   0.00188  0.00865</span></span>
+<span><span class="co">#&gt; 6    0.956  -0.01873   0.0263   0.003166   0.02746   0.05086  -0.00259  0.00709</span></span>
+<span><span class="co">#&gt; 7    0.782   0.00567   0.0208   0.009171   0.01129   0.03717  -0.07532  0.00518</span></span>
+<span><span class="co">#&gt; 8    0.817   0.03570   0.0362   0.003582   0.03489  -0.00423   0.03803  0.02531</span></span>
+<span><span class="co">#&gt; 9    0.932   0.00745  -0.0411   0.010844   0.01799   0.01914   0.10273  0.01348</span></span>
+<span><span class="co">#&gt; 10   0.740   0.04380   0.0326   0.016294  -0.01817   0.02164   0.02196  0.00779</span></span>
+<span><span class="co">#&gt; # ... with 15 more draws, and 104 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 <p><code><a href="https://ggplot2.tidyverse.org/reference/autoplot.html" class="external-link">autoplot()</a></code> for the fit (<code>bvharsp</code> object)
 provides coefficients heatmap. There is <code>type</code> argument, and
@@ -224,30 +212,81 @@ the default <code>type = "coef"</code> draws the heatmap.</p>
 <h2 id="horseshoe-prior">Horseshoe Prior<a class="anchor" aria-label="anchor" href="#horseshoe-prior"></a>
 </h2>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_hs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_horseshoe.html">bvhar_horseshoe</a></span><span class="op">(</span><span class="va">etf_train</span>, num_iter <span class="op">=</span> <span class="fl">1000</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span>, verbose <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_hs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_horseshoe.html">bvhar_horseshoe</a></span><span class="op">(</span><span class="va">etf_train</span>, num_iter <span class="op">=</span> <span class="fl">50</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span>, verbose <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#                                                  2%</span></span>
+<span><span class="co">##                                                 4%</span></span>
+<span><span class="co">###                                                6%</span></span>
+<span><span class="co">####                                               8%</span></span>
+<span><span class="co">#####                                              10%</span></span>
+<span><span class="co">######                                             12%</span></span>
+<span><span class="co">#######                                            14%</span></span>
+<span><span class="co">########                                           16%</span></span>
+<span><span class="co">#########                                          18%</span></span>
+<span><span class="co">##########                                         20%</span></span>
+<span><span class="co">###########                                        22%</span></span>
+<span><span class="co">############                                       24%</span></span>
+<span><span class="co">#############                                      26%</span></span>
+<span><span class="co">##############                                     28%</span></span>
+<span><span class="co">###############                                    30%</span></span>
+<span><span class="co">################                                   32%</span></span>
+<span><span class="co">#################                                  34%</span></span>
+<span><span class="co">##################                                 36%</span></span>
+<span><span class="co">###################                                38%</span></span>
+<span><span class="co">####################                               40%</span></span>
+<span><span class="co">#####################                              42%</span></span>
+<span><span class="co">######################                             44%</span></span>
+<span><span class="co">#######################                            46%</span></span>
+<span><span class="co">########################                           48%</span></span>
+<span><span class="co">#########################                          50%</span></span>
+<span><span class="co">##########################                         52%</span></span>
+<span><span class="co">###########################                        54%</span></span>
+<span><span class="co">############################                       56%</span></span>
+<span><span class="co">#############################                      58%</span></span>
+<span><span class="co">##############################                     60%</span></span>
+<span><span class="co">###############################                    62%</span></span>
+<span><span class="co">################################                   64%</span></span>
+<span><span class="co">#################################                  66%</span></span>
+<span><span class="co">##################################                 68%</span></span>
+<span><span class="co">###################################                70%</span></span>
+<span><span class="co">####################################               72%</span></span>
+<span><span class="co">#####################################              74%</span></span>
+<span><span class="co">######################################             76%</span></span>
+<span><span class="co">#######################################            78%</span></span>
+<span><span class="co">########################################           80%</span></span>
+<span><span class="co">#########################################          82%</span></span>
+<span><span class="co">##########################################         84%</span></span>
+<span><span class="co">###########################################        86%</span></span>
+<span><span class="co">############################################       88%</span></span>
+<span><span class="co">#############################################      90%</span></span>
+<span><span class="co">##############################################     92%</span></span>
+<span><span class="co">###############################################    94%</span></span>
+<span><span class="co">################################################   96%</span></span>
+<span><span class="co">#################################################  98%</span></span>
+<span><span class="co">################################################## 100%</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; bvhar_horseshoe(y = etf_train, num_iter = 1000, include_mean = FALSE, </span></span>
+<span><span class="co">#&gt; bvhar_horseshoe(y = etf_train, num_iter = 50, include_mean = FALSE, </span></span>
 <span><span class="co">#&gt;     minnesota = "longrun", verbose = TRUE)</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with Horseshoe Prior</span></span>
 <span><span class="co">#&gt; Fitted by blocked sampling</span></span>
-<span><span class="co">#&gt; Total number of iteration: 1000</span></span>
-<span><span class="co">#&gt; Number of burn-in: 500</span></span>
+<span><span class="co">#&gt; Total number of iteration: 50</span></span>
+<span><span class="co">#&gt; Number of burn-in: 25</span></span>
 <span><span class="co">#&gt; ====================================================</span></span>
 <span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; # A draws_df: 500 iterations, 1 chains, and 103 variables</span></span>
+<span><span class="co">#&gt; # A draws_df: 25 iterations, 1 chains, and 103 variables</span></span>
 <span><span class="co">#&gt;     phi[1]  phi[2]  phi[3]  phi[4]  phi[5]   phi[6]  phi[7]    phi[8]</span></span>
-<span><span class="co">#&gt; 1    0.541   0.117  0.0982  0.0906   0.160  -0.0468  0.0419  -0.01556</span></span>
-<span><span class="co">#&gt; 2    0.543   0.119  0.0943  0.0889   0.161  -0.0498  0.0501  -0.01447</span></span>
-<span><span class="co">#&gt; 3    0.542   0.120  0.1018  0.0854   0.156  -0.0525  0.0621  -0.00964</span></span>
-<span><span class="co">#&gt; 4    0.543   0.118  0.1013  0.0870   0.160  -0.0496  0.0544  -0.01080</span></span>
-<span><span class="co">#&gt; 5    0.541   0.117  0.1008  0.0899   0.156  -0.0467  0.0523  -0.01410</span></span>
-<span><span class="co">#&gt; 6    0.544   0.117  0.0989  0.0878   0.162  -0.0486  0.0448  -0.01283</span></span>
-<span><span class="co">#&gt; 7    0.541   0.115  0.1026  0.0902   0.156  -0.0434  0.0489  -0.01431</span></span>
-<span><span class="co">#&gt; 8    0.540   0.119  0.0960  0.0901   0.159  -0.0497  0.0583  -0.01429</span></span>
-<span><span class="co">#&gt; 9    0.542   0.119  0.1037  0.0862   0.163  -0.0518  0.0555  -0.01213</span></span>
-<span><span class="co">#&gt; 10   0.544   0.117  0.1008  0.0880   0.159  -0.0497  0.0517  -0.01319</span></span>
-<span><span class="co">#&gt; # ... with 490 more draws, and 95 more variables</span></span>
+<span><span class="co">#&gt; 1    0.541   0.117  0.1022  0.0879   0.164  -0.0480  0.0431  -0.01197</span></span>
+<span><span class="co">#&gt; 2    0.543   0.119  0.0983  0.0885   0.158  -0.0497  0.0587  -0.01417</span></span>
+<span><span class="co">#&gt; 3    0.543   0.118  0.0992  0.0867   0.160  -0.0485  0.0502  -0.01051</span></span>
+<span><span class="co">#&gt; 4    0.542   0.119  0.1020  0.0875   0.160  -0.0483  0.0427  -0.01106</span></span>
+<span><span class="co">#&gt; 5    0.542   0.117  0.1058  0.0858   0.163  -0.0479  0.0427  -0.00992</span></span>
+<span><span class="co">#&gt; 6    0.544   0.116  0.0949  0.0916   0.158  -0.0462  0.0488  -0.01830</span></span>
+<span><span class="co">#&gt; 7    0.541   0.119  0.0966  0.0875   0.164  -0.0489  0.0497  -0.01049</span></span>
+<span><span class="co">#&gt; 8    0.542   0.116  0.1020  0.0894   0.159  -0.0454  0.0485  -0.01446</span></span>
+<span><span class="co">#&gt; 9    0.542   0.118  0.0954  0.0903   0.157  -0.0475  0.0556  -0.01525</span></span>
+<span><span class="co">#&gt; 10   0.541   0.118  0.1012  0.0889   0.159  -0.0496  0.0491  -0.01307</span></span>
+<span><span class="co">#&gt; # ... with 15 more draws, and 95 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html" class="external-link">autoplot</a></span><span class="op">(</span><span class="va">fit_hs</span><span class="op">)</span></span></code></pre></div>
@@ -264,31 +303,31 @@ the default <code>type = "coef"</code> draws the heatmap.</p>
 <h3 id="ssvs">SSVS<a class="anchor" aria-label="anchor" href="#ssvs"></a>
 </h3>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ssvs_sv</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_sv.html">bvhar_sv</a></span><span class="op">(</span><span class="va">etf_train</span>, num_iter <span class="op">=</span> <span class="fl">500</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ssvs.html">set_ssvs</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ssvs_sv</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_sv.html">bvhar_sv</a></span><span class="op">(</span><span class="va">etf_train</span>, num_iter <span class="op">=</span> <span class="fl">50</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ssvs.html">set_ssvs</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; bvhar_sv(y = etf_train, num_iter = 500, bayes_spec = set_ssvs(), </span></span>
+<span><span class="co">#&gt; bvhar_sv(y = etf_train, num_iter = 50, bayes_spec = set_ssvs(), </span></span>
 <span><span class="co">#&gt;     include_mean = FALSE, minnesota = "longrun")</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with Stochastic Volatility</span></span>
 <span><span class="co">#&gt; Fitted by Gibbs sampling</span></span>
-<span><span class="co">#&gt; Total number of iteration: 500</span></span>
-<span><span class="co">#&gt; Number of burn-in: 250</span></span>
+<span><span class="co">#&gt; Total number of iteration: 50</span></span>
+<span><span class="co">#&gt; Number of burn-in: 25</span></span>
 <span><span class="co">#&gt; ====================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter Record:</span></span>
-<span><span class="co">#&gt; # A draws_df: 250 iterations, 1 chains, and 66 variables</span></span>
-<span><span class="co">#&gt;     phi[1]   phi[2]  phi[3]   phi[4]    phi[5]   phi[6]  phi[7]  phi[8]</span></span>
-<span><span class="co">#&gt; 1    1.046  -0.0235    1.12  -0.1127  -0.17861  -0.0742  -0.665   0.278</span></span>
-<span><span class="co">#&gt; 2    1.007  -0.0334    1.11  -0.1062  -0.10771  -0.0287  -0.562   0.190</span></span>
-<span><span class="co">#&gt; 3    0.955  -0.0656    1.24  -0.0807  -0.07716   0.0137  -0.632   0.151</span></span>
-<span><span class="co">#&gt; 4    0.912  -0.0761    1.24  -0.1004  -0.09267   0.0452  -0.674   0.217</span></span>
-<span><span class="co">#&gt; 5    0.829  -0.0440    1.34  -0.1308  -0.01241   0.0574  -0.816   0.255</span></span>
-<span><span class="co">#&gt; 6    0.825  -0.0857    1.48  -0.0917   0.04611   0.1063  -1.114   0.198</span></span>
-<span><span class="co">#&gt; 7    0.852  -0.0650    1.32  -0.1064   0.01163   0.0480  -0.722   0.184</span></span>
-<span><span class="co">#&gt; 8    0.796  -0.1315    1.18  -0.0593  -0.00508   0.0582  -0.525   0.171</span></span>
-<span><span class="co">#&gt; 9    0.878  -0.1893    1.04  -0.0689   0.03847   0.1292  -0.353   0.117</span></span>
-<span><span class="co">#&gt; 10   0.825  -0.1497    1.33  -0.0672   0.06112   0.1359  -0.902   0.181</span></span>
-<span><span class="co">#&gt; # ... with 240 more draws, and 58 more variables</span></span>
+<span><span class="co">#&gt; # A draws_df: 25 iterations, 1 chains, and 354 variables</span></span>
+<span><span class="co">#&gt;     phi[1]  phi[2]    phi[3]  phi[4]  phi[5]   phi[6]    phi[7]   phi[8]</span></span>
+<span><span class="co">#&gt; 1    0.785  0.0793  -0.15126  0.2043   0.120   0.0907  -0.00864  -0.1397</span></span>
+<span><span class="co">#&gt; 2    0.801  0.0824   0.04322  0.1067   0.125   0.0681  -0.06809  -0.0667</span></span>
+<span><span class="co">#&gt; 3    0.770  0.0605  -0.00129  0.1077   0.125   0.0998  -0.11264  -0.0318</span></span>
+<span><span class="co">#&gt; 4    0.739  0.0604  -0.03785  0.1134   0.176   0.0667  -0.08694  -0.0227</span></span>
+<span><span class="co">#&gt; 5    0.789  0.0128  -0.01029  0.0443   0.174   0.1075  -0.02040   0.0418</span></span>
+<span><span class="co">#&gt; 6    0.501  0.1494  -0.23357  0.3354   0.332  -0.0470   0.18223  -0.2315</span></span>
+<span><span class="co">#&gt; 7    0.629  0.0438  -0.15867  0.2159   0.254   0.0901   0.15882  -0.0991</span></span>
+<span><span class="co">#&gt; 8    0.522  0.1171  -0.26260  0.3145   0.361  -0.0327   0.12431  -0.2004</span></span>
+<span><span class="co">#&gt; 9    0.493  0.1000  -0.29624  0.3133   0.271  -0.0120   0.21763  -0.0935</span></span>
+<span><span class="co">#&gt; 10   0.461  0.1733  -0.42657  0.3467   0.108  -0.1280   0.30065   0.0165</span></span>
+<span><span class="co">#&gt; # ... with 15 more draws, and 346 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html" class="external-link">autoplot</a></span><span class="op">(</span><span class="va">fit_ssvs_sv</span><span class="op">)</span></span></code></pre></div>
@@ -298,31 +337,31 @@ the default <code>type = "coef"</code> draws the heatmap.</p>
 <h3 id="horseshoe">Horseshoe<a class="anchor" aria-label="anchor" href="#horseshoe"></a>
 </h3>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_hs_sv</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_sv.html">bvhar_sv</a></span><span class="op">(</span><span class="va">etf_train</span>, num_iter <span class="op">=</span> <span class="fl">500</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_horseshoe.html">set_horseshoe</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_hs_sv</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_sv.html">bvhar_sv</a></span><span class="op">(</span><span class="va">etf_train</span>, num_iter <span class="op">=</span> <span class="fl">50</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_horseshoe.html">set_horseshoe</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; bvhar_sv(y = etf_train, num_iter = 500, bayes_spec = set_horseshoe(), </span></span>
+<span><span class="co">#&gt; bvhar_sv(y = etf_train, num_iter = 50, bayes_spec = set_horseshoe(), </span></span>
 <span><span class="co">#&gt;     include_mean = FALSE, minnesota = "longrun")</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with Stochastic Volatility</span></span>
 <span><span class="co">#&gt; Fitted by Gibbs sampling</span></span>
-<span><span class="co">#&gt; Total number of iteration: 500</span></span>
-<span><span class="co">#&gt; Number of burn-in: 250</span></span>
+<span><span class="co">#&gt; Total number of iteration: 50</span></span>
+<span><span class="co">#&gt; Number of burn-in: 25</span></span>
 <span><span class="co">#&gt; ====================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter Record:</span></span>
-<span><span class="co">#&gt; # A draws_df: 250 iterations, 1 chains, and 66 variables</span></span>
-<span><span class="co">#&gt;     phi[1]   phi[2]  phi[3]  phi[4]  phi[5]  phi[6]  phi[7]  phi[8]</span></span>
-<span><span class="co">#&gt; 1    0.683  -0.0828    1.88  -0.193   0.279  0.1875   -1.62   0.235</span></span>
-<span><span class="co">#&gt; 2    0.749  -0.0731    1.87  -0.246   0.270  0.1484   -1.56   0.280</span></span>
-<span><span class="co">#&gt; 3    0.704  -0.0926    1.92  -0.219   0.223  0.1872   -1.71   0.326</span></span>
-<span><span class="co">#&gt; 4    0.679  -0.0909    2.02  -0.244   0.208  0.1831   -1.80   0.374</span></span>
-<span><span class="co">#&gt; 5    0.680  -0.0248    1.80  -0.241   0.270  0.0915   -1.57   0.361</span></span>
-<span><span class="co">#&gt; 6    0.714  -0.1095    2.09  -0.248   0.176  0.2128   -1.95   0.389</span></span>
-<span><span class="co">#&gt; 7    0.624  -0.0329    1.81  -0.221   0.305  0.1097   -1.53   0.330</span></span>
-<span><span class="co">#&gt; 8    0.628  -0.0591    1.84  -0.229   0.330  0.1184   -1.53   0.324</span></span>
-<span><span class="co">#&gt; 9    0.673  -0.0513    1.71  -0.203   0.272  0.1280   -1.59   0.313</span></span>
-<span><span class="co">#&gt; 10   0.649  -0.0428    1.77  -0.254   0.416  0.0627   -1.32   0.292</span></span>
-<span><span class="co">#&gt; # ... with 240 more draws, and 58 more variables</span></span>
+<span><span class="co">#&gt; # A draws_df: 25 iterations, 1 chains, and 354 variables</span></span>
+<span><span class="co">#&gt;     phi[1]  phi[2]     phi[3]  phi[4]     phi[5]   phi[6]   phi[7]   phi[8]</span></span>
+<span><span class="co">#&gt; 1    0.433  0.0461  -6.93e-02   0.258   0.033938   0.0102   0.2708  0.00212</span></span>
+<span><span class="co">#&gt; 2    0.431  0.0699   2.67e-02   0.263  -0.008923   0.0148   0.0480  0.04576</span></span>
+<span><span class="co">#&gt; 3    0.490  0.0749  -2.72e-02   0.258  -0.060934   0.0119   0.1199  0.03617</span></span>
+<span><span class="co">#&gt; 4    0.520  0.0476   1.77e-03   0.253   0.007058   0.0120   0.1069  0.04747</span></span>
+<span><span class="co">#&gt; 5    0.516  0.0466   9.22e-05   0.214  -0.060572   0.0136   0.1859  0.12563</span></span>
+<span><span class="co">#&gt; 6    0.527  0.0230   5.12e-02   0.219  -0.127866   0.0650  -0.0279  0.15157</span></span>
+<span><span class="co">#&gt; 7    0.515  0.0455   1.52e-01   0.163   0.003174  -0.0635   0.2009  0.20966</span></span>
+<span><span class="co">#&gt; 8    0.489  0.0640   1.70e-01   0.188  -0.050664  -0.0444   0.0661  0.17885</span></span>
+<span><span class="co">#&gt; 9    0.498  0.0609   6.21e-02   0.232  -0.017296  -0.0285   0.2176  0.08531</span></span>
+<span><span class="co">#&gt; 10   0.490  0.0705   2.49e-01   0.208   0.000344  -0.0650   0.0610  0.14936</span></span>
+<span><span class="co">#&gt; # ... with 15 more draws, and 346 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html" class="external-link">autoplot</a></span><span class="op">(</span><span class="va">fit_hs_sv</span><span class="op">)</span></span></code></pre></div>
