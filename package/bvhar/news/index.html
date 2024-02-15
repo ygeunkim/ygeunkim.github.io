@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.2.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +29,7 @@
   <div class="dropdown-menu" aria-labelledby="dropdown-articles">
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
+    <a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
     <a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a>
   </div>
@@ -42,6 +43,7 @@
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="../news/index.html">Changelog</a>
   </div>
@@ -81,7 +83,24 @@
     </div>
 
     <div class="section level2">
-<h2 class="pkg-version" data-toc-text="1.2.0" id="bvhar-120">bvhar 1.2.0<a class="anchor" aria-label="anchor" href="#bvhar-120"></a></h2>
+<h2 class="pkg-version" data-toc-text="2.0.0" id="bvhar-200">bvhar 2.0.0<a class="anchor" aria-label="anchor" href="#bvhar-200"></a></h2><p class="text-muted">CRAN release: 2024-02-14</p>
+<ul><li><p>Start to implement OOP in C++ source for each model, ready for major update.</p></li>
+<li><p>Add SV specification (<code>sv_spec</code> argument) in <code><a href="../reference/bvhar_sv.html">bvhar_sv()</a></code> and <code><a href="../reference/bvar_sv.html">bvar_sv()</a></code> (<code><a href="../reference/set_sv.html">set_sv()</a></code>).</p></li>
+<li><p>Prevent SSVS overflow issues by using log-sum-exp trick when computing Bernoulli posterior probability.</p></li>
+<li><p>Add separate constant term prior specification (<code>intercept</code>) in <code><a href="../reference/bvhar_sv.html">bvhar_sv()</a></code> and <code><a href="../reference/bvar_sv.html">bvar_sv()</a></code> (<code><a href="../reference/set_intercept.html">set_intercept()</a></code>).</p></li>
+<li><p>Convert every header file inst/include to header-only format. This enables external inclusion of our classes, structs, and Rcpp functions by using <code>LinkingTo</code> (in R package development) or <code>// [[Rcpp::depends(RcppEigen, BH, bvhar)]]</code>.</p></li>
+</ul><div class="section level3">
+<h3 id="parallel-chain-mcmc-2-0-0">Parallel Chain MCMC<a class="anchor" aria-label="anchor" href="#parallel-chain-mcmc-2-0-0"></a></h3>
+<ul><li><p>Use OpenMP parallel for loop</p></li>
+<li><p>Progress bar will show the status only for master thread when OpenMP enabled.</p></li>
+<li><p>Interruption detect will just save values and break the loop, not return immediately.</p></li>
+<li><p>Do burn-in and thinning in each <code>returnRecords()</code> method to make pre-process parallel chains easier.</p></li>
+<li><p>Use boost library (<code>BH</code> package) RNG instead of Rf_* RNG of <code>Rcpp</code> for thread-safety.</p></li>
+<li><p>Introduce function overloading to internal Rcpp random generation functions temporarily. It’s for maintaining <code><a href="https://rdrr.io/r/base/Random.html" class="external-link">set.seed()</a></code> usage of some functions.</p></li>
+</ul></div>
+</div>
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="1.2.0" id="bvhar-120">bvhar 1.2.0<a class="anchor" aria-label="anchor" href="#bvhar-120"></a></h2><p class="text-muted">CRAN release: 2024-01-09</p>
 <ul><li><p>Replace progress bar of <code>RcppProgress</code> package with custom header (<code>bvharprogress.h</code>).</p></li>
 <li><p>Replace checking user interruption in the same package with custom header (<code>bvharinterrupt.h</code>).</p></li>
 <li><p>Fix triangular algorithm. Found missing update of some variables (<code><a href="../reference/bvar_sv.html">bvar_sv()</a></code> and <code><a href="../reference/bvhar_sv.html">bvhar_sv()</a></code>).</p></li>

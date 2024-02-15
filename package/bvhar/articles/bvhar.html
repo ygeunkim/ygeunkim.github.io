@@ -35,7 +35,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.2.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,6 +55,7 @@
   <div class="dropdown-menu" aria-labelledby="dropdown-articles">
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
+    <a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
     <a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a>
   </div>
@@ -68,6 +69,7 @@
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="../news/index.html">Changelog</a>
   </div>
@@ -293,9 +295,9 @@ A = \begin{bmatrix}
 <span><span class="co"># names---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">fit_var</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "coefficients"  "fitted.values" "residuals"     "covmat"       </span></span>
-<span><span class="co">#&gt;  [5] "df"            "p"             "m"             "obs"          </span></span>
-<span><span class="co">#&gt;  [9] "totobs"        "call"          "process"       "type"         </span></span>
-<span><span class="co">#&gt; [13] "y0"            "design"        "y"</span></span></code></pre></div>
+<span><span class="co">#&gt;  [5] "df"            "m"             "obs"           "y0"           </span></span>
+<span><span class="co">#&gt;  [9] "p"             "totobs"        "process"       "type"         </span></span>
+<span><span class="co">#&gt; [13] "design"        "y"             "call"</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="vhar">VHAR<a class="anchor" aria-label="anchor" href="#vhar"></a>
@@ -406,10 +408,10 @@ X_1 = X_0 \mathbb{C}_{HAR}^T = \begin{bmatrix}
 <span><span class="co"># complements----------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">fit_har</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "coefficients"  "fitted.values" "residuals"     "covmat"       </span></span>
-<span><span class="co">#&gt;  [5] "df"            "p"             "week"          "month"        </span></span>
-<span><span class="co">#&gt;  [9] "m"             "obs"           "totobs"        "call"         </span></span>
-<span><span class="co">#&gt; [13] "process"       "type"          "HARtrans"      "y0"           </span></span>
-<span><span class="co">#&gt; [17] "design"        "y"</span></span></code></pre></div>
+<span><span class="co">#&gt;  [5] "df"            "m"             "obs"           "y0"           </span></span>
+<span><span class="co">#&gt;  [9] "p"             "week"          "month"         "totobs"       </span></span>
+<span><span class="co">#&gt; [13] "process"       "type"          "HARtrans"      "design"       </span></span>
+<span><span class="co">#&gt; [17] "y"             "call"</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="bvar">BVAR<a class="anchor" aria-label="anchor" href="#bvar"></a>
@@ -561,11 +563,11 @@ other class such as <code>normaliw</code> and <code>bvharmod</code>.</p>
 <span><span class="co"># names---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">fit_bvar</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "coefficients"    "fitted.values"   "residuals"       "mn_prec"        </span></span>
-<span><span class="co">#&gt;  [5] "iw_scale"        "iw_shape"        "df"              "p"              </span></span>
-<span><span class="co">#&gt;  [9] "m"               "obs"             "totobs"          "call"           </span></span>
-<span><span class="co">#&gt; [13] "process"         "spec"            "type"            "prior_mean"     </span></span>
-<span><span class="co">#&gt; [17] "prior_precision" "prior_scale"     "prior_shape"     "y0"             </span></span>
-<span><span class="co">#&gt; [21] "design"          "y"</span></span></code></pre></div>
+<span><span class="co">#&gt;  [5] "iw_scale"        "iw_shape"        "df"              "m"              </span></span>
+<span><span class="co">#&gt;  [9] "obs"             "prior_mean"      "prior_precision" "prior_scale"    </span></span>
+<span><span class="co">#&gt; [13] "prior_shape"     "y0"              "design"          "p"              </span></span>
+<span><span class="co">#&gt; [17] "totobs"          "type"            "y"               "prior_prec"     </span></span>
+<span><span class="co">#&gt; [21] "call"            "process"         "spec"</span></span></code></pre></div>
 </div>
 <div class="section level4">
 <h4 id="flat-prior">Flat prior<a class="anchor" aria-label="anchor" href="#flat-prior"></a>
@@ -816,12 +818,12 @@ can fit BVHAR with this prior. This is the default prior setting.</p>
 <span><span class="co"># names---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">fit_bvhar_v1</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "coefficients"    "fitted.values"   "residuals"       "mn_prec"        </span></span>
-<span><span class="co">#&gt;  [5] "iw_scale"        "iw_shape"        "df"              "p"              </span></span>
-<span><span class="co">#&gt;  [9] "week"            "month"           "m"               "obs"            </span></span>
-<span><span class="co">#&gt; [13] "totobs"          "call"            "process"         "spec"           </span></span>
-<span><span class="co">#&gt; [17] "type"            "prior_mean"      "prior_precision" "prior_scale"    </span></span>
-<span><span class="co">#&gt; [21] "prior_shape"     "HARtrans"        "y0"              "design"         </span></span>
-<span><span class="co">#&gt; [25] "y"</span></span></code></pre></div>
+<span><span class="co">#&gt;  [5] "iw_scale"        "iw_shape"        "df"              "m"              </span></span>
+<span><span class="co">#&gt;  [9] "obs"             "prior_mean"      "prior_precision" "prior_scale"    </span></span>
+<span><span class="co">#&gt; [13] "prior_shape"     "y0"              "design"          "p"              </span></span>
+<span><span class="co">#&gt; [17] "week"            "month"           "totobs"          "type"           </span></span>
+<span><span class="co">#&gt; [21] "HARtrans"        "y"               "prior_prec"      "call"           </span></span>
+<span><span class="co">#&gt; [25] "process"         "spec"</span></span></code></pre></div>
 </div>
 <div class="section level4">
 <h4 id="bvhar-l">BVHAR-L<a class="anchor" aria-label="anchor" href="#bvhar-l"></a>
@@ -958,28 +960,28 @@ performs MCMC based on conjugate MNIW distribution.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter record:</span></span>
 <span><span class="co">#&gt; # A draws_df: 5000 iterations, 1 chains, and 94 variables</span></span>
-<span><span class="co">#&gt;     alpha[1]  alpha[2]  alpha[3]  alpha[4]  alpha[5]  alpha[6]  alpha[7]</span></span>
-<span><span class="co">#&gt; 1      0.782   0.01900    0.1082  -0.01713    0.0778  -0.02016  -0.04249</span></span>
-<span><span class="co">#&gt; 2      0.771   0.02805    0.1741  -0.02644    0.1191  -0.00915  -0.07979</span></span>
-<span><span class="co">#&gt; 3      0.792   0.00966    0.0206  -0.02666    0.0563   0.00389   0.02754</span></span>
-<span><span class="co">#&gt; 4      0.810   0.00663    0.0443   0.03536    0.0687  -0.00745   0.03969</span></span>
-<span><span class="co">#&gt; 5      0.755   0.01324   -0.0268   0.03741    0.1122  -0.01740   0.06798</span></span>
-<span><span class="co">#&gt; 6      0.780   0.02466    0.0722  -0.00605    0.0531  -0.01612   0.02113</span></span>
-<span><span class="co">#&gt; 7      0.779   0.02240    0.1136  -0.04152    0.0902  -0.01079   0.01486</span></span>
-<span><span class="co">#&gt; 8      0.818   0.00400    0.0968   0.03691    0.0472  -0.00912   0.00984</span></span>
-<span><span class="co">#&gt; 9      0.794   0.01312   -0.0580  -0.00267    0.0603   0.00483   0.03454</span></span>
-<span><span class="co">#&gt; 10     0.793  -0.00984   -0.0313   0.03740    0.0654   0.00821   0.04095</span></span>
-<span><span class="co">#&gt;      alpha[8]</span></span>
-<span><span class="co">#&gt; 1    0.021548</span></span>
-<span><span class="co">#&gt; 2   -0.006194</span></span>
-<span><span class="co">#&gt; 3   -0.001558</span></span>
-<span><span class="co">#&gt; 4   -0.002852</span></span>
-<span><span class="co">#&gt; 5   -0.008489</span></span>
-<span><span class="co">#&gt; 6    0.012011</span></span>
-<span><span class="co">#&gt; 7    0.044801</span></span>
-<span><span class="co">#&gt; 8   -0.000476</span></span>
-<span><span class="co">#&gt; 9    0.029307</span></span>
-<span><span class="co">#&gt; 10  -0.004706</span></span>
+<span><span class="co">#&gt;     alpha[1]  alpha[2]   alpha[3]  alpha[4]  alpha[5]  alpha[6]  alpha[7]</span></span>
+<span><span class="co">#&gt; 1      0.818   0.01805   0.155706   -0.0213    0.0573  -0.00329  -0.04340</span></span>
+<span><span class="co">#&gt; 2      0.782  -0.02747   0.077167    0.0178    0.0718   0.01587  -0.04987</span></span>
+<span><span class="co">#&gt; 3      0.766   0.01470   0.000685    0.0612    0.0790  -0.01564   0.00149</span></span>
+<span><span class="co">#&gt; 4      0.781   0.01789   0.060554    0.0115    0.0598  -0.02277  -0.00937</span></span>
+<span><span class="co">#&gt; 5      0.768   0.02773   0.008399    0.0207    0.0674  -0.01727   0.04680</span></span>
+<span><span class="co">#&gt; 6      0.789  -0.00360   0.053668    0.0343    0.0905  -0.00162  -0.01290</span></span>
+<span><span class="co">#&gt; 7      0.793   0.01143   0.000693    0.0145    0.0625  -0.02557   0.05453</span></span>
+<span><span class="co">#&gt; 8      0.787  -0.00356  -0.005851    0.0313    0.0525   0.02506   0.07221</span></span>
+<span><span class="co">#&gt; 9      0.781   0.00645   0.130562    0.0455    0.0863  -0.00553   0.00959</span></span>
+<span><span class="co">#&gt; 10     0.768   0.02751   0.088889    0.0330    0.0747  -0.01697  -0.08895</span></span>
+<span><span class="co">#&gt;     alpha[8]</span></span>
+<span><span class="co">#&gt; 1   -0.00751</span></span>
+<span><span class="co">#&gt; 2    0.01738</span></span>
+<span><span class="co">#&gt; 3   -0.02100</span></span>
+<span><span class="co">#&gt; 4   -0.01488</span></span>
+<span><span class="co">#&gt; 5   -0.01097</span></span>
+<span><span class="co">#&gt; 6    0.02208</span></span>
+<span><span class="co">#&gt; 7   -0.02322</span></span>
+<span><span class="co">#&gt; 8   -0.00738</span></span>
+<span><span class="co">#&gt; 9   -0.03859</span></span>
+<span><span class="co">#&gt; 10   0.00975</span></span>
 <span><span class="co">#&gt; # ... with 4990 more draws, and 86 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 <p><code><a href="https://ggplot2.tidyverse.org/reference/autoplot.html" class="external-link">autoplot()</a></code> gives several Bayes visualization based on

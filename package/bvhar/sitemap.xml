@@ -31,6 +31,9 @@
     <loc>/articles/index.html</loc>
   </url>
   <url>
+    <loc>/articles/linking.html</loc>
+  </url>
+  <url>
     <loc>/articles/minnesota.html</loc>
   </url>
   <url>
@@ -277,10 +280,16 @@
     <loc>/reference/set_horseshoe.html</loc>
   </url>
   <url>
+    <loc>/reference/set_intercept.html</loc>
+  </url>
+  <url>
     <loc>/reference/set_lambda.html</loc>
   </url>
   <url>
     <loc>/reference/set_ssvs.html</loc>
+  </url>
+  <url>
+    <loc>/reference/set_sv.html</loc>
   </url>
   <url>
     <loc>/reference/sim_horseshoe_var.html</loc>

@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.2.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +29,7 @@
   <div class="dropdown-menu" aria-labelledby="dropdown-articles">
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
+    <a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
     <a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a>
   </div>
@@ -42,6 +43,7 @@
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="../news/index.html">Changelog</a>
   </div>
@@ -225,29 +227,22 @@ $$Y_0 = X_0 A + error$$</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:19] "GVZCLS_1" "OVXCLS_1" "VXFXICLS_1" "VXEEMCLS_1" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ fitted.values: num [1:903, 1:9] 21.3 22.2 21.5 21.1 21.3 ...</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : NULL</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ residuals    : num [1:903, 1:9] 1.008 -0.639 -0.284 0.298 0.308 ...</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : NULL</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ covmat       : num [1:9, 1:9] 1.113 0.373 0.304 0.445 1.366 ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ df           : int 19</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ p            : num 2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ m            : int 9</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ obs          : int 903</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ totobs       : int 905</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ call         : language var_lm(y = etf_vix, p = 2)</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ process      : chr "VAR"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ type         : chr "const"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ y0           : num [1:903, 1:9] 22.3 21.6 21.2 21.4 21.6 ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : NULL</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ p            : int 2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ totobs       : num 905</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ process      : chr "VAR"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ type         : chr "const"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ design       : num [1:903, 1:19] 21.5 22.3 21.6 21.2 21.4 ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : NULL</span>
@@ -256,6 +251,7 @@ $$Y_0 = X_0 A + error$$</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : NULL</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ call         : language var_lm(y = etf_vix, p = 2)</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  - attr(*, "class")= chr [1:2] "varlse" "bvharmod"</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Extract coef, fitted values, and residuals</span></span></span>
@@ -301,14 +297,14 @@ $$Y_0 = X_0 A + error$$</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span> VXEWZCLS_2 -0.0304841577 -0.030496662 -0.018978557  0.055930225</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> const       0.1341878224  0.742494021  0.705738212  0.796582789</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/residuals.html" class="external-link">residuals</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>          GVZCLS      OVXCLS   VXFXICLS    VXEEMCLS   VXSLVCLS      EVZCLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>            [,1]        [,2]       [,3]        [,4]       [,5]        [,6]</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1,]  1.0084235 -0.01665024 -0.1189584  0.18259423  1.0345739  0.54161189</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [2,] -0.6393271  1.07781122 -0.7889172  0.06023516 -0.2598844 -0.30429270</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [3,] -0.2841251 -1.13853760  0.8285284  1.09281272  1.3066535  0.53399638</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [4,]  0.2975186 -0.89689641 -0.5797484 -0.31164787  1.3474286 -0.09610840</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [5,]  0.3075188 -0.98987446 -0.6230728 -0.46134610  1.2499047  0.01799667</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [6,] -0.4052045 -1.62792068 -0.9718923 -2.26508501 -1.1137253 -0.25997035</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>         VXXLECLS   VXGDXCLS   VXEWZCLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             [,7]       [,8]       [,9]</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1,]  0.97639374  0.3811097 -0.2513162</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [2,]  0.08960441 -0.6696317  0.4110768</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [3,]  0.24450709 -0.9864375  1.7865058</span>
@@ -316,14 +312,14 @@ $$Y_0 = X_0 A + error$$</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [5,] -0.21831258  1.3123282 -0.5570114</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [6,] -0.18371357 -1.1068942 -1.1856081</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/fitted.values.html" class="external-link">fitted</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>        GVZCLS   OVXCLS VXFXICLS VXEEMCLS VXSLVCLS   EVZCLS VXXLECLS VXGDXCLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>          [,1]     [,2]     [,3]     [,4]     [,5]     [,6]     [,7]     [,8]</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 21.33158 35.53665 29.17896 29.63741 42.47543 12.57839 26.67361 33.37889</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 22.23933 35.51219 29.24892 29.94976 43.08988 13.07429 27.55040 34.16963</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 21.48413 36.75854 28.71147 30.03719 42.17335 12.77600 27.55549 33.79644</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 21.10248 35.69190 29.68475 30.97165 42.64257 13.32611 27.66076 33.26579</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 21.29248 34.95987 29.29307 30.65135 43.25010 13.13200 27.32831 33.78767</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 21.54520 34.21792 28.93189 30.24509 43.75373 13.04997 27.03371 34.90689</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>      VXEWZCLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>          [,9]</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 30.43132</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 30.33892</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 30.91349</span>

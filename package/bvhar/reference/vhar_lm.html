@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.2.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +29,7 @@
   <div class="dropdown-menu" aria-labelledby="dropdown-articles">
     <a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a>
     <a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a>
+    <a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a>
     <a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a>
     <a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a>
   </div>
@@ -42,6 +43,7 @@
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.0">Version 1.0.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a>
     <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a>
+    <a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="../news/index.html">Changelog</a>
   </div>
@@ -232,37 +234,31 @@ the function gives basic values.</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:28] "GVZCLS_day" "OVXCLS_day" "VXFXICLS_day" "VXEEMCLS_day" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ fitted.values: num [1:883, 1:9] 20.4 20.6 20.1 19.9 19.3 ...</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : NULL</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ residuals    : num [1:883, 1:9] 0.3176 -0.5873 -0.3752 -0.8374 -0.0281 ...</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : NULL</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ covmat       : num [1:9, 1:9] 1.119 0.375 0.299 0.437 1.37 ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ df           : int 28</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ p            : num 3</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ week         : num 5</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ month        : num 22</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ m            : int 9</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ obs          : int 883</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ totobs       : int 905</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ call         : language vhar_lm(y = etf_vix)</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ process      : chr "VHAR"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ type         : chr "const"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  $ HARtrans     : num [1:28, 1:199] 1 0 0 0 0 0 0 0 0 0.2 ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ y0           : num [1:883, 1:9] 20.7 20 19.7 19.1 19.2 ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : NULL</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ p            : int 3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ week         : int 5</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ month        : int 22</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ totobs       : num 905</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ process      : chr "VHAR"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ type         : chr "const"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ HARtrans     : num [1:28, 1:199] 1 0 0 0 0 0 0 0 0 0.2 ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ design       : num [1:883, 1:199] 20.4 20.7 20 19.7 19.1 ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  $ y            : num [1:905, 1:9] 21.5 21.5 22.3 21.6 21.2 ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   ..- attr(*, "dimnames")=List of 2</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : NULL</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   .. ..$ : chr [1:9] "GVZCLS" "OVXCLS" "VXFXICLS" "VXEEMCLS" ...</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  $ call         : language vhar_lm(y = etf_vix)</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  - attr(*, "class")= chr [1:2] "vharlse" "bvharmod"</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Extract coef, fitted values, and residuals</span></span></span>
@@ -355,14 +351,14 @@ the function gives basic values.</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span> VXEWZCLS_month -0.009420411</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> const           1.047643911</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/residuals.html" class="external-link">residuals</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>           GVZCLS      OVXCLS   VXFXICLS    VXEEMCLS   VXSLVCLS     EVZCLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             [,1]        [,2]       [,3]        [,4]       [,5]       [,6]</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1,]  0.31758364 -0.11022615 -0.5296023  0.04716717 -0.5378020 -0.4659005</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [2,] -0.58729937 -0.02977095 -0.9556970 -0.70126942 -1.4850409 -0.5500010</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [3,] -0.37519058  0.15466899  2.8092305  1.54460103 -0.4209523  0.4631326</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [4,] -0.83743454  0.32276054 -1.2472184 -1.66328320 -2.0118629 -0.4732741</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [5,] -0.02811876  0.29432487 -0.2286953  0.48869052  0.5149326  0.3606493</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [6,] -0.14617138  1.20662142  0.3416573  1.34978100 -0.7638851  0.6622565</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>         VXXLECLS   VXGDXCLS   VXEWZCLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             [,7]       [,8]       [,9]</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1,] -0.03896889 -0.8878031  0.8547725</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [2,] -0.01517932 -1.2314864 -0.6129635</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [3,]  2.49685115  0.9469600  2.3957692</span>
@@ -370,14 +366,14 @@ the function gives basic values.</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [5,] -0.26141669  0.4395067  1.5021262</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [6,]  0.71563874  0.7208909  1.7436068</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/fitted.values.html" class="external-link">fitted</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>        GVZCLS   OVXCLS VXFXICLS VXEEMCLS VXSLVCLS   EVZCLS VXXLECLS VXGDXCLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>          [,1]     [,2]     [,3]     [,4]     [,5]     [,6]     [,7]     [,8]</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 20.37242 32.43023 29.98960 28.28283 40.30780 12.91590 24.22897 32.12780</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 20.61730 32.45977 29.62570 28.64127 39.48504 12.51000 24.56518 32.01149</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 20.10519 32.67533 28.92077 28.50540 38.21095 12.07687 25.06315 31.72304</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 19.90743 32.97724 31.71722 30.56328 38.13186 12.61327 27.88237 33.30088</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 19.26812 33.34568 30.41870 29.20131 36.60507 12.20935 26.08142 32.38049</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 19.42617 33.64338 30.16834 29.66022 37.24389 12.58774 25.84436 33.12911</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>      VXEWZCLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>          [,9]</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 29.00523</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 29.72296</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 29.20423</span>
