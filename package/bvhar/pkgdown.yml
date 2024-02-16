@@ -1,0 +1,12 @@
+pandoc: 2.19.2
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  bvhar: bvhar.html
+  empirical-bayes: empirical-bayes.html
+  forecasting: forecasting.html
+  linking: linking.html
+  minnesota: minnesota.html
+  shrinkage: shrinkage.html
+last_built: 2024-02-16T04:06Z
+
