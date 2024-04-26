@@ -5,7 +5,7 @@
     <link>https://ygeunkim.github.io/category/code/</link>
       <atom:link href="https://ygeunkim.github.io/category/code/index.xml" rel="self" type="application/rss+xml" />
     <description>code</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Young Geun Kim</copyright><lastBuildDate>Thu, 16 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Young Geun Kim</copyright><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>code</title>
@@ -15,7 +15,7 @@
     <item>
       <title>bvhar: Bayesian Vector Heterogeneous Autoregressive Modeling</title>
       <link>https://ygeunkim.github.io/codes/bvhar/</link>
-      <pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/codes/bvhar/</guid>
       <description></description>
     </item>
@@ -54,17 +54,17 @@
     
     <item>
       <title>youngtool: Research Tool Package</title>
-      <link>https://ygeunkim.github.io/sides/youngtool_pkg/</link>
+      <link>https://ygeunkim.github.io/toy/youngtool_pkg/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/sides/youngtool_pkg/</guid>
+      <guid>https://ygeunkim.github.io/toy/youngtool_pkg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rmdtool: R markdown tool package</title>
-      <link>https://ygeunkim.github.io/sides/rmdtool_pkg/</link>
+      <link>https://ygeunkim.github.io/toy/rmdtool_pkg/</link>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/sides/rmdtool_pkg/</guid>
+      <guid>https://ygeunkim.github.io/toy/rmdtool_pkg/</guid>
       <description></description>
     </item>
     

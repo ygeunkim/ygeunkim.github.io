@@ -5,7 +5,7 @@
     <link>https://ygeunkim.github.io/tag/r/</link>
       <atom:link href="https://ygeunkim.github.io/tag/r/index.xml" rel="self" type="application/rss+xml" />
     <description>r</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Young Geun Kim</copyright><lastBuildDate>Thu, 16 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Young Geun Kim</copyright><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>r</title>
@@ -15,7 +15,7 @@
     <item>
       <title>bvhar: Bayesian Vector Heterogeneous Autoregressive Modeling</title>
       <link>https://ygeunkim.github.io/codes/bvhar/</link>
-      <pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/codes/bvhar/</guid>
       <description></description>
     </item>
@@ -30,7 +30,7 @@ It aims at extending them to Vector heterogeneous autoregressive (VHAR) model.&l
 &lt;h2 id=&#34;related-papers&#34;&gt;Related papers&lt;/h2&gt;
 &lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
 &lt;div id=&#34;ref-kim2023&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2023. “Bayesian Vector Heterogeneous Autoregressive Modeling.” &lt;em&gt;Journal of Statistical Computation and Simulation&lt;/em&gt;. &lt;a href=&#34;https://doi.org/10.1080/00949655.2023.2281644&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1080/00949655.2023.2281644&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kim, Young Geun, and Changryong Baek. 2024. “Bayesian Vector Heterogeneous Autoregressive Modeling.” &lt;em&gt;Journal of Statistical Computation and Simulation&lt;/em&gt; 94 (6): 1139–57. &lt;a href=&#34;https://doi.org/10.1080/00949655.2023.2281644&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1080/00949655.2023.2281644&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -54,9 +54,9 @@ It aims at extending them to Vector heterogeneous autoregressive (VHAR) model.&l
     
     <item>
       <title>Coffee-ECG Experiment</title>
-      <link>https://ygeunkim.github.io/sides/ecg_experiment/</link>
+      <link>https://ygeunkim.github.io/toy/ecg_experiment/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/sides/ecg_experiment/</guid>
+      <guid>https://ygeunkim.github.io/toy/ecg_experiment/</guid>
       <description>&lt;h1 id=&#34;about-the-project&#34;&gt;About the project&lt;/h1&gt;
 &lt;p&gt;This is a project performed in &lt;a href=&#34;https://www.kwonsanglee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SKKU &lt;strong&gt;Design and Analysis of Experiments (STA 5031)&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
@@ -252,17 +252,17 @@ Original dataset is &lt;a href=&#34;https://itrust.sutd.edu.sg/itrust-labs_datas
     
     <item>
       <title>youngtool: Research Tool Package</title>
-      <link>https://ygeunkim.github.io/sides/youngtool_pkg/</link>
+      <link>https://ygeunkim.github.io/toy/youngtool_pkg/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/sides/youngtool_pkg/</guid>
+      <guid>https://ygeunkim.github.io/toy/youngtool_pkg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rmdtool: R markdown tool package</title>
-      <link>https://ygeunkim.github.io/sides/rmdtool_pkg/</link>
+      <link>https://ygeunkim.github.io/toy/rmdtool_pkg/</link>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/sides/rmdtool_pkg/</guid>
+      <guid>https://ygeunkim.github.io/toy/rmdtool_pkg/</guid>
       <description></description>
     </item>
     
