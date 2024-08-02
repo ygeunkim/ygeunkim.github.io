@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9018</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9019</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,12 +57,11 @@
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">set_ng</span><span class="op">(</span></span>
-<span>  local_shape <span class="op">=</span> <span class="fl">1</span>,</span>
+<span>  shape_sd <span class="op">=</span> <span class="fl">0.01</span>,</span>
 <span>  group_shape <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  group_scale <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  global_shape <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  global_scale <span class="op">=</span> <span class="fl">1</span>,</span>
-<span>  contem_shape <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  contem_global_shape <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  contem_global_scale <span class="op">=</span> <span class="fl">1</span></span>
 <span><span class="op">)</span></span>
@@ -77,8 +76,8 @@
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
 
 
-<dl><dt id="arg-local-shape">local_shape<a class="anchor" aria-label="anchor" href="#arg-local-shape"></a></dt>
-<dd><p>Gamma prior shape for coefficient local shrinkage</p></dd>
+<dl><dt id="arg-shape-sd">shape_sd<a class="anchor" aria-label="anchor" href="#arg-shape-sd"></a></dt>
+<dd><p>Standard deviation used in MH of Gamma shape</p></dd>
 
 
 <dt id="arg-group-shape">group_shape<a class="anchor" aria-label="anchor" href="#arg-group-shape"></a></dt>
@@ -95,10 +94,6 @@
 
 <dt id="arg-global-scale">global_scale<a class="anchor" aria-label="anchor" href="#arg-global-scale"></a></dt>
 <dd><p>Inverse gamma prior scale for coefficient global shrinkage</p></dd>
-
-
-<dt id="arg-contem-shape">contem_shape<a class="anchor" aria-label="anchor" href="#arg-contem-shape"></a></dt>
-<dd><p>Gamma prior shape for contemporaneous coefficient local shrinkage</p></dd>
 
 
 <dt id="arg-contem-global-shape">contem_global_shape<a class="anchor" aria-label="anchor" href="#arg-contem-global-shape"></a></dt>
