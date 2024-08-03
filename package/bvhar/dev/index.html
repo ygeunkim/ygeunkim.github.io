@@ -32,7 +32,7 @@
 
     <a class="navbar-brand me-2" href="index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9019</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9020</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -120,6 +120,11 @@
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span><span class="op">)</span></span></code></pre></div>
 <p>Repeatedly, <code>bvhar</code> is a research tool to analyze multivariate time series model above</p>
 <table class="table">
+<colgroup>
+<col width="10%">
+<col width="30%">
+<col width="59%">
+</colgroup>
 <thead><tr class="header">
 <th align="center">Model</th>
 <th align="center">function</th>
@@ -139,22 +144,22 @@
 <tr class="odd">
 <td align="center">BVAR</td>
 <td align="center"><code><a href="reference/bvar_minnesota.html">bvar_minnesota()</a></code></td>
-<td align="center">Minnesota</td>
+<td align="center">Minnesota (will move to <code><a href="reference/var_bayes.html">var_bayes()</a></code>)</td>
 </tr>
 <tr class="even">
 <td align="center">BVHAR</td>
 <td align="center"><code><a href="reference/bvhar_minnesota.html">bvhar_minnesota()</a></code></td>
-<td align="center">Minnesota</td>
+<td align="center">Minnesota (will move to <code><a href="reference/vhar_bayes.html">vhar_bayes()</a></code>)</td>
 </tr>
 <tr class="odd">
-<td align="center">BVAR-SV</td>
-<td align="center"><code><a href="reference/bvar_sv.html">bvar_sv()</a></code></td>
-<td align="center">SSVS, Horseshoe</td>
+<td align="center">BVAR</td>
+<td align="center"><code><a href="reference/var_bayes.html">var_bayes()</a></code></td>
+<td align="center">SSVS, Horseshoe, Minnesota, NG, DL</td>
 </tr>
 <tr class="even">
-<td align="center">BVHAR-SV</td>
-<td align="center"><code><a href="reference/bvhar_sv.html">bvhar_sv()</a></code></td>
-<td align="center">SSVS, Horseshoe</td>
+<td align="center">BVHAR</td>
+<td align="center"><code><a href="reference/vhar_bayes.html">vhar_bayes()</a></code></td>
+<td align="center">SSVS, Horseshoe, Minnesota, NG, DL</td>
 </tr>
 </tbody>
 </table>
@@ -210,7 +215,6 @@
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: Minnesota</span></span>
-<span><span class="co">#&gt; # Type '?bvar_minnesota' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'sigma':</span></span>
@@ -226,7 +230,10 @@
 <span><span class="co">#&gt; [1]  1  1  1  1  1  1  1  1  1</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'eps':</span></span>
-<span><span class="co">#&gt; [1]  1e-04</span></span></code></pre></div>
+<span><span class="co">#&gt; [1]  1e-04</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Setting for 'hierarchical':</span></span>
+<span><span class="co">#&gt; [1]  FALSE</span></span></code></pre></div>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">mod_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/bvar_minnesota.html">bvar_minnesota</a></span><span class="op">(</span>y <span class="op">=</span> <span class="va">etf_tr</span>, p <span class="op">=</span> <span class="fl">5</span>, bayes_spec <span class="op">=</span> <span class="va">bvar_spec</span><span class="op">)</span></span></code></pre></div>
 <p>MSE:</p>
@@ -234,9 +241,9 @@
 <code class="sourceCode R"><span><span class="va">forecast_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/predict.html">predict</a></span><span class="op">(</span><span class="va">mod_bvar</span>, <span class="va">h</span><span class="op">)</span></span>
 <span><span class="op">(</span><span class="va">msebvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/mse.html">mse</a></span><span class="op">(</span><span class="va">forecast_bvar</span>, <span class="va">etf_te</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;   GVZCLS   OVXCLS VXFXICLS VXEEMCLS VXSLVCLS   EVZCLS VXXLECLS VXGDXCLS </span></span>
-<span><span class="co">#&gt;    4.463   13.510    1.336   11.267    9.802    0.862   21.929    5.418 </span></span>
+<span><span class="co">#&gt;    4.651   13.248    1.845   10.356    9.894    0.667   21.040    6.262 </span></span>
 <span><span class="co">#&gt; VXEWZCLS </span></span>
-<span><span class="co">#&gt;    7.362</span></span></code></pre></div>
+<span><span class="co">#&gt;    8.864</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="bvhar">BVHAR<a class="anchor" aria-label="anchor" href="#bvhar"></a>
@@ -248,7 +255,6 @@
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: MN_VAR</span></span>
-<span><span class="co">#&gt; # Type '?bvhar_minnesota' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'sigma':</span></span>
@@ -264,7 +270,10 @@
 <span><span class="co">#&gt; [1]  1  1  1  1  1  1  1  1  1</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'eps':</span></span>
-<span><span class="co">#&gt; [1]  1e-04</span></span></code></pre></div>
+<span><span class="co">#&gt; [1]  1e-04</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Setting for 'hierarchical':</span></span>
+<span><span class="co">#&gt; [1]  FALSE</span></span></code></pre></div>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">mod_bvhar_v1</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/bvhar_minnesota.html">bvhar_minnesota</a></span><span class="op">(</span>y <span class="op">=</span> <span class="va">etf_tr</span>, bayes_spec <span class="op">=</span> <span class="va">bvhar_spec_v1</span><span class="op">)</span></span></code></pre></div>
 <p>MSE:</p>
@@ -272,9 +281,9 @@
 <code class="sourceCode R"><span><span class="va">forecast_bvhar_v1</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/predict.html">predict</a></span><span class="op">(</span><span class="va">mod_bvhar_v1</span>, <span class="va">h</span><span class="op">)</span></span>
 <span><span class="op">(</span><span class="va">msebvhar_v1</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/mse.html">mse</a></span><span class="op">(</span><span class="va">forecast_bvhar_v1</span>, <span class="va">etf_te</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;   GVZCLS   OVXCLS VXFXICLS VXEEMCLS VXSLVCLS   EVZCLS VXXLECLS VXGDXCLS </span></span>
-<span><span class="co">#&gt;     3.58     4.76     1.32     5.71     6.29     1.15    14.03     2.52 </span></span>
+<span><span class="co">#&gt;    3.199    6.067    1.471    5.142    5.946    0.878   12.165    2.553 </span></span>
 <span><span class="co">#&gt; VXEWZCLS </span></span>
-<span><span class="co">#&gt;     5.41</span></span></code></pre></div>
+<span><span class="co">#&gt;    6.462</span></span></code></pre></div>
 <p>BVHAR-L:</p>
 <div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">day</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="fl">.1</span>, <span class="fu"><a href="https://rdrr.io/r/base/nrow.html" class="external-link">ncol</a></span><span class="op">(</span><span class="va">etf_vix</span><span class="op">)</span><span class="op">)</span></span>
@@ -286,7 +295,6 @@
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: MN_VHAR</span></span>
-<span><span class="co">#&gt; # Type '?bvhar_minnesota' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'sigma':</span></span>
@@ -308,7 +316,10 @@
 <span><span class="co">#&gt; [1]  0.1  0.1  0.1  0.1  0.1  0.1  0.1  0.1  0.1</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'monthly':</span></span>
-<span><span class="co">#&gt; [1]  0.1  0.1  0.1  0.1  0.1  0.1  0.1  0.1  0.1</span></span></code></pre></div>
+<span><span class="co">#&gt; [1]  0.1  0.1  0.1  0.1  0.1  0.1  0.1  0.1  0.1</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Setting for 'hierarchical':</span></span>
+<span><span class="co">#&gt; [1]  FALSE</span></span></code></pre></div>
 <div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">mod_bvhar_v2</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/bvhar_minnesota.html">bvhar_minnesota</a></span><span class="op">(</span>y <span class="op">=</span> <span class="va">etf_tr</span>, bayes_spec <span class="op">=</span> <span class="va">bvhar_spec_v2</span><span class="op">)</span></span></code></pre></div>
 <p>MSE:</p>
@@ -316,9 +327,9 @@
 <code class="sourceCode R"><span><span class="va">forecast_bvhar_v2</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/predict.html">predict</a></span><span class="op">(</span><span class="va">mod_bvhar_v2</span>, <span class="va">h</span><span class="op">)</span></span>
 <span><span class="op">(</span><span class="va">msebvhar_v2</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/mse.html">mse</a></span><span class="op">(</span><span class="va">forecast_bvhar_v2</span>, <span class="va">etf_te</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;   GVZCLS   OVXCLS VXFXICLS VXEEMCLS VXSLVCLS   EVZCLS VXXLECLS VXGDXCLS </span></span>
-<span><span class="co">#&gt;     3.63     4.39     1.37     5.63     6.16     1.19    14.18     2.52 </span></span>
+<span><span class="co">#&gt;     3.63     3.85     1.64     5.12     5.75     1.08    13.60     2.58 </span></span>
 <span><span class="co">#&gt; VXEWZCLS </span></span>
-<span><span class="co">#&gt;     5.23</span></span></code></pre></div>
+<span><span class="co">#&gt;     5.54</span></span></code></pre></div>
 </div>
 </div>
 <div class="section level2">
@@ -340,7 +351,7 @@
 <span id="cb20-2"><a href="#cb20-2" tabindex="-1"></a>  title <span class="ot">=</span> {{bvhar}<span class="sc">:</span> Bayesian Vector Heterogeneous Autoregressive Modeling},</span>
 <span id="cb20-3"><a href="#cb20-3" tabindex="-1"></a>  author <span class="ot">=</span> {Young Geun Kim and Changryong Baek},</span>
 <span id="cb20-4"><a href="#cb20-4" tabindex="-1"></a>  year <span class="ot">=</span> {<span class="dv">2023</span>},</span>
-<span id="cb20-5"><a href="#cb20-5" tabindex="-1"></a>  note <span class="ot">=</span> {R package version <span class="dv">2</span>.<span class="fl">0.1</span>},</span>
+<span id="cb20-5"><a href="#cb20-5" tabindex="-1"></a>  note <span class="ot">=</span> {R package version <span class="dv">2</span>.<span class="dv">0</span>.<span class="fl">1.9014</span>},</span>
 <span id="cb20-6"><a href="#cb20-6" tabindex="-1"></a>  url <span class="ot">=</span> {https<span class="sc">:</span><span class="er">//</span>cran.r<span class="sc">-</span>project.org<span class="sc">/</span>package<span class="ot">=</span>bvhar},</span>
 <span id="cb20-7"><a href="#cb20-7" tabindex="-1"></a>}</span>
 <span id="cb20-8"><a href="#cb20-8" tabindex="-1"></a></span>

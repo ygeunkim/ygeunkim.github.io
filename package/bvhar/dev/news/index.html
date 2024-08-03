@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9019</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9020</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,6 +86,11 @@
 <li><p>Now can use MNIW generation by including header (<code>std::vector&lt;Eigen::MatrixXd&gt; sim_mn_iw(...)</code>).</p></li>
 <li><p>Compute LPL inside <code><a href="../reference/forecast_roll.html">forecast_roll.svmod()</a></code> and <code><a href="../reference/forecast_expand.html">forecast_expand.svmod()</a></code> using <code>lpl</code> option.</p></li>
 <li><p>Instead, <code>lpl</code> method is removed.</p></li>
+</ul></div>
+<div class="section level3">
+<h3 id="others-development-version">Others<a class="anchor" aria-label="anchor" href="#others-development-version"></a></h3>
+<ul><li>
+<code><a href="../reference/sim_gig.html">sim_gig()</a></code> generates Generalized Inverse Gaussian (GIG) random numbers using similar algorithm of R package <code>GIGrvg</code> but rounding-off error handling.</li>
 </ul></div>
 </div>
     <div class="section level2">
