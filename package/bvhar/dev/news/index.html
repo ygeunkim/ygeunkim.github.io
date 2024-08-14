@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9020</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9021</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,12 +56,12 @@
 <li><p><code><a href="../reference/bvar_ssvs.html">bvar_ssvs()</a></code>, <code><a href="../reference/bvar_horseshoe.html">bvar_horseshoe()</a></code>, <code><a href="../reference/bvar_sv.html">bvar_sv()</a></code>, <code><a href="../reference/bvhar_ssvs.html">bvhar_ssvs()</a></code>, <code><a href="../reference/bvhar_horseshoe.html">bvhar_horseshoe()</a></code>, and <code><a href="../reference/bvhar_sv.html">bvhar_sv()</a></code> are deprecated, and will be removed in v2.1.0 with their source functions.</p></li>
 <li><p><code><a href="../reference/set_horseshoe.html">set_horseshoe()</a></code> has additional setting for <code>group_shrinkage</code>. Horseshoe sampling now has additional group shrinkage level parameters.</p></li>
 <li><p><code><a href="../reference/set_ssvs.html">set_ssvs()</a></code> now additionally should specify different Beta hyperparameters for each own-lag and cross-lag.</p></li>
+<li><p>MCMC functions return give <code>$param</code> and <code>$param_names</code>, not individual <code>$*_record</code> members.</p></li>
 <li><p><code><a href="../reference/sim_gig.html">sim_gig()</a></code> generates Generalized Inverse Gaussian (GIG) random numbers using the algorithm of R package <code>GIGrvg</code>.</p></li>
 </ul><div class="section level3">
 <h3 id="new-priors-development-version">New priors<a class="anchor" aria-label="anchor" href="#new-priors-development-version"></a></h3>
 <ul><li><p><code><a href="../reference/set_dl.html">set_dl()</a></code> specifies Dirichlet-Laplace (DL) prior in <code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code>.</p></li>
 <li><p><code><a href="../reference/set_ng.html">set_ng()</a></code> specifies Normal-Gamma (NG) prior in <code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code>.</p></li>
-<li><p>MCMC functions return give <code>$param</code> and <code>$param_names</code>, not individual <code>$*_record</code> members.</p></li>
 <li><p><code><a href="../reference/bvar_sv.html">bvar_sv()</a></code> and <code><a href="../reference/bvhar_sv.html">bvhar_sv()</a></code> supports hierarchical Minnesota prior.</p></li>
 </ul></div>
 <div class="section level3">
