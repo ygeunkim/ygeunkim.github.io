@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9021</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9022</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,6 +59,9 @@
     <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">set_ssvs</span><span class="op">(</span></span>
 <span>  coef_spike <span class="op">=</span> <span class="fl">0.1</span>,</span>
 <span>  coef_slab <span class="op">=</span> <span class="fl">5</span>,</span>
+<span>  coef_spike_scl <span class="op">=</span> <span class="fl">0.01</span>,</span>
+<span>  coef_slab_shape <span class="op">=</span> <span class="fl">0.01</span>,</span>
+<span>  coef_slab_scl <span class="op">=</span> <span class="fl">0.01</span>,</span>
 <span>  coef_mixture <span class="op">=</span> <span class="fl">0.5</span>,</span>
 <span>  coef_s1 <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span>,</span>
 <span>  coef_s2 <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span>,</span>
@@ -68,6 +71,9 @@
 <span>  rate <span class="op">=</span> <span class="fl">0.01</span>,</span>
 <span>  chol_spike <span class="op">=</span> <span class="fl">0.1</span>,</span>
 <span>  chol_slab <span class="op">=</span> <span class="fl">5</span>,</span>
+<span>  chol_spike_scl <span class="op">=</span> <span class="fl">0.01</span>,</span>
+<span>  chol_slab_shape <span class="op">=</span> <span class="fl">0.01</span>,</span>
+<span>  chol_slab_scl <span class="op">=</span> <span class="fl">0.01</span>,</span>
 <span>  chol_mixture <span class="op">=</span> <span class="fl">0.5</span>,</span>
 <span>  chol_s1 <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  chol_s2 <span class="op">=</span> <span class="fl">1</span></span>
@@ -87,15 +93,30 @@
 
 
 <dl><dt id="arg-coef-spike">coef_spike<a class="anchor" aria-label="anchor" href="#arg-coef-spike"></a></dt>
-<dd><p>Standard deviance for Spike normal distribution (See Details).</p></dd>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#deprecated" class="external-link"><img src="figures/lifecycle-deprecated.svg" alt="[Deprecated]"></a> Standard deviance for Spike normal distribution.
+Will be deleted when <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> and <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> are removed in the package.</p></dd>
 
 
 <dt id="arg-coef-slab">coef_slab<a class="anchor" aria-label="anchor" href="#arg-coef-slab"></a></dt>
-<dd><p>Standard deviance for Slab normal distribution (See Details).</p></dd>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#deprecated" class="external-link"><img src="figures/lifecycle-deprecated.svg" alt="[Deprecated]"></a> Standard deviance for Slab normal distribution.
+Will be deleted when <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> and <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> are removed in the package.</p></dd>
+
+
+<dt id="arg-coef-spike-scl">coef_spike_scl<a class="anchor" aria-label="anchor" href="#arg-coef-spike-scl"></a></dt>
+<dd><p>Scaling factor (between 0 and 1) for spike sd which is Spike sd = c * slab sd</p></dd>
+
+
+<dt id="arg-coef-slab-shape">coef_slab_shape<a class="anchor" aria-label="anchor" href="#arg-coef-slab-shape"></a></dt>
+<dd><p>Inverse gamma shape for slab sd</p></dd>
+
+
+<dt id="arg-coef-slab-scl">coef_slab_scl<a class="anchor" aria-label="anchor" href="#arg-coef-slab-scl"></a></dt>
+<dd><p>Inverse gamma scale for slab sd</p></dd>
 
 
 <dt id="arg-coef-mixture">coef_mixture<a class="anchor" aria-label="anchor" href="#arg-coef-mixture"></a></dt>
-<dd><p>Bernoulli parameter for sparsity proportion (See Details).</p></dd>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#deprecated" class="external-link"><img src="figures/lifecycle-deprecated.svg" alt="[Deprecated]"></a> Bernoulli parameter for sparsity proportion.
+Will be deleted when <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> and <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> are removed in the package.</p></dd>
 
 
 <dt id="arg-coef-s-">coef_s1<a class="anchor" aria-label="anchor" href="#arg-coef-s-"></a></dt>
@@ -107,11 +128,13 @@
 
 
 <dt id="arg-mean-non">mean_non<a class="anchor" aria-label="anchor" href="#arg-mean-non"></a></dt>
-<dd><p>Prior mean of unrestricted coefficients</p></dd>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#deprecated" class="external-link"><img src="figures/lifecycle-deprecated.svg" alt="[Deprecated]"></a> Prior mean of unrestricted coefficients
+Will be deleted when <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> and <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> are removed in the package.</p></dd>
 
 
 <dt id="arg-sd-non">sd_non<a class="anchor" aria-label="anchor" href="#arg-sd-non"></a></dt>
-<dd><p>Standard deviance for unrestricted coefficients</p></dd>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#deprecated" class="external-link"><img src="figures/lifecycle-deprecated.svg" alt="[Deprecated]"></a> Standard deviance for unrestricted coefficients
+Will be deleted when <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> and <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> are removed in the package.</p></dd>
 
 
 <dt id="arg-shape">shape<a class="anchor" aria-label="anchor" href="#arg-shape"></a></dt>
@@ -123,15 +146,30 @@
 
 
 <dt id="arg-chol-spike">chol_spike<a class="anchor" aria-label="anchor" href="#arg-chol-spike"></a></dt>
-<dd><p>Standard deviance for Spike normal distribution, in the cholesky factor (See Details).</p></dd>
+<dd><p>Standard deviance for Spike normal distribution, in the cholesky factor.
+Will be deleted when <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> and <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> are removed in the package.</p></dd>
 
 
 <dt id="arg-chol-slab">chol_slab<a class="anchor" aria-label="anchor" href="#arg-chol-slab"></a></dt>
-<dd><p>Standard deviance for Slab normal distribution, in the cholesky factor (See Details).</p></dd>
+<dd><p>Standard deviance for Slab normal distribution, in the cholesky factor.
+Will be deleted when <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> and <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> are removed in the package.</p></dd>
+
+
+<dt id="arg-chol-spike-scl">chol_spike_scl<a class="anchor" aria-label="anchor" href="#arg-chol-spike-scl"></a></dt>
+<dd><p>Scaling factor (between 0 and 1) for spike sd which is Spike sd = c * slab sd in the cholesky factor</p></dd>
+
+
+<dt id="arg-chol-slab-shape">chol_slab_shape<a class="anchor" aria-label="anchor" href="#arg-chol-slab-shape"></a></dt>
+<dd><p>Inverse gamma shape for slab sd in the cholesky factor</p></dd>
+
+
+<dt id="arg-chol-slab-scl">chol_slab_scl<a class="anchor" aria-label="anchor" href="#arg-chol-slab-scl"></a></dt>
+<dd><p>Inverse gamma scale for slab sd in the cholesky factor</p></dd>
 
 
 <dt id="arg-chol-mixture">chol_mixture<a class="anchor" aria-label="anchor" href="#arg-chol-mixture"></a></dt>
-<dd><p>Bernoulli parameter for sparsity proportion, in the cholesky factor (See Details).</p></dd>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#deprecated" class="external-link"><img src="figures/lifecycle-deprecated.svg" alt="[Deprecated]"></a> Bernoulli parameter for sparsity proportion, in the cholesky factor (See Details).
+Will be deleted when <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> and <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> are removed in the package.</p></dd>
 
 
 <dt id="arg-chol-s-">chol_s1<a class="anchor" aria-label="anchor" href="#arg-chol-s-"></a></dt>
@@ -192,6 +230,7 @@ $$w_{ij} \sim Bernoulli(q_{ij})$$</p><ul><li><p><code>shape</code>: \(a_j\)</p><
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
     <p>George, E. I., &amp; McCulloch, R. E. (1993). <em>Variable Selection via Gibbs Sampling</em>. Journal of the American Statistical Association, 88(423), 881–889.</p>
 <p>George, E. I., Sun, D., &amp; Ni, S. (2008). <em>Bayesian stochastic search for VAR model restrictions</em>. Journal of Econometrics, 142(1), 553–580.</p>
+<p>Ishwaran, H., &amp; Rao, J. S. (2005). <em>Spike and slab variable selection: Frequentist and Bayesian strategies</em>. The Annals of Statistics, 33(2).</p>
 <p>Koop, G., &amp; Korobilis, D. (2009). <em>Bayesian Multivariate Time Series Methods for Empirical Macroeconomics</em>. Foundations and Trends® in Econometrics, 3(4), 267–358.</p>
     </div>
 
