@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9023</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9024</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,14 +77,19 @@
 <li><p><code><a href="../reference/dynamic_spillover.html">dynamic_spillover()</a></code> computes dynamic spillover given model.</p></li>
 </ul></div>
 <div class="section level3">
-<h3 id="forecasting-sv-models-development-version">Forecasting SV models<a class="anchor" aria-label="anchor" href="#forecasting-sv-models-development-version"></a></h3>
-<ul><li><p><code><a href="../reference/predict.html">predict()</a></code>, <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code>, and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> with SV models can use CI level when adding sparsity.</p></li>
+<h3 id="forecasting-development-version">Forecasting<a class="anchor" aria-label="anchor" href="#forecasting-development-version"></a></h3>
+<ul><li><p><code><a href="../reference/predict.html">predict()</a></code>, <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code>, and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> with LDLT models can use CI level when adding sparsity.</p></li>
+<li><p><code><a href="../reference/predict.html">predict()</a></code>, <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code>, and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> of <code>ldltmod</code> have <code>sparse</code> option to use sparsity.</p></li>
+<li><p><code><a href="../reference/predict.html">predict()</a></code>, <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code>, and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> with SV models can use CI level when adding sparsity.</p></li>
 <li><p><code><a href="../reference/predict.html">predict()</a></code>, <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code>, and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> of <code>svmod</code> have <code>sparse</code> option to use sparsity.</p></li>
 <li><p>Out-of-sample forecasting functions are now S3 generics (<code><a href="../reference/forecast_roll.html">forecast_roll()</a></code> and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code>).</p></li>
+<li><p>Add Rolling-window forecasting for LDLT models (<code><a href="../reference/forecast_roll.html">forecast_roll.ldltmod()</a></code>).</p></li>
+<li><p>Add Expanding-window forecasting for LDLT models (<code><a href="../reference/forecast_expand.html">forecast_expand.ldltmod()</a></code>).</p></li>
 <li><p>Add Rolling-window forecasting for SV models (<code><a href="../reference/forecast_roll.html">forecast_roll.svmod()</a></code>).</p></li>
 <li><p>Add Expanding-window forecasting for SV models (<code><a href="../reference/forecast_expand.html">forecast_expand.svmod()</a></code>).</p></li>
-<li><p>When forecasting SV models, it is available to choose whether to use time-varying covariance (<code>innovation</code> option, which is <code>TRUE</code> by default).</p></li>
+<li><p>When forecasting SV models, it is available to choose whether to use time-varying covariance (<code>use_sv</code> option, which is <code>TRUE</code> by default).</p></li>
 <li><p><code><a href="../reference/forecast_roll.html">forecast_roll()</a></code> and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> can implement OpenMP multithreading, except in <code>bvarflat</code> class.</p></li>
+<li><p>If the model uses multiple chain MCMC, static schedule is used in <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code> and dynamic schedule in <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code>.</p></li>
 <li><p><code><a href="../reference/sim_mniw.html">sim_mniw()</a></code> output format has been changed into list of lists.</p></li>
 <li><p>Now can use MNIW generation by including header (<code>std::vector&lt;Eigen::MatrixXd&gt; sim_mn_iw(...)</code>).</p></li>
 <li><p>Compute LPL inside <code><a href="../reference/forecast_roll.html">forecast_roll.svmod()</a></code> and <code><a href="../reference/forecast_expand.html">forecast_expand.svmod()</a></code> using <code>lpl</code> option.</p></li>
