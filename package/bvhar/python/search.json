@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "bvhar ",
     "section": "",
-    "text": "This is a Python version for bvhar package.\nThe package implements C++ headers made in R package. Learn more about bvhar for R.\n\n\n\n\n\n\nNote\n\n\n\nbvhar for Python is not ready to use. This page is rendered just for testing.\n\n\n\n\nbvhar C++ sources uses\n\nEigen library: for matrix computation\nboost library: for random generation.\n\nIf you use conda, you can avoid manual setting of these libraries. Check requirements/environment.yml in our repo. Since conda provides eigen and boost-cpp, you can easily install them.\nOtherwise, you should set their paths by yourself; at this stage.\n\nEIGEN_INCLUDE_DIR: Eigen path that includes the eigen headers\nBOOST_INCLUDE_DIR: boost path that includes the boost headers\n\n\n\n\nFrom GitHub:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git@feature/python#egg=bvhar&subdirectory=python'\n\n\n\nYou can see the development status in PR #10."
+    "text": "This is a Python version for bvhar package.\nThe package implements C++ headers made in R package. Learn more about bvhar for R.\n\n\n\n\n\n\nNote\n\n\n\nbvhar for Python is not ready to use. This page is rendered just for testing.\n\n\n\n\nbvhar C++ sources uses\n\nEigen library: for matrix computation\nboost library: for random generation.\n\nIf you use conda, you can avoid manual setting of these libraries. Check requirements/environment.yml in our repo. Since conda provides eigen and boost-cpp, you can easily install them.\nOtherwise, you should set their paths by yourself; at this stage.\n\nEIGEN_INCLUDE_DIR: Eigen path that includes the eigen headers\nBOOST_INCLUDE_DIR: boost path that includes the boost headers\n\n\n\n\nFrom GitHub:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git@develop#egg=bvhar&subdirectory=python'\n\n\n\n\n\n\n\n\n\n\nBrowse source code\nReport a bug\nbvhar in R\n\n\n\nFull License\nGPL (&gt;= 3)\n\n\n\nCode of conduct\n\n\n\nYoung Geun Kim"
   },
   {
     "objectID": "index.html#eigen-and-boost-setting",
@@ -18,14 +18,35 @@
     "href": "index.html#installation",
     "title": "bvhar ",
     "section": "",
-    "text": "From GitHub:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git@feature/python#egg=bvhar&subdirectory=python'"
+    "text": "From GitHub:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git@develop#egg=bvhar&subdirectory=python'"
   },
   {
-    "objectID": "index.html#usage",
-    "href": "index.html#usage",
+    "objectID": "index.html#links",
+    "href": "index.html#links",
     "title": "bvhar ",
     "section": "",
-    "text": "You can see the development status in PR #10."
+    "text": "Browse source code\nReport a bug\nbvhar in R"
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "bvhar ",
+    "section": "",
+    "text": "Full License\nGPL (&gt;= 3)"
+  },
+  {
+    "objectID": "index.html#community",
+    "href": "index.html#community",
+    "title": "bvhar ",
+    "section": "",
+    "text": "Code of conduct"
+  },
+  {
+    "objectID": "index.html#developers",
+    "href": "index.html#developers",
+    "title": "bvhar ",
+    "section": "",
+    "text": "Young Geun Kim"
   },
   {
     "objectID": "get_started.html",
@@ -74,7 +95,7 @@
     "href": "reference/index.html",
     "title": "Reference",
     "section": "",
-    "text": "Vector autoregressive model\n\n\n\nVarOls\nOLS for Vector autoregressive model\n\n\nVarBayes\nBayesian Vector Autoregressive Model\n\n\n\n\n\n\nVector heterogeneous autoregressive model\n\n\n\nVharOls\nOLS for Vector heterogeneous autoregressive model\n\n\nVharBayes\nBayesian Vector Autoregressive Model\n\n\n\n\n\n\nPrior configuration\n\n\n\nSsvsConfig\n\n\n\nHorseshoeConfig\n\n\n\nMinnesotaConfig\n\n\n\nLambdaConfig\n\n\n\nNgConfig\n\n\n\nDlConfig\n\n\n\nLdltConfig\n\n\n\nSvConfig\n\n\n\nInterceptConfig\n\n\n\n\n\n\n\nRandom generation functions\n\n\n\nnormal.generate_mnormal\ngenerate_mnormal(arg0: int, arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: int, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, n]]\n\n\nnormal.generate_gig\ngenerate_gig(arg0: int, arg1: float, arg2: float, arg3: float, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, 1]]\n\n\n\n\n\n\nDatasets\n\n\n\nload_vix\nLoad and return the CBOE VIX of several ETF datasets\n\n\n\n\n\n\nRelated to configuration\n\n\n\ncheckomp.is_omp\nis_omp() -&gt; bool\n\n\ncheckomp.check_omp\ncheck_omp() -&gt; None"
+    "text": "Vector autoregressive model\n\n\n\nVarOls\nOLS for Vector autoregressive model\n\n\nVarBayes\nBayesian Vector Autoregressive Model\n\n\n\n\n\n\nVector heterogeneous autoregressive model\n\n\n\nVharOls\nOLS for Vector heterogeneous autoregressive model\n\n\nVharBayes\nBayesian Vector Autoregressive Model\n\n\n\n\n\n\nPrior configuration\n\n\n\nSsvsConfig\nSSVS prior configuration\n\n\nHorseshoeConfig\nHorseshoe prior configuration\n\n\nMinnesotaConfig\nMinnesota prior configuration\n\n\nLambdaConfig\nHierarchical structure of Minnesota prior\n\n\nNgConfig\nNormal-Gamma prior configuration\n\n\nDlConfig\nDirichlet-Laplace prior configuration\n\n\nLdltConfig\nPrior for Covariance Matrix\n\n\nSvConfig\n\n\n\nInterceptConfig\nPrior for Constant term\n\n\n\n\n\n\nRandom generation functions\n\n\n\nnormal.generate_mnormal\ngenerate_mnormal(arg0: int, arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: int, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, n]]\n\n\nnormal.generate_gig\ngenerate_gig(arg0: int, arg1: float, arg2: float, arg3: float, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, 1]]\n\n\n\n\n\n\nDatasets\n\n\n\nload_vix\nLoad and return the CBOE VIX of several ETF datasets\n\n\n\n\n\n\nRelated to configuration\n\n\n\ncheckomp.is_omp\nis_omp() -&gt; bool\n\n\ncheckomp.check_omp\ncheck_omp() -&gt; None"
   },
   {
     "objectID": "reference/index.html#var",
@@ -95,7 +116,7 @@
     "href": "reference/index.html#priors",
     "title": "Reference",
     "section": "",
-    "text": "Prior configuration\n\n\n\nSsvsConfig\n\n\n\nHorseshoeConfig\n\n\n\nMinnesotaConfig\n\n\n\nLambdaConfig\n\n\n\nNgConfig\n\n\n\nDlConfig\n\n\n\nLdltConfig\n\n\n\nSvConfig\n\n\n\nInterceptConfig"
+    "text": "Prior configuration\n\n\n\nSsvsConfig\nSSVS prior configuration\n\n\nHorseshoeConfig\nHorseshoe prior configuration\n\n\nMinnesotaConfig\nMinnesota prior configuration\n\n\nLambdaConfig\nHierarchical structure of Minnesota prior\n\n\nNgConfig\nNormal-Gamma prior configuration\n\n\nDlConfig\nDirichlet-Laplace prior configuration\n\n\nLdltConfig\nPrior for Covariance Matrix\n\n\nSvConfig\n\n\n\nInterceptConfig\nPrior for Constant term"
   },
   {
     "objectID": "reference/index.html#random",
@@ -123,14 +144,28 @@
     "href": "reference/LdltConfig.html",
     "title": "LdltConfig",
     "section": "",
-    "text": "LdltConfig\nmodel.LdltConfig(self, ig_shape=3, ig_scale=0.01)"
+    "text": "model.LdltConfig(self, ig_shape=3, ig_scale=0.01)\nPrior for Covariance Matrix\nSpecifies inverse-gamma prior for cholesky diagonal vector.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nig_shape\nfloat\nInverse-Gamma shape of Cholesky diagonal vector, by default 3\n3\n\n\nig_scale\nfloat\nInverse-Gamma scale of Cholesky diagonal vector, by default .01\n0.01\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\nshape\nfloat\nInverse-Gamma shape\n\n\nscale\nfloat\nInverse-Gamma scale"
+  },
+  {
+    "objectID": "reference/LdltConfig.html#parameters",
+    "href": "reference/LdltConfig.html#parameters",
+    "title": "LdltConfig",
+    "section": "",
+    "text": "Name\nType\nDescription\nDefault\n\n\n\n\nig_shape\nfloat\nInverse-Gamma shape of Cholesky diagonal vector, by default 3\n3\n\n\nig_scale\nfloat\nInverse-Gamma scale of Cholesky diagonal vector, by default .01\n0.01"
+  },
+  {
+    "objectID": "reference/LdltConfig.html#attributes",
+    "href": "reference/LdltConfig.html#attributes",
+    "title": "LdltConfig",
+    "section": "",
+    "text": "Name\nType\nDescription\n\n\n\n\nshape\nfloat\nInverse-Gamma shape\n\n\nscale\nfloat\nInverse-Gamma scale"
   },
   {
     "objectID": "reference/MinnesotaConfig.html",
     "href": "reference/MinnesotaConfig.html",
     "title": "MinnesotaConfig",
     "section": "",
-    "text": "MinnesotaConfig\nmodel.MinnesotaConfig(self, sig=None, lam=0.1, delt=None, is_long=False, eps=0.0001)"
+    "text": "MinnesotaConfig\nmodel.MinnesotaConfig(self, sig=None, lam=0.1, delt=None, is_long=False, eps=0.0001)\nMinnesota prior configuration\nSpecifies Minnesota prior for coefficient."
   },
   {
     "objectID": "reference/VarOls.html",
@@ -193,7 +228,7 @@
     "href": "reference/NgConfig.html",
     "title": "NgConfig",
     "section": "",
-    "text": "NgConfig\nmodel.NgConfig(self, shape_sd=0.01, group_shape=0.01, group_scale=0.01, global_shape=0.01, global_scale=0.01, contem_global_shape=0.01, contem_global_scale=0.01)"
+    "text": "NgConfig\nmodel.NgConfig(self, shape_sd=0.01, group_shape=0.01, group_scale=0.01, global_shape=0.01, global_scale=0.01, contem_global_shape=0.01, contem_global_scale=0.01)\nNormal-Gamma prior configuration\nSpecifies Normal-Gamma prior for coefficient."
   },
   {
     "objectID": "reference/VharBayes.html",
@@ -235,14 +270,14 @@
     "href": "reference/DlConfig.html",
     "title": "DlConfig",
     "section": "",
-    "text": "DlConfig\nmodel.DlConfig(self, dir_grid=100, shape=0.01, rate=0.01)"
+    "text": "DlConfig\nmodel.DlConfig(self, dir_grid=100, shape=0.01, rate=0.01)\nDirichlet-Laplace prior configuration\nSpecifies Dirichlet-Laplace prior for coefficient."
   },
   {
     "objectID": "reference/SsvsConfig.html",
     "href": "reference/SsvsConfig.html",
     "title": "SsvsConfig",
     "section": "",
-    "text": "SsvsConfig\nmodel.SsvsConfig(self, coef_spike_scl=0.01, coef_slab_shape=0.01, coef_slab_scl=0.01, coef_s1=[1, 1], coef_s2=[1, 1], chol_spike_scl=0.01, chol_slab_shape=0.01, chol_slab_scl=0.01, chol_s1=1, chol_s2=1)"
+    "text": "SsvsConfig\nmodel.SsvsConfig(self, coef_spike_scl=0.01, coef_slab_shape=0.01, coef_slab_scl=0.01, coef_s1=[1, 1], coef_s2=[1, 1], chol_spike_scl=0.01, chol_slab_shape=0.01, chol_slab_scl=0.01, chol_s1=1, chol_s2=1)\nSSVS prior configuration\nSpecifies SSVS prior for coefficient."
   },
   {
     "objectID": "reference/SvConfig.html",
@@ -284,21 +319,21 @@
     "href": "reference/LambdaConfig.html",
     "title": "LambdaConfig",
     "section": "",
-    "text": "LambdaConfig\nmodel.LambdaConfig(self, shape=0.01, rate=0.01, eps=0.0001)"
+    "text": "LambdaConfig\nmodel.LambdaConfig(self, shape=0.01, rate=0.01, eps=0.0001)\nHierarchical structure of Minnesota prior\nSpecifies prior for :math:\\lambda in Minnesota prior."
   },
   {
     "objectID": "reference/InterceptConfig.html",
     "href": "reference/InterceptConfig.html",
     "title": "InterceptConfig",
     "section": "",
-    "text": "InterceptConfig\nmodel.InterceptConfig(self, mean=0, sd=0.1)"
+    "text": "InterceptConfig\nmodel.InterceptConfig(self, mean=0, sd=0.1)\nPrior for Constant term\nSpecifies normal prior for constant term."
   },
   {
     "objectID": "reference/HorseshoeConfig.html",
     "href": "reference/HorseshoeConfig.html",
     "title": "HorseshoeConfig",
     "section": "",
-    "text": "HorseshoeConfig\nmodel.HorseshoeConfig(self)"
+    "text": "HorseshoeConfig\nmodel.HorseshoeConfig(self)\nHorseshoe prior configuration\nSpecifies Horseshoe prior for coefficient."
   },
   {
     "objectID": "reference/normal.generate_gig.html",
