@@ -100,7 +100,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Anonymous+Pro" rel="stylesheet">
 
 
 </head>
@@ -170,11 +169,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#installing" id="toc-installing" class="nav-link active" data-scroll-target="#installing">Installing</a>
   <ul class="collapse">
-  <li><a href="#eigen-and-boost" id="toc-eigen-and-boost" class="nav-link" data-scroll-target="#eigen-and-boost">Eigen and boost</a></li>
-  </ul></li>
+  <li><a href="#installing" id="toc-installing" class="nav-link active" data-scroll-target="#installing">Installing</a></li>
   <li><a href="#openmp" id="toc-openmp" class="nav-link" data-scroll-target="#openmp">OpenMP</a></li>
   </ul>
 </nav>
@@ -255,7 +251,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="openmp" class="level2">
 <h2 class="anchored" data-anchor-id="openmp">OpenMP</h2>
 <p>OpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. <code>bvhar</code> provides OpenMP checking functions.</p>
-<div id="f5a7e3bd" class="cell" data-execution_count="1">
+<div id="294d7716" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bvhar.utils <span class="im">import</span> checkomp</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>checkomp.check_omp()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -263,7 +259,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p><code>True</code> if enabled, <code>False</code> if not:</p>
-<div id="30e75718" class="cell" data-execution_count="2">
+<div id="4e751de5" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>checkomp.is_omp()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="2">
 <pre><code>True</code></pre>
@@ -711,7 +707,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Site built with <a href="https://machow.github.io/quartodoc/get-started/overview.html">quartodoc</a></p>
+<p>Site built with <a href="https://machow.github.io/quartodoc/get-started/overview.html">quartodoc</a> </p>
 </div>
   </div>
 </footer>
