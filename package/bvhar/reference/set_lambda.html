@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,22 +19,28 @@
 <li class="active nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a></li>
-    <li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
+    <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-news" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">News</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/bvhar/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
 <li class="nav-item"><a class="nav-link" href="..//software/" aria-label="Back to the page"><span class="fa fa-home"></span> Go back to the Software page</a></li>
@@ -46,7 +52,7 @@
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
       <img src="../logo.png" class="logo" alt=""><h1>Hyperpriors for Bayesian Models</h1>
-      <small class="dont-index">Source: <a href="https://github.com/ygeunkim/bvhar/blob/master/R/bvar-hierarchical.R" class="external-link"><code>R/bvar-hierarchical.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/ygeunkim/bvhar/blob/master/R/hyperparam.R" class="external-link"><code>R/hyperparam.R</code></a>, <a href="https://github.com/ygeunkim/bvhar/blob/master/R/print-bvharspec.R" class="external-link"><code>R/print-bvharspec.R</code></a>, <a href="https://github.com/ygeunkim/bvhar/blob/master/R/member.R" class="external-link"><code>R/member.R</code></a></small>
       <div class="d-none name"><code>set_lambda.Rd</code></div>
     </div>
 
@@ -56,12 +62,14 @@
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">set_lambda</span><span class="op">(</span>mode <span class="op">=</span> <span class="fl">0.2</span>, sd <span class="op">=</span> <span class="fl">0.4</span>, lower <span class="op">=</span> <span class="fl">1e-05</span>, upper <span class="op">=</span> <span class="fl">3</span><span class="op">)</span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">set_lambda</span><span class="op">(</span>mode <span class="op">=</span> <span class="fl">0.2</span>, sd <span class="op">=</span> <span class="fl">0.4</span>, param <span class="op">=</span> <span class="cn">NULL</span>, lower <span class="op">=</span> <span class="fl">1e-05</span>, upper <span class="op">=</span> <span class="fl">3</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu">set_psi</span><span class="op">(</span>shape <span class="op">=</span> <span class="fl">4e-04</span>, scale <span class="op">=</span> <span class="fl">4e-04</span>, lower <span class="op">=</span> <span class="fl">1e-05</span>, upper <span class="op">=</span> <span class="fl">3</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for class 'bvharpriorspec'</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">x</span>, digits <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html" class="external-link">max</a></span><span class="op">(</span><span class="fl">3L</span>, <span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">getOption</a></span><span class="op">(</span><span class="st">"digits"</span><span class="op">)</span> <span class="op">-</span> <span class="fl">3L</span><span class="op">)</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">is.bvharpriorspec</span><span class="op">(</span><span class="va">x</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for class 'bvharpriorspec'</span></span>
 <span><span class="fu">knit_print</span><span class="op">(</span><span class="va">x</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div>
@@ -77,6 +85,10 @@
 
 <dt id="arg-sd">sd<a class="anchor" aria-label="anchor" href="#arg-sd"></a></dt>
 <dd><p>Standard deviation of Gamma distribution. By default, <code>.4</code>.</p></dd>
+
+
+<dt id="arg-param">param<a class="anchor" aria-label="anchor" href="#arg-param"></a></dt>
+<dd><p>Shape and rate of Gamma distribution, in the form of <code>c(shape, rate)</code>. If specified, ignore <code>mode</code> and <code>sd</code>.</p></dd>
 
 
 <dt id="arg-lower">lower<a class="anchor" aria-label="anchor" href="#arg-lower"></a></dt>
@@ -139,24 +151,26 @@ It chooses (0.02)^2 based on its empirical data set.</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Parameters: Coefficent matrice and Covariance matrix</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Prior: MN_Hierarchical</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> # Type '?bvar_' in the console for some help.</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> ========================================================</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Setting for 'sigma':</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Hyperprior specification for psi</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1]  psi ~ Inv-Gamma(shape = 4e-04, scale =4e-04)</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> with mode: 0.000</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Setting for 'lambda':</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Hyperprior specification for lambda</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1]  lambda ~ Gamma(shape = 1.64038820320221, rate =3.20194101601104)</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> with mode: 0.200</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Setting for 'delta':</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1]  1  1  1</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Setting for 'eps':</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1]  1e-04</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Setting for 'hierarchical':</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1]  TRUE</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 </code></pre></div>
     </div>

@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,22 +19,28 @@
 <li class="active nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a></li>
-    <li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
+    <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-news" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">News</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/bvhar/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
 <li class="nav-item"><a class="nav-link" href="..//software/" aria-label="Back to the page"><span class="fa fa-home"></span> Go back to the Software page</a></li>
@@ -51,7 +57,7 @@
     </div>
 
     <div class="ref-description section level2">
-    <p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="figures/lifecycle-experimental.svg" alt="[Experimental]"></a> This function fits BVAR(p) with stochastic search variable selection (SSVS) prior.</p>
+    <p><a href="https://lifecycle.r-lib.org/articles/stages.html#deprecated" class="external-link"><img src="figures/lifecycle-deprecated.svg" alt="[Deprecated]"></a> This function fits BVAR(p) with stochastic search variable selection (SSVS) prior.</p>
     </div>
 
     <div class="section level2">
@@ -120,7 +126,7 @@
 
 
 <dt id="arg-minnesota">minnesota<a class="anchor" aria-label="anchor" href="#arg-minnesota"></a></dt>
-<dd><p>Apply cross-variable shrinkage structure (Minnesota-way). Two type: <code>"short"</code> type and <code>"longrun"</code> type. By default, <code>"no"</code>.</p></dd>
+<dd><p>Apply cross-variable shrinkage structure (Minnesota-way). Two type: <code>short</code> type and <code>longrun</code> type. By default, <code>no</code>.</p></dd>
 
 
 <dt id="arg-verbose">verbose<a class="anchor" aria-label="anchor" href="#arg-verbose"></a></dt>
@@ -147,32 +153,14 @@
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
     <p><code>bvhar_ssvs</code> returns an object named <code>bvharssvs</code> <a href="https://rdrr.io/r/base/class.html" class="external-link">class</a>.
 It is a list with the following components:</p>
-<dl><dt>phi_record</dt>
-<dd><p>MCMC trace for vectorized coefficients (phi \(\phi\)) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
-
-<dt>eta_record</dt>
-<dd><p>MCMC trace for upper triangular element of cholesky factor (eta \(\eta\)) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
-
-<dt>psi_record</dt>
-<dd><p>MCMC trace for diagonal element of cholesky factor (psi \(\psi\)) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
-
-<dt>omega_record</dt>
-<dd><p>MCMC trace for indicator variable for \(eta\) (omega \(\omega\)) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
-
-<dt>gamma_record</dt>
-<dd><p>MCMC trace for indicator variable for \(alpha\) (gamma \(\gamma\)) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
-
-<dt>chol_record</dt>
-<dd><p>MCMC trace for cholesky factor matrix \(\Psi\) with <a href="https://rdrr.io/r/base/list.html" class="external-link">list</a> format.</p></dd>
-
-<dt>ols_coef</dt>
-<dd><p>OLS estimates for VAR coefficients.</p></dd>
-
-<dt>ols_cholesky</dt>
-<dd><p>OLS estimates for cholesky factor</p></dd>
-
-<dt>coefficients</dt>
+<dl><dt>coefficients</dt>
 <dd><p>Posterior mean of VAR coefficients.</p></dd>
+
+<dt>chol_posterior</dt>
+<dd><p>Posterior mean of cholesky factor matrix</p></dd>
+
+<dt>covmat</dt>
+<dd><p>Posterior mean of covariance matrix</p></dd>
 
 <dt>omega_posterior</dt>
 <dd><p>Posterior mean of omega</p></dd>
@@ -183,11 +171,8 @@ It is a list with the following components:</p>
 <dt>param</dt>
 <dd><p><a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> with every variable: alpha, eta, psi, omega, and gamma</p></dd>
 
-<dt>chol_posterior</dt>
-<dd><p>Posterior mean of cholesky factor matrix</p></dd>
-
-<dt>covmat</dt>
-<dd><p>Posterior mean of covariance matrix</p></dd>
+<dt>param_names</dt>
+<dd><p>Name of every parameter.</p></dd>
 
 <dt>df</dt>
 <dd><p>Numer of Coefficients: <code>3m + 1</code> or <code>3m</code></p></dd>
@@ -214,16 +199,19 @@ It is a list with the following components:</p>
 <dd><p>Matched call</p></dd>
 
 <dt>process</dt>
-<dd><p>Description of the model, e.g. <code>"VHAR_SSVS"</code></p></dd>
+<dd><p>Description of the model, e.g. <code>VHAR_SSVS</code></p></dd>
 
 <dt>type</dt>
-<dd><p>include constant term (<code>"const"</code>) or not (<code>"none"</code>)</p></dd>
+<dd><p>include constant term (<code>const</code>) or not (<code>none</code>)</p></dd>
 
 <dt>spec</dt>
 <dd><p>SSVS specification defined by <code><a href="set_ssvs.html">set_ssvs()</a></code></p></dd>
 
 <dt>init</dt>
 <dd><p>Initial specification defined by <code><a href="init_ssvs.html">init_ssvs()</a></code></p></dd>
+
+<dt>chain</dt>
+<dd><p>The numer of chains</p></dd>
 
 <dt>iter</dt>
 <dd><p>Total iterations</p></dd>
@@ -234,8 +222,11 @@ It is a list with the following components:</p>
 <dt>thin</dt>
 <dd><p>Thinning</p></dd>
 
-<dt>chain</dt>
-<dd><p>The numer of chains</p></dd>
+<dt>group</dt>
+<dd><p>Indicators for group.</p></dd>
+
+<dt>num_group</dt>
+<dd><p>Number of groups.</p></dd>
 
 <dt>HARtrans</dt>
 <dd><p>VHAR linear transformation matrix</p></dd>
@@ -260,20 +251,11 @@ $$\gamma_j \sim Bernoulli(q_j)$$</p>
 <p>$$\psi_{jj}^2 \sim Gamma(shape = a_j, rate = b_j)$$
 $$\psi_{ij} \mid w_{ij} \sim (1 - w_{ij}) N(0, \kappa_{0,ij}^2) + w_{ij} N(0, \kappa_{1,ij}^2)$$
 $$w_{ij} \sim Bernoulli(q_{ij})$$</p>
-<p>Gibbs sampler is used for the estimation.
-See <a href="ssvs_bvar_algo.html">ssvs_bvar_algo</a> how it works.</p>
+<p>Gibbs sampler is used for the estimation.</p>
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Kim, Y. G., and Baek, C. (2023). <em>Bayesian vector heterogeneous autoregressive modeling</em>. Journal of Statistical Computation and Simulation.</p>
-<p>Kim, Y. G., and Baek, C. (n.d.). Working paper.</p>
-    </div>
-    <div class="section level2">
-    <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
-    <div class="dont-index">
-<ul><li><p>Vectorization formulation <a href="var_vec_formulation.html">var_vec_formulation</a></p></li>
-<li><p>Gibbs sampler algorithm <a href="ssvs_bvar_algo.html">ssvs_bvar_algo</a></p></li>
-</ul></div>
+    <p>Kim, Y. G., and Baek, C. (n.d.). Working paper.</p>
     </div>
 
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

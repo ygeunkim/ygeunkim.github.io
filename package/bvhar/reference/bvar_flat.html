@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,22 +19,28 @@
 <li class="active nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a></li>
-    <li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
+    <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-news" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">News</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/bvhar/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
 <li class="nav-item"><a class="nav-link" href="..//software/" aria-label="Back to the page"><span class="fa fa-home"></span> Go back to the Software page</a></li>
@@ -46,7 +52,7 @@
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
       <img src="../logo.png" class="logo" alt=""><h1>Fitting Bayesian VAR(p) of Flat Prior</h1>
-      <small class="dont-index">Source: <a href="https://github.com/ygeunkim/bvhar/blob/master/R/bvar-flat.R" class="external-link"><code>R/bvar-flat.R</code></a>, <a href="https://github.com/ygeunkim/bvhar/blob/master/R/print-bvarflat.R" class="external-link"><code>R/print-bvarflat.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/ygeunkim/bvhar/blob/master/R/bvar-flat.R" class="external-link"><code>R/bvar-flat.R</code></a>, <a href="https://github.com/ygeunkim/bvhar/blob/master/R/print-bvarflat.R" class="external-link"><code>R/print-bvarflat.R</code></a>, <a href="https://github.com/ygeunkim/bvhar/blob/master/R/criteria.R" class="external-link"><code>R/criteria.R</code></a>, and 1 more</small>
       <div class="d-none name"><code>bvar_flat.Rd</code></div>
     </div>
 
@@ -56,10 +62,32 @@
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">bvar_flat</span><span class="op">(</span><span class="va">y</span>, <span class="va">p</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="set_bvar.html">set_bvar_flat</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">bvar_flat</span><span class="op">(</span></span>
+<span>  <span class="va">y</span>,</span>
+<span>  <span class="va">p</span>,</span>
+<span>  num_chains <span class="op">=</span> <span class="fl">1</span>,</span>
+<span>  num_iter <span class="op">=</span> <span class="fl">1000</span>,</span>
+<span>  num_burn <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html" class="external-link">floor</a></span><span class="op">(</span><span class="va">num_iter</span><span class="op">/</span><span class="fl">2</span><span class="op">)</span>,</span>
+<span>  thinning <span class="op">=</span> <span class="fl">1</span>,</span>
+<span>  bayes_spec <span class="op">=</span> <span class="fu"><a href="set_bvar.html">set_bvar_flat</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>  include_mean <span class="op">=</span> <span class="cn">TRUE</span>,</span>
+<span>  verbose <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  num_thread <span class="op">=</span> <span class="fl">1</span></span>
+<span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for class 'bvarflat'</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">x</span>, digits <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html" class="external-link">max</a></span><span class="op">(</span><span class="fl">3L</span>, <span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">getOption</a></span><span class="op">(</span><span class="st">"digits"</span><span class="op">)</span> <span class="op">-</span> <span class="fl">3L</span><span class="op">)</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># S3 method for class 'bvarflat'</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/logLik.html" class="external-link">logLik</a></span><span class="op">(</span><span class="va">object</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># S3 method for class 'bvarflat'</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/AIC.html" class="external-link">AIC</a></span><span class="op">(</span><span class="va">object</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># S3 method for class 'bvarflat'</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/AIC.html" class="external-link">BIC</a></span><span class="op">(</span><span class="va">object</span>, <span class="va">...</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">is.bvarflat</span><span class="op">(</span><span class="va">x</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for class 'bvarflat'</span></span>
 <span><span class="fu">knit_print</span><span class="op">(</span><span class="va">x</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div>
@@ -77,12 +105,36 @@
 <dd><p>VAR lag</p></dd>
 
 
+<dt id="arg-num-chains">num_chains<a class="anchor" aria-label="anchor" href="#arg-num-chains"></a></dt>
+<dd><p>Number of MCMC chains</p></dd>
+
+
+<dt id="arg-num-iter">num_iter<a class="anchor" aria-label="anchor" href="#arg-num-iter"></a></dt>
+<dd><p>MCMC iteration number</p></dd>
+
+
+<dt id="arg-num-burn">num_burn<a class="anchor" aria-label="anchor" href="#arg-num-burn"></a></dt>
+<dd><p>Number of burn-in (warm-up). Half of the iteration is the default choice.</p></dd>
+
+
+<dt id="arg-thinning">thinning<a class="anchor" aria-label="anchor" href="#arg-thinning"></a></dt>
+<dd><p>Thinning every thinning-th iteration</p></dd>
+
+
 <dt id="arg-bayes-spec">bayes_spec<a class="anchor" aria-label="anchor" href="#arg-bayes-spec"></a></dt>
 <dd><p>A BVAR model specification by <code><a href="set_bvar.html">set_bvar_flat()</a></code>.</p></dd>
 
 
 <dt id="arg-include-mean">include_mean<a class="anchor" aria-label="anchor" href="#arg-include-mean"></a></dt>
 <dd><p>Add constant term (Default: <code>TRUE</code>) or not (<code>FALSE</code>)</p></dd>
+
+
+<dt id="arg-verbose">verbose<a class="anchor" aria-label="anchor" href="#arg-verbose"></a></dt>
+<dd><p>Print the progress bar in the console. By default, <code>FALSE</code>.</p></dd>
+
+
+<dt id="arg-num-thread">num_thread<a class="anchor" aria-label="anchor" href="#arg-num-thread"></a></dt>
+<dd><p>Number of threads</p></dd>
 
 
 <dt id="arg-x">x<a class="anchor" aria-label="anchor" href="#arg-x"></a></dt>
@@ -95,6 +147,10 @@
 
 <dt id="arg--">...<a class="anchor" aria-label="anchor" href="#arg--"></a></dt>
 <dd><p>not used</p></dd>
+
+
+<dt id="arg-object">object<a class="anchor" aria-label="anchor" href="#arg-object"></a></dt>
+<dd><p>A <code>bvarflat</code> object</p></dd>
 
 </dl></div>
     <div class="section level2">
@@ -135,13 +191,13 @@ It is a list with the following components:</p>
 <dd><p>Total number of the observation</p></dd>
 
 <dt>process</dt>
-<dd><p>Process string in the <code>bayes_spec</code>: <code>"BVAR_Flat"</code></p></dd>
+<dd><p>Process string in the <code>bayes_spec</code>: <code>BVAR_Flat</code></p></dd>
 
 <dt>spec</dt>
 <dd><p>Model specification (<code>bvharspec</code>)</p></dd>
 
 <dt>type</dt>
-<dd><p>include constant term (<code>"const"</code>) or not (<code>"none"</code>)</p></dd>
+<dd><p>include constant term (<code>const</code>) or not (<code>none</code>)</p></dd>
 
 <dt>call</dt>
 <dd><p>Matched call</p></dd>
@@ -181,8 +237,8 @@ $$p (\Sigma_e) \propto 1$$</p>
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
     <div class="dont-index">
 <ul><li><p><code><a href="set_bvar.html">set_bvar_flat()</a></code> to specify the hyperparameters of BVAR flat prior.</p></li>
-<li><p><code><a href="coef.varlse.html">coef.bvarflat()</a></code>, <code><a href="residuals.varlse.html">residuals.bvarflat()</a></code>, and <code><a href="fitted.varlse.html">fitted.bvarflat()</a></code></p></li>
-<li><p><code><a href="predict.varlse.html">predict.bvarflat()</a></code> to forecast the BVHAR process</p></li>
+<li><p><code><a href="coef.html">coef.bvarflat()</a></code>, <code><a href="residuals.html">residuals.bvarflat()</a></code>, and <code><a href="fitted.html">fitted.bvarflat()</a></code></p></li>
+<li><p><code><a href="predict.html">predict.bvarflat()</a></code> to forecast the BVHAR process</p></li>
 </ul></div>
     </div>
 

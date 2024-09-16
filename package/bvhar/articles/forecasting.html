@@ -28,7 +28,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,11 +42,11 @@
 <li class="active nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
-<li><a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a></li>
-    <li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
+<li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
+    <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul>
 </li>
 <li class="nav-item dropdown">
@@ -55,12 +55,18 @@
 <li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul>
 </li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul>
 <ul class="navbar-nav">
@@ -105,7 +111,7 @@ generates VHAR process</li>
 vignette.</p>
 <p>Consider</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/coef.html" class="external-link">coef</a></span><span class="op">(</span><span class="va">ex_fit</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/coef.html">coef</a></span><span class="op">(</span><span class="va">ex_fit</span><span class="op">)</span></span>
 <span><span class="co">#&gt;              GVZCLS   OVXCLS    EVZCLS VXFXICLS</span></span>
 <span><span class="co">#&gt; GVZCLS_1    0.93302 -0.02332 -0.007712 -0.03853</span></span>
 <span><span class="co">#&gt; OVXCLS_1    0.05429  1.00399  0.009806  0.01062</span></span>
@@ -141,7 +147,7 @@ vignette.</p>
 <span><span class="va">y</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/sim_var.html">sim_var</a></span><span class="op">(</span></span>
 <span>  num_sim <span class="op">=</span> <span class="fl">1500</span>, </span>
 <span>  num_burn <span class="op">=</span> <span class="fl">100</span>, </span>
-<span>  var_coef <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/stats/coef.html" class="external-link">coef</a></span><span class="op">(</span><span class="va">ex_fit</span><span class="op">)</span>, </span>
+<span>  var_coef <span class="op">=</span> <span class="fu"><a href="../reference/coef.html">coef</a></span><span class="op">(</span><span class="va">ex_fit</span><span class="op">)</span>, </span>
 <span>  var_lag <span class="op">=</span> <span class="fl">5L</span>, </span>
 <span>  sig_error <span class="op">=</span> <span class="va">ex_fit</span><span class="op">$</span><span class="va">covmat</span>, </span>
 <span>  init <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/matrix.html" class="external-link">matrix</a></span><span class="op">(</span><span class="fl">0L</span>, nrow <span class="op">=</span> <span class="fl">5L</span>, ncol <span class="op">=</span> <span class="va">m</span><span class="op">)</span></span>
@@ -186,7 +192,7 @@ vignette.</p>
 <span><span class="va">eps</span> <span class="op">&lt;-</span> <span class="fl">1e-04</span> <span class="co"># very small number</span></span>
 <span><span class="va">spec_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/set_bvar.html">set_bvar</a></span><span class="op">(</span><span class="va">y_sig</span>, <span class="va">y_lam</span>, <span class="va">y_delta</span>, <span class="va">eps</span><span class="op">)</span></span>
 <span><span class="co"># fit---------------------------------------</span></span>
-<span><span class="va">model_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvar_minnesota.html">bvar_minnesota</a></span><span class="op">(</span><span class="va">y_train</span>, <span class="fl">5</span>, <span class="va">spec_bvar</span><span class="op">)</span></span></code></pre></div>
+<span><span class="va">model_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvar_minnesota.html">bvar_minnesota</a></span><span class="op">(</span><span class="va">y_train</span>, p <span class="op">=</span> <span class="fl">5</span>, bayes_spec <span class="op">=</span> <span class="va">spec_bvar</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="bvhar">BVHAR<a class="anchor" aria-label="anchor" href="#bvhar"></a>
@@ -218,7 +224,7 @@ vignette.</p>
 <div class="section level2">
 <h2 id="splitting">Splitting<a class="anchor" aria-label="anchor" href="#splitting"></a>
 </h2>
-<p>You can forecast using <code><a href="https://rdrr.io/r/stats/predict.html" class="external-link">predict()</a></code> method with above
+<p>You can forecast using <code><a href="../reference/predict.html">predict()</a></code> method with above
 objects. You should set the step of the forecasting using
 <code>n_ahead</code> argument.</p>
 <p>In addition, the result of this forecast will return another class
@@ -240,7 +246,7 @@ called <code>predbvhar</code> to use some methods,</p>
 <h3 id="var">VAR<a class="anchor" aria-label="anchor" href="#var"></a>
 </h3>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_var</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/predict.html" class="external-link">predict</a></span><span class="op">(</span><span class="va">model_var</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_var</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/predict.html">predict</a></span><span class="op">(</span><span class="va">model_var</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;         y1   y2   y3   y4</span></span>
 <span><span class="co">#&gt;  [1,] 17.0 37.3 9.56 22.2</span></span>
 <span><span class="co">#&gt;  [2,] 16.8 37.4 9.56 22.4</span></span>
@@ -284,7 +290,7 @@ called <code>predbvhar</code> to use some methods,</p>
 <h3 id="vhar">VHAR<a class="anchor" aria-label="anchor" href="#vhar"></a>
 </h3>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_vhar</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/predict.html" class="external-link">predict</a></span><span class="op">(</span><span class="va">model_vhar</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_vhar</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/predict.html">predict</a></span><span class="op">(</span><span class="va">model_vhar</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;         y1   y2   y3   y4</span></span>
 <span><span class="co">#&gt;  [1,] 17.0 37.5 9.57 22.4</span></span>
 <span><span class="co">#&gt;  [2,] 16.9 37.4 9.56 22.5</span></span>
@@ -316,33 +322,33 @@ called <code>predbvhar</code> to use some methods,</p>
 <h3 id="bvar">BVAR<a class="anchor" aria-label="anchor" href="#bvar"></a>
 </h3>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/predict.html" class="external-link">predict</a></span><span class="op">(</span><span class="va">model_bvar</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/predict.html">predict</a></span><span class="op">(</span><span class="va">model_bvar</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;         y1   y2   y3   y4</span></span>
-<span><span class="co">#&gt;  [1,] 17.1 37.4 9.50 22.4</span></span>
-<span><span class="co">#&gt;  [2,] 17.0 37.2 9.49 22.6</span></span>
-<span><span class="co">#&gt;  [3,] 16.9 37.1 9.49 22.7</span></span>
-<span><span class="co">#&gt;  [4,] 16.9 37.0 9.50 22.8</span></span>
-<span><span class="co">#&gt;  [5,] 16.8 36.9 9.50 22.9</span></span>
-<span><span class="co">#&gt;  [6,] 16.7 36.7 9.50 22.9</span></span>
-<span><span class="co">#&gt;  [7,] 16.7 36.6 9.51 23.0</span></span>
-<span><span class="co">#&gt;  [8,] 16.6 36.5 9.51 23.1</span></span>
-<span><span class="co">#&gt;  [9,] 16.6 36.4 9.51 23.2</span></span>
-<span><span class="co">#&gt; [10,] 16.5 36.3 9.51 23.3</span></span>
-<span><span class="co">#&gt; [11,] 16.5 36.2 9.51 23.3</span></span>
-<span><span class="co">#&gt; [12,] 16.4 36.1 9.52 23.4</span></span>
-<span><span class="co">#&gt; [13,] 16.4 36.0 9.52 23.5</span></span>
-<span><span class="co">#&gt; [14,] 16.4 35.8 9.52 23.5</span></span>
-<span><span class="co">#&gt; [15,] 16.3 35.7 9.52 23.6</span></span>
-<span><span class="co">#&gt; [16,] 16.3 35.6 9.52 23.7</span></span>
-<span><span class="co">#&gt; [17,] 16.3 35.5 9.52 23.7</span></span>
-<span><span class="co">#&gt; [18,] 16.3 35.4 9.52 23.8</span></span>
-<span><span class="co">#&gt; [19,] 16.2 35.3 9.53 23.8</span></span>
-<span><span class="co">#&gt; [20,] 16.2 35.2 9.53 23.9</span></span></code></pre></div>
+<span><span class="co">#&gt;  [1,] 17.0 37.4 9.52 22.4</span></span>
+<span><span class="co">#&gt;  [2,] 17.0 37.3 9.51 22.6</span></span>
+<span><span class="co">#&gt;  [3,] 16.9 37.1 9.51 22.7</span></span>
+<span><span class="co">#&gt;  [4,] 16.8 37.0 9.51 22.8</span></span>
+<span><span class="co">#&gt;  [5,] 16.8 36.9 9.51 22.9</span></span>
+<span><span class="co">#&gt;  [6,] 16.7 36.8 9.52 22.9</span></span>
+<span><span class="co">#&gt;  [7,] 16.7 36.7 9.52 23.0</span></span>
+<span><span class="co">#&gt;  [8,] 16.6 36.6 9.52 23.1</span></span>
+<span><span class="co">#&gt;  [9,] 16.6 36.5 9.52 23.2</span></span>
+<span><span class="co">#&gt; [10,] 16.5 36.3 9.53 23.3</span></span>
+<span><span class="co">#&gt; [11,] 16.5 36.2 9.53 23.3</span></span>
+<span><span class="co">#&gt; [12,] 16.4 36.1 9.53 23.4</span></span>
+<span><span class="co">#&gt; [13,] 16.4 36.0 9.53 23.5</span></span>
+<span><span class="co">#&gt; [14,] 16.4 35.9 9.53 23.5</span></span>
+<span><span class="co">#&gt; [15,] 16.3 35.8 9.53 23.6</span></span>
+<span><span class="co">#&gt; [16,] 16.3 35.7 9.54 23.6</span></span>
+<span><span class="co">#&gt; [17,] 16.3 35.6 9.54 23.7</span></span>
+<span><span class="co">#&gt; [18,] 16.2 35.5 9.54 23.8</span></span>
+<span><span class="co">#&gt; [19,] 16.2 35.4 9.54 23.8</span></span>
+<span><span class="co">#&gt; [20,] 16.2 35.3 9.54 23.9</span></span></code></pre></div>
 <p>MSE:</p>
 <div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="op">(</span><span class="va">mse_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mse.html">mse</a></span><span class="op">(</span><span class="va">pred_bvar</span>, <span class="va">y_test</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="co">#&gt;    y1    y2    y3    y4 </span></span>
-<span><span class="co">#&gt;  2.17 19.22  0.31  3.43</span></span></code></pre></div>
+<span><span class="co">#&gt;     y1     y2     y3     y4 </span></span>
+<span><span class="co">#&gt;  2.202 19.792  0.319  3.414</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="bvhar-1">BVHAR<a class="anchor" aria-label="anchor" href="#bvhar-1"></a>
@@ -351,65 +357,65 @@ called <code>predbvhar</code> to use some methods,</p>
 <h4 id="var-type-minnesota">VAR-type Minnesota<a class="anchor" aria-label="anchor" href="#var-type-minnesota"></a>
 </h4>
 <div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_bvhar_v1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/predict.html" class="external-link">predict</a></span><span class="op">(</span><span class="va">model_bvhar_v1</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_bvhar_v1</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/predict.html">predict</a></span><span class="op">(</span><span class="va">model_bvhar_v1</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;         y1   y2   y3   y4</span></span>
 <span><span class="co">#&gt;  [1,] 16.9 37.4 9.53 22.4</span></span>
-<span><span class="co">#&gt;  [2,] 16.9 37.2 9.49 22.5</span></span>
-<span><span class="co">#&gt;  [3,] 16.8 37.0 9.47 22.5</span></span>
-<span><span class="co">#&gt;  [4,] 16.8 36.9 9.45 22.6</span></span>
-<span><span class="co">#&gt;  [5,] 16.7 36.8 9.45 22.7</span></span>
-<span><span class="co">#&gt;  [6,] 16.6 36.7 9.44 22.7</span></span>
-<span><span class="co">#&gt;  [7,] 16.5 36.5 9.43 22.8</span></span>
-<span><span class="co">#&gt;  [8,] 16.5 36.4 9.42 22.8</span></span>
-<span><span class="co">#&gt;  [9,] 16.4 36.3 9.41 22.8</span></span>
-<span><span class="co">#&gt; [10,] 16.4 36.2 9.40 22.9</span></span>
-<span><span class="co">#&gt; [11,] 16.3 36.1 9.40 22.9</span></span>
-<span><span class="co">#&gt; [12,] 16.3 36.1 9.39 23.0</span></span>
-<span><span class="co">#&gt; [13,] 16.2 36.0 9.39 23.0</span></span>
-<span><span class="co">#&gt; [14,] 16.2 35.9 9.38 23.1</span></span>
-<span><span class="co">#&gt; [15,] 16.1 35.8 9.38 23.1</span></span>
-<span><span class="co">#&gt; [16,] 16.1 35.8 9.38 23.1</span></span>
-<span><span class="co">#&gt; [17,] 16.0 35.7 9.38 23.2</span></span>
-<span><span class="co">#&gt; [18,] 16.0 35.6 9.38 23.2</span></span>
-<span><span class="co">#&gt; [19,] 16.0 35.5 9.39 23.3</span></span>
-<span><span class="co">#&gt; [20,] 16.0 35.5 9.39 23.3</span></span></code></pre></div>
+<span><span class="co">#&gt;  [2,] 16.9 37.2 9.50 22.5</span></span>
+<span><span class="co">#&gt;  [3,] 16.8 37.1 9.48 22.5</span></span>
+<span><span class="co">#&gt;  [4,] 16.8 36.9 9.47 22.6</span></span>
+<span><span class="co">#&gt;  [5,] 16.7 36.8 9.46 22.7</span></span>
+<span><span class="co">#&gt;  [6,] 16.6 36.7 9.45 22.7</span></span>
+<span><span class="co">#&gt;  [7,] 16.5 36.6 9.44 22.8</span></span>
+<span><span class="co">#&gt;  [8,] 16.5 36.5 9.43 22.8</span></span>
+<span><span class="co">#&gt;  [9,] 16.4 36.4 9.43 22.8</span></span>
+<span><span class="co">#&gt; [10,] 16.3 36.3 9.42 22.9</span></span>
+<span><span class="co">#&gt; [11,] 16.3 36.2 9.41 22.9</span></span>
+<span><span class="co">#&gt; [12,] 16.2 36.1 9.41 23.0</span></span>
+<span><span class="co">#&gt; [13,] 16.2 36.0 9.40 23.0</span></span>
+<span><span class="co">#&gt; [14,] 16.1 36.0 9.40 23.1</span></span>
+<span><span class="co">#&gt; [15,] 16.1 35.9 9.40 23.1</span></span>
+<span><span class="co">#&gt; [16,] 16.1 35.8 9.40 23.2</span></span>
+<span><span class="co">#&gt; [17,] 16.0 35.8 9.40 23.2</span></span>
+<span><span class="co">#&gt; [18,] 16.0 35.7 9.40 23.3</span></span>
+<span><span class="co">#&gt; [19,] 16.0 35.6 9.40 23.3</span></span>
+<span><span class="co">#&gt; [20,] 16.0 35.5 9.40 23.4</span></span></code></pre></div>
 <p>MSE:</p>
 <div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="op">(</span><span class="va">mse_bvhar_v1</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mse.html">mse</a></span><span class="op">(</span><span class="va">pred_bvhar_v1</span>, <span class="va">y_test</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="co">#&gt;    y1    y2    y3    y4 </span></span>
-<span><span class="co">#&gt;  2.62 19.34  0.25  3.10</span></span></code></pre></div>
+<span><span class="co">#&gt;     y1     y2     y3     y4 </span></span>
+<span><span class="co">#&gt;  2.655 19.914  0.256  3.103</span></span></code></pre></div>
 </div>
 <div class="section level4">
 <h4 id="vhar-type-minnesota">VHAR-type Minnesota<a class="anchor" aria-label="anchor" href="#vhar-type-minnesota"></a>
 </h4>
 <div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_bvhar_v2</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/predict.html" class="external-link">predict</a></span><span class="op">(</span><span class="va">model_bvhar_v2</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">pred_bvhar_v2</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/predict.html">predict</a></span><span class="op">(</span><span class="va">model_bvhar_v2</span>, n_ahead <span class="op">=</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;         y1   y2   y3   y4</span></span>
 <span><span class="co">#&gt;  [1,] 16.9 37.4 9.53 22.4</span></span>
-<span><span class="co">#&gt;  [2,] 16.9 37.2 9.49 22.5</span></span>
-<span><span class="co">#&gt;  [3,] 16.8 37.0 9.46 22.5</span></span>
-<span><span class="co">#&gt;  [4,] 16.8 36.9 9.45 22.6</span></span>
-<span><span class="co">#&gt;  [5,] 16.7 36.8 9.44 22.7</span></span>
-<span><span class="co">#&gt;  [6,] 16.6 36.6 9.44 22.7</span></span>
-<span><span class="co">#&gt;  [7,] 16.5 36.5 9.43 22.8</span></span>
-<span><span class="co">#&gt;  [8,] 16.5 36.4 9.42 22.8</span></span>
-<span><span class="co">#&gt;  [9,] 16.4 36.3 9.41 22.8</span></span>
-<span><span class="co">#&gt; [10,] 16.4 36.2 9.40 22.9</span></span>
-<span><span class="co">#&gt; [11,] 16.3 36.1 9.40 22.9</span></span>
-<span><span class="co">#&gt; [12,] 16.3 36.0 9.39 23.0</span></span>
+<span><span class="co">#&gt;  [2,] 16.9 37.2 9.50 22.5</span></span>
+<span><span class="co">#&gt;  [3,] 16.8 37.0 9.47 22.5</span></span>
+<span><span class="co">#&gt;  [4,] 16.8 36.9 9.46 22.6</span></span>
+<span><span class="co">#&gt;  [5,] 16.7 36.8 9.45 22.6</span></span>
+<span><span class="co">#&gt;  [6,] 16.6 36.7 9.44 22.7</span></span>
+<span><span class="co">#&gt;  [7,] 16.5 36.6 9.43 22.7</span></span>
+<span><span class="co">#&gt;  [8,] 16.5 36.5 9.43 22.8</span></span>
+<span><span class="co">#&gt;  [9,] 16.4 36.4 9.42 22.8</span></span>
+<span><span class="co">#&gt; [10,] 16.4 36.3 9.41 22.9</span></span>
+<span><span class="co">#&gt; [11,] 16.3 36.2 9.40 22.9</span></span>
+<span><span class="co">#&gt; [12,] 16.2 36.1 9.40 22.9</span></span>
 <span><span class="co">#&gt; [13,] 16.2 36.0 9.39 23.0</span></span>
-<span><span class="co">#&gt; [14,] 16.2 35.9 9.38 23.0</span></span>
-<span><span class="co">#&gt; [15,] 16.1 35.8 9.38 23.1</span></span>
-<span><span class="co">#&gt; [16,] 16.1 35.7 9.38 23.1</span></span>
-<span><span class="co">#&gt; [17,] 16.1 35.7 9.38 23.2</span></span>
-<span><span class="co">#&gt; [18,] 16.0 35.6 9.38 23.2</span></span>
-<span><span class="co">#&gt; [19,] 16.0 35.5 9.38 23.3</span></span>
+<span><span class="co">#&gt; [14,] 16.2 35.9 9.39 23.0</span></span>
+<span><span class="co">#&gt; [15,] 16.1 35.9 9.39 23.1</span></span>
+<span><span class="co">#&gt; [16,] 16.1 35.8 9.39 23.1</span></span>
+<span><span class="co">#&gt; [17,] 16.0 35.7 9.39 23.2</span></span>
+<span><span class="co">#&gt; [18,] 16.0 35.7 9.39 23.2</span></span>
+<span><span class="co">#&gt; [19,] 16.0 35.6 9.39 23.3</span></span>
 <span><span class="co">#&gt; [20,] 16.0 35.5 9.39 23.3</span></span></code></pre></div>
 <p>MSE:</p>
 <div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="op">(</span><span class="va">mse_bvhar_v2</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mse.html">mse</a></span><span class="op">(</span><span class="va">pred_bvhar_v2</span>, <span class="va">y_test</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;     y1     y2     y3     y4 </span></span>
-<span><span class="co">#&gt;  2.614 19.300  0.249  3.103</span></span></code></pre></div>
+<span><span class="co">#&gt;  2.630 19.668  0.252  3.095</span></span></code></pre></div>
 </div>
 </div>
 <div class="section level3">
@@ -445,8 +451,8 @@ forecasting.</p>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">mean</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist</a></span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/sort.html" class="external-link">sort</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="co">#&gt;   BVAR BVHAR2 BVHAR1    VAR   VHAR </span></span>
-<span><span class="co">#&gt;   6.28   6.32   6.33   7.16   7.77</span></span></code></pre></div>
+<span><span class="co">#&gt; BVHAR2   BVAR BVHAR1    VAR   VHAR </span></span>
+<span><span class="co">#&gt;   6.41   6.43   6.48   7.16   7.77</span></span></code></pre></div>
 <p>For each variable, we can see the error with plot.</p>
 <div class="sourceCode" id="cb22"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span></span>
@@ -470,7 +476,7 @@ forecasting.</p>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">rmape</span>, pred_bench <span class="op">=</span> <span class="va">pred_var</span>, y <span class="op">=</span> <span class="va">y_test</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt;    VAR   VHAR   BVAR BVHAR1 BVHAR2 </span></span>
-<span><span class="co">#&gt;  1.000  1.020  0.956  0.944  0.943</span></span></code></pre></div>
+<span><span class="co">#&gt;  1.000  1.020  0.965  0.954  0.948</span></span></code></pre></div>
 </div>
 </div>
 </div>
@@ -551,7 +557,7 @@ above.</p>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">rmape</span>, pred_bench <span class="op">=</span> <span class="va">var_roll</span>, y <span class="op">=</span> <span class="va">y_test</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt;    VAR   VHAR   BVAR BVHAR1 BVHAR2 </span></span>
-<span><span class="co">#&gt;  1.000  0.989  0.980  0.972  0.972</span></span></code></pre></div>
+<span><span class="co">#&gt;  1.000  0.989  0.982  0.973  0.973</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="expanding-windows">Expanding Windows<a class="anchor" aria-label="anchor" href="#expanding-windows"></a>
@@ -602,7 +608,7 @@ starting point. The other is same.</p>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">rmape</span>, pred_bench <span class="op">=</span> <span class="va">var_expand</span>, y <span class="op">=</span> <span class="va">y_test</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt;    VAR   VHAR   BVAR BVHAR1 BVHAR2 </span></span>
-<span><span class="co">#&gt;  1.000  0.985  0.980  0.968  0.968</span></span></code></pre></div>
+<span><span class="co">#&gt;  1.000  0.985  0.982  0.969  0.969</span></span></code></pre></div>
 </div>
 </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

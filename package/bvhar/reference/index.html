@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,22 +19,28 @@
 <li class="active nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a></li>
-    <li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
+    <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-news" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">News</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/bvhar/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
 <li class="nav-item"><a class="nav-link" href="..//software/" aria-label="Back to the page"><span class="fa fa-home"></span> Go back to the Software page</a></li>
@@ -49,9 +55,9 @@
     </div>
 
     <div class="section level2">
-      <h2 id="the-bvhar-package">The bvhar package<a class="anchor" aria-label="anchor" href="#the-bvhar-package"></a></h2>
+      <h2 id="package">Package<a class="anchor" aria-label="anchor" href="#package"></a></h2>
 
-
+      <div class="section-desc"><p>The bvhar package</p></div>
 
 
     </div><div class="section level2">
@@ -66,9 +72,9 @@
         </dt>
         <dd>bvhar: Bayesian Vector Heterogeneous Autoregressive Modeling</dd>
       </dl></div><div class="section level2">
-      <h2 id="var">VAR<a class="anchor" aria-label="anchor" href="#var"></a></h2>
+      <h2 id="frequentist-modeling">Frequentist modeling<a class="anchor" aria-label="anchor" href="#frequentist-modeling"></a></h2>
 
-      <div class="section-desc"><p>Vector autoregressive model.</p></div>
+      <div class="section-desc"><p>Vector autoregressive (VAR) and heterogeneous autoregressive (VHAR) models.</p></div>
 
 
     </div><div class="section level2">
@@ -78,186 +84,29 @@
 
       <dl><dt>
 
-          <code><a href="var_lm.html">var_lm()</a></code> <code><a href="var_lm.html">print(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="var_lm.html">knit_print(<i>&lt;varlse&gt;</i>)</a></code>
+          <code><a href="var_lm.html">var_lm()</a></code> <code><a href="var_lm.html">print(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="var_lm.html">logLik(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="var_lm.html">AIC(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="var_lm.html">BIC(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="var_lm.html">is.varlse()</a></code> <code><a href="var_lm.html">is.bvharmod()</a></code> <code><a href="var_lm.html">knit_print(<i>&lt;varlse&gt;</i>)</a></code>
 
         </dt>
         <dd>Fitting Vector Autoregressive Model of Order p Model</dd>
+      </dl><dl><dt>
+
+          <code><a href="vhar_lm.html">vhar_lm()</a></code> <code><a href="vhar_lm.html">print(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="vhar_lm.html">logLik(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="vhar_lm.html">AIC(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="vhar_lm.html">BIC(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="vhar_lm.html">is.vharlse()</a></code> <code><a href="vhar_lm.html">knit_print(<i>&lt;vharlse&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Fitting Vector Heterogeneous Autoregressive Model</dd>
       </dl><dl><dt>
 
           <code><a href="VARtoVMA.html">VARtoVMA()</a></code>
 
         </dt>
         <dd>Convert VAR to VMA(infinite)</dd>
-      </dl></div><div class="section level2">
-      <h2 id="vhar">VHAR<a class="anchor" aria-label="anchor" href="#vhar"></a></h2>
-
-      <div class="section-desc"><p>Vector heterogeneous autoregressive model.</p></div>
-
-
-    </div><div class="section level2">
-
-
-
-
-      <dl><dt>
-
-          <code><a href="vhar_lm.html">vhar_lm()</a></code> <code><a href="vhar_lm.html">print(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="vhar_lm.html">knit_print(<i>&lt;vharlse&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Fitting Vector Heterogeneous Autoregressive Model</dd>
       </dl><dl><dt>
 
           <code><a href="VHARtoVMA.html">VHARtoVMA()</a></code>
 
         </dt>
         <dd>Convert VHAR to VMA(infinite)</dd>
-      </dl></div><div class="section level2">
-      <h2 id="bayesian-model">Bayesian Model<a class="anchor" aria-label="anchor" href="#bayesian-model"></a></h2>
-
-
-
-
-    </div><div class="section level2">
-
-
-
-
-      <dl><dt>
-
-          <code><a href="set_bvar.html">set_bvar()</a></code> <code><a href="set_bvar.html">set_bvar_flat()</a></code> <code><a href="set_bvar.html">set_bvhar()</a></code> <code><a href="set_bvar.html">set_weight_bvhar()</a></code> <code><a href="set_bvar.html">print(<i>&lt;bvharspec&gt;</i>)</a></code> <code><a href="set_bvar.html">knit_print(<i>&lt;bvharspec&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Hyperparameters for Bayesian Models</dd>
       </dl><dl><dt>
-
-          <code><a href="init_ssvs.html">init_ssvs()</a></code> <code><a href="init_ssvs.html">print(<i>&lt;ssvsinit&gt;</i>)</a></code> <code><a href="init_ssvs.html">knit_print(<i>&lt;ssvsinit&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Initial Parameters of Stochastic Search Variable Selection (SSVS) Model</dd>
-      </dl><dl><dt>
-
-          <code><a href="set_ssvs.html">set_ssvs()</a></code> <code><a href="set_ssvs.html">print(<i>&lt;ssvsinput&gt;</i>)</a></code> <code><a href="set_ssvs.html">knit_print(<i>&lt;ssvsinput&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Stochastic Search Variable Selection (SSVS) Hyperparameter for Coefficients Matrix and Cholesky Factor</dd>
-      </dl><dl><dt>
-
-          <code><a href="set_lambda.html">set_lambda()</a></code> <code><a href="set_lambda.html">set_psi()</a></code> <code><a href="set_lambda.html">print(<i>&lt;bvharpriorspec&gt;</i>)</a></code> <code><a href="set_lambda.html">knit_print(<i>&lt;bvharpriorspec&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Hyperpriors for Bayesian Models</dd>
-      </dl><dl><dt>
-
-          <code><a href="set_horseshoe.html">set_horseshoe()</a></code> <code><a href="set_horseshoe.html">print(<i>&lt;horseshoespec&gt;</i>)</a></code> <code><a href="set_horseshoe.html">knit_print(<i>&lt;horseshoespec&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Horseshoe Prior Specification</dd>
-      </dl><dl><dt>
-
-          <code><a href="set_sv.html">set_sv()</a></code> <code><a href="set_sv.html">print(<i>&lt;svspec&gt;</i>)</a></code>
-          <span class="badge lifecycle lifecycle-experimental">experimental</span>
-        </dt>
-        <dd>Stochastic Volatility Specification</dd>
-      </dl><dl><dt>
-
-          <code><a href="set_intercept.html">set_intercept()</a></code> <code><a href="set_intercept.html">print(<i>&lt;interceptspec&gt;</i>)</a></code> <code><a href="set_intercept.html">knit_print(<i>&lt;interceptspec&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Prior for Constant Term</dd>
-      </dl></div><div class="section level2">
-      <h2 id="bvar">BVAR<a class="anchor" aria-label="anchor" href="#bvar"></a></h2>
-
-      <div class="section-desc"><p>Bayesian VAR model.</p></div>
-
-
-    </div><div class="section level2">
-
-
-
-
-      <dl><dt>
-
-          <code><a href="bvar_minnesota.html">bvar_minnesota()</a></code> <code><a href="bvar_minnesota.html">print(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="bvar_minnesota.html">knit_print(<i>&lt;bvarmn&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Fitting Bayesian VAR(p) of Minnesota Prior</dd>
-      </dl><dl><dt>
-
-          <code><a href="bvar_flat.html">bvar_flat()</a></code> <code><a href="bvar_flat.html">print(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="bvar_flat.html">knit_print(<i>&lt;bvarflat&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Fitting Bayesian VAR(p) of Flat Prior</dd>
-      </dl><dl><dt>
-
-          <code><a href="bvar_niwhm.html">bvar_niwhm()</a></code> <code><a href="bvar_niwhm.html">print(<i>&lt;bvarhm&gt;</i>)</a></code> <code><a href="bvar_niwhm.html">knit_print(<i>&lt;bvarhm&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Fitting Hierarchical Bayesian VAR(p)</dd>
-      </dl><dl><dt>
-
-          <code><a href="bvar_sv.html">bvar_sv()</a></code> <code><a href="bvar_sv.html">print(<i>&lt;bvarsv&gt;</i>)</a></code> <code><a href="bvar_sv.html">knit_print(<i>&lt;bvarsv&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Fitting Bayesian VAR-SV</dd>
-      </dl><dl><dt>
-
-          <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> <code><a href="bvar_ssvs.html">print(<i>&lt;bvarssvs&gt;</i>)</a></code> <code><a href="bvar_ssvs.html">knit_print(<i>&lt;bvarssvs&gt;</i>)</a></code>
-          <span class="badge lifecycle lifecycle-experimental">experimental</span>
-        </dt>
-        <dd>Fitting Bayesian VAR(p) of SSVS Prior</dd>
-      </dl><dl><dt>
-
-          <code><a href="bvar_horseshoe.html">bvar_horseshoe()</a></code> <code><a href="bvar_horseshoe.html">print(<i>&lt;bvarhs&gt;</i>)</a></code> <code><a href="bvar_horseshoe.html">knit_print(<i>&lt;bvarhs&gt;</i>)</a></code>
-          <span class="badge lifecycle lifecycle-experimental">experimental</span>
-        </dt>
-        <dd>Fitting Bayesian VAR(p) of Horseshoe Prior</dd>
-      </dl></div><div class="section level2">
-      <h2 id="bvhar">BVHAR<a class="anchor" aria-label="anchor" href="#bvhar"></a></h2>
-
-      <div class="section-desc"><p>Bayesian VHAR model.</p></div>
-
-
-    </div><div class="section level2">
-
-
-
-
-      <dl><dt>
-
-          <code><a href="bvhar_minnesota.html">bvhar_minnesota()</a></code> <code><a href="bvhar_minnesota.html">print(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="bvhar_minnesota.html">knit_print(<i>&lt;bvharmn&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Fitting Bayesian VHAR of Minnesota Prior</dd>
-      </dl><dl><dt>
-
-          <code><a href="bvhar_sv.html">bvhar_sv()</a></code> <code><a href="bvhar_sv.html">print(<i>&lt;bvharsv&gt;</i>)</a></code> <code><a href="bvhar_sv.html">knit_print(<i>&lt;bvharsv&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Fitting Bayesian VHAR-SV</dd>
-      </dl><dl><dt>
-
-          <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> <code><a href="bvhar_ssvs.html">print(<i>&lt;bvharssvs&gt;</i>)</a></code> <code><a href="bvhar_ssvs.html">knit_print(<i>&lt;bvharssvs&gt;</i>)</a></code>
-          <span class="badge lifecycle lifecycle-experimental">experimental</span>
-        </dt>
-        <dd>Fitting Bayesian VHAR of SSVS Prior</dd>
-      </dl><dl><dt>
-
-          <code><a href="bvhar_horseshoe.html">bvhar_horseshoe()</a></code> <code><a href="bvhar_horseshoe.html">print(<i>&lt;bvharhs&gt;</i>)</a></code> <code><a href="bvhar_horseshoe.html">knit_print(<i>&lt;bvharhs&gt;</i>)</a></code>
-          <span class="badge lifecycle lifecycle-experimental">experimental</span>
-        </dt>
-        <dd>Fitting Bayesian VHAR of Horseshoe Prior</dd>
-      </dl></div><div class="section level2">
-      <h2 id="summary-method">Summary method<a class="anchor" aria-label="anchor" href="#summary-method"></a></h2>
-
-
-
-
-    </div><div class="section level2">
-
-
-
-
-      <dl><dt>
 
           <code><a href="summary.varlse.html">summary(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="summary.varlse.html">print(<i>&lt;summary.varlse&gt;</i>)</a></code> <code><a href="summary.varlse.html">knit_print(<i>&lt;summary.varlse&gt;</i>)</a></code>
 
@@ -269,6 +118,106 @@
 
         </dt>
         <dd>Summarizing Vector HAR Model</dd>
+      </dl></div><div class="section level2">
+      <h2 id="prior-specification">Prior specification<a class="anchor" aria-label="anchor" href="#prior-specification"></a></h2>
+
+      <div class="section-desc"><p>Prior settings for Bayesian models.</p></div>
+
+
+    </div><div class="section level2">
+
+
+
+
+      <dl><dt>
+
+          <code><a href="set_bvar.html">set_bvar()</a></code> <code><a href="set_bvar.html">set_bvar_flat()</a></code> <code><a href="set_bvar.html">set_bvhar()</a></code> <code><a href="set_bvar.html">set_weight_bvhar()</a></code> <code><a href="set_bvar.html">print(<i>&lt;bvharspec&gt;</i>)</a></code> <code><a href="set_bvar.html">is.bvharspec()</a></code> <code><a href="set_bvar.html">knit_print(<i>&lt;bvharspec&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Hyperparameters for Bayesian Models</dd>
+      </dl><dl><dt>
+
+          <code><a href="set_ssvs.html">set_ssvs()</a></code> <code><a href="set_ssvs.html">print(<i>&lt;ssvsinput&gt;</i>)</a></code> <code><a href="set_ssvs.html">is.ssvsinput()</a></code> <code><a href="set_ssvs.html">knit_print(<i>&lt;ssvsinput&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Stochastic Search Variable Selection (SSVS) Hyperparameter for Coefficients Matrix and Cholesky Factor</dd>
+      </dl><dl><dt>
+
+          <code><a href="set_lambda.html">set_lambda()</a></code> <code><a href="set_lambda.html">set_psi()</a></code> <code><a href="set_lambda.html">print(<i>&lt;bvharpriorspec&gt;</i>)</a></code> <code><a href="set_lambda.html">is.bvharpriorspec()</a></code> <code><a href="set_lambda.html">knit_print(<i>&lt;bvharpriorspec&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Hyperpriors for Bayesian Models</dd>
+      </dl><dl><dt>
+
+          <code><a href="set_horseshoe.html">set_horseshoe()</a></code> <code><a href="set_horseshoe.html">print(<i>&lt;horseshoespec&gt;</i>)</a></code> <code><a href="set_horseshoe.html">is.horseshoespec()</a></code> <code><a href="set_horseshoe.html">knit_print(<i>&lt;horseshoespec&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Horseshoe Prior Specification</dd>
+      </dl><dl><dt>
+
+          <code><a href="set_ng.html">set_ng()</a></code> <code><a href="set_ng.html">print(<i>&lt;ngspec&gt;</i>)</a></code> <code><a href="set_ng.html">is.ngspec()</a></code>
+          <span class="badge lifecycle lifecycle-experimental">experimental</span>
+        </dt>
+        <dd>Normal-Gamma Hyperparameter for Coefficients and Contemporaneous Coefficients</dd>
+      </dl><dl><dt>
+
+          <code><a href="set_dl.html">set_dl()</a></code> <code><a href="set_dl.html">print(<i>&lt;dlspec&gt;</i>)</a></code> <code><a href="set_dl.html">is.dlspec()</a></code>
+          <span class="badge lifecycle lifecycle-experimental">experimental</span>
+        </dt>
+        <dd>Dirichlet-Laplace Hyperparameter for Coefficients and Contemporaneous Coefficients</dd>
+      </dl><dl><dt>
+
+          <code><a href="set_ldlt.html">set_ldlt()</a></code> <code><a href="set_ldlt.html">set_sv()</a></code> <code><a href="set_ldlt.html">print(<i>&lt;covspec&gt;</i>)</a></code> <code><a href="set_ldlt.html">is.covspec()</a></code> <code><a href="set_ldlt.html">is.svspec()</a></code> <code><a href="set_ldlt.html">is.ldltspec()</a></code>
+          <span class="badge lifecycle lifecycle-experimental">experimental</span>
+        </dt>
+        <dd>Covariance Matrix Prior Specification</dd>
+      </dl><dl><dt>
+
+          <code><a href="set_intercept.html">set_intercept()</a></code> <code><a href="set_intercept.html">print(<i>&lt;interceptspec&gt;</i>)</a></code> <code><a href="set_intercept.html">is.interceptspec()</a></code> <code><a href="set_intercept.html">knit_print(<i>&lt;interceptspec&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Prior for Constant Term</dd>
+      </dl></div><div class="section level2">
+      <h2 id="bayesian-modeling">Bayesian modeling<a class="anchor" aria-label="anchor" href="#bayesian-modeling"></a></h2>
+
+      <div class="section-desc"><p>Bayesian VAR and Bayesian VHAR models.</p></div>
+
+
+    </div><div class="section level2">
+
+
+
+
+      <dl><dt>
+
+          <code><a href="var_bayes.html">var_bayes()</a></code> <code><a href="var_bayes.html">print(<i>&lt;bvarldlt&gt;</i>)</a></code> <code><a href="var_bayes.html">knit_print(<i>&lt;bvarldlt&gt;</i>)</a></code>
+          <span class="badge lifecycle lifecycle-maturing">maturing</span>
+        </dt>
+        <dd>Fitting Bayesian VAR with Coefficient and Covariance Prior</dd>
+      </dl><dl><dt>
+
+          <code><a href="bvar_minnesota.html">bvar_minnesota()</a></code> <code><a href="bvar_minnesota.html">print(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="bvar_minnesota.html">print(<i>&lt;bvarhm&gt;</i>)</a></code> <code><a href="bvar_minnesota.html">logLik(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="bvar_minnesota.html">AIC(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="bvar_minnesota.html">BIC(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="bvar_minnesota.html">is.bvarmn()</a></code> <code><a href="bvar_minnesota.html">knit_print(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="bvar_minnesota.html">knit_print(<i>&lt;bvarhm&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Fitting Bayesian VAR(p) of Minnesota Prior</dd>
+      </dl><dl><dt>
+
+          <code><a href="bvar_flat.html">bvar_flat()</a></code> <code><a href="bvar_flat.html">print(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="bvar_flat.html">logLik(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="bvar_flat.html">AIC(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="bvar_flat.html">BIC(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="bvar_flat.html">is.bvarflat()</a></code> <code><a href="bvar_flat.html">knit_print(<i>&lt;bvarflat&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Fitting Bayesian VAR(p) of Flat Prior</dd>
+      </dl><dl><dt>
+
+          <code><a href="vhar_bayes.html">vhar_bayes()</a></code> <code><a href="vhar_bayes.html">print(<i>&lt;bvharldlt&gt;</i>)</a></code> <code><a href="vhar_bayes.html">knit_print(<i>&lt;bvharldlt&gt;</i>)</a></code>
+          <span class="badge lifecycle lifecycle-maturing">maturing</span>
+        </dt>
+        <dd>Fitting Bayesian VHAR with Coefficient and Covariance Prior</dd>
+      </dl><dl><dt>
+
+          <code><a href="bvhar_minnesota.html">bvhar_minnesota()</a></code> <code><a href="bvhar_minnesota.html">print(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="bvhar_minnesota.html">print(<i>&lt;bvharhm&gt;</i>)</a></code> <code><a href="bvhar_minnesota.html">logLik(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="bvhar_minnesota.html">AIC(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="bvhar_minnesota.html">BIC(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="bvhar_minnesota.html">is.bvharmn()</a></code> <code><a href="bvhar_minnesota.html">knit_print(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="bvhar_minnesota.html">knit_print(<i>&lt;bvharhm&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Fitting Bayesian VHAR of Minnesota Prior</dd>
       </dl><dl><dt>
 
           <code><a href="summary.normaliw.html">summary(<i>&lt;normaliw&gt;</i>)</a></code> <code><a href="summary.normaliw.html">print(<i>&lt;summary.normaliw&gt;</i>)</a></code> <code><a href="summary.normaliw.html">knit_print(<i>&lt;summary.normaliw&gt;</i>)</a></code>
@@ -277,10 +226,81 @@
         <dd>Summarizing Bayesian Multivariate Time Series Model</dd>
       </dl><dl><dt>
 
-          <code><a href="summary.ssvsmod.html">print(<i>&lt;summary.bvharsp&gt;</i>)</a></code> <code><a href="summary.ssvsmod.html">knit_print(<i>&lt;summary.ssvsmod&gt;</i>)</a></code> <code><a href="summary.ssvsmod.html">summary(<i>&lt;ssvsmod&gt;</i>)</a></code> <code><a href="summary.ssvsmod.html">summary(<i>&lt;hsmod&gt;</i>)</a></code>
+          <code><a href="summary.bvharsp.html">print(<i>&lt;summary.bvharsp&gt;</i>)</a></code> <code><a href="summary.bvharsp.html">knit_print(<i>&lt;summary.bvharsp&gt;</i>)</a></code> <code><a href="summary.bvharsp.html">summary(<i>&lt;ssvsmod&gt;</i>)</a></code> <code><a href="summary.bvharsp.html">summary(<i>&lt;hsmod&gt;</i>)</a></code> <code><a href="summary.bvharsp.html">summary(<i>&lt;ngmod&gt;</i>)</a></code>
 
         </dt>
         <dd>Summarizing BVAR and BVHAR with Shrinkage Priors</dd>
+      </dl></div><div class="section level2">
+      <h2 id="deprecated">Deprecated<a class="anchor" aria-label="anchor" href="#deprecated"></a></h2>
+
+      <div class="section-desc"><p>Deprecated functions that will be removed soon</p></div>
+
+
+    </div><div class="section level2">
+
+
+
+
+      <dl><dt>
+
+          <code><a href="bvar_sv.html">bvar_sv()</a></code> <code><a href="bvar_sv.html">print(<i>&lt;bvarsv&gt;</i>)</a></code> <code><a href="bvar_sv.html">knit_print(<i>&lt;bvarsv&gt;</i>)</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Fitting Bayesian VAR-SV</dd>
+      </dl><dl><dt>
+
+          <code><a href="bvar_ssvs.html">bvar_ssvs()</a></code> <code><a href="bvar_ssvs.html">print(<i>&lt;bvarssvs&gt;</i>)</a></code> <code><a href="bvar_ssvs.html">knit_print(<i>&lt;bvarssvs&gt;</i>)</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Fitting Bayesian VAR(p) of SSVS Prior</dd>
+      </dl><dl><dt>
+
+          <code><a href="bvar_horseshoe.html">bvar_horseshoe()</a></code> <code><a href="bvar_horseshoe.html">print(<i>&lt;bvarhs&gt;</i>)</a></code> <code><a href="bvar_horseshoe.html">knit_print(<i>&lt;bvarhs&gt;</i>)</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Fitting Bayesian VAR(p) of Horseshoe Prior</dd>
+      </dl><dl><dt>
+
+          <code><a href="bvhar_sv.html">bvhar_sv()</a></code> <code><a href="bvhar_sv.html">print(<i>&lt;bvharsv&gt;</i>)</a></code> <code><a href="bvhar_sv.html">knit_print(<i>&lt;bvharsv&gt;</i>)</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Fitting Bayesian VHAR-SV</dd>
+      </dl><dl><dt>
+
+          <code><a href="bvhar_ssvs.html">bvhar_ssvs()</a></code> <code><a href="bvhar_ssvs.html">print(<i>&lt;bvharssvs&gt;</i>)</a></code> <code><a href="bvhar_ssvs.html">knit_print(<i>&lt;bvharssvs&gt;</i>)</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Fitting Bayesian VHAR of SSVS Prior</dd>
+      </dl><dl><dt>
+
+          <code><a href="bvhar_horseshoe.html">bvhar_horseshoe()</a></code> <code><a href="bvhar_horseshoe.html">print(<i>&lt;bvharhs&gt;</i>)</a></code> <code><a href="bvhar_horseshoe.html">knit_print(<i>&lt;bvharhs&gt;</i>)</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Fitting Bayesian VHAR of Horseshoe Prior</dd>
+      </dl><dl><dt>
+
+          <code><a href="init_ssvs.html">init_ssvs()</a></code> <code><a href="init_ssvs.html">print(<i>&lt;ssvsinit&gt;</i>)</a></code> <code><a href="init_ssvs.html">is.ssvsinit()</a></code> <code><a href="init_ssvs.html">knit_print(<i>&lt;ssvsinit&gt;</i>)</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Initial Parameters of Stochastic Search Variable Selection (SSVS) Model</dd>
+      </dl><dl><dt>
+
+          <code><a href="choose_ssvs.html">choose_ssvs()</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Choose the Hyperparameters Set of SSVS-VAR using a Default Semiautomatic Approach</dd>
+      </dl><dl><dt>
+
+          <code><a href="sim_ssvs_var.html">sim_ssvs_var()</a></code> <code><a href="sim_ssvs_var.html">sim_ssvs_vhar()</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Generate SSVS Parameters</dd>
+      </dl><dl><dt>
+
+          <code><a href="sim_horseshoe_var.html">sim_horseshoe_var()</a></code> <code><a href="sim_horseshoe_var.html">sim_horseshoe_vhar()</a></code>
+          <span class="badge lifecycle lifecycle-deprecated">deprecated</span>
+        </dt>
+        <dd>Generate Horseshoe Parameters</dd>
       </dl></div><div class="section level2">
       <h2 id="forecasting">Forecasting<a class="anchor" aria-label="anchor" href="#forecasting"></a></h2>
 
@@ -294,7 +314,7 @@
 
       <dl><dt>
 
-          <code><a href="predict.varlse.html">predict(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;bvarssvs&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;bvharssvs&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;bvarhs&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;bvharhs&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;bvarsv&gt;</i>)</a></code> <code><a href="predict.varlse.html">predict(<i>&lt;bvharsv&gt;</i>)</a></code> <code><a href="predict.varlse.html">print(<i>&lt;predbvhar&gt;</i>)</a></code> <code><a href="predict.varlse.html">knit_print(<i>&lt;predbvhar&gt;</i>)</a></code>
+          <code><a href="predict.html">predict(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvarssvs&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvharssvs&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvarhs&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvharhs&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvarldlt&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvharldlt&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvarsv&gt;</i>)</a></code> <code><a href="predict.html">predict(<i>&lt;bvharsv&gt;</i>)</a></code> <code><a href="predict.html">print(<i>&lt;predbvhar&gt;</i>)</a></code> <code><a href="predict.html">is.predbvhar()</a></code> <code><a href="predict.html">knit_print(<i>&lt;predbvhar&gt;</i>)</a></code>
 
         </dt>
         <dd>Forecasting Multivariate Time Series</dd>
@@ -306,7 +326,7 @@
         <dd>Split a Time Series Dataset into Train-Test Set</dd>
       </dl><dl><dt>
 
-          <code><a href="forecast_roll.html">forecast_roll()</a></code> <code><a href="forecast_roll.html">print(<i>&lt;bvharcv&gt;</i>)</a></code> <code><a href="forecast_roll.html">knit_print(<i>&lt;bvharcv&gt;</i>)</a></code>
+          <code><a href="forecast_roll.html">forecast_roll()</a></code> <code><a href="forecast_roll.html">print(<i>&lt;bvharcv&gt;</i>)</a></code> <code><a href="forecast_roll.html">is.bvharcv()</a></code> <code><a href="forecast_roll.html">knit_print(<i>&lt;bvharcv&gt;</i>)</a></code>
 
         </dt>
         <dd>Out-of-sample Forecasting based on Rolling Window</dd>
@@ -316,6 +336,35 @@
 
         </dt>
         <dd>Out-of-sample Forecasting based on Expanding Window</dd>
+      </dl></div><div class="section level2">
+      <h2 id="structural-analysis">Structural analysis<a class="anchor" aria-label="anchor" href="#structural-analysis"></a></h2>
+
+
+
+
+    </div><div class="section level2">
+
+
+
+
+      <dl><dt>
+
+          <code><a href="irf.html">print(<i>&lt;bvharirf&gt;</i>)</a></code> <code><a href="irf.html">irf()</a></code> <code><a href="irf.html">is.bvharirf()</a></code> <code><a href="irf.html">knit_print(<i>&lt;bvharirf&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Impulse Response Analysis</dd>
+      </dl><dl><dt>
+
+          <code><a href="spillover.html">spillover()</a></code> <code><a href="spillover.html">print(<i>&lt;bvharspillover&gt;</i>)</a></code> <code><a href="spillover.html">knit_print(<i>&lt;bvharspillover&gt;</i>)</a></code>
+
+        </dt>
+        <dd>h-step ahead Normalized Spillover</dd>
+      </dl><dl><dt>
+
+          <code><a href="dynamic_spillover.html">dynamic_spillover()</a></code> <code><a href="dynamic_spillover.html">print(<i>&lt;bvhardynsp&gt;</i>)</a></code> <code><a href="dynamic_spillover.html">knit_print(<i>&lt;bvhardynsp&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Dynamic Spillover</dd>
       </dl></div><div class="section level2">
       <h2 id="evaluation">Evaluation<a class="anchor" aria-label="anchor" href="#evaluation"></a></h2>
 
@@ -441,12 +490,6 @@
 
         </dt>
         <dd>Evaluate the Estimation Based on Relative Spectral Norm Error</dd>
-      </dl><dl><dt>
-
-          <code><a href="lpl.html">lpl()</a></code>
-
-        </dt>
-        <dd>Evaluate the Model Based on Log Predictive Likelihood</dd>
       </dl></div><div class="section level2">
       <h2 id="tuning">Tuning<a class="anchor" aria-label="anchor" href="#tuning"></a></h2>
 
@@ -466,13 +509,13 @@
         <dd>Extracting Log of Marginal Likelihood</dd>
       </dl><dl><dt>
 
-          <code><a href="choose_bvar.html">choose_bvar()</a></code> <code><a href="choose_bvar.html">choose_bvhar()</a></code> <code><a href="choose_bvar.html">print(<i>&lt;bvharemp&gt;</i>)</a></code> <code><a href="choose_bvar.html">knit_print(<i>&lt;bvharemp&gt;</i>)</a></code>
+          <code><a href="choose_bvar.html">choose_bvar()</a></code> <code><a href="choose_bvar.html">choose_bvhar()</a></code> <code><a href="choose_bvar.html">print(<i>&lt;bvharemp&gt;</i>)</a></code> <code><a href="choose_bvar.html">is.bvharemp()</a></code> <code><a href="choose_bvar.html">knit_print(<i>&lt;bvharemp&gt;</i>)</a></code>
 
         </dt>
         <dd>Finding the Set of Hyperparameters of Individual Bayesian Model</dd>
       </dl><dl><dt>
 
-          <code><a href="bound_bvhar.html">bound_bvhar()</a></code> <code><a href="bound_bvhar.html">print(<i>&lt;boundbvharemp&gt;</i>)</a></code> <code><a href="bound_bvhar.html">knit_print(<i>&lt;boundbvharemp&gt;</i>)</a></code>
+          <code><a href="bound_bvhar.html">bound_bvhar()</a></code> <code><a href="bound_bvhar.html">print(<i>&lt;boundbvharemp&gt;</i>)</a></code> <code><a href="bound_bvhar.html">is.boundbvharemp()</a></code> <code><a href="bound_bvhar.html">knit_print(<i>&lt;boundbvharemp&gt;</i>)</a></code>
           <span class="badge lifecycle lifecycle-experimental">experimental</span>
         </dt>
         <dd>Setting Empirical Bayes Optimization Bounds</dd>
@@ -482,12 +525,6 @@
           <span class="badge lifecycle lifecycle-experimental">experimental</span>
         </dt>
         <dd>Finding the Set of Hyperparameters of Bayesian Model</dd>
-      </dl><dl><dt>
-
-          <code><a href="choose_ssvs.html">choose_ssvs()</a></code>
-          <span class="badge lifecycle lifecycle-experimental">experimental</span>
-        </dt>
-        <dd>Choose the Hyperparameters Set of SSVS-VAR using a Default Semiautomatic Approach</dd>
       </dl></div><div class="section level2">
       <h2 id="information-criteria">Information criteria<a class="anchor" aria-label="anchor" href="#information-criteria"></a></h2>
 
@@ -501,46 +538,16 @@
 
       <dl><dt>
 
-          <code><a href="AIC.varlse.html">AIC(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="AIC.varlse.html">AIC(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="AIC.varlse.html">AIC(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="AIC.varlse.html">AIC(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="AIC.varlse.html">AIC(<i>&lt;bvharmn&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Akaike's Information Criterion of Multivariate Time Series Model</dd>
-      </dl><dl><dt>
-
-          <code><a href="BIC.varlse.html">BIC(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="BIC.varlse.html">BIC(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="BIC.varlse.html">BIC(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="BIC.varlse.html">BIC(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="BIC.varlse.html">BIC(<i>&lt;bvharmn&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Bayesian Information Criterion of Multivariate Time Series Model</dd>
-      </dl><dl><dt>
-
           <code><a href="FPE.html">FPE()</a></code>
 
         </dt>
         <dd>Final Prediction Error Criterion</dd>
       </dl><dl><dt>
 
-          <code><a href="FPE.varlse.html">FPE(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="FPE.varlse.html">FPE(<i>&lt;vharlse&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Final Prediction Error Criterion of Multivariate Time Series Model</dd>
-      </dl><dl><dt>
-
           <code><a href="HQ.html">HQ()</a></code>
 
         </dt>
         <dd>Hannan-Quinn Criterion</dd>
-      </dl><dl><dt>
-
-          <code><a href="HQ.varlse.html">HQ(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="HQ.varlse.html">HQ(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="HQ.varlse.html">HQ(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="HQ.varlse.html">HQ(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="HQ.varlse.html">HQ(<i>&lt;bvharmn&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Hannan-Quinn Criterion of Multivariate Time Series Model</dd>
-      </dl><dl><dt>
-
-          <code><a href="logLik.varlse.html">logLik(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="logLik.varlse.html">logLik(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="logLik.varlse.html">logLik(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="logLik.varlse.html">logLik(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="logLik.varlse.html">logLik(<i>&lt;bvharmn&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Extract Log-Likelihood of Multivariate Time Series Model</dd>
       </dl><dl><dt>
 
           <code><a href="choose_var.html">choose_var()</a></code>
@@ -612,6 +619,12 @@
 
         </dt>
         <dd>Plot the Heatmap of SSVS Coefficients</dd>
+      </dl><dl><dt>
+
+          <code><a href="autoplot.bvhardynsp.html">autoplot(<i>&lt;bvhardynsp&gt;</i>)</a></code>
+
+        </dt>
+        <dd>Dynamic Spillover Indices Plot</dd>
       </dl></div><div class="section level2">
       <h2 id="simulation-and-random-generation">Simulation and Random Generation<a class="anchor" aria-label="anchor" href="#simulation-and-random-generation"></a></h2>
 
@@ -679,16 +692,10 @@
         <dd>Generate Multivariate t Random Vector</dd>
       </dl><dl><dt>
 
-          <code><a href="sim_ssvs_var.html">sim_ssvs_var()</a></code> <code><a href="sim_ssvs_var.html">sim_ssvs_vhar()</a></code>
+          <code><a href="sim_gig.html">sim_gig()</a></code>
 
         </dt>
-        <dd>Generate SSVS Parameters</dd>
-      </dl><dl><dt>
-
-          <code><a href="sim_horseshoe_var.html">sim_horseshoe_var()</a></code> <code><a href="sim_horseshoe_var.html">sim_horseshoe_vhar()</a></code>
-
-        </dt>
-        <dd>Generate Horseshoe Parameters</dd>
+        <dd>Generate Generalized Inverse Gaussian Distribution</dd>
       </dl></div><div class="section level2">
       <h2 id="data">Data<a class="anchor" aria-label="anchor" href="#data"></a></h2>
 
@@ -706,12 +713,6 @@
 
         </dt>
         <dd>CBOE ETF Volatility Index Dataset</dd>
-      </dl><dl><dt>
-
-          <code><a href="oxfordman.html">oxfordman_rv</a></code> <code><a href="oxfordman.html">oxfordman_rk</a></code>
-
-        </dt>
-        <dd>Oxford-Man Institute Realized Library</dd>
       </dl></div><div class="section level2">
       <h2 id="other-generic-functions">Other generic functions<a class="anchor" aria-label="anchor" href="#other-generic-functions"></a></h2>
 
@@ -725,22 +726,10 @@
 
       <dl><dt>
 
-          <code><a href="analyze_ir.html">print(<i>&lt;bvharirf&gt;</i>)</a></code> <code><a href="analyze_ir.html">analyze_ir()</a></code> <code><a href="analyze_ir.html">knit_print(<i>&lt;bvharirf&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Impulse Response Analysis</dd>
-      </dl><dl><dt>
-
           <code><a href="stableroot.html">stableroot()</a></code>
 
         </dt>
         <dd>Roots of characteristic polynomial</dd>
-      </dl><dl><dt>
-
-          <code><a href="stableroot.varlse.html">stableroot(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="stableroot.varlse.html">stableroot(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="stableroot.varlse.html">stableroot(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="stableroot.varlse.html">stableroot(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="stableroot.varlse.html">stableroot(<i>&lt;bvharmn&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Characteristic polynomial roots for VAR Coefficient Matrix</dd>
       </dl><dl><dt>
 
           <code><a href="is.stable.html">is.stable()</a></code>
@@ -749,40 +738,22 @@
         <dd>Stability of the process</dd>
       </dl><dl><dt>
 
-          <code><a href="is.stable.varlse.html">is.stable(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="is.stable.varlse.html">is.stable(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="is.stable.varlse.html">is.stable(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="is.stable.varlse.html">is.stable(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="is.stable.varlse.html">is.stable(<i>&lt;bvharmn&gt;</i>)</a></code>
-
-        </dt>
-        <dd>Stability of VAR Coefficient Matrix</dd>
-      </dl><dl><dt>
-
-          <code><a href="coef.varlse.html">coef(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="coef.varlse.html">coef(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="coef.varlse.html">coef(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="coef.varlse.html">coef(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="coef.varlse.html">coef(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="coef.varlse.html">coef(<i>&lt;bvharsp&gt;</i>)</a></code> <code><a href="coef.varlse.html">coef(<i>&lt;summary.bvharsp&gt;</i>)</a></code>
+          <code><a href="coef.html">coef(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="coef.html">coef(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="coef.html">coef(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="coef.html">coef(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="coef.html">coef(<i>&lt;bvharmn&gt;</i>)</a></code> <code><a href="coef.html">coef(<i>&lt;bvharsp&gt;</i>)</a></code> <code><a href="coef.html">coef(<i>&lt;summary.bvharsp&gt;</i>)</a></code>
 
         </dt>
         <dd>Coefficient Matrix of Multivariate Time Series Models</dd>
       </dl><dl><dt>
 
-          <code><a href="residuals.varlse.html">residuals(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="residuals.varlse.html">residuals(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="residuals.varlse.html">residuals(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="residuals.varlse.html">residuals(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="residuals.varlse.html">residuals(<i>&lt;bvharmn&gt;</i>)</a></code>
+          <code><a href="residuals.html">residuals(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="residuals.html">residuals(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="residuals.html">residuals(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="residuals.html">residuals(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="residuals.html">residuals(<i>&lt;bvharmn&gt;</i>)</a></code>
 
         </dt>
         <dd>Residual Matrix from Multivariate Time Series Models</dd>
       </dl><dl><dt>
 
-          <code><a href="fitted.varlse.html">fitted(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="fitted.varlse.html">fitted(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="fitted.varlse.html">fitted(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="fitted.varlse.html">fitted(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="fitted.varlse.html">fitted(<i>&lt;bvharmn&gt;</i>)</a></code>
+          <code><a href="fitted.html">fitted(<i>&lt;varlse&gt;</i>)</a></code> <code><a href="fitted.html">fitted(<i>&lt;vharlse&gt;</i>)</a></code> <code><a href="fitted.html">fitted(<i>&lt;bvarmn&gt;</i>)</a></code> <code><a href="fitted.html">fitted(<i>&lt;bvarflat&gt;</i>)</a></code> <code><a href="fitted.html">fitted(<i>&lt;bvharmn&gt;</i>)</a></code>
 
         </dt>
         <dd>Fitted Matrix from Multivariate Time Series Models</dd>
-      </dl><dl><dt>
-
-          <code><a href="is.varlse.html">is.varlse()</a></code> <code><a href="is.varlse.html">is.vharlse()</a></code> <code><a href="is.varlse.html">is.bvarmn()</a></code> <code><a href="is.varlse.html">is.bvarflat()</a></code> <code><a href="is.varlse.html">is.bvharmn()</a></code> <code><a href="is.varlse.html">is.predbvhar()</a></code> <code><a href="is.varlse.html">is.bvharcv()</a></code> <code><a href="is.varlse.html">is.bvharspec()</a></code> <code><a href="is.varlse.html">is.bvharpriorspec()</a></code> <code><a href="is.varlse.html">is.bvharemp()</a></code> <code><a href="is.varlse.html">is.boundbvharemp()</a></code> <code><a href="is.varlse.html">is.interceptspec()</a></code> <code><a href="is.varlse.html">is.ssvsinput()</a></code> <code><a href="is.varlse.html">is.ssvsinit()</a></code> <code><a href="is.varlse.html">is.horseshoespec()</a></code> <code><a href="is.varlse.html">is.svspec()</a></code>
-
-        </dt>
-        <dd>See if the Object a class in this package</dd>
-      </dl><dl><dt>
-
-          <code><a href="split_coef.html">split_coef()</a></code>
-
-        </dt>
-        <dd>Splitting Coefficient Matrix into List</dd>
       </dl></div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside></div>

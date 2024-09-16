@@ -28,7 +28,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,11 +42,11 @@
 <li class="active nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
-<li><a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a></li>
-    <li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
+<li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
+    <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul>
 </li>
 <li class="nav-item dropdown">
@@ -55,12 +55,18 @@
 <li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul>
 </li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul>
 <ul class="navbar-nav">
@@ -124,7 +130,7 @@ Normal(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semant
 <span><span class="co">#&gt; [3,]  0.330 -0.820</span></span></code></pre></div>
 <p>The output of <code><a href="../reference/sim_matgaussian.html">sim_matgaussian()</a></code> is a matrix.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="../reference/sim_matgaussian.html">sim_matgaussian</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html" class="external-link">matrix</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">20</span>, nrow <span class="op">=</span> <span class="fl">4</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/diag.html" class="external-link">diag</a></span><span class="op">(</span><span class="fl">4</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/diag.html" class="external-link">diag</a></span><span class="op">(</span><span class="fl">5</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/sim_matgaussian.html">sim_matgaussian</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html" class="external-link">matrix</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">20</span>, nrow <span class="op">=</span> <span class="fl">4</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/diag.html" class="external-link">diag</a></span><span class="op">(</span><span class="fl">4</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/diag.html" class="external-link">diag</a></span><span class="op">(</span><span class="fl">5</span><span class="op">)</span>, <span class="cn">FALSE</span><span class="op">)</span></span>
 <span><span class="co">#&gt;      [,1] [,2]  [,3] [,4] [,5]</span></span>
 <span><span class="co">#&gt; [1,] 1.49 5.74  9.58 12.7 18.5</span></span>
 <span><span class="co">#&gt; [2,] 2.39 5.38  7.79 15.1 18.0</span></span>
@@ -148,32 +154,43 @@ condition. As mentioned, it guarantees the existence of the mean.</p>
 <span><span class="co">#&gt; [5,] -0.1305 -0.1015 -0.0988  0.2136  0.7444</span></span></code></pre></div>
 <p>In case of <code><a href="../reference/sim_mniw.html">sim_mniw()</a></code>, it returns list with
 <code>mn</code> (stacked MN matrices) and <code>iw</code> (stacked IW
-matrices):</p>
+matrices). Each <code>mn</code> and <code>iw</code> has draw lists.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="../reference/sim_mniw.html">sim_mniw</a></span><span class="op">(</span><span class="fl">2</span>, <span class="fu"><a href="https://rdrr.io/r/base/matrix.html" class="external-link">matrix</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">20</span>, nrow <span class="op">=</span> <span class="fl">4</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/diag.html" class="external-link">diag</a></span><span class="op">(</span><span class="fl">4</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/diag.html" class="external-link">diag</a></span><span class="op">(</span><span class="fl">5</span><span class="op">)</span>, <span class="fl">7</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/sim_mniw.html">sim_mniw</a></span><span class="op">(</span><span class="fl">2</span>, <span class="fu"><a href="https://rdrr.io/r/base/matrix.html" class="external-link">matrix</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">20</span>, nrow <span class="op">=</span> <span class="fl">4</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/diag.html" class="external-link">diag</a></span><span class="op">(</span><span class="fl">4</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/diag.html" class="external-link">diag</a></span><span class="op">(</span><span class="fl">5</span><span class="op">)</span>, <span class="fl">7</span>, <span class="cn">FALSE</span><span class="op">)</span></span>
 <span><span class="co">#&gt; $mn</span></span>
-<span><span class="co">#&gt;      [,1] [,2]  [,3] [,4] [,5]  [,6] [,7]  [,8] [,9] [,10]</span></span>
-<span><span class="co">#&gt; [1,] 1.19 4.96  8.03 12.7 14.6 0.323 5.07  8.24 13.1  17.4</span></span>
-<span><span class="co">#&gt; [2,] 2.13 5.17 10.41 14.1 19.3 2.022 5.56  9.96 13.9  19.4</span></span>
-<span><span class="co">#&gt; [3,] 3.01 7.15 10.29 14.9 18.1 3.380 7.24 11.34 15.5  17.9</span></span>
-<span><span class="co">#&gt; [4,] 4.59 7.99 12.12 15.0 18.5 3.755 8.79 11.84 15.6  19.6</span></span>
+<span><span class="co">#&gt; $mn[[1]]</span></span>
+<span><span class="co">#&gt;      [,1] [,2]  [,3] [,4] [,5]</span></span>
+<span><span class="co">#&gt; [1,] 1.19 4.96  8.03 12.7 14.6</span></span>
+<span><span class="co">#&gt; [2,] 2.13 5.17 10.41 14.1 19.3</span></span>
+<span><span class="co">#&gt; [3,] 3.01 7.15 10.29 14.9 18.1</span></span>
+<span><span class="co">#&gt; [4,] 4.59 7.99 12.12 15.0 18.5</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $mn[[2]]</span></span>
+<span><span class="co">#&gt;       [,1] [,2]  [,3] [,4] [,5]</span></span>
+<span><span class="co">#&gt; [1,] 0.323 5.07  8.24 13.1 17.4</span></span>
+<span><span class="co">#&gt; [2,] 2.022 5.56  9.96 13.9 19.4</span></span>
+<span><span class="co">#&gt; [3,] 3.380 7.24 11.34 15.5 17.9</span></span>
+<span><span class="co">#&gt; [4,] 3.755 8.79 11.84 15.6 19.6</span></span>
+<span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; $iw</span></span>
-<span><span class="co">#&gt;         [,1]     [,2]     [,3]    [,4]   [,5]     [,6]    [,7]     [,8]    [,9]</span></span>
-<span><span class="co">#&gt; [1,]  0.2887 -0.04393  0.11892 -0.2959  0.110  0.28118 -0.1397  0.00529  0.0283</span></span>
-<span><span class="co">#&gt; [2,] -0.0439  0.33357  0.00197  0.0106 -0.167 -0.13965  0.2876  0.06156 -0.1575</span></span>
-<span><span class="co">#&gt; [3,]  0.1189  0.00197  1.30074 -0.0291  2.210  0.00529  0.0616  0.31282 -0.1372</span></span>
-<span><span class="co">#&gt; [4,] -0.2959  0.01061 -0.02913  0.5072  0.250  0.02831 -0.1575 -0.13724  0.3441</span></span>
-<span><span class="co">#&gt; [5,]  0.1104 -0.16736  2.20957  0.2504  4.623  0.03803 -0.1856 -0.29860  0.1217</span></span>
-<span><span class="co">#&gt;       [,10]</span></span>
-<span><span class="co">#&gt; [1,]  0.038</span></span>
-<span><span class="co">#&gt; [2,] -0.186</span></span>
-<span><span class="co">#&gt; [3,] -0.299</span></span>
-<span><span class="co">#&gt; [4,]  0.122</span></span>
-<span><span class="co">#&gt; [5,]  0.738</span></span></code></pre></div>
-<p>Since each matrix is stacked rowwise, it is actually not that
-readable and practical. This function has been defined for the next
-simulation functions.</p>
+<span><span class="co">#&gt; $iw[[1]]</span></span>
+<span><span class="co">#&gt;         [,1]     [,2]     [,3]    [,4]   [,5]</span></span>
+<span><span class="co">#&gt; [1,]  0.2887 -0.04393  0.11892 -0.2959  0.110</span></span>
+<span><span class="co">#&gt; [2,] -0.0439  0.33357  0.00197  0.0106 -0.167</span></span>
+<span><span class="co">#&gt; [3,]  0.1189  0.00197  1.30074 -0.0291  2.210</span></span>
+<span><span class="co">#&gt; [4,] -0.2959  0.01061 -0.02913  0.5072  0.250</span></span>
+<span><span class="co">#&gt; [5,]  0.1104 -0.16736  2.20957  0.2504  4.623</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $iw[[2]]</span></span>
+<span><span class="co">#&gt;          [,1]    [,2]     [,3]    [,4]   [,5]</span></span>
+<span><span class="co">#&gt; [1,]  0.28118 -0.1397  0.00529  0.0283  0.038</span></span>
+<span><span class="co">#&gt; [2,] -0.13965  0.2876  0.06156 -0.1575 -0.186</span></span>
+<span><span class="co">#&gt; [3,]  0.00529  0.0616  0.31282 -0.1372 -0.299</span></span>
+<span><span class="co">#&gt; [4,]  0.02831 -0.1575 -0.13724  0.3441  0.122</span></span>
+<span><span class="co">#&gt; [5,]  0.03803 -0.1856 -0.29860  0.1217  0.738</span></span></code></pre></div>
+<!-- Since each matrix is stacked rowwise, it is actually not that readable and practical. -->
+<p>This function has been defined for the next simulation functions.</p>
 </div>
 <div class="section level2">
 <h2 id="minnesota-prior">Minnesota Prior<a class="anchor" aria-label="anchor" href="#minnesota-prior"></a>
@@ -257,7 +274,6 @@ should be smaller to avoid overfitting (De Mol et al. (2008))</li>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: Minnesota</span></span>
-<span><span class="co">#&gt; # Type '?bvar_minnesota' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'sigma':</span></span>
@@ -270,7 +286,10 @@ should be smaller to avoid overfitting (De Mol et al. (2008))</li>
 <span><span class="co">#&gt; [1]  1  1  1  1</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'eps':</span></span>
-<span><span class="co">#&gt; [1]  1e-04</span></span></code></pre></div>
+<span><span class="co">#&gt; [1]  1e-04</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Setting for 'hierarchical':</span></span>
+<span><span class="co">#&gt; [1]  FALSE</span></span></code></pre></div>
 <ul>
 <li>
 <code>sim_mncoef(p, bayes_spec, full = TRUE)</code> can generate
@@ -291,10 +310,10 @@ is not random. It is same as <code>diag(sigma)</code> from the
 <code class="sourceCode R"><span><span class="op">(</span><span class="fu"><a href="../reference/sim_mncoef.html">sim_mncoef</a></span><span class="op">(</span><span class="va">bvar_lag</span>, <span class="va">spec_to_sim</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; $coefficients</span></span>
 <span><span class="co">#&gt;            [,1]     [,2]      [,3]     [,4]</span></span>
-<span><span class="co">#&gt;  [1,]  0.196255 -0.19084 -0.026363  0.07600</span></span>
-<span><span class="co">#&gt;  [2,] -0.017158  0.27873 -0.033404 -0.00816</span></span>
-<span><span class="co">#&gt;  [3,] -0.225869  0.31165  0.127705 -0.48148</span></span>
-<span><span class="co">#&gt;  [4,] -0.002706 -0.26068  0.038566  0.04105</span></span>
+<span><span class="co">#&gt;  [1,]  0.996255 -0.19084 -0.026363  0.07600</span></span>
+<span><span class="co">#&gt;  [2,] -0.017158  1.07873 -0.033404 -0.00816</span></span>
+<span><span class="co">#&gt;  [3,] -0.225869  0.31165  0.927705 -0.48148</span></span>
+<span><span class="co">#&gt;  [4,] -0.002706 -0.26068  0.038566  0.84105</span></span>
 <span><span class="co">#&gt;  [5,] -0.023064 -0.11717 -0.030881  0.35496</span></span>
 <span><span class="co">#&gt;  [6,]  0.000253 -0.05523 -0.018351  0.03580</span></span>
 <span><span class="co">#&gt;  [7,] -0.001364 -0.06563 -0.051615 -0.33330</span></span>
@@ -350,7 +369,6 @@ model setting:</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: MN_VAR</span></span>
-<span><span class="co">#&gt; # Type '?bvhar_minnesota' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'sigma':</span></span>
@@ -363,13 +381,16 @@ model setting:</p>
 <span><span class="co">#&gt; [1]  0.3  1.0</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'eps':</span></span>
-<span><span class="co">#&gt; [1]  1e-04</span></span></code></pre></div>
+<span><span class="co">#&gt; [1]  1e-04</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Setting for 'hierarchical':</span></span>
+<span><span class="co">#&gt; [1]  FALSE</span></span></code></pre></div>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="op">(</span><span class="fu"><a href="../reference/sim_mnvhar_coef.html">sim_mnvhar_coef</a></span><span class="op">(</span><span class="va">bvhar_var_spec</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; $coefficients</span></span>
 <span><span class="co">#&gt;          [,1]    [,2]</span></span>
-<span><span class="co">#&gt; [1,]  0.06349 -0.2954</span></span>
-<span><span class="co">#&gt; [2,] -0.01177  0.4277</span></span>
+<span><span class="co">#&gt; [1,]  0.30349 -0.2954</span></span>
+<span><span class="co">#&gt; [2,] -0.01177  1.2277</span></span>
 <span><span class="co">#&gt; [3,]  0.05543 -0.2689</span></span>
 <span><span class="co">#&gt; [4,]  0.00235  0.0574</span></span>
 <span><span class="co">#&gt; [5,] -0.05121  0.1928</span></span>
@@ -396,7 +417,6 @@ model setting:</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: MN_VHAR</span></span>
-<span><span class="co">#&gt; # Type '?bvhar_minnesota' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'sigma':</span></span>
@@ -415,17 +435,20 @@ model setting:</p>
 <span><span class="co">#&gt; [1]  0.2  0.3</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'monthly':</span></span>
-<span><span class="co">#&gt; [1]  0.1  0.1</span></span></code></pre></div>
+<span><span class="co">#&gt; [1]  0.1  0.1</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Setting for 'hierarchical':</span></span>
+<span><span class="co">#&gt; [1]  FALSE</span></span></code></pre></div>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="op">(</span><span class="fu"><a href="../reference/sim_mnvhar_coef.html">sim_mnvhar_coef</a></span><span class="op">(</span><span class="va">bvhar_vhar_spec</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; $coefficients</span></span>
 <span><span class="co">#&gt;          [,1]    [,2]</span></span>
-<span><span class="co">#&gt; [1,] -0.01953  0.2058</span></span>
-<span><span class="co">#&gt; [2,]  0.14585 -0.2401</span></span>
-<span><span class="co">#&gt; [3,]  0.01613 -0.0491</span></span>
-<span><span class="co">#&gt; [4,]  0.05043 -0.1112</span></span>
-<span><span class="co">#&gt; [5,]  0.02742  0.3732</span></span>
-<span><span class="co">#&gt; [6,] -0.00569 -0.0749</span></span>
+<span><span class="co">#&gt; [1,]  0.38047  0.2058</span></span>
+<span><span class="co">#&gt; [2,]  0.14585  0.5599</span></span>
+<span><span class="co">#&gt; [3,]  0.09613 -0.0491</span></span>
+<span><span class="co">#&gt; [4,]  0.05043  0.0088</span></span>
+<span><span class="co">#&gt; [5,]  0.05409  0.3732</span></span>
+<span><span class="co">#&gt; [6,] -0.00569 -0.0482</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; $covmat</span></span>
 <span><span class="co">#&gt;       [,1]   [,2]</span></span>

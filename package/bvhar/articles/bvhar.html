@@ -28,7 +28,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,11 +42,11 @@
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
-<li><a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a></li>
-    <li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
+<li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
+    <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul>
 </li>
 <li class="nav-item dropdown">
@@ -55,12 +55,18 @@
 <li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul>
 </li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul>
 <ul class="navbar-nav">
@@ -252,16 +258,16 @@ A = \begin{bmatrix}
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># class---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a></span><span class="op">(</span><span class="va">fit_var</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] "varlse"   "bvharmod"</span></span>
+<span><span class="co">#&gt; [1] "varlse"   "olsmod"   "bvharmod"</span></span>
 <span><span class="co"># inheritance---------</span></span>
-<span><span class="fu"><a href="../reference/is.varlse.html">is.varlse</a></span><span class="op">(</span><span class="va">fit_var</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/var_lm.html">is.varlse</a></span><span class="op">(</span><span class="va">fit_var</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] TRUE</span></span>
 <span><span class="co"># names---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">fit_var</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "coefficients"  "fitted.values" "residuals"     "covmat"       </span></span>
 <span><span class="co">#&gt;  [5] "df"            "m"             "obs"           "y0"           </span></span>
 <span><span class="co">#&gt;  [9] "p"             "totobs"        "process"       "type"         </span></span>
-<span><span class="co">#&gt; [13] "design"        "y"             "call"</span></span></code></pre></div>
+<span><span class="co">#&gt; [13] "design"        "y"             "method"        "call"</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="vhar">VHAR<a class="anchor" aria-label="anchor" href="#vhar"></a>
@@ -362,11 +368,11 @@ X_1 = X_0 \mathbb{C}_{HAR}^T = \begin{bmatrix}
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># class----------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a></span><span class="op">(</span><span class="va">fit_har</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] "vharlse"  "bvharmod"</span></span>
+<span><span class="co">#&gt; [1] "vharlse"  "olsmod"   "bvharmod"</span></span>
 <span><span class="co"># inheritance----------</span></span>
-<span><span class="fu"><a href="../reference/is.varlse.html">is.varlse</a></span><span class="op">(</span><span class="va">fit_har</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/var_lm.html">is.varlse</a></span><span class="op">(</span><span class="va">fit_har</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] FALSE</span></span>
-<span><span class="fu"><a href="../reference/is.varlse.html">is.vharlse</a></span><span class="op">(</span><span class="va">fit_har</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/vhar_lm.html">is.vharlse</a></span><span class="op">(</span><span class="va">fit_har</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] TRUE</span></span>
 <span><span class="co"># complements----------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">fit_har</span><span class="op">)</span></span>
@@ -374,13 +380,15 @@ X_1 = X_0 \mathbb{C}_{HAR}^T = \begin{bmatrix}
 <span><span class="co">#&gt;  [5] "df"            "m"             "obs"           "y0"           </span></span>
 <span><span class="co">#&gt;  [9] "p"             "week"          "month"         "totobs"       </span></span>
 <span><span class="co">#&gt; [13] "process"       "type"          "HARtrans"      "design"       </span></span>
-<span><span class="co">#&gt; [17] "y"             "call"</span></span></code></pre></div>
+<span><span class="co">#&gt; [17] "y"             "method"        "call"</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="bvar">BVAR<a class="anchor" aria-label="anchor" href="#bvar"></a>
 </h3>
-<p><code>bvhar</code> package provides two prior framework - Minnesota
-prior and flat prior.</p>
+<p>This page provides deprecated two functions examples. Both
+<code><a href="../reference/bvar_minnesota.html">bvar_minnesota()</a></code> and <code><a href="../reference/bvar_flat.html">bvar_flat()</a></code> will be
+integrated into <code><a href="../reference/var_bayes.html">var_bayes()</a></code> and removed in the next
+version.</p>
 <div class="section level4">
 <h4 id="minnesota-prior">Minnesota prior<a class="anchor" aria-label="anchor" href="#minnesota-prior"></a>
 </h4>
@@ -408,7 +416,6 @@ given variable than the lags of other variables in the equation.</li>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: Minnesota</span></span>
-<span><span class="co">#&gt; # Type '?bvar_minnesota' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'sigma':</span></span>
@@ -422,7 +429,10 @@ given variable than the lags of other variables in the equation.</li>
 <span><span class="co">#&gt; [1]  0  0  0  0</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'eps':</span></span>
-<span><span class="co">#&gt; [1]  1e-04</span></span></code></pre></div>
+<span><span class="co">#&gt; [1]  1e-04</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Setting for 'hierarchical':</span></span>
+<span><span class="co">#&gt; [1]  FALSE</span></span></code></pre></div>
 <p>In turn,
 <code>bvar_minnesota(y, p, bayes_spec, include_mean = TRUE)</code> fits
 BVAR(p).</p>
@@ -441,9 +451,9 @@ indicates variable, i.e. it sould be wide format.</li>
 constant term in the model.</li>
 </ul>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvar_minnesota.html">bvar_minnesota</a></span><span class="op">(</span><span class="va">etf_train</span>, <span class="va">bvar_lag</span>, <span class="va">bvar_spec</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvar_minnesota.html">bvar_minnesota</a></span><span class="op">(</span><span class="va">etf_train</span>, <span class="va">bvar_lag</span>, num_iter <span class="op">=</span> <span class="fl">10</span>, bayes_spec <span class="op">=</span> <span class="va">bvar_spec</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; bvar_minnesota(y = etf_train, p = bvar_lag, bayes_spec = bvar_spec)</span></span>
+<span><span class="co">#&gt; bvar_minnesota(y = etf_train, p = bvar_lag, num_iter = 10, bayes_spec = bvar_spec)</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVAR(5) with Minnesota Prior</span></span>
 <span><span class="co">#&gt; ====================================================</span></span>
@@ -519,18 +529,19 @@ other class such as <code>normaliw</code> and <code>bvharmod</code>.</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># class---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a></span><span class="op">(</span><span class="va">fit_bvar</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] "bvarmn"   "normaliw" "bvharmod"</span></span>
+<span><span class="co">#&gt; [1] "bvarmn"   "bvharmod" "normaliw"</span></span>
 <span><span class="co"># inheritance---------</span></span>
-<span><span class="fu"><a href="../reference/is.varlse.html">is.bvarmn</a></span><span class="op">(</span><span class="va">fit_bvar</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/bvar_minnesota.html">is.bvarmn</a></span><span class="op">(</span><span class="va">fit_bvar</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] TRUE</span></span>
 <span><span class="co"># names---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">fit_bvar</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "coefficients"    "fitted.values"   "residuals"       "mn_prec"        </span></span>
-<span><span class="co">#&gt;  [5] "iw_scale"        "iw_shape"        "df"              "m"              </span></span>
+<span><span class="co">#&gt;  [5] "covmat"          "iw_shape"        "df"              "m"              </span></span>
 <span><span class="co">#&gt;  [9] "obs"             "prior_mean"      "prior_precision" "prior_scale"    </span></span>
 <span><span class="co">#&gt; [13] "prior_shape"     "y0"              "design"          "p"              </span></span>
-<span><span class="co">#&gt; [17] "totobs"          "type"            "y"               "prior_prec"     </span></span>
-<span><span class="co">#&gt; [21] "call"            "process"         "spec"</span></span></code></pre></div>
+<span><span class="co">#&gt; [17] "totobs"          "type"            "y"               "chain"          </span></span>
+<span><span class="co">#&gt; [21] "iter"            "burn"            "thin"            "call"           </span></span>
+<span><span class="co">#&gt; [25] "process"         "spec"</span></span></code></pre></div>
 </div>
 <div class="section level4">
 <h4 id="flat-prior">Flat prior<a class="anchor" aria-label="anchor" href="#flat-prior"></a>
@@ -543,7 +554,6 @@ i.e. non-informative. Use <code>set_bvar_flat(U)</code>.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: Flat</span></span>
-<span><span class="co">#&gt; # Type '?bvar_flat' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'U':</span></span>
@@ -563,9 +573,9 @@ i.e. non-informative. Use <code>set_bvar_flat(U)</code>.</p>
 <p>Then
 <code>bvar_flat(y, p, bayes_spec, include_mean = TRUE)</code>:</p>
 <div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ghosh</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvar_flat.html">bvar_flat</a></span><span class="op">(</span><span class="va">etf_train</span>, <span class="va">bvar_lag</span>, <span class="va">flat_spec</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ghosh</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvar_flat.html">bvar_flat</a></span><span class="op">(</span><span class="va">etf_train</span>, <span class="va">bvar_lag</span>, num_iter <span class="op">=</span> <span class="fl">10</span>, bayes_spec <span class="op">=</span> <span class="va">flat_spec</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; bvar_flat(y = etf_train, p = bvar_lag, bayes_spec = flat_spec)</span></span>
+<span><span class="co">#&gt; bvar_flat(y = etf_train, p = bvar_lag, num_iter = 10, bayes_spec = flat_spec)</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVAR(5) with Flat Prior</span></span>
 <span><span class="co">#&gt; ====================================================</span></span>
@@ -638,15 +648,16 @@ i.e. non-informative. Use <code>set_bvar_flat(U)</code>.</p>
 <span><span class="fu"><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a></span><span class="op">(</span><span class="va">fit_ghosh</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "bvarflat" "normaliw" "bvharmod"</span></span>
 <span><span class="co"># inheritance---------</span></span>
-<span><span class="fu"><a href="../reference/is.varlse.html">is.bvarflat</a></span><span class="op">(</span><span class="va">fit_ghosh</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/bvar_flat.html">is.bvarflat</a></span><span class="op">(</span><span class="va">fit_ghosh</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] TRUE</span></span>
 <span><span class="co"># names---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">fit_ghosh</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "coefficients"    "fitted.values"   "residuals"       "mn_prec"        </span></span>
-<span><span class="co">#&gt;  [5] "iw_scale"        "iw_shape"        "df"              "p"              </span></span>
-<span><span class="co">#&gt;  [9] "m"               "obs"             "totobs"          "process"        </span></span>
-<span><span class="co">#&gt; [13] "spec"            "type"            "call"            "prior_mean"     </span></span>
-<span><span class="co">#&gt; [17] "prior_precision" "y0"              "design"          "y"</span></span></code></pre></div>
+<span><span class="co">#&gt;  [5] "covmat"          "iw_shape"        "df"              "m"              </span></span>
+<span><span class="co">#&gt;  [9] "obs"             "prior_mean"      "prior_precision" "y0"             </span></span>
+<span><span class="co">#&gt; [13] "design"          "y"               "p"               "type"           </span></span>
+<span><span class="co">#&gt; [17] "chain"           "iter"            "burn"            "thin"           </span></span>
+<span><span class="co">#&gt; [21] "call"            "process"         "spec"</span></span></code></pre></div>
 </div>
 </div>
 <div class="section level3">
@@ -704,7 +715,6 @@ VAR-type Minnesota prior.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: MN_VAR</span></span>
-<span><span class="co">#&gt; # Type '?bvhar_minnesota' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'sigma':</span></span>
@@ -718,13 +728,18 @@ VAR-type Minnesota prior.</p>
 <span><span class="co">#&gt; [1]  0  0  0  0</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'eps':</span></span>
-<span><span class="co">#&gt; [1]  1e-04</span></span></code></pre></div>
+<span><span class="co">#&gt; [1]  1e-04</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Setting for 'hierarchical':</span></span>
+<span><span class="co">#&gt; [1]  FALSE</span></span></code></pre></div>
 <p><code>bvhar_minnesota(y, har = c(5, 22), bayes_spec, include_mean = TRUE)</code>
-can fit BVHAR with this prior. This is the default prior setting.</p>
+can fit BVHAR with this prior. This is the default prior setting.
+Similar to above functions, this function will be also integrated into
+<code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code> and removed in the next version.</p>
 <div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_bvhar_v1</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_minnesota.html">bvhar_minnesota</a></span><span class="op">(</span><span class="va">etf_train</span>, bayes_spec <span class="op">=</span> <span class="va">bvhar_spec_v1</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_bvhar_v1</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_minnesota.html">bvhar_minnesota</a></span><span class="op">(</span><span class="va">etf_train</span>, num_iter <span class="op">=</span> <span class="fl">10</span>, bayes_spec <span class="op">=</span> <span class="va">bvhar_spec_v1</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; bvhar_minnesota(y = etf_train, bayes_spec = bvhar_spec_v1)</span></span>
+<span><span class="co">#&gt; bvhar_minnesota(y = etf_train, num_iter = 10, bayes_spec = bvhar_spec_v1)</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with Minnesota Prior</span></span>
 <span><span class="co">#&gt; ====================================================</span></span>
@@ -776,19 +791,20 @@ can fit BVHAR with this prior. This is the default prior setting.</p>
 <div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># class---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a></span><span class="op">(</span><span class="va">fit_bvhar_v1</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] "bvharmn"  "normaliw" "bvharmod"</span></span>
+<span><span class="co">#&gt; [1] "bvharmn"  "bvharmod" "normaliw"</span></span>
 <span><span class="co"># inheritance---------</span></span>
-<span><span class="fu"><a href="../reference/is.varlse.html">is.bvharmn</a></span><span class="op">(</span><span class="va">fit_bvhar_v1</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/bvhar_minnesota.html">is.bvharmn</a></span><span class="op">(</span><span class="va">fit_bvhar_v1</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] TRUE</span></span>
 <span><span class="co"># names---------------</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">fit_bvhar_v1</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "coefficients"    "fitted.values"   "residuals"       "mn_prec"        </span></span>
-<span><span class="co">#&gt;  [5] "iw_scale"        "iw_shape"        "df"              "m"              </span></span>
+<span><span class="co">#&gt;  [5] "covmat"          "iw_shape"        "df"              "m"              </span></span>
 <span><span class="co">#&gt;  [9] "obs"             "prior_mean"      "prior_precision" "prior_scale"    </span></span>
 <span><span class="co">#&gt; [13] "prior_shape"     "y0"              "design"          "p"              </span></span>
 <span><span class="co">#&gt; [17] "week"            "month"           "totobs"          "type"           </span></span>
-<span><span class="co">#&gt; [21] "HARtrans"        "y"               "prior_prec"      "call"           </span></span>
-<span><span class="co">#&gt; [25] "process"         "spec"</span></span></code></pre></div>
+<span><span class="co">#&gt; [21] "HARtrans"        "y"               "chain"           "iter"           </span></span>
+<span><span class="co">#&gt; [25] "burn"            "thin"            "call"            "process"        </span></span>
+<span><span class="co">#&gt; [29] "spec"</span></span></code></pre></div>
 </div>
 <div class="section level4">
 <h4 id="bvhar-l">BVHAR-L<a class="anchor" aria-label="anchor" href="#bvhar-l"></a>
@@ -822,7 +838,6 @@ defines BVHAR-L.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameters: Coefficent matrice and Covariance matrix</span></span>
 <span><span class="co">#&gt; Prior: MN_VHAR</span></span>
-<span><span class="co">#&gt; # Type '?bvhar_minnesota' in the console for some help.</span></span>
 <span><span class="co">#&gt; ========================================================</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'sigma':</span></span>
@@ -842,17 +857,21 @@ defines BVHAR-L.</p>
 <span><span class="co">#&gt; [1]  0.1  0.1  0.1  0.1</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Setting for 'monthly':</span></span>
-<span><span class="co">#&gt; [1]  0.1  0.1  0.1  0.1</span></span></code></pre></div>
+<span><span class="co">#&gt; [1]  0.1  0.1  0.1  0.1</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Setting for 'hierarchical':</span></span>
+<span><span class="co">#&gt; [1]  FALSE</span></span></code></pre></div>
 <p><code>bayes_spec</code> option of <code><a href="../reference/bvhar_minnesota.html">bvhar_minnesota()</a></code> gets
 this value, so you can use this prior intuitively.</p>
 <div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">fit_bvhar_v2</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/bvhar_minnesota.html">bvhar_minnesota</a></span><span class="op">(</span></span>
-<span>  <span class="va">etf_train</span>, </span>
+<span>  <span class="va">etf_train</span>,</span>
+<span>  num_iter <span class="op">=</span> <span class="fl">10</span>,</span>
 <span>  bayes_spec <span class="op">=</span> <span class="va">bvhar_spec_v2</span></span>
 <span><span class="op">)</span></span>
 <span><span class="va">fit_bvhar_v2</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; bvhar_minnesota(y = etf_train, bayes_spec = bvhar_spec_v2)</span></span>
+<span><span class="co">#&gt; bvhar_minnesota(y = etf_train, num_iter = 10, bayes_spec = bvhar_spec_v2)</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with Minnesota Prior</span></span>
 <span><span class="co">#&gt; ====================================================</span></span>
@@ -861,31 +880,31 @@ this value, so you can use this prior intuitively.</p>
 <span><span class="co">#&gt; ====================================================</span></span>
 <span><span class="co">#&gt; Matrix Normal Mean for day:</span></span>
 <span><span class="co">#&gt;           GVZCLS_day  OVXCLS_day  EVZCLS_day  VXFXICLS_day</span></span>
-<span><span class="co">#&gt; GVZCLS        0.7780     0.00503      0.0605        0.0183</span></span>
-<span><span class="co">#&gt; OVXCLS        0.0435     0.74834      0.1234       -0.0110</span></span>
-<span><span class="co">#&gt; EVZCLS        0.0112     0.00947      0.7218        0.0211</span></span>
-<span><span class="co">#&gt; VXFXICLS      0.0253     0.00363      0.0997        0.8021</span></span>
+<span><span class="co">#&gt; GVZCLS        0.7670     0.00504      0.0644       0.01884</span></span>
+<span><span class="co">#&gt; OVXCLS        0.0497     0.73098      0.0999      -0.00317</span></span>
+<span><span class="co">#&gt; EVZCLS        0.0122     0.00907      0.7094       0.02036</span></span>
+<span><span class="co">#&gt; VXFXICLS      0.0259     0.00429      0.0976       0.79368</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Matrix Normal Mean for week:</span></span>
 <span><span class="co">#&gt;           GVZCLS_week  OVXCLS_week  EVZCLS_week  VXFXICLS_week</span></span>
-<span><span class="co">#&gt; GVZCLS         0.1180    -0.007746     -0.03245       -0.00215</span></span>
-<span><span class="co">#&gt; OVXCLS        -0.0213     0.155999      0.02539       -0.00152</span></span>
-<span><span class="co">#&gt; EVZCLS        -0.0104    -0.000477      0.13525       -0.00186</span></span>
-<span><span class="co">#&gt; VXFXICLS      -0.0182    -0.010424      0.00136        0.10491</span></span>
+<span><span class="co">#&gt; GVZCLS         0.1259    -0.008055     -0.03361       -0.00353</span></span>
+<span><span class="co">#&gt; OVXCLS        -0.0222     0.168704      0.01523       -0.00218</span></span>
+<span><span class="co">#&gt; EVZCLS        -0.0108    -0.000896      0.14770       -0.00294</span></span>
+<span><span class="co">#&gt; VXFXICLS      -0.0199    -0.010546     -0.00238        0.11358</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Matrix Normal Mean for month:</span></span>
 <span><span class="co">#&gt;           GVZCLS_month  OVXCLS_month  EVZCLS_month  VXFXICLS_month</span></span>
-<span><span class="co">#&gt; GVZCLS         0.05510      -0.00346      -0.01138        -0.00359</span></span>
-<span><span class="co">#&gt; OVXCLS         0.00473       0.05518      -0.02463        -0.01064</span></span>
-<span><span class="co">#&gt; EVZCLS        -0.00451       0.00393       0.05338        -0.00178</span></span>
-<span><span class="co">#&gt; VXFXICLS       0.00681      -0.00319       0.00994         0.00823</span></span>
+<span><span class="co">#&gt; GVZCLS         0.06476      -0.00349      -0.01286        -0.00584</span></span>
+<span><span class="co">#&gt; OVXCLS         0.00142       0.06915      -0.03315        -0.01117</span></span>
+<span><span class="co">#&gt; EVZCLS        -0.00492       0.00329       0.06611        -0.00337</span></span>
+<span><span class="co">#&gt; VXFXICLS       0.00474      -0.00312       0.00592         0.01821</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Matrix Normal Mean for constant part:</span></span>
 <span><span class="co">#&gt;   GVZCLS    OVXCLS    EVZCLS  VXFXICLS  </span></span>
-<span><span class="co">#&gt;   0.5989    0.1195    0.0759    1.1240  </span></span>
+<span><span class="co">#&gt;   0.5517    0.0335    0.0834    1.0025  </span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; dim(Matrix Normal precision matrix):</span></span>
@@ -896,71 +915,11 @@ this value, so you can use this prior intuitively.</p>
 <span><span class="co">#&gt; ====================================================</span></span>
 <span><span class="co">#&gt; IW scale matrix:</span></span>
 <span><span class="co">#&gt;           GVZCLS  OVXCLS  EVZCLS  VXFXICLS</span></span>
-<span><span class="co">#&gt; GVZCLS      1252     367     114       286</span></span>
-<span><span class="co">#&gt; OVXCLS       367    3607     130       380</span></span>
-<span><span class="co">#&gt; EVZCLS       114     130     214       121</span></span>
-<span><span class="co">#&gt; VXFXICLS     286     380     121      1174</span></span></code></pre></div>
+<span><span class="co">#&gt; GVZCLS      1194     372     115       286</span></span>
+<span><span class="co">#&gt; OVXCLS       372    3124     125       387</span></span>
+<span><span class="co">#&gt; EVZCLS       115     125     193       119</span></span>
+<span><span class="co">#&gt; VXFXICLS     286     387     119      1123</span></span></code></pre></div>
 </div>
-</div>
-<div class="section level3">
-<h3 id="inference">Inference<a class="anchor" aria-label="anchor" href="#inference"></a>
-</h3>
-<p><code><a href="https://rdrr.io/r/base/summary.html" class="external-link">summary()</a></code> method for <code>normaliw</code> object
-performs MCMC based on conjugate MNIW distribution.</p>
-<!-- object, num_iter = 10000L, num_burn = floor(num_iter / 2), thinning = 1L, ... -->
-<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">inf_bvar</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">fit_bvar</span>, num_iter <span class="op">=</span> <span class="fl">10000</span>, num_burn <span class="op">=</span> <span class="fl">5000</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; bvar_minnesota(y = etf_train, p = bvar_lag, bayes_spec = bvar_spec)</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; BVAR(5) with Minnesota Prior</span></span>
-<span><span class="co">#&gt; ====================================================</span></span>
-<span><span class="co">#&gt; Phi ~ Matrix Normal (Mean, Precision, Scale = Sigma)</span></span>
-<span><span class="co">#&gt; Sigma ~ Inverse-Wishart (IW Scale, IW df)</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; Conjugate MCMC:</span></span>
-<span><span class="co">#&gt; ====================================================</span></span>
-<span><span class="co">#&gt; Total number of iteration: 10000</span></span>
-<span><span class="co">#&gt; Number of burn-in: 5000</span></span>
-<span><span class="co">#&gt; ====================================================</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; Parameter record:</span></span>
-<span><span class="co">#&gt; # A draws_df: 5000 iterations, 1 chains, and 94 variables</span></span>
-<span><span class="co">#&gt;     alpha[1]  alpha[2]  alpha[3]  alpha[4]  alpha[5]  alpha[6]  alpha[7]</span></span>
-<span><span class="co">#&gt; 1      0.735   0.02575   0.07916   0.01627    0.1036  -0.01629   0.00877</span></span>
-<span><span class="co">#&gt; 2      0.763   0.03259   0.01643   0.04206    0.1096  -0.02145  -0.00593</span></span>
-<span><span class="co">#&gt; 3      0.759   0.00987   0.11285   0.00262    0.0763  -0.00934  -0.00698</span></span>
-<span><span class="co">#&gt; 4      0.772   0.04158   0.00531   0.03465    0.0578  -0.02692   0.00127</span></span>
-<span><span class="co">#&gt; 5      0.770   0.01974   0.12331  -0.02410    0.1216  -0.02250  -0.03700</span></span>
-<span><span class="co">#&gt; 6      0.739  -0.01542   0.08940   0.01033    0.0960   0.00489  -0.01532</span></span>
-<span><span class="co">#&gt; 7      0.812  -0.02071   0.07002   0.06102    0.0764   0.00767   0.01735</span></span>
-<span><span class="co">#&gt; 8      0.726   0.01791  -0.03572   0.05691    0.1263  -0.01115   0.07686</span></span>
-<span><span class="co">#&gt; 9      0.766  -0.00918   0.03374   0.03537    0.0565   0.01499   0.02259</span></span>
-<span><span class="co">#&gt; 10     0.776   0.02608   0.12570  -0.02924    0.0692  -0.01245  -0.01664</span></span>
-<span><span class="co">#&gt;     alpha[8]</span></span>
-<span><span class="co">#&gt; 1    0.02729</span></span>
-<span><span class="co">#&gt; 2   -0.00747</span></span>
-<span><span class="co">#&gt; 3   -0.00273</span></span>
-<span><span class="co">#&gt; 4   -0.02885</span></span>
-<span><span class="co">#&gt; 5    0.01020</span></span>
-<span><span class="co">#&gt; 6    0.03474</span></span>
-<span><span class="co">#&gt; 7   -0.04527</span></span>
-<span><span class="co">#&gt; 8   -0.03762</span></span>
-<span><span class="co">#&gt; 9    0.00796</span></span>
-<span><span class="co">#&gt; 10   0.04042</span></span>
-<span><span class="co">#&gt; # ... with 4990 more draws, and 86 more variables</span></span>
-<span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
-<p><code><a href="https://ggplot2.tidyverse.org/reference/autoplot.html" class="external-link">autoplot()</a></code> gives several Bayes visualization based on
-<code>bayesplot</code> package.</p>
-<ul>
-<li><code>type = "trace"</code></li>
-<li><code>type = "dens"</code></li>
-<li><code>type = "area"</code></li>
-</ul>
-<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html" class="external-link">autoplot</a></span><span class="op">(</span><span class="va">inf_bvar</span>, type <span class="op">=</span> <span class="st">"trace"</span>, pars <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"alpha[1]"</span>, <span class="st">"alpha[2]"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
-<p><img src="bvhar_files/figure-html/mctrace-1.png" width="70%" style="display: block; margin: auto;"></p>
 </div>
 </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

@@ -28,7 +28,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,11 +42,11 @@
 <li class="active nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
-<li><a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a></li>
-    <li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
+<li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
+    <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul>
 </li>
 <li class="nav-item dropdown">
@@ -55,12 +55,18 @@
 <li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul>
 </li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul>
 <ul class="navbar-nav">
@@ -99,12 +105,12 @@ these useful.</p>
 <code>bvharsim.h</code>: Rcpp random generation functions that are
 widely used in Bayesian statistics.</li>
 <li>
-<code>ols.h</code>: OLS classes</li>
+<code>ols.h</code>: OLS classes and structs</li>
 <li>
-<code>minnesota.h</code>: Minnesota prior classes</li>
+<code>minnesota.h</code>: Minnesota prior classes and structs</li>
 <li>
-<code>mcmcsv.h</code>: Classes for stochastic volatility models. It
-includes
+<code>mcmcsv.h</code>: Classes and structs for stochastic volatility
+models. It includes
 <ul>
 <li>Minnesota prior</li>
 <li>SSVS prior</li>
@@ -115,6 +121,23 @@ includes
 <code>mcmchs.h</code>: Horseshoe prior classes</li>
 <li>
 <code>mcmcssvs.h</code>: SSVS prior classes</li>
+<li>
+<code>olsforecaster.h</code>: Forecasting class for each VAR and
+VHAR</li>
+<li>
+<code>minnforecaster.h</code>: Minnesota prior forecaster
+classes</li>
+<li>
+<code>svforecaster.h</code>: SV models forecaster classes</li>
+<li>
+<code>olsspillover.h</code>: FEVD and spillover class for each VAR
+and VHAR</li>
+<li>
+<code>minnspillover.h</code>: FEVD and spillover class for Minnesota
+prior</li>
+<li>
+<code>svspillover.h</code>: FEVD and spillover class for SV
+models</li>
 <li>
 <code>bvharprogress.h</code>: Simple progress bar classes</li>
 <li>

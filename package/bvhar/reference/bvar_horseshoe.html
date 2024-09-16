@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,22 +19,28 @@
 <li class="active nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/empirical-bayes.html">Empirical Bayes</a></li>
-    <li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
+    <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-news" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">News</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/bvhar/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
 <li class="nav-item"><a class="nav-link" href="..//software/" aria-label="Back to the page"><span class="fa fa-home"></span> Go back to the Software page</a></li>
@@ -51,7 +57,7 @@
     </div>
 
     <div class="ref-description section level2">
-    <p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="figures/lifecycle-experimental.svg" alt="[Experimental]"></a> This function fits BVAR(p) with horseshoe prior.</p>
+    <p><a href="https://lifecycle.r-lib.org/articles/stages.html#deprecated" class="external-link"><img src="figures/lifecycle-deprecated.svg" alt="[Deprecated]"></a> This function fits BVAR(p) with horseshoe prior.</p>
     </div>
 
     <div class="section level2">
@@ -119,7 +125,7 @@
 
 
 <dt id="arg-algo">algo<a class="anchor" aria-label="anchor" href="#arg-algo"></a></dt>
-<dd><p>Ordinary gibbs sampling (<code>"gibbs"</code>) or blocked gibbs (Default: <code>"block"</code>).</p></dd>
+<dd><p>Ordinary gibbs sampling (<code>gibbs</code>) or blocked gibbs (Default: <code>block</code>).</p></dd>
 
 
 <dt id="arg-verbose">verbose<a class="anchor" aria-label="anchor" href="#arg-verbose"></a></dt>
@@ -146,38 +152,23 @@
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
     <p><code>bvar_horseshoe</code> returns an object named <code>bvarhs</code> <a href="https://rdrr.io/r/base/class.html" class="external-link">class</a>.
 It is a list with the following components:</p>
-<dl><dt>alpha_record</dt>
-<dd><p>MCMC trace for vectorized coefficients (alpha \(\alpha\)) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
-
-<dt>lambda_record</dt>
-<dd><p>MCMC trace for local shrinkage level (lambda \(\lambda\)) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
-
-<dt>tau_record</dt>
-<dd><p>MCMC trace for global shrinkage level (tau \(\tau\)) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
-
-<dt>psi_record</dt>
-<dd><p>MCMC trace for precision matrix (psi \(\Psi\)) with <a href="https://rdrr.io/r/base/list.html" class="external-link">list</a> format.</p></dd>
-
-<dt>chain</dt>
-<dd><p>The numer of chains</p></dd>
-
-<dt>coefficients</dt>
+<dl><dt>coefficients</dt>
 <dd><p>Posterior mean of VAR coefficients.</p></dd>
-
-<dt>psi_posterior</dt>
-<dd><p>Posterior mean of precision matrix \(\Psi\)</p></dd>
 
 <dt>covmat</dt>
 <dd><p>Posterior mean of covariance matrix</p></dd>
 
-<dt>omega_record</dt>
-<dd><p>MCMC trace for diagonal element of \(\Psi\) (omega) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
+<dt>psi_posterior</dt>
+<dd><p>Posterior mean of precision matrix \(\Psi\)</p></dd>
 
-<dt>eta_record</dt>
-<dd><p>MCMC trace for upper triangular element of \(\Psi\) (eta) with <a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> format.</p></dd>
+<dt>pip</dt>
+<dd><p>Posterior inclusion probabilities.</p></dd>
 
 <dt>param</dt>
 <dd><p><a href="https://mc-stan.org/posterior/reference/draws_df.html" class="external-link">posterior::draws_df</a> with every variable: alpha, lambda, tau, omega, and eta</p></dd>
+
+<dt>param_names</dt>
+<dd><p>Name of every parameter.</p></dd>
 
 <dt>df</dt>
 <dd><p>Numer of Coefficients: <code>mp + 1</code> or <code>mp</code></p></dd>
@@ -198,16 +189,19 @@ It is a list with the following components:</p>
 <dd><p>Matched call</p></dd>
 
 <dt>process</dt>
-<dd><p>Description of the model, e.g. <code>"VAR_Horseshoe"</code></p></dd>
+<dd><p>Description of the model, e.g. <code>VAR_Horseshoe</code></p></dd>
 
 <dt>type</dt>
-<dd><p>include constant term (<code>"const"</code>) or not (<code>"none"</code>)</p></dd>
+<dd><p>include constant term (<code>const</code>) or not (<code>none</code>)</p></dd>
 
 <dt>algo</dt>
-<dd><p>Usual Gibbs sampling (<code>"gibbs"</code>) or fast sampling (<code>"fast"</code>)</p></dd>
+<dd><p>Usual Gibbs sampling (<code>gibbs</code>) or fast sampling (<code>fast</code>)</p></dd>
 
 <dt>spec</dt>
 <dd><p>Horseshoe specification defined by <code><a href="set_horseshoe.html">set_horseshoe()</a></code></p></dd>
+
+<dt>chain</dt>
+<dd><p>The numer of chains</p></dd>
 
 <dt>iter</dt>
 <dd><p>Total iterations</p></dd>
@@ -217,6 +211,12 @@ It is a list with the following components:</p>
 
 <dt>thin</dt>
 <dd><p>Thinning</p></dd>
+
+<dt>group</dt>
+<dd><p>Indicators for group.</p></dd>
+
+<dt>num_group</dt>
+<dd><p>Number of groups.</p></dd>
 
 <dt>y0</dt>
 <dd><p>\(Y_0\)</p></dd>
@@ -231,8 +231,8 @@ It is a list with the following components:</p>
 </dl></div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Carvalho, C. M., Polson, N. G., &amp; Scott, J. G. (2010). <em>The horseshoe estimator for sparse signals</em>. Biometrika, 97(2), 465–480.</p>
-<p>Makalic, E., &amp; Schmidt, D. F. (2016). <em>A Simple Sampler for the Horseshoe Estimator</em>. IEEE Signal Processing Letters, 23(1), 179–182.</p>
+    <p>Carvalho, C. M., Polson, N. G., &amp; Scott, J. G. (2010). <em>The horseshoe estimator for sparse signals</em>. Biometrika, 97(2), 465-480.</p>
+<p>Makalic, E., &amp; Schmidt, D. F. (2016). <em>A Simple Sampler for the Horseshoe Estimator</em>. IEEE Signal Processing Letters, 23(1), 179-182.</p>
     </div>
 
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
