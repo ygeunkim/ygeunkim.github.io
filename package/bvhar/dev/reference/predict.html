@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9027</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.0.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
     <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul></li>
 <li class="nav-item dropdown">
@@ -30,11 +30,17 @@
   <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/bvhar/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
 <li class="nav-item"><a class="nav-link" href="..//software/" aria-label="Back to the page"><span class="fa fa-home"></span> Go back to the Software page</a></li>
@@ -302,18 +308,18 @@ $$y_{n + h} \mid \Sigma_e, y \sim N( vec(y_{(n + h - 1)}^T \tilde{T}^T \Phi), \S
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
     <p>Lütkepohl, H. (2007). <em>New Introduction to Multiple Time Series Analysis</em>. Springer Publishing.</p>
-<p>Corsi, F. (2008). <em>A Simple Approximate Long-Memory Model of Realized Volatility</em>. Journal of Financial Econometrics, 7(2), 174–196.</p>
-<p>Baek, C. and Park, M. (2021). <em>Sparse vector heterogeneous autoregressive modeling for realized volatility</em>. J. Korean Stat. Soc. 50, 495–510.</p>
+<p>Corsi, F. (2008). <em>A Simple Approximate Long-Memory Model of Realized Volatility</em>. Journal of Financial Econometrics, 7(2), 174-196.</p>
+<p>Baek, C. and Park, M. (2021). <em>Sparse vector heterogeneous autoregressive modeling for realized volatility</em>. J. Korean Stat. Soc. 50, 495-510.</p>
 <p>Bańbura, M., Giannone, D., &amp; Reichlin, L. (2010). <em>Large Bayesian vector auto regressions</em>. Journal of Applied Econometrics, 25(1).</p>
 <p>Gelman, A., Carlin, J. B., Stern, H. S., &amp; Rubin, D. B. (2013). <em>Bayesian data analysis</em>. Chapman and Hall/CRC.</p>
-<p>Karlsson, S. (2013). <em>Chapter 15 Forecasting with Bayesian Vector Autoregression</em>. Handbook of Economic Forecasting, 2, 791–897.</p>
+<p>Karlsson, S. (2013). <em>Chapter 15 Forecasting with Bayesian Vector Autoregression</em>. Handbook of Economic Forecasting, 2, 791-897.</p>
 <p>Litterman, R. B. (1986). <em>Forecasting with Bayesian Vector Autoregressions: Five Years of Experience</em>. Journal of Business &amp; Economic Statistics, 4(1), 25.</p>
 <p>Ghosh, S., Khare, K., &amp; Michailidis, G. (2018). <em>High-Dimensional Posterior Consistency in Bayesian Vector Autoregressive Models</em>. Journal of the American Statistical Association, 114(526).</p>
-<p>George, E. I., Sun, D., &amp; Ni, S. (2008). <em>Bayesian stochastic search for VAR model restrictions</em>. Journal of Econometrics, 142(1), 553–580.</p>
-<p>George, E. I., Sun, D., &amp; Ni, S. (2008). <em>Bayesian stochastic search for VAR model restrictions</em>. Journal of Econometrics, 142(1), 553–580.</p>
+<p>George, E. I., Sun, D., &amp; Ni, S. (2008). <em>Bayesian stochastic search for VAR model restrictions</em>. Journal of Econometrics, 142(1), 553-580.</p>
+<p>George, E. I., Sun, D., &amp; Ni, S. (2008). <em>Bayesian stochastic search for VAR model restrictions</em>. Journal of Econometrics, 142(1), 553-580.</p>
 <p>Korobilis, D. (2013). <em>VAR FORECASTING USING BAYESIAN VARIABLE SELECTION</em>. Journal of Applied Econometrics, 28(2).</p>
 <p>Korobilis, D. (2013). <em>VAR FORECASTING USING BAYESIAN VARIABLE SELECTION</em>. Journal of Applied Econometrics, 28(2).</p>
-<p>Huber, F., Koop, G., &amp; Onorante, L. (2021). <em>Inducing Sparsity and Shrinkage in Time-Varying Parameter Models</em>. Journal of Business &amp; Economic Statistics, 39(3), 669–683.</p>
+<p>Huber, F., Koop, G., &amp; Onorante, L. (2021). <em>Inducing Sparsity and Shrinkage in Time-Varying Parameter Models</em>. Journal of Business &amp; Economic Statistics, 39(3), 669-683.</p>
     </div>
 
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

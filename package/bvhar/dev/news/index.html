@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.0.1.9027</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.0.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
     <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
-    <li><a class="dropdown-item" href="../articles/shrinkage.html">Shrinkage Priors</a></li>
+    <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
     <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
   </ul></li>
 <li class="active nav-item dropdown">
@@ -30,11 +30,17 @@
   <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" aria-label="Published"><span class="fa fa-newspaper"></span> Published</a></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/paper-bvhar" aria-label="Reproducible code"><span class="fa fa-laptop-code"></span> Reproducible code</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><a class="external-link nav-link" href="https://github.com/ygeunkim/bvhar/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
 <li class="nav-item"><a class="nav-link" href="..//software/" aria-label="Back to the page"><span class="fa fa-home"></span> Go back to the Software page</a></li>
@@ -51,6 +57,9 @@
 
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="development version" id="bvhar-development-version">bvhar (development version)<a class="anchor" aria-label="anchor" href="#bvhar-development-version"></a></h2>
+</div>
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="2.1.0" id="bvhar-210">bvhar 2.1.0<a class="anchor" aria-label="anchor" href="#bvhar-210"></a></h2><p class="text-muted">CRAN release: 2024-09-16</p>
 <ul><li><p>Use Signal Adaptive Variable Selector (SAVS) to generate sparse coefficient from shrinkage priors.</p></li>
 <li><p><code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code> now handle both shrinkage priors and stochastic volatility.</p></li>
 <li><p><code><a href="../reference/bvar_ssvs.html">bvar_ssvs()</a></code>, <code><a href="../reference/bvar_horseshoe.html">bvar_horseshoe()</a></code>, <code><a href="../reference/bvar_sv.html">bvar_sv()</a></code>, <code><a href="../reference/bvhar_ssvs.html">bvhar_ssvs()</a></code>, <code><a href="../reference/bvhar_horseshoe.html">bvhar_horseshoe()</a></code>, and <code><a href="../reference/bvhar_sv.html">bvhar_sv()</a></code> are deprecated, and will be removed in v2.1.0 with their source functions.</p></li>
@@ -61,23 +70,23 @@
 <li><p>MCMC functions return give <code>$param</code> and <code>$param_names</code>, not individual <code>$*_record</code> members.</p></li>
 <li><p><code><a href="../reference/sim_gig.html">sim_gig()</a></code> generates Generalized Inverse Gaussian (GIG) random numbers using the algorithm of R package <code>GIGrvg</code>.</p></li>
 </ul><div class="section level3">
-<h3 id="new-priors-development-version">New priors<a class="anchor" aria-label="anchor" href="#new-priors-development-version"></a></h3>
+<h3 id="new-priors-2-1-0">New priors<a class="anchor" aria-label="anchor" href="#new-priors-2-1-0"></a></h3>
 <ul><li><p><code><a href="../reference/set_dl.html">set_dl()</a></code> specifies Dirichlet-Laplace (DL) prior in <code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code>.</p></li>
 <li><p><code><a href="../reference/set_ng.html">set_ng()</a></code> specifies Normal-Gamma (NG) prior in <code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code>.</p></li>
 <li><p><code><a href="../reference/bvar_sv.html">bvar_sv()</a></code> and <code><a href="../reference/bvhar_sv.html">bvhar_sv()</a></code> supports hierarchical Minnesota prior.</p></li>
 </ul></div>
 <div class="section level3">
-<h3 id="internal-changes-development-version">Internal changes<a class="anchor" aria-label="anchor" href="#internal-changes-development-version"></a></h3>
+<h3 id="internal-changes-2-1-0">Internal changes<a class="anchor" aria-label="anchor" href="#internal-changes-2-1-0"></a></h3>
 <ul><li><p>Added regularization step in internal Normal posterior generation function against non-existing LLT case.</p></li>
 <li><p>Added <code>BOOST_DISABLE_ASSERTS</code> flag against <code>boost</code> asserts.</p></li>
 </ul></div>
 <div class="section level3">
-<h3 id="spillover-effects-development-version">Spillover effects<a class="anchor" aria-label="anchor" href="#spillover-effects-development-version"></a></h3>
+<h3 id="spillover-effects-2-1-0">Spillover effects<a class="anchor" aria-label="anchor" href="#spillover-effects-2-1-0"></a></h3>
 <ul><li><p><code><a href="../reference/spillover.html">spillover()</a></code> computes static spillover given model.</p></li>
 <li><p><code><a href="../reference/dynamic_spillover.html">dynamic_spillover()</a></code> computes dynamic spillover given model.</p></li>
 </ul></div>
 <div class="section level3">
-<h3 id="forecasting-development-version">Forecasting<a class="anchor" aria-label="anchor" href="#forecasting-development-version"></a></h3>
+<h3 id="forecasting-2-1-0">Forecasting<a class="anchor" aria-label="anchor" href="#forecasting-2-1-0"></a></h3>
 <ul><li><p><code><a href="../reference/predict.html">predict()</a></code>, <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code>, and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> with LDLT models can use CI level when adding sparsity.</p></li>
 <li><p><code><a href="../reference/predict.html">predict()</a></code>, <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code>, and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> of <code>ldltmod</code> have <code>sparse</code> option to use sparsity.</p></li>
 <li><p><code><a href="../reference/predict.html">predict()</a></code>, <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code>, and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> with SV models can use CI level when adding sparsity.</p></li>
