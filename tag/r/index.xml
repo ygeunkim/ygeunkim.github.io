@@ -5,7 +5,7 @@
     <link>https://ygeunkim.github.io/tag/r/</link>
       <atom:link href="https://ygeunkim.github.io/tag/r/index.xml" rel="self" type="application/rss+xml" />
     <description>r</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Young Geun Kim</copyright><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Young Geun Kim</copyright><lastBuildDate>Wed, 18 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>r</title>
@@ -15,7 +15,7 @@
     <item>
       <title>bvhar: Bayesian Vector Heterogeneous Autoregressive Modeling</title>
       <link>https://ygeunkim.github.io/codes/bvhar/</link>
-      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://ygeunkim.github.io/codes/bvhar/</guid>
       <description></description>
     </item>
