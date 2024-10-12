@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.1.9000</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,14 +30,13 @@
   <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
-    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
-    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.1">Version 2.1.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.2">Version 2.1.2</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
@@ -77,6 +76,7 @@
 <span>  <span class="va">n_ahead</span>,</span>
 <span>  <span class="va">y_test</span>,</span>
 <span>  num_thread <span class="op">=</span> <span class="fl">1</span>,</span>
+<span>  level <span class="op">=</span> <span class="fl">0.05</span>,</span>
 <span>  sparse <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  lpl <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  use_fit <span class="op">=</span> <span class="cn">TRUE</span>,</span>
@@ -89,6 +89,7 @@
 <span>  <span class="va">n_ahead</span>,</span>
 <span>  <span class="va">y_test</span>,</span>
 <span>  num_thread <span class="op">=</span> <span class="fl">1</span>,</span>
+<span>  level <span class="op">=</span> <span class="fl">0.05</span>,</span>
 <span>  use_sv <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  sparse <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  lpl <span class="op">=</span> <span class="cn">FALSE</span>,</span>
@@ -123,6 +124,10 @@
 
 <dt id="arg-use-fit">use_fit<a class="anchor" aria-label="anchor" href="#arg-use-fit"></a></dt>
 <dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="figures/lifecycle-experimental.svg" alt="[Experimental]"></a> Use <code>object</code> result for the first window. By default, <code>TRUE</code>.</p></dd>
+
+
+<dt id="arg-level">level<a class="anchor" aria-label="anchor" href="#arg-level"></a></dt>
+<dd><p>Specify alpha of confidence interval level 100(1 - alpha) percentage. By default, .05.</p></dd>
 
 
 <dt id="arg-sparse">sparse<a class="anchor" aria-label="anchor" href="#arg-sparse"></a></dt>
