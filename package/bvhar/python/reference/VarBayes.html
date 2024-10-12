@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -154,16 +188,31 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="bvhar.model.VarBayes" class="level1">
 <h1>VarBayes</h1>
-<p><code>model.VarBayes(self, data, lag=1, n_chain=1, n_iter=1000, n_burn=None, n_thin=1, bayes_config=SsvsConfig(), cov_config=LdltConfig(), intercept_config=InterceptConfig(), fit_intercept=True, minnesota=True, verbose=False, n_thread=1)</code></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    data</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    lag<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    n_chain<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    n_iter<span class="op">=</span><span class="dv">1000</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    n_burn<span class="op">=</span><span class="va">None</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    n_thin<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    bayes_config<span class="op">=</span>SsvsConfig()</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    cov_config<span class="op">=</span>LdltConfig()</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    intercept_config<span class="op">=</span>InterceptConfig()</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    fit_intercept<span class="op">=</span><span class="va">True</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    minnesota<span class="op">=</span><span class="va">True</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    verbose<span class="op">=</span><span class="va">False</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    n_thread<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Bayesian Vector Autoregressive Model</p>
 <p>Fits Bayesian VAR model.</p>
-<section id="parameters" class="level2">
-<h2 class="anchored" data-anchor-id="parameters">Parameters</h2>
+<section id="parameters" class="level2 doc-section doc-section-parameters">
+<h2 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters">Parameters</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 14%">
-<col style="width: 17%">
-<col style="width: 51%">
+<col style="width: 13%">
+<col style="width: 18%">
+<col style="width: 52%">
 <col style="width: 15%">
 </colgroup>
 <thead>
@@ -176,79 +225,79 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>data</code></td>
+<td>data</td>
 <td>array - like</td>
 <td>Time series data of which columns indicate the variables</td>
 <td><em>required</em></td>
 </tr>
 <tr class="even">
-<td><code>lag</code></td>
+<td>lag</td>
 <td>int</td>
 <td>VAR lag, by default 1</td>
 <td><code>1</code></td>
 </tr>
 <tr class="odd">
-<td><code>n_chain</code></td>
+<td>n_chain</td>
 <td>int</td>
 <td>Number of MCMC chains, by default 1</td>
 <td><code>1</code></td>
 </tr>
 <tr class="even">
-<td><code>n_iter</code></td>
+<td>n_iter</td>
 <td>int</td>
 <td>Number of MCMC total iterations, by default 1000</td>
 <td><code>1000</code></td>
 </tr>
 <tr class="odd">
-<td><code>n_burn</code></td>
+<td>n_burn</td>
 <td>int</td>
 <td>MCMC burn-in (warm-up), by default <code>floor(n_iter / 2)</code></td>
 <td><code>None</code></td>
 </tr>
 <tr class="even">
-<td><code>n_thin</code></td>
+<td>n_thin</td>
 <td>int</td>
 <td>Thinning every <code>n_thin</code>-th iteration, by default 1</td>
 <td><code>1</code></td>
 </tr>
 <tr class="odd">
-<td><code>bayes_config</code></td>
+<td>bayes_config</td>
 <td>_BayesConfig</td>
 <td>Prior configuration, by default SsvsConfig()</td>
 <td><code>SsvsConfig()</code></td>
 </tr>
 <tr class="even">
-<td><code>cov_config</code></td>
+<td>cov_config</td>
 <td>(LdltConfig, SvConfig)</td>
 <td>Prior configuration for covariance matrix, by default LdltConfig()</td>
 <td><code>'LdltConfig'</code></td>
 </tr>
 <tr class="odd">
-<td><code>intercept_config</code></td>
+<td>intercept_config</td>
 <td>InterceptConfig</td>
 <td>Prior configuration for constant term, by default InterceptConfig()</td>
 <td><code>InterceptConfig()</code></td>
 </tr>
 <tr class="even">
-<td><code>fit_intercept</code></td>
+<td>fit_intercept</td>
 <td>bool</td>
 <td>Include constant term in the model, by default True</td>
 <td><code>True</code></td>
 </tr>
 <tr class="odd">
-<td><code>minnesota</code></td>
+<td>minnesota</td>
 <td>bool</td>
 <td>If <code>True</code>, apply Minnesota-type group structure, by default True</td>
 <td><code>True</code></td>
 </tr>
 <tr class="even">
-<td><code>verbose</code></td>
+<td>verbose</td>
 <td>bool</td>
 <td>If <code>True</code>, print progress bar for MCMC, by default False</td>
 <td><code>False</code></td>
 </tr>
 <tr class="odd">
-<td><code>n_thread</code></td>
+<td>n_thread</td>
 <td>int</td>
 <td>Number of OpenMP threads, by default 1</td>
 <td><code>1</code></td>
@@ -256,8 +305,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="attributes" class="level2">
-<h2 class="anchored" data-anchor-id="attributes">Attributes</h2>
+<section id="attributes" class="level2 doc-section doc-section-attributes">
+<h2 class="doc-section doc-section-attributes anchored" data-anchor-id="attributes">Attributes</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -285,8 +334,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
+<section id="references" class="level2 doc-section doc-section-references">
+<h2 class="doc-section doc-section-references anchored" data-anchor-id="references">References</h2>
 <p>.. [1] Carriero, A., Chan, J., Clark, T. E., &amp; Marcellino, M. (2022). <em>Corrigendum to “Large Bayesian vector autoregressions with stochastic volatility and non-conjugate priors” [J. Econometrics 212 (1)(2019) 137–154]</em>. Journal of Econometrics, 227(2), 506-512. .. [2] Chan, J., Koop, G., Poirier, D., &amp; Tobias, J. (2019). <em>Bayesian Econometric Methods (2nd ed., Econometric Exercises)</em>. Cambridge: Cambridge University Press. .. [3] Cogley, T., &amp; Sargent, T. J. (2005). <em>Drifts and volatilities: monetary policies and outcomes in the post WWII US</em>. Review of Economic Dynamics, 8(2), 262–302. .. [4] Gruber, L., &amp; Kastner, G. (2022). <em>Forecasting macroeconomic data with Bayesian VARs: Sparse or dense? It depends!</em> arXiv. .. [5] Huber, F., Koop, G., &amp; Onorante, L. (2021). <em>Inducing Sparsity and Shrinkage in Time-Varying Parameter Models</em>. Journal of Business &amp; Economic Statistics, 39(3), 669–683. .. [6] Korobilis, D., &amp; Shimizu, K. (2022). <em>Bayesian Approaches to Shrinkage and Sparse Estimation</em>. Foundations and Trends® in Econometrics, 11(4), 230–354. .. [7] Ray, P., &amp; Bhattacharya, A. (2018). <em>Signal Adaptive Variable Selector for the Horseshoe Prior</em>. arXiv.</p>
 </section>
 <section id="methods" class="level2">
@@ -319,15 +368,15 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <section id="bvhar.model.VarBayes.expand_forecast" class="level3">
 <h3 class="anchored" data-anchor-id="bvhar.model.VarBayes.expand_forecast">expand_forecast</h3>
-<p><code>model.VarBayes.expand_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)</code></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.expand_forecast(n_ahead, test, level<span class="op">=</span><span class="fl">0.05</span>, sparse<span class="op">=</span><span class="va">False</span>, sv<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Expanding-window forecasting</p>
-<section id="parameters-1" class="level4">
-<h4 class="anchored" data-anchor-id="parameters-1">Parameters</h4>
+<section id="parameters-1" class="level4 doc-section doc-section-parameters">
+<h4 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters-1">Parameters</h4>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 15%">
-<col style="width: 58%">
+<col style="width: 10%">
+<col style="width: 16%">
+<col style="width: 59%">
 <col style="width: 13%">
 </colgroup>
 <thead>
@@ -340,31 +389,31 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>n_ahead</code></td>
+<td>n_ahead</td>
 <td>int</td>
 <td>Forecast next <code>n_ahead</code> time point.</td>
 <td><em>required</em></td>
 </tr>
 <tr class="even">
-<td><code>test</code></td>
+<td>test</td>
 <td>array - like</td>
 <td>Test set to forecast</td>
 <td><em>required</em></td>
 </tr>
 <tr class="odd">
-<td><code>level</code></td>
+<td>level</td>
 <td>float</td>
 <td>Level for credible interval, by default .05</td>
 <td><code>0.05</code></td>
 </tr>
 <tr class="even">
-<td><code>sparse</code></td>
+<td>sparse</td>
 <td>bool</td>
 <td>Apply restriction to forecasting, by default False</td>
 <td><code>False</code></td>
 </tr>
 <tr class="odd">
-<td><code>sv</code></td>
+<td>sv</td>
 <td>bool</td>
 <td>Use SV term in case of SV model, by default True</td>
 <td><code>True</code></td>
@@ -372,21 +421,24 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="returns" class="level4">
-<h4 class="anchored" data-anchor-id="returns">Returns</h4>
+<section id="returns" class="level4 doc-section doc-section-returns">
+<h4 class="doc-section doc-section-returns anchored" data-anchor-id="returns">Returns</h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 2%">
-<col style="width: 97%">
+<col style="width: 2%">
+<col style="width: 94%">
 </colgroup>
 <thead>
 <tr class="header">
+<th>Name</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td></td>
 <td>dict</td>
 <td>Density forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood</td>
 </tr>
@@ -396,19 +448,21 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="bvhar.model.VarBayes.fit" class="level3">
 <h3 class="anchored" data-anchor-id="bvhar.model.VarBayes.fit">fit</h3>
-<p><code>model.VarBayes.fit()</code></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.fit()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Conduct MCMC and compute posterior mean</p>
-<section id="returns-1" class="level4">
-<h4 class="anchored" data-anchor-id="returns-1">Returns</h4>
+<section id="returns-1" class="level4 doc-section doc-section-returns">
+<h4 class="doc-section doc-section-returns anchored" data-anchor-id="returns-1">Returns</h4>
 <table class="caption-top table">
 <thead>
 <tr class="header">
+<th>Name</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td>self</td>
 <td>object</td>
 <td>An instance of the estimator.</td>
 </tr>
@@ -418,15 +472,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="bvhar.model.VarBayes.predict" class="level3">
 <h3 class="anchored" data-anchor-id="bvhar.model.VarBayes.predict">predict</h3>
-<p><code>model.VarBayes.predict(n_ahead, level=0.05, sparse=False, sv=True)</code></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.predict(n_ahead, level<span class="op">=</span><span class="fl">0.05</span>, sparse<span class="op">=</span><span class="va">False</span>, sv<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>‘n_ahead’-step ahead forecasting</p>
-<section id="parameters-2" class="level4">
-<h4 class="anchored" data-anchor-id="parameters-2">Parameters</h4>
+<section id="parameters-2" class="level4 doc-section doc-section-parameters">
+<h4 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters-2">Parameters</h4>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 13%">
+<col style="width: 11%">
 <col style="width: 9%">
-<col style="width: 62%">
+<col style="width: 64%">
 <col style="width: 14%">
 </colgroup>
 <thead>
@@ -439,25 +493,25 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>n_ahead</code></td>
+<td>n_ahead</td>
 <td>int</td>
 <td>Forecast until next <code>n_ahead</code> time point.</td>
 <td><em>required</em></td>
 </tr>
 <tr class="even">
-<td><code>level</code></td>
+<td>level</td>
 <td>float</td>
 <td>Level for credible interval, by default .05</td>
 <td><code>0.05</code></td>
 </tr>
 <tr class="odd">
-<td><code>sparse</code></td>
+<td>sparse</td>
 <td>bool</td>
 <td>Apply restriction to forecasting, by default False</td>
 <td><code>False</code></td>
 </tr>
 <tr class="even">
-<td><code>sv</code></td>
+<td>sv</td>
 <td>bool</td>
 <td>Use SV term in case of SV model, by default True</td>
 <td><code>True</code></td>
@@ -465,21 +519,24 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="returns-2" class="level4">
-<h4 class="anchored" data-anchor-id="returns-2">Returns</h4>
+<section id="returns-2" class="level4 doc-section doc-section-returns">
+<h4 class="doc-section doc-section-returns anchored" data-anchor-id="returns-2">Returns</h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 3%">
-<col style="width: 96%">
+<col style="width: 3%">
+<col style="width: 93%">
 </colgroup>
 <thead>
 <tr class="header">
+<th>Name</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td></td>
 <td>dict</td>
 <td>Density forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting</td>
 </tr>
@@ -489,15 +546,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="bvhar.model.VarBayes.roll_forecast" class="level3">
 <h3 class="anchored" data-anchor-id="bvhar.model.VarBayes.roll_forecast">roll_forecast</h3>
-<p><code>model.VarBayes.roll_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)</code></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.roll_forecast(n_ahead, test, level<span class="op">=</span><span class="fl">0.05</span>, sparse<span class="op">=</span><span class="va">False</span>, sv<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Rolling-window forecasting</p>
-<section id="parameters-3" class="level4">
-<h4 class="anchored" data-anchor-id="parameters-3">Parameters</h4>
+<section id="parameters-3" class="level4 doc-section doc-section-parameters">
+<h4 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters-3">Parameters</h4>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 15%">
-<col style="width: 58%">
+<col style="width: 10%">
+<col style="width: 16%">
+<col style="width: 59%">
 <col style="width: 13%">
 </colgroup>
 <thead>
@@ -510,31 +567,31 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>n_ahead</code></td>
+<td>n_ahead</td>
 <td>int</td>
 <td>Forecast next <code>n_ahead</code> time point.</td>
 <td><em>required</em></td>
 </tr>
 <tr class="even">
-<td><code>test</code></td>
+<td>test</td>
 <td>array - like</td>
 <td>Test set to forecast</td>
 <td><em>required</em></td>
 </tr>
 <tr class="odd">
-<td><code>level</code></td>
+<td>level</td>
 <td>float</td>
 <td>Level for credible interval, by default .05</td>
 <td><code>0.05</code></td>
 </tr>
 <tr class="even">
-<td><code>sparse</code></td>
+<td>sparse</td>
 <td>bool</td>
 <td>Apply restriction to forecasting, by default False</td>
 <td><code>False</code></td>
 </tr>
 <tr class="odd">
-<td><code>sv</code></td>
+<td>sv</td>
 <td>bool</td>
 <td>Use SV term in case of SV model, by default True</td>
 <td><code>True</code></td>
@@ -542,21 +599,24 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="returns-3" class="level4">
-<h4 class="anchored" data-anchor-id="returns-3">Returns</h4>
+<section id="returns-3" class="level4 doc-section doc-section-returns">
+<h4 class="doc-section doc-section-returns anchored" data-anchor-id="returns-3">Returns</h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 2%">
-<col style="width: 97%">
+<col style="width: 2%">
+<col style="width: 94%">
 </colgroup>
 <thead>
 <tr class="header">
+<th>Name</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td></td>
 <td>dict</td>
 <td>Density forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood</td>
 </tr>

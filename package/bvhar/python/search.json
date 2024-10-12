@@ -1,87 +1,45 @@
 [
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction to bvhar",
+    "objectID": "get_started.html",
+    "href": "get_started.html",
+    "title": "bvhar Getting Started",
     "section": "",
-    "text": "This package includes the same CBOE ETF volatility index series.\n\nfrom bvhar.datasets import load_vix\netf_vix = load_vix()\n\n\n\n\n\n\n\n\n\n\nGVZCLS\nOVXCLS\nVXFXICLS\nVXEEMCLS\nVXSLVCLS\nEVZCLS\nVXXLECLS\nVXGDXCLS\nVXEWZCLS\n\n\n\n\n0\n21.47\n36.52\n30.19\n30.09\n44.47\n13.19\n27.53\n33.51\n31.27\n\n\n1\n21.51\n35.44\n28.89\n29.49\n42.93\n12.61\n26.64\n33.02\n30.12\n\n\n2\n22.34\n35.52\n29.06\n29.82\n43.51\n13.12\n27.65\n33.76\n30.18\n\n\n3\n21.60\n36.59\n28.46\n30.01\n42.83\n12.77\n27.64\n33.50\n30.75\n\n\n4\n21.20\n35.62\n29.54\n31.13\n43.48\n13.31\n27.80\n32.81\n32.70\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n900\n13.85\n30.06\n29.12\n17.05\n24.33\n12.81\n15.11\n30.03\n29.17\n\n\n901\n13.89\n29.69\n28.13\n16.21\n24.80\n12.85\n14.67\n29.54\n28.15\n\n\n902\n13.83\n29.60\n27.80\n17.90\n24.91\n12.32\n15.19\n29.29\n27.63\n\n\n903\n13.12\n29.26\n27.58\n18.10\n23.49\n12.39\n16.46\n28.86\n29.14\n\n\n904\n13.22\n29.01\n29.36\n18.94\n22.87\n13.05\n16.99\n29.01\n29.22\n\n\n\n\n905 rows × 9 columns"
+    "text": "To install bvhar in non-conda environment, you should have Eigen and boost libraries in system."
   },
   {
-    "objectID": "intro.html#data",
-    "href": "intro.html#data",
-    "title": "Introduction to bvhar",
+    "objectID": "get_started.html#installing",
+    "href": "get_started.html#installing",
+    "title": "bvhar Getting Started",
+    "section": "Installing",
+    "text": "Installing\n\nEigen and boost\nIn Linux,\nsudo apt-get update\nsudo apt-get install -y libboost-all-dev libeigen3-dev\necho \"export EIGEN_INCLUDE_DIR=/usr/include/eigen3\" &gt;&gt; ~/.bashrc\necho \"export BOOST_INCLUDE_DIR=/usr/include/boost\" &gt;&gt; ~/.bashrc\nsource ~/.bashrc\nIn macOS,\nbrew update\nbrew install boost eigen\nEIGEN_LOC=$(brew --prefix eigen)\nBOOST_LOC=$(brew --prefix boost)\necho \"export EIGEN_INCLUDE_DIR=$(brew --prefix eigen)/include/eigen3\" &gt;&gt; ~/.zshrc\necho \"export BOOST_INCLUDE_DIR=$(brew --prefix boost)/include\" &gt;&gt; ~/.zshrc\nsource ~/.zshrc\nIn both Linux and macOS, verify the installation with\nls $EIGEN_INCLUDE_DIR\nls $BOOST_INCLUDE_DIR\nFor Windows, you can easily install both libraries using Chocolatey:\nchoco install eigen -y\nchoco install boost-msvc-14.3 -y\nSet the environment variables:\n$eigenPath = (\n  Get-ChildItem -Path \"C:\\ProgramData\\chocolatey\\lib\\eigen\" -Recurse -Filter \"Eigen\" |\n  Select-Object -First 1\n).Parent.FullName\n$boostPath = $null\n$boostCand = @(\"C:\\local\", \"C:\\ProgramData\\chocolatey\\lib\")\nforeach ($cand in $boostCand) {\n  $isPath = (\n      Get-ChildItem -Path $cand -Directory |\n      Where-Object { $_.Name -match  \"boost\" } |\n      Sort-Object LastWriteTime -Descending |\n      Select-Object -First 1\n  ).FullName\n  if ($isPath) {\n      $boostPath = $isPath\n      break\n  }\n}\n[System.Environment]::SetEnvironmentVariable(\"EIGEN_INCLUDE_DIR\", $eigenPath, [System.EnvironmentVariableTarget]::Machine)\n[System.Environment]::SetEnvironmentVariable(\"BOOST_INCLUDE_DIR\", $boostPath, [System.EnvironmentVariableTarget]::Machine)\nVerify the environment variables and installation:\ndir $env:EIGEN_INCLUDE_DIR\ndir $env:BOOST_INCLUDE_DIR"
+  },
+  {
+    "objectID": "get_started.html#openmp",
+    "href": "get_started.html#openmp",
+    "title": "bvhar Getting Started",
+    "section": "OpenMP",
+    "text": "OpenMP\nOpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. bvhar provides OpenMP checking functions.\n\nfrom bvhar.utils import checkomp\ncheckomp.check_omp()\n\nOpenMP threads:  4\n\n\nTrue if enabled, False if not:\n\ncheckomp.is_omp()\n\nTrue\n\n\nIn macOS, you need additional step to enable OpenMP. There are many options you can consider. Here is an example with LLVM.\nbrew update\nbrew install llvm libomp\necho \"export CC=$(brew --prefix llvm)/bin/clang\" &gt;&gt; ~/.zshrc\necho \"export CXX=$(brew --prefix llvm)/bin/clang++\" &gt;&gt; ~/.zshrc\necho \"export CPPFLAGS=-I$(brew --prefix llvm)/include -I$(brew --prefix libomp)/include\" &gt;&gt; ~/.zshrc\necho \"export LDFLAGS=-L$(brew --prefix llvm)/lib -L$(brew --prefix libomp)/lib\" &gt;&gt; ~/.zshrc"
+  },
+  {
+    "objectID": "reference/LdltConfig.html",
+    "href": "reference/LdltConfig.html",
+    "title": "LdltConfig",
     "section": "",
-    "text": "This package includes the same CBOE ETF volatility index series.\n\nfrom bvhar.datasets import load_vix\netf_vix = load_vix()\n\n\n\n\n\n\n\n\n\n\nGVZCLS\nOVXCLS\nVXFXICLS\nVXEEMCLS\nVXSLVCLS\nEVZCLS\nVXXLECLS\nVXGDXCLS\nVXEWZCLS\n\n\n\n\n0\n21.47\n36.52\n30.19\n30.09\n44.47\n13.19\n27.53\n33.51\n31.27\n\n\n1\n21.51\n35.44\n28.89\n29.49\n42.93\n12.61\n26.64\n33.02\n30.12\n\n\n2\n22.34\n35.52\n29.06\n29.82\n43.51\n13.12\n27.65\n33.76\n30.18\n\n\n3\n21.60\n36.59\n28.46\n30.01\n42.83\n12.77\n27.64\n33.50\n30.75\n\n\n4\n21.20\n35.62\n29.54\n31.13\n43.48\n13.31\n27.80\n32.81\n32.70\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n900\n13.85\n30.06\n29.12\n17.05\n24.33\n12.81\n15.11\n30.03\n29.17\n\n\n901\n13.89\n29.69\n28.13\n16.21\n24.80\n12.85\n14.67\n29.54\n28.15\n\n\n902\n13.83\n29.60\n27.80\n17.90\n24.91\n12.32\n15.19\n29.29\n27.63\n\n\n903\n13.12\n29.26\n27.58\n18.10\n23.49\n12.39\n16.46\n28.86\n29.14\n\n\n904\n13.22\n29.01\n29.36\n18.94\n22.87\n13.05\n16.99\n29.01\n29.22\n\n\n\n\n905 rows × 9 columns"
+    "text": "model.LdltConfig(self, ig_shape=3, ig_scale=0.01)\nPrior for Covariance Matrix\nSpecifies inverse-gamma prior for cholesky diagonal vector.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nig_shape\nfloat\nInverse-Gamma shape of Cholesky diagonal vector, by default 3\n3\n\n\nig_scale\nfloat\nInverse-Gamma scale of Cholesky diagonal vector, by default .01\n0.01\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\nshape\nfloat\nInverse-Gamma shape\n\n\nscale\nfloat\nInverse-Gamma scale"
   },
   {
-    "objectID": "intro.html#var",
-    "href": "intro.html#var",
-    "title": "Introduction to bvhar",
-    "section": "VAR",
-    "text": "VAR\n\nfit_var = VarOls(etf_vix, 1, True)\nfit_var.fit()"
-  },
-  {
-    "objectID": "intro.html#vhar",
-    "href": "intro.html#vhar",
-    "title": "Introduction to bvhar",
-    "section": "VHAR",
-    "text": "VHAR"
-  },
-  {
-    "objectID": "intro.html#bvar",
-    "href": "intro.html#bvar",
-    "title": "Introduction to bvhar",
-    "section": "BVAR",
-    "text": "BVAR"
-  },
-  {
-    "objectID": "intro.html#bvhar",
-    "href": "intro.html#bvhar",
-    "title": "Introduction to bvhar",
-    "section": "BVHAR",
-    "text": "BVHAR"
-  },
-  {
-    "objectID": "authors.html",
-    "href": "authors.html",
-    "title": "Authors and Citation ",
+    "objectID": "reference/LdltConfig.html#parameters",
+    "href": "reference/LdltConfig.html#parameters",
+    "title": "LdltConfig",
     "section": "",
-    "text": "Young Geun Kim. Author, maintainer, copyright holder."
+    "text": "Name\nType\nDescription\nDefault\n\n\n\n\nig_shape\nfloat\nInverse-Gamma shape of Cholesky diagonal vector, by default 3\n3\n\n\nig_scale\nfloat\nInverse-Gamma scale of Cholesky diagonal vector, by default .01\n0.01"
   },
   {
-    "objectID": "authors.html#authors",
-    "href": "authors.html#authors",
-    "title": "Authors and Citation ",
+    "objectID": "reference/LdltConfig.html#attributes",
+    "href": "reference/LdltConfig.html#attributes",
+    "title": "LdltConfig",
     "section": "",
-    "text": "Young Geun Kim. Author, maintainer, copyright holder."
-  },
-  {
-    "objectID": "reference/HorseshoeConfig.html",
-    "href": "reference/HorseshoeConfig.html",
-    "title": "HorseshoeConfig",
-    "section": "",
-    "text": "HorseshoeConfig\nmodel.HorseshoeConfig(self)\nHorseshoe prior configuration\nSpecifies Horseshoe prior for coefficient."
-  },
-  {
-    "objectID": "reference/VharOls.html",
-    "href": "reference/VharOls.html",
-    "title": "VharOls",
-    "section": "",
-    "text": "model.VharOls(self, data, week=5, month=22, fit_intercept=True, method='nor')\nOLS for Vector heterogeneous autoregressive model\nFits VHAR model using OLS.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nweek\nint\nVHAR weekly order, by default 5\n5\n\n\nmonth\nint\nVHAR monthly order, by default 22\n22\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nmethod\nstr\nNormal equation solving method - “nor”: projection matrix (default) - “chol”: LU decomposition - “qr”: QR decomposition)\n'nor'\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\ncov_\nndarray\nVHAR covariance matrix.\n\n\nn_features_in_\nint\nNumber of variables."
-  },
-  {
-    "objectID": "reference/VharOls.html#parameters",
-    "href": "reference/VharOls.html#parameters",
-    "title": "VharOls",
-    "section": "",
-    "text": "Name\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nweek\nint\nVHAR weekly order, by default 5\n5\n\n\nmonth\nint\nVHAR monthly order, by default 22\n22\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nmethod\nstr\nNormal equation solving method - “nor”: projection matrix (default) - “chol”: LU decomposition - “qr”: QR decomposition)\n'nor'"
-  },
-  {
-    "objectID": "reference/VharOls.html#attributes",
-    "href": "reference/VharOls.html#attributes",
-    "title": "VharOls",
-    "section": "",
-    "text": "Name\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\ncov_\nndarray\nVHAR covariance matrix.\n\n\nn_features_in_\nint\nNumber of variables."
+    "text": "Name\nType\nDescription\n\n\n\n\nshape\nfloat\nInverse-Gamma shape\n\n\nscale\nfloat\nInverse-Gamma scale"
   },
   {
     "objectID": "reference/normal.generate_gig.html",
@@ -91,67 +49,18 @@
     "text": "normal.generate_gig\nrandom.normal.generate_gig()\ngenerate_gig(arg0: int, arg1: float, arg2: float, arg3: float, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, 1]]\nA function that GIG random variates"
   },
   {
-    "objectID": "reference/normal.generate_mnormal.html",
-    "href": "reference/normal.generate_mnormal.html",
-    "title": "normal.generate_mnormal",
+    "objectID": "reference/load_vix.html",
+    "href": "reference/load_vix.html",
+    "title": "load_vix",
     "section": "",
-    "text": "normal.generate_mnormal\nrandom.normal.generate_mnormal()\ngenerate_mnormal(arg0: int, arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: int, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, n]]\nGenerates multivariate gaussian random vectors"
+    "text": "datasets.load_vix()\nLoad and return the CBOE VIX of several ETF datasets\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\npd.DataFrame\nDataframe for CBOE VIX series"
   },
   {
-    "objectID": "reference/checkomp.check_omp.html",
-    "href": "reference/checkomp.check_omp.html",
-    "title": "checkomp.check_omp",
+    "objectID": "reference/load_vix.html#returns",
+    "href": "reference/load_vix.html#returns",
+    "title": "load_vix",
     "section": "",
-    "text": "checkomp.check_omp\nutils.checkomp.check_omp()\ncheck_omp() -&gt; None\nPrint if OpenMP is enabled"
-  },
-  {
-    "objectID": "reference/InterceptConfig.html",
-    "href": "reference/InterceptConfig.html",
-    "title": "InterceptConfig",
-    "section": "",
-    "text": "InterceptConfig\nmodel.InterceptConfig(self, mean=0, sd=0.1)\nPrior for Constant term\nSpecifies normal prior for constant term."
-  },
-  {
-    "objectID": "reference/SsvsConfig.html",
-    "href": "reference/SsvsConfig.html",
-    "title": "SsvsConfig",
-    "section": "",
-    "text": "SsvsConfig\nmodel.SsvsConfig(self, coef_spike_scl=0.01, coef_slab_shape=0.01, coef_slab_scl=0.01, coef_s1=[1, 1], coef_s2=[1, 1], chol_spike_scl=0.01, chol_slab_shape=0.01, chol_slab_scl=0.01, chol_s1=1, chol_s2=1)\nSSVS prior configuration\nSpecifies SSVS prior for coefficient."
-  },
-  {
-    "objectID": "reference/SvConfig.html",
-    "href": "reference/SvConfig.html",
-    "title": "SvConfig",
-    "section": "",
-    "text": "SvConfig\nmodel.SvConfig(self, ig_shape=3, ig_scale=0.01, initial_mean=1, initial_prec=0.1)"
-  },
-  {
-    "objectID": "reference/VarOls.html",
-    "href": "reference/VarOls.html",
-    "title": "VarOls",
-    "section": "",
-    "text": "model.VarOls(self, data, lag=1, fit_intercept=True, method='nor')\nOLS for Vector autoregressive model\nFits VAR model using OLS.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nlag\nint\nVAR lag, by default 1\n1\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nmethod\nstr\nNormal equation solving method - “nor”: projection matrix (default) - “chol”: LU decomposition - “qr”: QR decomposition)\n'nor'\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVAR coefficient matrix.\n\n\nintercept_\nndarray\nVAR model constant vector.\n\n\ncov_\nndarray\nVAR covariance matrix.\n\n\nn_features_in_\nint\nNumber of variables."
-  },
-  {
-    "objectID": "reference/VarOls.html#parameters",
-    "href": "reference/VarOls.html#parameters",
-    "title": "VarOls",
-    "section": "",
-    "text": "Name\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nlag\nint\nVAR lag, by default 1\n1\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nmethod\nstr\nNormal equation solving method - “nor”: projection matrix (default) - “chol”: LU decomposition - “qr”: QR decomposition)\n'nor'"
-  },
-  {
-    "objectID": "reference/VarOls.html#attributes",
-    "href": "reference/VarOls.html#attributes",
-    "title": "VarOls",
-    "section": "",
-    "text": "Name\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVAR coefficient matrix.\n\n\nintercept_\nndarray\nVAR model constant vector.\n\n\ncov_\nndarray\nVAR covariance matrix.\n\n\nn_features_in_\nint\nNumber of variables."
-  },
-  {
-    "objectID": "reference/checkomp.is_omp.html",
-    "href": "reference/checkomp.is_omp.html",
-    "title": "checkomp.is_omp",
-    "section": "",
-    "text": "checkomp.is_omp\nutils.checkomp.is_omp()\nis_omp() -&gt; bool\nGive boolean for OpenMP"
+    "text": "Name\nType\nDescription\n\n\n\n\n\npd.DataFrame\nDataframe for CBOE VIX series"
   },
   {
     "objectID": "reference/index.html",
@@ -203,53 +112,18 @@
     "text": "Related to configuration\n\n\n\ncheckomp.is_omp\nis_omp() -&gt; bool\n\n\ncheckomp.check_omp\ncheck_omp() -&gt; None"
   },
   {
-    "objectID": "reference/load_vix.html",
-    "href": "reference/load_vix.html",
-    "title": "load_vix",
+    "objectID": "reference/DlConfig.html",
+    "href": "reference/DlConfig.html",
+    "title": "DlConfig",
     "section": "",
-    "text": "datasets.load_vix()\nLoad and return the CBOE VIX of several ETF datasets\n\n\n\n\n\nType\nDescription\n\n\n\n\npd.DataFrame\nDataframe for CBOE VIX series"
-  },
-  {
-    "objectID": "reference/load_vix.html#returns",
-    "href": "reference/load_vix.html#returns",
-    "title": "load_vix",
-    "section": "",
-    "text": "Type\nDescription\n\n\n\n\npd.DataFrame\nDataframe for CBOE VIX series"
-  },
-  {
-    "objectID": "reference/MinnesotaConfig.html",
-    "href": "reference/MinnesotaConfig.html",
-    "title": "MinnesotaConfig",
-    "section": "",
-    "text": "MinnesotaConfig\nmodel.MinnesotaConfig(self, sig=None, lam=0.1, delt=None, is_long=False, eps=0.0001)\nMinnesota prior configuration\nSpecifies Minnesota prior for coefficient."
-  },
-  {
-    "objectID": "reference/LdltConfig.html",
-    "href": "reference/LdltConfig.html",
-    "title": "LdltConfig",
-    "section": "",
-    "text": "model.LdltConfig(self, ig_shape=3, ig_scale=0.01)\nPrior for Covariance Matrix\nSpecifies inverse-gamma prior for cholesky diagonal vector.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nig_shape\nfloat\nInverse-Gamma shape of Cholesky diagonal vector, by default 3\n3\n\n\nig_scale\nfloat\nInverse-Gamma scale of Cholesky diagonal vector, by default .01\n0.01\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\nshape\nfloat\nInverse-Gamma shape\n\n\nscale\nfloat\nInverse-Gamma scale"
-  },
-  {
-    "objectID": "reference/LdltConfig.html#parameters",
-    "href": "reference/LdltConfig.html#parameters",
-    "title": "LdltConfig",
-    "section": "",
-    "text": "Name\nType\nDescription\nDefault\n\n\n\n\nig_shape\nfloat\nInverse-Gamma shape of Cholesky diagonal vector, by default 3\n3\n\n\nig_scale\nfloat\nInverse-Gamma scale of Cholesky diagonal vector, by default .01\n0.01"
-  },
-  {
-    "objectID": "reference/LdltConfig.html#attributes",
-    "href": "reference/LdltConfig.html#attributes",
-    "title": "LdltConfig",
-    "section": "",
-    "text": "Name\nType\nDescription\n\n\n\n\nshape\nfloat\nInverse-Gamma shape\n\n\nscale\nfloat\nInverse-Gamma scale"
+    "text": "DlConfig\nmodel.DlConfig(self, dir_grid=100, shape=0.01, rate=0.01)\nDirichlet-Laplace prior configuration\nSpecifies Dirichlet-Laplace prior for coefficient."
   },
   {
     "objectID": "reference/VarBayes.html",
     "href": "reference/VarBayes.html",
     "title": "VarBayes",
     "section": "",
-    "text": "model.VarBayes(self, data, lag=1, n_chain=1, n_iter=1000, n_burn=None, n_thin=1, bayes_config=SsvsConfig(), cov_config=LdltConfig(), intercept_config=InterceptConfig(), fit_intercept=True, minnesota=True, verbose=False, n_thread=1)\nBayesian Vector Autoregressive Model\nFits Bayesian VAR model.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nlag\nint\nVAR lag, by default 1\n1\n\n\nn_chain\nint\nNumber of MCMC chains, by default 1\n1\n\n\nn_iter\nint\nNumber of MCMC total iterations, by default 1000\n1000\n\n\nn_burn\nint\nMCMC burn-in (warm-up), by default floor(n_iter / 2)\nNone\n\n\nn_thin\nint\nThinning every n_thin-th iteration, by default 1\n1\n\n\nbayes_config\n_BayesConfig\nPrior configuration, by default SsvsConfig()\nSsvsConfig()\n\n\ncov_config\n(LdltConfig, SvConfig)\nPrior configuration for covariance matrix, by default LdltConfig()\n'LdltConfig'\n\n\nintercept_config\nInterceptConfig\nPrior configuration for constant term, by default InterceptConfig()\nInterceptConfig()\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nminnesota\nbool\nIf True, apply Minnesota-type group structure, by default True\nTrue\n\n\nverbose\nbool\nIf True, print progress bar for MCMC, by default False\nFalse\n\n\nn_thread\nint\nNumber of OpenMP threads, by default 1\n1\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\nn_features_in_\nint\nNumber of variables.\n\n\n\n\n\n\n.. [1] Carriero, A., Chan, J., Clark, T. E., & Marcellino, M. (2022). Corrigendum to “Large Bayesian vector autoregressions with stochastic volatility and non-conjugate priors” [J. Econometrics 212 (1)(2019) 137–154]. Journal of Econometrics, 227(2), 506-512. .. [2] Chan, J., Koop, G., Poirier, D., & Tobias, J. (2019). Bayesian Econometric Methods (2nd ed., Econometric Exercises). Cambridge: Cambridge University Press. .. [3] Cogley, T., & Sargent, T. J. (2005). Drifts and volatilities: monetary policies and outcomes in the post WWII US. Review of Economic Dynamics, 8(2), 262–302. .. [4] Gruber, L., & Kastner, G. (2022). Forecasting macroeconomic data with Bayesian VARs: Sparse or dense? It depends! arXiv. .. [5] Huber, F., Koop, G., & Onorante, L. (2021). Inducing Sparsity and Shrinkage in Time-Varying Parameter Models. Journal of Business & Economic Statistics, 39(3), 669–683. .. [6] Korobilis, D., & Shimizu, K. (2022). Bayesian Approaches to Shrinkage and Sparse Estimation. Foundations and Trends® in Econometrics, 11(4), 230–354. .. [7] Ray, P., & Bhattacharya, A. (2018). Signal Adaptive Variable Selector for the Horseshoe Prior. arXiv.\n\n\n\n\n\n\nName\nDescription\n\n\n\n\nexpand_forecast\nExpanding-window forecasting\n\n\nfit\nConduct MCMC and compute posterior mean\n\n\npredict\n‘n_ahead’-step ahead forecasting\n\n\nroll_forecast\nRolling-window forecasting\n\n\n\n\n\nmodel.VarBayes.expand_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nExpanding-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood\n\n\n\n\n\n\n\nmodel.VarBayes.fit()\nConduct MCMC and compute posterior mean\n\n\n\n\n\nType\nDescription\n\n\n\n\nobject\nAn instance of the estimator.\n\n\n\n\n\n\n\nmodel.VarBayes.predict(n_ahead, level=0.05, sparse=False, sv=True)\n‘n_ahead’-step ahead forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast until next n_ahead time point.\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting\n\n\n\n\n\n\n\nmodel.VarBayes.roll_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nRolling-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood"
+    "text": "model.VarBayes(\n    self\n    data\n    lag=1\n    n_chain=1\n    n_iter=1000\n    n_burn=None\n    n_thin=1\n    bayes_config=SsvsConfig()\n    cov_config=LdltConfig()\n    intercept_config=InterceptConfig()\n    fit_intercept=True\n    minnesota=True\n    verbose=False\n    n_thread=1\n)\nBayesian Vector Autoregressive Model\nFits Bayesian VAR model.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nlag\nint\nVAR lag, by default 1\n1\n\n\nn_chain\nint\nNumber of MCMC chains, by default 1\n1\n\n\nn_iter\nint\nNumber of MCMC total iterations, by default 1000\n1000\n\n\nn_burn\nint\nMCMC burn-in (warm-up), by default floor(n_iter / 2)\nNone\n\n\nn_thin\nint\nThinning every n_thin-th iteration, by default 1\n1\n\n\nbayes_config\n_BayesConfig\nPrior configuration, by default SsvsConfig()\nSsvsConfig()\n\n\ncov_config\n(LdltConfig, SvConfig)\nPrior configuration for covariance matrix, by default LdltConfig()\n'LdltConfig'\n\n\nintercept_config\nInterceptConfig\nPrior configuration for constant term, by default InterceptConfig()\nInterceptConfig()\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nminnesota\nbool\nIf True, apply Minnesota-type group structure, by default True\nTrue\n\n\nverbose\nbool\nIf True, print progress bar for MCMC, by default False\nFalse\n\n\nn_thread\nint\nNumber of OpenMP threads, by default 1\n1\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\nn_features_in_\nint\nNumber of variables.\n\n\n\n\n\n\n.. [1] Carriero, A., Chan, J., Clark, T. E., & Marcellino, M. (2022). Corrigendum to “Large Bayesian vector autoregressions with stochastic volatility and non-conjugate priors” [J. Econometrics 212 (1)(2019) 137–154]. Journal of Econometrics, 227(2), 506-512. .. [2] Chan, J., Koop, G., Poirier, D., & Tobias, J. (2019). Bayesian Econometric Methods (2nd ed., Econometric Exercises). Cambridge: Cambridge University Press. .. [3] Cogley, T., & Sargent, T. J. (2005). Drifts and volatilities: monetary policies and outcomes in the post WWII US. Review of Economic Dynamics, 8(2), 262–302. .. [4] Gruber, L., & Kastner, G. (2022). Forecasting macroeconomic data with Bayesian VARs: Sparse or dense? It depends! arXiv. .. [5] Huber, F., Koop, G., & Onorante, L. (2021). Inducing Sparsity and Shrinkage in Time-Varying Parameter Models. Journal of Business & Economic Statistics, 39(3), 669–683. .. [6] Korobilis, D., & Shimizu, K. (2022). Bayesian Approaches to Shrinkage and Sparse Estimation. Foundations and Trends® in Econometrics, 11(4), 230–354. .. [7] Ray, P., & Bhattacharya, A. (2018). Signal Adaptive Variable Selector for the Horseshoe Prior. arXiv.\n\n\n\n\n\n\nName\nDescription\n\n\n\n\nexpand_forecast\nExpanding-window forecasting\n\n\nfit\nConduct MCMC and compute posterior mean\n\n\npredict\n‘n_ahead’-step ahead forecasting\n\n\nroll_forecast\nRolling-window forecasting\n\n\n\n\n\nmodel.VarBayes.expand_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nExpanding-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood\n\n\n\n\n\n\n\nmodel.VarBayes.fit()\nConduct MCMC and compute posterior mean\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\nself\nobject\nAn instance of the estimator.\n\n\n\n\n\n\n\nmodel.VarBayes.predict(n_ahead, level=0.05, sparse=False, sv=True)\n‘n_ahead’-step ahead forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast until next n_ahead time point.\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting\n\n\n\n\n\n\n\nmodel.VarBayes.roll_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nRolling-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood"
   },
   {
     "objectID": "reference/VarBayes.html#parameters",
@@ -277,56 +151,42 @@
     "href": "reference/VarBayes.html#methods",
     "title": "VarBayes",
     "section": "",
-    "text": "Name\nDescription\n\n\n\n\nexpand_forecast\nExpanding-window forecasting\n\n\nfit\nConduct MCMC and compute posterior mean\n\n\npredict\n‘n_ahead’-step ahead forecasting\n\n\nroll_forecast\nRolling-window forecasting\n\n\n\n\n\nmodel.VarBayes.expand_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nExpanding-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood\n\n\n\n\n\n\n\nmodel.VarBayes.fit()\nConduct MCMC and compute posterior mean\n\n\n\n\n\nType\nDescription\n\n\n\n\nobject\nAn instance of the estimator.\n\n\n\n\n\n\n\nmodel.VarBayes.predict(n_ahead, level=0.05, sparse=False, sv=True)\n‘n_ahead’-step ahead forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast until next n_ahead time point.\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting\n\n\n\n\n\n\n\nmodel.VarBayes.roll_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nRolling-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood"
+    "text": "Name\nDescription\n\n\n\n\nexpand_forecast\nExpanding-window forecasting\n\n\nfit\nConduct MCMC and compute posterior mean\n\n\npredict\n‘n_ahead’-step ahead forecasting\n\n\nroll_forecast\nRolling-window forecasting\n\n\n\n\n\nmodel.VarBayes.expand_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nExpanding-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood\n\n\n\n\n\n\n\nmodel.VarBayes.fit()\nConduct MCMC and compute posterior mean\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\nself\nobject\nAn instance of the estimator.\n\n\n\n\n\n\n\nmodel.VarBayes.predict(n_ahead, level=0.05, sparse=False, sv=True)\n‘n_ahead’-step ahead forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast until next n_ahead time point.\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting\n\n\n\n\n\n\n\nmodel.VarBayes.roll_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nRolling-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood"
   },
   {
-    "objectID": "reference/VharBayes.html",
-    "href": "reference/VharBayes.html",
-    "title": "VharBayes",
+    "objectID": "reference/SsvsConfig.html",
+    "href": "reference/SsvsConfig.html",
+    "title": "SsvsConfig",
     "section": "",
-    "text": "model.VharBayes(self, data, week=5, month=22, n_chain=1, n_iter=1000, n_burn=None, n_thin=1, bayes_config=SsvsConfig(), cov_config=LdltConfig(), intercept_config=InterceptConfig(), fit_intercept=True, minnesota='longrun', verbose=False, n_thread=1)\nBayesian Vector Autoregressive Model\nFits Bayesian VAR model.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nweek\nint\nVHAR weekly order, by default 5\n5\n\n\nmonth\nint\nVHAR monthly order, by default 22\n22\n\n\nn_chain\nint\nNumber of MCMC chains, by default 1\n1\n\n\nn_iter\nint\nNumber of MCMC total iterations, by default 1000\n1000\n\n\nn_burn\nint\nMCMC burn-in (warm-up), by default floor(n_iter / 2)\nNone\n\n\nn_thin\nint\nThinning every n_thin-th iteration, by default 1\n1\n\n\nbayes_config\n_BayesConfig\nPrior configuration, by default SsvsConfig()\nSsvsConfig()\n\n\ncov_config\n(LdltConfig, SvConfig)\nPrior configuration for covariance matrix, by default LdltConfig()\n'LdltConfig'\n\n\nintercept_config\nInterceptConfig\nPrior configuration for constant term, by default InterceptConfig()\nInterceptConfig()\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nminnesota\nstr\nMinnesota-type group structure - “no”: Not use the group structure - “short”: BVAR-minnesota structure - “longrun”: BVHAR-minnesota structure\n'longrun'\n\n\nverbose\nbool\nIf True, print progress bar for MCMC, by default False\nFalse\n\n\nn_thread\nint\nNumber of OpenMP threads, by default 1\n1\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\nn_features_in_\nint\nNumber of variables.\n\n\n\n\n\n\n\n\n\nName\nDescription\n\n\n\n\nexpand_forecast\nExpanding-window forecasting\n\n\nfit\nConduct MCMC and compute posterior mean\n\n\npredict\n‘n_ahead’-step ahead forecasting\n\n\nroll_forecast\nRolling-window forecasting\n\n\n\n\n\nmodel.VharBayes.expand_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nExpanding-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood\n\n\n\n\n\n\n\nmodel.VharBayes.fit()\nConduct MCMC and compute posterior mean\n\n\n\n\n\nType\nDescription\n\n\n\n\nobject\nAn instance of the estimator.\n\n\n\n\n\n\n\nmodel.VharBayes.predict(n_ahead, level=0.05, sparse=False, sv=True)\n‘n_ahead’-step ahead forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast until next n_ahead time point.\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting\n\n\n\n\n\n\n\nmodel.VharBayes.roll_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nRolling-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood"
+    "text": "SsvsConfig\nmodel.SsvsConfig(\n    self\n    coef_spike_scl=0.01\n    coef_slab_shape=0.01\n    coef_slab_scl=0.01\n    coef_s1=[1, 1]\n    coef_s2=[1, 1]\n    chol_spike_scl=0.01\n    chol_slab_shape=0.01\n    chol_slab_scl=0.01\n    chol_s1=1\n    chol_s2=1\n)\nSSVS prior configuration\nSpecifies SSVS prior for coefficient."
   },
   {
-    "objectID": "reference/VharBayes.html#parameters",
-    "href": "reference/VharBayes.html#parameters",
-    "title": "VharBayes",
+    "objectID": "reference/VharOls.html",
+    "href": "reference/VharOls.html",
+    "title": "VharOls",
     "section": "",
-    "text": "Name\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nweek\nint\nVHAR weekly order, by default 5\n5\n\n\nmonth\nint\nVHAR monthly order, by default 22\n22\n\n\nn_chain\nint\nNumber of MCMC chains, by default 1\n1\n\n\nn_iter\nint\nNumber of MCMC total iterations, by default 1000\n1000\n\n\nn_burn\nint\nMCMC burn-in (warm-up), by default floor(n_iter / 2)\nNone\n\n\nn_thin\nint\nThinning every n_thin-th iteration, by default 1\n1\n\n\nbayes_config\n_BayesConfig\nPrior configuration, by default SsvsConfig()\nSsvsConfig()\n\n\ncov_config\n(LdltConfig, SvConfig)\nPrior configuration for covariance matrix, by default LdltConfig()\n'LdltConfig'\n\n\nintercept_config\nInterceptConfig\nPrior configuration for constant term, by default InterceptConfig()\nInterceptConfig()\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nminnesota\nstr\nMinnesota-type group structure - “no”: Not use the group structure - “short”: BVAR-minnesota structure - “longrun”: BVHAR-minnesota structure\n'longrun'\n\n\nverbose\nbool\nIf True, print progress bar for MCMC, by default False\nFalse\n\n\nn_thread\nint\nNumber of OpenMP threads, by default 1\n1"
+    "text": "model.VharOls(self, data, week=5, month=22, fit_intercept=True, method='nor')\nOLS for Vector heterogeneous autoregressive model\nFits VHAR model using OLS.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nweek\nint\nVHAR weekly order, by default 5\n5\n\n\nmonth\nint\nVHAR monthly order, by default 22\n22\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nmethod\nstr\nNormal equation solving method - “nor”: projection matrix (default) - “chol”: LU decomposition - “qr”: QR decomposition)\n'nor'\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\ncov_\nndarray\nVHAR covariance matrix.\n\n\nn_features_in_\nint\nNumber of variables."
   },
   {
-    "objectID": "reference/VharBayes.html#attributes",
-    "href": "reference/VharBayes.html#attributes",
-    "title": "VharBayes",
+    "objectID": "reference/VharOls.html#parameters",
+    "href": "reference/VharOls.html#parameters",
+    "title": "VharOls",
     "section": "",
-    "text": "Name\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\nn_features_in_\nint\nNumber of variables."
+    "text": "Name\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nweek\nint\nVHAR weekly order, by default 5\n5\n\n\nmonth\nint\nVHAR monthly order, by default 22\n22\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nmethod\nstr\nNormal equation solving method - “nor”: projection matrix (default) - “chol”: LU decomposition - “qr”: QR decomposition)\n'nor'"
   },
   {
-    "objectID": "reference/VharBayes.html#methods",
-    "href": "reference/VharBayes.html#methods",
-    "title": "VharBayes",
+    "objectID": "reference/VharOls.html#attributes",
+    "href": "reference/VharOls.html#attributes",
+    "title": "VharOls",
     "section": "",
-    "text": "Name\nDescription\n\n\n\n\nexpand_forecast\nExpanding-window forecasting\n\n\nfit\nConduct MCMC and compute posterior mean\n\n\npredict\n‘n_ahead’-step ahead forecasting\n\n\nroll_forecast\nRolling-window forecasting\n\n\n\n\n\nmodel.VharBayes.expand_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nExpanding-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood\n\n\n\n\n\n\n\nmodel.VharBayes.fit()\nConduct MCMC and compute posterior mean\n\n\n\n\n\nType\nDescription\n\n\n\n\nobject\nAn instance of the estimator.\n\n\n\n\n\n\n\nmodel.VharBayes.predict(n_ahead, level=0.05, sparse=False, sv=True)\n‘n_ahead’-step ahead forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast until next n_ahead time point.\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting\n\n\n\n\n\n\n\nmodel.VharBayes.roll_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nRolling-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nDescription\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood"
+    "text": "Name\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\ncov_\nndarray\nVHAR covariance matrix.\n\n\nn_features_in_\nint\nNumber of variables."
   },
   {
-    "objectID": "reference/DlConfig.html",
-    "href": "reference/DlConfig.html",
-    "title": "DlConfig",
+    "objectID": "reference/InterceptConfig.html",
+    "href": "reference/InterceptConfig.html",
+    "title": "InterceptConfig",
     "section": "",
-    "text": "DlConfig\nmodel.DlConfig(self, dir_grid=100, shape=0.01, rate=0.01)\nDirichlet-Laplace prior configuration\nSpecifies Dirichlet-Laplace prior for coefficient."
-  },
-  {
-    "objectID": "reference/LambdaConfig.html",
-    "href": "reference/LambdaConfig.html",
-    "title": "LambdaConfig",
-    "section": "",
-    "text": "LambdaConfig\nmodel.LambdaConfig(self, shape=0.01, rate=0.01, eps=0.0001)\nHierarchical structure of Minnesota prior\nSpecifies prior for :math:\\lambda in Minnesota prior."
-  },
-  {
-    "objectID": "reference/NgConfig.html",
-    "href": "reference/NgConfig.html",
-    "title": "NgConfig",
-    "section": "",
-    "text": "NgConfig\nmodel.NgConfig(self, shape_sd=0.01, group_shape=0.01, group_scale=0.01, global_shape=0.01, global_scale=0.01, contem_global_shape=0.01, contem_global_scale=0.01)\nNormal-Gamma prior configuration\nSpecifies Normal-Gamma prior for coefficient."
+    "text": "InterceptConfig\nmodel.InterceptConfig(self, mean=0, sd=0.1)\nPrior for Constant term\nSpecifies normal prior for constant term."
   },
   {
     "objectID": "index.html",
@@ -350,24 +210,164 @@
     "text": "From GitHub:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git@develop#egg=bvhar&subdirectory=python'"
   },
   {
-    "objectID": "get_started.html",
-    "href": "get_started.html",
-    "title": "bvhar Getting Started",
+    "objectID": "authors.html",
+    "href": "authors.html",
+    "title": "Authors and Citation ",
     "section": "",
-    "text": "To install bvhar in non-conda environment, you should have Eigen and boost libraries in system."
+    "text": "Young Geun Kim. Author, maintainer, copyright holder."
   },
   {
-    "objectID": "get_started.html#installing",
-    "href": "get_started.html#installing",
-    "title": "bvhar Getting Started",
-    "section": "Installing",
-    "text": "Installing\n\nEigen and boost\nIn Linux,\nsudo apt-get update\nsudo apt-get install -y libboost-all-dev libeigen3-dev\necho \"export EIGEN_INCLUDE_DIR=/usr/include/eigen3\" &gt;&gt; ~/.bashrc\necho \"export BOOST_INCLUDE_DIR=/usr/include/boost\" &gt;&gt; ~/.bashrc\nsource ~/.bashrc\nIn macOS,\nbrew update\nbrew install boost eigen\nEIGEN_LOC=$(brew --prefix eigen)\nBOOST_LOC=$(brew --prefix boost)\necho \"export EIGEN_INCLUDE_DIR=$(brew --prefix eigen)/include/eigen3\" &gt;&gt; ~/.zshrc\necho \"export BOOST_INCLUDE_DIR=$(brew --prefix boost)/include\" &gt;&gt; ~/.zshrc\nsource ~/.zshrc\nIn both Linux and macOS, verify the installation with\nls $EIGEN_INCLUDE_DIR\nls $BOOST_INCLUDE_DIR\nFor Windows, you can easily install both libraries using Chocolatey:\nchoco install eigen -y\nchoco install boost-msvc-14.3 -y\nSet the environment variables:\n$eigenPath = (\n  Get-ChildItem -Path \"C:\\ProgramData\\chocolatey\\lib\\eigen\" -Recurse -Filter \"Eigen\" |\n  Select-Object -First 1\n).Parent.FullName\n$boostPath = $null\n$boostCand = @(\"C:\\local\", \"C:\\ProgramData\\chocolatey\\lib\")\nforeach ($cand in $boostCand) {\n  $isPath = (\n      Get-ChildItem -Path $cand -Directory |\n      Where-Object { $_.Name -match  \"boost\" } |\n      Sort-Object LastWriteTime -Descending |\n      Select-Object -First 1\n  ).FullName\n  if ($isPath) {\n      $boostPath = $isPath\n      break\n  }\n}\n[System.Environment]::SetEnvironmentVariable(\"EIGEN_INCLUDE_DIR\", $eigenPath, [System.EnvironmentVariableTarget]::Machine)\n[System.Environment]::SetEnvironmentVariable(\"BOOST_INCLUDE_DIR\", $boostPath, [System.EnvironmentVariableTarget]::Machine)\nVerify the environment variables and installation:\ndir $env:EIGEN_INCLUDE_DIR\ndir $env:BOOST_INCLUDE_DIR"
+    "objectID": "authors.html#authors",
+    "href": "authors.html#authors",
+    "title": "Authors and Citation ",
+    "section": "",
+    "text": "Young Geun Kim. Author, maintainer, copyright holder."
   },
   {
-    "objectID": "get_started.html#openmp",
-    "href": "get_started.html#openmp",
-    "title": "bvhar Getting Started",
-    "section": "OpenMP",
-    "text": "OpenMP\nOpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. bvhar provides OpenMP checking functions.\n\nfrom bvhar.utils import checkomp\ncheckomp.check_omp()\n\nOpenMP threads:  4\n\n\nTrue if enabled, False if not:\n\ncheckomp.is_omp()\n\nTrue\n\n\nIn macOS, you need additional step to enable OpenMP. There are many options you can consider. Here is an example with LLVM.\nbrew update\nbrew install llvm libomp\necho \"export CC=$(brew --prefix llvm)/bin/clang\" &gt;&gt; ~/.zshrc\necho \"export CXX=$(brew --prefix llvm)/bin/clang++\" &gt;&gt; ~/.zshrc\necho \"export CPPFLAGS=-I$(brew --prefix llvm)/include -I$(brew --prefix libomp)/include\" &gt;&gt; ~/.zshrc\necho \"export LDFLAGS=-L$(brew --prefix llvm)/lib -L$(brew --prefix libomp)/lib\" &gt;&gt; ~/.zshrc"
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction to bvhar",
+    "section": "",
+    "text": "This package includes the same CBOE ETF volatility index series.\n\nfrom bvhar.datasets import load_vix\netf_vix = load_vix()\n\n\n\n\n\n\n\n\n\n\nGVZCLS\nOVXCLS\nVXFXICLS\nVXEEMCLS\nVXSLVCLS\nEVZCLS\nVXXLECLS\nVXGDXCLS\nVXEWZCLS\n\n\n\n\n0\n21.47\n36.52\n30.19\n30.09\n44.47\n13.19\n27.53\n33.51\n31.27\n\n\n1\n21.51\n35.44\n28.89\n29.49\n42.93\n12.61\n26.64\n33.02\n30.12\n\n\n2\n22.34\n35.52\n29.06\n29.82\n43.51\n13.12\n27.65\n33.76\n30.18\n\n\n3\n21.60\n36.59\n28.46\n30.01\n42.83\n12.77\n27.64\n33.50\n30.75\n\n\n4\n21.20\n35.62\n29.54\n31.13\n43.48\n13.31\n27.80\n32.81\n32.70\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n900\n13.85\n30.06\n29.12\n17.05\n24.33\n12.81\n15.11\n30.03\n29.17\n\n\n901\n13.89\n29.69\n28.13\n16.21\n24.80\n12.85\n14.67\n29.54\n28.15\n\n\n902\n13.83\n29.60\n27.80\n17.90\n24.91\n12.32\n15.19\n29.29\n27.63\n\n\n903\n13.12\n29.26\n27.58\n18.10\n23.49\n12.39\n16.46\n28.86\n29.14\n\n\n904\n13.22\n29.01\n29.36\n18.94\n22.87\n13.05\n16.99\n29.01\n29.22\n\n\n\n\n905 rows × 9 columns"
+  },
+  {
+    "objectID": "intro.html#data",
+    "href": "intro.html#data",
+    "title": "Introduction to bvhar",
+    "section": "",
+    "text": "This package includes the same CBOE ETF volatility index series.\n\nfrom bvhar.datasets import load_vix\netf_vix = load_vix()\n\n\n\n\n\n\n\n\n\n\nGVZCLS\nOVXCLS\nVXFXICLS\nVXEEMCLS\nVXSLVCLS\nEVZCLS\nVXXLECLS\nVXGDXCLS\nVXEWZCLS\n\n\n\n\n0\n21.47\n36.52\n30.19\n30.09\n44.47\n13.19\n27.53\n33.51\n31.27\n\n\n1\n21.51\n35.44\n28.89\n29.49\n42.93\n12.61\n26.64\n33.02\n30.12\n\n\n2\n22.34\n35.52\n29.06\n29.82\n43.51\n13.12\n27.65\n33.76\n30.18\n\n\n3\n21.60\n36.59\n28.46\n30.01\n42.83\n12.77\n27.64\n33.50\n30.75\n\n\n4\n21.20\n35.62\n29.54\n31.13\n43.48\n13.31\n27.80\n32.81\n32.70\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n900\n13.85\n30.06\n29.12\n17.05\n24.33\n12.81\n15.11\n30.03\n29.17\n\n\n901\n13.89\n29.69\n28.13\n16.21\n24.80\n12.85\n14.67\n29.54\n28.15\n\n\n902\n13.83\n29.60\n27.80\n17.90\n24.91\n12.32\n15.19\n29.29\n27.63\n\n\n903\n13.12\n29.26\n27.58\n18.10\n23.49\n12.39\n16.46\n28.86\n29.14\n\n\n904\n13.22\n29.01\n29.36\n18.94\n22.87\n13.05\n16.99\n29.01\n29.22\n\n\n\n\n905 rows × 9 columns"
+  },
+  {
+    "objectID": "intro.html#var",
+    "href": "intro.html#var",
+    "title": "Introduction to bvhar",
+    "section": "VAR",
+    "text": "VAR\n\nfit_var = VarOls(etf_vix, 1, True)\nfit_var.fit()"
+  },
+  {
+    "objectID": "intro.html#vhar",
+    "href": "intro.html#vhar",
+    "title": "Introduction to bvhar",
+    "section": "VHAR",
+    "text": "VHAR"
+  },
+  {
+    "objectID": "intro.html#bvar",
+    "href": "intro.html#bvar",
+    "title": "Introduction to bvhar",
+    "section": "BVAR",
+    "text": "BVAR"
+  },
+  {
+    "objectID": "intro.html#bvhar",
+    "href": "intro.html#bvhar",
+    "title": "Introduction to bvhar",
+    "section": "BVHAR",
+    "text": "BVHAR"
+  },
+  {
+    "objectID": "reference/VarOls.html",
+    "href": "reference/VarOls.html",
+    "title": "VarOls",
+    "section": "",
+    "text": "model.VarOls(self, data, lag=1, fit_intercept=True, method='nor')\nOLS for Vector autoregressive model\nFits VAR model using OLS.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nlag\nint\nVAR lag, by default 1\n1\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nmethod\nstr\nNormal equation solving method - “nor”: projection matrix (default) - “chol”: LU decomposition - “qr”: QR decomposition)\n'nor'\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVAR coefficient matrix.\n\n\nintercept_\nndarray\nVAR model constant vector.\n\n\ncov_\nndarray\nVAR covariance matrix.\n\n\nn_features_in_\nint\nNumber of variables."
+  },
+  {
+    "objectID": "reference/VarOls.html#parameters",
+    "href": "reference/VarOls.html#parameters",
+    "title": "VarOls",
+    "section": "",
+    "text": "Name\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nlag\nint\nVAR lag, by default 1\n1\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nmethod\nstr\nNormal equation solving method - “nor”: projection matrix (default) - “chol”: LU decomposition - “qr”: QR decomposition)\n'nor'"
+  },
+  {
+    "objectID": "reference/VarOls.html#attributes",
+    "href": "reference/VarOls.html#attributes",
+    "title": "VarOls",
+    "section": "",
+    "text": "Name\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVAR coefficient matrix.\n\n\nintercept_\nndarray\nVAR model constant vector.\n\n\ncov_\nndarray\nVAR covariance matrix.\n\n\nn_features_in_\nint\nNumber of variables."
+  },
+  {
+    "objectID": "reference/HorseshoeConfig.html",
+    "href": "reference/HorseshoeConfig.html",
+    "title": "HorseshoeConfig",
+    "section": "",
+    "text": "HorseshoeConfig\nmodel.HorseshoeConfig(self)\nHorseshoe prior configuration\nSpecifies Horseshoe prior for coefficient."
+  },
+  {
+    "objectID": "reference/normal.generate_mnormal.html",
+    "href": "reference/normal.generate_mnormal.html",
+    "title": "normal.generate_mnormal",
+    "section": "",
+    "text": "normal.generate_mnormal\nrandom.normal.generate_mnormal()\ngenerate_mnormal(arg0: int, arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: int, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, n]]\nGenerates multivariate gaussian random vectors"
+  },
+  {
+    "objectID": "reference/checkomp.check_omp.html",
+    "href": "reference/checkomp.check_omp.html",
+    "title": "checkomp.check_omp",
+    "section": "",
+    "text": "checkomp.check_omp\nutils.checkomp.check_omp()\ncheck_omp() -&gt; None\nPrint if OpenMP is enabled"
+  },
+  {
+    "objectID": "reference/checkomp.is_omp.html",
+    "href": "reference/checkomp.is_omp.html",
+    "title": "checkomp.is_omp",
+    "section": "",
+    "text": "checkomp.is_omp\nutils.checkomp.is_omp()\nis_omp() -&gt; bool\nGive boolean for OpenMP"
+  },
+  {
+    "objectID": "reference/VharBayes.html",
+    "href": "reference/VharBayes.html",
+    "title": "VharBayes",
+    "section": "",
+    "text": "model.VharBayes(\n    self\n    data\n    week=5\n    month=22\n    n_chain=1\n    n_iter=1000\n    n_burn=None\n    n_thin=1\n    bayes_config=SsvsConfig()\n    cov_config=LdltConfig()\n    intercept_config=InterceptConfig()\n    fit_intercept=True\n    minnesota='longrun'\n    verbose=False\n    n_thread=1\n)\nBayesian Vector Autoregressive Model\nFits Bayesian VAR model.\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nweek\nint\nVHAR weekly order, by default 5\n5\n\n\nmonth\nint\nVHAR monthly order, by default 22\n22\n\n\nn_chain\nint\nNumber of MCMC chains, by default 1\n1\n\n\nn_iter\nint\nNumber of MCMC total iterations, by default 1000\n1000\n\n\nn_burn\nint\nMCMC burn-in (warm-up), by default floor(n_iter / 2)\nNone\n\n\nn_thin\nint\nThinning every n_thin-th iteration, by default 1\n1\n\n\nbayes_config\n_BayesConfig\nPrior configuration, by default SsvsConfig()\nSsvsConfig()\n\n\ncov_config\n(LdltConfig, SvConfig)\nPrior configuration for covariance matrix, by default LdltConfig()\n'LdltConfig'\n\n\nintercept_config\nInterceptConfig\nPrior configuration for constant term, by default InterceptConfig()\nInterceptConfig()\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nminnesota\nstr\nMinnesota-type group structure - “no”: Not use the group structure - “short”: BVAR-minnesota structure - “longrun”: BVHAR-minnesota structure\n'longrun'\n\n\nverbose\nbool\nIf True, print progress bar for MCMC, by default False\nFalse\n\n\nn_thread\nint\nNumber of OpenMP threads, by default 1\n1\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\nn_features_in_\nint\nNumber of variables.\n\n\n\n\n\n\n\n\n\nName\nDescription\n\n\n\n\nexpand_forecast\nExpanding-window forecasting\n\n\nfit\nConduct MCMC and compute posterior mean\n\n\npredict\n‘n_ahead’-step ahead forecasting\n\n\nroll_forecast\nRolling-window forecasting\n\n\n\n\n\nmodel.VharBayes.expand_forecast(\n    n_ahead\n    test\n    level=0.05\n    sparse=False\n    sv=True\n)\nExpanding-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood\n\n\n\n\n\n\n\nmodel.VharBayes.fit()\nConduct MCMC and compute posterior mean\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\nself\nobject\nAn instance of the estimator.\n\n\n\n\n\n\n\nmodel.VharBayes.predict(n_ahead, level=0.05, sparse=False, sv=True)\n‘n_ahead’-step ahead forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast until next n_ahead time point.\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting\n\n\n\n\n\n\n\nmodel.VharBayes.roll_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nRolling-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood"
+  },
+  {
+    "objectID": "reference/VharBayes.html#parameters",
+    "href": "reference/VharBayes.html#parameters",
+    "title": "VharBayes",
+    "section": "",
+    "text": "Name\nType\nDescription\nDefault\n\n\n\n\ndata\narray - like\nTime series data of which columns indicate the variables\nrequired\n\n\nweek\nint\nVHAR weekly order, by default 5\n5\n\n\nmonth\nint\nVHAR monthly order, by default 22\n22\n\n\nn_chain\nint\nNumber of MCMC chains, by default 1\n1\n\n\nn_iter\nint\nNumber of MCMC total iterations, by default 1000\n1000\n\n\nn_burn\nint\nMCMC burn-in (warm-up), by default floor(n_iter / 2)\nNone\n\n\nn_thin\nint\nThinning every n_thin-th iteration, by default 1\n1\n\n\nbayes_config\n_BayesConfig\nPrior configuration, by default SsvsConfig()\nSsvsConfig()\n\n\ncov_config\n(LdltConfig, SvConfig)\nPrior configuration for covariance matrix, by default LdltConfig()\n'LdltConfig'\n\n\nintercept_config\nInterceptConfig\nPrior configuration for constant term, by default InterceptConfig()\nInterceptConfig()\n\n\nfit_intercept\nbool\nInclude constant term in the model, by default True\nTrue\n\n\nminnesota\nstr\nMinnesota-type group structure - “no”: Not use the group structure - “short”: BVAR-minnesota structure - “longrun”: BVHAR-minnesota structure\n'longrun'\n\n\nverbose\nbool\nIf True, print progress bar for MCMC, by default False\nFalse\n\n\nn_thread\nint\nNumber of OpenMP threads, by default 1\n1"
+  },
+  {
+    "objectID": "reference/VharBayes.html#attributes",
+    "href": "reference/VharBayes.html#attributes",
+    "title": "VharBayes",
+    "section": "",
+    "text": "Name\nType\nDescription\n\n\n\n\ncoef_\nndarray\nVHAR coefficient matrix.\n\n\nintercept_\nndarray\nVHAR model constant vector.\n\n\nn_features_in_\nint\nNumber of variables."
+  },
+  {
+    "objectID": "reference/VharBayes.html#methods",
+    "href": "reference/VharBayes.html#methods",
+    "title": "VharBayes",
+    "section": "",
+    "text": "Name\nDescription\n\n\n\n\nexpand_forecast\nExpanding-window forecasting\n\n\nfit\nConduct MCMC and compute posterior mean\n\n\npredict\n‘n_ahead’-step ahead forecasting\n\n\nroll_forecast\nRolling-window forecasting\n\n\n\n\n\nmodel.VharBayes.expand_forecast(\n    n_ahead\n    test\n    level=0.05\n    sparse=False\n    sv=True\n)\nExpanding-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood\n\n\n\n\n\n\n\nmodel.VharBayes.fit()\nConduct MCMC and compute posterior mean\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\nself\nobject\nAn instance of the estimator.\n\n\n\n\n\n\n\nmodel.VharBayes.predict(n_ahead, level=0.05, sparse=False, sv=True)\n‘n_ahead’-step ahead forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast until next n_ahead time point.\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting\n\n\n\n\n\n\n\nmodel.VharBayes.roll_forecast(n_ahead, test, level=0.05, sparse=False, sv=True)\nRolling-window forecasting\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\nDefault\n\n\n\n\nn_ahead\nint\nForecast next n_ahead time point.\nrequired\n\n\ntest\narray - like\nTest set to forecast\nrequired\n\n\nlevel\nfloat\nLevel for credible interval, by default .05\n0.05\n\n\nsparse\nbool\nApply restriction to forecasting, by default False\nFalse\n\n\nsv\nbool\nUse SV term in case of SV model, by default True\nTrue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\ndict\nDensity forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood"
+  },
+  {
+    "objectID": "reference/MinnesotaConfig.html",
+    "href": "reference/MinnesotaConfig.html",
+    "title": "MinnesotaConfig",
+    "section": "",
+    "text": "MinnesotaConfig\nmodel.MinnesotaConfig(\n    self\n    sig=None\n    lam=0.1\n    delt=None\n    is_long=False\n    eps=0.0001\n)\nMinnesota prior configuration\nSpecifies Minnesota prior for coefficient."
+  },
+  {
+    "objectID": "reference/LambdaConfig.html",
+    "href": "reference/LambdaConfig.html",
+    "title": "LambdaConfig",
+    "section": "",
+    "text": "LambdaConfig\nmodel.LambdaConfig(self, shape=0.01, rate=0.01, eps=0.0001)\nHierarchical structure of Minnesota prior\nSpecifies prior for :math:\\lambda in Minnesota prior."
+  },
+  {
+    "objectID": "reference/SvConfig.html",
+    "href": "reference/SvConfig.html",
+    "title": "SvConfig",
+    "section": "",
+    "text": "SvConfig\nmodel.SvConfig(\n    self\n    ig_shape=3\n    ig_scale=0.01\n    initial_mean=1\n    initial_prec=0.1\n)"
+  },
+  {
+    "objectID": "reference/NgConfig.html",
+    "href": "reference/NgConfig.html",
+    "title": "NgConfig",
+    "section": "",
+    "text": "NgConfig\nmodel.NgConfig(\n    self\n    shape_sd=0.01\n    group_shape=0.01\n    group_scale=0.01\n    global_shape=0.01\n    global_scale=0.01\n    contem_global_shape=0.01\n    contem_global_scale=0.01\n)\nNormal-Gamma prior configuration\nSpecifies Normal-Gamma prior for coefficient."
   }
 ]
