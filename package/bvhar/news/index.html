@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.2</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,14 +30,13 @@
   <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.9.0">JSCS submission ver</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v0.12.0">JSCS revision ver</a></li>
-    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.1">Version 1.0.1</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.0.2">Version 1.0.2</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.1.0">Version 1.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v1.2.0">Version 1.2.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.0">Version 2.0.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
-    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.1">Version 2.1.1</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.2">Version 2.1.2</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
@@ -57,7 +56,13 @@
     </div>
 
     <div class="section level2">
-<h2 class="pkg-version" data-toc-text="2.1.1" id="bvhar-211">bvhar 2.1.1<a class="anchor" aria-label="anchor" href="#bvhar-211"></a></h2>
+<h2 class="pkg-version" data-toc-text="2.1.2" id="bvhar-212">bvhar 2.1.2<a class="anchor" aria-label="anchor" href="#bvhar-212"></a></h2><p class="text-muted">CRAN release: 2024-10-11</p>
+<ul><li><p>Fix MCMC algorithm for <code>include_mean = TRUE</code> case.</p></li>
+<li><p>Fix predictive distribution update codes (<code><a href="../reference/predict.html">predict()</a></code>, <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code>, and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> for <code>ldltmod</code> and <code>svmod</code> classes).</p></li>
+<li><p>Fix out-of-forecasting (<code><a href="../reference/forecast_roll.html">forecast_roll()</a></code> and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code>) result process codes.</p></li>
+</ul></div>
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="2.1.1" id="bvhar-211">bvhar 2.1.1<a class="anchor" aria-label="anchor" href="#bvhar-211"></a></h2><p class="text-muted">CRAN release: 2024-10-05</p>
 <ul><li><p>When using GIG generation in MCMC, it has maximum iteration numbers of while statement.</p></li>
 <li><p>Defined <code>USE_RCPP</code> macro in the C++ header so that Rcpp source usage works fine.</p></li>
 </ul></div>
