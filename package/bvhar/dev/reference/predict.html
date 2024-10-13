@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9001</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9002</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,18 +76,6 @@
 <span></span>
 <span><span class="co"># S3 method for class 'bvarflat'</span></span>
 <span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, n_iter <span class="op">=</span> <span class="fl">100L</span>, level <span class="op">=</span> <span class="fl">0.05</span>, num_thread <span class="op">=</span> <span class="fl">1</span>, <span class="va">...</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># S3 method for class 'bvarssvs'</span></span>
-<span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, level <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">...</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># S3 method for class 'bvharssvs'</span></span>
-<span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, level <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">...</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># S3 method for class 'bvarhs'</span></span>
-<span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, level <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">...</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># S3 method for class 'bvharhs'</span></span>
-<span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, level <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">...</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for class 'bvarldlt'</span></span>
 <span><span class="fu">predict</span><span class="op">(</span></span>
@@ -288,24 +276,6 @@ and recursively,
 $$y_{n + h} \mid \Sigma_e, y \sim N( vec(y_{(n + h - 1)}^T \tilde{T}^T \Phi), \Sigma_e \otimes (1 + y_{(n + h - 1)}^T \tilde{T} \hat\Psi^{-1} \tilde{T} y_{(n + h - 1)}) )$$</p>
     </div>
     <div class="section level2">
-    <h2 id="n-step-ahead-forecasting-var-p-with-ssvs-and-horseshoe">n-step ahead forecasting VAR(p) with SSVS and Horseshoe<a class="anchor" aria-label="anchor" href="#n-step-ahead-forecasting-var-p-with-ssvs-and-horseshoe"></a></h2>
-
-
-<p>The process of the computing point estimate is the same.
-However, predictive interval is achieved from each Gibbs sampler sample.</p>
-<p>$$y_{n + 1} \mid A, \Sigma_e, y \sim N( vec(y_{(n)}^T A), \Sigma_e )$$
-$$y_{n + h} \mid A, \Sigma_e, y \sim N( vec(\hat{y}_{(n + h - 1)}^T A), \Sigma_e )$$</p>
-    </div>
-    <div class="section level2">
-    <h2 id="n-step-ahead-forecasting-vhar-with-ssvs-and-horseshoe">n-step ahead forecasting VHAR with SSVS and Horseshoe<a class="anchor" aria-label="anchor" href="#n-step-ahead-forecasting-vhar-with-ssvs-and-horseshoe"></a></h2>
-
-
-<p>The process of the computing point estimate is the same.
-However, predictive interval is achieved from each Gibbs sampler sample.</p>
-<p>$$y_{n + 1} \mid \Sigma_e, y \sim N( vec(y_{(n)}^T \tilde{T}^T \Phi), \Sigma_e \otimes (1 + y_{(n)}^T \tilde{T} \hat\Psi^{-1} \tilde{T} y_{(n)}) )$$
-$$y_{n + h} \mid \Sigma_e, y \sim N( vec(y_{(n + h - 1)}^T \tilde{T}^T \Phi), \Sigma_e \otimes (1 + y_{(n + h - 1)}^T \tilde{T} \hat\Psi^{-1} \tilde{T} y_{(n + h - 1)}) )$$</p>
-    </div>
-    <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
     <p>Lütkepohl, H. (2007). <em>New Introduction to Multiple Time Series Analysis</em>. Springer Publishing.</p>
 <p>Corsi, F. (2008). <em>A Simple Approximate Long-Memory Model of Realized Volatility</em>. Journal of Financial Econometrics, 7(2), 174-196.</p>
@@ -315,8 +285,6 @@ $$y_{n + h} \mid \Sigma_e, y \sim N( vec(y_{(n + h - 1)}^T \tilde{T}^T \Phi), \S
 <p>Karlsson, S. (2013). <em>Chapter 15 Forecasting with Bayesian Vector Autoregression</em>. Handbook of Economic Forecasting, 2, 791-897.</p>
 <p>Litterman, R. B. (1986). <em>Forecasting with Bayesian Vector Autoregressions: Five Years of Experience</em>. Journal of Business &amp; Economic Statistics, 4(1), 25.</p>
 <p>Ghosh, S., Khare, K., &amp; Michailidis, G. (2018). <em>High-Dimensional Posterior Consistency in Bayesian Vector Autoregressive Models</em>. Journal of the American Statistical Association, 114(526).</p>
-<p>George, E. I., Sun, D., &amp; Ni, S. (2008). <em>Bayesian stochastic search for VAR model restrictions</em>. Journal of Econometrics, 142(1), 553-580.</p>
-<p>George, E. I., Sun, D., &amp; Ni, S. (2008). <em>Bayesian stochastic search for VAR model restrictions</em>. Journal of Econometrics, 142(1), 553-580.</p>
 <p>Korobilis, D. (2013). <em>VAR FORECASTING USING BAYESIAN VARIABLE SELECTION</em>. Journal of Applied Econometrics, 28(2).</p>
 <p>Korobilis, D. (2013). <em>VAR FORECASTING USING BAYESIAN VARIABLE SELECTION</em>. Journal of Applied Econometrics, 28(2).</p>
 <p>Huber, F., Koop, G., &amp; Onorante, L. (2021). <em>Inducing Sparsity and Shrinkage in Time-Varying Parameter Models</em>. Journal of Business &amp; Economic Statistics, 39(3), 669-683.</p>

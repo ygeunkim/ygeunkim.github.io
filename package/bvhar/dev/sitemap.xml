@@ -26,18 +26,11 @@
 <url><loc>/dev/reference/autoplot.summary.normaliw.html</loc></url>
 <url><loc>/dev/reference/bound_bvhar.html</loc></url>
 <url><loc>/dev/reference/bvar_flat.html</loc></url>
-<url><loc>/dev/reference/bvar_horseshoe.html</loc></url>
 <url><loc>/dev/reference/bvar_minnesota.html</loc></url>
-<url><loc>/dev/reference/bvar_ssvs.html</loc></url>
-<url><loc>/dev/reference/bvar_sv.html</loc></url>
 <url><loc>/dev/reference/bvhar-package.html</loc></url>
-<url><loc>/dev/reference/bvhar_horseshoe.html</loc></url>
 <url><loc>/dev/reference/bvhar_minnesota.html</loc></url>
-<url><loc>/dev/reference/bvhar_ssvs.html</loc></url>
-<url><loc>/dev/reference/bvhar_sv.html</loc></url>
 <url><loc>/dev/reference/choose_bayes.html</loc></url>
 <url><loc>/dev/reference/choose_bvar.html</loc></url>
-<url><loc>/dev/reference/choose_ssvs.html</loc></url>
 <url><loc>/dev/reference/choose_var.html</loc></url>
 <url><loc>/dev/reference/coef.html</loc></url>
 <url><loc>/dev/reference/compute_dic.html</loc></url>
@@ -59,7 +52,6 @@
 <url><loc>/dev/reference/geom_eval.html</loc></url>
 <url><loc>/dev/reference/gg_loss.html</loc></url>
 <url><loc>/dev/reference/index.html</loc></url>
-<url><loc>/dev/reference/init_ssvs.html</loc></url>
 <url><loc>/dev/reference/irf.html</loc></url>
 <url><loc>/dev/reference/is.stable.html</loc></url>
 <url><loc>/dev/reference/mae.html</loc></url>
@@ -86,7 +78,6 @@
 <url><loc>/dev/reference/set_ng.html</loc></url>
 <url><loc>/dev/reference/set_ssvs.html</loc></url>
 <url><loc>/dev/reference/sim_gig.html</loc></url>
-<url><loc>/dev/reference/sim_horseshoe_var.html</loc></url>
 <url><loc>/dev/reference/sim_iw.html</loc></url>
 <url><loc>/dev/reference/sim_matgaussian.html</loc></url>
 <url><loc>/dev/reference/sim_mncoef.html</loc></url>
@@ -94,7 +85,6 @@
 <url><loc>/dev/reference/sim_mnormal.html</loc></url>
 <url><loc>/dev/reference/sim_mnvhar_coef.html</loc></url>
 <url><loc>/dev/reference/sim_mvt.html</loc></url>
-<url><loc>/dev/reference/sim_ssvs_var.html</loc></url>
 <url><loc>/dev/reference/sim_var.html</loc></url>
 <url><loc>/dev/reference/sim_vhar.html</loc></url>
 <url><loc>/dev/reference/spillover.html</loc></url>
