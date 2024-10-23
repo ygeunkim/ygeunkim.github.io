@@ -368,7 +368,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 <section id="bvhar.model.VarBayes.expand_forecast" class="level3">
 <h3 class="anchored" data-anchor-id="bvhar.model.VarBayes.expand_forecast">expand_forecast</h3>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.expand_forecast(n_ahead, test, level<span class="op">=</span><span class="fl">0.05</span>, sparse<span class="op">=</span><span class="va">False</span>, sv<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.expand_forecast(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    n_ahead</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    test</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    level<span class="op">=</span><span class="fl">0.05</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    stable<span class="op">=</span><span class="va">True</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    sparse<span class="op">=</span><span class="va">False</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    sv<span class="op">=</span><span class="va">True</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Expanding-window forecasting</p>
 <section id="parameters-1" class="level4 doc-section doc-section-parameters">
 <h4 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters-1">Parameters</h4>
@@ -407,12 +414,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td><code>0.05</code></td>
 </tr>
 <tr class="even">
+<td>stable</td>
+<td>bool</td>
+<td>Filter stable coefficient draws, by default True</td>
+<td><code>True</code></td>
+</tr>
+<tr class="odd">
 <td>sparse</td>
 <td>bool</td>
 <td>Apply restriction to forecasting, by default False</td>
 <td><code>False</code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>sv</td>
 <td>bool</td>
 <td>Use SV term in case of SV model, by default True</td>
@@ -472,7 +485,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="bvhar.model.VarBayes.predict" class="level3">
 <h3 class="anchored" data-anchor-id="bvhar.model.VarBayes.predict">predict</h3>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.predict(n_ahead, level<span class="op">=</span><span class="fl">0.05</span>, sparse<span class="op">=</span><span class="va">False</span>, sv<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.predict(n_ahead, level<span class="op">=</span><span class="fl">0.05</span>, stable<span class="op">=</span><span class="va">True</span>, sparse<span class="op">=</span><span class="va">False</span>, sv<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>‘n_ahead’-step ahead forecasting</p>
 <section id="parameters-2" class="level4 doc-section doc-section-parameters">
 <h4 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters-2">Parameters</h4>
@@ -505,12 +518,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td><code>0.05</code></td>
 </tr>
 <tr class="odd">
+<td>stable</td>
+<td>bool</td>
+<td>Filter stable coefficient draws, by default True</td>
+<td><code>True</code></td>
+</tr>
+<tr class="even">
 <td>sparse</td>
 <td>bool</td>
 <td>Apply restriction to forecasting, by default False</td>
 <td><code>False</code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>sv</td>
 <td>bool</td>
 <td>Use SV term in case of SV model, by default True</td>
@@ -546,7 +565,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="bvhar.model.VarBayes.roll_forecast" class="level3">
 <h3 class="anchored" data-anchor-id="bvhar.model.VarBayes.roll_forecast">roll_forecast</h3>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.roll_forecast(n_ahead, test, level<span class="op">=</span><span class="fl">0.05</span>, sparse<span class="op">=</span><span class="va">False</span>, sv<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.roll_forecast(</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    n_ahead</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    test</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    level<span class="op">=</span><span class="fl">0.05</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    stable<span class="op">=</span><span class="va">True</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    sparse<span class="op">=</span><span class="va">False</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    sv<span class="op">=</span><span class="va">True</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Rolling-window forecasting</p>
 <section id="parameters-3" class="level4 doc-section doc-section-parameters">
 <h4 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters-3">Parameters</h4>
@@ -585,12 +611,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td><code>0.05</code></td>
 </tr>
 <tr class="even">
+<td>stable</td>
+<td>bool</td>
+<td>Filter stable coefficient draws, by default True</td>
+<td><code>True</code></td>
+</tr>
+<tr class="odd">
 <td>sparse</td>
 <td>bool</td>
 <td>Apply restriction to forecasting, by default False</td>
 <td><code>False</code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>sv</td>
 <td>bool</td>
 <td>Use SV term in case of SV model, by default True</td>
