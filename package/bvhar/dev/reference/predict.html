@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9003</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9004</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,6 +82,7 @@
 <span>  <span class="va">object</span>,</span>
 <span>  <span class="va">n_ahead</span>,</span>
 <span>  level <span class="op">=</span> <span class="fl">0.05</span>,</span>
+<span>  stable <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  num_thread <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  sparse <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  warn <span class="op">=</span> <span class="cn">FALSE</span>,</span>
@@ -93,6 +94,7 @@
 <span>  <span class="va">object</span>,</span>
 <span>  <span class="va">n_ahead</span>,</span>
 <span>  level <span class="op">=</span> <span class="fl">0.05</span>,</span>
+<span>  stable <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  num_thread <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  sparse <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  warn <span class="op">=</span> <span class="cn">FALSE</span>,</span>
@@ -104,6 +106,7 @@
 <span>  <span class="va">object</span>,</span>
 <span>  <span class="va">n_ahead</span>,</span>
 <span>  level <span class="op">=</span> <span class="fl">0.05</span>,</span>
+<span>  stable <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  num_thread <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  use_sv <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  sparse <span class="op">=</span> <span class="cn">FALSE</span>,</span>
@@ -116,6 +119,7 @@
 <span>  <span class="va">object</span>,</span>
 <span>  <span class="va">n_ahead</span>,</span>
 <span>  level <span class="op">=</span> <span class="fl">0.05</span>,</span>
+<span>  stable <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  num_thread <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  use_sv <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  sparse <span class="op">=</span> <span class="cn">FALSE</span>,</span>
@@ -158,6 +162,10 @@
 
 <dt id="arg-num-thread">num_thread<a class="anchor" aria-label="anchor" href="#arg-num-thread"></a></dt>
 <dd><p>Number of threads</p></dd>
+
+
+<dt id="arg-stable">stable<a class="anchor" aria-label="anchor" href="#arg-stable"></a></dt>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="figures/lifecycle-experimental.svg" alt="[Experimental]"></a> Filter only stable coefficient draws in MCMC records.</p></dd>
 
 
 <dt id="arg-sparse">sparse<a class="anchor" aria-label="anchor" href="#arg-sparse"></a></dt>
