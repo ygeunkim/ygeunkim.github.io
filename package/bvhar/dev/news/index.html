@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9006</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9007</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,11 +60,13 @@
 <ul><li><p>Can filter MCMC draws where coefficient is stable when forecasting.</p></li>
 <li><p>Changed Eigen and boost assertion behavior (<code>eigen_assert</code> and <code>BOOST_ASSERT</code>) to give error instead of abort.</p></li>
 <li><p>Transpose the predictive distribution update loop.</p></li>
+<li><p><code>med = TRUE</code> gives median of forecast draws as point forecast.</p></li>
 </ul><div class="section level3">
 <h3 id="c-header-file-changes-development-version">C++ Header file changes<a class="anchor" aria-label="anchor" href="#c-header-file-changes-development-version"></a></h3>
 <ul><li><p>Use template to avoid code duplicates among LDLT and SV models.</p></li>
 <li><p>Can easily conduct MCMC using <code>McmcRun</code> class in C++ source.</p></li>
-<li><p>Can easily implement forecasting for LDLT and SV MCMC using <code>McmcForecastRun</code>, <code>McmcVarforecastRun</code>, and <code>McmcVharforecastRun</code>.</p></li>
+<li><p>Can easily implement forecasting for LDLT and SV MCMC using <code>McmcVarforecastRun&lt;&gt;</code> and <code>McmcVharforecastRun&lt;&gt;</code>.</p></li>
+<li><p>Can easily use rolling and expanding forecast for LDLT ans SV MCMC using <code>McmcVarforecastRun&lt;&gt;</code> and <code>McmcVharforecastRun&lt;&gt;</code>.</p></li>
 </ul></div>
 <div class="section level3">
 <h3 id="removal-of-deprecated-functions-development-version">Removal of deprecated functions<a class="anchor" aria-label="anchor" href="#removal-of-deprecated-functions-development-version"></a></h3>
