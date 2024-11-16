@@ -84,10 +84,10 @@
 <span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for class 'bvarldlt'</span></span>
-<span><span class="fu">spillover</span><span class="op">(</span><span class="va">object</span>, n_ahead <span class="op">=</span> <span class="fl">10L</span>, sparse <span class="op">=</span> <span class="cn">FALSE</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="fu">spillover</span><span class="op">(</span><span class="va">object</span>, n_ahead <span class="op">=</span> <span class="fl">10L</span>, level <span class="op">=</span> <span class="fl">0.05</span>, sparse <span class="op">=</span> <span class="cn">FALSE</span>, <span class="va">...</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for class 'bvharldlt'</span></span>
-<span><span class="fu">spillover</span><span class="op">(</span><span class="va">object</span>, n_ahead <span class="op">=</span> <span class="fl">10L</span>, sparse <span class="op">=</span> <span class="cn">FALSE</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">spillover</span><span class="op">(</span><span class="va">object</span>, n_ahead <span class="op">=</span> <span class="fl">10L</span>, level <span class="op">=</span> <span class="fl">0.05</span>, sparse <span class="op">=</span> <span class="cn">FALSE</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -124,6 +124,10 @@
 
 <dt id="arg-thinning">thinning<a class="anchor" aria-label="anchor" href="#arg-thinning"></a></dt>
 <dd><p>Thinning every thinning-th iteration</p></dd>
+
+
+<dt id="arg-level">level<a class="anchor" aria-label="anchor" href="#arg-level"></a></dt>
+<dd><p>Specify alpha of confidence interval level 100(1 - alpha) percentage. By default, .05.</p></dd>
 
 
 <dt id="arg-sparse">sparse<a class="anchor" aria-label="anchor" href="#arg-sparse"></a></dt>
