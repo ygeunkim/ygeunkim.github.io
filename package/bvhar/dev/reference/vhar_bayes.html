@@ -13,7 +13,7 @@ It can have Minnesota, SSVS, and Horseshoe prior."><meta property="og:image" con
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9008</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9009</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,6 +83,7 @@ It can have Minnesota, SSVS, and Horseshoe prior.</p>
 <span>  intercept <span class="op">=</span> <span class="fu"><a href="set_intercept.html">set_intercept</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>  include_mean <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  minnesota <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"longrun"</span>, <span class="st">"short"</span>, <span class="st">"no"</span><span class="op">)</span>,</span>
+<span>  ggl <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  save_init <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  convergence <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  verbose <span class="op">=</span> <span class="cn">FALSE</span>,</span>
@@ -149,6 +150,12 @@ It can have Minnesota, SSVS, and Horseshoe prior.</p>
 <dt id="arg-minnesota">minnesota<a class="anchor" aria-label="anchor" href="#arg-minnesota"></a></dt>
 <dd><p>Apply cross-variable shrinkage structure (Minnesota-way). Two type: <code>short</code> type and <code>longrun</code> (default) type.
 You can also set <code>no</code>.</p></dd>
+
+
+<dt id="arg-ggl">ggl<a class="anchor" aria-label="anchor" href="#arg-ggl"></a></dt>
+<dd><p>If <code>TRUE</code> (default), use additional group shrinkage parameter for group structure.
+Otherwise, use group shrinkage parameter instead of global shirnkage parameter.
+Applies to HS, NG, and DL priors.</p></dd>
 
 
 <dt id="arg-save-init">save_init<a class="anchor" aria-label="anchor" href="#arg-save-init"></a></dt>

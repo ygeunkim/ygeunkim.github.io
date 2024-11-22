@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9008</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9009</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,6 +61,7 @@
 <li><p>Changed Eigen and boost assertion behavior (<code>eigen_assert</code> and <code>BOOST_ASSERT</code>) to give error instead of abort.</p></li>
 <li><p>Transpose the predictive distribution update loop.</p></li>
 <li><p><code>med = TRUE</code> gives median of forecast draws as point forecast.</p></li>
+<li><p><code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code> can choose to use only group shrinkage parameters without global parameter with <code>ggl = FALSE</code> option.</p></li>
 <li><p>SAVS penalty is zero in own-lag.</p></li>
 </ul><div class="section level3">
 <h3 id="c-header-file-changes-development-version">C++ Header file changes<a class="anchor" aria-label="anchor" href="#c-header-file-changes-development-version"></a></h3>
