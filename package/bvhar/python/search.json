@@ -116,7 +116,7 @@
     "href": "reference/DlConfig.html",
     "title": "DlConfig",
     "section": "",
-    "text": "DlConfig\nmodel.DlConfig(self, dir_grid=100)\nDirichlet-Laplace prior configuration\nSpecifies Dirichlet-Laplace prior for coefficient."
+    "text": "DlConfig\nmodel.DlConfig(self, dir_grid=100, shape=0.01, scale=0.01)\nDirichlet-Laplace prior configuration\nSpecifies Dirichlet-Laplace prior for coefficient."
   },
   {
     "objectID": "reference/VarBayes.html",
