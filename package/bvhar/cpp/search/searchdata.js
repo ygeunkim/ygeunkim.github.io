@@ -3,11 +3,12 @@ var indexSectionsWithContent =
   0: "_abcdefghijklmnopqrstuvwxy~",
   1: "bdghlmnoqrsv",
   2: "bs",
-  3: "bcmors",
+  3: "bcimors",
   4: "abcdefghijklmnoqrstuv~",
   5: "_acdfghilmnoprstvwxy",
   6: "bcdhmnorsv",
-  7: "acefilmnoprsw"
+  7: "acefilmnoprsw",
+  8: "o"
 };
 
 var indexSectionNames =
@@ -19,7 +20,8 @@ var indexSectionNames =
   4: "functions",
   5: "variables",
   6: "typedefs",
-  7: "defines"
+  7: "defines",
+  8: "pages"
 };
 
 var indexSectionLabels =
@@ -31,6 +33,7 @@ var indexSectionLabels =
   4: "Functions",
   5: "Variables",
   6: "Typedefs",
-  7: "Macros"
+  7: "Macros",
+  8: "Pages"
 };
 

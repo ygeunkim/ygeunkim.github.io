@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="apple-touch-icon-60x60.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">bvhar
    </div>
@@ -200,28 +201,210 @@ Functions</h2></td></tr>
 <div class="textblock"><p>Common header. </p>
 <dl class="section author"><dt>Author</dt><dd>Young Geun Kim (<a href="#" onclick="location.href='mai'+'lto:'+'yge'+'un'+'kim'+'st'+'at@'+'gm'+'ail'+'.c'+'om'; return false;">ygeun<span style="display: none;">.nosp@m.</span>kims<span style="display: none;">.nosp@m.</span>tat@g<span style="display: none;">.nosp@m.</span>mail<span style="display: none;">.nosp@m.</span>.com</a>) </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a46d0620be2aa4c6baaed9d4be18fd541"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46d0620be2aa4c6baaed9d4be18fd541">&#9670;&nbsp;</a></span>ACCESS_LIST</h2>
+<a id="a86aa4061d061f75e13a9eadc4d7db3c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86aa4061d061f75e13a9eadc4d7db3c7">&#9670;&nbsp;</a></span>Rf_gammafn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ACCESS_LIST</td>
+          <td class="memname">#define Rf_gammafn</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">iterator, </td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;std::tgamma(x)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a330f36e7dab4d2671359ce7f8e4f6b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a330f36e7dab4d2671359ce7f8e4f6b8a">&#9670;&nbsp;</a></span>Rf_lgammafn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Rf_lgammafn</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;std::lgamma(x)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80355d2cc0a255b1c7e7183a2076e500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80355d2cc0a255b1c7e7183a2076e500">&#9670;&nbsp;</a></span>Rf_dgamma</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Rf_dgamma</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">list&#160;</td>
+          <td class="paramname">shp, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">scl, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">lg&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;list[iterator.first]</td>
+          <td></td><td>&#160;&#160;&#160;(lg ? log((shp - 1) * log(x) - x / scl - std::lgamma(shp) - shp * log(scl)) : exp((shp - 1) * log(x) - x / scl - std::lgamma(shp) - shp * log(scl)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0cd35b2d922d288cab64a8938f84b25b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cd35b2d922d288cab64a8938f84b25b">&#9670;&nbsp;</a></span>STOP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STOP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="commondefs_8h.html#a4b8304eb0b127f32e94d64a8349feb9f">stop_fmt</a>(__VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c54b10b84183429bcbcbc82c92fcca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c54b10b84183429bcbcbc82c92fcca9">&#9670;&nbsp;</a></span>COUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define COUT&#160;&#160;&#160;std::cout</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90dc3f3ee970394e0080300526390a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90dc3f3ee970394e0080300526390a84">&#9670;&nbsp;</a></span>ENDL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ENDL&#160;&#160;&#160;std::endl</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a263ccab0461d1643cb62c6625b788a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a263ccab0461d1643cb62c6625b788a7f">&#9670;&nbsp;</a></span>FLUSH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FLUSH&#160;&#160;&#160;std::cout.flush()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f4d394a3ab4e09bff60f714c66dc5ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f4d394a3ab4e09bff60f714c66dc5ee">&#9670;&nbsp;</a></span>STRING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STRING&#160;&#160;&#160;py::str</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed0a8f83088c41d721066cd5b3b9a00c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed0a8f83088c41d721066cd5b3b9a00c">&#9670;&nbsp;</a></span>LIST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LIST&#160;&#160;&#160;py::dict</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a224f1f022bcfed2cc94435fc8cf8130b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224f1f022bcfed2cc94435fc8cf8130b">&#9670;&nbsp;</a></span>LIST_OF_LIST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LIST_OF_LIST&#160;&#160;&#160;std::vector&lt;py::dict&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c38b90bde6b29fa821f2c5ce9454bab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c38b90bde6b29fa821f2c5ce9454bab">&#9670;&nbsp;</a></span>PY_LIST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PY_LIST&#160;&#160;&#160;py::list</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0aade5ead77b80032af2a15aaa43c7ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aade5ead77b80032af2a15aaa43c7ab">&#9670;&nbsp;</a></span>WRAP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRAP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">value</td><td>)</td>
+          <td>&#160;&#160;&#160;value</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -278,42 +461,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af94daf4bd28cd382c5cbb43b906c26f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af94daf4bd28cd382c5cbb43b906c26f1">&#9670;&nbsp;</a></span>CAST_MATRIX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CAST_MATRIX</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">element</td><td>)</td>
-          <td>&#160;&#160;&#160;py::cast&lt;Eigen::MatrixXd&gt;(element)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a367e52d020b865ed1ff03dae08bd8351"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a367e52d020b865ed1ff03dae08bd8351">&#9670;&nbsp;</a></span>CAST_VECTOR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CAST_VECTOR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">element</td><td>)</td>
-          <td>&#160;&#160;&#160;py::cast&lt;Eigen::VectorXd&gt;(element)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a33bceaf7cf3832becbb90414b892ada0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33bceaf7cf3832becbb90414b892ada0">&#9670;&nbsp;</a></span>CONTAINS</h2>
 
@@ -342,20 +489,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c54b10b84183429bcbcbc82c92fcca9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c54b10b84183429bcbcbc82c92fcca9">&#9670;&nbsp;</a></span>COUT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define COUT&#160;&#160;&#160;std::cout</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a0eaf7b50cdcc71a7812e26908299f8aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0eaf7b50cdcc71a7812e26908299f8aa">&#9670;&nbsp;</a></span>CREATE_LIST</h2>
 
@@ -374,28 +507,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a90dc3f3ee970394e0080300526390a84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90dc3f3ee970394e0080300526390a84">&#9670;&nbsp;</a></span>ENDL</h2>
+<a id="a6df7b022ffdb2532f2a0b31f12be6581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df7b022ffdb2532f2a0b31f12be6581">&#9670;&nbsp;</a></span>NAMED</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ENDL&#160;&#160;&#160;std::endl</td>
+          <td class="memname">#define NAMED&#160;&#160;&#160;py::arg</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a263ccab0461d1643cb62c6625b788a7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a263ccab0461d1643cb62c6625b788a7f">&#9670;&nbsp;</a></span>FLUSH</h2>
+<a id="a46d0620be2aa4c6baaed9d4be18fd541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46d0620be2aa4c6baaed9d4be18fd541">&#9670;&nbsp;</a></span>ACCESS_LIST</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FLUSH&#160;&#160;&#160;std::cout.flush()</td>
+          <td class="memname">#define ACCESS_LIST</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">iterator, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">list&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;list[iterator.first]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -420,28 +567,36 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aed0a8f83088c41d721066cd5b3b9a00c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed0a8f83088c41d721066cd5b3b9a00c">&#9670;&nbsp;</a></span>LIST</h2>
+<a id="a367e52d020b865ed1ff03dae08bd8351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a367e52d020b865ed1ff03dae08bd8351">&#9670;&nbsp;</a></span>CAST_VECTOR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LIST&#160;&#160;&#160;py::dict</td>
+          <td class="memname">#define CAST_VECTOR</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">element</td><td>)</td>
+          <td>&#160;&#160;&#160;py::cast&lt;Eigen::VectorXd&gt;(element)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a224f1f022bcfed2cc94435fc8cf8130b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a224f1f022bcfed2cc94435fc8cf8130b">&#9670;&nbsp;</a></span>LIST_OF_LIST</h2>
+<a id="af94daf4bd28cd382c5cbb43b906c26f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af94daf4bd28cd382c5cbb43b906c26f1">&#9670;&nbsp;</a></span>CAST_MATRIX</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LIST_OF_LIST&#160;&#160;&#160;std::vector&lt;py::dict&gt;</td>
+          <td class="memname">#define CAST_MATRIX</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">element</td><td>)</td>
+          <td>&#160;&#160;&#160;py::cast&lt;Eigen::MatrixXd&gt;(element)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -456,160 +611,6 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define M_PI&#160;&#160;&#160;3.141592653589793238462643383280</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6df7b022ffdb2532f2a0b31f12be6581"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6df7b022ffdb2532f2a0b31f12be6581">&#9670;&nbsp;</a></span>NAMED</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define NAMED&#160;&#160;&#160;py::arg</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2c38b90bde6b29fa821f2c5ce9454bab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c38b90bde6b29fa821f2c5ce9454bab">&#9670;&nbsp;</a></span>PY_LIST</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PY_LIST&#160;&#160;&#160;py::list</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a80355d2cc0a255b1c7e7183a2076e500"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80355d2cc0a255b1c7e7183a2076e500">&#9670;&nbsp;</a></span>Rf_dgamma</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define Rf_dgamma</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">shp, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">scl, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">lg&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(lg ? log((shp - 1) * log(x) - x / scl - std::lgamma(shp) - shp * log(scl)) : exp((shp - 1) * log(x) - x / scl - std::lgamma(shp) - shp * log(scl)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a86aa4061d061f75e13a9eadc4d7db3c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86aa4061d061f75e13a9eadc4d7db3c7">&#9670;&nbsp;</a></span>Rf_gammafn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define Rf_gammafn</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;std::tgamma(x)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a330f36e7dab4d2671359ce7f8e4f6b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a330f36e7dab4d2671359ce7f8e4f6b8a">&#9670;&nbsp;</a></span>Rf_lgammafn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define Rf_lgammafn</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;std::lgamma(x)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0cd35b2d922d288cab64a8938f84b25b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cd35b2d922d288cab64a8938f84b25b">&#9670;&nbsp;</a></span>STOP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STOP</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="commondefs_8h.html#a4b8304eb0b127f32e94d64a8349feb9f">stop_fmt</a>(__VA_ARGS__)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0f4d394a3ab4e09bff60f714c66dc5ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f4d394a3ab4e09bff60f714c66dc5ee">&#9670;&nbsp;</a></span>STRING</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define STRING&#160;&#160;&#160;py::str</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0aade5ead77b80032af2a15aaa43c7ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0aade5ead77b80032af2a15aaa43c7ab">&#9670;&nbsp;</a></span>WRAP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WRAP</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">value</td><td>)</td>
-          <td>&#160;&#160;&#160;value</td>
         </tr>
       </table>
 </div><div class="memdoc">

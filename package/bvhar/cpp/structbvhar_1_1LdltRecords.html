@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="apple-touch-icon-60x60.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">bvhar
    </div>
@@ -354,8 +355,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a84a3d07e0fa5ca24c745fbcabcdad2c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84a3d07e0fa5ca24c745fbcabcdad2c7">&#9670;&nbsp;</a></span>appendRecords()</h2>
+<a id="a73e903517f8a64c7a7a4a01be36c8838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e903517f8a64c7a7a4a01be36c8838">&#9670;&nbsp;</a></span>assignRecords() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,11 +365,33 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void bvhar::LdltRecords::appendRecords </td>
+          <td class="memname">void bvhar::LdltRecords::assignRecords </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
-          <td class="paramname"><em>list</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>coef_vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>contem_coef</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>diag_vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -378,12 +401,12 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#a97a8a9fa885967819ad4c966684714ff">bvhar::RegRecords</a>.</p>
+<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#aaeb5e710a25c3e6e225f5e5a53ae105b">bvhar::RegRecords</a>.</p>
 
 </div>
 </div>
 <a id="a318895b3a62c7aafc9400e80035ecb50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a318895b3a62c7aafc9400e80035ecb50">&#9670;&nbsp;</a></span>assignRecords() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a318895b3a62c7aafc9400e80035ecb50">&#9670;&nbsp;</a></span>assignRecords() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -444,8 +467,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a73e903517f8a64c7a7a4a01be36c8838"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73e903517f8a64c7a7a4a01be36c8838">&#9670;&nbsp;</a></span>assignRecords() <span class="overload">[2/2]</span></h2>
+<a id="a84a3d07e0fa5ca24c745fbcabcdad2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84a3d07e0fa5ca24c745fbcabcdad2c7">&#9670;&nbsp;</a></span>appendRecords()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -454,33 +477,11 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void bvhar::LdltRecords::assignRecords </td>
+          <td class="memname">void bvhar::LdltRecords::appendRecords </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramname"><em>list</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>coef_vec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>contem_coef</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>diag_vec</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -490,7 +491,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#aaeb5e710a25c3e6e225f5e5a53ae105b">bvhar::RegRecords</a>.</p>
+<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#a97a8a9fa885967819ad4c966684714ff">bvhar::RegRecords</a>.</p>
 
 </div>
 </div>
@@ -613,6 +614,88 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#ae0c8e4153e89b1c204e532376c52919f">bvhar::RegRecords</a>.</p>
+
+</div>
+</div>
+<a id="aa8d78c46d062dfe4bf8f243a25ded737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8d78c46d062dfe4bf8f243a25ded737">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bvhar::LdltRecords::updateDiag </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>sv_update</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#a6e6040e7509c19a04f28ec1ecfcd5c71">bvhar::RegRecords</a>.</p>
+
+</div>
+</div>
+<a id="a9316603b66b9c3c788c9c6147f61947a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9316603b66b9c3c788c9c6147f61947a">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bvhar::LdltRecords::updateDiag </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>sv_update</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>sv_sig</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#ab541265c6d14ff222d4ffb7c3d140209">bvhar::RegRecords</a>.</p>
 
 </div>
 </div>
@@ -772,88 +855,6 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="namespacebvhar.html#a57050b65b961aeca0868dea22a5cad94" title=" " alt="" coords="379,56,539,83"/>
 </map>
 </div>
-
-</div>
-</div>
-<a id="aa8d78c46d062dfe4bf8f243a25ded737"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8d78c46d062dfe4bf8f243a25ded737">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void bvhar::LdltRecords::updateDiag </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
-          <td class="paramname"><em>sv_update</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#a6e6040e7509c19a04f28ec1ecfcd5c71">bvhar::RegRecords</a>.</p>
-
-</div>
-</div>
-<a id="a9316603b66b9c3c788c9c6147f61947a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9316603b66b9c3c788c9c6147f61947a">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void bvhar::LdltRecords::updateDiag </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
-          <td class="paramname"><em>sv_update</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
-          <td class="paramname"><em>sv_sig</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#ab541265c6d14ff222d4ffb7c3d140209">bvhar::RegRecords</a>.</p>
 
 </div>
 </div>

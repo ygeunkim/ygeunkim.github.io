@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="apple-touch-icon-60x60.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">bvhar
    </div>
@@ -278,34 +279,6 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a97a8a9fa885967819ad4c966684714ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97a8a9fa885967819ad4c966684714ff">&#9670;&nbsp;</a></span>appendRecords()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void bvhar::RegRecords::appendRecords </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
-          <td class="paramname"><em>list</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="structbvhar_1_1SvRecords.html#a2b49236129b24860ed59d47c678aae3e">bvhar::SvRecords</a>, and <a class="el" href="structbvhar_1_1LdltRecords.html#a84a3d07e0fa5ca24c745fbcabcdad2c7">bvhar::LdltRecords</a>.</p>
-
-</div>
-</div>
 <a id="a4e02c1cf05179283118b9a0f0ad05aa6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e02c1cf05179283118b9a0f0ad05aa6">&#9670;&nbsp;</a></span>assignRecords() <span class="overload">[1/3]</span></h2>
 
@@ -348,8 +321,58 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aaeb5e710a25c3e6e225f5e5a53ae105b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeb5e710a25c3e6e225f5e5a53ae105b">&#9670;&nbsp;</a></span>assignRecords() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void bvhar::RegRecords::assignRecords </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>coef_vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>contem_coef</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>diag_vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structbvhar_1_1SvRecords.html#a0d15afccf40fa14e74d2b287199fcd47">bvhar::SvRecords</a>, and <a class="el" href="structbvhar_1_1LdltRecords.html#a73e903517f8a64c7a7a4a01be36c8838">bvhar::LdltRecords</a>.</p>
+
+</div>
+</div>
 <a id="a5f2b866ec78c6617ab63804bf848c677"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f2b866ec78c6617ab63804bf848c677">&#9670;&nbsp;</a></span>assignRecords() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f2b866ec78c6617ab63804bf848c677">&#9670;&nbsp;</a></span>assignRecords() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -410,8 +433,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaeb5e710a25c3e6e225f5e5a53ae105b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaeb5e710a25c3e6e225f5e5a53ae105b">&#9670;&nbsp;</a></span>assignRecords() <span class="overload">[3/3]</span></h2>
+<a id="a20e328a9aaa7f36efa5139cedc5850b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e328a9aaa7f36efa5139cedc5850b9">&#9670;&nbsp;</a></span>returnListRecords()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,33 +443,53 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void bvhar::RegRecords::assignRecords </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> bvhar::RegRecords::returnListRecords </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
+          <td class="paramname"><em>dim</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>coef_vec</em>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_alpha</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>contem_coef</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>diag_vec</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include_mean</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97a8a9fa885967819ad4c966684714ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a8a9fa885967819ad4c966684714ff">&#9670;&nbsp;</a></span>appendRecords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void bvhar::RegRecords::appendRecords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramname"><em>list</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -456,43 +499,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structbvhar_1_1SvRecords.html#a0d15afccf40fa14e74d2b287199fcd47">bvhar::SvRecords</a>, and <a class="el" href="structbvhar_1_1LdltRecords.html#a73e903517f8a64c7a7a4a01be36c8838">bvhar::LdltRecords</a>.</p>
-
-</div>
-</div>
-<a id="aafab8fa958e16113a02199226347b8a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafab8fa958e16113a02199226347b8a9">&#9670;&nbsp;</a></span>computeActivity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::VectorXd bvhar::RegRecords::computeActivity </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>level</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="structbvhar_1_1RegRecords_aafab8fa958e16113a02199226347b8a9_cgraph.png" border="0" usemap="#astructbvhar_1_1RegRecords_aafab8fa958e16113a02199226347b8a9_cgraph" alt=""/></div>
-<map name="astructbvhar_1_1RegRecords_aafab8fa958e16113a02199226347b8a9_cgraph" id="astructbvhar_1_1RegRecords_aafab8fa958e16113a02199226347b8a9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,23,157,65"/>
-<area shape="rect" href="namespacebvhar.html#a957a19c5b7c25f6b9cffe5d0c5ad3729" title=" " alt="" coords="206,5,369,32"/>
-<area shape="rect" href="namespacebvhar.html#a0479cceba603c6459ae325849b45ef45" title=" " alt="" coords="205,56,369,83"/>
-</map>
-</div>
+<p>Implemented in <a class="el" href="structbvhar_1_1SvRecords.html#a2b49236129b24860ed59d47c678aae3e">bvhar::SvRecords</a>, and <a class="el" href="structbvhar_1_1LdltRecords.html#a84a3d07e0fa5ca24c745fbcabcdad2c7">bvhar::LdltRecords</a>.</p>
 
 </div>
 </div>
@@ -552,161 +559,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a20e328a9aaa7f36efa5139cedc5850b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20e328a9aaa7f36efa5139cedc5850b9">&#9670;&nbsp;</a></span>returnListRecords()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> bvhar::RegRecords::returnListRecords </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dim</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_alpha</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>include_mean</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a984b2416ee8d61ecae89cf53003b01d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a984b2416ee8d61ecae89cf53003b01d6">&#9670;&nbsp;</a></span>returnRecords() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename RecordType  = LdltRecords&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">RecordType bvhar::RegRecords::returnRecords </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structbvhar_1_1SparseRecords.html">SparseRecords</a> &amp;&#160;</td>
-          <td class="paramname"><em>sparse_record</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_iter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_burn</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>thin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>sparse</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afd04e3a7d54904b86413625745644ae1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd04e3a7d54904b86413625745644ae1">&#9670;&nbsp;</a></span>returnRecords() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a> bvhar::RegRecords::returnRecords </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structbvhar_1_1SparseRecords.html">SparseRecords</a> &amp;&#160;</td>
-          <td class="paramname"><em>sparse_record</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_iter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_burn</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>thin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>sparse</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="structbvhar_1_1RegRecords_afd04e3a7d54904b86413625745644ae1_cgraph.png" border="0" usemap="#astructbvhar_1_1RegRecords_afd04e3a7d54904b86413625745644ae1_cgraph" alt=""/></div>
-<map name="astructbvhar_1_1RegRecords_afd04e3a7d54904b86413625745644ae1_cgraph" id="astructbvhar_1_1RegRecords_afd04e3a7d54904b86413625745644ae1_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,157,47"/>
-<area shape="rect" href="structbvhar_1_1RegRecords.html#a655a14762c76841ee5577a6d32bff0f6" title=" " alt="" coords="205,5,357,47"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="ae0c8e4153e89b1c204e532376c52919f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0c8e4153e89b1c204e532376c52919f">&#9670;&nbsp;</a></span>returnSvRecords()</h2>
 
@@ -760,6 +612,136 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="structbvhar_1_1SvRecords.html#add1494c20733bca6412ff445b55a4886">bvhar::SvRecords</a>, and <a class="el" href="structbvhar_1_1LdltRecords.html#afcd0849af14531c629a934b09cca13ee">bvhar::LdltRecords</a>.</p>
+
+</div>
+</div>
+<a id="a984b2416ee8d61ecae89cf53003b01d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a984b2416ee8d61ecae89cf53003b01d6">&#9670;&nbsp;</a></span>returnRecords() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename RecordType  = LdltRecords&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">RecordType bvhar::RegRecords::returnRecords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structbvhar_1_1SparseRecords.html">SparseRecords</a> &amp;&#160;</td>
+          <td class="paramname"><em>sparse_record</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_iter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_burn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>thin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sparse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e6040e7509c19a04f28ec1ecfcd5c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e6040e7509c19a04f28ec1ecfcd5c71">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void bvhar::RegRecords::updateDiag </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>sv_update</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structbvhar_1_1SvRecords.html#afe7c93076e1d4ad233e5fed6a38fdcb8">bvhar::SvRecords</a>, and <a class="el" href="structbvhar_1_1LdltRecords.html#aa8d78c46d062dfe4bf8f243a25ded737">bvhar::LdltRecords</a>.</p>
+
+</div>
+</div>
+<a id="ab541265c6d14ff222d4ffb7c3d140209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab541265c6d14ff222d4ffb7c3d140209">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void bvhar::RegRecords::updateDiag </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>sv_update</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>sv_sig</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structbvhar_1_1SvRecords.html#adde0523e1760b6e70be6519fa97b4eb7">bvhar::SvRecords</a>, and <a class="el" href="structbvhar_1_1LdltRecords.html#a9316603b66b9c3c788c9c6147f61947a">bvhar::LdltRecords</a>.</p>
 
 </div>
 </div>
@@ -889,8 +871,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a6e6040e7509c19a04f28ec1ecfcd5c71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e6040e7509c19a04f28ec1ecfcd5c71">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[1/2]</span></h2>
+<a id="aafab8fa958e16113a02199226347b8a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafab8fa958e16113a02199226347b8a9">&#9670;&nbsp;</a></span>computeActivity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -899,75 +881,94 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void bvhar::RegRecords::updateDiag </td>
+          <td class="memname">Eigen::VectorXd bvhar::RegRecords::computeActivity </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
-          <td class="paramname"><em>sv_update</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="structbvhar_1_1SvRecords.html#afe7c93076e1d4ad233e5fed6a38fdcb8">bvhar::SvRecords</a>, and <a class="el" href="structbvhar_1_1LdltRecords.html#aa8d78c46d062dfe4bf8f243a25ded737">bvhar::LdltRecords</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="structbvhar_1_1RegRecords_aafab8fa958e16113a02199226347b8a9_cgraph.png" border="0" usemap="#astructbvhar_1_1RegRecords_aafab8fa958e16113a02199226347b8a9_cgraph" alt=""/></div>
+<map name="astructbvhar_1_1RegRecords_aafab8fa958e16113a02199226347b8a9_cgraph" id="astructbvhar_1_1RegRecords_aafab8fa958e16113a02199226347b8a9_cgraph">
+<area shape="rect" title=" " alt="" coords="5,23,157,65"/>
+<area shape="rect" href="namespacebvhar.html#a957a19c5b7c25f6b9cffe5d0c5ad3729" title=" " alt="" coords="206,5,369,32"/>
+<area shape="rect" href="namespacebvhar.html#a0479cceba603c6459ae325849b45ef45" title=" " alt="" coords="205,56,369,83"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="ab541265c6d14ff222d4ffb7c3d140209"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab541265c6d14ff222d4ffb7c3d140209">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[2/2]</span></h2>
+<a id="afd04e3a7d54904b86413625745644ae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd04e3a7d54904b86413625745644ae1">&#9670;&nbsp;</a></span>returnRecords() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void bvhar::RegRecords::updateDiag </td>
+          <td class="memname"><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a> bvhar::RegRecords::returnRecords </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="structbvhar_1_1SparseRecords.html">SparseRecords</a> &amp;&#160;</td>
+          <td class="paramname"><em>sparse_record</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em>, </td>
+          <td class="paramname"><em>num_iter</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
-          <td class="paramname"><em>sv_update</em>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_burn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
-          <td class="paramname"><em>sv_sig</em>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>thin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sparse</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="structbvhar_1_1SvRecords.html#adde0523e1760b6e70be6519fa97b4eb7">bvhar::SvRecords</a>, and <a class="el" href="structbvhar_1_1LdltRecords.html#a9316603b66b9c3c788c9c6147f61947a">bvhar::LdltRecords</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="structbvhar_1_1RegRecords_afd04e3a7d54904b86413625745644ae1_cgraph.png" border="0" usemap="#astructbvhar_1_1RegRecords_afd04e3a7d54904b86413625745644ae1_cgraph" alt=""/></div>
+<map name="astructbvhar_1_1RegRecords_afd04e3a7d54904b86413625745644ae1_cgraph" id="astructbvhar_1_1RegRecords_afd04e3a7d54904b86413625745644ae1_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,157,47"/>
+<area shape="rect" href="structbvhar_1_1RegRecords.html#a655a14762c76841ee5577a6d32bff0f6" title=" " alt="" coords="205,5,357,47"/>
+</map>
+</div>
 
 </div>
 </div>

@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="apple-touch-icon-60x60.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">bvhar
    </div>
@@ -206,6 +207,33 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aba1da0cf5e9b98f0cdd0ab176a95e2a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba1da0cf5e9b98f0cdd0ab176a95e2a1">&#9670;&nbsp;</a></span>updatePred()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void bvhar::OlsForecaster::updatePred </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classbvhar_1_1VharForecaster.html#a19b79c615e7b9ca11c8b9997de75d244">bvhar::VharForecaster</a>, and <a class="el" href="classbvhar_1_1VarForecaster.html#aaa421445d5cefa1d4867266f630fdcd4">bvhar::VarForecaster</a>.</p>
+
+</div>
+</div>
 <a id="af1b5de1cc9af1df14b685b4e19651f18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1b5de1cc9af1df14b685b4e19651f18">&#9670;&nbsp;</a></span>forecastPoint()</h2>
 
@@ -240,8 +268,9 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aba1da0cf5e9b98f0cdd0ab176a95e2a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba1da0cf5e9b98f0cdd0ab176a95e2a1">&#9670;&nbsp;</a></span>updatePred()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4bd9ccc741263470d8b536006c3f6a78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bd9ccc741263470d8b536006c3f6a78">&#9670;&nbsp;</a></span>response</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,24 +279,18 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void bvhar::OlsForecaster::updatePred </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">Eigen::MatrixXd bvhar::OlsForecaster::response</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classbvhar_1_1VharForecaster.html#a19b79c615e7b9ca11c8b9997de75d244">bvhar::VharForecaster</a>, and <a class="el" href="classbvhar_1_1VarForecaster.html#aaa421445d5cefa1d4867266f630fdcd4">bvhar::VarForecaster</a>.</p>
-
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
 <a id="af6c2cc3196135dfbdef60ca3ef42421d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6c2cc3196135dfbdef60ca3ef42421d">&#9670;&nbsp;</a></span>coef_mat</h2>
 
@@ -279,6 +302,50 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">Eigen::MatrixXd bvhar::OlsForecaster::coef_mat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c171c81adab137139eedbdcd8f762d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c171c81adab137139eedbdcd8f762d9">&#9670;&nbsp;</a></span>include_mean</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool bvhar::OlsForecaster::include_mean</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9e8d741e2f23d3f54baa96cc7113453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9e8d741e2f23d3f54baa96cc7113453">&#9670;&nbsp;</a></span>step</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bvhar::OlsForecaster::step</td>
         </tr>
       </table>
   </td>
@@ -312,6 +379,28 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ace79a4272aceffec6d2f84ca2dd00a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace79a4272aceffec6d2f84ca2dd00a84">&#9670;&nbsp;</a></span>var_lag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bvhar::OlsForecaster::var_lag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5e288224abdeb621cb9630faf69138fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e288224abdeb621cb9630faf69138fa">&#9670;&nbsp;</a></span>dim_design</h2>
 
@@ -334,8 +423,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a2c171c81adab137139eedbdcd8f762d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c171c81adab137139eedbdcd8f762d9">&#9670;&nbsp;</a></span>include_mean</h2>
+<a id="a3ed6ae8ef8161a152d335da873510d8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed6ae8ef8161a152d335da873510d8d">&#9670;&nbsp;</a></span>pred_save</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,7 +433,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool bvhar::OlsForecaster::include_mean</td>
+          <td class="memname">Eigen::MatrixXd bvhar::OlsForecaster::pred_save</td>
         </tr>
       </table>
   </td>
@@ -400,72 +489,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a3ed6ae8ef8161a152d335da873510d8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ed6ae8ef8161a152d335da873510d8d">&#9670;&nbsp;</a></span>pred_save</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::MatrixXd bvhar::OlsForecaster::pred_save</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4bd9ccc741263470d8b536006c3f6a78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bd9ccc741263470d8b536006c3f6a78">&#9670;&nbsp;</a></span>response</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::MatrixXd bvhar::OlsForecaster::response</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad9e8d741e2f23d3f54baa96cc7113453"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9e8d741e2f23d3f54baa96cc7113453">&#9670;&nbsp;</a></span>step</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int bvhar::OlsForecaster::step</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a420ae1d46fed958e57064a967a11992b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a420ae1d46fed958e57064a967a11992b">&#9670;&nbsp;</a></span>tmp_vec</h2>
 
@@ -477,28 +500,6 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">Eigen::VectorXd bvhar::OlsForecaster::tmp_vec</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ace79a4272aceffec6d2f84ca2dd00a84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace79a4272aceffec6d2f84ca2dd00a84">&#9670;&nbsp;</a></span>var_lag</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int bvhar::OlsForecaster::var_lag</td>
         </tr>
       </table>
   </td>

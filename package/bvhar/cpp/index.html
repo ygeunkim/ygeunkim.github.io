@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>bvhar: Main Page</title>
+<title>bvhar: Overview</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="apple-touch-icon-60x60.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">bvhar
    </div>
@@ -60,11 +61,28 @@ $(function() {
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">bvhar Documentation</div>  </div>
+<div class="title">Overview </div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md_inst_doxygen_index"></a> This package provides public C++ header. Package developers or <code>Rcpp</code> can use these easily. You can use these by writing in your R package <code>DESCRIPTION</code>.</p>
+<div class="fragment"><div class="line">LinkingTo: </div>
+<div class="line">    BH,</div>
+<div class="line">    Rcpp,</div>
+<div class="line">    RcppEigen,</div>
+<div class="line">    RcppSpdlog,</div>
+<div class="line">    RcppThread,</div>
+<div class="line">    bvhar</div>
+</div><!-- fragment --><p>Also, you can use in your single <code>C++</code> source:</p>
+<div class="fragment"><div class="line"><span class="comment">// [[Rcpp::depends(BH, RcppEigen, RcppSpdlog, RcppThread, bvhar)]]</span></div>
+<div class="line"><span class="comment">// [[Rcpp::plugins(bvhar)]]</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// [[Rcpp::export]]</span></div>
+<div class="line"><span class="comment">// Your C++ code</span></div>
+</div><!-- fragment --><p>You need to add <code>plugins</code> attribute because the header in this package should define <code>USE_RCPP</code> macro. Or you can use instead:</p>
+<div class="fragment"><div class="line">Sys.setenv(&quot;PKG_CPPFLAGS&quot; = &quot;-DUSE_RCPP&quot;)</div>
+</div><!-- fragment --> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
