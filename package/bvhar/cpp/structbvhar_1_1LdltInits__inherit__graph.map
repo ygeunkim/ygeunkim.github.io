@@ -1,12 +1,12 @@
 <map id="bvhar::LdltInits" name="bvhar::LdltInits">
-<area shape="rect" id="node1" title=" " alt="" coords="173,148,292,175"/>
+<area shape="rect" id="node1" title="MCMC initial values for McmcReg" alt="" coords="173,148,292,175"/>
 <area shape="rect" id="node3" href="$structbvhar_1_1GlInits.html" title=" " alt="" coords="357,31,547,57"/>
-<area shape="rect" id="node7" href="$structbvhar_1_1GdpInits.html" title=" " alt="" coords="355,82,549,123"/>
-<area shape="rect" id="node8" href="$structbvhar_1_1GlInits.html" title=" " alt="" coords="340,148,564,175"/>
-<area shape="rect" id="node9" href="$structbvhar_1_1HierminnInits.html" title=" " alt="" coords="375,199,529,241"/>
-<area shape="rect" id="node10" href="$structbvhar_1_1SsvsInits.html" title=" " alt="" coords="353,265,551,306"/>
-<area shape="rect" id="node2" href="$structbvhar_1_1RegInits.html" title=" " alt="" coords="5,148,125,175"/>
+<area shape="rect" id="node7" href="$structbvhar_1_1GdpInits.html" title="MCMC initial values for McmcGdp" alt="" coords="355,82,549,123"/>
+<area shape="rect" id="node8" href="$structbvhar_1_1GlInits.html" title="MCMC initial values for global&#45;local shrinkage prior. McmcDl takes this." alt="" coords="340,148,564,175"/>
+<area shape="rect" id="node9" href="$structbvhar_1_1HierminnInits.html" title="MCMC initial values for McmcHierminn" alt="" coords="375,199,529,241"/>
+<area shape="rect" id="node10" href="$structbvhar_1_1SsvsInits.html" title="MCMC initial values for McmcSsvs" alt="" coords="353,265,551,306"/>
+<area shape="rect" id="node2" href="$structbvhar_1_1RegInits.html" title="MCMC initial values for McmcTriangular" alt="" coords="5,148,125,175"/>
 <area shape="rect" id="node4" href="$structbvhar_1_1HsInits.html" title=" " alt="" coords="628,5,823,32"/>
-<area shape="rect" id="node6" href="$structbvhar_1_1HsInits.html" title=" " alt="" coords="612,56,839,83"/>
-<area shape="rect" id="node5" href="$structbvhar_1_1NgInits.html" title=" " alt="" coords="887,5,1115,32"/>
+<area shape="rect" id="node6" href="$structbvhar_1_1HsInits.html" title="MCMC initial values for McmcHorseshoe" alt="" coords="612,56,839,83"/>
+<area shape="rect" id="node5" href="$structbvhar_1_1NgInits.html" title="MCMC initial values for McmcNg" alt="" coords="887,5,1115,32"/>
 </map>

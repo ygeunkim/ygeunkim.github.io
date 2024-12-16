@@ -92,15 +92,18 @@ $(document).ready(function(){initNavTree('structbvhar_1_1GlInits.html',''); init
 </div><!--header-->
 <div class="contents">
 
+<p>MCMC initial values for global-local shrinkage prior. <code><a class="el" href="classbvhar_1_1McmcDl.html" title="Dirichlet-Laplace prior.">McmcDl</a></code> takes this.  
+ <a href="structbvhar_1_1GlInits.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="bvharconfig_8h_source.html">bvharconfig.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for bvhar::GlInits&lt; BaseRegInits &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1GlInits__inherit__graph.png" border="0" usemap="#abvhar_1_1GlInits_3_01BaseRegInits_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="abvhar_1_1GlInits_3_01BaseRegInits_01_4_inherit__map" id="abvhar_1_1GlInits_3_01BaseRegInits_01_4_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,155,229,181"/>
-<area shape="rect" href="structbvhar_1_1LdltInits.html" title=" " alt="" coords="58,80,177,107"/>
-<area shape="rect" href="structbvhar_1_1RegInits.html" title=" " alt="" coords="57,5,177,32"/>
+<area shape="rect" title="MCMC initial values for global&#45;local shrinkage prior. McmcDl takes this." alt="" coords="5,155,229,181"/>
+<area shape="rect" href="structbvhar_1_1LdltInits.html" title="MCMC initial values for McmcReg" alt="" coords="58,80,177,107"/>
+<area shape="rect" href="structbvhar_1_1RegInits.html" title="MCMC initial values for McmcTriangular" alt="" coords="57,5,177,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -108,9 +111,9 @@ Collaboration diagram for bvhar::GlInits&lt; BaseRegInits &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1GlInits__coll__graph.png" border="0" usemap="#abvhar_1_1GlInits_3_01BaseRegInits_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="abvhar_1_1GlInits_3_01BaseRegInits_01_4_coll__map" id="abvhar_1_1GlInits_3_01BaseRegInits_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="5,155,229,181"/>
-<area shape="rect" href="structbvhar_1_1LdltInits.html" title=" " alt="" coords="58,80,177,107"/>
-<area shape="rect" href="structbvhar_1_1RegInits.html" title=" " alt="" coords="57,5,177,32"/>
+<area shape="rect" title="MCMC initial values for global&#45;local shrinkage prior. McmcDl takes this." alt="" coords="5,155,229,181"/>
+<area shape="rect" href="structbvhar_1_1LdltInits.html" title="MCMC initial values for McmcReg" alt="" coords="58,80,177,107"/>
+<area shape="rect" href="structbvhar_1_1RegInits.html" title="MCMC initial values for McmcTriangular" alt="" coords="57,5,177,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -150,7 +153,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a17d4804cfa16089368bd65514aa52dc4 inherit pub_attribs_structbvhar_1_1RegInits"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegInits.html#a17d4804cfa16089368bd65514aa52dc4">_contem</a></td></tr>
 <tr class="separator:a17d4804cfa16089368bd65514aa52dc4 inherit pub_attribs_structbvhar_1_1RegInits"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename BaseRegInits = LdltInits&gt;<br />
+struct bvhar::GlInits&lt; BaseRegInits &gt;</h3>
+
+<p>MCMC initial values for global-local shrinkage prior. <code><a class="el" href="classbvhar_1_1McmcDl.html" title="Dirichlet-Laplace prior.">McmcDl</a></code> takes this. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">BaseRegInits</td><td><code>LdldInits</code> or <code><a class="el" href="structbvhar_1_1SvInits.html" title="MCMC initial values for McmcSv">SvInits</a></code> </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a24749e797a5dbd8b37e248548b6e28d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24749e797a5dbd8b37e248548b6e28d7">&#9670;&nbsp;</a></span>GlInits() <span class="overload">[1/2]</span></h2>
 

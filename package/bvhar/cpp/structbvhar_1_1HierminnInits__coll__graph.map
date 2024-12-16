@@ -1,5 +1,5 @@
 <map id="bvhar::HierminnInits&lt; BaseRegInits &gt;" name="bvhar::HierminnInits&lt; BaseRegInits &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="5,155,160,196"/>
-<area shape="rect" id="node2" href="$structbvhar_1_1LdltInits.html" title=" " alt="" coords="23,80,142,107"/>
-<area shape="rect" id="node3" href="$structbvhar_1_1RegInits.html" title=" " alt="" coords="23,5,143,32"/>
+<area shape="rect" id="node1" title="MCMC initial values for McmcHierminn" alt="" coords="5,155,160,196"/>
+<area shape="rect" id="node2" href="$structbvhar_1_1LdltInits.html" title="MCMC initial values for McmcReg" alt="" coords="23,80,142,107"/>
+<area shape="rect" id="node3" href="$structbvhar_1_1RegInits.html" title="MCMC initial values for McmcTriangular" alt="" coords="23,5,143,32"/>
 </map>

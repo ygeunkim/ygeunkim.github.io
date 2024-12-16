@@ -1,5 +1,5 @@
 <map id="bvhar::GlobalLocalRecords" name="bvhar::GlobalLocalRecords">
-<area shape="rect" id="node1" title=" " alt="" coords="95,5,290,32"/>
-<area shape="rect" id="node2" href="$structbvhar_1_1HorseshoeRecords.html" title=" " alt="" coords="5,80,193,107"/>
-<area shape="rect" id="node3" href="$structbvhar_1_1NgRecords.html" title=" " alt="" coords="217,80,355,107"/>
+<area shape="rect" id="node1" title="MCMC records for global&#45;local shrinkage prior McmcDl directly uses this." alt="" coords="95,5,290,32"/>
+<area shape="rect" id="node2" href="$structbvhar_1_1HorseshoeRecords.html" title="MCMC records for McmcHorseshoe" alt="" coords="5,80,193,107"/>
+<area shape="rect" id="node3" href="$structbvhar_1_1NgRecords.html" title="MCMC records for McmcNg" alt="" coords="217,80,355,107"/>
 </map>

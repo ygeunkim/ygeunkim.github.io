@@ -1,5 +1,5 @@
 <map id="bvhar::RegRecords" name="bvhar::RegRecords">
-<area shape="rect" id="node1" title=" " alt="" coords="86,5,230,32"/>
-<area shape="rect" id="node2" href="$structbvhar_1_1LdltRecords.html" title=" " alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node1" title="MCMC records for McmcTriangular" alt="" coords="86,5,230,32"/>
+<area shape="rect" id="node2" href="$structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg" alt="" coords="5,80,148,107"/>
 <area shape="rect" id="node3" href="$structbvhar_1_1SvRecords.html" title=" " alt="" coords="172,80,307,107"/>
 </map>

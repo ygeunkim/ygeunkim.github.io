@@ -92,6 +92,9 @@ $(document).ready(function(){initNavTree('structbvhar_1_1SparseRecords.html','')
 </div><!--header-->
 <div class="contents">
 
+<p>Signal adaptive variable selector records.  
+ <a href="structbvhar_1_1SparseRecords.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="bvharconfig_8h_source.html">bvharconfig.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -103,10 +106,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af10ccc1208722f935cdb496d454ed0d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#af10ccc1208722f935cdb496d454ed0d8">SparseRecords</a> (const Eigen::MatrixXd &amp;alpha_record, const Eigen::MatrixXd &amp;a_record)</td></tr>
 <tr class="separator:af10ccc1208722f935cdb496d454ed0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ceaf55ece71219dc670eb13113b0b71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71">assignRecords</a> (int id, const Eigen::MatrixXd &amp;coef_mat, const Eigen::VectorXd &amp;contem_coef)</td></tr>
+<tr class="memdesc:a8ceaf55ece71219dc670eb13113b0b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign MCMC draw to the draw matrix.  <a href="structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71">More...</a><br /></td></tr>
 <tr class="separator:a8ceaf55ece71219dc670eb13113b0b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6746817444f20d0107601b6b51b4e623"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#a6746817444f20d0107601b6b51b4e623">assignRecords</a> (int id, int num_alpha, int dim, int nrow_coef, const Eigen::MatrixXd &amp;coef_mat, const Eigen::VectorXd &amp;contem_coef)</td></tr>
+<tr class="memdesc:a6746817444f20d0107601b6b51b4e623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign MCMC draw to the draw matrix.  <a href="structbvhar_1_1SparseRecords.html#a6746817444f20d0107601b6b51b4e623">More...</a><br /></td></tr>
 <tr class="separator:a6746817444f20d0107601b6b51b4e623"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22fb120863a275ef75b28873663acde9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#a22fb120863a275ef75b28873663acde9">appendRecords</a> (<a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;list, int dim, int num_alpha, bool include_mean)</td></tr>
+<tr class="memdesc:a22fb120863a275ef75b28873663acde9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append sparse records to the MCMC record <code>LIST</code>  <a href="structbvhar_1_1SparseRecords.html#a22fb120863a275ef75b28873663acde9">More...</a><br /></td></tr>
 <tr class="separator:a22fb120863a275ef75b28873663acde9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -116,7 +122,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1ef9c899105a7424731669f08190a937"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#a1ef9c899105a7424731669f08190a937">contem_coef_record</a></td></tr>
 <tr class="separator:a1ef9c899105a7424731669f08190a937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Signal adaptive variable selector records. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af23628b32899b09043575f1073898394"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af23628b32899b09043575f1073898394">&#9670;&nbsp;</a></span>SparseRecords() <span class="overload">[1/3]</span></h2>
 
@@ -273,6 +281,16 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Assign MCMC draw to the draw matrix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">coef_mat</td><td>Coefficient matrix processed by SAVS </td></tr>
+    <tr><td class="paramname">contem_coef</td><td>Contemporaneous vector processed by SAVS </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a6746817444f20d0107601b6b51b4e623"></a>
@@ -333,6 +351,19 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Assign MCMC draw to the draw matrix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">coef_mat</td><td>Coefficient matrix processed by SAVS </td></tr>
+    <tr><td class="paramname">contem_coef</td><td>Contemporaneous vector processed by SAVS</td></tr>
+    <tr><td class="paramname">num_alpha</td><td>The number of coefficient elements except constant term </td></tr>
+    <tr><td class="paramname">dim</td><td>Time series dimension </td></tr>
+    <tr><td class="paramname">nrow_coef</td><td>Number of rows of coefficient matrix </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a22fb120863a275ef75b28873663acde9"></a>
@@ -380,6 +411,17 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Append sparse records to the MCMC record <code>LIST</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">list</td><td>MCMC record <code>LIST</code> </td></tr>
+    <tr><td class="paramname">dim</td><td>Time series dimension </td></tr>
+    <tr><td class="paramname">num_alpha</td><td>The number of coefficient elements except constant term </td></tr>
+    <tr><td class="paramname">include_mean</td><td>If <code>true</code>, constant term is included </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

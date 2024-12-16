@@ -92,16 +92,19 @@ $(document).ready(function(){initNavTree('structbvhar_1_1HsInits.html',''); init
 </div><!--header-->
 <div class="contents">
 
+<p>MCMC initial values for <code><a class="el" href="classbvhar_1_1McmcHorseshoe.html" title="Horseshoe prior.">McmcHorseshoe</a></code>  
+ <a href="structbvhar_1_1HsInits.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="bvharconfig_8h_source.html">bvharconfig.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for bvhar::HsInits&lt; BaseRegInits &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1HsInits__inherit__graph.png" border="0" usemap="#abvhar_1_1HsInits_3_01BaseRegInits_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="abvhar_1_1HsInits_3_01BaseRegInits_01_4_inherit__map" id="abvhar_1_1HsInits_3_01BaseRegInits_01_4_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,229,232,256"/>
+<area shape="rect" title="MCMC initial values for McmcHorseshoe" alt="" coords="5,229,232,256"/>
 <area shape="rect" href="structbvhar_1_1GlInits.html" title=" " alt="" coords="23,155,214,181"/>
-<area shape="rect" href="structbvhar_1_1LdltInits.html" title=" " alt="" coords="59,80,178,107"/>
-<area shape="rect" href="structbvhar_1_1RegInits.html" title=" " alt="" coords="59,5,179,32"/>
+<area shape="rect" href="structbvhar_1_1LdltInits.html" title="MCMC initial values for McmcReg" alt="" coords="59,80,178,107"/>
+<area shape="rect" href="structbvhar_1_1RegInits.html" title="MCMC initial values for McmcTriangular" alt="" coords="59,5,179,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -109,10 +112,10 @@ Collaboration diagram for bvhar::HsInits&lt; BaseRegInits &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1HsInits__coll__graph.png" border="0" usemap="#abvhar_1_1HsInits_3_01BaseRegInits_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="abvhar_1_1HsInits_3_01BaseRegInits_01_4_coll__map" id="abvhar_1_1HsInits_3_01BaseRegInits_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="5,229,232,256"/>
+<area shape="rect" title="MCMC initial values for McmcHorseshoe" alt="" coords="5,229,232,256"/>
 <area shape="rect" href="structbvhar_1_1GlInits.html" title=" " alt="" coords="23,155,214,181"/>
-<area shape="rect" href="structbvhar_1_1LdltInits.html" title=" " alt="" coords="59,80,178,107"/>
-<area shape="rect" href="structbvhar_1_1RegInits.html" title=" " alt="" coords="59,5,179,32"/>
+<area shape="rect" href="structbvhar_1_1LdltInits.html" title="MCMC initial values for McmcReg" alt="" coords="59,80,178,107"/>
+<area shape="rect" href="structbvhar_1_1RegInits.html" title="MCMC initial values for McmcTriangular" alt="" coords="59,5,179,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -160,7 +163,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a17d4804cfa16089368bd65514aa52dc4 inherit pub_attribs_structbvhar_1_1RegInits"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegInits.html#a17d4804cfa16089368bd65514aa52dc4">_contem</a></td></tr>
 <tr class="separator:a17d4804cfa16089368bd65514aa52dc4 inherit pub_attribs_structbvhar_1_1RegInits"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename BaseRegInits = LdltInits&gt;<br />
+struct bvhar::HsInits&lt; BaseRegInits &gt;</h3>
+
+<p>MCMC initial values for <code><a class="el" href="classbvhar_1_1McmcHorseshoe.html" title="Horseshoe prior.">McmcHorseshoe</a></code> </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">BaseRegInits</td><td><code><a class="el" href="structbvhar_1_1LdltInits.html" title="MCMC initial values for McmcReg">LdltInits</a></code> or <code><a class="el" href="structbvhar_1_1SvInits.html" title="MCMC initial values for McmcSv">SvInits</a></code> </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1d5b5208f0212e530c2610b98e8d8b5f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d5b5208f0212e530c2610b98e8d8b5f">&#9670;&nbsp;</a></span>HsInits() <span class="overload">[1/2]</span></h2>
 

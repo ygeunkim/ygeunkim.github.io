@@ -92,15 +92,18 @@ $(document).ready(function(){initNavTree('structbvhar_1_1GlobalLocalRecords.html
 </div><!--header-->
 <div class="contents">
 
+<p>MCMC records for global-local shrinkage prior <code><a class="el" href="classbvhar_1_1McmcDl.html" title="Dirichlet-Laplace prior.">McmcDl</a></code> directly uses this.  
+ <a href="structbvhar_1_1GlobalLocalRecords.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="bvharconfig_8h_source.html">bvharconfig.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for bvhar::GlobalLocalRecords:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1GlobalLocalRecords__inherit__graph.png" border="0" usemap="#abvhar_1_1GlobalLocalRecords_inherit__map" alt="Inheritance graph"/></div>
 <map name="abvhar_1_1GlobalLocalRecords_inherit__map" id="abvhar_1_1GlobalLocalRecords_inherit__map">
-<area shape="rect" title=" " alt="" coords="95,5,290,32"/>
-<area shape="rect" href="structbvhar_1_1HorseshoeRecords.html" title=" " alt="" coords="5,80,193,107"/>
-<area shape="rect" href="structbvhar_1_1NgRecords.html" title=" " alt="" coords="217,80,355,107"/>
+<area shape="rect" title="MCMC records for global&#45;local shrinkage prior McmcDl directly uses this." alt="" coords="95,5,290,32"/>
+<area shape="rect" href="structbvhar_1_1HorseshoeRecords.html" title="MCMC records for McmcHorseshoe" alt="" coords="5,80,193,107"/>
+<area shape="rect" href="structbvhar_1_1NgRecords.html" title="MCMC records for McmcNg" alt="" coords="217,80,355,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -113,12 +116,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d112e474136dfc6a0b8dd0feedbe3cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1GlobalLocalRecords.html#a0d112e474136dfc6a0b8dd0feedbe3cb">GlobalLocalRecords</a> (const Eigen::MatrixXd &amp;<a class="el" href="structbvhar_1_1GlobalLocalRecords.html#a76508a9ab32a3371292f08ab072f3e95">local_record</a>, const Eigen::VectorXd &amp;<a class="el" href="structbvhar_1_1GlobalLocalRecords.html#aa8e239554b6c581ec0649ff3827873e8">global_record</a>)</td></tr>
 <tr class="separator:a0d112e474136dfc6a0b8dd0feedbe3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d5671ed0ffe6e5efba0ffd3f2b1a822"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1GlobalLocalRecords.html#a7d5671ed0ffe6e5efba0ffd3f2b1a822">assignRecords</a> (int id, const Eigen::VectorXd &amp;local_lev, const double global_lev)</td></tr>
+<tr class="memdesc:a7d5671ed0ffe6e5efba0ffd3f2b1a822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign MCMC draw to the draw matrix.  <a href="structbvhar_1_1GlobalLocalRecords.html#a7d5671ed0ffe6e5efba0ffd3f2b1a822">More...</a><br /></td></tr>
 <tr class="separator:a7d5671ed0ffe6e5efba0ffd3f2b1a822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff8b8f17eba75cfc3232fdd7a5840fa7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1GlobalLocalRecords.html#aff8b8f17eba75cfc3232fdd7a5840fa7">assignRecords</a> (int id, const Eigen::VectorXd &amp;local_lev, const Eigen::VectorXd &amp;group_lev, const double global_lev)</td></tr>
+<tr class="memdesc:aff8b8f17eba75cfc3232fdd7a5840fa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign MCMC draw to the draw matrix.  <a href="structbvhar_1_1GlobalLocalRecords.html#aff8b8f17eba75cfc3232fdd7a5840fa7">More...</a><br /></td></tr>
 <tr class="separator:aff8b8f17eba75cfc3232fdd7a5840fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac836f798a571120b0f9012ceb505c0e7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1GlobalLocalRecords.html#ac836f798a571120b0f9012ceb505c0e7">assignRecords</a> (int id, const Eigen::VectorXd &amp;shrink_fac, const Eigen::VectorXd &amp;local_lev, const Eigen::VectorXd &amp;group_lev, const double global_lev)</td></tr>
+<tr class="memdesc:ac836f798a571120b0f9012ceb505c0e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign MCMC draw to the draw matrix.  <a href="structbvhar_1_1GlobalLocalRecords.html#ac836f798a571120b0f9012ceb505c0e7">More...</a><br /></td></tr>
 <tr class="separator:ac836f798a571120b0f9012ceb505c0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace5c43377f2aaf672d18ac4e10e3ad02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbvhar_1_1GlobalLocalRecords.html">GlobalLocalRecords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1GlobalLocalRecords.html#ace5c43377f2aaf672d18ac4e10e3ad02">returnGlRecords</a> (int num_iter, int num_burn, int thin) const</td></tr>
+<tr class="memdesc:ace5c43377f2aaf672d18ac4e10e3ad02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1GlobalLocalRecords.html" title="MCMC records for global-local shrinkage prior McmcDl directly uses this.">GlobalLocalRecords</a></code>  <a href="structbvhar_1_1GlobalLocalRecords.html#ace5c43377f2aaf672d18ac4e10e3ad02">More...</a><br /></td></tr>
 <tr class="separator:ace5c43377f2aaf672d18ac4e10e3ad02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -128,7 +135,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa8e239554b6c581ec0649ff3827873e8"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1GlobalLocalRecords.html#aa8e239554b6c581ec0649ff3827873e8">global_record</a></td></tr>
 <tr class="separator:aa8e239554b6c581ec0649ff3827873e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>MCMC records for global-local shrinkage prior <code><a class="el" href="classbvhar_1_1McmcDl.html" title="Dirichlet-Laplace prior.">McmcDl</a></code> directly uses this. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac54ace7468851d46eb7e61a5adff8013"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac54ace7468851d46eb7e61a5adff8013">&#9670;&nbsp;</a></span>GlobalLocalRecords() <span class="overload">[1/3]</span></h2>
 
@@ -267,6 +276,16 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Assign MCMC draw to the draw matrix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">local_lev</td><td>Local shrinkage parameter draw </td></tr>
+    <tr><td class="paramname">global_lev</td><td>Global shrinkage parameter draw </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aff8b8f17eba75cfc3232fdd7a5840fa7"></a>
@@ -315,14 +334,26 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Assign MCMC draw to the draw matrix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">local_lev</td><td>Local shrinkage parameter draw </td></tr>
+    <tr><td class="paramname">global_lev</td><td>Global shrinkage parameter draw</td></tr>
+    <tr><td class="paramname">id</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">group_lev</td><td>Group shrinkage parameter draw </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Reimplemented in <a class="el" href="structbvhar_1_1NgRecords.html#a4adcae3eb3d8457f6d524417619cec27">bvhar::NgRecords</a>, and <a class="el" href="structbvhar_1_1HorseshoeRecords.html#afb2dcf8d310e30df69015b906552c540">bvhar::HorseshoeRecords</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1GlobalLocalRecords_aff8b8f17eba75cfc3232fdd7a5840fa7_cgraph.png" border="0" usemap="#astructbvhar_1_1GlobalLocalRecords_aff8b8f17eba75cfc3232fdd7a5840fa7_cgraph" alt=""/></div>
 <map name="astructbvhar_1_1GlobalLocalRecords_aff8b8f17eba75cfc3232fdd7a5840fa7_cgraph" id="astructbvhar_1_1GlobalLocalRecords_aff8b8f17eba75cfc3232fdd7a5840fa7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,200,47"/>
-<area shape="rect" href="structbvhar_1_1GlobalLocalRecords.html#a7d5671ed0ffe6e5efba0ffd3f2b1a822" title=" " alt="" coords="248,5,443,47"/>
+<area shape="rect" title="Assign MCMC draw to the draw matrix." alt="" coords="5,5,200,47"/>
+<area shape="rect" href="structbvhar_1_1GlobalLocalRecords.html#a7d5671ed0ffe6e5efba0ffd3f2b1a822" title="Assign MCMC draw to the draw matrix." alt="" coords="248,5,443,47"/>
 </map>
 </div>
 
@@ -380,14 +411,26 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Assign MCMC draw to the draw matrix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">local_lev</td><td>Local shrinkage parameter draw </td></tr>
+    <tr><td class="paramname">global_lev</td><td>Global shrinkage parameter draw</td></tr>
+    <tr><td class="paramname">id</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">shrink_fac</td><td>Shrinkage factor draw </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Reimplemented in <a class="el" href="structbvhar_1_1NgRecords.html#ab5f278683044d36e919499da92e5adc3">bvhar::NgRecords</a>, and <a class="el" href="structbvhar_1_1HorseshoeRecords.html#a5fd98136fb4ef2079e00c073974b587f">bvhar::HorseshoeRecords</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1GlobalLocalRecords_ac836f798a571120b0f9012ceb505c0e7_cgraph.png" border="0" usemap="#astructbvhar_1_1GlobalLocalRecords_ac836f798a571120b0f9012ceb505c0e7_cgraph" alt=""/></div>
 <map name="astructbvhar_1_1GlobalLocalRecords_ac836f798a571120b0f9012ceb505c0e7_cgraph" id="astructbvhar_1_1GlobalLocalRecords_ac836f798a571120b0f9012ceb505c0e7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,200,47"/>
-<area shape="rect" href="structbvhar_1_1GlobalLocalRecords.html#a7d5671ed0ffe6e5efba0ffd3f2b1a822" title=" " alt="" coords="248,5,443,47"/>
+<area shape="rect" title="Assign MCMC draw to the draw matrix." alt="" coords="5,5,200,47"/>
+<area shape="rect" href="structbvhar_1_1GlobalLocalRecords.html#a7d5671ed0ffe6e5efba0ffd3f2b1a822" title="Assign MCMC draw to the draw matrix." alt="" coords="248,5,443,47"/>
 </map>
 </div>
 
@@ -432,12 +475,23 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return <code><a class="el" href="structbvhar_1_1GlobalLocalRecords.html" title="MCMC records for global-local shrinkage prior McmcDl directly uses this.">GlobalLocalRecords</a></code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num_iter</td><td>Number of MCMC iteration </td></tr>
+    <tr><td class="paramname">num_burn</td><td>Number of burn-in </td></tr>
+    <tr><td class="paramname">thin</td><td>Thinning </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structbvhar_1_1GlobalLocalRecords.html" title="MCMC records for global-local shrinkage prior McmcDl directly uses this.">GlobalLocalRecords</a> <code><a class="el" href="structbvhar_1_1GlobalLocalRecords.html" title="MCMC records for global-local shrinkage prior McmcDl directly uses this.">GlobalLocalRecords</a></code> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1GlobalLocalRecords_ace5c43377f2aaf672d18ac4e10e3ad02_cgraph.png" border="0" usemap="#astructbvhar_1_1GlobalLocalRecords_ace5c43377f2aaf672d18ac4e10e3ad02_cgraph" alt=""/></div>
 <map name="astructbvhar_1_1GlobalLocalRecords_ace5c43377f2aaf672d18ac4e10e3ad02_cgraph" id="astructbvhar_1_1GlobalLocalRecords_ace5c43377f2aaf672d18ac4e10e3ad02_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,200,47"/>
+<area shape="rect" title="Return GlobalLocalRecords" alt="" coords="5,5,200,47"/>
 <area shape="rect" href="namespacebvhar.html#a00491952c7b60e2136dc192ccb2d23b8" title=" " alt="" coords="248,13,388,39"/>
 </map>
 </div>

@@ -1,5 +1,5 @@
 <map id="bvhar::RegSpillover" name="bvhar::RegSpillover">
 <area shape="rect" id="node1" title=" " alt="" coords="5,171,155,197"/>
-<area shape="rect" id="node2" href="$structbvhar_1_1LdltRecords.html" title=" " alt="" coords="9,81,151,108"/>
-<area shape="rect" id="node3" href="$structbvhar_1_1RegRecords.html" title=" " alt="" coords="8,5,152,32"/>
+<area shape="rect" id="node2" href="$structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg" alt="" coords="9,81,151,108"/>
+<area shape="rect" id="node3" href="$structbvhar_1_1RegRecords.html" title="MCMC records for McmcTriangular" alt="" coords="8,5,152,32"/>
 </map>

@@ -1,11 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structbvhar_1_1RegParams.html" title=" " alt="" coords="5,242,145,269"/>
-<area shape="rect" id="node2" href="$structbvhar_1_1DlParams.html" title=" " alt="" coords="199,5,401,47"/>
-<area shape="rect" id="node3" href="$structbvhar_1_1GdpParams.html" title=" " alt="" coords="193,71,407,112"/>
-<area shape="rect" id="node4" href="$structbvhar_1_1HierminnParams.html" title=" " alt="" coords="213,136,387,177"/>
-<area shape="rect" id="node5" href="$structbvhar_1_1HorseshoeParams.html" title=" " alt="" coords="208,201,392,243"/>
-<area shape="rect" id="node6" href="$structbvhar_1_1MinnParams.html" title=" " alt="" coords="221,267,379,308"/>
-<area shape="rect" id="node7" href="$structbvhar_1_1NgParams.html" title=" " alt="" coords="197,332,403,373"/>
-<area shape="rect" id="node8" href="$structbvhar_1_1SsvsParams.html" title=" " alt="" coords="222,397,378,439"/>
-<area shape="rect" id="node9" href="$structbvhar_1_1SvParams.html" title=" " alt="" coords="235,463,365,490"/>
+<area shape="rect" id="node1" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="5,242,145,269"/>
+<area shape="rect" id="node2" href="$structbvhar_1_1DlParams.html" title="Hyperparameters for Dirichlet&#45;Laplace prior McmcDl" alt="" coords="199,5,401,47"/>
+<area shape="rect" id="node3" href="$structbvhar_1_1GdpParams.html" title="Hyperparameters for GDP prior McmcGdp" alt="" coords="193,71,407,112"/>
+<area shape="rect" id="node4" href="$structbvhar_1_1HierminnParams.html" title="Hyperparameters for Hierarchical Minnesota prior McmcHierminn" alt="" coords="213,136,387,177"/>
+<area shape="rect" id="node5" href="$structbvhar_1_1HorseshoeParams.html" title="Hyperparameters for Horseshoe prior McmcHorseshoe" alt="" coords="208,201,392,243"/>
+<area shape="rect" id="node6" href="$structbvhar_1_1MinnParams.html" title="Hyperparameters for Minnesota prior McmcMinn" alt="" coords="221,267,379,308"/>
+<area shape="rect" id="node7" href="$structbvhar_1_1NgParams.html" title="Hyperparameters for Normal&#45;gamma prior McmcNg" alt="" coords="197,332,403,373"/>
+<area shape="rect" id="node8" href="$structbvhar_1_1SsvsParams.html" title="Hyperparameters for SSVS prior McmcSsvs" alt="" coords="222,397,378,439"/>
+<area shape="rect" id="node9" href="$structbvhar_1_1SvParams.html" title="Hyperparameters for McmcSv" alt="" coords="235,463,365,490"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structbvhar_1_1GlobalLocalRecords.html" title=" " alt="" coords="5,31,200,57"/>
-<area shape="rect" id="node2" href="$structbvhar_1_1HorseshoeRecords.html" title=" " alt="" coords="248,5,436,32"/>
-<area shape="rect" id="node3" href="$structbvhar_1_1NgRecords.html" title=" " alt="" coords="273,56,411,83"/>
+<area shape="rect" id="node1" href="$structbvhar_1_1GlobalLocalRecords.html" title="MCMC records for global&#45;local shrinkage prior McmcDl directly uses this." alt="" coords="5,31,200,57"/>
+<area shape="rect" id="node2" href="$structbvhar_1_1HorseshoeRecords.html" title="MCMC records for McmcHorseshoe" alt="" coords="248,5,436,32"/>
+<area shape="rect" id="node3" href="$structbvhar_1_1NgRecords.html" title="MCMC records for McmcNg" alt="" coords="273,56,411,83"/>
 </map>

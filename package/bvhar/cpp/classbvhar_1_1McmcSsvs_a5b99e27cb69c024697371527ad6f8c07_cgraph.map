@@ -1,6 +1,6 @@
 <map id="bvhar::McmcSsvs::updateRecords" name="bvhar::McmcSsvs::updateRecords">
 <area shape="rect" id="node1" title=" " alt="" coords="5,46,247,73"/>
-<area shape="rect" id="node2" href="$structbvhar_1_1SsvsRecords.html#accbb03c65095956dc1c89d8793a007d5" title=" " alt="" coords="327,5,477,47"/>
+<area shape="rect" id="node2" href="$structbvhar_1_1SsvsRecords.html#accbb03c65095956dc1c89d8793a007d5" title="Assign MCMC draw to the draw matrix." alt="" coords="327,5,477,47"/>
 <area shape="rect" id="node3" href="$classbvhar_1_1McmcReg.html#ac899f94435e63dc9073fa640f4866c56" title=" " alt="" coords="295,71,509,112"/>
-<area shape="rect" id="node4" href="$structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71" title=" " alt="" coords="557,71,720,112"/>
+<area shape="rect" id="node4" href="$structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71" title="Assign MCMC draw to the draw matrix." alt="" coords="557,71,720,112"/>
 </map>
