@@ -1,0 +1,11 @@
+<map id="inst/include/bvharconfig.h" name="inst/include/bvharconfig.h">
+<area shape="rect" id="node1" title="Headers including MCMC configuration structs." alt="" coords="447,5,637,32"/>
+<area shape="rect" id="node2" href="$bvharmcmc_8h.html" title="Header including MCMC algorithm." alt="" coords="447,80,637,107"/>
+<area shape="rect" id="node3" href="$bvharforecaster_8h.html" title=" " alt="" coords="216,155,431,181"/>
+<area shape="rect" id="node6" href="$mcmcreg_8h.html" title=" " alt="" coords="455,155,629,181"/>
+<area shape="rect" id="node8" href="$mcmcsv_8h.html" title=" " alt="" coords="661,155,828,181"/>
+<area shape="rect" id="node4" href="$regforecaster_8h.html" title=" " alt="" coords="5,229,204,256"/>
+<area shape="rect" id="node5" href="$svforecaster_8h.html" title=" " alt="" coords="228,229,421,256"/>
+<area shape="rect" id="node7" href="$regspillover_8h.html" title=" " alt="" coords="447,229,637,256"/>
+<area shape="rect" id="node9" href="$svspillover_8h.html" title=" " alt="" coords="661,229,844,256"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="bvhar::McmcTriangular" name="bvhar::McmcTriangular">
+<area shape="rect" id="node1" title="Corrected Triangular Algorithm." alt="" coords="5,221,176,247"/>
+<area shape="rect" id="node2" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="224,195,355,222"/>
+<area shape="rect" id="node10" href="$classbvhar_1_1McmcSv.html" title="MCMC for stochastic volatility." alt="" coords="228,246,351,273"/>
+<area shape="rect" id="node3" href="$classbvhar_1_1McmcDl.html" title="Dirichlet&#45;Laplace prior." alt="" coords="417,5,627,47"/>
+<area shape="rect" id="node4" href="$classbvhar_1_1McmcGdp.html" title="Generalized Double Pareto (GDP) prior." alt="" coords="405,71,639,98"/>
+<area shape="rect" id="node5" href="$classbvhar_1_1McmcHierminn.html" title="Hierarchical Minnesota prior." alt="" coords="439,123,605,164"/>
+<area shape="rect" id="node6" href="$classbvhar_1_1McmcHorseshoe.html" title="Horseshoe prior." alt="" coords="431,188,613,229"/>
+<area shape="rect" id="node7" href="$classbvhar_1_1McmcMinn.html" title="Minnesota prior." alt="" coords="403,254,641,281"/>
+<area shape="rect" id="node8" href="$classbvhar_1_1McmcNg.html" title="Normal&#45;Gamma Prior." alt="" coords="415,305,629,347"/>
+<area shape="rect" id="node9" href="$classbvhar_1_1McmcSsvs.html" title="Stochastic Search Variable Selection (SSVS) prior." alt="" coords="403,371,641,398"/>
+</map>

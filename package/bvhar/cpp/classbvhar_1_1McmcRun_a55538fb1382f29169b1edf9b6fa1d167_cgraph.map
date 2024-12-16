@@ -1,0 +1,6 @@
+<map id="bvhar::McmcRun::returnRecords" name="bvhar::McmcRun::returnRecords">
+<area shape="rect" id="node1" title="Do MCMC and return the MCMC records." alt="" coords="5,13,236,39"/>
+<area shape="rect" id="node2" href="$classbvhar_1_1McmcRun.html#a04637f90eae48f672651c20c5ad17293" title="Conduct MCMC." alt="" coords="284,13,436,39"/>
+<area shape="rect" id="node3" href="$classbvhar_1_1McmcRun.html#a49796cb2e5511f3b02f5ad801a433767" title=" " alt="" coords="484,13,681,39"/>
+<area shape="rect" id="node4" href="$classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="729,5,889,47"/>
+</map>
