@@ -1,0 +1,28 @@
+var bvharcommon_8h =
+[
+    [ "NULLOPT", "bvharcommon_8h.html#a488a801cd2b77d24dd1b71d8bbfcb35a", null ],
+    [ "Optional", "bvharcommon_8h.html#ad2d809b9d71f39717698ac42fe339257", null ],
+    [ "ColMajorMatrixXd", "bvharcommon_8h.html#a4b03b91421417d7ffb6d93f8bb93c49c", null ],
+    [ "VectorXb", "bvharcommon_8h.html#ad3eb5e9e7f0b156e86d591d314cc15b8", null ],
+    [ "assertion_failed", "bvharcommon_8h.html#a6ea615b0e29a9b35870fb8662f0e1291", null ],
+    [ "assertion_failed_msg", "bvharcommon_8h.html#afbd4a259de77230355c3c2de9ce6d6c9", null ],
+    [ "vectorize_eigen", "bvharcommon_8h.html#a3512b42682c4f8682c9c826dd329fd5f", null ],
+    [ "unvectorize", "bvharcommon_8h.html#aca14201bb81c1e58586c161241a8c5f8", null ],
+    [ "kronecker_eigen", "bvharcommon_8h.html#abdc31a61ba3065c182462e946894e31f", null ],
+    [ "gammafn", "bvharcommon_8h.html#a73f8b95dfa3de1b45de70b00f75884e2", null ],
+    [ "mgammafn", "bvharcommon_8h.html#a88d3aec0b7b756e81d2aaa92f003a5e4", null ],
+    [ "lgammafn", "bvharcommon_8h.html#a3882543f6e0d234ed361ba5a4ed7a832", null ],
+    [ "gamma_dens", "bvharcommon_8h.html#afa448494b312ba6cdc95f5bb83ff2d16", null ],
+    [ "lmgammafn", "bvharcommon_8h.html#ada8a56bced3e316e21dff22713f4e0f7", null ],
+    [ "invgamma_dens", "bvharcommon_8h.html#ac52b34b04087dbccc8a44136af5b89bd", null ],
+    [ "normal_rand", "bvharcommon_8h.html#a66b31690ade4567f9242191fc78901e6", null ],
+    [ "chisq_rand", "bvharcommon_8h.html#aeef20d477f396f7354dc0d55bb43f583", null ],
+    [ "gamma_rand", "bvharcommon_8h.html#ad906239c572d99b9ca7d246167001215", null ],
+    [ "ber_rand", "bvharcommon_8h.html#a734e1928d8a95844ff8c6581703c8257", null ],
+    [ "unif_rand", "bvharcommon_8h.html#a522f78102d6ddd869a144959dfeae492", null ],
+    [ "unif_rand", "bvharcommon_8h.html#aefa7a0288b72bfe3e601f430f453c39e", null ],
+    [ "beta_rand", "bvharcommon_8h.html#ad0d989957dbe96b142f395a055ad2d55", null ],
+    [ "cat_rand", "bvharcommon_8h.html#ac4a110471bb06f9ceb514a5f5bbfb34a", null ],
+    [ "quantile_lower", "bvharcommon_8h.html#a957a19c5b7c25f6b9cffe5d0c5ad3729", null ],
+    [ "quantile_upper", "bvharcommon_8h.html#a0479cceba603c6459ae325849b45ef45", null ]
+];
