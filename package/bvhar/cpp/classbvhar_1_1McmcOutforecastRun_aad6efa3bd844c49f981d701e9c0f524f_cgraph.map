@@ -1,0 +1,6 @@
+<map id="bvhar::McmcOutforecastRun::initialize" name="bvhar::McmcOutforecastRun::initialize">
+<area shape="rect" id="node1" title="Initialize every member of McmcOutforecastRun" alt="" coords="5,71,212,112"/>
+<area shape="rect" id="node2" href="$classbvhar_1_1McmcOutforecastRun.html#a8bc66001f041609253ed407dc068599e" title="Define input in each window." alt="" coords="260,5,467,47"/>
+<area shape="rect" id="node3" href="$classbvhar_1_1McmcOutforecastRun.html#a912e835e6059d0bf94a8271729526514" title="Initialize forecaster." alt="" coords="260,71,467,112"/>
+<area shape="rect" id="node4" href="$classbvhar_1_1McmcOutforecastRun.html#a349fe7badecb9cb95fb783ae4317ab62" title="Initialize CTA." alt="" coords="260,136,467,177"/>
+</map>

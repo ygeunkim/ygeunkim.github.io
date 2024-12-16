@@ -117,11 +117,11 @@ Collaboration diagram for bvhar::MinnParams&lt; BaseRegParams &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aae41907e59efc78cee7ed8f4814e806a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#aae41907e59efc78cee7ed8f4814e806a">MinnParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;reg_spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;priors, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;intercept, bool include_mean)</td></tr>
-<tr class="separator:aae41907e59efc78cee7ed8f4814e806a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf53b48d9723a69aabda7d04b99998b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#afdf53b48d9723a69aabda7d04b99998b">MinnParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;reg_spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, Rcpp::List &amp;priors, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
+<tr class="separator:afdf53b48d9723a69aabda7d04b99998b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structbvhar_1_1RegParams"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structbvhar_1_1RegParams')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structbvhar_1_1RegParams.html">bvhar::RegParams</a></td></tr>
-<tr class="memitem:ac7f21c395ea74bf1aa5c40d73d96b84e inherit pub_methods_structbvhar_1_1RegParams"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#ac7f21c395ea74bf1aa5c40d73d96b84e">RegParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;intercept, bool include_mean)</td></tr>
-<tr class="separator:ac7f21c395ea74bf1aa5c40d73d96b84e inherit pub_methods_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2716861461e8fe5395c73ba4296e7c inherit pub_methods_structbvhar_1_1RegParams"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a9d2716861461e8fe5395c73ba4296e7c">RegParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
+<tr class="separator:a9d2716861461e8fe5395c73ba4296e7c inherit pub_methods_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -179,8 +179,8 @@ struct bvhar::MinnParams&lt; BaseRegParams &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aae41907e59efc78cee7ed8f4814e806a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae41907e59efc78cee7ed8f4814e806a">&#9670;&nbsp;</a></span>MinnParams()</h2>
+<a id="afdf53b48d9723a69aabda7d04b99998b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdf53b48d9723a69aabda7d04b99998b">&#9670;&nbsp;</a></span>MinnParams()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,7 +211,7 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
           <td class="paramname"><em>reg_spec</em>, </td>
         </tr>
         <tr>
@@ -229,13 +229,13 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
           <td class="paramname"><em>priors</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
           <td class="paramname"><em>intercept</em>, </td>
         </tr>
         <tr>
@@ -259,8 +259,8 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="structbvhar_1_1MinnParams_aae41907e59efc78cee7ed8f4814e806a_cgraph.png" border="0" usemap="#astructbvhar_1_1MinnParams_aae41907e59efc78cee7ed8f4814e806a_cgraph" alt=""/></div>
-<map name="astructbvhar_1_1MinnParams_aae41907e59efc78cee7ed8f4814e806a_cgraph" id="astructbvhar_1_1MinnParams_aae41907e59efc78cee7ed8f4814e806a_cgraph">
+<div class="center"><img src="structbvhar_1_1MinnParams_afdf53b48d9723a69aabda7d04b99998b_cgraph.png" border="0" usemap="#astructbvhar_1_1MinnParams_afdf53b48d9723a69aabda7d04b99998b_cgraph" alt=""/></div>
+<map name="astructbvhar_1_1MinnParams_afdf53b48d9723a69aabda7d04b99998b_cgraph" id="astructbvhar_1_1MinnParams_afdf53b48d9723a69aabda7d04b99998b_cgraph">
 <area shape="rect" title=" " alt="" coords="5,23,160,65"/>
 <area shape="rect" href="namespacebvhar.html#a6f04749bb537a4c13614d26b4751c854" title=" " alt="" coords="208,5,372,32"/>
 <area shape="rect" href="namespacebvhar.html#a8f898c60e82830ea8a8146d681020a50" title=" " alt="" coords="208,56,372,83"/>

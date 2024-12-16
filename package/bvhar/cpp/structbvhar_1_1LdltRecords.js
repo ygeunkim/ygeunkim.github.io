@@ -7,7 +7,7 @@ var structbvhar_1_1LdltRecords =
     [ "~LdltRecords", "structbvhar_1_1LdltRecords.html#aed33d405b2f22eeed5f15fc2cfcb0fde", null ],
     [ "assignRecords", "structbvhar_1_1LdltRecords.html#a73e903517f8a64c7a7a4a01be36c8838", null ],
     [ "assignRecords", "structbvhar_1_1LdltRecords.html#a318895b3a62c7aafc9400e80035ecb50", null ],
-    [ "appendRecords", "structbvhar_1_1LdltRecords.html#a84a3d07e0fa5ca24c745fbcabcdad2c7", null ],
+    [ "appendRecords", "structbvhar_1_1LdltRecords.html#a380c49625bdf0b7a044d142622108f83", null ],
     [ "returnLdltRecords", "structbvhar_1_1LdltRecords.html#ac86e1473be45b7d47709c3eea689651e", null ],
     [ "returnSvRecords", "structbvhar_1_1LdltRecords.html#afcd0849af14531c629a934b09cca13ee", null ],
     [ "updateDiag", "structbvhar_1_1LdltRecords.html#aa8d78c46d062dfe4bf8f243a25ded737", null ],

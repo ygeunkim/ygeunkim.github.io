@@ -1,0 +1,4 @@
+<map id="bvhar::McmcTriangular::gatherRecords" name="bvhar::McmcTriangular::gatherRecords">
+<area shape="rect" id="node1" title="Gather MCMC records." alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$structbvhar_1_1SparseRecords.html#af030eeeb644d3022e097a6abd56011bd" title="Append sparse records to the MCMC record LIST" alt="" coords="224,5,387,47"/>
+</map>

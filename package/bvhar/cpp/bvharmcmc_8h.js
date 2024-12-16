@@ -12,5 +12,5 @@ var bvharmcmc_8h =
     [ "McmcGdp", "classbvhar_1_1McmcGdp.html", "classbvhar_1_1McmcGdp" ],
     [ "McmcInterface", "classbvhar_1_1McmcInterface.html", "classbvhar_1_1McmcInterface" ],
     [ "McmcRun", "classbvhar_1_1McmcRun.html", "classbvhar_1_1McmcRun" ],
-    [ "initialize_mcmc", "bvharmcmc_8h.html#a73dbc0395ec566323808ed47ab199b58", null ]
+    [ "initialize_mcmc", "bvharmcmc_8h.html#a1836a0250afc699afd891c08bc9cbd1b", null ]
 ];

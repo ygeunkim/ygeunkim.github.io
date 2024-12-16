@@ -1,0 +1,7 @@
+<map id="bvhar::McmcTriangular::returnRecords" name="bvhar::McmcTriangular::returnRecords">
+<area shape="rect" id="node1" title="Return posterior sampling records." alt="" coords="5,71,176,112"/>
+<area shape="rect" id="node2" href="$classbvhar_1_1McmcTriangular.html#ae178bc2832842acdeff16432e8227be4" title="Append each class&#39;s additional record to the result LIST" alt="" coords="224,5,395,47"/>
+<area shape="rect" id="node3" href="$classbvhar_1_1McmcTriangular.html#aa5767cc285c2d6ee84d187664f24267a" title="Gather MCMC records." alt="" coords="224,71,395,112"/>
+<area shape="rect" id="node5" href="$namespacebvhar.html#a00491952c7b60e2136dc192ccb2d23b8" title=" " alt="" coords="239,137,379,163"/>
+<area shape="rect" id="node4" href="$structbvhar_1_1SparseRecords.html#af030eeeb644d3022e097a6abd56011bd" title="Append sparse records to the MCMC record LIST" alt="" coords="443,71,605,112"/>
+</map>

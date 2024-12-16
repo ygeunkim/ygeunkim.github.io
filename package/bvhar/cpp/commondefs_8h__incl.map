@@ -1,10 +1,6 @@
 <map id="inst/include/commondefs.h" name="inst/include/commondefs.h">
-<area shape="rect" id="node1" title="Common header." alt="" coords="303,5,501,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,164,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="188,80,251,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="275,80,334,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="359,80,445,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="470,80,550,107"/>
-<area shape="rect" id="node7" title=" " alt="" coords="574,80,689,107"/>
-<area shape="rect" id="node8" title=" " alt="" coords="713,80,790,107"/>
+<area shape="rect" id="node1" title="Common header." alt="" coords="26,5,225,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,72,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="96,80,155,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="179,80,256,107"/>
 </map>

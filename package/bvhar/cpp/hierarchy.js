@@ -84,6 +84,9 @@ var hierarchy =
     [ "bvhar::OlsSpillover", "classbvhar_1_1OlsSpillover.html", null ],
     [ "bvhar::OlsVar", "classbvhar_1_1OlsVar.html", null ],
     [ "bvhar::OlsVhar", "classbvhar_1_1OlsVhar.html", null ],
+    [ "spdlog::sinks::r_sink", null, [
+      [ "bvhar::sinks::bvhar_sink< Mutex >", "classbvhar_1_1sinks_1_1bvhar__sink.html", null ]
+    ] ],
     [ "bvhar::RegInits", "structbvhar_1_1RegInits.html", [
       [ "bvhar::LdltInits", "structbvhar_1_1LdltInits.html", [
         [ "bvhar::GlInits< LdltInits >", "structbvhar_1_1GlInits.html", [

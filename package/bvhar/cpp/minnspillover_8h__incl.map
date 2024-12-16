@@ -1,43 +1,38 @@
 <map id="inst/include/minnspillover.h" name="inst/include/minnspillover.h">
-<area shape="rect" id="node1" title=" " alt="" coords="2424,5,2625,32"/>
-<area shape="rect" id="node2" href="$minnesota_8h.html" title=" " alt="" coords="2473,80,2576,107"/>
-<area shape="rect" id="node4" href="$bvharsim_8h.html" title=" " alt="" coords="2249,229,2344,256"/>
-<area shape="rect" id="node41" href="$bvharstructural_8h.html" title=" " alt="" coords="2649,80,2782,107"/>
-<area shape="rect" id="node3" href="$bvhardraw_8h.html" title=" " alt="" coords="2335,155,2437,181"/>
-<area shape="rect" id="node36" href="$bvhardesign_8h.html" title=" " alt="" coords="2613,155,2727,181"/>
-<area shape="rect" id="node37" href="$bvharprogress_8h.html" title=" " alt="" coords="2461,155,2588,181"/>
-<area shape="rect" id="node35" title=" " alt="" coords="2369,229,2411,256"/>
-<area shape="rect" id="node5" href="$bvharcommon_8h.html" title=" " alt="" coords="1495,304,1623,331"/>
-<area shape="rect" id="node33" title=" " alt="" coords="2353,304,2416,331"/>
-<area shape="rect" id="node34" title=" " alt="" coords="2267,304,2326,331"/>
-<area shape="rect" id="node6" href="$bvhareigen_8h.html" title=" " alt="" coords="2703,386,2810,413"/>
-<area shape="rect" id="node18" href="$bvharspdlog_8h.html" title=" " alt="" coords="102,386,217,413"/>
-<area shape="rect" id="node21" title=" " alt="" coords="241,379,422,420"/>
-<area shape="rect" id="node22" title=" " alt="" coords="446,379,609,420"/>
-<area shape="rect" id="node23" title=" " alt="" coords="633,379,827,420"/>
-<area shape="rect" id="node24" title=" " alt="" coords="852,379,1019,420"/>
-<area shape="rect" id="node25" title=" " alt="" coords="1043,379,1209,420"/>
-<area shape="rect" id="node26" title=" " alt="" coords="1234,379,1407,420"/>
-<area shape="rect" id="node27" title=" " alt="" coords="1432,386,1687,413"/>
-<area shape="rect" id="node28" title=" " alt="" coords="1711,379,1879,420"/>
-<area shape="rect" id="node29" title=" " alt="" coords="1904,379,2055,420"/>
-<area shape="rect" id="node30" title=" " alt="" coords="2079,379,2229,420"/>
-<area shape="rect" id="node31" title=" " alt="" coords="2253,379,2452,420"/>
-<area shape="rect" id="node32" title=" " alt="" coords="2476,386,2619,413"/>
-<area shape="rect" id="node7" href="$commondefs_8h.html" title="Common header." alt="" coords="2564,475,2683,502"/>
-<area shape="rect" id="node15" title=" " alt="" coords="2707,475,2806,502"/>
-<area shape="rect" id="node16" title=" " alt="" coords="2831,468,3043,509"/>
-<area shape="rect" id="node17" title=" " alt="" coords="3067,475,3201,502"/>
-<area shape="rect" id="node8" title=" " alt="" coords="2227,557,2385,584"/>
-<area shape="rect" id="node9" title=" " alt="" coords="2409,557,2472,584"/>
-<area shape="rect" id="node10" title=" " alt="" coords="2497,557,2555,584"/>
-<area shape="rect" id="node11" title=" " alt="" coords="2580,557,2667,584"/>
-<area shape="rect" id="node12" title=" " alt="" coords="2691,557,2771,584"/>
-<area shape="rect" id="node13" title=" " alt="" coords="2795,557,2910,584"/>
-<area shape="rect" id="node14" title=" " alt="" coords="2934,557,3011,584"/>
-<area shape="rect" id="node19" title=" " alt="" coords="177,475,301,502"/>
-<area shape="rect" id="node20" title=" " alt="" coords="5,468,153,509"/>
-<area shape="rect" id="node38" href="$bvharomp_8h.html" title=" " alt="" coords="2457,229,2557,256"/>
-<area shape="rect" id="node39" title=" " alt="" coords="2457,304,2523,331"/>
-<area shape="rect" id="node40" title=" " alt="" coords="2547,304,2611,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="147,5,349,32"/>
+<area shape="rect" id="node2" href="$minnesota_8h.html" title=" " alt="" coords="197,80,299,107"/>
+<area shape="rect" id="node4" href="$bvharsim_8h.html" title=" " alt="" coords="1321,229,1415,256"/>
+<area shape="rect" id="node36" href="$bvharstructural_8h.html" title=" " alt="" coords="16,80,149,107"/>
+<area shape="rect" id="node3" href="$bvhardraw_8h.html" title=" " alt="" coords="754,155,857,181"/>
+<area shape="rect" id="node34" href="$bvhardesign_8h.html" title=" " alt="" coords="96,155,211,181"/>
+<area shape="rect" id="node35" href="$bvharprogress_8h.html" title=" " alt="" coords="137,386,263,413"/>
+<area shape="rect" id="node33" title=" " alt="" coords="784,229,827,256"/>
+<area shape="rect" id="node5" href="$bvharcommon_8h.html" title=" " alt="" coords="1304,304,1432,331"/>
+<area shape="rect" id="node19" title=" " alt="" coords="2697,543,2759,569"/>
+<area shape="rect" id="node32" title=" " alt="" coords="1456,304,1515,331"/>
+<area shape="rect" id="node6" href="$bvhareigen_8h.html" title=" " alt="" coords="5,386,112,413"/>
+<area shape="rect" id="node12" href="$bvharspdlog_8h.html" title=" " alt="" coords="2691,386,2805,413"/>
+<area shape="rect" id="node20" title=" " alt="" coords="288,379,469,420"/>
+<area shape="rect" id="node21" title=" " alt="" coords="493,379,656,420"/>
+<area shape="rect" id="node22" title=" " alt="" coords="680,379,875,420"/>
+<area shape="rect" id="node23" title=" " alt="" coords="899,379,1066,420"/>
+<area shape="rect" id="node24" title=" " alt="" coords="1090,379,1257,420"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1281,379,1455,420"/>
+<area shape="rect" id="node26" title=" " alt="" coords="1479,386,1734,413"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1759,379,1927,420"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1951,379,2102,420"/>
+<area shape="rect" id="node29" title=" " alt="" coords="2126,379,2277,420"/>
+<area shape="rect" id="node30" title=" " alt="" coords="2301,379,2499,420"/>
+<area shape="rect" id="node31" title=" " alt="" coords="2523,386,2666,413"/>
+<area shape="rect" id="node7" href="$commondefs_8h.html" title="Common header." alt="" coords="138,468,257,495"/>
+<area shape="rect" id="node11" title=" " alt="" coords="7,468,110,495"/>
+<area shape="rect" id="node8" title=" " alt="" coords="260,543,327,569"/>
+<area shape="rect" id="node9" title=" " alt="" coords="76,543,135,569"/>
+<area shape="rect" id="node10" title=" " alt="" coords="159,543,236,569"/>
+<area shape="rect" id="node13" title=" " alt="" coords="2515,468,2683,495"/>
+<area shape="rect" id="node14" title=" " alt="" coords="2707,468,2805,495"/>
+<area shape="rect" id="node15" href="$bvharomp_8h.html" title=" " alt="" coords="2390,468,2490,495"/>
+<area shape="rect" id="node16" title=" " alt="" coords="2497,543,2559,569"/>
+<area shape="rect" id="node17" title=" " alt="" coords="2317,543,2384,569"/>
+<area shape="rect" id="node18" title=" " alt="" coords="2408,543,2472,569"/>
 </map>

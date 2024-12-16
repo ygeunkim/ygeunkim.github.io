@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['m_5fpi_1356',['M_PI',['../commondefs_8h.html#ae71449b1cc6e6250b91f539153a7a0d3',1,'commondefs.h']]]
+  ['named_1395',['NAMED',['../commondefs_8h.html#a6df7b022ffdb2532f2a0b31f12be6581',1,'commondefs.h']]],
+  ['nullopt_1396',['NULLOPT',['../bvharcommon_8h.html#a488a801cd2b77d24dd1b71d8bbfcb35a',1,'bvharcommon.h']]]
 ];

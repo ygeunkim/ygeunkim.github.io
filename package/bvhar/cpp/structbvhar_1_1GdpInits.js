@@ -1,7 +1,7 @@
 var structbvhar_1_1GdpInits =
 [
-    [ "GdpInits", "structbvhar_1_1GdpInits.html#af78f3a4df64d28dbce0298ed8c09adf3", null ],
-    [ "GdpInits", "structbvhar_1_1GdpInits.html#a67f07d930d33eafb81bcdfc00fde6a4f", null ],
+    [ "GdpInits", "structbvhar_1_1GdpInits.html#a6422044203e1ac0bf28fb80e924ad554", null ],
+    [ "GdpInits", "structbvhar_1_1GdpInits.html#aaa7e54e726f05d8a9ed9dbf81ca82d66", null ],
     [ "_init_local", "structbvhar_1_1GdpInits.html#aa47f90f3440ed5efa2c70d805c122d27", null ],
     [ "_init_group_rate", "structbvhar_1_1GdpInits.html#a061f6976f172ca2fb9a7b6d2a2b99130", null ],
     [ "_init_contem_local", "structbvhar_1_1GdpInits.html#a553f9f638eb1f37b0e6d3173cd75a796", null ],

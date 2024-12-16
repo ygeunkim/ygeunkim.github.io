@@ -3,7 +3,7 @@ var classbvhar_1_1RegSpillover =
     [ "RegSpillover", "classbvhar_1_1RegSpillover.html#a6a608a2d426f8ec6b1eaa4549053ae44", null ],
     [ "~RegSpillover", "classbvhar_1_1RegSpillover.html#a72b45c2c40c84c31435df907a3d7c548", null ],
     [ "computeSpillover", "classbvhar_1_1RegSpillover.html#af7644074b24de715af98edb9fa52a068", null ],
-    [ "returnSpilloverDensity", "classbvhar_1_1RegSpillover.html#a1c187922b494ca938c02ab9b1448bb26", null ],
+    [ "returnSpilloverDensity", "classbvhar_1_1RegSpillover.html#a27babf8ea93c11bfddc3ef985fdb6a99", null ],
     [ "returnFevd", "classbvhar_1_1RegSpillover.html#a7a1c076e354eb55c8705a6acf461d67a", null ],
     [ "returnSpillover", "classbvhar_1_1RegSpillover.html#a8a49da40947103aac982aeda9b8157cb", null ],
     [ "returnTo", "classbvhar_1_1RegSpillover.html#a8aca7db7e6105a3117448fc9224a3fe5", null ],

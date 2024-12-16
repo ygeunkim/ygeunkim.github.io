@@ -1,8 +1,5 @@
 var commondefs_8h =
 [
-    [ "Rf_gammafn", "commondefs_8h.html#a86aa4061d061f75e13a9eadc4d7db3c7", null ],
-    [ "Rf_lgammafn", "commondefs_8h.html#a330f36e7dab4d2671359ce7f8e4f6b8a", null ],
-    [ "Rf_dgamma", "commondefs_8h.html#a80355d2cc0a255b1c7e7183a2076e500", null ],
     [ "STOP", "commondefs_8h.html#a0cd35b2d922d288cab64a8938f84b25b", null ],
     [ "COUT", "commondefs_8h.html#a8c54b10b84183429bcbcbc82c92fcca9", null ],
     [ "ENDL", "commondefs_8h.html#a90dc3f3ee970394e0080300526390a84", null ],
@@ -22,8 +19,5 @@ var commondefs_8h =
     [ "IS_MATRIX", "commondefs_8h.html#a8b45228c95c4de678afd90bd6b3e98d0", null ],
     [ "CAST_VECTOR", "commondefs_8h.html#a367e52d020b865ed1ff03dae08bd8351", null ],
     [ "CAST_MATRIX", "commondefs_8h.html#af94daf4bd28cd382c5cbb43b906c26f1", null ],
-    [ "M_PI", "commondefs_8h.html#ae71449b1cc6e6250b91f539153a7a0d3", null ],
-    [ "stop_fmt", "commondefs_8h.html#adacf829db8cd5009023221773384966c", null ],
-    [ "stop_fmt", "commondefs_8h.html#a4b8304eb0b127f32e94d64a8349feb9f", null ],
     [ "make_unique", "commondefs_8h.html#afe10b4bfbaf3fc7e84112eb0b85d627a", null ]
 ];

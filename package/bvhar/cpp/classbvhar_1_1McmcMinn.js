@@ -2,7 +2,7 @@ var classbvhar_1_1McmcMinn =
 [
     [ "McmcMinn", "classbvhar_1_1McmcMinn.html#aca48127057e03226f62abb7e78254db1", null ],
     [ "~McmcMinn", "classbvhar_1_1McmcMinn.html#a9ffdd6565cc8cc0feb6482259fd5a7b8", null ],
-    [ "appendRecords", "classbvhar_1_1McmcMinn.html#ac8617edc89a61fffbf2f45d7c3a06815", null ],
+    [ "appendRecords", "classbvhar_1_1McmcMinn.html#ae4b54a40b96b2f28df00f9c91095e3fa", null ],
     [ "updateCoefPrec", "classbvhar_1_1McmcMinn.html#ab86379418849681438989c81813de13d", null ],
     [ "updatePenalty", "classbvhar_1_1McmcMinn.html#addbfbfaa0220bba54aab47b4e300ade9", null ],
     [ "updateImpactPrec", "classbvhar_1_1McmcMinn.html#a9e40ba373306118d5ff185bce8e6b255", null ],

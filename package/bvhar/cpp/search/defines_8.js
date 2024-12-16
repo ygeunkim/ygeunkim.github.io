@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['omp_5fget_5fmax_5fthreads_1359',['omp_get_max_threads',['../bvharomp_8h.html#a59e73060d1552ccda56039c7f3d25a84',1,'bvharomp.h']]],
-  ['omp_5fget_5fthread_5fnum_1360',['omp_get_thread_num',['../bvharomp_8h.html#a889ec205c635b219999c761b28cc39ba',1,'bvharomp.h']]]
+  ['spdlog_5fsink_5fmt_1398',['SPDLOG_SINK_MT',['../bvharspdlog_8h.html#aafc4a24672aaf80fba2ea0c238183b64',1,'bvharspdlog.h']]],
+  ['stop_1399',['STOP',['../commondefs_8h.html#a0cd35b2d922d288cab64a8938f84b25b',1,'commondefs.h']]],
+  ['string_1400',['STRING',['../commondefs_8h.html#a0f4d394a3ab4e09bff60f714c66dc5ee',1,'commondefs.h']]]
 ];

@@ -1,7 +1,7 @@
 var structbvhar_1_1SsvsInits =
 [
-    [ "SsvsInits", "structbvhar_1_1SsvsInits.html#ada1f5f9bafcbc7c18abfb3dd8afc94c3", null ],
-    [ "SsvsInits", "structbvhar_1_1SsvsInits.html#af7d687c2838ea2bb22086e69b61ef228", null ],
+    [ "SsvsInits", "structbvhar_1_1SsvsInits.html#a9fe9ea5541e1c5f954616a473e1b131d", null ],
+    [ "SsvsInits", "structbvhar_1_1SsvsInits.html#a2663e90e88876dfffb0472366429a3d7", null ],
     [ "_coef_dummy", "structbvhar_1_1SsvsInits.html#a67b871c088932501d4cdc2a1f4e5e209", null ],
     [ "_coef_weight", "structbvhar_1_1SsvsInits.html#a888f317f56ed9577906bc7fcdcda2624", null ],
     [ "_contem_weight", "structbvhar_1_1SsvsInits.html#abb2f7bde89030ac643f5f74ce1a028d9", null ],

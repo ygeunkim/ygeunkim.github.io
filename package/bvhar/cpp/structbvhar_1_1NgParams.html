@@ -117,11 +117,11 @@ Collaboration diagram for bvhar::NgParams&lt; BaseRegParams &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4db7ae4768b376dedd1c0115582ae4a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1NgParams.html#a4db7ae4768b376dedd1c0115582ae4a0">NgParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;reg_spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::VectorXi &amp;grp_id, const Eigen::MatrixXi &amp;grp_mat, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;ng_spec, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;intercept, bool include_mean)</td></tr>
-<tr class="separator:a4db7ae4768b376dedd1c0115582ae4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21bf3053604ea2d22516d8bfd2011f71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1NgParams.html#a21bf3053604ea2d22516d8bfd2011f71">NgParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;reg_spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::VectorXi &amp;grp_id, const Eigen::MatrixXi &amp;grp_mat, Rcpp::List &amp;ng_spec, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
+<tr class="separator:a21bf3053604ea2d22516d8bfd2011f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structbvhar_1_1RegParams"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structbvhar_1_1RegParams')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structbvhar_1_1RegParams.html">bvhar::RegParams</a></td></tr>
-<tr class="memitem:ac7f21c395ea74bf1aa5c40d73d96b84e inherit pub_methods_structbvhar_1_1RegParams"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#ac7f21c395ea74bf1aa5c40d73d96b84e">RegParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;intercept, bool include_mean)</td></tr>
-<tr class="separator:ac7f21c395ea74bf1aa5c40d73d96b84e inherit pub_methods_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2716861461e8fe5395c73ba4296e7c inherit pub_methods_structbvhar_1_1RegParams"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a9d2716861461e8fe5395c73ba4296e7c">RegParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
+<tr class="separator:a9d2716861461e8fe5395c73ba4296e7c inherit pub_methods_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -191,8 +191,8 @@ struct bvhar::NgParams&lt; BaseRegParams &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4db7ae4768b376dedd1c0115582ae4a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4db7ae4768b376dedd1c0115582ae4a0">&#9670;&nbsp;</a></span>NgParams()</h2>
+<a id="a21bf3053604ea2d22516d8bfd2011f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21bf3053604ea2d22516d8bfd2011f71">&#9670;&nbsp;</a></span>NgParams()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,7 +223,7 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
           <td class="paramname"><em>reg_spec</em>, </td>
         </tr>
         <tr>
@@ -253,13 +253,13 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
           <td class="paramname"><em>ng_spec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
           <td class="paramname"><em>intercept</em>, </td>
         </tr>
         <tr>

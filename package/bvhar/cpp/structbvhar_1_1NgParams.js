@@ -1,6 +1,6 @@
 var structbvhar_1_1NgParams =
 [
-    [ "NgParams", "structbvhar_1_1NgParams.html#a4db7ae4768b376dedd1c0115582ae4a0", null ],
+    [ "NgParams", "structbvhar_1_1NgParams.html#a21bf3053604ea2d22516d8bfd2011f71", null ],
     [ "_grp_id", "structbvhar_1_1NgParams.html#a2b94e352a44c685fcaa722c712000131", null ],
     [ "_grp_mat", "structbvhar_1_1NgParams.html#a124296f3241a76049cfe4d5c60802ad3", null ],
     [ "_mh_sd", "structbvhar_1_1NgParams.html#a711ac8f746dd1a62e849a697fa1019d7", null ],

@@ -117,11 +117,11 @@ Collaboration diagram for bvhar::SvParams:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a36aa9d03f7cc86b0a10d04e3d62d6804"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SvParams.html#a36aa9d03f7cc86b0a10d04e3d62d6804">SvParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;intercept, bool include_mean)</td></tr>
-<tr class="separator:a36aa9d03f7cc86b0a10d04e3d62d6804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ca5df05bc5279f5eff0066ea754a6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SvParams.html#a75ca5df05bc5279f5eff0066ea754a6f">SvParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
+<tr class="separator:a75ca5df05bc5279f5eff0066ea754a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structbvhar_1_1RegParams"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structbvhar_1_1RegParams')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structbvhar_1_1RegParams.html">bvhar::RegParams</a></td></tr>
-<tr class="memitem:ac7f21c395ea74bf1aa5c40d73d96b84e inherit pub_methods_structbvhar_1_1RegParams"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#ac7f21c395ea74bf1aa5c40d73d96b84e">RegParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;intercept, bool include_mean)</td></tr>
-<tr class="separator:ac7f21c395ea74bf1aa5c40d73d96b84e inherit pub_methods_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2716861461e8fe5395c73ba4296e7c inherit pub_methods_structbvhar_1_1RegParams"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a9d2716861461e8fe5395c73ba4296e7c">RegParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
+<tr class="separator:a9d2716861461e8fe5395c73ba4296e7c inherit pub_methods_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -168,8 +168,8 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Hyperparameters for <code><a class="el" href="classbvhar_1_1McmcSv.html" title="MCMC for stochastic volatility.">McmcSv</a></code> </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a36aa9d03f7cc86b0a10d04e3d62d6804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36aa9d03f7cc86b0a10d04e3d62d6804">&#9670;&nbsp;</a></span>SvParams()</h2>
+<a id="a75ca5df05bc5279f5eff0066ea754a6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ca5df05bc5279f5eff0066ea754a6f">&#9670;&nbsp;</a></span>SvParams()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +198,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
           <td class="paramname"><em>spec</em>, </td>
         </tr>
         <tr>
@@ -216,7 +216,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;&#160;</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
           <td class="paramname"><em>intercept</em>, </td>
         </tr>
         <tr>

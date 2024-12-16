@@ -1,7 +1,7 @@
 var structbvhar_1_1GlInits =
 [
-    [ "GlInits", "structbvhar_1_1GlInits.html#a24749e797a5dbd8b37e248548b6e28d7", null ],
-    [ "GlInits", "structbvhar_1_1GlInits.html#a4a462b9397edcb50078010ac4df4f882", null ],
+    [ "GlInits", "structbvhar_1_1GlInits.html#a56349a0a6f1d18bc5e7fe6ed2f4703fa", null ],
+    [ "GlInits", "structbvhar_1_1GlInits.html#a0e69f8dbefa9b2ea828b4227ba26a229", null ],
     [ "_init_local", "structbvhar_1_1GlInits.html#a1ce711de2b45885c10db688f1330d909", null ],
     [ "_init_global", "structbvhar_1_1GlInits.html#a7ea2d68be55feeab09300c0e2ec0d22c", null ],
     [ "_init_contem_local", "structbvhar_1_1GlInits.html#a024563d2acbd11699a5956b37193d13e", null ],

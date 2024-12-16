@@ -5,7 +5,7 @@ var classbvhar_1_1MultiOls =
     [ "estimateCoef", "classbvhar_1_1MultiOls.html#ab21bf93e78fc5b2ba66e16739f0ae0c0", null ],
     [ "fitObs", "classbvhar_1_1MultiOls.html#a6b37846a545f9728473df289d2468872", null ],
     [ "estimateCov", "classbvhar_1_1MultiOls.html#a822f9929bc4e7d9e7e6e199f40153172", null ],
-    [ "returnOlsRes", "classbvhar_1_1MultiOls.html#a43e0b28e2929bc8de30599046e3d138d", null ],
+    [ "returnOlsRes", "classbvhar_1_1MultiOls.html#a59ea5a7ed76fbd16f64b9630116c647f", null ],
     [ "returnOlsFit", "classbvhar_1_1MultiOls.html#a3d90b3ae48487e8a84789d9195c46c91", null ],
     [ "returnStructuralFit", "classbvhar_1_1MultiOls.html#ac8001b4e1c9c1dc9b558b3df1117a8c6", null ],
     [ "returnStructuralFit", "classbvhar_1_1MultiOls.html#a72c53eb5509b2dd8226f078764663dfd", null ],

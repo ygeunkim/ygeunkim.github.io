@@ -1,6 +1,6 @@
 var structbvhar_1_1DlParams =
 [
-    [ "DlParams", "structbvhar_1_1DlParams.html#a50e5f242239fd367927d800337b31b1f", null ],
+    [ "DlParams", "structbvhar_1_1DlParams.html#a20a7a4e3d0682a5d5c7e379a77738966", null ],
     [ "_grp_id", "structbvhar_1_1DlParams.html#a9c25af253a4efe631048bb187bdcaed5", null ],
     [ "_grp_mat", "structbvhar_1_1DlParams.html#a1989ff646428e0c9f7cede68d8011649", null ],
     [ "_grid_size", "structbvhar_1_1DlParams.html#aafd54bf68501875e9d8c82b0c541f356", null ],

@@ -1,6 +1,9 @@
 var annotated_dup =
 [
     [ "bvhar", "namespacebvhar.html", [
+      [ "sinks", "namespacebvhar_1_1sinks.html", [
+        [ "bvhar_sink", "classbvhar_1_1sinks_1_1bvhar__sink.html", "classbvhar_1_1sinks_1_1bvhar__sink" ]
+      ] ],
       [ "MinnParams", "structbvhar_1_1MinnParams.html", "structbvhar_1_1MinnParams" ],
       [ "HierminnParams", "structbvhar_1_1HierminnParams.html", "structbvhar_1_1HierminnParams" ],
       [ "SsvsParams", "structbvhar_1_1SsvsParams.html", "structbvhar_1_1SsvsParams" ],

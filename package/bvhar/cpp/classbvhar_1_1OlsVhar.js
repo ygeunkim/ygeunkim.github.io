@@ -2,7 +2,7 @@ var classbvhar_1_1OlsVhar =
 [
     [ "OlsVhar", "classbvhar_1_1OlsVhar.html#acf9908914f9646d4d0fa5e845a9b7ed9", null ],
     [ "~OlsVhar", "classbvhar_1_1OlsVhar.html#aa2f74feae1f5419d07c1c5b9a97ead2b", null ],
-    [ "returnOlsRes", "classbvhar_1_1OlsVhar.html#a1f8e53613f37fc466d60fc82c7c02677", null ],
+    [ "returnOlsRes", "classbvhar_1_1OlsVhar.html#a2f393ac235f5319e40658e782a53402d", null ],
     [ "returnOlsFit", "classbvhar_1_1OlsVhar.html#aba9813148d5446b87be0853915a086f5", null ],
     [ "returnStructuralFit", "classbvhar_1_1OlsVhar.html#a0e38a96f3c680d2e06b80d13a7ae6347", null ],
     [ "week", "classbvhar_1_1OlsVhar.html#a5706f9b7fddf25483602ebffc7a4da24", null ],

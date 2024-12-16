@@ -94,26 +94,18 @@ $(document).ready(function(){initNavTree('commondefs_8h.html',''); initResizable
 
 <p>Common header.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;pybind11/pybind11.h&gt;</code><br />
-<code>#include &lt;cmath&gt;</code><br />
+<div class="textblock"><code>#include &lt;Rcpp.h&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;stdexcept&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;pybind11/stl.h&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for commondefs.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="commondefs_8h__incl.png" border="0" usemap="#ainst_2include_2commondefs_8h" alt=""/></div>
 <map name="ainst_2include_2commondefs_8h" id="ainst_2include_2commondefs_8h">
-<area shape="rect" title="Common header." alt="" coords="303,5,501,32"/>
-<area shape="rect" title=" " alt="" coords="5,80,164,107"/>
-<area shape="rect" title=" " alt="" coords="188,80,251,107"/>
-<area shape="rect" title=" " alt="" coords="275,80,334,107"/>
-<area shape="rect" title=" " alt="" coords="359,80,445,107"/>
-<area shape="rect" title=" " alt="" coords="470,80,550,107"/>
-<area shape="rect" title=" " alt="" coords="574,80,689,107"/>
-<area shape="rect" title=" " alt="" coords="713,80,790,107"/>
+<area shape="rect" title="Common header." alt="" coords="26,5,225,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,72,107"/>
+<area shape="rect" title=" " alt="" coords="96,80,155,107"/>
+<area shape="rect" title=" " alt="" coords="179,80,256,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -156,60 +148,47 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a86aa4061d061f75e13a9eadc4d7db3c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a86aa4061d061f75e13a9eadc4d7db3c7">Rf_gammafn</a>(x)&#160;&#160;&#160;std::tgamma(x)</td></tr>
-<tr class="separator:a86aa4061d061f75e13a9eadc4d7db3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a330f36e7dab4d2671359ce7f8e4f6b8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a330f36e7dab4d2671359ce7f8e4f6b8a">Rf_lgammafn</a>(x)&#160;&#160;&#160;std::lgamma(x)</td></tr>
-<tr class="separator:a330f36e7dab4d2671359ce7f8e4f6b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80355d2cc0a255b1c7e7183a2076e500"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a80355d2cc0a255b1c7e7183a2076e500">Rf_dgamma</a>(x,  shp,  scl,  lg)&#160;&#160;&#160;(lg ? log((shp - 1) * log(x) - x / scl - std::lgamma(shp) - shp * log(scl)) : exp((shp - 1) * log(x) - x / scl - std::lgamma(shp) - shp * log(scl)))</td></tr>
-<tr class="separator:a80355d2cc0a255b1c7e7183a2076e500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cd35b2d922d288cab64a8938f84b25b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a0cd35b2d922d288cab64a8938f84b25b">STOP</a>(...)&#160;&#160;&#160;<a class="el" href="commondefs_8h.html#a4b8304eb0b127f32e94d64a8349feb9f">stop_fmt</a>(__VA_ARGS__)</td></tr>
+<tr class="memitem:a0cd35b2d922d288cab64a8938f84b25b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a0cd35b2d922d288cab64a8938f84b25b">STOP</a>(...)&#160;&#160;&#160;Rcpp::stop(__VA_ARGS__)</td></tr>
 <tr class="separator:a0cd35b2d922d288cab64a8938f84b25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c54b10b84183429bcbcbc82c92fcca9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a8c54b10b84183429bcbcbc82c92fcca9">COUT</a>&#160;&#160;&#160;std::cout</td></tr>
+<tr class="memitem:a8c54b10b84183429bcbcbc82c92fcca9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a8c54b10b84183429bcbcbc82c92fcca9">COUT</a>&#160;&#160;&#160;Rcpp::Rcout</td></tr>
 <tr class="separator:a8c54b10b84183429bcbcbc82c92fcca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90dc3f3ee970394e0080300526390a84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a90dc3f3ee970394e0080300526390a84">ENDL</a>&#160;&#160;&#160;std::endl</td></tr>
+<tr class="memitem:a90dc3f3ee970394e0080300526390a84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a90dc3f3ee970394e0080300526390a84">ENDL</a>&#160;&#160;&#160;&quot;\n&quot;</td></tr>
 <tr class="separator:a90dc3f3ee970394e0080300526390a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a263ccab0461d1643cb62c6625b788a7f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a263ccab0461d1643cb62c6625b788a7f">FLUSH</a>&#160;&#160;&#160;std::cout.flush()</td></tr>
+<tr class="memitem:a263ccab0461d1643cb62c6625b788a7f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a263ccab0461d1643cb62c6625b788a7f">FLUSH</a>&#160;&#160;&#160;Rcpp::Rcout.flush()</td></tr>
 <tr class="separator:a263ccab0461d1643cb62c6625b788a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f4d394a3ab4e09bff60f714c66dc5ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a>&#160;&#160;&#160;py::str</td></tr>
+<tr class="memitem:a0f4d394a3ab4e09bff60f714c66dc5ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a>&#160;&#160;&#160;std::string</td></tr>
 <tr class="separator:a0f4d394a3ab4e09bff60f714c66dc5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed0a8f83088c41d721066cd5b3b9a00c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a>&#160;&#160;&#160;py::dict</td></tr>
+<tr class="memitem:aed0a8f83088c41d721066cd5b3b9a00c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a>&#160;&#160;&#160;Rcpp::List</td></tr>
 <tr class="separator:aed0a8f83088c41d721066cd5b3b9a00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224f1f022bcfed2cc94435fc8cf8130b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a224f1f022bcfed2cc94435fc8cf8130b">LIST_OF_LIST</a>&#160;&#160;&#160;std::vector&lt;py::dict&gt;</td></tr>
+<tr class="memitem:a224f1f022bcfed2cc94435fc8cf8130b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a224f1f022bcfed2cc94435fc8cf8130b">LIST_OF_LIST</a>&#160;&#160;&#160;Rcpp::List</td></tr>
 <tr class="separator:a224f1f022bcfed2cc94435fc8cf8130b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c38b90bde6b29fa821f2c5ce9454bab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a2c38b90bde6b29fa821f2c5ce9454bab">PY_LIST</a>&#160;&#160;&#160;py::list</td></tr>
+<tr class="memitem:a2c38b90bde6b29fa821f2c5ce9454bab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a2c38b90bde6b29fa821f2c5ce9454bab">PY_LIST</a>&#160;&#160;&#160;Rcpp::List</td></tr>
 <tr class="separator:a2c38b90bde6b29fa821f2c5ce9454bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0aade5ead77b80032af2a15aaa43c7ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a0aade5ead77b80032af2a15aaa43c7ab">WRAP</a>(value)&#160;&#160;&#160;value</td></tr>
+<tr class="memitem:a0aade5ead77b80032af2a15aaa43c7ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a0aade5ead77b80032af2a15aaa43c7ab">WRAP</a>(value)&#160;&#160;&#160;Rcpp::wrap(value)</td></tr>
 <tr class="separator:a0aade5ead77b80032af2a15aaa43c7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b6956a3b15c98d5016a0cfc601b47bd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">CAST</a>&#160;&#160;&#160;py::cast</td></tr>
+<tr class="memitem:a8b6956a3b15c98d5016a0cfc601b47bd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">CAST</a>&#160;&#160;&#160;Rcpp::as</td></tr>
 <tr class="separator:a8b6956a3b15c98d5016a0cfc601b47bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3bb8a8eb9c7d8cf9b00154a59ccf7ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#ad3bb8a8eb9c7d8cf9b00154a59ccf7ac">CAST_DOUBLE</a>(value)&#160;&#160;&#160;py::cast&lt;double&gt;(value)</td></tr>
+<tr class="memitem:ad3bb8a8eb9c7d8cf9b00154a59ccf7ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#ad3bb8a8eb9c7d8cf9b00154a59ccf7ac">CAST_DOUBLE</a>(value)&#160;&#160;&#160;value</td></tr>
 <tr class="separator:ad3bb8a8eb9c7d8cf9b00154a59ccf7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5582ac6edc43337a2073691b1703b89d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a5582ac6edc43337a2073691b1703b89d">CAST_INT</a>(value)&#160;&#160;&#160;py::int_(value)</td></tr>
+<tr class="memitem:a5582ac6edc43337a2073691b1703b89d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a5582ac6edc43337a2073691b1703b89d">CAST_INT</a>(value)&#160;&#160;&#160;value</td></tr>
 <tr class="separator:a5582ac6edc43337a2073691b1703b89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33bceaf7cf3832becbb90414b892ada0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a33bceaf7cf3832becbb90414b892ada0">CONTAINS</a>(container,  key)&#160;&#160;&#160;container.contains(key)</td></tr>
+<tr class="memitem:a33bceaf7cf3832becbb90414b892ada0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a33bceaf7cf3832becbb90414b892ada0">CONTAINS</a>(container,  key)&#160;&#160;&#160;container.containsElementNamed(key)</td></tr>
 <tr class="separator:a33bceaf7cf3832becbb90414b892ada0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eaf7b50cdcc71a7812e26908299f8aa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a0eaf7b50cdcc71a7812e26908299f8aa">CREATE_LIST</a>(...)&#160;&#160;&#160;py::dict(__VA_ARGS__)</td></tr>
+<tr class="memitem:a0eaf7b50cdcc71a7812e26908299f8aa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a0eaf7b50cdcc71a7812e26908299f8aa">CREATE_LIST</a>(...)&#160;&#160;&#160;Rcpp::List::create(__VA_ARGS__)</td></tr>
 <tr class="separator:a0eaf7b50cdcc71a7812e26908299f8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6df7b022ffdb2532f2a0b31f12be6581"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a6df7b022ffdb2532f2a0b31f12be6581">NAMED</a>&#160;&#160;&#160;py::arg</td></tr>
+<tr class="memitem:a6df7b022ffdb2532f2a0b31f12be6581"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a6df7b022ffdb2532f2a0b31f12be6581">NAMED</a>&#160;&#160;&#160;Rcpp::Named</td></tr>
 <tr class="separator:a6df7b022ffdb2532f2a0b31f12be6581"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46d0620be2aa4c6baaed9d4be18fd541"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a46d0620be2aa4c6baaed9d4be18fd541">ACCESS_LIST</a>(iterator,  list)&#160;&#160;&#160;list[iterator.first]</td></tr>
+<tr class="memitem:a46d0620be2aa4c6baaed9d4be18fd541"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a46d0620be2aa4c6baaed9d4be18fd541">ACCESS_LIST</a>(iterator,  list)&#160;&#160;&#160;iterator</td></tr>
 <tr class="separator:a46d0620be2aa4c6baaed9d4be18fd541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b45228c95c4de678afd90bd6b3e98d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a8b45228c95c4de678afd90bd6b3e98d0">IS_MATRIX</a>(element)&#160;&#160;&#160;py::detail::type_caster&lt;Eigen::MatrixXd&gt;().load(element, false)</td></tr>
+<tr class="memitem:a8b45228c95c4de678afd90bd6b3e98d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a8b45228c95c4de678afd90bd6b3e98d0">IS_MATRIX</a>(element)&#160;&#160;&#160;Rcpp::is&lt;Rcpp::NumericMatrix&gt;(element)</td></tr>
 <tr class="separator:a8b45228c95c4de678afd90bd6b3e98d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a367e52d020b865ed1ff03dae08bd8351"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a367e52d020b865ed1ff03dae08bd8351">CAST_VECTOR</a>(element)&#160;&#160;&#160;py::cast&lt;Eigen::VectorXd&gt;(element)</td></tr>
+<tr class="memitem:a367e52d020b865ed1ff03dae08bd8351"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a367e52d020b865ed1ff03dae08bd8351">CAST_VECTOR</a>(element)&#160;&#160;&#160;element</td></tr>
 <tr class="separator:a367e52d020b865ed1ff03dae08bd8351"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af94daf4bd28cd382c5cbb43b906c26f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#af94daf4bd28cd382c5cbb43b906c26f1">CAST_MATRIX</a>(element)&#160;&#160;&#160;py::cast&lt;Eigen::MatrixXd&gt;(element)</td></tr>
+<tr class="memitem:af94daf4bd28cd382c5cbb43b906c26f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#af94daf4bd28cd382c5cbb43b906c26f1">CAST_MATRIX</a>(element)&#160;&#160;&#160;element</td></tr>
 <tr class="separator:af94daf4bd28cd382c5cbb43b906c26f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae71449b1cc6e6250b91f539153a7a0d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">M_PI</a>&#160;&#160;&#160;3.141592653589793238462643383280</td></tr>
-<tr class="separator:ae71449b1cc6e6250b91f539153a7a0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adacf829db8cd5009023221773384966c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#adacf829db8cd5009023221773384966c">stop_fmt</a> (const std::string &amp;msg)</td></tr>
-<tr class="separator:adacf829db8cd5009023221773384966c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b8304eb0b127f32e94d64a8349feb9f"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:a4b8304eb0b127f32e94d64a8349feb9f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a4b8304eb0b127f32e94d64a8349feb9f">stop_fmt</a> (const std::string &amp;msg, Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a4b8304eb0b127f32e94d64a8349feb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe10b4bfbaf3fc7e84112eb0b85d627a"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
 <tr class="memitem:afe10b4bfbaf3fc7e84112eb0b85d627a"><td class="memTemplItemLeft" align="right" valign="top">unique_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacestd.html#afe10b4bfbaf3fc7e84112eb0b85d627a">std::make_unique</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:afe10b4bfbaf3fc7e84112eb0b85d627a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,82 +197,6 @@ Functions</h2></td></tr>
 <div class="textblock"><p>Common header. </p>
 <dl class="section author"><dt>Author</dt><dd>Young Geun Kim (<a href="#" onclick="location.href='mai'+'lto:'+'yge'+'un'+'kim'+'st'+'at@'+'gm'+'ail'+'.c'+'om'; return false;">ygeun<span style="display: none;">.nosp@m.</span>kims<span style="display: none;">.nosp@m.</span>tat@g<span style="display: none;">.nosp@m.</span>mail<span style="display: none;">.nosp@m.</span>.com</a>) </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a86aa4061d061f75e13a9eadc4d7db3c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86aa4061d061f75e13a9eadc4d7db3c7">&#9670;&nbsp;</a></span>Rf_gammafn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define Rf_gammafn</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;std::tgamma(x)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a330f36e7dab4d2671359ce7f8e4f6b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a330f36e7dab4d2671359ce7f8e4f6b8a">&#9670;&nbsp;</a></span>Rf_lgammafn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define Rf_lgammafn</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;std::lgamma(x)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a80355d2cc0a255b1c7e7183a2076e500"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80355d2cc0a255b1c7e7183a2076e500">&#9670;&nbsp;</a></span>Rf_dgamma</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define Rf_dgamma</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">shp, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">scl, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">lg&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(lg ? log((shp - 1) * log(x) - x / scl - std::lgamma(shp) - shp * log(scl)) : exp((shp - 1) * log(x) - x / scl - std::lgamma(shp) - shp * log(scl)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a0cd35b2d922d288cab64a8938f84b25b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0cd35b2d922d288cab64a8938f84b25b">&#9670;&nbsp;</a></span>STOP</h2>
 
@@ -305,7 +208,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="commondefs_8h.html#a4b8304eb0b127f32e94d64a8349feb9f">stop_fmt</a>(__VA_ARGS__)</td>
+          <td>&#160;&#160;&#160;Rcpp::stop(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -319,7 +222,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COUT&#160;&#160;&#160;std::cout</td>
+          <td class="memname">#define COUT&#160;&#160;&#160;Rcpp::Rcout</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -333,7 +236,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ENDL&#160;&#160;&#160;std::endl</td>
+          <td class="memname">#define ENDL&#160;&#160;&#160;&quot;\n&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -347,7 +250,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FLUSH&#160;&#160;&#160;std::cout.flush()</td>
+          <td class="memname">#define FLUSH&#160;&#160;&#160;Rcpp::Rcout.flush()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -361,7 +264,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STRING&#160;&#160;&#160;py::str</td>
+          <td class="memname">#define STRING&#160;&#160;&#160;std::string</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -375,7 +278,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LIST&#160;&#160;&#160;py::dict</td>
+          <td class="memname">#define LIST&#160;&#160;&#160;Rcpp::List</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -389,7 +292,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LIST_OF_LIST&#160;&#160;&#160;std::vector&lt;py::dict&gt;</td>
+          <td class="memname">#define LIST_OF_LIST&#160;&#160;&#160;Rcpp::List</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -403,7 +306,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PY_LIST&#160;&#160;&#160;py::list</td>
+          <td class="memname">#define PY_LIST&#160;&#160;&#160;Rcpp::List</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -421,7 +324,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">value</td><td>)</td>
-          <td>&#160;&#160;&#160;value</td>
+          <td>&#160;&#160;&#160;Rcpp::wrap(value)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -435,7 +338,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CAST&#160;&#160;&#160;py::cast</td>
+          <td class="memname">#define CAST&#160;&#160;&#160;Rcpp::as</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -453,7 +356,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">value</td><td>)</td>
-          <td>&#160;&#160;&#160;py::cast&lt;double&gt;(value)</td>
+          <td>&#160;&#160;&#160;value</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -471,7 +374,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">value</td><td>)</td>
-          <td>&#160;&#160;&#160;py::int_(value)</td>
+          <td>&#160;&#160;&#160;value</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -499,7 +402,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;container.contains(key)</td>
+          <td></td><td>&#160;&#160;&#160;container.containsElementNamed(key)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -517,7 +420,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;py::dict(__VA_ARGS__)</td>
+          <td>&#160;&#160;&#160;Rcpp::List::create(__VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -531,7 +434,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define NAMED&#160;&#160;&#160;py::arg</td>
+          <td class="memname">#define NAMED&#160;&#160;&#160;Rcpp::Named</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -559,7 +462,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;list[iterator.first]</td>
+          <td></td><td>&#160;&#160;&#160;iterator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -577,7 +480,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">element</td><td>)</td>
-          <td>&#160;&#160;&#160;py::detail::type_caster&lt;Eigen::MatrixXd&gt;().load(element, false)</td>
+          <td>&#160;&#160;&#160;Rcpp::is&lt;Rcpp::NumericMatrix&gt;(element)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -595,7 +498,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">element</td><td>)</td>
-          <td>&#160;&#160;&#160;py::cast&lt;Eigen::VectorXd&gt;(element)</td>
+          <td>&#160;&#160;&#160;element</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -613,70 +516,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">element</td><td>)</td>
-          <td>&#160;&#160;&#160;py::cast&lt;Eigen::MatrixXd&gt;(element)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae71449b1cc6e6250b91f539153a7a0d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae71449b1cc6e6250b91f539153a7a0d3">&#9670;&nbsp;</a></span>M_PI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define M_PI&#160;&#160;&#160;3.141592653589793238462643383280</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="adacf829db8cd5009023221773384966c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adacf829db8cd5009023221773384966c">&#9670;&nbsp;</a></span>stop_fmt() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stop_fmt </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>msg</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4b8304eb0b127f32e94d64a8349feb9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b8304eb0b127f32e94d64a8349feb9f">&#9670;&nbsp;</a></span>stop_fmt() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void stop_fmt </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>msg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td>&#160;&#160;&#160;element</td>
         </tr>
       </table>
 </div><div class="memdoc">

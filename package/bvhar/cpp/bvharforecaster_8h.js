@@ -13,7 +13,7 @@ var bvharforecaster_8h =
     [ "McmcExpandforecastRun", "classbvhar_1_1McmcExpandforecastRun.html", "classbvhar_1_1McmcExpandforecastRun" ],
     [ "McmcVarforecastRun", "classbvhar_1_1McmcVarforecastRun.html", "classbvhar_1_1McmcVarforecastRun" ],
     [ "McmcVharforecastRun", "classbvhar_1_1McmcVharforecastRun.html", "classbvhar_1_1McmcVharforecastRun" ],
-    [ "initialize_record", "bvharforecaster_8h.html#ab9ab442fc40cd543ea81ea2c6d551e76", null ],
-    [ "initialize_record", "bvharforecaster_8h.html#aff7a2ef9804cf27e447d73f50b02ad5d", null ],
-    [ "initialize_forecaster", "bvharforecaster_8h.html#a9605bac2115848afcdb70821c1cab7ab", null ]
+    [ "initialize_record", "bvharforecaster_8h.html#a1c28510c1a60c0d61f1fc7ccadd03fd9", null ],
+    [ "initialize_record", "bvharforecaster_8h.html#a6c0609624e6286035939a41a47027e68", null ],
+    [ "initialize_forecaster", "bvharforecaster_8h.html#afa8a37d2ccc47235251b0cb0254839d6", null ]
 ];
