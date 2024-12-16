@@ -1,16 +1,16 @@
 <map id="bvhar::McmcTriangular::doPosteriorDraws" name="bvhar::McmcTriangular::doPosteriorDraws">
 <area shape="rect" id="node1" title="MCMC posterior sampling step." alt="" coords="5,332,176,373"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1McmcTriangular.html#a506a54703ab01ec4d3e845400b709b5a" title=" " alt="" coords="224,5,395,47"/>
-<area shape="rect" id="node3" href="$classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884" title=" " alt="" coords="224,71,395,112"/>
-<area shape="rect" id="node5" href="$classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0" title=" " alt="" coords="224,136,395,177"/>
-<area shape="rect" id="node10" href="$classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd" title=" " alt="" coords="224,201,395,243"/>
-<area shape="rect" id="node11" href="$classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4" title=" " alt="" coords="224,267,395,308"/>
-<area shape="rect" id="node13" href="$classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c" title=" " alt="" coords="224,332,395,373"/>
-<area shape="rect" id="node14" href="$classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295" title=" " alt="" coords="224,397,395,439"/>
-<area shape="rect" id="node15" href="$classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708" title=" " alt="" coords="224,463,395,504"/>
-<area shape="rect" id="node16" href="$classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d" title=" " alt="" coords="224,528,395,569"/>
-<area shape="rect" id="node17" href="$classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b" title=" " alt="" coords="224,593,395,635"/>
-<area shape="rect" id="node18" href="$classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3" title=" " alt="" coords="224,659,395,700"/>
+<area shape="rect" id="node2" href="$classbvhar_1_1McmcTriangular.html#a506a54703ab01ec4d3e845400b709b5a" title="Increment the MCMC step." alt="" coords="224,5,395,47"/>
+<area shape="rect" id="node3" href="$classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884" title="Compute L." alt="" coords="224,71,395,112"/>
+<area shape="rect" id="node5" href="$classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0" title="Draw coefficients." alt="" coords="224,136,395,177"/>
+<area shape="rect" id="node10" href="$classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd" title="Draw precision of coefficient based on each shrinkage priors." alt="" coords="224,201,395,243"/>
+<area shape="rect" id="node11" href="$classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4" title="Draw contemporaneous coefficients." alt="" coords="224,267,395,308"/>
+<area shape="rect" id="node13" href="$classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="224,332,395,373"/>
+<area shape="rect" id="node14" href="$classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295" title="Compute residual matrix for orthogonalization." alt="" coords="224,397,395,439"/>
+<area shape="rect" id="node15" href="$classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708" title="Update SAVS penalty." alt="" coords="224,463,395,504"/>
+<area shape="rect" id="node16" href="$classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d" title="Save MCMC records." alt="" coords="224,528,395,569"/>
+<area shape="rect" id="node17" href="$classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b" title="Draw state vector." alt="" coords="224,593,395,635"/>
+<area shape="rect" id="node18" href="$classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3" title="Compute D." alt="" coords="224,659,395,700"/>
 <area shape="rect" id="node4" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="445,75,615,102"/>
 <area shape="rect" id="node6" href="$namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b" title=" " alt="" coords="463,227,597,254"/>
 <area shape="rect" id="node8" href="$namespacebvhar.html#a2660b13d27969ebb81758734cbdd4fc9" title=" " alt="" coords="448,126,612,153"/>

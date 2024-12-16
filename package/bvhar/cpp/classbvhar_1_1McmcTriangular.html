@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('classbvhar_1_1McmcTriangular.html','')
 </div><!--header-->
 <div class="contents">
 
-<p>Corrected Triangular Algorithm.  
+<p>Corrected Triangular Algorithm (CTA)  
  <a href="classbvhar_1_1McmcTriangular.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="bvharmcmc_8h_source.html">bvharmcmc.h</a>&gt;</code></p>
@@ -102,7 +102,7 @@ Inheritance diagram for bvhar::McmcTriangular:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcTriangular__inherit__graph.png" border="0" usemap="#abvhar_1_1McmcTriangular_inherit__map" alt="Inheritance graph"/></div>
 <map name="abvhar_1_1McmcTriangular_inherit__map" id="abvhar_1_1McmcTriangular_inherit__map">
-<area shape="rect" title="Corrected Triangular Algorithm." alt="" coords="5,221,176,247"/>
+<area shape="rect" title="Corrected Triangular Algorithm (CTA)" alt="" coords="5,221,176,247"/>
 <area shape="rect" href="classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="224,195,355,222"/>
 <area shape="rect" href="classbvhar_1_1McmcSv.html" title="MCMC for stochastic volatility." alt="" coords="228,246,351,273"/>
 <area shape="rect" href="classbvhar_1_1McmcDl.html" title="Dirichlet&#45;Laplace prior." alt="" coords="417,5,627,47"/>
@@ -119,7 +119,7 @@ Collaboration diagram for bvhar::McmcTriangular:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcTriangular__coll__graph.png" border="0" usemap="#abvhar_1_1McmcTriangular_coll__map" alt="Collaboration graph"/></div>
 <map name="abvhar_1_1McmcTriangular_coll__map" id="abvhar_1_1McmcTriangular_coll__map">
-<area shape="rect" title="Corrected Triangular Algorithm." alt="" coords="5,95,176,121"/>
+<area shape="rect" title="Corrected Triangular Algorithm (CTA)" alt="" coords="5,95,176,121"/>
 <area shape="rect" href="structbvhar_1_1SparseRecords.html" title="Signal adaptive variable selector records." alt="" coords="9,5,172,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -131,6 +131,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6870ad567a1e7e070d690b2c7f28cacc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a6870ad567a1e7e070d690b2c7f28cacc">~McmcTriangular</a> ()=default</td></tr>
 <tr class="separator:a6870ad567a1e7e070d690b2c7f28cacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa233784f9a8426ee9fe07ee1e2b9d021"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#aa233784f9a8426ee9fe07ee1e2b9d021">appendRecords</a> (<a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;list)=0</td></tr>
+<tr class="memdesc:aa233784f9a8426ee9fe07ee1e2b9d021"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append each class's additional record to the result <code>LIST</code>  <a href="classbvhar_1_1McmcTriangular.html#aa233784f9a8426ee9fe07ee1e2b9d021">More...</a><br /></td></tr>
 <tr class="separator:aa233784f9a8426ee9fe07ee1e2b9d021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09c9208b3a2ff764a22b1bd99091f0c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a09c9208b3a2ff764a22b1bd99091f0c2">doWarmUp</a> ()</td></tr>
 <tr class="memdesc:a09c9208b3a2ff764a22b1bd99091f0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">MCMC warmup step.  <a href="classbvhar_1_1McmcTriangular.html#a09c9208b3a2ff764a22b1bd99091f0c2">More...</a><br /></td></tr>
@@ -145,38 +146,53 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a618da3f97212add1c27325f6ba93b1ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return posterior sampling records.  <a href="classbvhar_1_1McmcTriangular.html#a618da3f97212add1c27325f6ba93b1ee">More...</a><br /></td></tr>
 <tr class="separator:a618da3f97212add1c27325f6ba93b1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a022cbeb8c96a54ef1e7bd2b80d411b04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbvhar_1_1LdltRecords.html">LdltRecords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a022cbeb8c96a54ef1e7bd2b80d411b04">returnLdltRecords</a> (int num_burn, int thin, bool sparse=false) const</td></tr>
+<tr class="memdesc:a022cbeb8c96a54ef1e7bd2b80d411b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code>  <a href="classbvhar_1_1McmcTriangular.html#a022cbeb8c96a54ef1e7bd2b80d411b04">More...</a><br /></td></tr>
 <tr class="separator:a022cbeb8c96a54ef1e7bd2b80d411b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5bfa9c09f043e033d93ff57e504a900"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#ab5bfa9c09f043e033d93ff57e504a900">returnSvRecords</a> (int num_burn, int thin, bool sparse=false) const</td></tr>
+<tr class="memdesc:ab5bfa9c09f043e033d93ff57e504a900"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code>  <a href="classbvhar_1_1McmcTriangular.html#ab5bfa9c09f043e033d93ff57e504a900">More...</a><br /></td></tr>
 <tr class="separator:ab5bfa9c09f043e033d93ff57e504a900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7b7b3a7914cc63a551a2b1dabdc06ec"><td class="memTemplParams" colspan="2">template&lt;typename RecordType &gt; </td></tr>
 <tr class="memitem:af7b7b3a7914cc63a551a2b1dabdc06ec"><td class="memTemplItemLeft" align="right" valign="top">RecordType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#af7b7b3a7914cc63a551a2b1dabdc06ec">returnStructRecords</a> (int num_burn, int thin, bool sparse=false) const</td></tr>
+<tr class="memdesc:af7b7b3a7914cc63a551a2b1dabdc06ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code> or <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code>  <a href="classbvhar_1_1McmcTriangular.html#af7b7b3a7914cc63a551a2b1dabdc06ec">More...</a><br /></td></tr>
 <tr class="separator:af7b7b3a7914cc63a551a2b1dabdc06ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1ad127a956e41d6084da33b8614f697b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b">updateState</a> ()=0</td></tr>
+<tr class="memdesc:a1ad127a956e41d6084da33b8614f697b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw state vector.  <a href="classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b">More...</a><br /></td></tr>
 <tr class="separator:a1ad127a956e41d6084da33b8614f697b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22e4739c2db342b3aa86e7b1a9a916d3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3">updateSv</a> ()=0</td></tr>
+<tr class="memdesc:a22e4739c2db342b3aa86e7b1a9a916d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute D.  <a href="classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3">More...</a><br /></td></tr>
 <tr class="separator:a22e4739c2db342b3aa86e7b1a9a916d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1edc6a3dba59de35cb49d13f35037076"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a1edc6a3dba59de35cb49d13f35037076">updateCoefRecords</a> ()=0</td></tr>
+<tr class="memdesc:a1edc6a3dba59de35cb49d13f35037076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save coefficient records.  <a href="classbvhar_1_1McmcTriangular.html#a1edc6a3dba59de35cb49d13f35037076">More...</a><br /></td></tr>
 <tr class="separator:a1edc6a3dba59de35cb49d13f35037076"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a137b416d4a2e19d787334da841e7cacd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd">updateCoefPrec</a> ()=0</td></tr>
+<tr class="memdesc:a137b416d4a2e19d787334da841e7cacd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw precision of coefficient based on each shrinkage priors.  <a href="classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd">More...</a><br /></td></tr>
 <tr class="separator:a137b416d4a2e19d787334da841e7cacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2c9179d56a08587e8578823ee8b0708"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708">updatePenalty</a> ()=0</td></tr>
+<tr class="memdesc:ab2c9179d56a08587e8578823ee8b0708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update SAVS penalty.  <a href="classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708">More...</a><br /></td></tr>
 <tr class="separator:ab2c9179d56a08587e8578823ee8b0708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20f715f57006061f8b7950fc1ceef57c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c">updateImpactPrec</a> ()=0</td></tr>
+<tr class="memdesc:a20f715f57006061f8b7950fc1ceef57c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw precision of contemporaneous coefficient based on each shrinkage priors.  <a href="classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c">More...</a><br /></td></tr>
 <tr class="separator:a20f715f57006061f8b7950fc1ceef57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad44ecbfc4d7c770777b04d8d55c3c40d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d">updateRecords</a> ()=0</td></tr>
+<tr class="memdesc:ad44ecbfc4d7c770777b04d8d55c3c40d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save MCMC records.  <a href="classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d">More...</a><br /></td></tr>
 <tr class="separator:ad44ecbfc4d7c770777b04d8d55c3c40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0af184d8f06d56e57c4af519075f76d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0">updateCoef</a> ()</td></tr>
+<tr class="memdesc:a0af184d8f06d56e57c4af519075f76d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw coefficients.  <a href="classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0">More...</a><br /></td></tr>
 <tr class="separator:a0af184d8f06d56e57c4af519075f76d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea9fddcef3df0b060da051f0fa6b49a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4">updateImpact</a> ()</td></tr>
+<tr class="memdesc:aea9fddcef3df0b060da051f0fa6b49a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw contemporaneous coefficients.  <a href="classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4">More...</a><br /></td></tr>
 <tr class="separator:aea9fddcef3df0b060da051f0fa6b49a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fc2be3125d2df3ff0f95bffa2a8e295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295">updateLatent</a> ()</td></tr>
+<tr class="memdesc:a2fc2be3125d2df3ff0f95bffa2a8e295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute residual matrix for orthogonalization.  <a href="classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295">More...</a><br /></td></tr>
 <tr class="separator:a2fc2be3125d2df3ff0f95bffa2a8e295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a7767aa098f060189fb912645b1884"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884">updateChol</a> ()</td></tr>
+<tr class="memdesc:a55a7767aa098f060189fb912645b1884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute L.  <a href="classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884">More...</a><br /></td></tr>
 <tr class="separator:a55a7767aa098f060189fb912645b1884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a506a54703ab01ec4d3e845400b709b5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a506a54703ab01ec4d3e845400b709b5a">addStep</a> ()</td></tr>
+<tr class="memdesc:a506a54703ab01ec4d3e845400b709b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment the MCMC step.  <a href="classbvhar_1_1McmcTriangular.html#a506a54703ab01ec4d3e845400b709b5a">More...</a><br /></td></tr>
 <tr class="separator:a506a54703ab01ec4d3e845400b709b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -249,7 +265,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a2023a20ef851494729f054253744d250"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Corrected Triangular Algorithm. </p>
+<div class="textblock"><p>Corrected Triangular Algorithm (CTA) </p>
 <p>This class is a base class to conduct corrected triangular algorithm. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae75d1e9783a704d900173e9f21b07a62"></a>
@@ -353,6 +369,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Append each class's additional record to the result <code>LIST</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">list</td><td><code>LIST</code> containing MCMC record result </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcGdp.html#af753fd3e1a3c29fb877beeda888e7b72">bvhar::McmcGdp&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcDl.html#acc16a372009ab423f5e88be28b303274">bvhar::McmcDl&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcNg.html#abe66e06e050b3292623cfa76ed737df9">bvhar::McmcNg&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcHorseshoe.html#aed1d0f9d94ad373de9196e857ddfb802">bvhar::McmcHorseshoe&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcSsvs.html#a96695154276ac2ddc46d1e13fb3268f6">bvhar::McmcSsvs&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcHierminn.html#acf6f366ff64a7d8328d601ba67f376d3">bvhar::McmcHierminn&lt; BaseMcmc &gt;</a>, and <a class="el" href="classbvhar_1_1McmcMinn.html#ac8617edc89a61fffbf2f45d7c3a06815">bvhar::McmcMinn&lt; BaseMcmc &gt;</a>.</p>
 
 </div>
@@ -387,15 +411,15 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classbvhar_1_1McmcTriangular_a09c9208b3a2ff764a22b1bd99091f0c2_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcTriangular_a09c9208b3a2ff764a22b1bd99091f0c2_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcTriangular_a09c9208b3a2ff764a22b1bd99091f0c2_cgraph" id="aclassbvhar_1_1McmcTriangular_a09c9208b3a2ff764a22b1bd99091f0c2_cgraph">
 <area shape="rect" title="MCMC warmup step." alt="" coords="5,268,176,309"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884" title=" " alt="" coords="224,5,395,47"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0" title=" " alt="" coords="224,72,395,113"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd" title=" " alt="" coords="224,137,395,179"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4" title=" " alt="" coords="224,203,395,244"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c" title=" " alt="" coords="224,268,395,309"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295" title=" " alt="" coords="224,333,395,375"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708" title=" " alt="" coords="224,399,395,440"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b" title=" " alt="" coords="224,464,395,505"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3" title=" " alt="" coords="224,529,395,571"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884" title="Compute L." alt="" coords="224,5,395,47"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0" title="Draw coefficients." alt="" coords="224,72,395,113"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd" title="Draw precision of coefficient based on each shrinkage priors." alt="" coords="224,137,395,179"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4" title="Draw contemporaneous coefficients." alt="" coords="224,203,395,244"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="224,268,395,309"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295" title="Compute residual matrix for orthogonalization." alt="" coords="224,333,395,375"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708" title="Update SAVS penalty." alt="" coords="224,399,395,440"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b" title="Draw state vector." alt="" coords="224,464,395,505"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3" title="Compute D." alt="" coords="224,529,395,571"/>
 <area shape="rect" href="namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="445,10,615,37"/>
 <area shape="rect" href="namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b" title=" " alt="" coords="463,162,597,189"/>
 <area shape="rect" href="namespacebvhar.html#a2660b13d27969ebb81758734cbdd4fc9" title=" " alt="" coords="448,61,612,87"/>
@@ -437,17 +461,17 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classbvhar_1_1McmcTriangular_ab4aafd7dbad1cdb2c582b0ca2b4242a7_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcTriangular_ab4aafd7dbad1cdb2c582b0ca2b4242a7_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcTriangular_ab4aafd7dbad1cdb2c582b0ca2b4242a7_cgraph" id="aclassbvhar_1_1McmcTriangular_ab4aafd7dbad1cdb2c582b0ca2b4242a7_cgraph">
 <area shape="rect" title="MCMC posterior sampling step." alt="" coords="5,332,176,373"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a506a54703ab01ec4d3e845400b709b5a" title=" " alt="" coords="224,5,395,47"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884" title=" " alt="" coords="224,71,395,112"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0" title=" " alt="" coords="224,136,395,177"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd" title=" " alt="" coords="224,201,395,243"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4" title=" " alt="" coords="224,267,395,308"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c" title=" " alt="" coords="224,332,395,373"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295" title=" " alt="" coords="224,397,395,439"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708" title=" " alt="" coords="224,463,395,504"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d" title=" " alt="" coords="224,528,395,569"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b" title=" " alt="" coords="224,593,395,635"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3" title=" " alt="" coords="224,659,395,700"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a506a54703ab01ec4d3e845400b709b5a" title="Increment the MCMC step." alt="" coords="224,5,395,47"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884" title="Compute L." alt="" coords="224,71,395,112"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0" title="Draw coefficients." alt="" coords="224,136,395,177"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd" title="Draw precision of coefficient based on each shrinkage priors." alt="" coords="224,201,395,243"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4" title="Draw contemporaneous coefficients." alt="" coords="224,267,395,308"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="224,332,395,373"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295" title="Compute residual matrix for orthogonalization." alt="" coords="224,397,395,439"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708" title="Update SAVS penalty." alt="" coords="224,463,395,504"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d" title="Save MCMC records." alt="" coords="224,528,395,569"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b" title="Draw state vector." alt="" coords="224,593,395,635"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3" title="Compute D." alt="" coords="224,659,395,700"/>
 <area shape="rect" href="namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="445,75,615,102"/>
 <area shape="rect" href="namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b" title=" " alt="" coords="463,227,597,254"/>
 <area shape="rect" href="namespacebvhar.html#a2660b13d27969ebb81758734cbdd4fc9" title=" " alt="" coords="448,126,612,153"/>
@@ -538,14 +562,14 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>LIST </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>LIST <code>LIST</code> containing every MCMC draws </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcTriangular_a618da3f97212add1c27325f6ba93b1ee_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcTriangular_a618da3f97212add1c27325f6ba93b1ee_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcTriangular_a618da3f97212add1c27325f6ba93b1ee_cgraph" id="aclassbvhar_1_1McmcTriangular_a618da3f97212add1c27325f6ba93b1ee_cgraph">
 <area shape="rect" title="Return posterior sampling records." alt="" coords="5,71,176,112"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html#aa233784f9a8426ee9fe07ee1e2b9d021" title=" " alt="" coords="224,5,395,47"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html#aa233784f9a8426ee9fe07ee1e2b9d021" title="Append each class&#39;s additional record to the result LIST" alt="" coords="224,5,395,47"/>
 <area shape="rect" href="classbvhar_1_1McmcTriangular.html#a7e3851262ff83e38cb7589a93ea54ed2" title="Gather MCMC records." alt="" coords="224,71,395,112"/>
 <area shape="rect" href="namespacebvhar.html#a00491952c7b60e2136dc192ccb2d23b8" title=" " alt="" coords="239,137,379,163"/>
 <area shape="rect" href="structbvhar_1_1SparseRecords.html#a22fb120863a275ef75b28873663acde9" title="Append sparse records to the MCMC record LIST" alt="" coords="443,71,605,112"/>
@@ -594,6 +618,17 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Return <code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num_burn</td><td>Number of burn-in </td></tr>
+    <tr><td class="paramname">thin</td><td>Thinning </td></tr>
+    <tr><td class="paramname">sparse</td><td>If <code>true</code>, return sparsified draws. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a> <code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code> object </dd></dl>
+
 </div>
 </div>
 <a id="ab5bfa9c09f043e033d93ff57e504a900"></a>
@@ -635,6 +670,17 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num_burn</td><td>Number of burn-in </td></tr>
+    <tr><td class="paramname">thin</td><td>Thinning </td></tr>
+    <tr><td class="paramname">sparse</td><td>If <code>true</code>, return sparsified draws. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a> <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code> object </dd></dl>
 
 </div>
 </div>
@@ -680,6 +726,23 @@ template&lt;typename RecordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Return <code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code> or <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code> </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">RecordType</td><td><code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code> or <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num_burn</td><td>Number of burn-in </td></tr>
+    <tr><td class="paramname">thin</td><td>Thinning </td></tr>
+    <tr><td class="paramname">sparse</td><td>If <code>true</code>, return sparsified draws. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>RecordType <code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code> or <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code> </dd></dl>
+
 </div>
 </div>
 <a id="a1ad127a956e41d6084da33b8614f697b"></a>
@@ -704,6 +767,8 @@ template&lt;typename RecordType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draw state vector. </p>
 
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcSv.html#a926c331fa3e4b54602fb41f97653bc86">bvhar::McmcSv</a>, and <a class="el" href="classbvhar_1_1McmcReg.html#aa50386df454cfeae3aa8cbee701c0944">bvhar::McmcReg</a>.</p>
 
@@ -732,6 +797,8 @@ template&lt;typename RecordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Compute D. </p>
+
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcSv.html#a5fc987405d7ff8ed232851f27a101f8f">bvhar::McmcSv</a>, and <a class="el" href="classbvhar_1_1McmcReg.html#a5e8e04864c69b2ed4aa8e4999d7ef3fa">bvhar::McmcReg</a>.</p>
 
 </div>
@@ -758,6 +825,8 @@ template&lt;typename RecordType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Save coefficient records. </p>
 
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcSv.html#a3a1aa3e3006011ec611ea5a793326e84">bvhar::McmcSv</a>, and <a class="el" href="classbvhar_1_1McmcReg.html#ac899f94435e63dc9073fa640f4866c56">bvhar::McmcReg</a>.</p>
 
@@ -786,6 +855,8 @@ template&lt;typename RecordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Draw precision of coefficient based on each shrinkage priors. </p>
+
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcGdp.html#ae34b25b35d04158f77814c42700e92f0">bvhar::McmcGdp&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcDl.html#a63fc17463c72a8b2d10ae991f0d5711c">bvhar::McmcDl&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcNg.html#a0c96b298c8f9783f545ee61eee9a2ce8">bvhar::McmcNg&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcHorseshoe.html#a0e66b0cce727a4661dc5d25a7f5893f9">bvhar::McmcHorseshoe&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcSsvs.html#a67b47a6cddb2a7b309db601a50077de8">bvhar::McmcSsvs&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcHierminn.html#adebe787442335a5697f9001373e0316f">bvhar::McmcHierminn&lt; BaseMcmc &gt;</a>, and <a class="el" href="classbvhar_1_1McmcMinn.html#ab86379418849681438989c81813de13d">bvhar::McmcMinn&lt; BaseMcmc &gt;</a>.</p>
 
 </div>
@@ -812,6 +883,8 @@ template&lt;typename RecordType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Update SAVS penalty. </p>
 
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcGdp.html#a5b7d7cebc063af143743b3c2b4a69fc3">bvhar::McmcGdp&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcDl.html#a9b8acdb6d4ad0ff247adbf1baceaca8e">bvhar::McmcDl&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcNg.html#a76c85b980f47ebc9afd9b8073ed6cba0">bvhar::McmcNg&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcHorseshoe.html#a82943df4776a3df456064e3b5d93a616">bvhar::McmcHorseshoe&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcSsvs.html#ac01f3336dc13da031633a58bd3035197">bvhar::McmcSsvs&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcHierminn.html#a293c8e676d0b37c79f99a2b4db9ac2ef">bvhar::McmcHierminn&lt; BaseMcmc &gt;</a>, and <a class="el" href="classbvhar_1_1McmcMinn.html#addbfbfaa0220bba54aab47b4e300ade9">bvhar::McmcMinn&lt; BaseMcmc &gt;</a>.</p>
 
@@ -840,6 +913,8 @@ template&lt;typename RecordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Draw precision of contemporaneous coefficient based on each shrinkage priors. </p>
+
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcGdp.html#a0f174625adb6e5411cea403215fdee8f">bvhar::McmcGdp&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcDl.html#a14c34169512211dca0903b697c5c6586">bvhar::McmcDl&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcNg.html#a19c75ba06d560f3eac6ba91441539428">bvhar::McmcNg&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcHorseshoe.html#a537f497a0a960d98ed755f42cfef7f17">bvhar::McmcHorseshoe&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcSsvs.html#af207f6ef3577b8f22470c97c398a71f9">bvhar::McmcSsvs&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcHierminn.html#a2629160aa2e76127f71f568e97ab343d">bvhar::McmcHierminn&lt; BaseMcmc &gt;</a>, and <a class="el" href="classbvhar_1_1McmcMinn.html#a9e40ba373306118d5ff185bce8e6b255">bvhar::McmcMinn&lt; BaseMcmc &gt;</a>.</p>
 
 </div>
@@ -867,6 +942,8 @@ template&lt;typename RecordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Save MCMC records. </p>
+
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcGdp.html#a93c229f6e698a109c05ee395ae3c5215">bvhar::McmcGdp&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcDl.html#ab2a443bc88396fa1fe935408020beeff">bvhar::McmcDl&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcNg.html#aaeef4aba2623a5288ca8a37985f6f7b8">bvhar::McmcNg&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcHorseshoe.html#abedddaecb395ede81244ff794dcdea64">bvhar::McmcHorseshoe&lt; BaseMcmc, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcSsvs.html#a5b99e27cb69c024697371527ad6f8c07">bvhar::McmcSsvs&lt; BaseMcmc &gt;</a>, <a class="el" href="classbvhar_1_1McmcHierminn.html#a0856dd8b297e0e91ce94242e56728e4d">bvhar::McmcHierminn&lt; BaseMcmc &gt;</a>, and <a class="el" href="classbvhar_1_1McmcMinn.html#a75c01f4b5894c8598be8663543f6dedf">bvhar::McmcMinn&lt; BaseMcmc &gt;</a>.</p>
 
 </div>
@@ -893,12 +970,14 @@ template&lt;typename RecordType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draw coefficients. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcTriangular_a0af184d8f06d56e57c4af519075f76d0_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcTriangular_a0af184d8f06d56e57c4af519075f76d0_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcTriangular_a0af184d8f06d56e57c4af519075f76d0_cgraph" id="aclassbvhar_1_1McmcTriangular_a0af184d8f06d56e57c4af519075f76d0_cgraph">
-<area shape="rect" title=" " alt="" coords="5,49,176,90"/>
+<area shape="rect" title="Draw coefficients." alt="" coords="5,49,176,90"/>
 <area shape="rect" href="namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b" title=" " alt="" coords="244,5,379,32"/>
 <area shape="rect" href="namespacebvhar.html#a2660b13d27969ebb81758734cbdd4fc9" title=" " alt="" coords="229,56,393,83"/>
 <area shape="rect" href="namespacebvhar.html#abdc31a61ba3065c182462e946894e31f" title=" " alt="" coords="224,107,399,133"/>
@@ -930,12 +1009,14 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draw contemporaneous coefficients. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcTriangular_aea9fddcef3df0b060da051f0fa6b49a4_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcTriangular_aea9fddcef3df0b060da051f0fa6b49a4_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcTriangular_aea9fddcef3df0b060da051f0fa6b49a4_cgraph" id="aclassbvhar_1_1McmcTriangular_aea9fddcef3df0b060da051f0fa6b49a4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,23,176,65"/>
+<area shape="rect" title="Draw contemporaneous coefficients." alt="" coords="5,23,176,65"/>
 <area shape="rect" href="namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b" title=" " alt="" coords="225,5,359,32"/>
 <area shape="rect" href="namespacebvhar.html#a3a8cdbc5d65e51aaf92c80f97b989972" title=" " alt="" coords="224,56,360,83"/>
 <area shape="rect" href="namespacebvhar.html#a66b31690ade4567f9242191fc78901e6" title=" " alt="" coords="408,5,557,32"/>
@@ -967,6 +1048,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Compute residual matrix for orthogonalization. </p>
+
 </div>
 </div>
 <a id="a55a7767aa098f060189fb912645b1884"></a>
@@ -991,12 +1074,14 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compute L. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcTriangular_a55a7767aa098f060189fb912645b1884_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcTriangular_a55a7767aa098f060189fb912645b1884_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcTriangular_a55a7767aa098f060189fb912645b1884_cgraph" id="aclassbvhar_1_1McmcTriangular_a55a7767aa098f060189fb912645b1884_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,176,47"/>
+<area shape="rect" title="Compute L." alt="" coords="5,5,176,47"/>
 <area shape="rect" href="namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="224,13,393,39"/>
 </map>
 </div>
@@ -1025,6 +1110,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Increment the MCMC step. </p>
 
 </div>
 </div>

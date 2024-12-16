@@ -102,7 +102,7 @@ Inheritance diagram for bvhar::McmcSv:</div>
 <div class="center"><img src="classbvhar_1_1McmcSv__inherit__graph.png" border="0" usemap="#abvhar_1_1McmcSv_inherit__map" alt="Inheritance graph"/></div>
 <map name="abvhar_1_1McmcSv_inherit__map" id="abvhar_1_1McmcSv_inherit__map">
 <area shape="rect" title="MCMC for stochastic volatility." alt="" coords="29,80,152,107"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm." alt="" coords="5,5,176,32"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="5,5,176,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -111,7 +111,7 @@ Collaboration diagram for bvhar::McmcSv:</div>
 <div class="center"><img src="classbvhar_1_1McmcSv__coll__graph.png" border="0" usemap="#abvhar_1_1McmcSv_coll__map" alt="Collaboration graph"/></div>
 <map name="abvhar_1_1McmcSv_coll__map" id="abvhar_1_1McmcSv_coll__map">
 <area shape="rect" title="MCMC for stochastic volatility." alt="" coords="29,171,152,197"/>
-<area shape="rect" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm." alt="" coords="5,95,176,121"/>
+<area shape="rect" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="5,95,176,121"/>
 <area shape="rect" href="structbvhar_1_1SparseRecords.html" title="Signal adaptive variable selector records." alt="" coords="9,5,172,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -128,6 +128,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6870ad567a1e7e070d690b2c7f28cacc inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a6870ad567a1e7e070d690b2c7f28cacc">~McmcTriangular</a> ()=default</td></tr>
 <tr class="separator:a6870ad567a1e7e070d690b2c7f28cacc inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa233784f9a8426ee9fe07ee1e2b9d021 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#aa233784f9a8426ee9fe07ee1e2b9d021">appendRecords</a> (<a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;list)=0</td></tr>
+<tr class="memdesc:aa233784f9a8426ee9fe07ee1e2b9d021 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append each class's additional record to the result <code>LIST</code>  <a href="classbvhar_1_1McmcTriangular.html#aa233784f9a8426ee9fe07ee1e2b9d021">More...</a><br /></td></tr>
 <tr class="separator:aa233784f9a8426ee9fe07ee1e2b9d021 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09c9208b3a2ff764a22b1bd99091f0c2 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a09c9208b3a2ff764a22b1bd99091f0c2">doWarmUp</a> ()</td></tr>
 <tr class="memdesc:a09c9208b3a2ff764a22b1bd99091f0c2 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">MCMC warmup step.  <a href="classbvhar_1_1McmcTriangular.html#a09c9208b3a2ff764a22b1bd99091f0c2">More...</a><br /></td></tr>
@@ -142,39 +143,54 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a618da3f97212add1c27325f6ba93b1ee inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return posterior sampling records.  <a href="classbvhar_1_1McmcTriangular.html#a618da3f97212add1c27325f6ba93b1ee">More...</a><br /></td></tr>
 <tr class="separator:a618da3f97212add1c27325f6ba93b1ee inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a022cbeb8c96a54ef1e7bd2b80d411b04 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbvhar_1_1LdltRecords.html">LdltRecords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a022cbeb8c96a54ef1e7bd2b80d411b04">returnLdltRecords</a> (int num_burn, int thin, bool sparse=false) const</td></tr>
+<tr class="memdesc:a022cbeb8c96a54ef1e7bd2b80d411b04 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code>  <a href="classbvhar_1_1McmcTriangular.html#a022cbeb8c96a54ef1e7bd2b80d411b04">More...</a><br /></td></tr>
 <tr class="separator:a022cbeb8c96a54ef1e7bd2b80d411b04 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5bfa9c09f043e033d93ff57e504a900 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#ab5bfa9c09f043e033d93ff57e504a900">returnSvRecords</a> (int num_burn, int thin, bool sparse=false) const</td></tr>
+<tr class="memdesc:ab5bfa9c09f043e033d93ff57e504a900 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code>  <a href="classbvhar_1_1McmcTriangular.html#ab5bfa9c09f043e033d93ff57e504a900">More...</a><br /></td></tr>
 <tr class="separator:ab5bfa9c09f043e033d93ff57e504a900 inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7b7b3a7914cc63a551a2b1dabdc06ec inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memTemplParams" colspan="2">template&lt;typename RecordType &gt; </td></tr>
 <tr class="memitem:af7b7b3a7914cc63a551a2b1dabdc06ec inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memTemplItemLeft" align="right" valign="top">RecordType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#af7b7b3a7914cc63a551a2b1dabdc06ec">returnStructRecords</a> (int num_burn, int thin, bool sparse=false) const</td></tr>
+<tr class="memdesc:af7b7b3a7914cc63a551a2b1dabdc06ec inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code> or <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code>  <a href="classbvhar_1_1McmcTriangular.html#af7b7b3a7914cc63a551a2b1dabdc06ec">More...</a><br /></td></tr>
 <tr class="separator:af7b7b3a7914cc63a551a2b1dabdc06ec inherit pub_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a926c331fa3e4b54602fb41f97653bc86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcSv.html#a926c331fa3e4b54602fb41f97653bc86">updateState</a> () override</td></tr>
+<tr class="memdesc:a926c331fa3e4b54602fb41f97653bc86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw state vector.  <a href="classbvhar_1_1McmcSv.html#a926c331fa3e4b54602fb41f97653bc86">More...</a><br /></td></tr>
 <tr class="separator:a926c331fa3e4b54602fb41f97653bc86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fc987405d7ff8ed232851f27a101f8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcSv.html#a5fc987405d7ff8ed232851f27a101f8f">updateSv</a> () override</td></tr>
+<tr class="memdesc:a5fc987405d7ff8ed232851f27a101f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute D.  <a href="classbvhar_1_1McmcSv.html#a5fc987405d7ff8ed232851f27a101f8f">More...</a><br /></td></tr>
 <tr class="separator:a5fc987405d7ff8ed232851f27a101f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a1aa3e3006011ec611ea5a793326e84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcSv.html#a3a1aa3e3006011ec611ea5a793326e84">updateCoefRecords</a> () override</td></tr>
+<tr class="memdesc:a3a1aa3e3006011ec611ea5a793326e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save coefficient records.  <a href="classbvhar_1_1McmcSv.html#a3a1aa3e3006011ec611ea5a793326e84">More...</a><br /></td></tr>
 <tr class="separator:a3a1aa3e3006011ec611ea5a793326e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classbvhar_1_1McmcTriangular"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classbvhar_1_1McmcTriangular')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classbvhar_1_1McmcTriangular.html">bvhar::McmcTriangular</a></td></tr>
 <tr class="memitem:a137b416d4a2e19d787334da841e7cacd inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd">updateCoefPrec</a> ()=0</td></tr>
+<tr class="memdesc:a137b416d4a2e19d787334da841e7cacd inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw precision of coefficient based on each shrinkage priors.  <a href="classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd">More...</a><br /></td></tr>
 <tr class="separator:a137b416d4a2e19d787334da841e7cacd inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2c9179d56a08587e8578823ee8b0708 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708">updatePenalty</a> ()=0</td></tr>
+<tr class="memdesc:ab2c9179d56a08587e8578823ee8b0708 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update SAVS penalty.  <a href="classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708">More...</a><br /></td></tr>
 <tr class="separator:ab2c9179d56a08587e8578823ee8b0708 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20f715f57006061f8b7950fc1ceef57c inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c">updateImpactPrec</a> ()=0</td></tr>
+<tr class="memdesc:a20f715f57006061f8b7950fc1ceef57c inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw precision of contemporaneous coefficient based on each shrinkage priors.  <a href="classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c">More...</a><br /></td></tr>
 <tr class="separator:a20f715f57006061f8b7950fc1ceef57c inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad44ecbfc4d7c770777b04d8d55c3c40d inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d">updateRecords</a> ()=0</td></tr>
+<tr class="memdesc:ad44ecbfc4d7c770777b04d8d55c3c40d inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save MCMC records.  <a href="classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d">More...</a><br /></td></tr>
 <tr class="separator:ad44ecbfc4d7c770777b04d8d55c3c40d inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0af184d8f06d56e57c4af519075f76d0 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0">updateCoef</a> ()</td></tr>
+<tr class="memdesc:a0af184d8f06d56e57c4af519075f76d0 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw coefficients.  <a href="classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0">More...</a><br /></td></tr>
 <tr class="separator:a0af184d8f06d56e57c4af519075f76d0 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea9fddcef3df0b060da051f0fa6b49a4 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4">updateImpact</a> ()</td></tr>
+<tr class="memdesc:aea9fddcef3df0b060da051f0fa6b49a4 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw contemporaneous coefficients.  <a href="classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4">More...</a><br /></td></tr>
 <tr class="separator:aea9fddcef3df0b060da051f0fa6b49a4 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fc2be3125d2df3ff0f95bffa2a8e295 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295">updateLatent</a> ()</td></tr>
+<tr class="memdesc:a2fc2be3125d2df3ff0f95bffa2a8e295 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute residual matrix for orthogonalization.  <a href="classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295">More...</a><br /></td></tr>
 <tr class="separator:a2fc2be3125d2df3ff0f95bffa2a8e295 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a7767aa098f060189fb912645b1884 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884">updateChol</a> ()</td></tr>
+<tr class="memdesc:a55a7767aa098f060189fb912645b1884 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute L.  <a href="classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884">More...</a><br /></td></tr>
 <tr class="separator:a55a7767aa098f060189fb912645b1884 inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a506a54703ab01ec4d3e845400b709b5a inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcTriangular.html#a506a54703ab01ec4d3e845400b709b5a">addStep</a> ()</td></tr>
+<tr class="memdesc:a506a54703ab01ec4d3e845400b709b5a inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment the MCMC step.  <a href="classbvhar_1_1McmcTriangular.html#a506a54703ab01ec4d3e845400b709b5a">More...</a><br /></td></tr>
 <tr class="separator:a506a54703ab01ec4d3e845400b709b5a inherit pro_methods_classbvhar_1_1McmcTriangular"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -350,13 +366,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Draw state vector. </p>
+
 <p>Implements <a class="el" href="classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b">bvhar::McmcTriangular</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcSv_a926c331fa3e4b54602fb41f97653bc86_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcSv_a926c331fa3e4b54602fb41f97653bc86_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcSv_a926c331fa3e4b54602fb41f97653bc86_cgraph" id="aclassbvhar_1_1McmcSv_a926c331fa3e4b54602fb41f97653bc86_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,213,83"/>
+<area shape="rect" title="Draw state vector." alt="" coords="5,56,213,83"/>
 <area shape="rect" href="namespacebvhar.html#ad19a0535c3496e83c21c225d85d982cd" title=" " alt="" coords="267,5,393,32"/>
 <area shape="rect" href="namespacebvhar.html#a35f9e0939e2342d23a6763fbedf113bf" title=" " alt="" coords="269,56,391,83"/>
 <area shape="rect" href="namespacebvhar.html#afe5a3ebee84622c2c286a387cf545a7c" title=" " alt="" coords="261,107,399,133"/>
@@ -391,6 +409,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Compute D. </p>
+
 <p>Implements <a class="el" href="classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3">bvhar::McmcTriangular</a>.</p>
 
 </div>
@@ -418,13 +438,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Save coefficient records. </p>
+
 <p>Implements <a class="el" href="classbvhar_1_1McmcTriangular.html#a1edc6a3dba59de35cb49d13f35037076">bvhar::McmcTriangular</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcSv_a3a1aa3e3006011ec611ea5a793326e84_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcSv_a3a1aa3e3006011ec611ea5a793326e84_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcSv_a3a1aa3e3006011ec611ea5a793326e84_cgraph" id="aclassbvhar_1_1McmcSv_a3a1aa3e3006011ec611ea5a793326e84_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,209,47"/>
+<area shape="rect" title="Save coefficient records." alt="" coords="5,5,209,47"/>
 <area shape="rect" href="structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71" title="Assign MCMC draw to the draw matrix." alt="" coords="257,5,420,47"/>
 </map>
 </div>

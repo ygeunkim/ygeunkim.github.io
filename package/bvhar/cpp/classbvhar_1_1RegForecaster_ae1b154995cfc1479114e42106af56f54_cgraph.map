@@ -1,5 +1,5 @@
 <map id="bvhar::RegForecaster::updateParams" name="bvhar::RegForecaster::updateParams">
-<area shape="rect" id="node1" title=" " alt="" coords="5,23,165,65"/>
+<area shape="rect" id="node1" title="Update members with corresponding MCMC draw." alt="" coords="5,23,165,65"/>
 <area shape="rect" id="node2" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="213,5,383,32"/>
 <area shape="rect" id="node3" href="$namespacebvhar.html#aca14201bb81c1e58586c161241a8c5f8" title=" " alt="" coords="227,56,369,83"/>
 </map>

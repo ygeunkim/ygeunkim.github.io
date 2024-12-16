@@ -91,6 +91,9 @@ $(document).ready(function(){initNavTree('classbvhar_1_1McmcForecastRun.html',''
 </div><!--header-->
 <div class="contents">
 
+<p>CTA forecasting class.  
+ <a href="classbvhar_1_1McmcForecastRun.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="bvharforecaster_8h_source.html">bvharforecaster.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -104,11 +107,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2300a31efce6315470ddf20abc9cc999"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecastRun.html#a2300a31efce6315470ddf20abc9cc999">~McmcForecastRun</a> ()=default</td></tr>
 <tr class="separator:a2300a31efce6315470ddf20abc9cc999"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b5de209c7ecd9eb79d14f11f4854dee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecastRun.html#a9b5de209c7ecd9eb79d14f11f4854dee">forecast</a> ()</td></tr>
+<tr class="memdesc:a9b5de209c7ecd9eb79d14f11f4854dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forecast.  <a href="classbvhar_1_1McmcForecastRun.html#a9b5de209c7ecd9eb79d14f11f4854dee">More...</a><br /></td></tr>
 <tr class="separator:a9b5de209c7ecd9eb79d14f11f4854dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9f3acf9a116c9fbf9dee69dddb0a1be"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecastRun.html#aa9f3acf9a116c9fbf9dee69dddb0a1be">returnForecast</a> ()</td></tr>
+<tr class="memdesc:aa9f3acf9a116c9fbf9dee69dddb0a1be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return forecast draws.  <a href="classbvhar_1_1McmcForecastRun.html#aa9f3acf9a116c9fbf9dee69dddb0a1be">More...</a><br /></td></tr>
 <tr class="separator:aa9f3acf9a116c9fbf9dee69dddb0a1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename BaseForecaster = RegForecaster&gt;<br />
+class bvhar::McmcForecastRun&lt; BaseForecaster &gt;</h3>
+
+<p>CTA forecasting class. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">BaseForecaster</td><td><code><a class="el" href="classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg">RegForecaster</a></code> or <code><a class="el" href="classbvhar_1_1SvForecaster.html" title="Forecast class for McmcSv">SvForecaster</a></code> </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a11f11fd97c63865bd3cf05c62cbef441"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11f11fd97c63865bd3cf05c62cbef441">&#9670;&nbsp;</a></span>McmcForecastRun() <span class="overload">[1/3]</span></h2>
 
@@ -477,6 +493,8 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Forecast. </p>
+
 </div>
 </div>
 <a id="aa9f3acf9a116c9fbf9dee69dddb0a1be"></a>
@@ -503,13 +521,16 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return forecast draws. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;Eigen::MatrixXd&gt; Forecast density of each chain </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcForecastRun_aa9f3acf9a116c9fbf9dee69dddb0a1be_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcForecastRun_aa9f3acf9a116c9fbf9dee69dddb0a1be_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcForecastRun_aa9f3acf9a116c9fbf9dee69dddb0a1be_cgraph" id="aclassbvhar_1_1McmcForecastRun_aa9f3acf9a116c9fbf9dee69dddb0a1be_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,192,47"/>
-<area shape="rect" href="classbvhar_1_1McmcForecastRun.html#a9b5de209c7ecd9eb79d14f11f4854dee" title=" " alt="" coords="240,5,427,47"/>
+<area shape="rect" title="Return forecast draws." alt="" coords="5,5,192,47"/>
+<area shape="rect" href="classbvhar_1_1McmcForecastRun.html#a9b5de209c7ecd9eb79d14f11f4854dee" title="Forecast." alt="" coords="240,5,427,47"/>
 </map>
 </div>
 

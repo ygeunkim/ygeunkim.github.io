@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('structbvhar_1_1RegRecords.html',''); i
 </div><!--header-->
 <div class="contents">
 
-<p>MCMC records for <code><a class="el" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm.">McmcTriangular</a></code>  
+<p>MCMC records for <code><a class="el" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)">McmcTriangular</a></code>  
  <a href="structbvhar_1_1RegRecords.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="bvharconfig_8h_source.html">bvharconfig.h</a>&gt;</code></p>
@@ -143,10 +143,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a984b2416ee8d61ecae89cf53003b01d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1LdltRecords.html" title="MCMC records for McmcReg">LdltRecords</a></code> or <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code>  <a href="structbvhar_1_1RegRecords.html#a984b2416ee8d61ecae89cf53003b01d6">More...</a><br /></td></tr>
 <tr class="separator:a984b2416ee8d61ecae89cf53003b01d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e6040e7509c19a04f28ec1ecfcd5c71"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegRecords.html#a6e6040e7509c19a04f28ec1ecfcd5c71">updateDiag</a> (int i, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_update)=0</td></tr>
-<tr class="memdesc:a6e6040e7509c19a04f28ec1ecfcd5c71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in <img class="formulaInl" alt="$D$" src="form_0.png"/>.  <a href="structbvhar_1_1RegRecords.html#a6e6040e7509c19a04f28ec1ecfcd5c71">More...</a><br /></td></tr>
+<tr class="memdesc:a6e6040e7509c19a04f28ec1ecfcd5c71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in D.  <a href="structbvhar_1_1RegRecords.html#a6e6040e7509c19a04f28ec1ecfcd5c71">More...</a><br /></td></tr>
 <tr class="separator:a6e6040e7509c19a04f28ec1ecfcd5c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab541265c6d14ff222d4ffb7c3d140209"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegRecords.html#ab541265c6d14ff222d4ffb7c3d140209">updateDiag</a> (int i, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_update, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_sig)=0</td></tr>
-<tr class="memdesc:ab541265c6d14ff222d4ffb7c3d140209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in <img class="formulaInl" alt="$D$" src="form_0.png"/>.  <a href="structbvhar_1_1RegRecords.html#ab541265c6d14ff222d4ffb7c3d140209">More...</a><br /></td></tr>
+<tr class="memdesc:ab541265c6d14ff222d4ffb7c3d140209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in D.  <a href="structbvhar_1_1RegRecords.html#ab541265c6d14ff222d4ffb7c3d140209">More...</a><br /></td></tr>
 <tr class="separator:ab541265c6d14ff222d4ffb7c3d140209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92ef956451f1b7611b24c8d71aca9bb4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegRecords.html#a92ef956451f1b7611b24c8d71aca9bb4">subsetStable</a> (int num_alpha, double threshold)=0</td></tr>
 <tr class="memdesc:a92ef956451f1b7611b24c8d71aca9bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove unstable coefficients draw.  <a href="structbvhar_1_1RegRecords.html#a92ef956451f1b7611b24c8d71aca9bb4">More...</a><br /></td></tr>
@@ -172,7 +172,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a66b23fe7b0eeae5611cbc77568062778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>MCMC records for <code><a class="el" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm.">McmcTriangular</a></code> </p>
+<div class="textblock"><p>MCMC records for <code><a class="el" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)">McmcTriangular</a></code> </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a72c8ecd9ab63865cad4c1104750b0775"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72c8ecd9ab63865cad4c1104750b0775">&#9670;&nbsp;</a></span>RegRecords() <span class="overload">[1/3]</span></h2>
@@ -831,11 +831,11 @@ template&lt;typename RecordType  = LdltRecords&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Update parameters in <img class="formulaInl" alt="$D$" src="form_0.png"/>. </p>
+<p>Update parameters in D. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">i</td><td>MCMC step </td></tr>
-    <tr><td class="paramname">sv_update</td><td>Diagonal term draw </td></tr>
+    <tr><td class="paramname">sv_update</td><td>State vector draw </td></tr>
   </table>
   </dd>
 </dl>
@@ -884,11 +884,11 @@ template&lt;typename RecordType  = LdltRecords&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Update parameters in <img class="formulaInl" alt="$D$" src="form_0.png"/>. </p>
+<p>Update parameters in D. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">i</td><td>MCMC step </td></tr>
-    <tr><td class="paramname">sv_update</td><td>Diagonal term draw</td></tr>
+    <tr><td class="paramname">sv_update</td><td>State vector draw</td></tr>
     <tr><td class="paramname">sv_sig</td><td>Variance draw of AR log volatilties </td></tr>
   </table>
   </dd>

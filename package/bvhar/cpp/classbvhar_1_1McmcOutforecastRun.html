@@ -94,6 +94,9 @@ $(document).ready(function(){initNavTree('classbvhar_1_1McmcOutforecastRun.html'
 </div><!--header-->
 <div class="contents">
 
+<p>Out-of-sample forecasting class.  
+ <a href="classbvhar_1_1McmcOutforecastRun.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="bvharforecaster_8h_source.html">bvharforecaster.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -103,8 +106,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad785a8c9a8bda352faa1ba774d939028"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#ad785a8c9a8bda352faa1ba774d939028">~McmcOutforecastRun</a> ()=default</td></tr>
 <tr class="separator:ad785a8c9a8bda352faa1ba774d939028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9314163ea541d6dbebd60c5be8cbdce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a9314163ea541d6dbebd60c5be8cbdce8">forecast</a> ()</td></tr>
+<tr class="memdesc:a9314163ea541d6dbebd60c5be8cbdce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Out-of-sample forecasting.  <a href="classbvhar_1_1McmcOutforecastRun.html#a9314163ea541d6dbebd60c5be8cbdce8">More...</a><br /></td></tr>
 <tr class="separator:a9314163ea541d6dbebd60c5be8cbdce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a110c6d27a2dfd83c01323740cc6f4f4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a110c6d27a2dfd83c01323740cc6f4f4c">returnForecast</a> ()</td></tr>
+<tr class="memdesc:a110c6d27a2dfd83c01323740cc6f4f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return out-of-sample forecasting draws.  <a href="classbvhar_1_1McmcOutforecastRun.html#a110c6d27a2dfd83c01323740cc6f4f4c">More...</a><br /></td></tr>
 <tr class="separator:a110c6d27a2dfd83c01323740cc6f4f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
@@ -117,20 +122,28 @@ Protected Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a8bc66001f041609253ed407dc068599e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a8bc66001f041609253ed407dc068599e">initData</a> (const Eigen::MatrixXd &amp;y)=0</td></tr>
+<tr class="memdesc:a8bc66001f041609253ed407dc068599e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define input in each window.  <a href="classbvhar_1_1McmcOutforecastRun.html#a8bc66001f041609253ed407dc068599e">More...</a><br /></td></tr>
 <tr class="separator:a8bc66001f041609253ed407dc068599e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba7cf0ae4cf36d5b3fefc018247b24e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#aba7cf0ae4cf36d5b3fefc018247b24e8">initForecaster</a> (<a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;fit_record)=0</td></tr>
+<tr class="memdesc:aba7cf0ae4cf36d5b3fefc018247b24e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize forecaster.  <a href="classbvhar_1_1McmcOutforecastRun.html#aba7cf0ae4cf36d5b3fefc018247b24e8">More...</a><br /></td></tr>
 <tr class="separator:aba7cf0ae4cf36d5b3fefc018247b24e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85578d990bb190e782b523d5b40279c4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a85578d990bb190e782b523d5b40279c4">initMcmc</a> (<a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;param_reg, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;param_prior, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;param_intercept, <a class="el" href="commondefs_8h.html#a224f1f022bcfed2cc94435fc8cf8130b">LIST_OF_LIST</a> &amp;param_init, int prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, const Eigen::MatrixXi &amp;seed_chain)=0</td></tr>
+<tr class="memdesc:a85578d990bb190e782b523d5b40279c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize CTA.  <a href="classbvhar_1_1McmcOutforecastRun.html#a85578d990bb190e782b523d5b40279c4">More...</a><br /></td></tr>
 <tr class="separator:a85578d990bb190e782b523d5b40279c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeebaf140a257475c96b40540fd62cf8"><td class="memItemLeft" align="right" valign="top">virtual Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#afeebaf140a257475c96b40540fd62cf8">buildDesign</a> (int window)=0</td></tr>
+<tr class="memdesc:afeebaf140a257475c96b40540fd62cf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define VAR or VHAR design matrix.  <a href="classbvhar_1_1McmcOutforecastRun.html#afeebaf140a257475c96b40540fd62cf8">More...</a><br /></td></tr>
 <tr class="separator:afeebaf140a257475c96b40540fd62cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a295dfde5dfc147c2bae5995794ac6074"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074">updateForecaster</a> (<a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a9508f51c1e9b750e654d5aee4ed4f955">RecordType</a> &amp;reg_record, int window, int chain)=0</td></tr>
+<tr class="memdesc:a295dfde5dfc147c2bae5995794ac6074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the forecast smart pointer given MCMC result.  <a href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074">More...</a><br /></td></tr>
 <tr class="separator:a295dfde5dfc147c2bae5995794ac6074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac46244005763431e552fbc52444acb9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#ac46244005763431e552fbc52444acb9a">initialize</a> (const Eigen::MatrixXd &amp;y, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;fit_record, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;param_reg, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;param_prior, <a class="el" href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a> &amp;param_intercept, <a class="el" href="commondefs_8h.html#a224f1f022bcfed2cc94435fc8cf8130b">LIST_OF_LIST</a> &amp;param_init, int prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, const Eigen::MatrixXi &amp;seed_chain)</td></tr>
+<tr class="memdesc:ac46244005763431e552fbc52444acb9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize every member of <code><a class="el" href="classbvhar_1_1McmcOutforecastRun.html" title="Out-of-sample forecasting class.">McmcOutforecastRun</a></code>  <a href="classbvhar_1_1McmcOutforecastRun.html#ac46244005763431e552fbc52444acb9a">More...</a><br /></td></tr>
 <tr class="separator:ac46244005763431e552fbc52444acb9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09429bdb46febc19b045d3999f0d4986"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986">runGibbs</a> (int window, int chain)</td></tr>
+<tr class="memdesc:a09429bdb46febc19b045d3999f0d4986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conduct MCMC and update forecast pointer.  <a href="classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986">More...</a><br /></td></tr>
 <tr class="separator:a09429bdb46febc19b045d3999f0d4986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8c929b315b4de949db3ddcb5be8dc09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#ac8c929b315b4de949db3ddcb5be8dc09">forecastWindow</a> (int window, int chain)</td></tr>
+<tr class="memdesc:ac8c929b315b4de949db3ddcb5be8dc09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forecast.  <a href="classbvhar_1_1McmcOutforecastRun.html#ac8c929b315b4de949db3ddcb5be8dc09">More...</a><br /></td></tr>
 <tr class="separator:ac8c929b315b4de949db3ddcb5be8dc09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -188,7 +201,18 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a2241d681261e1f5f28c332b48bd83850"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2241d681261e1f5f28c332b48bd83850">lpl_record</a></td></tr>
 <tr class="separator:a2241d681261e1f5f28c332b48bd83850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename BaseForecaster = RegForecaster&gt;<br />
+class bvhar::McmcOutforecastRun&lt; BaseForecaster &gt;</h3>
+
+<p>Out-of-sample forecasting class. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">BaseForecaster</td><td><code><a class="el" href="classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg">RegForecaster</a></code> or <code><a class="el" href="classbvhar_1_1SvForecaster.html" title="Forecast class for McmcSv">SvForecaster</a></code> </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a81ccad3100c910edf7282041db30c4a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81ccad3100c910edf7282041db30c4a3">&#9670;&nbsp;</a></span>BaseMcmc</h2>
 
@@ -484,16 +508,18 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Out-of-sample forecasting. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcOutforecastRun_a9314163ea541d6dbebd60c5be8cbdce8_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_a9314163ea541d6dbebd60c5be8cbdce8_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcOutforecastRun_a9314163ea541d6dbebd60c5be8cbdce8_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_a9314163ea541d6dbebd60c5be8cbdce8_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,212,80"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#ac8c929b315b4de949db3ddcb5be8dc09" title=" " alt="" coords="260,39,467,80"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title=" " alt="" coords="515,39,721,80"/>
+<area shape="rect" title="Out&#45;of&#45;sample forecasting." alt="" coords="5,39,212,80"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#ac8c929b315b4de949db3ddcb5be8dc09" title="Forecast." alt="" coords="260,39,467,80"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title="Conduct MCMC and update forecast pointer." alt="" coords="515,39,721,80"/>
 <area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="793,5,953,47"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title=" " alt="" coords="769,71,976,112"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title="Replace the forecast smart pointer given MCMC result." alt="" coords="769,71,976,112"/>
 </map>
 </div>
 
@@ -523,17 +549,20 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return out-of-sample forecasting draws. </p>
+<dl class="section return"><dt>Returns</dt><dd>LIST <code>LIST</code> containing forecast draws. Include ALPL when <code>get_lpl</code> is <code>true</code>. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcOutforecastRun_a110c6d27a2dfd83c01323740cc6f4f4c_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_a110c6d27a2dfd83c01323740cc6f4f4c_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcOutforecastRun_a110c6d27a2dfd83c01323740cc6f4f4c_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_a110c6d27a2dfd83c01323740cc6f4f4c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,212,80"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a9314163ea541d6dbebd60c5be8cbdce8" title=" " alt="" coords="260,39,467,80"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#ac8c929b315b4de949db3ddcb5be8dc09" title=" " alt="" coords="515,39,721,80"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title=" " alt="" coords="769,39,976,80"/>
+<area shape="rect" title="Return out&#45;of&#45;sample forecasting draws." alt="" coords="5,39,212,80"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a9314163ea541d6dbebd60c5be8cbdce8" title="Out&#45;of&#45;sample forecasting." alt="" coords="260,39,467,80"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#ac8c929b315b4de949db3ddcb5be8dc09" title="Forecast." alt="" coords="515,39,721,80"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title="Conduct MCMC and update forecast pointer." alt="" coords="769,39,976,80"/>
 <area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="1047,5,1207,47"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title=" " alt="" coords="1024,71,1231,112"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title="Replace the forecast smart pointer given MCMC result." alt="" coords="1024,71,1231,112"/>
 </map>
 </div>
 
@@ -565,6 +594,14 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Define input in each window. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>Entire data including validation set </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcExpandforecastRun.html#ae5d66f91ea50f909807d3e8f07152d69">bvhar::McmcExpandforecastRun&lt; BaseForecaster, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#a23c6096930cfbdbf3ead0cfbdffb8f56">bvhar::McmcRollforecastRun&lt; BaseForecaster, isGroup &gt;</a>, and <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#a23c6096930cfbdbf3ead0cfbdffb8f56">bvhar::McmcRollforecastRun&lt; RegForecaster, true &gt;</a>.</p>
 
 </div>
@@ -594,6 +631,14 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Initialize forecaster. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fit_record</td><td>MCMC draw <code>LIST</code> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcVharforecastRun.html#a51ed11fb67bc8f8597576cc6bc65c459">bvhar::McmcVharforecastRun&lt; BaseOutForecast, BaseForecaster, isGroup &gt;</a>, and <a class="el" href="classbvhar_1_1McmcVarforecastRun.html#ac76f390b04df726702fd09436f789ced">bvhar::McmcVarforecastRun&lt; BaseOutForecast, BaseForecaster, isGroup &gt;</a>.</p>
 
@@ -683,6 +728,23 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Initialize CTA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">param_reg</td><td><code>LIST</code> of CTA hyperparameters </td></tr>
+    <tr><td class="paramname">param_prior</td><td><code>LIST</code> of shrinkage prior hyperparameters </td></tr>
+    <tr><td class="paramname">param_intercept</td><td><code>LIST</code> of Normal prior hyperparameters for constant term </td></tr>
+    <tr><td class="paramname">param_init</td><td><code>LIST_OF_LIST</code> for initial values </td></tr>
+    <tr><td class="paramname">prior_type</td><td>Shrinkage prior number </td></tr>
+    <tr><td class="paramname">grp_id</td><td><a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> group unique id </td></tr>
+    <tr><td class="paramname">own_id</td><td>own-lag id </td></tr>
+    <tr><td class="paramname">cross_id</td><td>cross-lag id </td></tr>
+    <tr><td class="paramname">grp_mat</td><td><a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> group matrix </td></tr>
+    <tr><td class="paramname">seed_chain</td><td>Random seed for each chain </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcExpandforecastRun.html#a4a0fa004ce413a14db0ba9bb03be6df1">bvhar::McmcExpandforecastRun&lt; BaseForecaster, isGroup &gt;</a>, <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#af922cb0649f0d6ddacd1c27d53205375">bvhar::McmcRollforecastRun&lt; BaseForecaster, isGroup &gt;</a>, and <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#af922cb0649f0d6ddacd1c27d53205375">bvhar::McmcRollforecastRun&lt; RegForecaster, true &gt;</a>.</p>
 
 </div>
@@ -712,6 +774,15 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Define VAR or VHAR design matrix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Window index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::MatrixXd Design matrix </dd></dl>
 
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcVharforecastRun.html#a8c08f3cd7ae38947307602903d1aac29">bvhar::McmcVharforecastRun&lt; BaseOutForecast, BaseForecaster, isGroup &gt;</a>, and <a class="el" href="classbvhar_1_1McmcVarforecastRun.html#a9976ccbec5b73f94224a3c2cfaaf9303">bvhar::McmcVarforecastRun&lt; BaseOutForecast, BaseForecaster, isGroup &gt;</a>.</p>
 
@@ -758,6 +829,16 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Replace the forecast smart pointer given MCMC result. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reg_record</td><td>MCMC record </td></tr>
+    <tr><td class="paramname">window</td><td>Window index </td></tr>
+    <tr><td class="paramname">chain</td><td>Chain index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcVharforecastRun.html#a93c7ee453c00d452999c87f874d37782">bvhar::McmcVharforecastRun&lt; BaseOutForecast, BaseForecaster, isGroup &gt;</a>, and <a class="el" href="classbvhar_1_1McmcVarforecastRun.html#a89d4721c582590d688498c1209702490">bvhar::McmcVarforecastRun&lt; BaseOutForecast, BaseForecaster, isGroup &gt;</a>.</p>
 
@@ -858,15 +939,34 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Initialize every member of <code><a class="el" href="classbvhar_1_1McmcOutforecastRun.html" title="Out-of-sample forecasting class.">McmcOutforecastRun</a></code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>Response matrix </td></tr>
+    <tr><td class="paramname">fit_record</td><td><code>LIST</code> of MCMC draws </td></tr>
+    <tr><td class="paramname">param_reg</td><td><code>LIST</code> of CTA hyperparameters </td></tr>
+    <tr><td class="paramname">param_prior</td><td><code>LIST</code> of shrinkage prior hyperparameters </td></tr>
+    <tr><td class="paramname">param_intercept</td><td><code>LIST</code> of Normal prior hyperparameters for constant term </td></tr>
+    <tr><td class="paramname">param_init</td><td><code>LIST_OF_LIST</code> for initial values </td></tr>
+    <tr><td class="paramname">prior_type</td><td>Shrinkage prior number </td></tr>
+    <tr><td class="paramname">grp_id</td><td><a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> group unique id </td></tr>
+    <tr><td class="paramname">own_id</td><td>own-lag id </td></tr>
+    <tr><td class="paramname">cross_id</td><td>cross-lag id </td></tr>
+    <tr><td class="paramname">grp_mat</td><td><a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> group matrix </td></tr>
+    <tr><td class="paramname">seed_chain</td><td>Random seed for each chain </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcOutforecastRun_ac46244005763431e552fbc52444acb9a_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_ac46244005763431e552fbc52444acb9a_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcOutforecastRun_ac46244005763431e552fbc52444acb9a_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_ac46244005763431e552fbc52444acb9a_cgraph">
-<area shape="rect" title=" " alt="" coords="5,71,212,112"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a8bc66001f041609253ed407dc068599e" title=" " alt="" coords="260,5,467,47"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#aba7cf0ae4cf36d5b3fefc018247b24e8" title=" " alt="" coords="260,71,467,112"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a85578d990bb190e782b523d5b40279c4" title=" " alt="" coords="260,136,467,177"/>
+<area shape="rect" title="Initialize every member of McmcOutforecastRun" alt="" coords="5,71,212,112"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a8bc66001f041609253ed407dc068599e" title="Define input in each window." alt="" coords="260,5,467,47"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#aba7cf0ae4cf36d5b3fefc018247b24e8" title="Initialize forecaster." alt="" coords="260,71,467,112"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a85578d990bb190e782b523d5b40279c4" title="Initialize CTA." alt="" coords="260,136,467,177"/>
 </map>
 </div>
 
@@ -907,14 +1007,23 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Conduct MCMC and update forecast pointer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Window index </td></tr>
+    <tr><td class="paramname">chain</td><td>Chain index </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcOutforecastRun_a09429bdb46febc19b045d3999f0d4986_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_a09429bdb46febc19b045d3999f0d4986_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcOutforecastRun_a09429bdb46febc19b045d3999f0d4986_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_a09429bdb46febc19b045d3999f0d4986_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,212,80"/>
+<area shape="rect" title="Conduct MCMC and update forecast pointer." alt="" coords="5,39,212,80"/>
 <area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="283,5,443,47"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title=" " alt="" coords="260,71,467,112"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title="Replace the forecast smart pointer given MCMC result." alt="" coords="260,71,467,112"/>
 </map>
 </div>
 
@@ -955,15 +1064,24 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Forecast. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Window index </td></tr>
+    <tr><td class="paramname">chain</td><td>Chain index </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcOutforecastRun_ac8c929b315b4de949db3ddcb5be8dc09_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_ac8c929b315b4de949db3ddcb5be8dc09_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcOutforecastRun_ac8c929b315b4de949db3ddcb5be8dc09_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_ac8c929b315b4de949db3ddcb5be8dc09_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,212,80"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title=" " alt="" coords="260,39,467,80"/>
+<area shape="rect" title="Forecast." alt="" coords="5,39,212,80"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title="Conduct MCMC and update forecast pointer." alt="" coords="260,39,467,80"/>
 <area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="538,5,698,47"/>
-<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title=" " alt="" coords="515,71,721,112"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title="Replace the forecast smart pointer given MCMC result." alt="" coords="515,71,721,112"/>
 </map>
 </div>
 

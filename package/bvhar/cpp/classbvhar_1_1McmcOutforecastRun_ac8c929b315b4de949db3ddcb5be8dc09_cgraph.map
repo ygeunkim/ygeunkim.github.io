@@ -1,6 +1,6 @@
 <map id="bvhar::McmcOutforecastRun::forecastWindow" name="bvhar::McmcOutforecastRun::forecastWindow">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,212,80"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title=" " alt="" coords="260,39,467,80"/>
+<area shape="rect" id="node1" title="Forecast." alt="" coords="5,39,212,80"/>
+<area shape="rect" id="node2" href="$classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title="Conduct MCMC and update forecast pointer." alt="" coords="260,39,467,80"/>
 <area shape="rect" id="node3" href="$classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="538,5,698,47"/>
-<area shape="rect" id="node4" href="$classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title=" " alt="" coords="515,71,721,112"/>
+<area shape="rect" id="node4" href="$classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title="Replace the forecast smart pointer given MCMC result." alt="" coords="515,71,721,112"/>
 </map>

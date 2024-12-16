@@ -143,10 +143,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:afcd0849af14531c629a934b09cca13ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code>  <a href="structbvhar_1_1LdltRecords.html#afcd0849af14531c629a934b09cca13ee">More...</a><br /></td></tr>
 <tr class="separator:afcd0849af14531c629a934b09cca13ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8d78c46d062dfe4bf8f243a25ded737"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1LdltRecords.html#aa8d78c46d062dfe4bf8f243a25ded737">updateDiag</a> (int i, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_update) override</td></tr>
-<tr class="memdesc:aa8d78c46d062dfe4bf8f243a25ded737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in <img class="formulaInl" alt="$D$" src="form_0.png"/>.  <a href="structbvhar_1_1LdltRecords.html#aa8d78c46d062dfe4bf8f243a25ded737">More...</a><br /></td></tr>
+<tr class="memdesc:aa8d78c46d062dfe4bf8f243a25ded737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in D.  <a href="structbvhar_1_1LdltRecords.html#aa8d78c46d062dfe4bf8f243a25ded737">More...</a><br /></td></tr>
 <tr class="separator:aa8d78c46d062dfe4bf8f243a25ded737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9316603b66b9c3c788c9c6147f61947a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1LdltRecords.html#a9316603b66b9c3c788c9c6147f61947a">updateDiag</a> (int i, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_update, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_sig) override</td></tr>
-<tr class="memdesc:a9316603b66b9c3c788c9c6147f61947a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in <img class="formulaInl" alt="$D$" src="form_0.png"/>.  <a href="structbvhar_1_1LdltRecords.html#a9316603b66b9c3c788c9c6147f61947a">More...</a><br /></td></tr>
+<tr class="memdesc:a9316603b66b9c3c788c9c6147f61947a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in D.  <a href="structbvhar_1_1LdltRecords.html#a9316603b66b9c3c788c9c6147f61947a">More...</a><br /></td></tr>
 <tr class="separator:a9316603b66b9c3c788c9c6147f61947a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa047a03d3f76573264c9211bcb3f1eba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1LdltRecords.html#aa047a03d3f76573264c9211bcb3f1eba">subsetStable</a> (int num_alpha, double threshold) override</td></tr>
 <tr class="memdesc:aa047a03d3f76573264c9211bcb3f1eba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove unstable coefficients draw.  <a href="structbvhar_1_1LdltRecords.html#aa047a03d3f76573264c9211bcb3f1eba">More...</a><br /></td></tr>
@@ -745,11 +745,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Update parameters in <img class="formulaInl" alt="$D$" src="form_0.png"/>. </p>
+<p>Update parameters in D. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">i</td><td>MCMC step </td></tr>
-    <tr><td class="paramname">sv_update</td><td>Diagonal term draw </td></tr>
+    <tr><td class="paramname">sv_update</td><td>State vector draw </td></tr>
   </table>
   </dd>
 </dl>
@@ -798,11 +798,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Update parameters in <img class="formulaInl" alt="$D$" src="form_0.png"/>. </p>
+<p>Update parameters in D. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">i</td><td>MCMC step </td></tr>
-    <tr><td class="paramname">sv_update</td><td>Diagonal term draw</td></tr>
+    <tr><td class="paramname">sv_update</td><td>State vector draw</td></tr>
     <tr><td class="paramname">sv_sig</td><td>Variance draw of AR log volatilties </td></tr>
   </table>
   </dd>

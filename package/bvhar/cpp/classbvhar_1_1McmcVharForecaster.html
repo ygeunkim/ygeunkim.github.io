@@ -93,15 +93,18 @@ $(document).ready(function(){initNavTree('classbvhar_1_1McmcVharForecaster.html'
 </div><!--header-->
 <div class="contents">
 
+<p>Forecast class of Bayesian VHAR based on <code><a class="el" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)">McmcTriangular</a></code>  
+ <a href="classbvhar_1_1McmcVharForecaster.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="bvharforecaster_8h_source.html">bvharforecaster.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for bvhar::McmcVharForecaster&lt; BaseForecaster &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcVharForecaster__inherit__graph.png" border="0" usemap="#abvhar_1_1McmcVharForecaster_3_01BaseForecaster_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="abvhar_1_1McmcVharForecaster_3_01BaseForecaster_01_4_inherit__map" id="abvhar_1_1McmcVharForecaster_3_01BaseForecaster_01_4_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,155,209,196"/>
-<area shape="rect" href="classbvhar_1_1RegForecaster.html" title=" " alt="" coords="27,80,187,107"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html" title=" " alt="" coords="20,5,195,32"/>
+<area shape="rect" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="5,155,209,196"/>
+<area shape="rect" href="classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg" alt="" coords="27,80,187,107"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html" title="Forecast class for McmcTriangular" alt="" coords="20,5,195,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -109,9 +112,9 @@ Collaboration diagram for bvhar::McmcVharForecaster&lt; BaseForecaster &gt;:</di
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcVharForecaster__coll__graph.png" border="0" usemap="#abvhar_1_1McmcVharForecaster_3_01BaseForecaster_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="abvhar_1_1McmcVharForecaster_3_01BaseForecaster_01_4_coll__map" id="abvhar_1_1McmcVharForecaster_3_01BaseForecaster_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="5,155,209,196"/>
-<area shape="rect" href="classbvhar_1_1RegForecaster.html" title=" " alt="" coords="27,80,187,107"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html" title=" " alt="" coords="20,5,195,32"/>
+<area shape="rect" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="5,155,209,196"/>
+<area shape="rect" href="classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg" alt="" coords="27,80,187,107"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html" title="Forecast class for McmcTriangular" alt="" coords="20,5,195,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -132,29 +135,39 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1bbda6e592dc115e70dc0c1874870788 inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a1bbda6e592dc115e70dc0c1874870788">~McmcForecaster</a> ()=default</td></tr>
 <tr class="separator:a1bbda6e592dc115e70dc0c1874870788 inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2adb6068fd479f5ebef19fa8fff05d2a inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a2adb6068fd479f5ebef19fa8fff05d2a">forecastDensity</a> ()</td></tr>
+<tr class="memdesc:a2adb6068fd479f5ebef19fa8fff05d2a inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw density forecast.  <a href="classbvhar_1_1McmcForecaster.html#a2adb6068fd479f5ebef19fa8fff05d2a">More...</a><br /></td></tr>
 <tr class="separator:a2adb6068fd479f5ebef19fa8fff05d2a inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaedabb4f263af3275a14f325280291e3 inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#aaedabb4f263af3275a14f325280291e3">forecastDensity</a> (const Eigen::VectorXd &amp;valid_vec)</td></tr>
+<tr class="memdesc:aaedabb4f263af3275a14f325280291e3 inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw density forecast.  <a href="classbvhar_1_1McmcForecaster.html#aaedabb4f263af3275a14f325280291e3">More...</a><br /></td></tr>
 <tr class="separator:aaedabb4f263af3275a14f325280291e3 inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ced1eef4ab53f169bcc236c3afc0c27 inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a5ced1eef4ab53f169bcc236c3afc0c27">returnLplRecord</a> ()</td></tr>
+<tr class="memdesc:a5ced1eef4ab53f169bcc236c3afc0c27 inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the draws of LPL.  <a href="classbvhar_1_1McmcForecaster.html#a5ced1eef4ab53f169bcc236c3afc0c27">More...</a><br /></td></tr>
 <tr class="separator:a5ced1eef4ab53f169bcc236c3afc0c27 inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b8782605afeff98707dbcbe414ab2ee inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a4b8782605afeff98707dbcbe414ab2ee">returnLpl</a> ()</td></tr>
+<tr class="memdesc:a4b8782605afeff98707dbcbe414ab2ee inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return ALPL.  <a href="classbvhar_1_1McmcForecaster.html#a4b8782605afeff98707dbcbe414ab2ee">More...</a><br /></td></tr>
 <tr class="separator:a4b8782605afeff98707dbcbe414ab2ee inherit pub_methods_classbvhar_1_1McmcForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a76d030d9f66f6bcc86cfed87d6e70142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcVharForecaster.html#a76d030d9f66f6bcc86cfed87d6e70142">computeMean</a> () override</td></tr>
+<tr class="memdesc:a76d030d9f66f6bcc86cfed87d6e70142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute Normal mean of the forecast density.  <a href="classbvhar_1_1McmcVharForecaster.html#a76d030d9f66f6bcc86cfed87d6e70142">More...</a><br /></td></tr>
 <tr class="separator:a76d030d9f66f6bcc86cfed87d6e70142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classbvhar_1_1RegForecaster"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classbvhar_1_1RegForecaster')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classbvhar_1_1RegForecaster.html">bvhar::RegForecaster</a></td></tr>
 <tr class="memitem:ae1b154995cfc1479114e42106af56f54 inherit pro_methods_classbvhar_1_1RegForecaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1RegForecaster.html#ae1b154995cfc1479114e42106af56f54">updateParams</a> (int i) override</td></tr>
+<tr class="memdesc:ae1b154995cfc1479114e42106af56f54 inherit pro_methods_classbvhar_1_1RegForecaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update members with corresponding MCMC draw.  <a href="classbvhar_1_1RegForecaster.html#ae1b154995cfc1479114e42106af56f54">More...</a><br /></td></tr>
 <tr class="separator:ae1b154995cfc1479114e42106af56f54 inherit pro_methods_classbvhar_1_1RegForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d001246bcf0379715ca2a930094cfcb inherit pro_methods_classbvhar_1_1RegForecaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1RegForecaster.html#a3d001246bcf0379715ca2a930094cfcb">updateVariance</a> () override</td></tr>
+<tr class="memdesc:a3d001246bcf0379715ca2a930094cfcb inherit pro_methods_classbvhar_1_1RegForecaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw innovation with D covariance matrix.  <a href="classbvhar_1_1RegForecaster.html#a3d001246bcf0379715ca2a930094cfcb">More...</a><br /></td></tr>
 <tr class="separator:a3d001246bcf0379715ca2a930094cfcb inherit pro_methods_classbvhar_1_1RegForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ff0b1fe040e48b918ae4727b92c8581 inherit pro_methods_classbvhar_1_1RegForecaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1RegForecaster.html#a1ff0b1fe040e48b918ae4727b92c8581">updateLpl</a> (int h, const Eigen::VectorXd &amp;valid_vec) override</td></tr>
+<tr class="memdesc:a1ff0b1fe040e48b918ae4727b92c8581 inherit pro_methods_classbvhar_1_1RegForecaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute LPL.  <a href="classbvhar_1_1RegForecaster.html#a1ff0b1fe040e48b918ae4727b92c8581">More...</a><br /></td></tr>
 <tr class="separator:a1ff0b1fe040e48b918ae4727b92c8581 inherit pro_methods_classbvhar_1_1RegForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classbvhar_1_1McmcForecaster"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classbvhar_1_1McmcForecaster')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classbvhar_1_1McmcForecaster.html">bvhar::McmcForecaster</a></td></tr>
 <tr class="memitem:a2cf14f57e0b67c91f6f19834dcf46844 inherit pro_methods_classbvhar_1_1McmcForecaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844">forecastOut</a> (int i)</td></tr>
+<tr class="memdesc:a2cf14f57e0b67c91f6f19834dcf46844 inherit pro_methods_classbvhar_1_1McmcForecaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw i-th forecast.  <a href="classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844">More...</a><br /></td></tr>
 <tr class="separator:a2cf14f57e0b67c91f6f19834dcf46844 inherit pro_methods_classbvhar_1_1McmcForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07095c0bc37406752ce42b02c169b624 inherit pro_methods_classbvhar_1_1McmcForecaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a07095c0bc37406752ce42b02c169b624">forecastOut</a> (int i, const Eigen::VectorXd &amp;valid_vec)</td></tr>
+<tr class="memdesc:a07095c0bc37406752ce42b02c169b624 inherit pro_methods_classbvhar_1_1McmcForecaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw i-th forecast.  <a href="classbvhar_1_1McmcForecaster.html#a07095c0bc37406752ce42b02c169b624">More...</a><br /></td></tr>
 <tr class="separator:a07095c0bc37406752ce42b02c169b624 inherit pro_methods_classbvhar_1_1McmcForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -209,7 +222,18 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a596f87fb1fa479391eefa79190489d6d inherit pro_attribs_classbvhar_1_1McmcForecaster"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a596f87fb1fa479391eefa79190489d6d">lpl</a></td></tr>
 <tr class="separator:a596f87fb1fa479391eefa79190489d6d inherit pro_attribs_classbvhar_1_1McmcForecaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename BaseForecaster = RegForecaster&gt;<br />
+class bvhar::McmcVharForecaster&lt; BaseForecaster &gt;</h3>
+
+<p>Forecast class of Bayesian VHAR based on <code><a class="el" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)">McmcTriangular</a></code> </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">BaseForecaster</td><td><code><a class="el" href="classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg">RegForecaster</a></code> or <code><a class="el" href="classbvhar_1_1SvForecaster.html" title="Forecast class for McmcSv">SvForecaster</a></code> </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae0a16b3e637f26affe0b87d9d6969620"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0a16b3e637f26affe0b87d9d6969620">&#9670;&nbsp;</a></span>McmcVharForecaster()</h2>
 
@@ -342,6 +366,8 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compute Normal mean of the forecast density. </p>
 
 <p>Implements <a class="el" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263">bvhar::McmcForecaster</a>.</p>
 

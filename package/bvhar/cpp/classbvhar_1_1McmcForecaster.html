@@ -93,21 +93,24 @@ $(document).ready(function(){initNavTree('classbvhar_1_1McmcForecaster.html','')
 </div><!--header-->
 <div class="contents">
 
+<p>Forecast class for <code><a class="el" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)">McmcTriangular</a></code>  
+ <a href="classbvhar_1_1McmcForecaster.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="bvharforecaster_8h_source.html">bvharforecaster.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for bvhar::McmcForecaster:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcForecaster__inherit__graph.png" border="0" usemap="#abvhar_1_1McmcForecaster_inherit__map" alt="Inheritance graph"/></div>
 <map name="abvhar_1_1McmcForecaster_inherit__map" id="abvhar_1_1McmcForecaster_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,137,180,163"/>
-<area shape="rect" href="classbvhar_1_1RegForecaster.html" title=" " alt="" coords="228,111,388,138"/>
-<area shape="rect" href="classbvhar_1_1SvForecaster.html" title=" " alt="" coords="233,162,383,189"/>
+<area shape="rect" title="Forecast class for McmcTriangular" alt="" coords="5,137,180,163"/>
+<area shape="rect" href="classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg" alt="" coords="228,111,388,138"/>
+<area shape="rect" href="classbvhar_1_1SvForecaster.html" title="Forecast class for McmcSv" alt="" coords="233,162,383,189"/>
 <area shape="rect" href="classbvhar_1_1McmcVarForecaster.html" title=" " alt="" coords="441,5,635,47"/>
 <area shape="rect" href="classbvhar_1_1McmcVharForecaster.html" title=" " alt="" coords="436,71,640,112"/>
-<area shape="rect" href="classbvhar_1_1McmcVarForecaster.html" title=" " alt="" coords="441,136,635,177"/>
-<area shape="rect" href="classbvhar_1_1McmcVharForecaster.html" title=" " alt="" coords="436,201,640,243"/>
-<area shape="rect" href="classbvhar_1_1McmcVarSelectForecaster.html" title=" " alt="" coords="693,5,927,47"/>
-<area shape="rect" href="classbvhar_1_1McmcVharSelectForecaster.html" title=" " alt="" coords="688,71,932,112"/>
+<area shape="rect" href="classbvhar_1_1McmcVarForecaster.html" title="Forecast class of Bayesian VAR based on McmcTriangular" alt="" coords="441,136,635,177"/>
+<area shape="rect" href="classbvhar_1_1McmcVharForecaster.html" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="436,201,640,243"/>
+<area shape="rect" href="classbvhar_1_1McmcVarSelectForecaster.html" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="693,5,927,47"/>
+<area shape="rect" href="classbvhar_1_1McmcVharSelectForecaster.html" title="Bayesian VHAR forecast class with sparse draw induced by posterior summary." alt="" coords="688,71,932,112"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -118,27 +121,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1bbda6e592dc115e70dc0c1874870788"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a1bbda6e592dc115e70dc0c1874870788">~McmcForecaster</a> ()=default</td></tr>
 <tr class="separator:a1bbda6e592dc115e70dc0c1874870788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2adb6068fd479f5ebef19fa8fff05d2a"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a2adb6068fd479f5ebef19fa8fff05d2a">forecastDensity</a> ()</td></tr>
+<tr class="memdesc:a2adb6068fd479f5ebef19fa8fff05d2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw density forecast.  <a href="classbvhar_1_1McmcForecaster.html#a2adb6068fd479f5ebef19fa8fff05d2a">More...</a><br /></td></tr>
 <tr class="separator:a2adb6068fd479f5ebef19fa8fff05d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaedabb4f263af3275a14f325280291e3"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#aaedabb4f263af3275a14f325280291e3">forecastDensity</a> (const Eigen::VectorXd &amp;valid_vec)</td></tr>
+<tr class="memdesc:aaedabb4f263af3275a14f325280291e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw density forecast.  <a href="classbvhar_1_1McmcForecaster.html#aaedabb4f263af3275a14f325280291e3">More...</a><br /></td></tr>
 <tr class="separator:aaedabb4f263af3275a14f325280291e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ced1eef4ab53f169bcc236c3afc0c27"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a5ced1eef4ab53f169bcc236c3afc0c27">returnLplRecord</a> ()</td></tr>
+<tr class="memdesc:a5ced1eef4ab53f169bcc236c3afc0c27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the draws of LPL.  <a href="classbvhar_1_1McmcForecaster.html#a5ced1eef4ab53f169bcc236c3afc0c27">More...</a><br /></td></tr>
 <tr class="separator:a5ced1eef4ab53f169bcc236c3afc0c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b8782605afeff98707dbcbe414ab2ee"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a4b8782605afeff98707dbcbe414ab2ee">returnLpl</a> ()</td></tr>
+<tr class="memdesc:a4b8782605afeff98707dbcbe414ab2ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return ALPL.  <a href="classbvhar_1_1McmcForecaster.html#a4b8782605afeff98707dbcbe414ab2ee">More...</a><br /></td></tr>
 <tr class="separator:a4b8782605afeff98707dbcbe414ab2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a6d3972e0dacaf2daaf6deaff05464263"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263">computeMean</a> ()=0</td></tr>
+<tr class="memdesc:a6d3972e0dacaf2daaf6deaff05464263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute Normal mean of the forecast density.  <a href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263">More...</a><br /></td></tr>
 <tr class="separator:a6d3972e0dacaf2daaf6deaff05464263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6494621b8241c80ff33868d52d1639c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a6494621b8241c80ff33868d52d1639c3">updateParams</a> (int i)=0</td></tr>
+<tr class="memdesc:a6494621b8241c80ff33868d52d1639c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update members with corresponding MCMC draw.  <a href="classbvhar_1_1McmcForecaster.html#a6494621b8241c80ff33868d52d1639c3">More...</a><br /></td></tr>
 <tr class="separator:a6494621b8241c80ff33868d52d1639c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8198a397b645612a3ce12b738a43210"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210">updateVariance</a> ()=0</td></tr>
+<tr class="memdesc:aa8198a397b645612a3ce12b738a43210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw innovation with D covariance matrix.  <a href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210">More...</a><br /></td></tr>
 <tr class="separator:aa8198a397b645612a3ce12b738a43210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00d10aef99375d8233345030ff6e1f8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a00d10aef99375d8233345030ff6e1f8e">updateLpl</a> (int h, const Eigen::VectorXd &amp;valid_vec)=0</td></tr>
+<tr class="memdesc:a00d10aef99375d8233345030ff6e1f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute LPL.  <a href="classbvhar_1_1McmcForecaster.html#a00d10aef99375d8233345030ff6e1f8e">More...</a><br /></td></tr>
 <tr class="separator:a00d10aef99375d8233345030ff6e1f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cf14f57e0b67c91f6f19834dcf46844"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844">forecastOut</a> (int i)</td></tr>
+<tr class="memdesc:a2cf14f57e0b67c91f6f19834dcf46844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw i-th forecast.  <a href="classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844">More...</a><br /></td></tr>
 <tr class="separator:a2cf14f57e0b67c91f6f19834dcf46844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07095c0bc37406752ce42b02c169b624"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a07095c0bc37406752ce42b02c169b624">forecastOut</a> (int i, const Eigen::VectorXd &amp;valid_vec)</td></tr>
+<tr class="memdesc:a07095c0bc37406752ce42b02c169b624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw i-th forecast.  <a href="classbvhar_1_1McmcForecaster.html#a07095c0bc37406752ce42b02c169b624">More...</a><br /></td></tr>
 <tr class="separator:a07095c0bc37406752ce42b02c169b624"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -190,7 +203,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a596f87fb1fa479391eefa79190489d6d"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcForecaster.html#a596f87fb1fa479391eefa79190489d6d">lpl</a></td></tr>
 <tr class="separator:a596f87fb1fa479391eefa79190489d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Forecast class for <code><a class="el" href="classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)">McmcTriangular</a></code> </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af0b606826d2af9ac3cee143953a42f8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0b606826d2af9ac3cee143953a42f8d">&#9670;&nbsp;</a></span>McmcForecaster()</h2>
 
@@ -320,16 +335,19 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draw density forecast. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::MatrixXd Every forecast draw of which the row indicates forecast step and columns are blocked by chains. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcForecaster_a2adb6068fd479f5ebef19fa8fff05d2a_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcForecaster_a2adb6068fd479f5ebef19fa8fff05d2a_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcForecaster_a2adb6068fd479f5ebef19fa8fff05d2a_cgraph" id="aclassbvhar_1_1McmcForecaster_a2adb6068fd479f5ebef19fa8fff05d2a_cgraph">
-<area shape="rect" title=" " alt="" coords="5,71,180,112"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844" title=" " alt="" coords="228,37,403,79"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6494621b8241c80ff33868d52d1639c3" title=" " alt="" coords="228,103,403,144"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title=" " alt="" coords="451,5,625,47"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title=" " alt="" coords="451,71,625,112"/>
+<area shape="rect" title="Draw density forecast." alt="" coords="5,71,180,112"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844" title="Draw i&#45;th forecast." alt="" coords="228,37,403,79"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6494621b8241c80ff33868d52d1639c3" title="Update members with corresponding MCMC draw." alt="" coords="228,103,403,144"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title="Compute Normal mean of the forecast density." alt="" coords="451,5,625,47"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title="Draw innovation with D covariance matrix." alt="" coords="451,71,625,112"/>
 </map>
 </div>
 
@@ -358,16 +376,25 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draw density forecast. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::MatrixXd Every forecast draw of which the row indicates forecast step and columns are blocked by chains.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">valid_vec</td><td>Validation vector to compute average log predictive likelihood (ALPL) </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcForecaster_aaedabb4f263af3275a14f325280291e3_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcForecaster_aaedabb4f263af3275a14f325280291e3_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcForecaster_aaedabb4f263af3275a14f325280291e3_cgraph" id="aclassbvhar_1_1McmcForecaster_aaedabb4f263af3275a14f325280291e3_cgraph">
-<area shape="rect" title=" " alt="" coords="5,71,180,112"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844" title=" " alt="" coords="228,37,403,79"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6494621b8241c80ff33868d52d1639c3" title=" " alt="" coords="228,103,403,144"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title=" " alt="" coords="451,5,625,47"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title=" " alt="" coords="451,71,625,112"/>
+<area shape="rect" title="Draw density forecast." alt="" coords="5,71,180,112"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844" title="Draw i&#45;th forecast." alt="" coords="228,37,403,79"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6494621b8241c80ff33868d52d1639c3" title="Update members with corresponding MCMC draw." alt="" coords="228,103,403,144"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title="Compute Normal mean of the forecast density." alt="" coords="451,5,625,47"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title="Draw innovation with D covariance matrix." alt="" coords="451,71,625,112"/>
 </map>
 </div>
 
@@ -396,6 +423,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Return the draws of LPL. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::VectorXd LPL draws </dd></dl>
+
 </div>
 </div>
 <a id="a4b8782605afeff98707dbcbe414ab2ee"></a>
@@ -421,6 +451,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Return ALPL. </p>
+<dl class="section return"><dt>Returns</dt><dd>double ALPL value </dd></dl>
+
 </div>
 </div>
 <a id="a6d3972e0dacaf2daaf6deaff05464263"></a>
@@ -445,6 +478,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compute Normal mean of the forecast density. </p>
 
 <p>Implemented in <a class="el" href="classbvhar_1_1McmcVharSelectForecaster.html#a05cc63d0db15195bc9c3cd93b1bdffdf">bvhar::McmcVharSelectForecaster&lt; BaseForecaster &gt;</a>, <a class="el" href="classbvhar_1_1McmcVarSelectForecaster.html#a0851b0af433bb89474385f975260fb43">bvhar::McmcVarSelectForecaster&lt; BaseForecaster &gt;</a>, <a class="el" href="classbvhar_1_1McmcVharForecaster.html#a76d030d9f66f6bcc86cfed87d6e70142">bvhar::McmcVharForecaster&lt; BaseForecaster &gt;</a>, <a class="el" href="classbvhar_1_1McmcVharForecaster.html#a76d030d9f66f6bcc86cfed87d6e70142">bvhar::McmcVharForecaster&lt; RegForecaster &gt;</a>, <a class="el" href="classbvhar_1_1McmcVarForecaster.html#a63089c7ea12ab6ca5019648a4f9f38ff">bvhar::McmcVarForecaster&lt; BaseForecaster &gt;</a>, and <a class="el" href="classbvhar_1_1McmcVarForecaster.html#a63089c7ea12ab6ca5019648a4f9f38ff">bvhar::McmcVarForecaster&lt; RegForecaster &gt;</a>.</p>
 
@@ -474,6 +509,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Update members with corresponding MCMC draw. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>MCMC step </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implemented in <a class="el" href="classbvhar_1_1SvForecaster.html#a26844faf449f17df9378d3f897dab9a8">bvhar::SvForecaster</a>, and <a class="el" href="classbvhar_1_1RegForecaster.html#ae1b154995cfc1479114e42106af56f54">bvhar::RegForecaster</a>.</p>
 
 </div>
@@ -500,6 +543,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draw innovation with D covariance matrix. </p>
 
 <p>Implemented in <a class="el" href="classbvhar_1_1SvForecaster.html#adcfb16f5b1267065d91939500de2d43a">bvhar::SvForecaster</a>, and <a class="el" href="classbvhar_1_1RegForecaster.html#a3d001246bcf0379715ca2a930094cfcb">bvhar::RegForecaster</a>.</p>
 
@@ -539,6 +584,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Compute LPL. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">h</td><td>Forecast step </td></tr>
+    <tr><td class="paramname">valid_vec</td><td>Validation vector </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implemented in <a class="el" href="classbvhar_1_1SvForecaster.html#a7a5cbb78b165989bb355718841bfee5a">bvhar::SvForecaster</a>, and <a class="el" href="classbvhar_1_1RegForecaster.html#a1ff0b1fe040e48b918ae4727b92c8581">bvhar::RegForecaster</a>.</p>
 
 </div>
@@ -566,14 +620,22 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draw i-th forecast. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>MCMC step </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcForecaster_a2cf14f57e0b67c91f6f19834dcf46844_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcForecaster_a2cf14f57e0b67c91f6f19834dcf46844_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcForecaster_a2cf14f57e0b67c91f6f19834dcf46844_cgraph" id="aclassbvhar_1_1McmcForecaster_a2cf14f57e0b67c91f6f19834dcf46844_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,180,80"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title=" " alt="" coords="228,5,403,47"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title=" " alt="" coords="228,71,403,112"/>
+<area shape="rect" title="Draw i&#45;th forecast." alt="" coords="5,39,180,80"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title="Compute Normal mean of the forecast density." alt="" coords="228,5,403,47"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title="Draw innovation with D covariance matrix." alt="" coords="228,71,403,112"/>
 </map>
 </div>
 
@@ -612,15 +674,24 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Draw i-th forecast. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>MCMC step</td></tr>
+    <tr><td class="paramname">valid_vec</td><td>Validation vector </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbvhar_1_1McmcForecaster_a07095c0bc37406752ce42b02c169b624_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcForecaster_a07095c0bc37406752ce42b02c169b624_cgraph" alt=""/></div>
 <map name="aclassbvhar_1_1McmcForecaster_a07095c0bc37406752ce42b02c169b624_cgraph" id="aclassbvhar_1_1McmcForecaster_a07095c0bc37406752ce42b02c169b624_cgraph">
-<area shape="rect" title=" " alt="" coords="5,71,180,112"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title=" " alt="" coords="228,5,403,47"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a00d10aef99375d8233345030ff6e1f8e" title=" " alt="" coords="228,71,403,112"/>
-<area shape="rect" href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title=" " alt="" coords="228,136,403,177"/>
+<area shape="rect" title="Draw i&#45;th forecast." alt="" coords="5,71,180,112"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title="Compute Normal mean of the forecast density." alt="" coords="228,5,403,47"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#a00d10aef99375d8233345030ff6e1f8e" title="Compute LPL." alt="" coords="228,71,403,112"/>
+<area shape="rect" href="classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title="Draw innovation with D covariance matrix." alt="" coords="228,136,403,177"/>
 </map>
 </div>
 
