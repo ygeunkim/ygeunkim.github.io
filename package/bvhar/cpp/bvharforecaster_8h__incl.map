@@ -1,5 +1,5 @@
-<map id="inst/include/bvharforecaster.h" name="inst/include/bvharforecaster.h">
-<area shape="rect" id="node1" title=" " alt="" coords="385,5,599,32"/>
+<map id="bvharforecaster.h" name="bvharforecaster.h">
+<area shape="rect" id="node1" title=" " alt="" coords="424,5,560,32"/>
 <area shape="rect" id="node2" href="$bvharmcmc_8h.html" title="Header including MCMC algorithm." alt="" coords="437,80,547,107"/>
 <area shape="rect" id="node3" href="$bvharconfig_8h.html" title="Headers including MCMC configuration structs." alt="" coords="366,155,477,181"/>
 <area shape="rect" id="node37" href="$bvharprogress_8h.html" title=" " alt="" coords="58,461,185,487"/>

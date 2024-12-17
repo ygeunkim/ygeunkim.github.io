@@ -1,5 +1,5 @@
-<map id="inst/include/regforecaster.h" name="inst/include/regforecaster.h">
-<area shape="rect" id="node1" title=" " alt="" coords="393,5,591,32"/>
+<map id="regforecaster.h" name="regforecaster.h">
+<area shape="rect" id="node1" title=" " alt="" coords="432,5,552,32"/>
 <area shape="rect" id="node2" href="$bvharforecaster_8h.html" title=" " alt="" coords="424,80,560,107"/>
 <area shape="rect" id="node3" href="$bvharmcmc_8h.html" title="Header including MCMC algorithm." alt="" coords="437,155,547,181"/>
 <area shape="rect" id="node4" href="$bvharconfig_8h.html" title="Headers including MCMC configuration structs." alt="" coords="366,229,477,256"/>

@@ -1,5 +1,5 @@
-<map id="inst/include/svspillover.h" name="inst/include/svspillover.h">
-<area shape="rect" id="node1" title=" " alt="" coords="1047,5,1229,32"/>
+<map id="svspillover.h" name="svspillover.h">
+<area shape="rect" id="node1" title=" " alt="" coords="1086,5,1190,32"/>
 <area shape="rect" id="node2" href="$mcmcsv_8h.html" title=" " alt="" coords="1151,80,1239,107"/>
 <area shape="rect" id="node42" href="$bvharstructural_8h.html" title=" " alt="" coords="999,155,1133,181"/>
 <area shape="rect" id="node3" href="$bvharmcmc_8h.html" title="Header including MCMC algorithm." alt="" coords="2100,155,2211,181"/>

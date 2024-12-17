@@ -65,8 +65,8 @@ var NAVTREEINDEX =
 "classbvhar_1_1McmcGdp.html#a5b7d7cebc063af143743b3c2b4a69fc3",
 "classbvhar_1_1MinnFlat.html#a02ea0b1c2abc554982edaaeff6d176df",
 "classbvhar_1_1SvSpillover.html#a8f1e80bd00d6d179cbe62ca5c53874f2",
-"namespacebvhar.html#a9e8055f0fd3ca5603060d55faa720ae9",
-"structbvhar_1_1NgParams.html#adb7e6bc82983f08e6047e4abc34ce818"
+"namespacebvhar.html#a9fe80684efc9a3587bff5954e849353f",
+"structbvhar_1_1NgRecords.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

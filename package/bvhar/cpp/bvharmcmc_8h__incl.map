@@ -1,5 +1,5 @@
-<map id="inst/include/bvharmcmc.h" name="inst/include/bvharmcmc.h">
-<area shape="rect" id="node1" title="Header including MCMC algorithm." alt="" coords="397,5,587,32"/>
+<map id="bvharmcmc.h" name="bvharmcmc.h">
+<area shape="rect" id="node1" title="Header including MCMC algorithm." alt="" coords="437,5,547,32"/>
 <area shape="rect" id="node2" href="$bvharconfig_8h.html" title="Headers including MCMC configuration structs." alt="" coords="366,80,477,107"/>
 <area shape="rect" id="node36" href="$bvharprogress_8h.html" title=" " alt="" coords="58,386,185,413"/>
 <area shape="rect" id="node37" href="$bvharinterrupt_8h.html" title=" " alt="" coords="1741,80,1867,107"/>
