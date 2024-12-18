@@ -896,12 +896,12 @@ $(document).ready(function(){initNavTree('bvhardraw_8h_source.html',''); initRes
 <div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;        mn_scl[k++] = abs(coef_vec[j]) / (global_param * local_param[j]);</div>
 <div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;      }</div>
 <div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;    }</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;    <span class="comment">// group_param[i] = sim_gig(1, shape - mn_size, 2 * rate, 2 * mn_scl.sum(), rng)[0];</span></div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;    group_param[i] = 1 / <a class="code" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;      shape + mn_size,</div>
-<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;      1 / (rate + mn_scl.sum()),</div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;      rng</div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;    );</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;    group_param[i] = <a class="code" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(1, shape - mn_size, 2 * rate, 2 * mn_scl.sum(), rng)[0];</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;    <span class="comment">// group_param[i] = 1 / gamma_rand(</span></div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;    <span class="comment">//  shape + mn_size,</span></div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;    <span class="comment">//  1 / (rate + mn_scl.sum()),</span></div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;    <span class="comment">//  rng</span></div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;    <span class="comment">// );</span></div>
 <div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;  }</div>
 <div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;}</div>
 <div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160; </div>
