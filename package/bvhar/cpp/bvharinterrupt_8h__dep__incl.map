@@ -1,11 +1,12 @@
 <map id="bvharinterrupt.h" name="bvharinterrupt.h">
-<area shape="rect" id="node1" title=" " alt="" coords="282,5,409,32"/>
-<area shape="rect" id="node2" href="$bvharmcmc_8h.html" title="Header including MCMC algorithm." alt="" coords="290,80,401,107"/>
-<area shape="rect" id="node3" href="$bvharforecaster_8h.html" title=" " alt="" coords="137,155,273,181"/>
-<area shape="rect" id="node6" href="$mcmcreg_8h.html" title=" " alt="" coords="298,155,393,181"/>
-<area shape="rect" id="node8" href="$mcmcsv_8h.html" title=" " alt="" coords="425,155,513,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="361,5,487,32"/>
+<area shape="rect" id="node2" href="$bvharmcmc_8h.html" title="Header including MCMC algorithm." alt="" coords="369,80,479,107"/>
+<area shape="rect" id="node3" href="$bvharforecaster_8h.html" title=" " alt="" coords="133,155,269,181"/>
+<area shape="rect" id="node6" href="$bvharspillover_8h.html" title=" " alt="" coords="294,155,421,181"/>
+<area shape="rect" id="node9" href="$mcmcreg_8h.html" title=" " alt="" coords="445,155,539,181"/>
+<area shape="rect" id="node10" href="$mcmcsv_8h.html" title=" " alt="" coords="564,155,652,181"/>
 <area shape="rect" id="node4" href="$regforecaster_8h.html" title=" " alt="" coords="5,229,125,256"/>
 <area shape="rect" id="node5" href="$svforecaster_8h.html" title=" " alt="" coords="149,229,264,256"/>
-<area shape="rect" id="node7" href="$regspillover_8h.html" title=" " alt="" coords="290,229,401,256"/>
-<area shape="rect" id="node9" href="$svspillover_8h.html" title=" " alt="" coords="425,229,529,256"/>
+<area shape="rect" id="node7" href="$regspillover_8h.html" title=" " alt="" coords="298,229,409,256"/>
+<area shape="rect" id="node8" href="$svspillover_8h.html" title=" " alt="" coords="433,229,537,256"/>
 </map>

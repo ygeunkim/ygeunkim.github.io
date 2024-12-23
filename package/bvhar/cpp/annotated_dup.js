@@ -57,6 +57,12 @@ var annotated_dup =
       [ "McmcSv", "classbvhar_1_1McmcSv.html", "classbvhar_1_1McmcSv" ],
       [ "McmcInterface", "classbvhar_1_1McmcInterface.html", "classbvhar_1_1McmcInterface" ],
       [ "bvharprogress", "classbvhar_1_1bvharprogress.html", "classbvhar_1_1bvharprogress" ],
+      [ "McmcVarSpillover", "classbvhar_1_1McmcVarSpillover.html", "classbvhar_1_1McmcVarSpillover" ],
+      [ "McmcVharSpillover", "classbvhar_1_1McmcVharSpillover.html", "classbvhar_1_1McmcVharSpillover" ],
+      [ "McmcSpilloverRun", "classbvhar_1_1McmcSpilloverRun.html", "classbvhar_1_1McmcSpilloverRun" ],
+      [ "McmcSpillover", "classbvhar_1_1McmcSpillover.html", "classbvhar_1_1McmcSpillover" ],
+      [ "DynamicLdltSpillover", "classbvhar_1_1DynamicLdltSpillover.html", "classbvhar_1_1DynamicLdltSpillover" ],
+      [ "DynamicSvSpillover", "classbvhar_1_1DynamicSvSpillover.html", "classbvhar_1_1DynamicSvSpillover" ],
       [ "MinnSpec", "structbvhar_1_1MinnSpec.html", "structbvhar_1_1MinnSpec" ],
       [ "BvarSpec", "structbvhar_1_1BvarSpec.html", "structbvhar_1_1BvarSpec" ],
       [ "BvharSpec", "structbvhar_1_1BvharSpec.html", "structbvhar_1_1BvharSpec" ],
@@ -88,10 +94,6 @@ var annotated_dup =
       [ "OlsForecaster", "classbvhar_1_1OlsForecaster.html", "classbvhar_1_1OlsForecaster" ],
       [ "VarForecaster", "classbvhar_1_1VarForecaster.html", "classbvhar_1_1VarForecaster" ],
       [ "VharForecaster", "classbvhar_1_1VharForecaster.html", "classbvhar_1_1VharForecaster" ],
-      [ "OlsSpillover", "classbvhar_1_1OlsSpillover.html", "classbvhar_1_1OlsSpillover" ],
-      [ "RegSpillover", "classbvhar_1_1RegSpillover.html", "classbvhar_1_1RegSpillover" ],
-      [ "RegVharSpillover", "classbvhar_1_1RegVharSpillover.html", "classbvhar_1_1RegVharSpillover" ],
-      [ "SvSpillover", "classbvhar_1_1SvSpillover.html", "classbvhar_1_1SvSpillover" ],
-      [ "SvVharSpillover", "classbvhar_1_1SvVharSpillover.html", "classbvhar_1_1SvVharSpillover" ]
+      [ "OlsSpillover", "classbvhar_1_1OlsSpillover.html", "classbvhar_1_1OlsSpillover" ]
     ] ]
 ];

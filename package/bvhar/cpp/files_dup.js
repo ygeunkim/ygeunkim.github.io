@@ -1,34 +1,7 @@
 var files_dup =
 [
     [ "bvharcommon.h", "bvharcommon_8h.html", "bvharcommon_8h" ],
-    [ "bvharconfig.h", "bvharconfig_8h.html", [
-      [ "RegParams", "structbvhar_1_1RegParams.html", "structbvhar_1_1RegParams" ],
-      [ "SvParams", "structbvhar_1_1SvParams.html", "structbvhar_1_1SvParams" ],
-      [ "MinnParams", "structbvhar_1_1MinnParams.html", "structbvhar_1_1MinnParams" ],
-      [ "HierminnParams", "structbvhar_1_1HierminnParams.html", "structbvhar_1_1HierminnParams" ],
-      [ "SsvsParams", "structbvhar_1_1SsvsParams.html", "structbvhar_1_1SsvsParams" ],
-      [ "HorseshoeParams", "structbvhar_1_1HorseshoeParams.html", "structbvhar_1_1HorseshoeParams" ],
-      [ "NgParams", "structbvhar_1_1NgParams.html", "structbvhar_1_1NgParams" ],
-      [ "DlParams", "structbvhar_1_1DlParams.html", "structbvhar_1_1DlParams" ],
-      [ "GdpParams", "structbvhar_1_1GdpParams.html", "structbvhar_1_1GdpParams" ],
-      [ "RegInits", "structbvhar_1_1RegInits.html", "structbvhar_1_1RegInits" ],
-      [ "LdltInits", "structbvhar_1_1LdltInits.html", "structbvhar_1_1LdltInits" ],
-      [ "SvInits", "structbvhar_1_1SvInits.html", "structbvhar_1_1SvInits" ],
-      [ "HierminnInits", "structbvhar_1_1HierminnInits.html", "structbvhar_1_1HierminnInits" ],
-      [ "SsvsInits", "structbvhar_1_1SsvsInits.html", "structbvhar_1_1SsvsInits" ],
-      [ "GlInits", "structbvhar_1_1GlInits.html", "structbvhar_1_1GlInits" ],
-      [ "HsInits", "structbvhar_1_1HsInits.html", "structbvhar_1_1HsInits" ],
-      [ "NgInits", "structbvhar_1_1NgInits.html", "structbvhar_1_1NgInits" ],
-      [ "GdpInits", "structbvhar_1_1GdpInits.html", "structbvhar_1_1GdpInits" ],
-      [ "RegRecords", "structbvhar_1_1RegRecords.html", "structbvhar_1_1RegRecords" ],
-      [ "SparseRecords", "structbvhar_1_1SparseRecords.html", "structbvhar_1_1SparseRecords" ],
-      [ "LdltRecords", "structbvhar_1_1LdltRecords.html", "structbvhar_1_1LdltRecords" ],
-      [ "SvRecords", "structbvhar_1_1SvRecords.html", "structbvhar_1_1SvRecords" ],
-      [ "SsvsRecords", "structbvhar_1_1SsvsRecords.html", "structbvhar_1_1SsvsRecords" ],
-      [ "GlobalLocalRecords", "structbvhar_1_1GlobalLocalRecords.html", "structbvhar_1_1GlobalLocalRecords" ],
-      [ "HorseshoeRecords", "structbvhar_1_1HorseshoeRecords.html", "structbvhar_1_1HorseshoeRecords" ],
-      [ "NgRecords", "structbvhar_1_1NgRecords.html", "structbvhar_1_1NgRecords" ]
-    ] ],
+    [ "bvharconfig.h", "bvharconfig_8h.html", "bvharconfig_8h" ],
     [ "bvhardesign.h", "bvhardesign_8h.html", "bvhardesign_8h" ],
     [ "bvhardraw.h", "bvhardraw_8h.html", "bvhardraw_8h" ],
     [ "bvhareigen.h", "bvhareigen_8h.html", "bvhareigen_8h" ],
@@ -43,6 +16,7 @@ var files_dup =
     ] ],
     [ "bvharsim.h", "bvharsim_8h.html", "bvharsim_8h" ],
     [ "bvharspdlog.h", "bvharspdlog_8h.html", "bvharspdlog_8h" ],
+    [ "bvharspillover.h", "bvharspillover_8h.html", "bvharspillover_8h" ],
     [ "bvharstructural.h", "bvharstructural_8h.html", "bvharstructural_8h" ],
     [ "commondefs.h", "commondefs_8h.html", "commondefs_8h" ],
     [ "mcmcreg.h", "mcmcreg_8h.html", "mcmcreg_8h" ],
@@ -92,13 +66,7 @@ var files_dup =
       [ "OlsSpillover", "classbvhar_1_1OlsSpillover.html", "classbvhar_1_1OlsSpillover" ]
     ] ],
     [ "regforecaster.h", "regforecaster_8h.html", "regforecaster_8h" ],
-    [ "regspillover.h", "regspillover_8h.html", [
-      [ "RegSpillover", "classbvhar_1_1RegSpillover.html", "classbvhar_1_1RegSpillover" ],
-      [ "RegVharSpillover", "classbvhar_1_1RegVharSpillover.html", "classbvhar_1_1RegVharSpillover" ]
-    ] ],
+    [ "regspillover.h", "regspillover_8h.html", "regspillover_8h" ],
     [ "svforecaster.h", "svforecaster_8h.html", "svforecaster_8h" ],
-    [ "svspillover.h", "svspillover_8h.html", [
-      [ "SvSpillover", "classbvhar_1_1SvSpillover.html", "classbvhar_1_1SvSpillover" ],
-      [ "SvVharSpillover", "classbvhar_1_1SvVharSpillover.html", "classbvhar_1_1SvVharSpillover" ]
-    ] ]
+    [ "svspillover.h", "svspillover_8h.html", "svspillover_8h" ]
 ];

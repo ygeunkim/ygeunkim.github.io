@@ -1,8 +1,8 @@
 <map id="svspillover.h" name="svspillover.h">
-<area shape="rect" id="node1" title=" " alt="" coords="1086,5,1190,32"/>
-<area shape="rect" id="node2" href="$mcmcsv_8h.html" title=" " alt="" coords="1151,80,1239,107"/>
-<area shape="rect" id="node42" href="$bvharstructural_8h.html" title=" " alt="" coords="999,155,1133,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1403,5,1507,32"/>
+<area shape="rect" id="node2" href="$bvharspillover_8h.html" title=" " alt="" coords="1392,80,1519,107"/>
 <area shape="rect" id="node3" href="$bvharmcmc_8h.html" title="Header including MCMC algorithm." alt="" coords="2100,155,2211,181"/>
+<area shape="rect" id="node42" href="$bvharstructural_8h.html" title=" " alt="" coords="1315,155,1449,181"/>
 <area shape="rect" id="node4" href="$bvharconfig_8h.html" title="Headers including MCMC configuration structs." alt="" coords="364,229,475,256"/>
 <area shape="rect" id="node38" href="$bvharprogress_8h.html" title=" " alt="" coords="2729,535,2856,562"/>
 <area shape="rect" id="node39" href="$bvharinterrupt_8h.html" title=" " alt="" coords="2616,229,2743,256"/>

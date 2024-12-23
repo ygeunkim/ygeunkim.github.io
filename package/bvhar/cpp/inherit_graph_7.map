@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classbvhar_1_1McmcOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node1" href="$classbvhar_1_1McmcInterface.html" title="Interface class for MCMC." alt="" coords="5,13,169,39"/>
+<area shape="rect" id="node2" href="$classbvhar_1_1McmcRun.html" title="Class that conducts MCMC." alt="" coords="217,5,439,47"/>
 </map>

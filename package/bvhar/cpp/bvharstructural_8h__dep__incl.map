@@ -1,7 +1,8 @@
 <map id="bvharstructural.h" name="bvharstructural.h">
-<area shape="rect" id="node1" title=" " alt="" coords="207,5,340,32"/>
-<area shape="rect" id="node2" href="$minnspillover_8h.html" title=" " alt="" coords="5,80,128,107"/>
-<area shape="rect" id="node3" href="$olsspillover_8h.html" title=" " alt="" coords="153,80,261,107"/>
-<area shape="rect" id="node4" href="$regspillover_8h.html" title=" " alt="" coords="285,80,395,107"/>
-<area shape="rect" id="node5" href="$svspillover_8h.html" title=" " alt="" coords="420,80,524,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="209,5,342,32"/>
+<area shape="rect" id="node2" href="$bvharspillover_8h.html" title=" " alt="" coords="63,80,189,107"/>
+<area shape="rect" id="node5" href="$minnspillover_8h.html" title=" " alt="" coords="214,80,337,107"/>
+<area shape="rect" id="node6" href="$olsspillover_8h.html" title=" " alt="" coords="361,80,469,107"/>
+<area shape="rect" id="node3" href="$regspillover_8h.html" title=" " alt="" coords="5,155,116,181"/>
+<area shape="rect" id="node4" href="$svspillover_8h.html" title=" " alt="" coords="141,155,245,181"/>
 </map>

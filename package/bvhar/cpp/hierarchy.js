@@ -2,6 +2,8 @@ var hierarchy =
 [
     [ "bvhar::bvharinterrupt", "classbvhar_1_1bvharinterrupt.html", null ],
     [ "bvhar::bvharprogress", "classbvhar_1_1bvharprogress.html", null ],
+    [ "bvhar::DynamicLdltSpillover", "classbvhar_1_1DynamicLdltSpillover.html", null ],
+    [ "bvhar::DynamicSvSpillover", "classbvhar_1_1DynamicSvSpillover.html", null ],
     [ "bvhar::GlobalLocalRecords", "structbvhar_1_1GlobalLocalRecords.html", [
       [ "bvhar::HorseshoeRecords", "structbvhar_1_1HorseshoeRecords.html", null ],
       [ "bvhar::NgRecords", "structbvhar_1_1NgRecords.html", null ]
@@ -33,6 +35,11 @@ var hierarchy =
       [ "bvhar::McmcExpandforecastRun< BaseForecaster, isGroup >", "classbvhar_1_1McmcExpandforecastRun.html", null ],
       [ "bvhar::McmcRollforecastRun< BaseForecaster, isGroup >", "classbvhar_1_1McmcRollforecastRun.html", null ]
     ] ],
+    [ "bvhar::McmcSpillover", "classbvhar_1_1McmcSpillover.html", [
+      [ "bvhar::McmcVarSpillover< RecordType >", "classbvhar_1_1McmcVarSpillover.html", null ],
+      [ "bvhar::McmcVharSpillover< RecordType >", "classbvhar_1_1McmcVharSpillover.html", null ]
+    ] ],
+    [ "bvhar::McmcSpilloverRun< RecordType >", "classbvhar_1_1McmcSpilloverRun.html", null ],
     [ "bvhar::McmcTriangular", "classbvhar_1_1McmcTriangular.html", [
       [ "bvhar::McmcReg", "classbvhar_1_1McmcReg.html", [
         [ "bvhar::McmcDl< BaseMcmc, isGroup >", "classbvhar_1_1McmcDl.html", null ],
@@ -116,12 +123,6 @@ var hierarchy =
       [ "bvhar::LdltRecords", "structbvhar_1_1LdltRecords.html", null ],
       [ "bvhar::SvRecords", "structbvhar_1_1SvRecords.html", null ]
     ] ],
-    [ "bvhar::RegSpillover", "classbvhar_1_1RegSpillover.html", [
-      [ "bvhar::RegVharSpillover", "classbvhar_1_1RegVharSpillover.html", null ]
-    ] ],
     [ "bvhar::SparseRecords", "structbvhar_1_1SparseRecords.html", null ],
-    [ "bvhar::SsvsRecords", "structbvhar_1_1SsvsRecords.html", null ],
-    [ "bvhar::SvSpillover", "classbvhar_1_1SvSpillover.html", [
-      [ "bvhar::SvVharSpillover", "classbvhar_1_1SvVharSpillover.html", null ]
-    ] ]
+    [ "bvhar::SsvsRecords", "structbvhar_1_1SsvsRecords.html", null ]
 ];

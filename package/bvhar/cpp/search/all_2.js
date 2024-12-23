@@ -17,7 +17,7 @@ var searchData=
   ['build_5fxdummy_120',['build_xdummy',['../namespacebvhar.html#a6f04749bb537a4c13614d26b4751c854',1,'bvhar']]],
   ['build_5fy0_121',['build_y0',['../namespacebvhar.html#ae1354f368716d19119b45819613cd05b',1,'bvhar']]],
   ['build_5fydummy_122',['build_ydummy',['../namespacebvhar.html#a8f898c60e82830ea8a8146d681020a50',1,'bvhar']]],
-  ['builddesign_123',['buildDesign',['../classbvhar_1_1McmcVharforecastRun.html#a8c08f3cd7ae38947307602903d1aac29',1,'bvhar::McmcVharforecastRun::buildDesign()'],['../classbvhar_1_1McmcVarforecastRun.html#a9976ccbec5b73f94224a3c2cfaaf9303',1,'bvhar::McmcVarforecastRun::buildDesign()'],['../classbvhar_1_1McmcOutforecastRun.html#afeebaf140a257475c96b40540fd62cf8',1,'bvhar::McmcOutforecastRun::buildDesign()']]],
+  ['builddesign_123',['buildDesign',['../classbvhar_1_1DynamicLdltSpillover.html#a0a6895d914f1db249e78796603adab88',1,'bvhar::DynamicLdltSpillover::buildDesign()'],['../classbvhar_1_1McmcVharforecastRun.html#a8c08f3cd7ae38947307602903d1aac29',1,'bvhar::McmcVharforecastRun::buildDesign()'],['../classbvhar_1_1McmcVarforecastRun.html#a9976ccbec5b73f94224a3c2cfaaf9303',1,'bvhar::McmcVarforecastRun::buildDesign()'],['../classbvhar_1_1McmcOutforecastRun.html#afeebaf140a257475c96b40540fd62cf8',1,'bvhar::McmcOutforecastRun::buildDesign()']]],
   ['bvarforecaster_124',['BvarForecaster',['../classbvhar_1_1BvarForecaster.html#a20e1e5cf1b02676eeb2f6fb5db657d8b',1,'bvhar::BvarForecaster::BvarForecaster()'],['../classbvhar_1_1BvarForecaster.html',1,'bvhar::BvarForecaster']]],
   ['bvarspec_125',['BvarSpec',['../structbvhar_1_1BvarSpec.html#a5045c616cda2a05aea4aea0215935dc4',1,'bvhar::BvarSpec::BvarSpec()'],['../structbvhar_1_1BvarSpec.html',1,'bvhar::BvarSpec']]],
   ['bvhar_126',['bvhar',['../namespacebvhar.html',1,'']]],
@@ -40,6 +40,7 @@ var searchData=
   ['bvharspdlog_2eh_143',['bvharspdlog.h',['../bvharspdlog_8h.html',1,'']]],
   ['bvharspec_144',['BvharSpec',['../structbvhar_1_1BvharSpec.html',1,'bvhar::BvharSpec'],['../structbvhar_1_1BvharSpec.html#a00351c8c7aa249f373dec949dc86bacd',1,'bvhar::BvharSpec::BvharSpec()']]],
   ['bvharspillover_145',['BvharSpillover',['../classbvhar_1_1BvharSpillover.html',1,'bvhar::BvharSpillover'],['../classbvhar_1_1BvharSpillover.html#a60cf2895f7bdfab5399cc5236eca4b38',1,'bvhar::BvharSpillover::BvharSpillover()']]],
-  ['bvharstructural_2eh_146',['bvharstructural.h',['../bvharstructural_8h.html',1,'']]],
-  ['sinks_147',['sinks',['../namespacebvhar_1_1sinks.html',1,'bvhar']]]
+  ['bvharspillover_2eh_146',['bvharspillover.h',['../bvharspillover_8h.html',1,'']]],
+  ['bvharstructural_2eh_147',['bvharstructural.h',['../bvharstructural_8h.html',1,'']]],
+  ['sinks_148',['sinks',['../namespacebvhar_1_1sinks.html',1,'bvhar']]]
 ];

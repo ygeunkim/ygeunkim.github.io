@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon-120x120.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">bvhar
-   &#160;<span id="projectnumber">2.1.2.9013</span>
+   &#160;<span id="projectnumber">2.1.2.9014</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -143,9 +143,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afcd0849af14531c629a934b09cca13ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1LdltRecords.html#afcd0849af14531c629a934b09cca13ee">returnSvRecords</a> (const <a class="el" href="structbvhar_1_1SparseRecords.html">SparseRecords</a> &amp;sparse_record, int num_iter, int num_burn, int thin, bool sparse) const override</td></tr>
 <tr class="memdesc:afcd0849af14531c629a934b09cca13ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code><a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a></code>  <a href="structbvhar_1_1LdltRecords.html#afcd0849af14531c629a934b09cca13ee">More...</a><br /></td></tr>
 <tr class="separator:afcd0849af14531c629a934b09cca13ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9682f2bfb1012c3d163930133ac2ab18"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1LdltRecords.html#a9682f2bfb1012c3d163930133ac2ab18">getDim</a> () override</td></tr>
+<tr class="memdesc:a9682f2bfb1012c3d163930133ac2ab18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dimension.  <a href="structbvhar_1_1LdltRecords.html#a9682f2bfb1012c3d163930133ac2ab18">More...</a><br /></td></tr>
+<tr class="separator:a9682f2bfb1012c3d163930133ac2ab18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8d78c46d062dfe4bf8f243a25ded737"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1LdltRecords.html#aa8d78c46d062dfe4bf8f243a25ded737">updateDiag</a> (int i, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_update) override</td></tr>
 <tr class="memdesc:aa8d78c46d062dfe4bf8f243a25ded737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in D.  <a href="structbvhar_1_1LdltRecords.html#aa8d78c46d062dfe4bf8f243a25ded737">More...</a><br /></td></tr>
 <tr class="separator:aa8d78c46d062dfe4bf8f243a25ded737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb31ad4a3fc197f9fe55ee25a4737a4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1LdltRecords.html#afb31ad4a3fc197f9fe55ee25a4737a4c">updateDiag</a> (int i, int id, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_update) override</td></tr>
+<tr class="memdesc:afb31ad4a3fc197f9fe55ee25a4737a4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in D.  <a href="structbvhar_1_1LdltRecords.html#afb31ad4a3fc197f9fe55ee25a4737a4c">More...</a><br /></td></tr>
+<tr class="separator:afb31ad4a3fc197f9fe55ee25a4737a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9316603b66b9c3c788c9c6147f61947a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1LdltRecords.html#a9316603b66b9c3c788c9c6147f61947a">updateDiag</a> (int i, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_update, Eigen::Ref&lt; Eigen::VectorXd &gt; sv_sig) override</td></tr>
 <tr class="memdesc:a9316603b66b9c3c788c9c6147f61947a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters in D.  <a href="structbvhar_1_1LdltRecords.html#a9316603b66b9c3c788c9c6147f61947a">More...</a><br /></td></tr>
 <tr class="separator:a9316603b66b9c3c788c9c6147f61947a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -712,8 +718,38 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a9682f2bfb1012c3d163930133ac2ab18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9682f2bfb1012c3d163930133ac2ab18">&#9670;&nbsp;</a></span>getDim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bvhar::LdltRecords::getDim </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the dimension. </p>
+<dl class="section return"><dt>Returns</dt><dd>int Time series dimension </dd></dl>
+
+<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#aacb813123ce119b8954b12fb4163e862">bvhar::RegRecords</a>.</p>
+
+</div>
+</div>
 <a id="aa8d78c46d062dfe4bf8f243a25ded737"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8d78c46d062dfe4bf8f243a25ded737">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8d78c46d062dfe4bf8f243a25ded737">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -759,8 +795,62 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="afb31ad4a3fc197f9fe55ee25a4737a4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb31ad4a3fc197f9fe55ee25a4737a4c">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bvhar::LdltRecords::updateDiag </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>sv_update</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update parameters in D. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">id</td><td>Timestamp </td></tr>
+    <tr><td class="paramname">sv_update</td><td>State vector draw </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="structbvhar_1_1RegRecords.html#a72f93196c563f661ea81950756eecf52">bvhar::RegRecords</a>.</p>
+
+</div>
+</div>
 <a id="a9316603b66b9c3c788c9c6147f61947a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9316603b66b9c3c788c9c6147f61947a">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9316603b66b9c3c788c9c6147f61947a">&#9670;&nbsp;</a></span>updateDiag() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kronecker_5feigen_289',['kronecker_eigen',['../namespacebvhar.html#abdc31a61ba3065c182462e946894e31f',1,'bvhar']]]
+  ['kronecker_5feigen_295',['kronecker_eigen',['../namespacebvhar.html#abdc31a61ba3065c182462e946894e31f',1,'bvhar']]]
 ];

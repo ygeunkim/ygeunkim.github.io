@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['varforecaster_1059',['VarForecaster',['../classbvhar_1_1VarForecaster.html#a87e3c22c4f7b79023db62d5a54a541ae',1,'bvhar::VarForecaster']]],
-  ['varsv_5fh0_1060',['varsv_h0',['../namespacebvhar.html#ad19a0535c3496e83c21c225d85d982cd',1,'bvhar']]],
-  ['varsv_5fht_1061',['varsv_ht',['../namespacebvhar.html#a35f9e0939e2342d23a6763fbedf113bf',1,'bvhar']]],
-  ['varsv_5fsigh_1062',['varsv_sigh',['../namespacebvhar.html#afe5a3ebee84622c2c286a387cf545a7c',1,'bvhar']]],
-  ['vectorize_5feigen_1063',['vectorize_eigen',['../namespacebvhar.html#a3512b42682c4f8682c9c826dd329fd5f',1,'bvhar']]],
-  ['vharforecaster_1064',['VharForecaster',['../classbvhar_1_1VharForecaster.html#a9b292fec8647673265eddf845c10b380',1,'bvhar::VharForecaster']]]
+  ['varforecaster_1083',['VarForecaster',['../classbvhar_1_1VarForecaster.html#a87e3c22c4f7b79023db62d5a54a541ae',1,'bvhar::VarForecaster']]],
+  ['varsv_5fh0_1084',['varsv_h0',['../namespacebvhar.html#ad19a0535c3496e83c21c225d85d982cd',1,'bvhar']]],
+  ['varsv_5fht_1085',['varsv_ht',['../namespacebvhar.html#a35f9e0939e2342d23a6763fbedf113bf',1,'bvhar']]],
+  ['varsv_5fsigh_1086',['varsv_sigh',['../namespacebvhar.html#afe5a3ebee84622c2c286a387cf545a7c',1,'bvhar']]],
+  ['vectorize_5feigen_1087',['vectorize_eigen',['../namespacebvhar.html#a3512b42682c4f8682c9c826dd329fd5f',1,'bvhar']]],
+  ['vharforecaster_1088',['VharForecaster',['../classbvhar_1_1VharForecaster.html#a9b292fec8647673265eddf845c10b380',1,'bvhar::VharForecaster']]]
 ];
