@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9014</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9015</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +57,8 @@
 
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="development version" id="bvhar-development-version">bvhar (development version)<a class="anchor" aria-label="anchor" href="#bvhar-development-version"></a></h2>
-<ul><li><p>Use <code>spdlog</code> (using <code>RcppSpdlog</code>) logger instead of custom progress bar (<code>bvharprogress</code>).</p></li>
+<ul><li><p>Requires <code>R &gt;= 4.1</code> following <a href="https://www.tidyverse.org/blog/2019/04/r-version-support/" class="external-link">tidyverse R version support schedule</a></p></li>
+<li><p>Use <code>spdlog</code> (using <code>RcppSpdlog</code>) logger instead of custom progress bar (<code>bvharprogress</code>).</p></li>
 <li><p>Use <code>RcppThread</code> to make the logger thread-safe (<a href="https://github.com/eddelbuettel/rcppspdlog/issues/22" class="external-link">eddelbuettel/rcppspdlog#22</a>)</p></li>
 <li><p>Can filter MCMC draws where coefficient is stable when forecasting.</p></li>
 <li><p>Changed Eigen and boost assertion behavior (<code>eigen_assert</code> and <code>BOOST_ASSERT</code>) to give error instead of abort.</p></li>

@@ -29,7 +29,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9014</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9015</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -450,9 +450,9 @@ forecasting.</p>
 <span>  BVAR <span class="op">=</span> <span class="va">mse_bvar</span>,</span>
 <span>  BVHAR1 <span class="op">=</span> <span class="va">mse_bvhar_v1</span>,</span>
 <span>  BVHAR2 <span class="op">=</span> <span class="va">mse_bvhar_v2</span></span>
-<span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">mean</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist</a></span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
+<span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">mean</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/sort.html" class="external-link">sort</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt; BVHAR2   BVAR BVHAR1    VAR   VHAR </span></span>
 <span><span class="co">#&gt;   6.41   6.43   6.48   7.16   7.77</span></span></code></pre></div>
@@ -464,7 +464,7 @@ forecasting.</p>
 <span>  <span class="va">pred_bvar</span>,</span>
 <span>  <span class="va">pred_bvhar_v1</span>,</span>
 <span>  <span class="va">pred_bvhar_v2</span></span>
-<span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
+<span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="../reference/gg_loss.html">gg_loss</a></span><span class="op">(</span>y <span class="op">=</span> <span class="va">y_test</span>, <span class="st">"mse"</span><span class="op">)</span></span></code></pre></div>
 <p><img src="forecasting_files/figure-html/evalplot-1.png" width="70%" style="display: block; margin: auto;"></p>
 <p>Relative MAPE (MAPE), benchmark model: VAR</p>
@@ -475,8 +475,8 @@ forecasting.</p>
 <span>  BVAR <span class="op">=</span> <span class="va">pred_bvar</span>,</span>
 <span>  BVHAR1 <span class="op">=</span> <span class="va">pred_bvhar_v1</span>,</span>
 <span>  BVHAR2 <span class="op">=</span> <span class="va">pred_bvhar_v2</span></span>
-<span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">rmape</span>, pred_bench <span class="op">=</span> <span class="va">pred_var</span>, y <span class="op">=</span> <span class="va">y_test</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
+<span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">rmape</span>, pred_bench <span class="op">=</span> <span class="va">pred_var</span>, y <span class="op">=</span> <span class="va">y_test</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt;    VAR   VHAR   BVAR BVHAR1 BVHAR2 </span></span>
 <span><span class="co">#&gt;  1.000  1.020  0.965  0.954  0.948</span></span></code></pre></div>
@@ -556,8 +556,8 @@ above.</p>
 <span>  BVAR <span class="op">=</span> <span class="va">bvar_roll</span>,</span>
 <span>  BVHAR1 <span class="op">=</span> <span class="va">bvhar_roll_v1</span>,</span>
 <span>  BVHAR2 <span class="op">=</span> <span class="va">bvhar_roll_v2</span></span>
-<span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">rmape</span>, pred_bench <span class="op">=</span> <span class="va">var_roll</span>, y <span class="op">=</span> <span class="va">y_test</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
+<span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">rmape</span>, pred_bench <span class="op">=</span> <span class="va">var_roll</span>, y <span class="op">=</span> <span class="va">y_test</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt;    VAR   VHAR   BVAR BVHAR1 BVHAR2 </span></span>
 <span><span class="co">#&gt;  1.000  0.989  0.982  0.973  0.973</span></span></code></pre></div>
@@ -607,8 +607,8 @@ starting point. The other is same.</p>
 <span>  BVAR <span class="op">=</span> <span class="va">bvar_expand</span>,</span>
 <span>  BVHAR1 <span class="op">=</span> <span class="va">bvhar_expand_v1</span>,</span>
 <span>  BVHAR2 <span class="op">=</span> <span class="va">bvhar_expand_v2</span></span>
-<span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">rmape</span>, pred_bench <span class="op">=</span> <span class="va">var_expand</span>, y <span class="op">=</span> <span class="va">y_test</span><span class="op">)</span> <span class="op"><a href="../reference/pipe.html">%&gt;%</a></span> </span>
+<span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">lapply</a></span><span class="op">(</span><span class="va">rmape</span>, pred_bench <span class="op">=</span> <span class="va">var_expand</span>, y <span class="op">=</span> <span class="va">y_test</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt;    VAR   VHAR   BVAR BVHAR1 BVHAR2 </span></span>
 <span><span class="co">#&gt;  1.000  0.985  0.982  0.969  0.969</span></span></code></pre></div>
