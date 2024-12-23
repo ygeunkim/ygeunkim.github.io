@@ -366,6 +366,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td><a href="#bvhar.model.VarBayes.roll_forecast">roll_forecast</a></td>
 <td>Rolling-window forecasting</td>
 </tr>
+<tr class="odd">
+<td><a href="#bvhar.model.VarBayes.spillover">spillover</a></td>
+<td>Spillover</td>
+</tr>
 </tbody>
 </table>
 <section id="bvhar.model.VarBayes.expand_forecast" class="level3">
@@ -680,6 +684,68 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td></td>
 <td>dict</td>
 <td>Density forecasting results - “forecast” (ndarray): Posterior mean of forecasting - “se” (ndarray): Standard error of forecasting - “lower” (ndarray): Lower quantile of forecasting - “upper” (ndarray): Upper quantile of forecasting - “lpl” (float): Average log-predictive likelihood</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="bvhar.model.VarBayes.spillover" class="level3">
+<h3 class="anchored" data-anchor-id="bvhar.model.VarBayes.spillover">spillover</h3>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>model.VarBayes.spillover(n_ahead<span class="op">=</span><span class="dv">10</span>, level<span class="op">=</span><span class="fl">0.05</span>, sparse<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Spillover</p>
+<section id="parameters-4" class="level4 doc-section doc-section-parameters">
+<h4 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters-4">Parameters</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>n_ahead</td>
+<td>int</td>
+<td>Forecast step, by default 10</td>
+<td><code>10</code></td>
+</tr>
+<tr class="even">
+<td>level</td>
+<td>float</td>
+<td>Density level, by default .05</td>
+<td><code>0.05</code></td>
+</tr>
+<tr class="odd">
+<td>sparse</td>
+<td>bool</td>
+<td>Use sparse draw?, by default True</td>
+<td><code>True</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="returns-4" class="level4 doc-section doc-section-returns">
+<h4 class="doc-section doc-section-returns anchored" data-anchor-id="returns-4">Returns</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 78%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><em>type</em></td>
+<td>Density for each directional and sample spillover effect</td>
 </tr>
 </tbody>
 </table>
