@@ -95,7 +95,9 @@
     
     
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ygeunkim.github.io/package/bvhar/" class="external-link">bvhar</a></span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ygeunkim.github.io/package/bvhar/" class="external-link">bvhar</a></span><span class="op">)</span></span>
+<span><span class="co">#&gt; Error in get(paste0(generic, ".", class), envir = get_method_env()) : </span></span>
+<span><span class="co">#&gt;   object 'type_sum.accel' not found</span></span></code></pre></div>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">etf</span> <span class="op">&lt;-</span> <span class="va">etf_vix</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">55</span>, <span class="fl">1</span><span class="op">:</span><span class="fl">3</span><span class="op">]</span></span>
 <span><span class="co"># Split-------------------------------</span></span>
@@ -328,17 +330,17 @@ the default <code>type = "coef"</code> draws the heatmap.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter Record:</span></span>
 <span><span class="co">#&gt; # A draws_df: 10 iterations, 2 chains, and 91 variables</span></span>
-<span><span class="co">#&gt;       phi[1]   phi[2]   phi[3]    phi[4]   phi[5]  phi[6]     phi[7]     phi[8]</span></span>
-<span><span class="co">#&gt; 1    0.03942  -0.0946   0.1002  -0.00314   0.2951   0.921   0.263834  -6.06e-03</span></span>
-<span><span class="co">#&gt; 2   -0.00154   0.0489  -0.2163   0.00415   0.2305   0.710   0.044446  -5.33e-03</span></span>
-<span><span class="co">#&gt; 3   -0.00133  -0.1273   0.1504   0.02877  -0.4077   0.734   0.203486  -6.06e-04</span></span>
-<span><span class="co">#&gt; 4    0.00500  -0.1875  -0.1461   0.01817   0.7756   0.870   0.162456  -4.43e-04</span></span>
-<span><span class="co">#&gt; 5    0.12519  -0.0825   0.0236  -0.09570   0.7364   1.056   0.062802   4.03e-04</span></span>
-<span><span class="co">#&gt; 6    0.10653  -0.0394  -0.0190  -0.08040   0.6083   1.028   0.058872  -7.75e-05</span></span>
-<span><span class="co">#&gt; 7    0.00863  -0.0697  -0.0402  -0.03311  -0.1166   0.902   0.006873  -1.48e-04</span></span>
-<span><span class="co">#&gt; 8    0.20182  -0.1055  -0.0566  -0.11461   0.0775   1.050  -0.000932   8.24e-04</span></span>
-<span><span class="co">#&gt; 9    0.23448  -0.0268  -0.0573   0.38559   0.0784   0.935  -0.003575  -1.42e-03</span></span>
-<span><span class="co">#&gt; 10   0.26184  -0.0234   0.0485   0.22714  -0.0502   1.178   0.003097  -1.35e-03</span></span>
+<span><span class="co">#&gt;     phi[1]     phi[2]    phi[3]   phi[4]    phi[5]  phi[6]    phi[7]   phi[8]</span></span>
+<span><span class="co">#&gt; 1   0.4410  -0.004839   0.00157   0.1700   0.27797   0.965   0.01655  -0.0165</span></span>
+<span><span class="co">#&gt; 2   0.2697  -0.000884   0.17142   0.4494  -0.14490   0.952   0.00835  -0.0877</span></span>
+<span><span class="co">#&gt; 3   0.3419  -0.000576   0.23400   0.0065  -0.06958   1.180  -0.07220  -0.2475</span></span>
+<span><span class="co">#&gt; 4   0.0408   0.000976  -0.18517  -0.0123   0.23180   0.733  -0.01701  -0.0168</span></span>
+<span><span class="co">#&gt; 5   0.3283  -0.003629   0.15895   0.0204   0.35422   0.965   0.35939  -0.0331</span></span>
+<span><span class="co">#&gt; 6   0.2100   0.008561   0.09455   0.5259  -0.04578   1.003   0.36756  -0.0716</span></span>
+<span><span class="co">#&gt; 7   0.2864  -0.002110   0.10946   0.1842   0.03964   1.148   0.41394   0.0538</span></span>
+<span><span class="co">#&gt; 8   0.2487  -0.018843   0.35996   0.0423  -0.00968   0.672   0.18596   0.0904</span></span>
+<span><span class="co">#&gt; 9   0.4792  -0.010567  -0.06613   0.5996  -0.02460   0.924   0.18526  -0.1824</span></span>
+<span><span class="co">#&gt; 10  0.6289   0.000902   0.01633   0.2011   0.00630   1.088   0.08524  -0.0255</span></span>
 <span><span class="co">#&gt; # ... with 10 more draws, and 83 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 </div>

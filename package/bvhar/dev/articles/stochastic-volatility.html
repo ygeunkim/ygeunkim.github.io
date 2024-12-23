@@ -95,7 +95,9 @@
     
     
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ygeunkim.github.io/package/bvhar/" class="external-link">bvhar</a></span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ygeunkim.github.io/package/bvhar/" class="external-link">bvhar</a></span><span class="op">)</span></span>
+<span><span class="co">#&gt; Error in get(paste0(generic, ".", class), envir = get_method_env()) : </span></span>
+<span><span class="co">#&gt;   object 'type_sum.accel' not found</span></span></code></pre></div>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">etf</span> <span class="op">&lt;-</span> <span class="va">etf_vix</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">55</span>, <span class="fl">1</span><span class="op">:</span><span class="fl">3</span><span class="op">]</span></span>
 <span><span class="co"># Split-------------------------------</span></span>
@@ -273,28 +275,17 @@ VHAR-SV with shrinkage priors, respectively.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter Record:</span></span>
 <span><span class="co">#&gt; # A draws_df: 10 iterations, 2 chains, and 178 variables</span></span>
-<span><span class="co">#&gt;      phi[1]     phi[2]   phi[3]     phi[4]   phi[5]  phi[6]    phi[7]</span></span>
-<span><span class="co">#&gt; 1   -0.0727  -3.76e-03  -0.0171  -0.015994   0.6824   1.026   0.00317</span></span>
-<span><span class="co">#&gt; 2   -0.0319  -2.84e-02   0.0230  -0.008475   0.6141   1.008  -0.01019</span></span>
-<span><span class="co">#&gt; 3    0.0672  -3.39e-02  -0.0634   0.034941   0.3788   0.801  -0.05095</span></span>
-<span><span class="co">#&gt; 4    0.1039  -3.67e-02   0.4199  -0.003922  -0.0939   0.745   0.10855</span></span>
-<span><span class="co">#&gt; 5   -0.0145   3.08e-02   0.3151  -0.011624  -0.0205   0.581  -0.09658</span></span>
-<span><span class="co">#&gt; 6   -0.0621   5.56e-04   0.4496  -0.006614  -0.0990   0.610   0.20156</span></span>
-<span><span class="co">#&gt; 7    0.0226   6.02e-05   0.4146  -0.000680  -0.0204   0.829   0.04182</span></span>
-<span><span class="co">#&gt; 8   -0.0150   2.72e-05   0.5849  -0.000507   0.0332   0.680   0.05381</span></span>
-<span><span class="co">#&gt; 9    0.0202   2.49e-05   0.5013   0.000719   0.0878   0.652  -0.09883</span></span>
-<span><span class="co">#&gt; 10   0.0432   1.83e-05   0.3792   0.001674   0.0978   0.785  -0.00091</span></span>
-<span><span class="co">#&gt;        phi[8]</span></span>
-<span><span class="co">#&gt; 1   -0.004058</span></span>
-<span><span class="co">#&gt; 2    0.004203</span></span>
-<span><span class="co">#&gt; 3   -0.009691</span></span>
-<span><span class="co">#&gt; 4   -0.004725</span></span>
-<span><span class="co">#&gt; 5    0.022293</span></span>
-<span><span class="co">#&gt; 6    0.085020</span></span>
-<span><span class="co">#&gt; 7    0.012410</span></span>
-<span><span class="co">#&gt; 8   -0.008027</span></span>
-<span><span class="co">#&gt; 9    0.000848</span></span>
-<span><span class="co">#&gt; 10  -0.000203</span></span>
+<span><span class="co">#&gt;      phi[1]    phi[2]    phi[3]   phi[4]    phi[5]   phi[6]    phi[7]   phi[8]</span></span>
+<span><span class="co">#&gt; 1    0.0808   0.13918  -0.03271   0.6133   0.02720  0.01010  -0.00821   0.0979</span></span>
+<span><span class="co">#&gt; 2   -0.0421  -0.03534   0.30992   0.9179  -0.16235  0.16062   0.19516   0.5375</span></span>
+<span><span class="co">#&gt; 3    0.6547  -0.00897   0.13944  -0.0605  -0.01751  0.00937  -0.01974   0.0388</span></span>
+<span><span class="co">#&gt; 4    0.2362   0.04080   0.23958   0.4189  -0.02222  0.01750   0.21966   0.3714</span></span>
+<span><span class="co">#&gt; 5    0.5187   0.08891   0.00808  -0.0842   0.00689  0.07583   0.49361   0.1725</span></span>
+<span><span class="co">#&gt; 6    0.2028   0.12744   0.58250   0.7103  -0.10860  0.78136   0.16226   0.1387</span></span>
+<span><span class="co">#&gt; 7    0.1571   0.16133  -0.36441  -0.2600   0.36580  0.91886   0.01000  -0.2657</span></span>
+<span><span class="co">#&gt; 8    0.0305   0.07770   0.02939   0.2459  -0.01357  0.96815   0.54899  -0.3217</span></span>
+<span><span class="co">#&gt; 9   -0.0769   0.30179   0.15290   0.3547  -0.19746  0.95768  -0.61852  -0.3520</span></span>
+<span><span class="co">#&gt; 10   0.2266   0.19757   0.14541   0.0233   0.15840  0.75134   0.04540  -0.2254</span></span>
 <span><span class="co">#&gt; # ... with 10 more draws, and 170 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 </div>
