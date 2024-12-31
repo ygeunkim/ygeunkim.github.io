@@ -116,8 +116,8 @@ Inheritance diagram for bvhar::RegParams:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9d2716861461e8fe5395c73ba4296e7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a9d2716861461e8fe5395c73ba4296e7c">RegParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
-<tr class="separator:a9d2716861461e8fe5395c73ba4296e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51e42304ebb224d85d7d022915b48ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#af51e42304ebb224d85d7d022915b48ab">RegParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::VectorXi &amp;grp_id, const Eigen::MatrixXi &amp;grp_mat, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
+<tr class="separator:af51e42304ebb224d85d7d022915b48ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -155,12 +155,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac87ac68e944343f56ac0cc8b2b2c8369"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8048811f923fbf958b847bd7bd12c067"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a8048811f923fbf958b847bd7bd12c067">_cross_id</a></td></tr>
 <tr class="separator:a8048811f923fbf958b847bd7bd12c067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74cc9494c8c24cdf8cffe7ba035ee7e5"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXi&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a74cc9494c8c24cdf8cffe7ba035ee7e5">_grp_id</a></td></tr>
+<tr class="separator:a74cc9494c8c24cdf8cffe7ba035ee7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50f90d55307a9621506e4535b87c5044"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXi&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a50f90d55307a9621506e4535b87c5044">_grp_mat</a></td></tr>
+<tr class="separator:a50f90d55307a9621506e4535b87c5044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Hyperparameters for <code><a class="el" href="classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization.">McmcReg</a></code> </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9d2716861461e8fe5395c73ba4296e7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d2716861461e8fe5395c73ba4296e7c">&#9670;&nbsp;</a></span>RegParams()</h2>
+<a id="af51e42304ebb224d85d7d022915b48ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51e42304ebb224d85d7d022915b48ab">&#9670;&nbsp;</a></span>RegParams()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,6 +211,18 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">Rcpp::List &amp;&#160;</td>
           <td class="paramname"><em>intercept</em>, </td>
         </tr>
@@ -231,8 +247,8 @@ Public Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="structbvhar_1_1RegParams_a9d2716861461e8fe5395c73ba4296e7c_cgraph.png" border="0" usemap="#astructbvhar_1_1RegParams_a9d2716861461e8fe5395c73ba4296e7c_cgraph" alt=""/></div>
-<map name="astructbvhar_1_1RegParams_a9d2716861461e8fe5395c73ba4296e7c_cgraph" id="astructbvhar_1_1RegParams_a9d2716861461e8fe5395c73ba4296e7c_cgraph">
+<div class="center"><img src="structbvhar_1_1RegParams_af51e42304ebb224d85d7d022915b48ab_cgraph.png" border="0" usemap="#astructbvhar_1_1RegParams_af51e42304ebb224d85d7d022915b48ab_cgraph" alt=""/></div>
+<map name="astructbvhar_1_1RegParams_af51e42304ebb224d85d7d022915b48ab_cgraph" id="astructbvhar_1_1RegParams_af51e42304ebb224d85d7d022915b48ab_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,227,32"/>
 <area shape="rect" href="namespacebvhar.html#a4259e76082437051b0f410f0edfd51d5" title=" " alt="" coords="275,5,409,32"/>
 </map>
@@ -473,6 +489,34 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">std::set&lt;int&gt; bvhar::RegParams::_cross_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74cc9494c8c24cdf8cffe7ba035ee7e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74cc9494c8c24cdf8cffe7ba035ee7e5">&#9670;&nbsp;</a></span>_grp_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXi bvhar::RegParams::_grp_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50f90d55307a9621506e4535b87c5044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50f90d55307a9621506e4535b87c5044">&#9670;&nbsp;</a></span>_grp_mat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXi bvhar::RegParams::_grp_mat</td>
         </tr>
       </table>
 </div><div class="memdoc">

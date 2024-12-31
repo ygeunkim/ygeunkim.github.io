@@ -1,8 +1,6 @@
 var structbvhar_1_1SsvsParams =
 [
     [ "SsvsParams", "structbvhar_1_1SsvsParams.html#a7e85253c125f222232df795c1a793c6c", null ],
-    [ "_grp_id", "structbvhar_1_1SsvsParams.html#a9baf4bb4aac67b3c9ab943c4ffecf8b5", null ],
-    [ "_grp_mat", "structbvhar_1_1SsvsParams.html#a87862c3644719e5ca43486a29172b996", null ],
     [ "_coef_s1", "structbvhar_1_1SsvsParams.html#ada11ef8265d3ff9cbb418ef7cba9b23c", null ],
     [ "_coef_s2", "structbvhar_1_1SsvsParams.html#a2794830eaacc91198314e7d766490fa7", null ],
     [ "_contem_s1", "structbvhar_1_1SsvsParams.html#a6f54c98a24a30b93ea6a10c9607c57c7", null ],

@@ -1,6 +1,6 @@
 var structbvhar_1_1RegParams =
 [
-    [ "RegParams", "structbvhar_1_1RegParams.html#a9d2716861461e8fe5395c73ba4296e7c", null ],
+    [ "RegParams", "structbvhar_1_1RegParams.html#af51e42304ebb224d85d7d022915b48ab", null ],
     [ "_iter", "structbvhar_1_1RegParams.html#a6a08cf5877a20e33421608d5779813f8", null ],
     [ "_x", "structbvhar_1_1RegParams.html#a6a75ce4d38aa5f2aea8a6ef6d609309d", null ],
     [ "_y", "structbvhar_1_1RegParams.html#acd0e89fb44f614831f9b0dbe64d32d43", null ],
@@ -17,5 +17,7 @@ var structbvhar_1_1RegParams =
     [ "_num_alpha", "structbvhar_1_1RegParams.html#a5c4801543e7fa3184cafa000dd705831", null ],
     [ "_nrow", "structbvhar_1_1RegParams.html#a275500b950765adeac69b4fbc4358ccc", null ],
     [ "_own_id", "structbvhar_1_1RegParams.html#ac87ac68e944343f56ac0cc8b2b2c8369", null ],
-    [ "_cross_id", "structbvhar_1_1RegParams.html#a8048811f923fbf958b847bd7bd12c067", null ]
+    [ "_cross_id", "structbvhar_1_1RegParams.html#a8048811f923fbf958b847bd7bd12c067", null ],
+    [ "_grp_id", "structbvhar_1_1RegParams.html#a74cc9494c8c24cdf8cffe7ba035ee7e5", null ],
+    [ "_grp_mat", "structbvhar_1_1RegParams.html#a50f90d55307a9621506e4535b87c5044", null ]
 ];

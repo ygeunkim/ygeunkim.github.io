@@ -6,7 +6,7 @@
 <area shape="rect" id="node10" href="$classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4" title="Draw contemporaneous coefficients." alt="" coords="224,203,395,244"/>
 <area shape="rect" id="node12" href="$classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="224,268,395,309"/>
 <area shape="rect" id="node13" href="$classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295" title="Compute residual matrix for orthogonalization." alt="" coords="224,333,395,375"/>
-<area shape="rect" id="node14" href="$classbvhar_1_1McmcTriangular.html#ab2c9179d56a08587e8578823ee8b0708" title="Update SAVS penalty." alt="" coords="224,399,395,440"/>
+<area shape="rect" id="node14" href="$classbvhar_1_1McmcTriangular.html#ab108d89d73c05dd0de94add817f1d390" title="Update SAVS penalty." alt="" coords="224,399,395,440"/>
 <area shape="rect" id="node15" href="$classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b" title="Draw state vector." alt="" coords="224,464,395,505"/>
 <area shape="rect" id="node16" href="$classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3" title="Compute D." alt="" coords="224,529,395,571"/>
 <area shape="rect" id="node3" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="445,10,615,37"/>

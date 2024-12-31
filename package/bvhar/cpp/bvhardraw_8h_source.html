@@ -855,7 +855,7 @@ $(document).ready(function(){initNavTree('bvhardraw_8h_source.html',''); initRes
 <div class="line"><a name="l00765"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a6e74f43e4ad5c983e3f7a4499e9e27e5">  765</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespacebvhar.html#a6e74f43e4ad5c983e3f7a4499e9e27e5">dl_local_sparsity</a>(Eigen::VectorXd&amp; local_param, <span class="keywordtype">double</span>&amp; dir_concen,</div>
 <div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;                              Eigen::Ref&lt;const Eigen::VectorXd&gt; coef, boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coef.size(); ++i) {</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;    local_param[i] = 1 / <a class="code" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(1, 1 - dir_concen, 1, 2 * abs(coef[i]), rng)[0];</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;    local_param[i] = <a class="code" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(1, dir_concen - 1, 1, 2 * abs(coef[i]), rng)[0];</div>
 <div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;  }</div>
 <div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;  local_param /= local_param.sum();</div>
 <div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;}</div>
@@ -868,7 +868,7 @@ $(document).ready(function(){initNavTree('bvhardraw_8h_source.html',''); initRes
 <div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;<span class="comment">// @param rng boost rng</span></div>
 <div class="line"><a name="l00779"></a><span class="lineno"><a class="line" href="namespacebvhar.html#ae8974271cfe38c584ab0784a92f3970d">  779</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="namespacebvhar.html#ae8974271cfe38c584ab0784a92f3970d">dl_global_sparsity</a>(Eigen::Ref&lt;const Eigen::VectorXd&gt; local_param, <span class="keywordtype">double</span>&amp; dir_concen,</div>
 <div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;                                 Eigen::Ref&lt;Eigen::VectorXd&gt; coef, boost::random::mt19937&amp; rng) {</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;  <span class="keywordflow">return</span> 1 / <a class="code" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(1, coef.size() * (1 - dir_concen), 1, 2 * (coef.cwiseAbs().array() / local_param.array()).sum(), rng)[0];</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(1, coef.size() * (dir_concen - 1), 1, 2 * (coef.cwiseAbs().array() / local_param.array()).sum(), rng)[0];</div>
 <div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;}</div>
 <div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160; </div>
 <div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;<span class="comment">// Generating Group Parameter of Dirichlet-Laplace Prior</span></div>

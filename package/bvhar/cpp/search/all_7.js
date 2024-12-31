@@ -19,5 +19,7 @@ var searchData=
   ['glinits_3c_20ldltinits_20_3e_253',['GlInits&lt; LdltInits &gt;',['../structbvhar_1_1GlInits.html',1,'bvhar']]],
   ['global_5frecord_254',['global_record',['../structbvhar_1_1GlobalLocalRecords.html#aa8e239554b6c581ec0649ff3827873e8',1,'bvhar::GlobalLocalRecords']]],
   ['globallocalrecords_255',['GlobalLocalRecords',['../structbvhar_1_1GlobalLocalRecords.html',1,'bvhar::GlobalLocalRecords'],['../structbvhar_1_1GlobalLocalRecords.html#a0d112e474136dfc6a0b8dd0feedbe3cb',1,'bvhar::GlobalLocalRecords::GlobalLocalRecords(const Eigen::MatrixXd &amp;local_record, const Eigen::VectorXd &amp;global_record)'],['../structbvhar_1_1GlobalLocalRecords.html#a8732b5ba5bca400a53046924bc02e9fb',1,'bvhar::GlobalLocalRecords::GlobalLocalRecords(int num_iter, int num_alpha)'],['../structbvhar_1_1GlobalLocalRecords.html#ac54ace7468851d46eb7e61a5adff8013',1,'bvhar::GlobalLocalRecords::GlobalLocalRecords()']]],
-  ['group_5frecord_256',['group_record',['../structbvhar_1_1NgRecords.html#a8b2e15dd36e2109cc6d838e178b796cf',1,'bvhar::NgRecords::group_record()'],['../structbvhar_1_1HorseshoeRecords.html#a28cd1db500dc92f41aac102ac19669da',1,'bvhar::HorseshoeRecords::group_record()']]]
+  ['group_5frecord_256',['group_record',['../structbvhar_1_1NgRecords.html#a8b2e15dd36e2109cc6d838e178b796cf',1,'bvhar::NgRecords::group_record()'],['../structbvhar_1_1HorseshoeRecords.html#a28cd1db500dc92f41aac102ac19669da',1,'bvhar::HorseshoeRecords::group_record()']]],
+  ['grp_5fid_257',['grp_id',['../classbvhar_1_1McmcTriangular.html#a8e3012ff18a92edafc7ce33f662a622a',1,'bvhar::McmcTriangular']]],
+  ['grp_5fvec_258',['grp_vec',['../classbvhar_1_1McmcTriangular.html#ab921bf3d24ec8bc0dad050d3b492941c',1,'bvhar::McmcTriangular']]]
 ];
