@@ -10,14 +10,14 @@ var hierarchy =
     ] ],
     [ "bvhar::McmcForecaster", "classbvhar_1_1McmcForecaster.html", [
       [ "bvhar::RegForecaster", "classbvhar_1_1RegForecaster.html", [
-        [ "bvhar::McmcVarForecaster< RegForecaster >", "classbvhar_1_1McmcVarForecaster.html", [
+        [ "bvhar::McmcVarForecaster< RegForecaster >", "classbvhar_1_1McmcVarForecaster.html", null ],
+        [ "bvhar::McmcVharForecaster< RegForecaster >", "classbvhar_1_1McmcVharForecaster.html", null ],
+        [ "bvhar::McmcVarForecaster< BaseForecaster >", "classbvhar_1_1McmcVarForecaster.html", [
           [ "bvhar::McmcVarSelectForecaster< BaseForecaster >", "classbvhar_1_1McmcVarSelectForecaster.html", null ]
         ] ],
-        [ "bvhar::McmcVharForecaster< RegForecaster >", "classbvhar_1_1McmcVharForecaster.html", [
+        [ "bvhar::McmcVharForecaster< BaseForecaster >", "classbvhar_1_1McmcVharForecaster.html", [
           [ "bvhar::McmcVharSelectForecaster< BaseForecaster >", "classbvhar_1_1McmcVharSelectForecaster.html", null ]
-        ] ],
-        [ "bvhar::McmcVarForecaster< BaseForecaster >", "classbvhar_1_1McmcVarForecaster.html", null ],
-        [ "bvhar::McmcVharForecaster< BaseForecaster >", "classbvhar_1_1McmcVharForecaster.html", null ]
+        ] ]
       ] ],
       [ "bvhar::SvForecaster", "classbvhar_1_1SvForecaster.html", null ]
     ] ],
@@ -26,14 +26,14 @@ var hierarchy =
       [ "bvhar::McmcRun< BaseMcmc, isGroup >", "classbvhar_1_1McmcRun.html", null ]
     ] ],
     [ "bvhar::McmcMniw", "classbvhar_1_1McmcMniw.html", null ],
-    [ "bvhar::McmcOutforecastRun< BaseForecaster >", "classbvhar_1_1McmcOutforecastRun.html", null ],
-    [ "bvhar::McmcOutforecastRun< RegForecaster >", "classbvhar_1_1McmcOutforecastRun.html", [
-      [ "bvhar::McmcRollforecastRun< RegForecaster, true >", "classbvhar_1_1McmcRollforecastRun.html", [
-        [ "bvhar::McmcVarforecastRun< BaseOutForecast, BaseForecaster, isGroup >", "classbvhar_1_1McmcVarforecastRun.html", null ],
-        [ "bvhar::McmcVharforecastRun< BaseOutForecast, BaseForecaster, isGroup >", "classbvhar_1_1McmcVharforecastRun.html", null ]
-      ] ],
+    [ "bvhar::McmcOutforecastRun< BaseForecaster >", "classbvhar_1_1McmcOutforecastRun.html", [
       [ "bvhar::McmcExpandforecastRun< BaseForecaster, isGroup >", "classbvhar_1_1McmcExpandforecastRun.html", null ],
       [ "bvhar::McmcRollforecastRun< BaseForecaster, isGroup >", "classbvhar_1_1McmcRollforecastRun.html", null ]
+    ] ],
+    [ "bvhar::McmcOutforecastRun< RegForecaster >", "classbvhar_1_1McmcOutforecastRun.html", null ],
+    [ "McmcRollforecastRun", null, [
+      [ "bvhar::McmcVarforecastRun< BaseOutForecast, BaseForecaster, isGroup >", "classbvhar_1_1McmcVarforecastRun.html", null ],
+      [ "bvhar::McmcVharforecastRun< BaseOutForecast, BaseForecaster, isGroup >", "classbvhar_1_1McmcVharforecastRun.html", null ]
     ] ],
     [ "bvhar::McmcSpillover", "classbvhar_1_1McmcSpillover.html", [
       [ "bvhar::McmcVarSpillover< RecordType >", "classbvhar_1_1McmcVarSpillover.html", null ],
@@ -96,14 +96,14 @@ var hierarchy =
     ] ],
     [ "bvhar::RegInits", "structbvhar_1_1RegInits.html", [
       [ "bvhar::LdltInits", "structbvhar_1_1LdltInits.html", [
-        [ "bvhar::GlInits< LdltInits >", "structbvhar_1_1GlInits.html", [
-          [ "bvhar::HsInits< LdltInits >", "structbvhar_1_1HsInits.html", [
-            [ "bvhar::NgInits< BaseRegInits >", "structbvhar_1_1NgInits.html", null ]
-          ] ],
-          [ "bvhar::HsInits< BaseRegInits >", "structbvhar_1_1HsInits.html", null ]
-        ] ],
+        [ "bvhar::GlInits< LdltInits >", "structbvhar_1_1GlInits.html", null ],
         [ "bvhar::GdpInits< BaseRegInits >", "structbvhar_1_1GdpInits.html", null ],
-        [ "bvhar::GlInits< BaseRegInits >", "structbvhar_1_1GlInits.html", null ],
+        [ "bvhar::GlInits< BaseRegInits >", "structbvhar_1_1GlInits.html", [
+          [ "bvhar::HsInits< LdltInits >", "structbvhar_1_1HsInits.html", null ],
+          [ "bvhar::HsInits< BaseRegInits >", "structbvhar_1_1HsInits.html", [
+            [ "bvhar::NgInits< BaseRegInits >", "structbvhar_1_1NgInits.html", null ]
+          ] ]
+        ] ],
         [ "bvhar::HierminnInits< BaseRegInits >", "structbvhar_1_1HierminnInits.html", null ],
         [ "bvhar::SsvsInits< BaseRegInits >", "structbvhar_1_1SsvsInits.html", null ]
       ] ],

@@ -1,6 +1,9 @@
 <map id="bvhar::horseshoe_coef_var" name="bvhar::horseshoe_coef_var">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,203,83"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739" title=" " alt="" coords="259,5,413,32"/>
-<area shape="rect" id="node3" href="$bvharsim_8h.html#ab2025823c989aadd152c41a6137fed95" title=" " alt="" coords="257,56,415,83"/>
-<area shape="rect" id="node4" href="$namespacebvhar.html#a3512b42682c4f8682c9c826dd329fd5f" title=" " alt="" coords="251,107,421,133"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,203,80"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739" title=" " alt="" coords="259,5,413,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,52,262,31,263,36,165,57"/>
+<area shape="rect" id="Node000003" href="$bvharsim_8h.html#ab2025823c989aadd152c41a6137fed95" title=" " alt="" coords="257,55,415,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,65,243,65,243,70,203,70"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff" title=" " alt="" coords="251,104,421,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,77,263,98,262,104,164,83"/>
 </map>

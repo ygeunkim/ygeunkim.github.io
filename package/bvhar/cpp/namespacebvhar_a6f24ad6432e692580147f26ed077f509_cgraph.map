@@ -1,4 +1,5 @@
 <map id="bvhar::ssvs_local_slab" name="bvhar::ssvs_local_slab">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,173,32"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739" title=" " alt="" coords="221,5,375,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,173,31"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739" title=" " alt="" coords="221,5,375,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,15,208,15,208,21,174,21"/>
 </map>

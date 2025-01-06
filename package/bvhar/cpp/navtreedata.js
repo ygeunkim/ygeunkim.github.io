@@ -25,9 +25,7 @@
 var NAVTREE =
 [
   [ "bvhar", "index.html", [
-    [ "Overview", "index.html", [
-      [ "For R package developers", "index.html#autotoc_md1", null ]
-    ] ],
+    [ "Overview", "index.html", "index" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -62,11 +60,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classbvhar_1_1McmcExpandforecastRun.html#a0fda62fd5bf9cd59964f8a0598ba43e4",
-"classbvhar_1_1McmcTriangular.html#ad7805a06d1b4cf7a6e804ea438f44305",
-"classbvhar_1_1OlsVar.html#a0948d69bd4add2ef4b72e62c5f99b33b",
-"namespacebvhar.html#a7b6c5e1fffde86dedb50c4d007c7764e",
-"structbvhar_1_1MinnRecords.html#aa6bb1e090b25fb89d73bbc08595060df"
+"classbvhar_1_1DynamicLdltSpillover.html#aadf0b32fbdd08bf61653dd4f8fad96d5",
+"classbvhar_1_1McmcNg.html#a0c96b298c8f9783f545ee61eee9a2ce8",
+"classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c",
+"classbvhar_1_1MinnBvharS.html#a8050e124dca8e6fdc3ecf5e8b3e5d6e3",
+"classbvhar_1_1MultiOls.html#ad931be12d80424d8b84fdc002a98ef04",
+"functions_func_~.html",
+"regforecaster_8h.html#a8103fd548a799f17f2c0793c7c308b35",
+"structbvhar_1_1MinnFit.html#af1d6148d9f7c448f7710f1c4c025cdd1",
+"structbvhar_1_1SsvsRecords.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,13 +1,23 @@
 <map id="bvhar::McmcSpillover::returnSpilloverDensity" name="bvhar::McmcSpillover::returnSpilloverDensity">
-<area shape="rect" id="node1" title="Return spillover density." alt="" coords="5,201,181,242"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1McmcSpillover.html#ade72098f28c7e3adebef95eafa1767ca" title="Generate spillover density." alt="" coords="229,201,392,242"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="453,5,623,32"/>
-<area shape="rect" id="node4" href="$namespacebvhar.html#ab612394662d870cd24c7ee82f4f9c18c" title=" " alt="" coords="457,56,619,83"/>
-<area shape="rect" id="node5" href="$namespacebvhar.html#a603ad1a5467432c8f5cc97dc44621a88" title=" " alt="" coords="462,107,614,133"/>
-<area shape="rect" id="node6" href="$namespacebvhar.html#a191acb84683d6ca12d59bfd47042ef69" title=" " alt="" coords="443,157,633,184"/>
-<area shape="rect" id="node7" href="$namespacebvhar.html#a7f3873a6016ab756fd878955eed99f22" title=" " alt="" coords="466,208,610,235"/>
-<area shape="rect" id="node8" href="$namespacebvhar.html#ae0291f3cf22e0370d40dec1f917795de" title=" " alt="" coords="463,259,613,285"/>
-<area shape="rect" id="node9" href="$namespacebvhar.html#af43da4fb6cd3585d38e6237bd05d1890" title=" " alt="" coords="440,309,636,336"/>
-<area shape="rect" id="node10" href="$classbvhar_1_1McmcSpillover.html#a02b4b1e9a98886a745f5fcaff666c053" title="VMA representation." alt="" coords="457,361,619,402"/>
-<area shape="rect" id="node11" href="$namespacebvhar.html#aca14201bb81c1e58586c161241a8c5f8" title=" " alt="" coords="467,427,609,453"/>
+<area shape="rect" id="Node000001" title="Return spillover density." alt="" coords="5,195,181,235"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcSpillover.html#ade72098f28c7e3adebef95eafa1767ca" title="Generate spillover density." alt="" coords="229,195,392,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,213,216,213,216,218,181,218"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="453,5,623,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="319,194,336,160,363,118,397,76,438,40,448,34,451,39,442,44,401,79,367,121,341,163,323,196"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#ab612394662d870cd24c7ee82f4f9c18c" title=" " alt="" coords="457,55,619,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="325,193,372,141,403,113,439,89,452,82,455,87,441,94,407,117,375,145,329,197"/>
+<area shape="rect" id="Node000005" href="$namespacebvhar.html#a603ad1a5467432c8f5cc97dc44621a88" title=" " alt="" coords="462,104,614,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="339,193,385,165,439,138,460,131,462,136,441,143,388,170,342,198"/>
+<area shape="rect" id="Node000006" href="$namespacebvhar.html#a191acb84683d6ca12d59bfd47042ef69" title=" " alt="" coords="443,153,633,179"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="392,195,465,179,466,184,393,200"/>
+<area shape="rect" id="Node000007" href="$namespacebvhar.html#a7f3873a6016ab756fd878955eed99f22" title=" " alt="" coords="466,203,610,228"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="392,213,452,213,452,218,392,218"/>
+<area shape="rect" id="Node000008" href="$namespacebvhar.html#ae0291f3cf22e0370d40dec1f917795de" title=" " alt="" coords="463,252,613,277"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="393,230,466,246,465,252,392,236"/>
+<area shape="rect" id="Node000009" href="$namespacebvhar.html#af43da4fb6cd3585d38e6237bd05d1890" title=" " alt="" coords="440,301,636,327"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="343,233,388,260,441,286,466,295,464,300,439,291,386,265,341,238"/>
+<area shape="rect" id="Node000010" href="$classbvhar_1_1McmcSpillover.html#a02b4b1e9a98886a745f5fcaff666c053" title="VMA representation." alt="" coords="457,351,619,391"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="330,234,377,284,408,312,441,336,455,343,453,348,439,340,405,316,373,288,326,237"/>
+<area shape="rect" id="Node000011" href="$namespacebvhar.html#a6bdf1b306df58e74eaae31d02c5b1108" title=" " alt="" coords="467,416,609,441"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="323,235,339,271,365,316,399,362,442,401,455,409,453,414,438,405,395,366,361,319,335,274,318,237"/>
 </map>

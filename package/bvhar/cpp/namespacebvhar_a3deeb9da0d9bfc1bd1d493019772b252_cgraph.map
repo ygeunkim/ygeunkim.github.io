@@ -1,6 +1,9 @@
 <map id="bvhar::dl_latent" name="bvhar::dl_latent">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,129,57"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#a701898c90db3d9ab804498128b6df9f7" title=" " alt="" coords="177,31,333,57"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#ac3982981996005cf0fbe2fbe76ec99c0" title=" " alt="" coords="381,5,519,32"/>
-<area shape="rect" id="node4" href="$namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea" title=" " alt="" coords="386,56,514,83"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,129,56"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a701898c90db3d9ab804498128b6df9f7" title=" " alt="" coords="177,31,333,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,41,163,41,163,46,129,46"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#ac3982981996005cf0fbe2fbe76ec99c0" title=" " alt="" coords="381,5,519,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="333,31,367,26,368,31,334,36"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea" title=" " alt="" coords="386,55,514,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="334,50,373,55,372,60,333,56"/>
 </map>

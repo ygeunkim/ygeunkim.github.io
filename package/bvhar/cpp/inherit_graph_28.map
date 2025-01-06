@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classbvhar_1_1OlsForecaster.html" title=" " alt="" coords="5,31,161,57"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1VarForecaster.html" title=" " alt="" coords="214,5,370,32"/>
-<area shape="rect" id="node3" href="$classbvhar_1_1VharForecaster.html" title=" " alt="" coords="209,56,375,83"/>
+<area shape="rect" id="Node000000" href="$classbvhar_1_1OlsForecaster.html" title=" " alt="" coords="5,31,161,56"/>
+<area shape="rect" id="Node000001" href="$classbvhar_1_1VarForecaster.html" title=" " alt="" coords="214,5,370,31"/>
+<area shape="poly" id="edge36_Node000000_Node000001" title=" " alt="" coords="174,30,214,25,214,30,175,35"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1VharForecaster.html" title=" " alt="" coords="209,55,375,80"/>
+<area shape="poly" id="edge37_Node000000_Node000002" title=" " alt="" coords="175,51,209,55,209,60,174,56"/>
 </map>

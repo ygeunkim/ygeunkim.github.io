@@ -1,5 +1,7 @@
 <map id="bvhar::ssvs_coef" name="bvhar::ssvs_coef">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,136,57"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#abdc31a61ba3065c182462e946894e31f" title=" " alt="" coords="184,5,359,32"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#a66b31690ade4567f9242191fc78901e6" title=" " alt="" coords="197,56,346,83"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,136,56"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a8600cda7f4dde9950bfd52b66e655597" title=" " alt="" coords="184,5,359,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,32,170,28,171,33,137,38"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a66b31690ade4567f9242191fc78901e6" title=" " alt="" coords="197,55,346,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,48,183,54,182,59,136,54"/>
 </map>

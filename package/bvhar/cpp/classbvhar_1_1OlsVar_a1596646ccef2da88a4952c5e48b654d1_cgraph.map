@@ -1,5 +1,8 @@
 <map id="bvhar::OlsVar::OlsVar" name="bvhar::OlsVar::OlsVar">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,164,57"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#af89bd7ebd3a9fa3977460958dd0e7083" title=" " alt="" coords="212,5,335,32"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#ae1354f368716d19119b45819613cd05b" title=" " alt="" coords="383,31,505,57"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,164,56"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#af89bd7ebd3a9fa3977460958dd0e7083" title=" " alt="" coords="212,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,30,198,25,199,31,165,35"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#ae1354f368716d19119b45819613cd05b" title=" " alt="" coords="383,31,505,56"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="164,41,369,41,369,46,164,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,24,369,30,369,35,334,30"/>
 </map>

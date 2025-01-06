@@ -19,5 +19,5 @@ var commondefs_8h =
     [ "IS_MATRIX", "commondefs_8h.html#a8b45228c95c4de678afd90bd6b3e98d0", null ],
     [ "CAST_VECTOR", "commondefs_8h.html#a367e52d020b865ed1ff03dae08bd8351", null ],
     [ "CAST_MATRIX", "commondefs_8h.html#af94daf4bd28cd382c5cbb43b906c26f1", null ],
-    [ "make_unique", "commondefs_8h.html#afe10b4bfbaf3fc7e84112eb0b85d627a", null ]
+    [ "make_unique", "commondefs_8h.html#a03d5ca705e3360c607bf2586e9a9de3b", null ]
 ];

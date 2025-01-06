@@ -1,6 +1,9 @@
 <map id="bvhar::McmcVarSelectForecaster&lt; BaseForecaster &gt;" name="bvhar::McmcVarSelectForecaster&lt; BaseForecaster &gt;">
-<area shape="rect" id="node1" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="5,244,240,285"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1McmcVarForecaster.html" title=" " alt="" coords="25,155,220,196"/>
-<area shape="rect" id="node3" href="$classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg" alt="" coords="43,80,203,107"/>
-<area shape="rect" id="node4" href="$classbvhar_1_1McmcForecaster.html" title="Forecast class for McmcTriangular" alt="" coords="35,5,210,32"/>
+<area shape="rect" id="Node000001" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="5,240,240,280"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcVarForecaster.html" title="Forecast class of Bayesian VAR based on McmcTriangular" alt="" coords="25,152,220,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,206,125,240,120,240,120,206"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg" alt="" coords="43,79,203,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,118,125,152,120,152,120,118"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcForecaster.html" title="Forecast class for McmcTriangular" alt="" coords="35,5,210,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,44,125,79,120,79,120,44"/>
 </map>

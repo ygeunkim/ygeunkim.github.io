@@ -1,5 +1,7 @@
 <map id="bvhar::sim_invgauss" name="bvhar::sim_invgauss">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,161,57"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#ac3982981996005cf0fbe2fbe76ec99c0" title=" " alt="" coords="209,5,347,32"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea" title=" " alt="" coords="214,56,342,83"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,161,56"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ac3982981996005cf0fbe2fbe76ec99c0" title=" " alt="" coords="209,5,347,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,31,195,26,196,31,162,36"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea" title=" " alt="" coords="214,55,342,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,50,201,55,200,60,161,56"/>
 </map>

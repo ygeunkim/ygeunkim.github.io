@@ -1,12 +1,21 @@
 <map id="bvharconfig.h" name="bvharconfig.h">
-<area shape="rect" id="node1" title="Headers including MCMC configuration structs." alt="" coords="369,5,479,32"/>
-<area shape="rect" id="node2" href="$bvharmcmc_8h.html" title="Header including MCMC algorithm." alt="" coords="369,80,479,107"/>
-<area shape="rect" id="node3" href="$bvharforecaster_8h.html" title=" " alt="" coords="133,155,269,181"/>
-<area shape="rect" id="node6" href="$bvharspillover_8h.html" title=" " alt="" coords="294,155,421,181"/>
-<area shape="rect" id="node9" href="$mcmcreg_8h.html" title=" " alt="" coords="445,155,539,181"/>
-<area shape="rect" id="node10" href="$mcmcsv_8h.html" title=" " alt="" coords="564,155,652,181"/>
-<area shape="rect" id="node4" href="$regforecaster_8h.html" title=" " alt="" coords="5,229,125,256"/>
-<area shape="rect" id="node5" href="$svforecaster_8h.html" title=" " alt="" coords="149,229,264,256"/>
-<area shape="rect" id="node7" href="$regspillover_8h.html" title=" " alt="" coords="298,229,409,256"/>
-<area shape="rect" id="node8" href="$svspillover_8h.html" title=" " alt="" coords="433,229,537,256"/>
+<area shape="rect" id="Node000001" title="Headers including MCMC configuration structs." alt="" coords="369,5,479,31"/>
+<area shape="rect" id="Node000002" href="$bvharmcmc_8h.html" title="Header including MCMC algorithm." alt="" coords="369,79,479,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="427,44,427,79,421,79,421,44"/>
+<area shape="rect" id="Node000003" href="$bvharforecaster_8h.html" title=" " alt="" coords="133,152,269,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="376,111,238,154,237,149,375,106"/>
+<area shape="rect" id="Node000006" href="$bvharspillover_8h.html" title=" " alt="" coords="294,152,421,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="405,116,370,154,366,150,402,113"/>
+<area shape="rect" id="Node000009" href="$mcmcreg_8h.html" title=" " alt="" coords="445,152,539,177"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="446,112,483,150,479,154,443,116"/>
+<area shape="rect" id="Node000010" href="$mcmcsv_8h.html" title=" " alt="" coords="564,152,652,177"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="467,106,579,149,577,154,465,111"/>
+<area shape="rect" id="Node000004" href="$regforecaster_8h.html" title=" " alt="" coords="5,225,125,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="169,186,89,227,86,223,166,181"/>
+<area shape="rect" id="Node000005" href="$svforecaster_8h.html" title=" " alt="" coords="149,225,264,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="206,191,208,225,203,225,201,191"/>
+<area shape="rect" id="Node000007" href="$regspillover_8h.html" title=" " alt="" coords="298,225,409,251"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="359,191,357,225,351,225,353,191"/>
+<area shape="rect" id="Node000008" href="$svspillover_8h.html" title=" " alt="" coords="433,225,537,251"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="391,182,466,223,463,227,389,186"/>
 </map>

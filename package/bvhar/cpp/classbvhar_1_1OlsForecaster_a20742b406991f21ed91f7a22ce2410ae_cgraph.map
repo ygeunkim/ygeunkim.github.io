@@ -1,4 +1,5 @@
 <map id="bvhar::OlsForecaster::OlsForecaster" name="bvhar::OlsForecaster::OlsForecaster">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,161,47"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#a3512b42682c4f8682c9c826dd329fd5f" title=" " alt="" coords="209,13,380,39"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,161,45"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff" title=" " alt="" coords="209,13,380,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,23,196,23,196,28,162,28"/>
 </map>

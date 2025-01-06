@@ -1,6 +1,9 @@
 <map id="bvhar::McmcNg::updateRecords" name="bvhar::McmcNg::updateRecords">
-<area shape="rect" id="node1" title="Save MCMC records." alt="" coords="5,46,235,73"/>
-<area shape="rect" id="node2" href="$structbvhar_1_1NgRecords.html#ab5f278683044d36e919499da92e5adc3" title="Assign MCMC draw to the draw matrix." alt="" coords="297,5,483,47"/>
-<area shape="rect" id="node3" href="$classbvhar_1_1McmcReg.html#ac899f94435e63dc9073fa640f4866c56" title="Save coefficient records." alt="" coords="283,71,497,112"/>
-<area shape="rect" id="node4" href="$structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71" title="Assign MCMC draw to the draw matrix." alt="" coords="545,71,708,112"/>
+<area shape="rect" id="Node000001" title="Save MCMC records." alt="" coords="5,45,235,70"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1NgRecords.html#ab5f278683044d36e919499da92e5adc3" title="Assign MCMC draw to the draw matrix." alt="" coords="297,5,483,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,42,283,35,284,41,228,47"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcReg.html#ac899f94435e63dc9073fa640f4866c56" title="Save coefficient records." alt="" coords="283,69,497,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,67,269,72,269,78,227,73"/>
+<area shape="rect" id="Node000004" href="$structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71" title="Assign MCMC draw to the draw matrix." alt="" coords="545,69,708,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="497,87,532,87,532,92,497,92"/>
 </map>

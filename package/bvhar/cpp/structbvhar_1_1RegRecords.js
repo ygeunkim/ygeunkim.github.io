@@ -18,8 +18,9 @@ var structbvhar_1_1RegRecords =
     [ "updateDiag", "structbvhar_1_1RegRecords.html#ab541265c6d14ff222d4ffb7c3d140209", null ],
     [ "subsetStable", "structbvhar_1_1RegRecords.html#a92ef956451f1b7611b24c8d71aca9bb4", null ],
     [ "subsetStable", "structbvhar_1_1RegRecords.html#a6f4ef763df45f09d917096e7c86468d0", null ],
-    [ "subsetStable", "structbvhar_1_1RegRecords.html#a8035d55ec8d43d716b1ed3282ed066e5", null ],
+    [ "subsetStable", "structbvhar_1_1RegRecords.html#a2847a989de941926ada6b2e955b822f5", null ],
     [ "computeActivity", "structbvhar_1_1RegRecords.html#aafab8fa958e16113a02199226347b8a9", null ],
+    [ "returnRecords", "structbvhar_1_1RegRecords.html#aabf3d90e65e064b9fee32ad0735bf044", null ],
     [ "returnRecords", "structbvhar_1_1RegRecords.html#afd04e3a7d54904b86413625745644ae1", null ],
     [ "coef_record", "structbvhar_1_1RegRecords.html#a013aa84521bc27649180e76b6a8abdd1", null ],
     [ "contem_coef_record", "structbvhar_1_1RegRecords.html#a66b23fe7b0eeae5611cbc77568062778", null ]

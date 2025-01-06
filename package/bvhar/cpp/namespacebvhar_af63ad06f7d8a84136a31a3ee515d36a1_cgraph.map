@@ -1,6 +1,9 @@
 <map id="bvhar::rgig_nonconcave" name="bvhar::rgig_nonconcave">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,183,83"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#ab31cbd30a582c60e0a74217cbe3c0528" title=" " alt="" coords="231,5,369,32"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#acb009d46e9cfb6574c78bcc16158190a" title=" " alt="" coords="231,56,369,83"/>
-<area shape="rect" id="node4" href="$namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea" title=" " alt="" coords="236,107,364,133"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,183,80"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ab31cbd30a582c60e0a74217cbe3c0528" title=" " alt="" coords="231,5,369,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,52,232,31,234,37,148,57"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#acb009d46e9cfb6574c78bcc16158190a" title=" " alt="" coords="231,55,369,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,65,217,65,217,70,183,70"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea" title=" " alt="" coords="236,104,364,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,77,234,98,232,103,147,83"/>
 </map>

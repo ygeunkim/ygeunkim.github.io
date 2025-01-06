@@ -1,8 +1,13 @@
 <map id="bvhareigen.h" name="bvhareigen.h">
-<area shape="rect" id="node1" title=" " alt="" coords="139,5,245,32"/>
-<area shape="rect" id="node2" href="$commondefs_8h.html" title="Common header." alt="" coords="66,80,185,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="209,80,311,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,155,72,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="96,155,155,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="179,155,256,181"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="139,5,245,31"/>
+<area shape="rect" id="Node000002" href="$commondefs_8h.html" title="Common header." alt="" coords="66,79,185,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,33,147,70,144,67,179,29"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="209,79,311,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="205,29,241,67,237,70,201,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,72,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,106,65,145,62,141,110,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="96,152,155,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="128,104,128,138,123,138,123,104"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="179,152,256,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="142,102,193,141,190,146,138,106"/>
 </map>

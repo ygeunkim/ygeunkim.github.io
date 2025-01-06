@@ -1,5 +1,7 @@
 <map id="bvhar::sim_iw_tri" name="bvhar::sim_iw_tri">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,140,57"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#ac3982981996005cf0fbe2fbe76ec99c0" title=" " alt="" coords="194,5,331,32"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#a66b31690ade4567f9242191fc78901e6" title=" " alt="" coords="188,56,337,83"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,140,56"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ac3982981996005cf0fbe2fbe76ec99c0" title=" " alt="" coords="194,5,331,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,32,180,26,181,32,140,37"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a66b31690ade4567f9242191fc78901e6" title=" " alt="" coords="188,55,337,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,49,175,54,174,59,140,54"/>
 </map>

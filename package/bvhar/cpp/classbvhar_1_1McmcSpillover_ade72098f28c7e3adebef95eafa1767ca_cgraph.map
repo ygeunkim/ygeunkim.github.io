@@ -1,12 +1,21 @@
 <map id="bvhar::McmcSpillover::computeSpillover" name="bvhar::McmcSpillover::computeSpillover">
-<area shape="rect" id="node1" title="Generate spillover density." alt="" coords="5,201,168,242"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="229,5,399,32"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#ab612394662d870cd24c7ee82f4f9c18c" title=" " alt="" coords="233,56,395,83"/>
-<area shape="rect" id="node4" href="$namespacebvhar.html#a603ad1a5467432c8f5cc97dc44621a88" title=" " alt="" coords="238,107,390,133"/>
-<area shape="rect" id="node5" href="$namespacebvhar.html#a191acb84683d6ca12d59bfd47042ef69" title=" " alt="" coords="219,157,409,184"/>
-<area shape="rect" id="node6" href="$namespacebvhar.html#a7f3873a6016ab756fd878955eed99f22" title=" " alt="" coords="242,208,386,235"/>
-<area shape="rect" id="node7" href="$namespacebvhar.html#ae0291f3cf22e0370d40dec1f917795de" title=" " alt="" coords="239,259,389,285"/>
-<area shape="rect" id="node8" href="$namespacebvhar.html#af43da4fb6cd3585d38e6237bd05d1890" title=" " alt="" coords="216,309,412,336"/>
-<area shape="rect" id="node9" href="$classbvhar_1_1McmcSpillover.html#a02b4b1e9a98886a745f5fcaff666c053" title="VMA representation." alt="" coords="233,361,395,402"/>
-<area shape="rect" id="node10" href="$namespacebvhar.html#aca14201bb81c1e58586c161241a8c5f8" title=" " alt="" coords="243,427,385,453"/>
+<area shape="rect" id="Node000001" title="Generate spillover density." alt="" coords="5,195,168,235"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="229,5,399,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,194,112,160,139,118,173,76,214,40,224,34,227,39,218,44,177,79,143,121,117,163,99,196"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#ab612394662d870cd24c7ee82f4f9c18c" title=" " alt="" coords="233,55,395,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,193,148,141,179,113,215,89,228,82,231,87,217,94,183,117,151,145,105,197"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a603ad1a5467432c8f5cc97dc44621a88" title=" " alt="" coords="238,104,390,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,193,161,165,215,138,236,131,238,136,217,143,164,170,118,198"/>
+<area shape="rect" id="Node000005" href="$namespacebvhar.html#a191acb84683d6ca12d59bfd47042ef69" title=" " alt="" coords="219,153,409,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="168,195,241,179,242,184,169,200"/>
+<area shape="rect" id="Node000006" href="$namespacebvhar.html#a7f3873a6016ab756fd878955eed99f22" title=" " alt="" coords="242,203,386,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="168,213,228,213,228,218,168,218"/>
+<area shape="rect" id="Node000007" href="$namespacebvhar.html#ae0291f3cf22e0370d40dec1f917795de" title=" " alt="" coords="239,252,389,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="169,230,242,246,241,252,168,236"/>
+<area shape="rect" id="Node000008" href="$namespacebvhar.html#af43da4fb6cd3585d38e6237bd05d1890" title=" " alt="" coords="216,301,412,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="119,233,164,260,217,286,242,295,240,300,215,291,162,265,117,238"/>
+<area shape="rect" id="Node000009" href="$classbvhar_1_1McmcSpillover.html#a02b4b1e9a98886a745f5fcaff666c053" title="VMA representation." alt="" coords="233,351,395,391"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="106,234,153,284,184,312,217,336,231,343,229,348,215,340,181,316,149,288,102,237"/>
+<area shape="rect" id="Node000010" href="$namespacebvhar.html#a6bdf1b306df58e74eaae31d02c5b1108" title=" " alt="" coords="243,416,385,441"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="99,235,115,271,141,316,175,362,218,401,231,409,229,414,214,405,171,366,137,319,111,274,94,237"/>
 </map>

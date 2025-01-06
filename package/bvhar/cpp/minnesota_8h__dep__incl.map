@@ -1,5 +1,7 @@
 <map id="minnesota.h" name="minnesota.h">
-<area shape="rect" id="node1" title=" " alt="" coords="96,5,199,32"/>
-<area shape="rect" id="node2" href="$minnforecaster_8h.html" title=" " alt="" coords="5,80,137,107"/>
-<area shape="rect" id="node3" href="$minnspillover_8h.html" title=" " alt="" coords="162,80,285,107"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="96,5,199,31"/>
+<area shape="rect" id="Node000002" href="$minnforecaster_8h.html" title=" " alt="" coords="5,79,137,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,42,86,80,82,76,123,38"/>
+<area shape="rect" id="Node000003" href="$minnspillover_8h.html" title=" " alt="" coords="162,79,285,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,38,213,76,209,80,168,42"/>
 </map>

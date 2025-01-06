@@ -1,10 +1,17 @@
 <map id="bvhar::MinnForecaster::forecastDensity" name="bvhar::MinnForecaster::forecastDensity">
-<area shape="rect" id="node1" title=" " alt="" coords="5,93,172,135"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1MinnForecaster.html#a4cf56394174c287c484f48fb385711f0" title=" " alt="" coords="220,5,387,47"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#a9fe80684efc9a3587bff5954e849353f" title=" " alt="" coords="233,71,374,98"/>
-<area shape="rect" id="node7" href="$classbvhar_1_1MinnForecaster.html#aff8f2bb837fdeb0c0c575091338d54db" title=" " alt="" coords="220,123,387,164"/>
-<area shape="rect" id="node8" href="$classbvhar_1_1MinnForecaster.html#a62a0a50613a48be9e5070469ab84ab38" title=" " alt="" coords="220,188,387,229"/>
-<area shape="rect" id="node4" href="$namespacebvhar.html#ac20c97e92d1e9eb026ed1fd7e9d1f364" title=" " alt="" coords="435,46,569,73"/>
-<area shape="rect" id="node6" href="$namespacebvhar.html#a8a823406839d5172c3dd17c290e87257" title=" " alt="" coords="443,97,561,123"/>
-<area shape="rect" id="node5" href="$namespacebvhar.html#ac3982981996005cf0fbe2fbe76ec99c0" title=" " alt="" coords="617,46,755,73"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,92,172,132"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1MinnForecaster.html#a4cf56394174c287c484f48fb385711f0" title=" " alt="" coords="220,5,387,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,90,219,55,236,48,238,53,221,60,138,94"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a7a0a588ca841b959be2a134105c591c5" title=" " alt="" coords="233,70,374,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,98,219,91,219,97,173,103"/>
+<area shape="rect" id="Node000007" href="$classbvhar_1_1MinnForecaster.html#aff8f2bb837fdeb0c0c575091338d54db" title=" " alt="" coords="220,120,387,160"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="173,120,206,125,206,130,172,126"/>
+<area shape="rect" id="Node000008" href="$classbvhar_1_1MinnForecaster.html#a62a0a50613a48be9e5070469ab84ab38" title=" " alt="" coords="220,184,387,224"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="133,130,221,170,238,177,236,181,219,174,131,135"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#ac20c97e92d1e9eb026ed1fd7e9d1f364" title=" " alt="" coords="435,46,569,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="374,71,421,66,421,71,375,77"/>
+<area shape="rect" id="Node000006" href="$namespacebvhar.html#a8a823406839d5172c3dd17c290e87257" title=" " alt="" coords="443,95,561,121"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="375,89,429,96,429,101,374,94"/>
+<area shape="rect" id="Node000005" href="$namespacebvhar.html#ac3982981996005cf0fbe2fbe76ec99c0" title=" " alt="" coords="617,46,755,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="570,56,603,56,603,61,570,61"/>
 </map>

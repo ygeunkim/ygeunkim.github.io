@@ -1,4 +1,5 @@
 <map id="bvhar::ssvs_mn_weight" name="bvhar::ssvs_mn_weight">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,180,32"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#a1b7dd96137804e12dc6655e0375eb76e" title=" " alt="" coords="228,5,360,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,180,31"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a1b7dd96137804e12dc6655e0375eb76e" title=" " alt="" coords="228,5,360,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,15,215,15,215,21,181,21"/>
 </map>

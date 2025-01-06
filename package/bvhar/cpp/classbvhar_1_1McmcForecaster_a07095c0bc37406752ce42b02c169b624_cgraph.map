@@ -1,6 +1,9 @@
 <map id="bvhar::McmcForecaster::forecastOut" name="bvhar::McmcForecaster::forecastOut">
-<area shape="rect" id="node1" title="Draw i&#45;th forecast." alt="" coords="5,71,180,112"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title="Compute Normal mean of the forecast density." alt="" coords="228,5,403,47"/>
-<area shape="rect" id="node3" href="$classbvhar_1_1McmcForecaster.html#a00d10aef99375d8233345030ff6e1f8e" title="Compute LPL." alt="" coords="228,71,403,112"/>
-<area shape="rect" id="node4" href="$classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title="Draw innovation with D covariance matrix." alt="" coords="228,136,403,177"/>
+<area shape="rect" id="Node000001" title="Draw i&#45;th forecast." alt="" coords="5,69,180,109"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcForecaster.html#a6d3972e0dacaf2daaf6deaff05464263" title="Compute Normal mean of the forecast density." alt="" coords="228,5,403,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,67,231,47,233,52,164,72"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcForecaster.html#a00d10aef99375d8233345030ff6e1f8e" title="Compute LPL." alt="" coords="228,69,403,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,87,214,87,214,92,180,92"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcForecaster.html#aa8198a397b645612a3ce12b738a43210" title="Draw innovation with D covariance matrix." alt="" coords="228,133,403,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,107,233,127,231,132,162,112"/>
 </map>

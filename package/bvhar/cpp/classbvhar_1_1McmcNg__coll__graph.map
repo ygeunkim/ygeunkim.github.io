@@ -1,6 +1,9 @@
 <map id="bvhar::McmcNg&lt; BaseMcmc, isGroup &gt;" name="bvhar::McmcNg&lt; BaseMcmc, isGroup &gt;">
-<area shape="rect" id="node1" title="Normal&#45;Gamma Prior." alt="" coords="5,247,220,288"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="47,171,178,197"/>
-<area shape="rect" id="node3" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="27,95,198,121"/>
-<area shape="rect" id="node4" href="$structbvhar_1_1SparseRecords.html" title="Signal adaptive variable selector records." alt="" coords="31,5,194,32"/>
+<area shape="rect" id="Node000001" title="Normal&#45;Gamma Prior." alt="" coords="5,243,220,283"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="47,168,178,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,207,115,243,110,243,110,207"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="27,93,198,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,133,115,168,110,168,110,133"/>
+<area shape="rect" id="Node000004" href="$structbvhar_1_1SparseRecords.html" title="Signal adaptive variable selector records." alt="" coords="31,5,194,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="115,45,115,93,110,93,110,45"/>
 </map>

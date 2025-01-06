@@ -1,6 +1,9 @@
 <map id="bvhar::MinnSpillover::computeSpillover" name="bvhar::MinnSpillover::computeSpillover">
-<area shape="rect" id="node1" title=" " alt="" coords="5,49,161,90"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#a191acb84683d6ca12d59bfd47042ef69" title=" " alt="" coords="213,5,402,32"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#af43da4fb6cd3585d38e6237bd05d1890" title=" " alt="" coords="209,56,405,83"/>
-<area shape="rect" id="node4" href="$namespacebvhar.html#a8bcf8e439775287d8a6e2c61727e514c" title=" " alt="" coords="235,107,379,149"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,161,87"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a191acb84683d6ca12d59bfd47042ef69" title=" " alt="" coords="213,5,402,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,48,235,31,236,36,162,53"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#af43da4fb6cd3585d38e6237bd05d1890" title=" " alt="" coords="209,55,405,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,65,196,65,196,70,161,70"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a8bcf8e439775287d8a6e2c61727e514c" title=" " alt="" coords="235,105,379,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,85,223,100,222,106,161,90"/>
 </map>

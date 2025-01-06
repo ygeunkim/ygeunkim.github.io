@@ -1,6 +1,9 @@
 <map id="bvhar::McmcGdp&lt; BaseMcmc &gt;" name="bvhar::McmcGdp&lt; BaseMcmc &gt;">
-<area shape="rect" id="node1" title="Generalized Double Pareto (GDP) prior." alt="" coords="5,247,239,273"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="57,171,187,197"/>
-<area shape="rect" id="node3" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="37,95,207,121"/>
-<area shape="rect" id="node4" href="$structbvhar_1_1SparseRecords.html" title="Signal adaptive variable selector records." alt="" coords="41,5,203,32"/>
+<area shape="rect" id="Node000001" title="Generalized Double Pareto (GDP) prior." alt="" coords="5,243,239,268"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="57,168,187,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,208,125,242,119,242,119,208"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="37,93,207,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,133,125,168,119,168,119,133"/>
+<area shape="rect" id="Node000004" href="$structbvhar_1_1SparseRecords.html" title="Signal adaptive variable selector records." alt="" coords="41,5,203,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,45,125,93,119,93,119,45"/>
 </map>

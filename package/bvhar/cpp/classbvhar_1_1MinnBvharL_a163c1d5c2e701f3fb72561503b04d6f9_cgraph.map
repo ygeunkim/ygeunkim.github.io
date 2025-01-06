@@ -1,4 +1,5 @@
 <map id="bvhar::MinnBvharL::MinnBvharL" name="bvhar::MinnBvharL::MinnBvharL">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,157,47"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#a8f898c60e82830ea8a8146d681020a50" title=" " alt="" coords="205,13,369,39"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,157,45"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a8f898c60e82830ea8a8146d681020a50" title=" " alt="" coords="205,13,369,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,23,191,23,191,28,158,28"/>
 </map>

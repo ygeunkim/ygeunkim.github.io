@@ -6,6 +6,6 @@ var namespaces_dup =
     ] ],
     [ "bvhar", "namespacebvhar.html", "namespacebvhar" ],
     [ "std", "namespacestd.html", [
-      [ "make_unique", "namespacestd.html#afe10b4bfbaf3fc7e84112eb0b85d627a", null ]
+      [ "make_unique", "namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b", null ]
     ] ]
 ];

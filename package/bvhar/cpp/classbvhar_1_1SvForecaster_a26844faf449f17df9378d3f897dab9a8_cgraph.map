@@ -1,5 +1,7 @@
 <map id="bvhar::SvForecaster::updateParams" name="bvhar::SvForecaster::updateParams">
-<area shape="rect" id="node1" title="Update members with corresponding MCMC draw." alt="" coords="5,23,156,65"/>
-<area shape="rect" id="node2" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="204,5,373,32"/>
-<area shape="rect" id="node3" href="$namespacebvhar.html#aca14201bb81c1e58586c161241a8c5f8" title=" " alt="" coords="217,56,360,83"/>
+<area shape="rect" id="Node000001" title="Update members with corresponding MCMC draw." alt="" coords="5,23,156,63"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="204,5,373,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,32,190,27,191,33,156,37"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a6bdf1b306df58e74eaae31d02c5b1108" title=" " alt="" coords="217,55,360,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,49,204,55,203,60,156,55"/>
 </map>

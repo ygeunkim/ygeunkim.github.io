@@ -1,5 +1,7 @@
 <map id="bvhar::MultiOls" name="bvhar::MultiOls">
-<area shape="rect" id="node1" title=" " alt="" coords="61,5,182,32"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1LltOls.html" title=" " alt="" coords="5,80,109,107"/>
-<area shape="rect" id="node3" href="$classbvhar_1_1QrOls.html" title=" " alt="" coords="134,80,237,107"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="61,5,182,31"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1LltOls.html" title=" " alt="" coords="5,79,109,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,43,70,80,66,77,100,39"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1QrOls.html" title=" " alt="" coords="134,79,237,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,39,177,77,173,80,139,43"/>
 </map>

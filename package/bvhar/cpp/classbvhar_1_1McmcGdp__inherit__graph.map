@@ -1,5 +1,7 @@
 <map id="bvhar::McmcGdp&lt; BaseMcmc &gt;" name="bvhar::McmcGdp&lt; BaseMcmc &gt;">
-<area shape="rect" id="node1" title="Generalized Double Pareto (GDP) prior." alt="" coords="5,155,239,181"/>
-<area shape="rect" id="node2" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="57,80,187,107"/>
-<area shape="rect" id="node3" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="37,5,207,32"/>
+<area shape="rect" id="Node000001" title="Generalized Double Pareto (GDP) prior." alt="" coords="5,152,239,177"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="57,79,187,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,118,125,152,119,152,119,118"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="37,5,207,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,44,125,79,119,79,119,44"/>
 </map>
