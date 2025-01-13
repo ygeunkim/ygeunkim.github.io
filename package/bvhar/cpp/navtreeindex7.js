@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"regforecaster_8h.html":[3,0,0,1,23],
+"regforecaster_8h.html#a7ab959fa232c50de7080a81998783fdf":[3,0,0,1,23,0],
 "regforecaster_8h.html#a8103fd548a799f17f2c0793c7c308b35":[3,0,0,1,23,3],
 "regforecaster_8h.html#a8a4f13e4874baa778b5aae80df28be98":[3,0,0,1,23,2],
 "regforecaster_8h.html#aa76fb827edc6b28206d3a40a156b52fe":[3,0,0,1,23,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "structbvhar_1_1MinnFit.html#a5d176d6ee9aa3f4b26e5d2028889978a":[1,0,1,60,1],
 "structbvhar_1_1MinnFit.html#a5d176d6ee9aa3f4b26e5d2028889978a":[2,0,0,60,1],
 "structbvhar_1_1MinnFit.html#ace65b09f89709edbcb3078a25f5c4132":[1,0,1,60,2],
-"structbvhar_1_1MinnFit.html#ace65b09f89709edbcb3078a25f5c4132":[2,0,0,60,2],
-"structbvhar_1_1MinnFit.html#ae9c105f997669c404f9b1e7c48c43355":[1,0,1,60,3],
-"structbvhar_1_1MinnFit.html#ae9c105f997669c404f9b1e7c48c43355":[2,0,0,60,3]
+"structbvhar_1_1MinnFit.html#ace65b09f89709edbcb3078a25f5c4132":[2,0,0,60,2]
 };

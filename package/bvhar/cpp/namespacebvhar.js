@@ -153,6 +153,7 @@ var namespacebvhar =
     [ "compute_logml", "namespacebvhar.html#ac68ceac28554c2c5e77832a2ce027760", null ],
     [ "jointdens_hyperparam", "namespacebvhar.html#a6c82c52ae0dcbf443b5c467f596a47d9", null ],
     [ "set_grp_id", "namespacebvhar.html#a4259e76082437051b0f410f0edfd51d5", null ],
+    [ "cut_param", "namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b", null ],
     [ "build_ssvs_sd", "namespacebvhar.html#ac2d40ebac391df5378eed70d097abc67", null ],
     [ "build_inv_lower", "namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959", null ],
     [ "ssvs_chol_diag", "namespacebvhar.html#a8eaf2a2fcbc5d01ab08020a7f65cac28", null ],

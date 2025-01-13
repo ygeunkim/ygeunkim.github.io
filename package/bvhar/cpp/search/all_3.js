@@ -43,5 +43,6 @@ var searchData=
   ['convert_5fvma_5fortho_40',['convert_vma_ortho',['../namespacebvhar.html#a5aacb856322b9ba67fc19a0ccdcc4448',1,'bvhar']]],
   ['cout_41',['COUT',['../commondefs_8h.html#a8c54b10b84183429bcbcbc82c92fcca9',1,'commondefs.h']]],
   ['cov_42',['cov',['../classbvhar_1_1MultiOls.html#ab9faf54b2c3c42df3ab2863eba7160f8',1,'bvhar::MultiOls::cov'],['../classbvhar_1_1McmcSpillover.html#aeb5b7dbac18b9870b8d9650d8fb40725',1,'bvhar::McmcSpillover::cov'],['../classbvhar_1_1OlsSpillover.html#ad5467bb16349b3aa9d7b3fcaa8c4f721',1,'bvhar::OlsSpillover::cov']]],
-  ['create_5flist_43',['CREATE_LIST',['../commondefs_8h.html#a0eaf7b50cdcc71a7812e26908299f8aa',1,'commondefs.h']]]
+  ['create_5flist_43',['CREATE_LIST',['../commondefs_8h.html#a0eaf7b50cdcc71a7812e26908299f8aa',1,'commondefs.h']]],
+  ['cut_5fparam_44',['cut_param',['../namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b',1,'bvhar']]]
 ];
