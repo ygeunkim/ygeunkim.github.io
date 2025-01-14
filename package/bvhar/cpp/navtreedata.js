@@ -60,15 +60,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classbvhar_1_1DynamicLdltSpillover.html#aa07c4b9fa94350667da4169e18915cf7",
-"classbvhar_1_1McmcNg.html#a0091f8dca6660d7c89e6ca84b969c423",
-"classbvhar_1_1McmcTriangular.html#a2023a20ef851494729f054253744d250",
-"classbvhar_1_1MinnBvharS.html#a32b1e512e4cb9ea411e69e490a6ae0f5",
-"classbvhar_1_1MultiOls.html#ac9f1b9c31eafc87a4580574f5b84cb25",
-"functions_func_v.html",
-"regforecaster_8h.html",
-"structbvhar_1_1MinnFit.html#ae9c105f997669c404f9b1e7c48c43355",
-"structbvhar_1_1SsvsParams.html#afeceaff79eb2ed537655a69f004dc43c"
+"classbvhar_1_1DynamicLdltSpillover.html#ab1444fcfc39e81478f7752c30cbda221",
+"classbvhar_1_1McmcNg.html#a19c75ba06d560f3eac6ba91441539428",
+"classbvhar_1_1McmcTriangular.html#a224ab55af5c40b8b75f21b6da4ba577b",
+"classbvhar_1_1MinnBvharS.html#ab358cfee4fcca79e0c9f8292c9fca8de",
+"classbvhar_1_1MultiOls.html#afa85ac0a4a12e81a7161f1ccf631f4d9",
+"functions_h.html",
+"regspillover_8h.html",
+"structbvhar_1_1MinnParams.html#a2964211d6cf89883702cc92d8d84ebcd",
+"structbvhar_1_1SsvsRecords.html#accbb03c65095956dc1c89d8793a007d5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
