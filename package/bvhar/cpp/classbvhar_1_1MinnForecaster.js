@@ -1,6 +1,6 @@
 var classbvhar_1_1MinnForecaster =
 [
-    [ "MinnForecaster", "classbvhar_1_1MinnForecaster.html#ac4debe10891b34c93dcec6ba952c03c5", null ],
+    [ "MinnForecaster", "classbvhar_1_1MinnForecaster.html#a448777a2b3964c293a9c76b7ded2aff5", null ],
     [ "~MinnForecaster", "classbvhar_1_1MinnForecaster.html#a36a3437c03dd58c6fc341b4034509502", null ],
     [ "updateVariance", "classbvhar_1_1MinnForecaster.html#a62a0a50613a48be9e5070469ab84ab38", null ],
     [ "computeMean", "classbvhar_1_1MinnForecaster.html#a4cf56394174c287c484f48fb385711f0", null ],
@@ -9,6 +9,7 @@ var classbvhar_1_1MinnForecaster =
     [ "forecastDensity", "classbvhar_1_1MinnForecaster.html#a3e4ea0cafdf2502d00b5fbb0bb9fafa3", null ],
     [ "returnForecast", "classbvhar_1_1MinnForecaster.html#ac358e15ac6dcda3b9a378794bcadcd9e", null ],
     [ "returnPoint", "classbvhar_1_1MinnForecaster.html#a015c03c535518d85383d88370f783da5", null ],
+    [ "rng", "classbvhar_1_1MinnForecaster.html#a77974e82da4b2333b6a6db78b68786ed", null ],
     [ "response", "classbvhar_1_1MinnForecaster.html#a400485dbef3f22e47abdaf39b5d9714d", null ],
     [ "posterior_mean", "classbvhar_1_1MinnForecaster.html#a76bc3bb146083d8b781b8bf22a4632f1", null ],
     [ "posterior_sig", "classbvhar_1_1MinnForecaster.html#ab8fce8badc2b12ba078f00aae956d1ad", null ],

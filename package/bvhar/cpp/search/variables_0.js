@@ -1,7 +1,7 @@
 var searchData=
 [
   ['_5facc_5fscale_0',['_acc_scale',['../structbvhar_1_1MhMinnInits.html#a99f02ff7a573c0d00ef0f8b11f845834',1,'bvhar::MhMinnInits']]],
-  ['_5fcoef_1',['_coef',['../structbvhar_1_1RegInits.html#a0d57020905e81237a30c32b19a45cce7',1,'bvhar::RegInits::_coef'],['../structbvhar_1_1OlsFit.html#a0747d5392ea05b9044a5649e772c7d8c',1,'bvhar::OlsFit::_coef'],['../structbvhar_1_1MinnFit.html#a5d176d6ee9aa3f4b26e5d2028889978a',1,'bvhar::MinnFit::_coef']]],
+  ['_5fcoef_1',['_coef',['../structbvhar_1_1MinnFit.html#a5d176d6ee9aa3f4b26e5d2028889978a',1,'bvhar::MinnFit::_coef'],['../structbvhar_1_1OlsFit.html#a0747d5392ea05b9044a5649e772c7d8c',1,'bvhar::OlsFit::_coef'],['../structbvhar_1_1RegInits.html#a0d57020905e81237a30c32b19a45cce7',1,'bvhar::RegInits::_coef']]],
   ['_5fcoef_5fdummy_2',['_coef_dummy',['../structbvhar_1_1SsvsInits.html#a67b871c088932501d4cdc2a1f4e5e209',1,'bvhar::SsvsInits']]],
   ['_5fcoef_5fgrid_3',['_coef_grid',['../structbvhar_1_1SsvsParams.html#a5692daca1580457b914022b3ec8477c5',1,'bvhar::SsvsParams']]],
   ['_5fcoef_5fs1_4',['_coef_s1',['../structbvhar_1_1SsvsParams.html#ada11ef8265d3ff9cbb418ef7cba9b23c',1,'bvhar::SsvsParams']]],

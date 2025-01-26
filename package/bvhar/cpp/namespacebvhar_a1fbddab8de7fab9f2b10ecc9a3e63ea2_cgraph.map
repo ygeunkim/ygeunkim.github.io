@@ -1,7 +1,9 @@
 <map id="bvhar::ssvs_chol_off" name="bvhar::ssvs_chol_off">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,31,160,56"/>
-<area shape="rect" id="Node000002" href="$bvharsim_8h.html#ab2025823c989aadd152c41a6137fed95" title=" " alt="" coords="214,5,373,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,31,200,26,201,32,161,37"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff" title=" " alt="" coords="208,55,379,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,49,195,53,194,59,160,55"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf" title=" " alt="" coords="208,5,411,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,32,194,28,195,34,161,37"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff" title=" " alt="" coords="224,55,395,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,49,211,54,210,60,160,54"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a66b31690ade4567f9242191fc78901e6" title=" " alt="" coords="459,5,608,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="411,15,445,15,445,21,411,21"/>
 </map>

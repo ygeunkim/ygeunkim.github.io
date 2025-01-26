@@ -1,14 +1,14 @@
 var searchData=
 [
   ['package_20developers_0',['For R package developers',['../index.html#autotoc_md1',1,'']]],
-  ['point_5fforecast_1',['point_forecast',['../classbvhar_1_1OlsForecaster.html#aacdd296852312fa0b2afb10bd8466592',1,'bvhar::OlsForecaster::point_forecast'],['../classbvhar_1_1MinnForecaster.html#a7faf68644723c86f584df287bbdf7b82',1,'bvhar::MinnForecaster::point_forecast']]],
+  ['point_5fforecast_1',['point_forecast',['../classbvhar_1_1MinnForecaster.html#a7faf68644723c86f584df287bbdf7b82',1,'bvhar::MinnForecaster::point_forecast'],['../classbvhar_1_1OlsForecaster.html#aacdd296852312fa0b2afb10bd8466592',1,'bvhar::OlsForecaster::point_forecast']]],
   ['post_5fmean_2',['post_mean',['../classbvhar_1_1McmcForecaster.html#af12f7daa42e19a80d3d268792da03c09',1,'bvhar::McmcForecaster']]],
   ['posterior_5fiw_5fscale_3',['posterior_iw_scale',['../classbvhar_1_1MinnForecaster.html#a3d8aa09914787560ef699e15102d12c2',1,'bvhar::MinnForecaster']]],
   ['posterior_5fiw_5fshape_4',['posterior_iw_shape',['../classbvhar_1_1MinnForecaster.html#ab30ff61b709eda011699275609405264',1,'bvhar::MinnForecaster']]],
   ['posterior_5fmean_5',['posterior_mean',['../classbvhar_1_1MinnForecaster.html#a76bc3bb146083d8b781b8bf22a4632f1',1,'bvhar::MinnForecaster']]],
   ['posterior_5fsig_6',['posterior_sig',['../classbvhar_1_1MinnForecaster.html#ab8fce8badc2b12ba078f00aae956d1ad',1,'bvhar::MinnForecaster']]],
-  ['prec_7',['prec',['../classbvhar_1_1MinnSpillover.html#a93cf0de7f9e81ec1a1f852ae6ecc9a72',1,'bvhar::MinnSpillover::prec'],['../classbvhar_1_1Minnesota.html#ad8518e2b44663d2b156a8dca61cf36ff',1,'bvhar::Minnesota::prec'],['../classbvhar_1_1MinnFlat.html#af23c2a40965bcbb5664b53ccdf0cf600',1,'bvhar::MinnFlat::prec']]],
-  ['pred_5fsave_8',['pred_save',['../classbvhar_1_1OlsForecaster.html#a3ed6ae8ef8161a152d335da873510d8d',1,'bvhar::OlsForecaster::pred_save'],['../classbvhar_1_1MinnForecaster.html#ac2567b6069bd75f76be988e6cb244d06',1,'bvhar::MinnForecaster::pred_save']]],
+  ['prec_7',['prec',['../classbvhar_1_1Minnesota.html#ad8518e2b44663d2b156a8dca61cf36ff',1,'bvhar::Minnesota::prec'],['../classbvhar_1_1MinnFlat.html#af23c2a40965bcbb5664b53ccdf0cf600',1,'bvhar::MinnFlat::prec'],['../classbvhar_1_1MinnSpillover.html#a93cf0de7f9e81ec1a1f852ae6ecc9a72',1,'bvhar::MinnSpillover::prec']]],
+  ['pred_5fsave_8',['pred_save',['../classbvhar_1_1MinnForecaster.html#ac2567b6069bd75f76be988e6cb244d06',1,'bvhar::MinnForecaster::pred_save'],['../classbvhar_1_1OlsForecaster.html#a3ed6ae8ef8161a152d335da873510d8d',1,'bvhar::OlsForecaster::pred_save']]],
   ['predictive_5fdistn_9',['predictive_distn',['../classbvhar_1_1MinnForecaster.html#a1b80b7b6afa516858add5beca6987cb0',1,'bvhar::MinnForecaster::predictive_distn'],['../classbvhar_1_1McmcForecaster.html#a756a48407e13cef82576eb53bb561c65',1,'bvhar::McmcForecaster::predictive_distn']]],
   ['prior_5falpha_5fmean_10',['prior_alpha_mean',['../classbvhar_1_1McmcTriangular.html#ad7805a06d1b4cf7a6e804ea438f44305',1,'bvhar::McmcTriangular']]],
   ['prior_5falpha_5fprec_11',['prior_alpha_prec',['../classbvhar_1_1McmcTriangular.html#afd85383bd6d311b7f69ff3124a1bfdd0',1,'bvhar::McmcTriangular']]],
@@ -20,6 +20,7 @@ var searchData=
   ['prior_5fshape_17',['prior_shape',['../classbvhar_1_1Minnesota.html#a0c2ba82e776e39ed791e1798f22c5b17',1,'bvhar::Minnesota']]],
   ['prior_5fsig_5fscl_18',['prior_sig_scl',['../classbvhar_1_1McmcTriangular.html#a2023a20ef851494729f054253744d250',1,'bvhar::McmcTriangular']]],
   ['prior_5fsig_5fshp_19',['prior_sig_shp',['../classbvhar_1_1McmcTriangular.html#a76a667341e52f53fc516d40689ef8872',1,'bvhar::McmcTriangular']]],
-  ['psi_5frecord_20',['psi_record',['../structbvhar_1_1MhMinnRecords.html#a767297113d2fc935b4355323fd33bca0',1,'bvhar::MhMinnRecords']]],
-  ['py_5flist_21',['PY_LIST',['../commondefs_8h.html#a2c38b90bde6b29fa821f2c5ce9454bab',1,'commondefs.h']]]
+  ['progress_2eh_20',['progress.h',['../progress_8h.html',1,'']]],
+  ['psi_5frecord_21',['psi_record',['../structbvhar_1_1MhMinnRecords.html#a767297113d2fc935b4355323fd33bca0',1,'bvhar::MhMinnRecords']]],
+  ['py_5flist_22',['PY_LIST',['../commondefs_8h.html#a2c38b90bde6b29fa821f2c5ce9454bab',1,'commondefs.h']]]
 ];

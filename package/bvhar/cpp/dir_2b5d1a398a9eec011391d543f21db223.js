@@ -1,30 +1,4 @@
 var dir_2b5d1a398a9eec011391d543f21db223 =
 [
-    [ "bvharcommon.h", "bvharcommon_8h.html", "bvharcommon_8h" ],
-    [ "bvharconfig.h", "bvharconfig_8h.html", "bvharconfig_8h" ],
-    [ "bvhardesign.h", "bvhardesign_8h.html", "bvhardesign_8h" ],
-    [ "bvhardraw.h", "bvhardraw_8h.html", "bvhardraw_8h" ],
-    [ "bvhareigen.h", "bvhareigen_8h.html", "bvhareigen_8h" ],
-    [ "bvharforecaster.h", "bvharforecaster_8h.html", "bvharforecaster_8h" ],
-    [ "bvharinterrupt.h", "bvharinterrupt_8h.html", "bvharinterrupt_8h" ],
-    [ "bvharmcmc.h", "bvharmcmc_8h.html", "bvharmcmc_8h" ],
-    [ "bvharomp.h", "bvharomp_8h.html", null ],
-    [ "bvharprogress.h", "bvharprogress_8h.html", "bvharprogress_8h" ],
-    [ "bvharsim.h", "bvharsim_8h.html", "bvharsim_8h" ],
-    [ "bvharspdlog.h", "bvharspdlog_8h.html", "bvharspdlog_8h" ],
-    [ "bvharspillover.h", "bvharspillover_8h.html", "bvharspillover_8h" ],
-    [ "bvharstructural.h", "bvharstructural_8h.html", "bvharstructural_8h" ],
-    [ "commondefs.h", "commondefs_8h.html", "commondefs_8h" ],
-    [ "mcmcreg.h", "mcmcreg_8h.html", "mcmcreg_8h" ],
-    [ "mcmcsv.h", "mcmcsv_8h.html", "mcmcsv_8h" ],
-    [ "minnesota.h", "minnesota_8h.html", "minnesota_8h" ],
-    [ "minnforecaster.h", "minnforecaster_8h.html", "minnforecaster_8h" ],
-    [ "minnspillover.h", "minnspillover_8h.html", "minnspillover_8h" ],
-    [ "ols.h", "ols_8h.html", "ols_8h" ],
-    [ "olsforecaster.h", "olsforecaster_8h.html", "olsforecaster_8h" ],
-    [ "olsspillover.h", "olsspillover_8h.html", "olsspillover_8h" ],
-    [ "regforecaster.h", "regforecaster_8h.html", "regforecaster_8h" ],
-    [ "regspillover.h", "regspillover_8h.html", "regspillover_8h" ],
-    [ "svforecaster.h", "svforecaster_8h.html", "svforecaster_8h" ],
-    [ "svspillover.h", "svspillover_8h.html", "svspillover_8h" ]
+    [ "bvhar", "dir_0841e1ef014203a22f809dd4678cb0e1.html", "dir_0841e1ef014203a22f809dd4678cb0e1" ]
 ];

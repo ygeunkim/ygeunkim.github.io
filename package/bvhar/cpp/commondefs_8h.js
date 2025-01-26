@@ -17,6 +17,8 @@ var commondefs_8h =
     [ "NAMED", "commondefs_8h.html#a6df7b022ffdb2532f2a0b31f12be6581", null ],
     [ "ACCESS_LIST", "commondefs_8h.html#a46d0620be2aa4c6baaed9d4be18fd541", null ],
     [ "IS_MATRIX", "commondefs_8h.html#a8b45228c95c4de678afd90bd6b3e98d0", null ],
+    [ "IS_VECTOR", "commondefs_8h.html#a95373b737917d6868cfeabd6700fce72", null ],
+    [ "IS_LOGICAL", "commondefs_8h.html#a5a7f1e37e350f595b4d40cd4d886101f", null ],
     [ "CAST_VECTOR", "commondefs_8h.html#a367e52d020b865ed1ff03dae08bd8351", null ],
     [ "CAST_MATRIX", "commondefs_8h.html#af94daf4bd28cd382c5cbb43b906c26f1", null ],
     [ "make_unique", "commondefs_8h.html#a03d5ca705e3360c607bf2586e9a9de3b", null ]

@@ -1,0 +1,28 @@
+var random_8h =
+[
+    [ "sim_mgaussian", "random_8h.html#a0a6c74a8afbc3da30946f508a4fd9e21", null ],
+    [ "sim_mstudent", "random_8h.html#a564782c98aed10e117f319116b04dd45", null ],
+    [ "sim_matgaussian", "random_8h.html#a12b72e531d76f6d9999f6757a2737a29", null ],
+    [ "sim_iw", "random_8h.html#a2acfcc04312c3ce7a344ba71103f450b", null ],
+    [ "sim_mgaussian_chol", "random_8h.html#a78b640d2e12075d23207a062ef51eddf", null ],
+    [ "dgig_quasi", "random_8h.html#acb009d46e9cfb6574c78bcc16158190a", null ],
+    [ "dgig_mode", "random_8h.html#ab31cbd30a582c60e0a74217cbe3c0528", null ],
+    [ "sim_mgaussian_chol", "random_8h.html#a9a6a648f32478ed26de42232f61c8176", null ],
+    [ "sim_mn", "random_8h.html#a8a823406839d5172c3dd17c290e87257", null ],
+    [ "sim_iw_tri", "random_8h.html#ac20c97e92d1e9eb026ed1fd7e9d1f364", null ],
+    [ "sim_inv_wishart", "random_8h.html#a16f6b6f4d77ccc011d094a32b320ee98", null ],
+    [ "sim_mn_iw", "random_8h.html#a7a0a588ca841b959be2a134105c591c5", null ],
+    [ "sim_wishart", "random_8h.html#af927c386b17ddc79424d1741479c9004", null ],
+    [ "rgig_nonconcave", "random_8h.html#af63ad06f7d8a84136a31a3ee515d36a1", null ],
+    [ "rgig_without_mode", "random_8h.html#af32cf0334892129c06083b9dbca53045", null ],
+    [ "rgig_with_mode", "random_8h.html#a2ac5aae87a49ff021063f44b62ded560", null ],
+    [ "sim_gig", "random_8h.html#a7cd03d53cc8d391f3625cacd64df2027", null ],
+    [ "sim_mn", "random_8h.html#ac39e1d9fba8fd61c19aee102efb0ce46", null ],
+    [ "sim_iw_tri", "random_8h.html#a71b0f4e8ddcbef169089916be950f8a6", null ],
+    [ "sim_mn_iw", "random_8h.html#afc9d86e04e7be45182705e172f241cbb", null ],
+    [ "rgig_nonconcave", "random_8h.html#ac6eafcc11253c714df78b07c750e31a3", null ],
+    [ "rgig_without_mode", "random_8h.html#a17317a80fb76f2ef5b9891a128cb6ed8", null ],
+    [ "rgig_with_mode", "random_8h.html#a7266ff7488ec42882d25e2402fa35c11", null ],
+    [ "sim_gig", "random_8h.html#a2bf645851c2e5492c061216bb41f99a6", null ],
+    [ "sim_invgauss", "random_8h.html#a701898c90db3d9ab804498128b6df9f7", null ]
+];

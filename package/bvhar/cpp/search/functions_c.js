@@ -43,7 +43,7 @@ var searchData=
   ['minnesota_5fnu_5fgriddy_40',['minnesota_nu_griddy',['../namespacebvhar.html#a347183c24d51974f9c516ed67f0cac02',1,'bvhar']]],
   ['minnfit_41',['MinnFit',['../structbvhar_1_1MinnFit.html#af1d6148d9f7c448f7710f1c4c025cdd1',1,'bvhar::MinnFit']]],
   ['minnflat_42',['MinnFlat',['../classbvhar_1_1MinnFlat.html#aa07d35d2812f2631b38aaff9f5873228',1,'bvhar::MinnFlat']]],
-  ['minnforecaster_43',['MinnForecaster',['../classbvhar_1_1MinnForecaster.html#ac4debe10891b34c93dcec6ba952c03c5',1,'bvhar::MinnForecaster']]],
+  ['minnforecaster_43',['MinnForecaster',['../classbvhar_1_1MinnForecaster.html#a448777a2b3964c293a9c76b7ded2aff5',1,'bvhar::MinnForecaster']]],
   ['minnparams_44',['MinnParams',['../structbvhar_1_1MinnParams.html#ae1bda7b2ecf1c10d5b71730f0aea60f3',1,'bvhar::MinnParams']]],
   ['minnrecords_45',['minnrecords',['../structbvhar_1_1MinnRecords.html#a84b663cc360881c61c0908cd6de22c74',1,'bvhar::MinnRecords::MinnRecords(const Eigen::MatrixXd &amp;alpha_record, const Eigen::MatrixXd &amp;sig_record)'],['../structbvhar_1_1MinnRecords.html#ab059d52ec1597a71ba2eebd11d417b0a',1,'bvhar::MinnRecords::MinnRecords(int num_iter, int dim, int dim_design)']]],
   ['minnspec_46',['MinnSpec',['../structbvhar_1_1MinnSpec.html#a9b609c9883678756e26d04676567680c',1,'bvhar::MinnSpec']]],

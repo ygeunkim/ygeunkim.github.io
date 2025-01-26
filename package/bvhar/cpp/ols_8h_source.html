@@ -98,10 +98,10 @@ $(document).ready(function(){initNavTree('ols_8h_source.html',''); initResizable
   <div class="headertitle"><div class="title">ols.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="ols_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef OLS_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define OLS_H</span></div>
+<a href="ols_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef BVHAR_OLS_OLS_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define BVHAR_OLS_OLS_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="bvhardesign_8h.html">bvhardesign.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../math/design.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;memory&gt;</span> <span class="comment">// std::unique_ptr in source file</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacebvhar.html">bvhar</a> {</div>
@@ -398,8 +398,7 @@ $(document).ready(function(){initNavTree('ols_8h_source.html',''); initResizable
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span> </div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>} <span class="comment">// namespace bvhar</span></div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="preprocessor">#endif </span><span class="comment">// OLS_H</span></div>
-<div class="ttc" id="abvhardesign_8h_html"><div class="ttname"><a href="bvhardesign_8h.html">bvhardesign.h</a></div></div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_OLS_OLS_H</span></div>
 <div class="ttc" id="aclassbvhar_1_1LltOls_html"><div class="ttname"><a href="classbvhar_1_1LltOls.html">bvhar::LltOls</a></div><div class="ttdef"><b>Definition</b> ols.h:116</div></div>
 <div class="ttc" id="aclassbvhar_1_1LltOls_html_a1ee8a79186fd0610b695373a6b97c009"><div class="ttname"><a href="classbvhar_1_1LltOls.html#a1ee8a79186fd0610b695373a6b97c009">bvhar::LltOls::~LltOls</a></div><div class="ttdeci">virtual ~LltOls()=default</div></div>
 <div class="ttc" id="aclassbvhar_1_1LltOls_html_a942a152d94c8fabf6ab2be6ee0a00d6a"><div class="ttname"><a href="classbvhar_1_1LltOls.html#a942a152d94c8fabf6ab2be6ee0a00d6a">bvhar::LltOls::estimateCoef</a></div><div class="ttdeci">void estimateCoef() override</div><div class="ttdef"><b>Definition</b> ols.h:122</div></div>
@@ -458,10 +457,10 @@ $(document).ready(function(){initNavTree('ols_8h_source.html',''); initResizable
 <div class="ttc" id="acommondefs_8h_html_a6df7b022ffdb2532f2a0b31f12be6581"><div class="ttname"><a href="commondefs_8h.html#a6df7b022ffdb2532f2a0b31f12be6581">NAMED</a></div><div class="ttdeci">#define NAMED</div><div class="ttdef"><b>Definition</b> commondefs.h:44</div></div>
 <div class="ttc" id="acommondefs_8h_html_a8b6956a3b15c98d5016a0cfc601b47bd"><div class="ttname"><a href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">CAST</a></div><div class="ttdeci">#define CAST</div><div class="ttdef"><b>Definition</b> commondefs.h:39</div></div>
 <div class="ttc" id="acommondefs_8h_html_aed0a8f83088c41d721066cd5b3b9a00c"><div class="ttname"><a href="commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c">LIST</a></div><div class="ttdeci">#define LIST</div><div class="ttdef"><b>Definition</b> commondefs.h:35</div></div>
-<div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> bvharcommon.h:51</div></div>
-<div class="ttc" id="anamespacebvhar_html_aca149dc0e3f8744d039a4b3c5d98f1c6"><div class="ttname"><a href="namespacebvhar.html#aca149dc0e3f8744d039a4b3c5d98f1c6">bvhar::build_vhar</a></div><div class="ttdeci">Eigen::MatrixXd build_vhar(int dim, int week, int month, bool include_mean)</div><div class="ttdef"><b>Definition</b> bvhardesign.h:35</div></div>
-<div class="ttc" id="anamespacebvhar_html_ae1354f368716d19119b45819613cd05b"><div class="ttname"><a href="namespacebvhar.html#ae1354f368716d19119b45819613cd05b">bvhar::build_y0</a></div><div class="ttdeci">Eigen::MatrixXd build_y0(const Eigen::MatrixXd &amp;y, int var_lag, int index)</div><div class="ttdef"><b>Definition</b> bvhardesign.h:8</div></div>
-<div class="ttc" id="anamespacebvhar_html_af89bd7ebd3a9fa3977460958dd0e7083"><div class="ttname"><a href="namespacebvhar.html#af89bd7ebd3a9fa3977460958dd0e7083">bvhar::build_x0</a></div><div class="ttdeci">Eigen::MatrixXd build_x0(const Eigen::MatrixXd &amp;y, int var_lag, bool include_mean)</div><div class="ttdef"><b>Definition</b> bvhardesign.h:18</div></div>
+<div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> draw.h:7</div></div>
+<div class="ttc" id="anamespacebvhar_html_aca149dc0e3f8744d039a4b3c5d98f1c6"><div class="ttname"><a href="namespacebvhar.html#aca149dc0e3f8744d039a4b3c5d98f1c6">bvhar::build_vhar</a></div><div class="ttdeci">Eigen::MatrixXd build_vhar(int dim, int week, int month, bool include_mean)</div><div class="ttdef"><b>Definition</b> design.h:35</div></div>
+<div class="ttc" id="anamespacebvhar_html_ae1354f368716d19119b45819613cd05b"><div class="ttname"><a href="namespacebvhar.html#ae1354f368716d19119b45819613cd05b">bvhar::build_y0</a></div><div class="ttdeci">Eigen::MatrixXd build_y0(const Eigen::MatrixXd &amp;y, int var_lag, int index)</div><div class="ttdef"><b>Definition</b> design.h:8</div></div>
+<div class="ttc" id="anamespacebvhar_html_af89bd7ebd3a9fa3977460958dd0e7083"><div class="ttname"><a href="namespacebvhar.html#af89bd7ebd3a9fa3977460958dd0e7083">bvhar::build_x0</a></div><div class="ttdeci">Eigen::MatrixXd build_x0(const Eigen::MatrixXd &amp;y, int var_lag, bool include_mean)</div><div class="ttdef"><b>Definition</b> design.h:18</div></div>
 <div class="ttc" id="astructbvhar_1_1OlsFit_html"><div class="ttname"><a href="structbvhar_1_1OlsFit.html">bvhar::OlsFit</a></div><div class="ttdef"><b>Definition</b> ols.h:17</div></div>
 <div class="ttc" id="astructbvhar_1_1OlsFit_html_a0747d5392ea05b9044a5649e772c7d8c"><div class="ttname"><a href="structbvhar_1_1OlsFit.html#a0747d5392ea05b9044a5649e772c7d8c">bvhar::OlsFit::_coef</a></div><div class="ttdeci">Eigen::MatrixXd _coef</div><div class="ttdef"><b>Definition</b> ols.h:18</div></div>
 <div class="ttc" id="astructbvhar_1_1OlsFit_html_ac4dca87ece64281b2c580685bbe155af"><div class="ttname"><a href="structbvhar_1_1OlsFit.html#ac4dca87ece64281b2c580685bbe155af">bvhar::OlsFit::OlsFit</a></div><div class="ttdeci">OlsFit(const Eigen::MatrixXd &amp;coef_mat, int ord)</div><div class="ttdef"><b>Definition</b> ols.h:21</div></div>
@@ -478,7 +477,7 @@ $(document).ready(function(){initNavTree('ols_8h_source.html',''); initResizable
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_920884c6b3b2f0be94e27d51660adee5.html">inst</a></li><li class="navelem"><a class="el" href="dir_2b5d1a398a9eec011391d543f21db223.html">include</a></li><li class="navelem"><a class="el" href="ols_8h.html">ols.h</a></li>
+    <li class="navelem"><a class="el" href="dir_920884c6b3b2f0be94e27d51660adee5.html">inst</a></li><li class="navelem"><a class="el" href="dir_2b5d1a398a9eec011391d543f21db223.html">include</a></li><li class="navelem"><a class="el" href="dir_0841e1ef014203a22f809dd4678cb0e1.html">bvhar</a></li><li class="navelem"><a class="el" href="dir_fab001d0240dfdb59b1b25afd4df5a66.html">src</a></li><li class="navelem"><a class="el" href="dir_6b456e8a4e4614310ac2c362f12dfb5c.html">ols</a></li><li class="navelem"><a class="el" href="ols_8h.html">ols.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

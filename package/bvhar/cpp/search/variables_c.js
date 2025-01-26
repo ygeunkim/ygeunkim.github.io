@@ -8,7 +8,7 @@ var searchData=
   ['posterior_5fsig_5',['posterior_sig',['../classbvhar_1_1MinnForecaster.html#ab8fce8badc2b12ba078f00aae956d1ad',1,'bvhar::MinnForecaster']]],
   ['prec_6',['prec',['../classbvhar_1_1Minnesota.html#ad8518e2b44663d2b156a8dca61cf36ff',1,'bvhar::Minnesota::prec'],['../classbvhar_1_1MinnFlat.html#af23c2a40965bcbb5664b53ccdf0cf600',1,'bvhar::MinnFlat::prec'],['../classbvhar_1_1MinnSpillover.html#a93cf0de7f9e81ec1a1f852ae6ecc9a72',1,'bvhar::MinnSpillover::prec']]],
   ['pred_5fsave_7',['pred_save',['../classbvhar_1_1MinnForecaster.html#ac2567b6069bd75f76be988e6cb244d06',1,'bvhar::MinnForecaster::pred_save'],['../classbvhar_1_1OlsForecaster.html#a3ed6ae8ef8161a152d335da873510d8d',1,'bvhar::OlsForecaster::pred_save']]],
-  ['predictive_5fdistn_8',['predictive_distn',['../classbvhar_1_1MinnForecaster.html#a1b80b7b6afa516858add5beca6987cb0',1,'bvhar::MinnForecaster::predictive_distn'],['../classbvhar_1_1McmcForecaster.html#a756a48407e13cef82576eb53bb561c65',1,'bvhar::McmcForecaster::predictive_distn']]],
+  ['predictive_5fdistn_8',['predictive_distn',['../classbvhar_1_1McmcForecaster.html#a756a48407e13cef82576eb53bb561c65',1,'bvhar::McmcForecaster::predictive_distn'],['../classbvhar_1_1MinnForecaster.html#a1b80b7b6afa516858add5beca6987cb0',1,'bvhar::MinnForecaster::predictive_distn']]],
   ['prior_5falpha_5fmean_9',['prior_alpha_mean',['../classbvhar_1_1McmcTriangular.html#ad7805a06d1b4cf7a6e804ea438f44305',1,'bvhar::McmcTriangular']]],
   ['prior_5falpha_5fprec_10',['prior_alpha_prec',['../classbvhar_1_1McmcTriangular.html#afd85383bd6d311b7f69ff3124a1bfdd0',1,'bvhar::McmcTriangular']]],
   ['prior_5fchol_5fmean_11',['prior_chol_mean',['../classbvhar_1_1McmcTriangular.html#a13aa92c76892994c3224743d04bc6aa3',1,'bvhar::McmcTriangular']]],
