@@ -103,46 +103,15 @@
 these useful.</p>
 <ul>
 <li>
-<code>bvharsim.h</code>: Rcpp random generation functions that are
-widely used in Bayesian statistics.</li>
+<code>ols</code>: OLS classes and structs</li>
 <li>
-<code>ols.h</code>: OLS classes and structs</li>
+<code>bayesfit</code>: Bayesian models classes and structs</li>
 <li>
-<code>minnesota.h</code>: Minnesota prior classes and structs</li>
+<code>forecast</code>: Forecast classes</li>
 <li>
-<code>mcmcsv.h</code>: Classes and structs for stochastic volatility
-models. It includes
-<ul>
-<li>Minnesota prior</li>
-<li>SSVS prior</li>
-<li>Horseshoe prior</li>
-</ul>
-</li>
+<code>spillover</code>: Spillover classes</li>
 <li>
-<code>mcmchs.h</code>: Horseshoe prior classes</li>
-<li>
-<code>mcmcssvs.h</code>: SSVS prior classes</li>
-<li>
-<code>olsforecaster.h</code>: Forecasting class for each VAR and
-VHAR</li>
-<li>
-<code>minnforecaster.h</code>: Minnesota prior forecaster
-classes</li>
-<li>
-<code>svforecaster.h</code>: SV models forecaster classes</li>
-<li>
-<code>olsspillover.h</code>: FEVD and spillover class for each VAR
-and VHAR</li>
-<li>
-<code>minnspillover.h</code>: FEVD and spillover class for Minnesota
-prior</li>
-<li>
-<code>svspillover.h</code>: FEVD and spillover class for SV
-models</li>
-<li>
-<code>bvharprogress.h</code>: Simple progress bar classes</li>
-<li>
-<code>bvharinterrupt.h</code>: Interruption handler classes</li>
+<code>utils</code>: Inline functions used in the headers</li>
 </ul>
 <p>You can use these by writing in your R package DESCRIPTION:</p>
 <pre><code>LinkingTo: 
@@ -151,7 +120,7 @@ models</li>
     RcppEigen,
     bvhar</code></pre>
 <p>Also, you can use in your single <code>C++</code> source:</p>
-<pre><code>// [[Rcpp::depends(BH, RcppEigen, bvhar)]]
+<pre><code>// [[Rcpp::depends(BH, RcppEigen, RcppSpdlog, RcppThread, bvhar)]]
 // [[Rcpp::plugins(bvhar)]]</code></pre>
 <p>You need to add <code>plugins</code> attribute because the header in
 this package should define <code>USE_RCPP</code> macro. Or you can use
@@ -159,34 +128,8 @@ instead:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/Sys.setenv.html" class="external-link">Sys.setenv</a></span><span class="op">(</span><span class="st">"PKG_CPPFLAGS"</span> <span class="op">=</span> <span class="st">"-DUSE_RCPP"</span><span class="op">)</span></span></code></pre></div>
 <p>without using plugins attribute.</p>
-<div class="section level3">
-<h3 id="mcmc-headers">MCMC headers<a class="anchor" aria-label="anchor" href="#mcmc-headers"></a>
-</h3>
-<p><code>mcmc*.h</code> has classes that can conduct MCMC. Since it is
-designed thread-safe, you can OpenMP for parallel multiple chain
-loop.</p>
-<ol style="list-style-type: decimal">
-<li>Initialize using smart pointer (in this package:
-<code>std::unique_ptr</code>)
-<ul>
-<li>Since each class requires other structure as its parameter, you
-first initialize it.</li>
-<li>Each struct is inside the same header.</li>
-</ul>
-</li>
-<li>
-<code>doPosteriorDraws()</code> updates MCMC draws, so use this
-inside loop.</li>
-<li>
-<code>returnRecords(burn, thin)</code> returns
-<code>Rcpp::List</code> of every MCMC record.</li>
-</ol>
-<p>In case of SV model, you can define your own prior by defining a
-derived class.</p>
 </div>
-</div>
-  </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
-    </nav></aside>
+  </main>
 </div>
 
 
