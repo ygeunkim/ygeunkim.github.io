@@ -24,6 +24,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
    <div id="projectname">bvhar<span id="projectnumber">&#160;2.1.2.9016</span>
    </div>
@@ -168,9 +169,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f4ef763df45f09d917096e7c86468d0" id="r_a6f4ef763df45f09d917096e7c86468d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegRecords.html#a6f4ef763df45f09d917096e7c86468d0">subsetStable</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> num_alpha, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">double</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">threshold</a>, Eigen::Ref&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> Eigen::MatrixXd &gt; har_trans)=0</td></tr>
 <tr class="memdesc:a6f4ef763df45f09d917096e7c86468d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove unstable coefficients draw.    <br /></td></tr>
 <tr class="separator:a6f4ef763df45f09d917096e7c86468d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2847a989de941926ada6b2e955b822f5" id="r_a2847a989de941926ada6b2e955b822f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegRecords.html#a2847a989de941926ada6b2e955b822f5">subsetStable</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> num_alpha, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">double</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">threshold</a>, Eigen::Ref&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> Eigen::SparseMatrix&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">double</a> &gt; &gt; har_trans)=0</td></tr>
-<tr class="memdesc:a2847a989de941926ada6b2e955b822f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove unstable coefficients draw.    <br /></td></tr>
-<tr class="separator:a2847a989de941926ada6b2e955b822f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafab8fa958e16113a02199226347b8a9" id="r_aafab8fa958e16113a02199226347b8a9"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegRecords.html#aafab8fa958e16113a02199226347b8a9">computeActivity</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">double</a> level)</td></tr>
 <tr class="memdesc:aafab8fa958e16113a02199226347b8a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get sparse draw using credible interval.  <br /></td></tr>
 <tr class="separator:aafab8fa958e16113a02199226347b8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1000,7 +998,7 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 </div>
 </div>
 <a id="a92ef956451f1b7611b24c8d71aca9bb4" name="a92ef956451f1b7611b24c8d71aca9bb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92ef956451f1b7611b24c8d71aca9bb4">&#9670;&#160;</a></span>subsetStable() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a92ef956451f1b7611b24c8d71aca9bb4">&#9670;&#160;</a></span>subsetStable() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1047,7 +1045,7 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 </div>
 </div>
 <a id="a6f4ef763df45f09d917096e7c86468d0" name="a6f4ef763df45f09d917096e7c86468d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f4ef763df45f09d917096e7c86468d0">&#9670;&#160;</a></span>subsetStable() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f4ef763df45f09d917096e7c86468d0">&#9670;&#160;</a></span>subsetStable() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1097,60 +1095,6 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 </dl>
 
 <p>Implemented in <a class="el" href="structbvhar_1_1LdltRecords.html#a6548c72b69393847a593ec85159884e1">bvhar::LdltRecords</a>, and <a class="el" href="structbvhar_1_1SvRecords.html#ad151db0054a5237bd5622c41a050e005">bvhar::SvRecords</a>.</p>
-
-</div>
-</div>
-<a id="a2847a989de941926ada6b2e955b822f5" name="a2847a989de941926ada6b2e955b822f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2847a989de941926ada6b2e955b822f5">&#9670;&#160;</a></span>subsetStable() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> bvhar::RegRecords::subsetStable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a>&#160;</td>
-          <td class="paramname"><em>num_alpha</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">double</a>&#160;</td>
-          <td class="paramname"><em>threshold</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Ref&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> Eigen::SparseMatrix&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">double</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>har_trans</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Remove unstable coefficients draw.   </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">num_alpha</td><td>The number of coefficient elements except constant term </td></tr>
-    <tr><td class="paramname">threshold</td><td>Threashold to check stability  </td></tr>
-    <tr><td class="paramname">har_trans</td><td>Sprase VHAR transformation matrix </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="structbvhar_1_1LdltRecords.html#a3e89787d3365ffe63de4c820a76daee3">bvhar::LdltRecords</a>, and <a class="el" href="structbvhar_1_1SvRecords.html#ad6cd6cf66a71854beba16db84b8f1e48">bvhar::SvRecords</a>.</p>
 
 </div>
 </div>

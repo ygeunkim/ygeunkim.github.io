@@ -16,6 +16,5 @@ var structbvhar_1_1LdltRecords =
     [ "updateDiag", "structbvhar_1_1LdltRecords.html#a9316603b66b9c3c788c9c6147f61947a", null ],
     [ "subsetStable", "structbvhar_1_1LdltRecords.html#aa047a03d3f76573264c9211bcb3f1eba", null ],
     [ "subsetStable", "structbvhar_1_1LdltRecords.html#a6548c72b69393847a593ec85159884e1", null ],
-    [ "subsetStable", "structbvhar_1_1LdltRecords.html#a3e89787d3365ffe63de4c820a76daee3", null ],
     [ "fac_record", "structbvhar_1_1LdltRecords.html#a57225c61aa0ba17e9d1a2ece8a88310a", null ]
 ];
