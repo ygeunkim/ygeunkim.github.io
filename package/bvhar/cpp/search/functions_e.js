@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['olsfit_0',['OlsFit',['../structbvhar_1_1OlsFit.html#ac4dca87ece64281b2c580685bbe155af',1,'bvhar::OlsFit']]],
-  ['olsforecaster_1',['OlsForecaster',['../classbvhar_1_1OlsForecaster.html#a20742b406991f21ed91f7a22ce2410ae',1,'bvhar::OlsForecaster']]],
-  ['olsspillover_2',['OlsSpillover',['../classbvhar_1_1OlsSpillover.html#a89a7501327e156bc3e657393bc4b508f',1,'bvhar::OlsSpillover']]],
-  ['olsvar_3',['OlsVar',['../classbvhar_1_1OlsVar.html#a1596646ccef2da88a4952c5e48b654d1',1,'bvhar::OlsVar']]],
-  ['olsvhar_4',['OlsVhar',['../classbvhar_1_1OlsVhar.html#acf9908914f9646d4d0fa5e845a9b7ed9',1,'bvhar::OlsVhar']]]
+  ['p_0',['p',['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution_1_1param__type.html#a67b0a8109066cf56bf77b87b2b6e3d4f',1,'boost::random::generalized_inverse_gaussian_distribution::param_type::p()'],['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html#ab036a370b21c2e384cc14e3151e003ac',1,'boost::random::generalized_inverse_gaussian_distribution::p()']]],
+  ['param_1',['param',['../classboost_1_1random_1_1inverse__gaussian__distribution.html#a7abcef794a52191f37dfee90cb2d029c',1,'boost::random::inverse_gaussian_distribution::param() const'],['../classboost_1_1random_1_1inverse__gaussian__distribution.html#a6aa0c47f56d038ce9e755a97b3c578d1',1,'boost::random::inverse_gaussian_distribution::param(const param_type &amp;parm)'],['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html#abc81177c6f653f361c395110079433b7',1,'boost::random::generalized_inverse_gaussian_distribution::param() const'],['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html#ac6f159387dc7dc87f8e8143c9d477fb9',1,'boost::random::generalized_inverse_gaussian_distribution::param(const param_type &amp;parm)']]],
+  ['param_5ftype_2',['param_type',['../classboost_1_1random_1_1inverse__gaussian__distribution_1_1param__type.html#a311093e119c6cb64fc38bb5a59e76325',1,'boost::random::inverse_gaussian_distribution::param_type::param_type()'],['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution_1_1param__type.html#a8d46a4dde8c070b2ed871329db74a8a1',1,'boost::random::generalized_inverse_gaussian_distribution::param_type::param_type()']]]
 ];

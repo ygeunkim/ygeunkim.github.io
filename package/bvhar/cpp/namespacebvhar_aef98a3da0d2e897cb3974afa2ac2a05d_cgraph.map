@@ -1,7 +1,5 @@
 <map id="bvhar::gdp_shape_griddy" name="bvhar::gdp_shape_griddy">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,191,60"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#ac4a110471bb06f9ceb514a5f5bbfb34a" title=" " alt="" coords="252,5,375,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,32,238,25,239,31,191,37"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#a942b8ce9779c1860d9658a864b22755a" title=" " alt="" coords="239,55,388,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,57,226,61,225,67,190,62"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,191,38"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a942b8ce9779c1860d9658a864b22755a" title=" " alt="" coords="239,5,388,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,23,225,23,225,28,191,28"/>
 </map>

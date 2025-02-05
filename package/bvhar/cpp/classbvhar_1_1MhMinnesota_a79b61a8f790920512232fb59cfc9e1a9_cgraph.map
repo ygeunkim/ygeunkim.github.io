@@ -1,45 +1,27 @@
 <map id="bvhar::MhMinnesota::doPosteriorDraws" name="bvhar::MhMinnesota::doPosteriorDraws">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,247,160,287"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1MhMinnesota.html#a9bb4e0fb25bf12a896aa1725302419f3" title=" " alt="" coords="208,151,363,191"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,245,207,201,221,194,224,199,209,206,122,250"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1MhMinnesota.html#a15d4cd0f67148936c742db00380d6bf9" title=" " alt="" coords="208,215,363,255"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,253,194,247,195,252,161,258"/>
-<area shape="rect" id="Node000014" href="$classbvhar_1_1MhMinnesota.html#a4f26a54917835ce86212d3df85243898" title=" " alt="" coords="208,279,363,319"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="161,277,195,282,194,288,160,282"/>
-<area shape="rect" id="Node000019" href="$classbvhar_1_1MhMinnesota.html#a6502ccf107a0d23a0671220a21db7d25" title=" " alt="" coords="208,343,363,383"/>
-<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="122,285,209,329,224,335,221,340,207,334,120,290"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a6c82c52ae0dcbf443b5c467f596a47d9" title=" " alt="" coords="411,104,624,129"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="335,213,361,201,480,134,483,139,364,206,338,218"/>
-<area shape="rect" id="Node000011" href="$namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf" title=" " alt="" coords="416,189,619,215"/>
-<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="363,222,415,214,416,219,363,227"/>
-<area shape="rect" id="Node000013" href="$namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea" title=" " alt="" coords="453,239,581,264"/>
-<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="363,238,440,243,440,249,363,243"/>
-<area shape="rect" id="Node000005" href="$namespacebvhar.html#ac68ceac28554c2c5e77832a2ce027760" title=" " alt="" coords="675,5,843,31"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="540,102,599,71,671,40,693,32,694,37,673,44,601,76,543,106"/>
-<area shape="rect" id="Node000006" href="$namespacebvhar.html#afa448494b312ba6cdc95f5bb83ff2d16" title=" " alt="" coords="682,55,837,80"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="580,101,682,80,683,85,581,107"/>
-<area shape="rect" id="Node000007" href="$namespacebvhar.html#ac52b34b04087dbccc8a44136af5b89bd" title=" " alt="" coords="672,104,847,129"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="624,114,658,114,658,119,624,119"/>
-<area shape="rect" id="Node000009" href="$namespacebvhar.html#ada8a56bced3e316e21dff22713f4e0f7" title=" " alt="" coords="686,153,833,179"/>
-<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="581,127,683,148,682,153,580,132"/>
-<area shape="rect" id="Node000008" href="$namespacebvhar.html#a73f8b95dfa3de1b45de70b00f75884e2" title=" " alt="" coords="898,104,1029,129"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="847,114,884,114,884,119,847,119"/>
-<area shape="rect" id="Node000010" href="$namespacebvhar.html#a3882543f6e0d234ed361ba5a4ed7a832" title=" " alt="" coords="896,153,1031,179"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="833,163,882,163,882,169,833,169"/>
-<area shape="rect" id="Node000012" href="$namespacebvhar.html#a66b31690ade4567f9242191fc78901e6" title=" " alt="" coords="685,203,834,228"/>
-<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="619,205,671,208,671,213,619,210"/>
-<area shape="rect" id="Node000015" href="$namespacebvhar.html#a7a0a588ca841b959be2a134105c591c5" title=" " alt="" coords="447,288,588,313"/>
-<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="363,297,433,298,433,303,363,302"/>
-<area shape="rect" id="Node000016" href="$namespacebvhar.html#ac20c97e92d1e9eb026ed1fd7e9d1f364" title=" " alt="" coords="692,276,827,301"/>
-<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="588,295,678,290,678,295,589,300"/>
-<area shape="rect" id="Node000018" href="$namespacebvhar.html#a8a823406839d5172c3dd17c290e87257" title=" " alt="" coords="700,325,819,351"/>
-<area shape="poly" id="edge17_Node000015_Node000018" title=" " alt="" coords="589,309,687,324,686,329,588,314"/>
-<area shape="rect" id="Node000017" href="$namespacebvhar.html#ac3982981996005cf0fbe2fbe76ec99c0" title=" " alt="" coords="895,276,1032,301"/>
-<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="827,286,881,286,881,291,827,291"/>
-<area shape="rect" id="Node000020" href="$structbvhar_1_1MhMinnRecords.html#aaca9868ffbb90d4b337e61fea7810986" title=" " alt="" coords="432,341,603,381"/>
-<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="363,360,418,359,418,364,363,365"/>
-<area shape="rect" id="Node000021" href="$structbvhar_1_1MinnRecords.html#a0965f87fb19b5390493136b928256a59" title=" " alt="" coords="442,405,593,445"/>
-<area shape="poly" id="edge20_Node000019_Node000021" title=" " alt="" coords="362,381,429,399,428,404,361,386"/>
-<area shape="rect" id="Node000022" href="$namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff" title=" " alt="" coords="674,412,845,437"/>
-<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="593,422,660,422,660,427,593,427"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,101,160,141"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1MhMinnesota.html#a9bb4e0fb25bf12a896aa1725302419f3" title=" " alt="" coords="208,5,363,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,99,207,55,221,48,224,53,209,60,122,104"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1MhMinnesota.html#a15d4cd0f67148936c742db00380d6bf9" title=" " alt="" coords="208,69,363,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,107,194,101,195,106,161,112"/>
+<area shape="rect" id="Node000007" href="$classbvhar_1_1MhMinnesota.html#a4f26a54917835ce86212d3df85243898" title=" " alt="" coords="208,133,363,173"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="161,131,195,136,194,142,160,136"/>
+<area shape="rect" id="Node000011" href="$classbvhar_1_1MhMinnesota.html#a6502ccf107a0d23a0671220a21db7d25" title=" " alt="" coords="208,197,363,237"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="122,139,209,183,224,189,221,194,207,188,120,144"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a6c82c52ae0dcbf443b5c467f596a47d9" title=" " alt="" coords="411,34,624,59"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="363,73,434,59,435,64,364,78"/>
+<area shape="rect" id="Node000006" href="$namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf" title=" " alt="" coords="416,83,619,109"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="363,89,403,90,402,95,363,94"/>
+<area shape="rect" id="Node000005" href="$namespacebvhar.html#ac68ceac28554c2c5e77832a2ce027760" title=" " alt="" coords="672,34,840,59"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="624,44,658,44,658,49,624,49"/>
+<area shape="rect" id="Node000008" href="$namespacebvhar.html#a7a0a588ca841b959be2a134105c591c5" title=" " alt="" coords="447,141,588,166"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="363,151,433,151,433,156,363,156"/>
+<area shape="rect" id="Node000009" href="$namespacebvhar.html#ac20c97e92d1e9eb026ed1fd7e9d1f364" title=" " alt="" coords="689,117,823,142"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="588,144,675,135,675,140,588,149"/>
+<area shape="rect" id="Node000010" href="$namespacebvhar.html#a8a823406839d5172c3dd17c290e87257" title=" " alt="" coords="697,166,815,191"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="588,158,683,168,683,174,588,163"/>
+<area shape="rect" id="Node000012" href="$structbvhar_1_1MhMinnRecords.html#aaca9868ffbb90d4b337e61fea7810986" title=" " alt="" coords="432,193,603,233"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="363,213,418,212,418,218,363,219"/>
+<area shape="rect" id="Node000013" href="$structbvhar_1_1MinnRecords.html#a0965f87fb19b5390493136b928256a59" title=" " alt="" coords="442,257,593,297"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="364,235,429,252,428,257,362,240"/>
 </map>

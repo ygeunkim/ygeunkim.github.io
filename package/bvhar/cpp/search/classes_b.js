@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['varforecaster_0',['VarForecaster',['../classbvhar_1_1VarForecaster.html',1,'bvhar']]],
-  ['vharforecaster_1',['VharForecaster',['../classbvhar_1_1VharForecaster.html',1,'bvhar']]]
+  ['regforecaster_0',['RegForecaster',['../classbvhar_1_1RegForecaster.html',1,'bvhar']]],
+  ['reginits_1',['RegInits',['../structbvhar_1_1RegInits.html',1,'bvhar']]],
+  ['regparams_2',['RegParams',['../structbvhar_1_1RegParams.html',1,'bvhar']]],
+  ['regrecords_3',['RegRecords',['../structbvhar_1_1RegRecords.html',1,'bvhar']]]
 ];

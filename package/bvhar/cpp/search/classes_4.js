@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['ldltinits_0',['LdltInits',['../structbvhar_1_1LdltInits.html',1,'bvhar']]],
-  ['ldltrecords_1',['LdltRecords',['../structbvhar_1_1LdltRecords.html',1,'bvhar']]],
-  ['lltols_2',['LltOls',['../classbvhar_1_1LltOls.html',1,'bvhar']]]
+  ['inverse_5fgaussian_5fdistribution_0',['inverse_gaussian_distribution',['../classboost_1_1random_1_1inverse__gaussian__distribution.html',1,'boost::random']]]
 ];

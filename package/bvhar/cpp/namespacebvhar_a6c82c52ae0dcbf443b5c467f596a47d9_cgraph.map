@@ -1,15 +1,5 @@
 <map id="bvhar::jointdens_hyperparam" name="bvhar::jointdens_hyperparam">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,219,105"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#ac68ceac28554c2c5e77832a2ce027760" title=" " alt="" coords="270,5,438,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,77,266,39,292,32,293,37,267,45,151,82"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#afa448494b312ba6cdc95f5bb83ff2d16" title=" " alt="" coords="277,55,431,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,79,263,74,263,79,219,84"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#ac52b34b04087dbccc8a44136af5b89bd" title=" " alt="" coords="267,104,441,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="219,101,253,104,253,109,219,106"/>
-<area shape="rect" id="Node000006" href="$namespacebvhar.html#ada8a56bced3e316e21dff22713f4e0f7" title=" " alt="" coords="281,153,427,179"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="154,103,267,138,297,147,295,152,266,143,153,108"/>
-<area shape="rect" id="Node000005" href="$namespacebvhar.html#a73f8b95dfa3de1b45de70b00f75884e2" title=" " alt="" coords="491,104,622,129"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="442,114,477,114,477,119,442,119"/>
-<area shape="rect" id="Node000007" href="$namespacebvhar.html#a3882543f6e0d234ed361ba5a4ed7a832" title=" " alt="" coords="489,153,624,179"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="428,163,476,163,476,169,428,169"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,219,31"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ac68ceac28554c2c5e77832a2ce027760" title=" " alt="" coords="267,5,435,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,15,253,15,253,21,219,21"/>
 </map>

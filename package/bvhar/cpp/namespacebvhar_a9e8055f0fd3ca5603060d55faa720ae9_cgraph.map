@@ -1,11 +1,5 @@
 <map id="bvhar::ng_mn_shape_jump" name="bvhar::ng_mn_shape_jump">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,203,80"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#ac6bb55644716aa31e73cccc0cc8b986d" title=" " alt="" coords="251,55,420,80"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,65,237,65,237,70,203,70"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#a3882543f6e0d234ed361ba5a4ed7a832" title=" " alt="" coords="475,5,610,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,52,475,31,476,37,390,57"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a66b31690ade4567f9242191fc78901e6" title=" " alt="" coords="468,55,617,80"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="421,65,454,65,454,70,421,70"/>
-<area shape="rect" id="Node000005" href="$namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea" title=" " alt="" coords="479,104,607,129"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="390,77,476,98,475,103,389,83"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,203,31"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ac6bb55644716aa31e73cccc0cc8b986d" title=" " alt="" coords="251,5,420,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,15,237,15,237,21,203,21"/>
 </map>

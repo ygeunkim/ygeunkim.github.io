@@ -1,10 +1,8 @@
 <map id="bvhar::ng_mn_sparsity" name="bvhar::ng_mn_sparsity">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,176,55"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b" title=" " alt="" coords="470,5,606,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,35,456,20,456,25,176,40"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#ad6be181db9520956bdb3ecd6dcde8a50" title=" " alt="" coords="224,55,413,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,49,211,53,210,58,176,54"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="375,52,467,31,468,36,376,57"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739" title=" " alt="" coords="461,55,615,80"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="414,65,448,65,448,70,414,70"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,176,31"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b" title=" " alt="" coords="461,5,597,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,15,448,15,448,21,176,21"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#ad6be181db9520956bdb3ecd6dcde8a50" title=" " alt="" coords="224,31,413,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,25,211,29,210,34,176,30"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="413,29,447,25,448,30,414,35"/>
 </map>

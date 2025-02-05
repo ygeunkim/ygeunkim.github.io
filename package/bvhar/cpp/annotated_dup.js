@@ -1,5 +1,11 @@
 var annotated_dup =
 [
+    [ "boost", "namespaceboost.html", [
+      [ "random", "namespaceboost_1_1random.html", [
+        [ "generalized_inverse_gaussian_distribution", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution" ],
+        [ "inverse_gaussian_distribution", "classboost_1_1random_1_1inverse__gaussian__distribution.html", "classboost_1_1random_1_1inverse__gaussian__distribution" ]
+      ] ]
+    ] ],
     [ "bvhar", "namespacebvhar.html", [
       [ "sinks", "namespacebvhar_1_1sinks.html", [
         [ "bvhar_sink", "classbvhar_1_1sinks_1_1bvhar__sink.html", "classbvhar_1_1sinks_1_1bvhar__sink" ]

@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['dirlaplacesv_0',['DirLaplaceSv',['../namespacebvhar.html#a6ca5ddcd84a8d3302164f609a92853c5',1,'bvhar']]],
-  ['dlreg_1',['DlReg',['../namespacebvhar.html#afa54f1ef5ad76d9b19c4a93d2aee68d1',1,'bvhar']]]
+  ['hierminnreg_0',['HierminnReg',['../namespacebvhar.html#a8986027ab181f8c708332d7179ffdf06',1,'bvhar']]],
+  ['hierminnsv_1',['HierminnSv',['../namespacebvhar.html#ab378a4b6877aa8583af897aaa95845d8',1,'bvhar']]],
+  ['horseshoereg_2',['HorseshoeReg',['../namespacebvhar.html#a328780dc7cc157f403e581ab251a7f35',1,'bvhar']]],
+  ['horseshoesv_3',['HorseshoeSv',['../namespacebvhar.html#a4866ec9873270fbe7a108569f12fdda9',1,'bvhar']]]
 ];

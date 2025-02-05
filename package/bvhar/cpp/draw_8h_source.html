@@ -165,11 +165,11 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                                   <span class="keywordtype">int</span> posterior_shape, <span class="keywordtype">double</span> gamma_shp, <span class="keywordtype">double</span> gamma_rate, <span class="keywordtype">double</span> invgam_shp, <span class="keywordtype">double</span> invgam_scl) {</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordtype">double</span> res = <a class="code hl_function" href="namespacebvhar.html#ac68ceac28554c2c5e77832a2ce027760">compute_logml</a>(dim, num_design, prior_prec, prior_scale, mn_prec, iw_scale, posterior_shape);</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  res += -dim * num_design / 2.0 * log(M_PI) +</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_function" href="namespacebvhar.html#ada8a56bced3e316e21dff22713f4e0f7">lmgammafn</a>((prior_shape + num_design) / 2.0, dim) -</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_function" href="namespacebvhar.html#ada8a56bced3e316e21dff22713f4e0f7">lmgammafn</a>(prior_shape / 2.0, dim); <span class="comment">// constant term</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  res += <a class="code hl_function" href="namespacebvhar.html#afa448494b312ba6cdc95f5bb83ff2d16">gamma_dens</a>(cand_gamma, gamma_shp, 1 / gamma_rate, <span class="keyword">true</span>); <span class="comment">// gamma distribution</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    lmgammafn((prior_shape + num_design) / 2.0, dim) -</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    lmgammafn(prior_shape / 2.0, dim); <span class="comment">// constant term</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  res += gamma_dens(cand_gamma, gamma_shp, 1 / gamma_rate, <span class="keyword">true</span>); <span class="comment">// gamma distribution</span></div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; cand_invgam.size(); i++) {</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    res += <a class="code hl_function" href="namespacebvhar.html#ac52b34b04087dbccc8a44136af5b89bd">invgamma_dens</a>(cand_invgam[i], invgam_shp, invgam_scl, <span class="keyword">true</span>); <span class="comment">// inverse gamma distribution</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    res += invgamma_dens(cand_invgam[i], invgam_shp, invgam_scl, <span class="keyword">true</span>); <span class="comment">// inverse gamma distribution</span></div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  }</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keywordflow">return</span> res;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>}</div>
@@ -263,7 +263,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  Eigen::VectorXd sse_colvec(dim - 1); <span class="comment">// sj = (s1j, ..., s(j-1, j)) from SSE</span></div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>  shape.array() += (double)num_design / 2;</div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>  rate[0] += sse_mat(0, 0) / 2;</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  chol_diag[0] = sqrt(<a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(shape[0], 1 / rate[0], rng)); <span class="comment">// psi[11]^2 ~ Gamma(shape, rate)</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  chol_diag[0] = sqrt(gamma_rand(shape[0], 1 / rate[0], rng)); <span class="comment">// psi[11]^2 ~ Gamma(shape, rate)</span></div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>  <span class="keywordtype">int</span> block_id = 0;</div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 1; j &lt; dim; j++) {</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    sse_colvec.segment(0, j) = sse_mat.block(0, j, j, 1); <span class="comment">// (s1j, ..., sj-1,j)</span></div>
@@ -273,7 +273,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        (sse_mat.topLeftCorner(j, j) + inv_DRD.block(block_id, block_id, j, j)).llt().solve(Eigen::MatrixXd::Identity(j, j)) * </div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        sse_colvec.segment(0, j)</div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    ) / 2;</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    chol_diag[j] = sqrt(<a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(shape[j], 1 / rate[j], rng)); <span class="comment">// psi[jj]^2 ~ Gamma(shape, rate)</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    chol_diag[j] = sqrt(gamma_rand(shape[j], 1 / rate[j], rng)); <span class="comment">// psi[jj]^2 ~ Gamma(shape, rate)</span></div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    block_id += j;</div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>  }</div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>}</div>
@@ -302,7 +302,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    sse_colvec.segment(0, j) = sse_mat.block(0, j, j, 1);</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    normal_variance.topLeftCorner(j, j) = (sse_mat.topLeftCorner(j, j) + inv_DRD.block(block_id, block_id, j, j)).llt().solve(Eigen::MatrixXd::Identity(j, j));</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    normal_mean.segment(0, j) = -chol_diag[j] * normal_variance.topLeftCorner(j, j) * sse_colvec.segment(0, j);</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    chol_off.segment(block_id, j) = <a class="code hl_function" href="namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff">vectorize_eigen</a>(<a class="code hl_function" href="namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf">sim_mgaussian_chol</a>(1, normal_mean.segment(0, j), normal_variance.topLeftCorner(j, j), rng));</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    chol_off.segment(block_id, j) = vectorize_eigen(<a class="code hl_function" href="namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf">sim_mgaussian_chol</a>(1, normal_mean.segment(0, j), normal_variance.topLeftCorner(j, j), rng));</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    block_id += j;</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>  }</div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>}</div>
@@ -362,7 +362,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                      Eigen::MatrixXd&amp; XtX, Eigen::VectorXd&amp; coef_ols,</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>                      Eigen::MatrixXd&amp; chol_factor, boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  <span class="keywordtype">int</span> num_coef = prior_sd.size();</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  Eigen::MatrixXd scaled_xtx = <a class="code hl_function" href="namespacebvhar.html#a8600cda7f4dde9950bfd52b66e655597">kronecker_eigen</a>((chol_factor * chol_factor.transpose()).eval(), XtX); <span class="comment">// Sigma^(-1) = chol * chol^T</span></div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  Eigen::MatrixXd scaled_xtx = kronecker_eigen((chol_factor * chol_factor.transpose()).eval(), XtX); <span class="comment">// Sigma^(-1) = chol * chol^T</span></div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>  Eigen::MatrixXd prior_prec = Eigen::MatrixXd::Zero(num_coef, num_coef);</div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  prior_prec.diagonal() = 1 / prior_sd.array().square();</div>
 <div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  <span class="comment">// Eigen::MatrixXd normal_variance = (scaled_xtx + prior_prec).llt().solve(Eigen::MatrixXd::Identity(num_coef, num_coef)); // Delta</span></div>
@@ -370,7 +370,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  <span class="comment">// coef = vectorize_eigen(sim_mgaussian_chol(1, normal_mean, normal_variance, rng));</span></div>
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>  Eigen::VectorXd standard_normal(num_coef);</div>
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; num_coef; i++) {</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    standard_normal[i] = <a class="code hl_function" href="namespacebvhar.html#a66b31690ade4567f9242191fc78901e6">normal_rand</a>(rng);</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    standard_normal[i] = normal_rand(rng);</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>  }</div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>  Eigen::MatrixXd normal_variance = scaled_xtx + prior_prec; <span class="comment">// Delta^(-1)</span></div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>  Eigen::LLT&lt;Eigen::MatrixXd&gt; llt_sig(normal_variance);</div>
@@ -399,7 +399,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>  exp_u1 = slab_weight.array() * (exp_u1 - max_exp).array().exp() / sd_numer.array();</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>  exp_u2 = (1 - slab_weight.array()) * (exp_u2 - max_exp).array().exp() / sd_denom.array();</div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; num_latent; i++) {</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    dummy[i] = <a class="code hl_function" href="namespacebvhar.html#a734e1928d8a95844ff8c6581703c8257">ber_rand</a>(exp_u1[i] / (exp_u1[i] + exp_u2[i]), rng);</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    dummy[i] = ber_rand(exp_u1[i] / (exp_u1[i] + exp_u2[i]), rng);</div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>  }</div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>}</div>
 </div>
@@ -417,7 +417,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>  <span class="keywordtype">double</span> post_s1 = prior_s1 + param_obs.sum(); <span class="comment">// s1 + number of ones</span></div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>  <span class="keywordtype">double</span> post_s2 = prior_s2 + num_latent - param_obs.sum(); <span class="comment">// s2 + number of zeros</span></div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; num_latent; i++) {</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    weight[i] = <a class="code hl_function" href="namespacebvhar.html#a1b7dd96137804e12dc6655e0375eb76e">beta_rand</a>(post_s1, post_s2, rng);</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    weight[i] = beta_rand(post_s1, post_s2, rng);</div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>  }</div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>}</div>
 </div>
@@ -447,7 +447,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>        mn_param[k++] = param_obs[j];</div>
 <div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>      }</div>
 <div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>    }</div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    weight[i] = <a class="code hl_function" href="namespacebvhar.html#a1b7dd96137804e12dc6655e0375eb76e">beta_rand</a>(prior_s1[i] + mn_param.sum(), prior_s2[i] + mn_size - mn_param.sum(), rng);</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    weight[i] = beta_rand(prior_s1[i] + mn_param.sum(), prior_s2[i] + mn_size - mn_param.sum(), rng);</div>
 <div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>  }</div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>}</div>
 </div>
@@ -465,7 +465,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00335" name="l00335"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a6f24ad6432e692580147f26ed077f509">  335</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a6f24ad6432e692580147f26ed077f509">ssvs_local_slab</a>(Eigen::VectorXd&amp; slab_param, Eigen::VectorXd&amp; dummy_param, Eigen::Ref&lt;Eigen::VectorXd&gt; coef_vec,</div>
 <div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>                            <span class="keywordtype">double</span>&amp; shp, <span class="keywordtype">double</span>&amp; scl, <span class="keywordtype">double</span>&amp; spike_scl, boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coef_vec.size(); ++i) {</div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    slab_param[i] = sqrt(1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>    slab_param[i] = sqrt(1 / gamma_rand(</div>
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>      shp + .5,</div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>      1 / (scl + coef_vec[i] * coef_vec[i] / (dummy_param[i] + (1 - dummy_param[i]) * spike_scl)),</div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>      rng</div>
@@ -490,7 +490,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>  }</div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>  Eigen::VectorXd weight = (log_wt.array() - log_wt.maxCoeff()).exp();</div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>  weight /= weight.sum();</div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>  spike_scl = grid[<a class="code hl_function" href="namespacebvhar.html#ac4a110471bb06f9ceb514a5f5bbfb34a">cat_rand</a>(weight, rng)];</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>  spike_scl = grid[cat_rand(weight, rng)];</div>
 <div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>}</div>
 </div>
 <div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span> </div>
@@ -509,7 +509,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>  <span class="keywordtype">int</span> dim = prior_mean.size();</div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>  Eigen::VectorXd res(dim);</div>
 <div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
-<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>    res[i] = <a class="code hl_function" href="namespacebvhar.html#a66b31690ade4567f9242191fc78901e6">normal_rand</a>(rng);</div>
+<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>    res[i] = normal_rand(rng);</div>
 <div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>  }</div>
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>  Eigen::LLT&lt;Eigen::MatrixXd&gt; llt_of_prec(</div>
 <div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>    (prior_prec.asDiagonal().toDenseMatrix() + x.transpose() * x).selfadjointView&lt;Eigen::Lower&gt;()</div>
@@ -597,7 +597,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00455" name="l00455"></a><span class="lineno">  455</span>  Eigen::MatrixXd mixture_pdf(num_design, 7);</div>
 <div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span>  Eigen::MatrixXd mixture_cumsum = Eigen::MatrixXd::Zero(num_design, 7);</div>
 <div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; num_design; i++) {</div>
-<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>    inv_method[i] = <a class="code hl_function" href="namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea">unif_rand</a>(0, 1, rng);</div>
+<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>    inv_method[i] = unif_rand(0, 1, rng);</div>
 <div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span>  }</div>
 <div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 7; i++) {</div>
 <div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span>    mixture_pdf.col(i) = (-((latent_vec.array() - sv_vec.array() - muj[i]).array() / sdj[i]).array().square() / 2).exp() * pj[i] / (sdj[i] * sqrt(2 * M_PI));</div>
@@ -618,7 +618,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00476" name="l00476"></a><span class="lineno">  476</span>  Eigen::MatrixXd HtH = diff_mat.transpose() * diff_mat;</div>
 <div class="line"><a id="l00477" name="l00477"></a><span class="lineno">  477</span>  Eigen::VectorXd res(num_design);</div>
 <div class="line"><a id="l00478" name="l00478"></a><span class="lineno">  478</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; num_design; i++) {</div>
-<div class="line"><a id="l00479" name="l00479"></a><span class="lineno">  479</span>    res[i] = <a class="code hl_function" href="namespacebvhar.html#a66b31690ade4567f9242191fc78901e6">normal_rand</a>(rng);</div>
+<div class="line"><a id="l00479" name="l00479"></a><span class="lineno">  479</span>    res[i] = normal_rand(rng);</div>
 <div class="line"><a id="l00480" name="l00480"></a><span class="lineno">  480</span>  }</div>
 <div class="line"><a id="l00481" name="l00481"></a><span class="lineno">  481</span>  Eigen::MatrixXd post_sig = HtH / sv_sig + inv_sig_s;</div>
 <div class="line"><a id="l00482" name="l00482"></a><span class="lineno">  482</span>  Eigen::LLT&lt;Eigen::MatrixXd&gt; lltOfscale(post_sig);</div>
@@ -646,7 +646,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span>  h_slide.row(0) = init_sv;</div>
 <div class="line"><a id="l00503" name="l00503"></a><span class="lineno">  503</span>  h_slide.bottomRows(num_design - 1) = h1.topRows(num_design - 1);</div>
 <div class="line"><a id="l00504" name="l00504"></a><span class="lineno">  504</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
-<div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span>    sv_sig[i] = 1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
+<div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span>    sv_sig[i] = 1 / gamma_rand(</div>
 <div class="line"><a id="l00506" name="l00506"></a><span class="lineno">  506</span>      shp[i] + num_design / 2,</div>
 <div class="line"><a id="l00507" name="l00507"></a><span class="lineno">  507</span>      1 / (scl[i] + (h1.array() - h_slide.array()).square().sum() / 2),</div>
 <div class="line"><a id="l00508" name="l00508"></a><span class="lineno">  508</span>      rng</div>
@@ -670,7 +670,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00524" name="l00524"></a><span class="lineno">  524</span>  <span class="keywordtype">int</span> dim = h1.size();</div>
 <div class="line"><a id="l00525" name="l00525"></a><span class="lineno">  525</span>  Eigen::VectorXd res(dim);</div>
 <div class="line"><a id="l00526" name="l00526"></a><span class="lineno">  526</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
-<div class="line"><a id="l00527" name="l00527"></a><span class="lineno">  527</span>    res[i] = <a class="code hl_function" href="namespacebvhar.html#a66b31690ade4567f9242191fc78901e6">normal_rand</a>(rng);</div>
+<div class="line"><a id="l00527" name="l00527"></a><span class="lineno">  527</span>    res[i] = normal_rand(rng);</div>
 <div class="line"><a id="l00528" name="l00528"></a><span class="lineno">  528</span>  }</div>
 <div class="line"><a id="l00529" name="l00529"></a><span class="lineno">  529</span>  Eigen::MatrixXd post_h0_prec(dim, dim); <span class="comment">// k_h0</span></div>
 <div class="line"><a id="l00530" name="l00530"></a><span class="lineno">  530</span>  Eigen::MatrixXd h_diagprec = Eigen::MatrixXd::Zero(dim, dim); <span class="comment">// diag(1 / sigma_h^2)</span></div>
@@ -714,7 +714,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span>  <span class="keywordtype">int</span> dim = coef.size();</div>
 <div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span>  Eigen::VectorXd res(dim);</div>
 <div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
-<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>    res[i] = <a class="code hl_function" href="namespacebvhar.html#a66b31690ade4567f9242191fc78901e6">normal_rand</a>(rng);</div>
+<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>    res[i] = normal_rand(rng);</div>
 <div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>  }</div>
 <div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>  Eigen::MatrixXd post_sig = shrink_mat / var + design_mat.transpose() * design_mat;</div>
 <div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>  Eigen::LLT&lt;Eigen::MatrixXd&gt; llt_sig(post_sig);</div>
@@ -737,8 +737,8 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>  <span class="keywordtype">int</span> num_coef = design_mat.cols(); <span class="comment">// k^2 kp(+1)</span></div>
 <div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>  <span class="keywordtype">int</span> num_sur = response_vec.size(); <span class="comment">// nk-dim</span></div>
 <div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>  Eigen::MatrixXd sur_identity = Eigen::MatrixXd::Identity(num_sur, num_sur);</div>
-<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>  Eigen::VectorXd u_vec = <a class="code hl_function" href="namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff">vectorize_eigen</a>(<a class="code hl_function" href="namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf">sim_mgaussian_chol</a>(1, Eigen::VectorXd::Zero(num_coef), shrink_mat, rng));</div>
-<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>  Eigen::VectorXd delta_vec = <a class="code hl_function" href="namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff">vectorize_eigen</a>(<a class="code hl_function" href="namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf">sim_mgaussian_chol</a>(1, Eigen::VectorXd::Zero(num_sur), sur_identity, rng));</div>
+<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>  Eigen::VectorXd u_vec = vectorize_eigen(<a class="code hl_function" href="namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf">sim_mgaussian_chol</a>(1, Eigen::VectorXd::Zero(num_coef), shrink_mat, rng));</div>
+<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>  Eigen::VectorXd delta_vec = vectorize_eigen(<a class="code hl_function" href="namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf">sim_mgaussian_chol</a>(1, Eigen::VectorXd::Zero(num_sur), sur_identity, rng));</div>
 <div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>  Eigen::VectorXd nu = design_mat * u_vec + delta_vec;</div>
 <div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>  Eigen::VectorXd lin_solve = (design_mat * shrink_mat * design_mat.transpose() + sur_identity).llt().solve(</div>
 <div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>    response_vec - nu</div>
@@ -763,8 +763,8 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>    Eigen::MatrixXd::Identity(dim, dim)</div>
 <div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>  );</div>
 <div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>  <span class="keywordtype">double</span> scl = response_vec.transpose() * (Eigen::MatrixXd::Identity(sample_size, sample_size) - design_mat * prec_mat * design_mat.transpose()) * response_vec;</div>
-<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>  coef_var[0] = 1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(sample_size / 2, scl / 2, rng);</div>
-<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>  coef_var.tail(dim) = <a class="code hl_function" href="namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff">vectorize_eigen</a>(</div>
+<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>  coef_var[0] = 1 / gamma_rand(sample_size / 2, scl / 2, rng);</div>
+<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>  coef_var.tail(dim) = vectorize_eigen(</div>
 <div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>    <a class="code hl_function" href="namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf">sim_mgaussian_chol</a>(1, prec_mat * design_mat.transpose() * response_vec, coef_var[0] * prec_mat, rng)</div>
 <div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>  );</div>
 <div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>}</div>
@@ -786,7 +786,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span> </div>
 <div class="foldopen" id="foldopen00632" data-start="{" data-end="}">
 <div class="line"><a id="l00632" name="l00632"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a3ceb42163c92feab42ac2ac754ce9b54">  632</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="namespacebvhar.html#a3ceb42163c92feab42ac2ac754ce9b54">horseshoe_var</a>(Eigen::VectorXd&amp; response_vec, Eigen::MatrixXd&amp; design_mat, Eigen::VectorXd&amp; coef_vec, Eigen::MatrixXd&amp; shrink_mat, boost::random::mt19937&amp; rng) {</div>
-<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>  <span class="keywordflow">return</span> 1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
+<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>  <span class="keywordflow">return</span> 1 / gamma_rand(</div>
 <div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span>    design_mat.size() / 2,</div>
 <div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span>    2 / ((response_vec - design_mat * coef_vec).squaredNorm() + coef_vec.transpose() * shrink_mat * coef_vec), rng</div>
 <div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>  );</div>
@@ -808,7 +808,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>  <span class="keywordtype">int</span> dim = coef_vec.size();</div>
 <div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>  Eigen::VectorXd invgam_scl = (1 / local_latent.array() + coef_vec.array().square() / (2 * prior_var * global_hyperparam.array().square())).cwiseInverse();</div>
 <div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
-<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>    local_lev[i] = sqrt(1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(1.0, invgam_scl[i], rng));</div>
+<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>    local_lev[i] = sqrt(1 / gamma_rand(1.0, invgam_scl[i], rng));</div>
 <div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>  }</div>
 <div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>}</div>
 </div>
@@ -827,7 +827,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>  <span class="keywordtype">int</span> dim = coef_vec.size();</div>
 <div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>  <span class="comment">// double invgam_scl = 1 / global_latent + (coef_vec.array().square() / (2 * prior_var * local_hyperparam.array().square())).sum();</span></div>
 <div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>  <span class="keywordflow">return</span> sqrt(</div>
-<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>    1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
+<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>    1 / gamma_rand(</div>
 <div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>      (dim + 1) / 2,</div>
 <div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>      1 / (1 / global_latent + (coef_vec.array().square() / (2 * prior_var * local_hyperparam.array().square())).sum()),</div>
 <div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>      rng</div>
@@ -905,14 +905,14 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00739" name="l00739"></a><span class="lineno"><a class="line" href="namespacebvhar.html#aeb2068c9e3b5327c458e16cfcd605961">  739</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#aeb2068c9e3b5327c458e16cfcd605961">horseshoe_latent</a>(Eigen::VectorXd&amp; latent, Eigen::VectorXd&amp; hyperparam, boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a id="l00740" name="l00740"></a><span class="lineno">  740</span>  <span class="keywordtype">int</span> dim = hyperparam.size();</div>
 <div class="line"><a id="l00741" name="l00741"></a><span class="lineno">  741</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
-<div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span>    latent[i] = 1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(1.0, 1 / (1 + 1 / (hyperparam[i] * hyperparam[i])), rng);</div>
+<div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span>    latent[i] = 1 / gamma_rand(1.0, 1 / (1 + 1 / (hyperparam[i] * hyperparam[i])), rng);</div>
 <div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span>  }</div>
 <div class="line"><a id="l00744" name="l00744"></a><span class="lineno">  744</span>}</div>
 </div>
 <div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span><span class="comment">// overloading</span></div>
 <div class="foldopen" id="foldopen00746" data-start="{" data-end="}">
 <div class="line"><a id="l00746" name="l00746"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a3d42535c7e2f36078fd8d14112e82c2c">  746</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#aeb2068c9e3b5327c458e16cfcd605961">horseshoe_latent</a>(<span class="keywordtype">double</span>&amp; latent, <span class="keywordtype">double</span>&amp; hyperparam, boost::random::mt19937&amp; rng) {</div>
-<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span>  latent = 1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(1.0, 1 / (1 + 1 / (hyperparam * hyperparam)), rng);</div>
+<div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span>  latent = 1 / gamma_rand(1.0, 1 / (1 + 1 / (hyperparam * hyperparam)), rng);</div>
 <div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span>}</div>
 </div>
 <div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span> </div>
@@ -949,7 +949,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00777" name="l00777"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a6e74f43e4ad5c983e3f7a4499e9e27e5">  777</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a6e74f43e4ad5c983e3f7a4499e9e27e5">dl_local_sparsity</a>(Eigen::VectorXd&amp; local_param, <span class="keywordtype">double</span>&amp; dir_concen,</div>
 <div class="line"><a id="l00778" name="l00778"></a><span class="lineno">  778</span>                              Eigen::Ref&lt;const Eigen::VectorXd&gt; coef, boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a id="l00779" name="l00779"></a><span class="lineno">  779</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coef.size(); ++i) {</div>
-<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>    local_param[i] = <a class="code hl_function" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(1, dir_concen - 1, 1, 2 * abs(coef[i]), rng)[0];</div>
+<div class="line"><a id="l00780" name="l00780"></a><span class="lineno">  780</span>    local_param[i] = <a class="code hl_function" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(dir_concen - 1, 1, 2 * abs(coef[i]), rng);</div>
 <div class="line"><a id="l00781" name="l00781"></a><span class="lineno">  781</span>    <a class="code hl_function" href="namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b">cut_param</a>(local_param[i]);</div>
 <div class="line"><a id="l00782" name="l00782"></a><span class="lineno">  782</span>  }</div>
 <div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>  local_param /= local_param.sum();</div>
@@ -966,7 +966,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00792" name="l00792"></a><span class="lineno"><a class="line" href="namespacebvhar.html#ae8974271cfe38c584ab0784a92f3970d">  792</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="namespacebvhar.html#ae8974271cfe38c584ab0784a92f3970d">dl_global_sparsity</a>(Eigen::Ref&lt;const Eigen::VectorXd&gt; local_param, <span class="keywordtype">double</span>&amp; dir_concen,</div>
 <div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>                                 Eigen::Ref&lt;Eigen::VectorXd&gt; coef, boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span>  <span class="comment">// return sim_gig(1, coef.size() * (dir_concen - 1), 1, 2 * (coef.cwiseAbs().array() / local_param.array()).sum(), rng)[0];</span></div>
-<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>  <span class="keywordtype">double</span> tau = <a class="code hl_function" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(1, coef.size() * (dir_concen - 1), 1, 2 * (coef.cwiseAbs().array() / local_param.array()).sum(), rng)[0];</div>
+<div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>  <span class="keywordtype">double</span> tau = <a class="code hl_function" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(coef.size() * (dir_concen - 1), 1, 2 * (coef.cwiseAbs().array() / local_param.array()).sum(), rng);</div>
 <div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span>  <a class="code hl_function" href="namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b">cut_param</a>(tau);</div>
 <div class="line"><a id="l00797" name="l00797"></a><span class="lineno">  797</span>  <span class="keywordflow">return</span> tau;</div>
 <div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span>}</div>
@@ -999,7 +999,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00823" name="l00823"></a><span class="lineno">  823</span>      }</div>
 <div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>    }</div>
 <div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>    <span class="comment">// group_param[i] = sim_gig(1, shape - mn_size, 2 * rate, 2 * mn_scl.sum(), rng)[0];</span></div>
-<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>    group_param[i] = 1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
+<div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span>    group_param[i] = 1 / gamma_rand(</div>
 <div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span>      shape + mn_size,</div>
 <div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>      1 / (rate + mn_scl.sum()),</div>
 <div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span>      rng</div>
@@ -1025,7 +1025,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00847" name="l00847"></a><span class="lineno">  847</span>        mn_scl[k++] = coef_vec[j] * coef_vec[j] / (global_param * global_param * local_param[j] * local_param[j] * latent_param[j]);</div>
 <div class="line"><a id="l00848" name="l00848"></a><span class="lineno">  848</span>      }</div>
 <div class="line"><a id="l00849" name="l00849"></a><span class="lineno">  849</span>    }</div>
-<div class="line"><a id="l00850" name="l00850"></a><span class="lineno">  850</span>    group_param[i] = sqrt(1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
+<div class="line"><a id="l00850" name="l00850"></a><span class="lineno">  850</span>    group_param[i] = sqrt(1 / gamma_rand(</div>
 <div class="line"><a id="l00851" name="l00851"></a><span class="lineno">  851</span>      shape + mn_size / 2,</div>
 <div class="line"><a id="l00852" name="l00852"></a><span class="lineno">  852</span>      1 / (rate + mn_scl.sum() / 2),</div>
 <div class="line"><a id="l00853" name="l00853"></a><span class="lineno">  853</span>      rng</div>
@@ -1046,7 +1046,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00866" name="l00866"></a><span class="lineno">  866</span>  <span class="keywordtype">int</span> num_coef = local_param.size();</div>
 <div class="line"><a id="l00867" name="l00867"></a><span class="lineno">  867</span>  <span class="comment">// return cand * (num_coef * log(global_param) - num_coef * log(2.0) + local_param.sum()) - lgammafn(num_coef * cand);</span></div>
 <div class="line"><a id="l00868" name="l00868"></a><span class="lineno">  868</span>  <span class="comment">// return (cand * num_coef - 1) * log(global_param) - num_coef * (cand * log(2.0) - lgammafn(cand)) + (cand - 1) * local_param.array().log().sum();</span></div>
-<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span>  <span class="keywordflow">return</span> cand * (num_coef * (log(global_param) - log(2.0)) + local_param.array().log().sum()) - num_coef * <a class="code hl_function" href="namespacebvhar.html#a3882543f6e0d234ed361ba5a4ed7a832">lgammafn</a>(cand);</div>
+<div class="line"><a id="l00869" name="l00869"></a><span class="lineno">  869</span>  <span class="keywordflow">return</span> cand * (num_coef * (log(global_param) - log(2.0)) + local_param.array().log().sum()) - num_coef * lgammafn(cand);</div>
 <div class="line"><a id="l00870" name="l00870"></a><span class="lineno">  870</span>  <span class="comment">// return (cand * num_coef - 1) * log(global_param) - num_coef * lgammafn(cand) - lgammafn(num_coef * cand) + (cand - 1) * local_param.array().log().sum();</span></div>
 <div class="line"><a id="l00871" name="l00871"></a><span class="lineno">  871</span>}</div>
 </div>
@@ -1067,7 +1067,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>  }</div>
 <div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span>  Eigen::VectorXd weight = (log_wt.array() - log_wt.maxCoeff()).exp(); <span class="comment">// use log-sum-exp against overflow</span></div>
 <div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span>  weight /= weight.sum();</div>
-<div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span>  dir_concen = grid[<a class="code hl_function" href="namespacebvhar.html#ac4a110471bb06f9ceb514a5f5bbfb34a">cat_rand</a>(weight, rng)];</div>
+<div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span>  dir_concen = grid[cat_rand(weight, rng)];</div>
 <div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span>}</div>
 </div>
 <div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span> </div>
@@ -1142,7 +1142,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00958" name="l00958"></a><span class="lineno">  958</span>  coef_prec.array() *= lambda;</div>
 <div class="line"><a id="l00959" name="l00959"></a><span class="lineno">  959</span>  <span class="comment">// double gig_chi = (coef - coef_mean).squaredNorm();</span></div>
 <div class="line"><a id="l00960" name="l00960"></a><span class="lineno">  960</span>  <span class="keywordtype">double</span> gig_chi = ((coef - coef_mean).array().square() * coef_prec.array()).sum();</div>
-<div class="line"><a id="l00961" name="l00961"></a><span class="lineno">  961</span>  lambda = <a class="code hl_function" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(1, shape - coef.size() / 2, 2 * rate, gig_chi, rng)[0];</div>
+<div class="line"><a id="l00961" name="l00961"></a><span class="lineno">  961</span>  lambda = <a class="code hl_function" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(shape - coef.size() / 2, 2 * rate, gig_chi, rng);</div>
 <div class="line"><a id="l00962" name="l00962"></a><span class="lineno">  962</span>  <a class="code hl_function" href="namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b">cut_param</a>(lambda);</div>
 <div class="line"><a id="l00963" name="l00963"></a><span class="lineno">  963</span>  coef_prec.array() /= lambda;</div>
 <div class="line"><a id="l00964" name="l00964"></a><span class="lineno">  964</span>}</div>
@@ -1176,7 +1176,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l00988" name="l00988"></a><span class="lineno">  988</span>  }</div>
 <div class="line"><a id="l00989" name="l00989"></a><span class="lineno">  989</span>  Eigen::VectorXd weight = (log_wt.array() - log_wt.maxCoeff()).exp();</div>
 <div class="line"><a id="l00990" name="l00990"></a><span class="lineno">  990</span>  weight /= weight.sum();</div>
-<div class="line"><a id="l00991" name="l00991"></a><span class="lineno">  991</span>  nu = grid[<a class="code hl_function" href="namespacebvhar.html#ac4a110471bb06f9ceb514a5f5bbfb34a">cat_rand</a>(weight, rng)];</div>
+<div class="line"><a id="l00991" name="l00991"></a><span class="lineno">  991</span>  nu = grid[cat_rand(weight, rng)];</div>
 <div class="line"><a id="l00992" name="l00992"></a><span class="lineno">  992</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coef.size(); ++i) {</div>
 <div class="line"><a id="l00993" name="l00993"></a><span class="lineno">  993</span>    <span class="keywordflow">if</span> (grp_id.find(grp_vec[i]) != grp_id.end()) {</div>
 <div class="line"><a id="l00994" name="l00994"></a><span class="lineno">  994</span>      coef_prec[i] *= old_nu / nu;</div>
@@ -1198,10 +1198,10 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01008" name="l01008"></a><span class="lineno"> 1008</span>                              boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a id="l01009" name="l01009"></a><span class="lineno"> 1009</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coef.size(); ++i) {</div>
 <div class="line"><a id="l01010" name="l01010"></a><span class="lineno"> 1010</span>    local_param[i] = sqrt(<a class="code hl_function" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(</div>
-<div class="line"><a id="l01011" name="l01011"></a><span class="lineno"> 1011</span>      1, shape - .5,</div>
+<div class="line"><a id="l01011" name="l01011"></a><span class="lineno"> 1011</span>      shape - .5,</div>
 <div class="line"><a id="l01012" name="l01012"></a><span class="lineno"> 1012</span>      2 * shape / (global_param[i] * global_param[i]),</div>
 <div class="line"><a id="l01013" name="l01013"></a><span class="lineno"> 1013</span>      coef[i] * coef[i], rng</div>
-<div class="line"><a id="l01014" name="l01014"></a><span class="lineno"> 1014</span>    )[0]);</div>
+<div class="line"><a id="l01014" name="l01014"></a><span class="lineno"> 1014</span>    ));</div>
 <div class="line"><a id="l01015" name="l01015"></a><span class="lineno"> 1015</span>    <a class="code hl_function" href="namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b">cut_param</a>(local_param[i]);</div>
 <div class="line"><a id="l01016" name="l01016"></a><span class="lineno"> 1016</span>  }</div>
 <div class="line"><a id="l01017" name="l01017"></a><span class="lineno"> 1017</span>}</div>
@@ -1213,10 +1213,10 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01021" name="l01021"></a><span class="lineno"> 1021</span>                              boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a id="l01022" name="l01022"></a><span class="lineno"> 1022</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coef.size(); ++i) {</div>
 <div class="line"><a id="l01023" name="l01023"></a><span class="lineno"> 1023</span>    local_param[i] = sqrt(<a class="code hl_function" href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">sim_gig</a>(</div>
-<div class="line"><a id="l01024" name="l01024"></a><span class="lineno"> 1024</span>      1, shape[i] - .5,</div>
+<div class="line"><a id="l01024" name="l01024"></a><span class="lineno"> 1024</span>      shape[i] - .5,</div>
 <div class="line"><a id="l01025" name="l01025"></a><span class="lineno"> 1025</span>      2 * shape[i] / (global_param[i] * global_param[i]),</div>
 <div class="line"><a id="l01026" name="l01026"></a><span class="lineno"> 1026</span>      coef[i] * coef[i], rng</div>
-<div class="line"><a id="l01027" name="l01027"></a><span class="lineno"> 1027</span>    )[0]);</div>
+<div class="line"><a id="l01027" name="l01027"></a><span class="lineno"> 1027</span>    ));</div>
 <div class="line"><a id="l01028" name="l01028"></a><span class="lineno"> 1028</span>    <a class="code hl_function" href="namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b">cut_param</a>(local_param[i]);</div>
 <div class="line"><a id="l01029" name="l01029"></a><span class="lineno"> 1029</span>  }</div>
 <div class="line"><a id="l01030" name="l01030"></a><span class="lineno"> 1030</span>}</div>
@@ -1237,7 +1237,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01043" name="l01043"></a><span class="lineno"> 1043</span>  <span class="comment">//  1 / (hyper_gamma * local_param.squaredNorm() + scl),</span></div>
 <div class="line"><a id="l01044" name="l01044"></a><span class="lineno"> 1044</span>  <span class="comment">//  rng</span></div>
 <div class="line"><a id="l01045" name="l01045"></a><span class="lineno"> 1045</span>  <span class="comment">// ));</span></div>
-<div class="line"><a id="l01046" name="l01046"></a><span class="lineno"> 1046</span>  <span class="keywordtype">double</span> tau = sqrt(1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
+<div class="line"><a id="l01046" name="l01046"></a><span class="lineno"> 1046</span>  <span class="keywordtype">double</span> tau = sqrt(1 / gamma_rand(</div>
 <div class="line"><a id="l01047" name="l01047"></a><span class="lineno"> 1047</span>    shape + local_param.size() * hyper_gamma,</div>
 <div class="line"><a id="l01048" name="l01048"></a><span class="lineno"> 1048</span>    1 / (hyper_gamma * local_param.squaredNorm() + scl),</div>
 <div class="line"><a id="l01049" name="l01049"></a><span class="lineno"> 1049</span>    rng</div>
@@ -1255,7 +1255,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01059" name="l01059"></a><span class="lineno"> 1059</span>  <span class="comment">//  1 / ((hyper_gamma.array() * local_param.array().square()).sum() + scl),</span></div>
 <div class="line"><a id="l01060" name="l01060"></a><span class="lineno"> 1060</span>  <span class="comment">//  rng</span></div>
 <div class="line"><a id="l01061" name="l01061"></a><span class="lineno"> 1061</span>  <span class="comment">// ));</span></div>
-<div class="line"><a id="l01062" name="l01062"></a><span class="lineno"> 1062</span>  <span class="keywordtype">double</span> tau = sqrt(1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
+<div class="line"><a id="l01062" name="l01062"></a><span class="lineno"> 1062</span>  <span class="keywordtype">double</span> tau = sqrt(1 / gamma_rand(</div>
 <div class="line"><a id="l01063" name="l01063"></a><span class="lineno"> 1063</span>    shape + hyper_gamma.sum(),</div>
 <div class="line"><a id="l01064" name="l01064"></a><span class="lineno"> 1064</span>    1 / ((hyper_gamma.array() * local_param.array().square()).sum() + scl),</div>
 <div class="line"><a id="l01065" name="l01065"></a><span class="lineno"> 1065</span>    rng</div>
@@ -1297,13 +1297,13 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01097" name="l01097"></a><span class="lineno"><a class="line" href="namespacebvhar.html#ac6bb55644716aa31e73cccc0cc8b986d"> 1097</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="namespacebvhar.html#ac6bb55644716aa31e73cccc0cc8b986d">ng_shape_jump</a>(<span class="keywordtype">double</span>&amp; gamma_hyper, Eigen::VectorXd&amp; local_param,</div>
 <div class="line"><a id="l01098" name="l01098"></a><span class="lineno"> 1098</span>                            <span class="keywordtype">double</span> global_param, <span class="keywordtype">double</span> lognormal_sd, boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a id="l01099" name="l01099"></a><span class="lineno"> 1099</span>  <span class="keywordtype">int</span> num_coef = local_param.size();</div>
-<div class="line"><a id="l01100" name="l01100"></a><span class="lineno"> 1100</span>  <span class="keywordtype">double</span> cand = exp(log(gamma_hyper) + <a class="code hl_function" href="namespacebvhar.html#a66b31690ade4567f9242191fc78901e6">normal_rand</a>(rng) * lognormal_sd);</div>
-<div class="line"><a id="l01101" name="l01101"></a><span class="lineno"> 1101</span>  <span class="keywordtype">double</span> log_ratio = log(cand) - log(gamma_hyper) + num_coef * (<a class="code hl_function" href="namespacebvhar.html#a3882543f6e0d234ed361ba5a4ed7a832">lgammafn</a>(gamma_hyper) - <a class="code hl_function" href="namespacebvhar.html#a3882543f6e0d234ed361ba5a4ed7a832">lgammafn</a>(cand));</div>
+<div class="line"><a id="l01100" name="l01100"></a><span class="lineno"> 1100</span>  <span class="keywordtype">double</span> cand = exp(log(gamma_hyper) + normal_rand(rng) * lognormal_sd);</div>
+<div class="line"><a id="l01101" name="l01101"></a><span class="lineno"> 1101</span>  <span class="keywordtype">double</span> log_ratio = log(cand) - log(gamma_hyper) + num_coef * (lgammafn(gamma_hyper) - lgammafn(cand));</div>
 <div class="line"><a id="l01102" name="l01102"></a><span class="lineno"> 1102</span>  log_ratio += num_coef * cand * (log(cand) - 2 * log(global_param));</div>
 <div class="line"><a id="l01103" name="l01103"></a><span class="lineno"> 1103</span>  log_ratio -= num_coef * gamma_hyper * (log(gamma_hyper) - 2 * log(global_param));</div>
 <div class="line"><a id="l01104" name="l01104"></a><span class="lineno"> 1104</span>  log_ratio += (cand - gamma_hyper) * local_param.array().log().sum();</div>
 <div class="line"><a id="l01105" name="l01105"></a><span class="lineno"> 1105</span>  log_ratio += (gamma_hyper - cand) * local_param.array().square().sum() / (global_param * global_param);</div>
-<div class="line"><a id="l01106" name="l01106"></a><span class="lineno"> 1106</span>  <span class="keywordflow">if</span> (log(<a class="code hl_function" href="namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea">unif_rand</a>(rng)) &lt; std::min(log_ratio, 0.0)) {</div>
+<div class="line"><a id="l01106" name="l01106"></a><span class="lineno"> 1106</span>  <span class="keywordflow">if</span> (log(unif_rand(rng)) &lt; std::min(log_ratio, 0.0)) {</div>
 <div class="line"><a id="l01107" name="l01107"></a><span class="lineno"> 1107</span>    <span class="keywordflow">return</span> cand;</div>
 <div class="line"><a id="l01108" name="l01108"></a><span class="lineno"> 1108</span>  }</div>
 <div class="line"><a id="l01109" name="l01109"></a><span class="lineno"> 1109</span>  <span class="comment">// double acc_ratio = (cand / gamma_hyper) * pow(gammafn(gamma_hyper) / gammafn(cand), num_coef);</span></div>
@@ -1365,7 +1365,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01159" name="l01159"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a3eac8bafb0785e4fcfcc2a159ff042f1"> 1159</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a3eac8bafb0785e4fcfcc2a159ff042f1">gdp_exp_rate</a>(Eigen::Ref&lt;Eigen::VectorXd&gt; rate_hyper, <span class="keywordtype">double</span> prior_shape, <span class="keywordtype">double</span> prior_rate,</div>
 <div class="line"><a id="l01160" name="l01160"></a><span class="lineno"> 1160</span>                           Eigen::Ref&lt;Eigen::VectorXd&gt; coef, boost::random::mt19937&amp; rng) {</div>
 <div class="line"><a id="l01161" name="l01161"></a><span class="lineno"> 1161</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; rate_hyper.size(); ++i) {</div>
-<div class="line"><a id="l01162" name="l01162"></a><span class="lineno"> 1162</span>    rate_hyper[i] = <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(prior_shape + 1, 1 / (prior_rate + abs(coef[i])), rng);</div>
+<div class="line"><a id="l01162" name="l01162"></a><span class="lineno"> 1162</span>    rate_hyper[i] = gamma_rand(prior_shape + 1, 1 / (prior_rate + abs(coef[i])), rng);</div>
 <div class="line"><a id="l01163" name="l01163"></a><span class="lineno"> 1163</span>  }</div>
 <div class="line"><a id="l01164" name="l01164"></a><span class="lineno"> 1164</span>}</div>
 </div>
@@ -1392,7 +1392,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01184" name="l01184"></a><span class="lineno"> 1184</span>        mn_local[k++] = coef[j];</div>
 <div class="line"><a id="l01185" name="l01185"></a><span class="lineno"> 1185</span>      }</div>
 <div class="line"><a id="l01186" name="l01186"></a><span class="lineno"> 1186</span>    }</div>
-<div class="line"><a id="l01187" name="l01187"></a><span class="lineno"> 1187</span>    group_rate[i] = <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(prior_shape + mn_size, 1 / (prior_rate + mn_local.lpNorm&lt;1&gt;()), rng);</div>
+<div class="line"><a id="l01187" name="l01187"></a><span class="lineno"> 1187</span>    group_rate[i] = gamma_rand(prior_shape + mn_size, 1 / (prior_rate + mn_local.lpNorm&lt;1&gt;()), rng);</div>
 <div class="line"><a id="l01188" name="l01188"></a><span class="lineno"> 1188</span>  }</div>
 <div class="line"><a id="l01189" name="l01189"></a><span class="lineno"> 1189</span>}</div>
 </div>
@@ -1431,7 +1431,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01217" name="l01217"></a><span class="lineno"> 1217</span>  }</div>
 <div class="line"><a id="l01218" name="l01218"></a><span class="lineno"> 1218</span>  Eigen::VectorXd weight = (log_wt.array() - log_wt.maxCoeff()).exp();</div>
 <div class="line"><a id="l01219" name="l01219"></a><span class="lineno"> 1219</span>  weight /= weight.sum();</div>
-<div class="line"><a id="l01220" name="l01220"></a><span class="lineno"> 1220</span>  <span class="keywordtype">int</span> <span class="keywordtype">id</span> = <a class="code hl_function" href="namespacebvhar.html#ac4a110471bb06f9ceb514a5f5bbfb34a">cat_rand</a>(weight, rng);</div>
+<div class="line"><a id="l01220" name="l01220"></a><span class="lineno"> 1220</span>  <span class="keywordtype">int</span> <span class="keywordtype">id</span> = cat_rand(weight, rng);</div>
 <div class="line"><a id="l01221" name="l01221"></a><span class="lineno"> 1221</span>  shape_hyper = (1 - grid[id]) / grid[<span class="keywordtype">id</span>];</div>
 <div class="line"><a id="l01222" name="l01222"></a><span class="lineno"> 1222</span>}</div>
 </div>
@@ -1445,7 +1445,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01229" name="l01229"></a><span class="lineno"> 1229</span>  }</div>
 <div class="line"><a id="l01230" name="l01230"></a><span class="lineno"> 1230</span>  Eigen::VectorXd weight = (log_wt.array() - log_wt.maxCoeff()).exp();</div>
 <div class="line"><a id="l01231" name="l01231"></a><span class="lineno"> 1231</span>  weight /= weight.sum();</div>
-<div class="line"><a id="l01232" name="l01232"></a><span class="lineno"> 1232</span>  <span class="keywordtype">int</span> <span class="keywordtype">id</span> = <a class="code hl_function" href="namespacebvhar.html#ac4a110471bb06f9ceb514a5f5bbfb34a">cat_rand</a>(weight, rng);</div>
+<div class="line"><a id="l01232" name="l01232"></a><span class="lineno"> 1232</span>  <span class="keywordtype">int</span> <span class="keywordtype">id</span> = cat_rand(weight, rng);</div>
 <div class="line"><a id="l01233" name="l01233"></a><span class="lineno"> 1233</span>  rate_hyper = (1 - grid[id]) / grid[<span class="keywordtype">id</span>];</div>
 <div class="line"><a id="l01234" name="l01234"></a><span class="lineno"> 1234</span>}</div>
 </div>
@@ -1467,7 +1467,7 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01249" name="l01249"></a><span class="lineno"> 1249</span>    <span class="comment">//  1 / (scl[i] + ortho_latent.col(i).squaredNorm() / 2),</span></div>
 <div class="line"><a id="l01250" name="l01250"></a><span class="lineno"> 1250</span>    <span class="comment">//  rng</span></div>
 <div class="line"><a id="l01251" name="l01251"></a><span class="lineno"> 1251</span>    <span class="comment">// );</span></div>
-<div class="line"><a id="l01252" name="l01252"></a><span class="lineno"> 1252</span>    diag_vec[i] = 1 / <a class="code hl_function" href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">gamma_rand</a>(</div>
+<div class="line"><a id="l01252" name="l01252"></a><span class="lineno"> 1252</span>    diag_vec[i] = 1 / gamma_rand(</div>
 <div class="line"><a id="l01253" name="l01253"></a><span class="lineno"> 1253</span>      shape[i] + num_design / 2,</div>
 <div class="line"><a id="l01254" name="l01254"></a><span class="lineno"> 1254</span>      1 / (scl[i] + ortho_latent.col(i).squaredNorm() / 2),</div>
 <div class="line"><a id="l01255" name="l01255"></a><span class="lineno"> 1255</span>      rng</div>
@@ -1543,7 +1543,6 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="line"><a id="l01313" name="l01313"></a><span class="lineno"> 1313</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_BAYES_MISC_DRAW_H</span></div>
 <div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> draw.h:7</div></div>
 <div class="ttc" id="anamespacebvhar_html_a08102a12aef4f0d4f777731fda3035f3"><div class="ttname"><a href="namespacebvhar.html#a08102a12aef4f0d4f777731fda3035f3">bvhar::horseshoe_coef_var</a></div><div class="ttdeci">void horseshoe_coef_var(Eigen::VectorXd &amp;coef_var, Eigen::VectorXd &amp;response_vec, Eigen::MatrixXd &amp;design_mat, Eigen::MatrixXd &amp;shrink_mat, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:604</div></div>
-<div class="ttc" id="anamespacebvhar_html_a1b7dd96137804e12dc6655e0375eb76e"><div class="ttname"><a href="namespacebvhar.html#a1b7dd96137804e12dc6655e0375eb76e">bvhar::beta_rand</a></div><div class="ttdeci">double beta_rand(double s1, double s2)</div><div class="ttdef"><b>Definition</b> common.h:181</div></div>
 <div class="ttc" id="anamespacebvhar_html_a1fbddab8de7fab9f2b10ecc9a3e63ea2"><div class="ttname"><a href="namespacebvhar.html#a1fbddab8de7fab9f2b10ecc9a3e63ea2">bvhar::ssvs_chol_off</a></div><div class="ttdeci">void ssvs_chol_off(Eigen::VectorXd &amp;chol_off, Eigen::MatrixXd &amp;sse_mat, Eigen::VectorXd &amp;chol_diag, Eigen::VectorXd &amp;DRD, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:174</div></div>
 <div class="ttc" id="anamespacebvhar_html_a209c38d00943cf041d67a0a0893ae370"><div class="ttname"><a href="namespacebvhar.html#a209c38d00943cf041d67a0a0893ae370">bvhar::build_chol</a></div><div class="ttdeci">Eigen::MatrixXd build_chol(Eigen::VectorXd diag_vec, Eigen::VectorXd off_diagvec)</div><div class="ttdef"><b>Definition</b> draw.h:200</div></div>
 <div class="ttc" id="anamespacebvhar_html_a21079ede93ae3df9ccbf7340daef816b"><div class="ttname"><a href="namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b">bvhar::cut_param</a></div><div class="ttdeci">void cut_param(double &amp;param)</div><div class="ttdef"><b>Definition</b> draw.h:98</div></div>
@@ -1552,8 +1551,6 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="ttc" id="anamespacebvhar_html_a31b5e19ccc2bce1fd054dd61061c2db0"><div class="ttname"><a href="namespacebvhar.html#a31b5e19ccc2bce1fd054dd61061c2db0">bvhar::horseshoe_local_sparsity</a></div><div class="ttdeci">void horseshoe_local_sparsity(Eigen::VectorXd &amp;local_lev, Eigen::VectorXd &amp;local_latent, Eigen::VectorXd &amp;global_hyperparam, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_vec, const double &amp;prior_var, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:648</div></div>
 <div class="ttc" id="anamespacebvhar_html_a347183c24d51974f9c516ed67f0cac02"><div class="ttname"><a href="namespacebvhar.html#a347183c24d51974f9c516ed67f0cac02">bvhar::minnesota_nu_griddy</a></div><div class="ttdeci">void minnesota_nu_griddy(double &amp;nu, int grid_size, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_mean, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_prec, Eigen::VectorXi &amp;grp_vec, std::set&lt; int &gt; &amp;grp_id, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:980</div></div>
 <div class="ttc" id="anamespacebvhar_html_a35f9e0939e2342d23a6763fbedf113bf"><div class="ttname"><a href="namespacebvhar.html#a35f9e0939e2342d23a6763fbedf113bf">bvhar::varsv_ht</a></div><div class="ttdeci">void varsv_ht(Eigen::Ref&lt; Eigen::VectorXd &gt; sv_vec, double init_sv, double sv_sig, Eigen::Ref&lt; Eigen::VectorXd &gt; latent_vec, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:439</div></div>
-<div class="ttc" id="anamespacebvhar_html_a383870f5678bcb2c4f3f8676edd42739"><div class="ttname"><a href="namespacebvhar.html#a383870f5678bcb2c4f3f8676edd42739">bvhar::gamma_rand</a></div><div class="ttdeci">double gamma_rand(double shp, double scl)</div><div class="ttdef"><b>Definition</b> common.h:173</div></div>
-<div class="ttc" id="anamespacebvhar_html_a3882543f6e0d234ed361ba5a4ed7a832"><div class="ttname"><a href="namespacebvhar.html#a3882543f6e0d234ed361ba5a4ed7a832">bvhar::lgammafn</a></div><div class="ttdeci">double lgammafn(double x)</div><div class="ttdef"><b>Definition</b> common.h:104</div></div>
 <div class="ttc" id="anamespacebvhar_html_a3a8cdbc5d65e51aaf92c80f97b989972"><div class="ttname"><a href="namespacebvhar.html#a3a8cdbc5d65e51aaf92c80f97b989972">bvhar::draw_savs</a></div><div class="ttdeci">void draw_savs(Eigen::Ref&lt; Eigen::VectorXd &gt; sparse_coef, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, Eigen::Ref&lt; Eigen::MatrixXd &gt; x)</div><div class="ttdef"><b>Definition</b> draw.h:397</div></div>
 <div class="ttc" id="anamespacebvhar_html_a3b90f7edeeb7483a8c6721295b19cdf0"><div class="ttname"><a href="namespacebvhar.html#a3b90f7edeeb7483a8c6721295b19cdf0">bvhar::ng_local_sparsity</a></div><div class="ttdeci">void ng_local_sparsity(Eigen::VectorXd &amp;local_param, double &amp;shape, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, Eigen::Ref&lt; const Eigen::VectorXd &gt; global_param, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:1006</div></div>
 <div class="ttc" id="anamespacebvhar_html_a3ceb42163c92feab42ac2ac754ce9b54"><div class="ttname"><a href="namespacebvhar.html#a3ceb42163c92feab42ac2ac754ce9b54">bvhar::horseshoe_var</a></div><div class="ttdeci">double horseshoe_var(Eigen::VectorXd &amp;response_vec, Eigen::MatrixXd &amp;design_mat, Eigen::VectorXd &amp;coef_vec, Eigen::MatrixXd &amp;shrink_mat, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:632</div></div>
@@ -1567,19 +1564,15 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="ttc" id="anamespacebvhar_html_a557a2412f54428fe91ef90a89b3dc1c5"><div class="ttname"><a href="namespacebvhar.html#a557a2412f54428fe91ef90a89b3dc1c5">bvhar::horseshoe_mn_global_sparsity</a></div><div class="ttdeci">void horseshoe_mn_global_sparsity(Eigen::VectorXd &amp;global_lev, Eigen::VectorXi &amp;grp_vec, Eigen::VectorXi &amp;grp_id, Eigen::VectorXd &amp;global_latent, Eigen::VectorXd &amp;local_hyperparam, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_vec, const double &amp;prior_var, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:689</div></div>
 <div class="ttc" id="anamespacebvhar_html_a57050b65b961aeca0868dea22a5cad94"><div class="ttname"><a href="namespacebvhar.html#a57050b65b961aeca0868dea22a5cad94">bvhar::root_unitcircle</a></div><div class="ttdeci">Eigen::VectorXd root_unitcircle(Eigen::Ref&lt; Eigen::MatrixXd &gt; var_mat)</div><div class="ttdef"><b>Definition</b> draw.h:1277</div></div>
 <div class="ttc" id="anamespacebvhar_html_a5738660dd4ed45b23870ead101e34cef"><div class="ttname"><a href="namespacebvhar.html#a5738660dd4ed45b23870ead101e34cef">bvhar::gdp_rate_griddy</a></div><div class="ttdeci">void gdp_rate_griddy(double &amp;rate_hyper, double shape_hyper, int grid_size, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:1224</div></div>
-<div class="ttc" id="anamespacebvhar_html_a606e29579d222e987a3de8771df1f5ff"><div class="ttname"><a href="namespacebvhar.html#a606e29579d222e987a3de8771df1f5ff">bvhar::vectorize_eigen</a></div><div class="ttdeci">Eigen::Matrix&lt; typename Derived::Scalar, Eigen::Dynamic, 1 &gt; vectorize_eigen(const Eigen::MatrixBase&lt; Derived &gt; &amp;x)</div><div class="ttdef"><b>Definition</b> common.h:58</div></div>
-<div class="ttc" id="anamespacebvhar_html_a66b31690ade4567f9242191fc78901e6"><div class="ttname"><a href="namespacebvhar.html#a66b31690ade4567f9242191fc78901e6">bvhar::normal_rand</a></div><div class="ttdeci">double normal_rand(boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> common.h:186</div></div>
 <div class="ttc" id="anamespacebvhar_html_a6c82c52ae0dcbf443b5c467f596a47d9"><div class="ttname"><a href="namespacebvhar.html#a6c82c52ae0dcbf443b5c467f596a47d9">bvhar::jointdens_hyperparam</a></div><div class="ttdeci">double jointdens_hyperparam(double cand_gamma, Eigen::VectorXd cand_invgam, int dim, int num_design, Eigen::MatrixXd prior_prec, Eigen::MatrixXd prior_scale, int prior_shape, Eigen::MatrixXd mn_prec, Eigen::MatrixXd iw_scale, int posterior_shape, double gamma_shp, double gamma_rate, double invgam_shp, double invgam_scl)</div><div class="ttdef"><b>Definition</b> draw.h:58</div></div>
 <div class="ttc" id="anamespacebvhar_html_a6e74f43e4ad5c983e3f7a4499e9e27e5"><div class="ttname"><a href="namespacebvhar.html#a6e74f43e4ad5c983e3f7a4499e9e27e5">bvhar::dl_local_sparsity</a></div><div class="ttdeci">void dl_local_sparsity(Eigen::VectorXd &amp;local_param, double &amp;dir_concen, Eigen::Ref&lt; const Eigen::VectorXd &gt; coef, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:777</div></div>
 <div class="ttc" id="anamespacebvhar_html_a6f24ad6432e692580147f26ed077f509"><div class="ttname"><a href="namespacebvhar.html#a6f24ad6432e692580147f26ed077f509">bvhar::ssvs_local_slab</a></div><div class="ttdeci">void ssvs_local_slab(Eigen::VectorXd &amp;slab_param, Eigen::VectorXd &amp;dummy_param, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_vec, double &amp;shp, double &amp;scl, double &amp;spike_scl, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:335</div></div>
-<div class="ttc" id="anamespacebvhar_html_a701898c90db3d9ab804498128b6df9f7"><div class="ttname"><a href="namespacebvhar.html#a701898c90db3d9ab804498128b6df9f7">bvhar::sim_invgauss</a></div><div class="ttdeci">double sim_invgauss(double mean, double shape, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> random.h:585</div></div>
+<div class="ttc" id="anamespacebvhar_html_a701898c90db3d9ab804498128b6df9f7"><div class="ttname"><a href="namespacebvhar.html#a701898c90db3d9ab804498128b6df9f7">bvhar::sim_invgauss</a></div><div class="ttdeci">double sim_invgauss(double mean, double shape, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> random.h:590</div></div>
 <div class="ttc" id="anamespacebvhar_html_a729f46d496f5a79e0a68491b42f182c3"><div class="ttname"><a href="namespacebvhar.html#a729f46d496f5a79e0a68491b42f182c3">bvhar::ssvs_logdens_scl</a></div><div class="ttdeci">double ssvs_logdens_scl(double &amp;cand, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_vec, Eigen::Ref&lt; Eigen::VectorXd &gt; slab_sd)</div><div class="ttdef"><b>Definition</b> draw.h:346</div></div>
-<div class="ttc" id="anamespacebvhar_html_a734e1928d8a95844ff8c6581703c8257"><div class="ttname"><a href="namespacebvhar.html#a734e1928d8a95844ff8c6581703c8257">bvhar::ber_rand</a></div><div class="ttdeci">double ber_rand(double prob, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> common.h:201</div></div>
 <div class="ttc" id="anamespacebvhar_html_a78b640d2e12075d23207a062ef51eddf"><div class="ttname"><a href="namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf">bvhar::sim_mgaussian_chol</a></div><div class="ttdeci">Eigen::MatrixXd sim_mgaussian_chol(int num_sim, const Eigen::VectorXd &amp;mu, const Eigen::MatrixXd &amp;sig, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> random.h:20</div></div>
 <div class="ttc" id="anamespacebvhar_html_a7cd03d53cc8d391f3625cacd64df2027"><div class="ttname"><a href="namespacebvhar.html#a7cd03d53cc8d391f3625cacd64df2027">bvhar::sim_gig</a></div><div class="ttdeci">Eigen::VectorXd sim_gig(int num_sim, double lambda, double psi, double chi)</div><div class="ttdef"><b>Definition</b> random.h:318</div></div>
 <div class="ttc" id="anamespacebvhar_html_a81b6366bc137dc98f6eba01649ab2229"><div class="ttname"><a href="namespacebvhar.html#a81b6366bc137dc98f6eba01649ab2229">bvhar::thin_record</a></div><div class="ttdeci">Eigen::Matrix&lt; typename Derived::Scalar, Derived::RowsAtCompileTime, Derived::ColsAtCompileTime, Derived::Options &gt; thin_record(const Eigen::MatrixBase&lt; Derived &gt; &amp;record, int num_iter, int num_burn, int thin)</div><div class="ttdef"><b>Definition</b> draw.h:1297</div></div>
 <div class="ttc" id="anamespacebvhar_html_a83ddecf9323fcde4322cdfb498a94e5d"><div class="ttname"><a href="namespacebvhar.html#a83ddecf9323fcde4322cdfb498a94e5d">bvhar::ssvs_dummy</a></div><div class="ttdeci">void ssvs_dummy(Eigen::VectorXd &amp;dummy, Eigen::VectorXd param_obs, Eigen::VectorXd &amp;sd_numer, Eigen::Ref&lt; const Eigen::VectorXd &gt; sd_denom, Eigen::VectorXd &amp;slab_weight, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:268</div></div>
-<div class="ttc" id="anamespacebvhar_html_a8600cda7f4dde9950bfd52b66e655597"><div class="ttname"><a href="namespacebvhar.html#a8600cda7f4dde9950bfd52b66e655597">bvhar::kronecker_eigen</a></div><div class="ttdeci">Eigen::Matrix&lt; typename Derived1::Scalar, Derived1::RowsAtCompileTime, Derived2::ColsAtCompileTime &gt; kronecker_eigen(const Eigen::MatrixBase&lt; Derived1 &gt; &amp;x, const Eigen::MatrixBase&lt; Derived2 &gt; &amp;y)</div><div class="ttdef"><b>Definition</b> common.h:73</div></div>
 <div class="ttc" id="anamespacebvhar_html_a8a835632ed022459d1dd3e98c57cd5f1"><div class="ttname"><a href="namespacebvhar.html#a8a835632ed022459d1dd3e98c57cd5f1">bvhar::horseshoe_coef</a></div><div class="ttdeci">void horseshoe_coef(Eigen::VectorXd &amp;coef, Eigen::VectorXd &amp;response_vec, Eigen::MatrixXd &amp;design_mat, double var, Eigen::MatrixXd &amp;shrink_mat, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:562</div></div>
 <div class="ttc" id="anamespacebvhar_html_a8eaf2a2fcbc5d01ab08020a7f65cac28"><div class="ttname"><a href="namespacebvhar.html#a8eaf2a2fcbc5d01ab08020a7f65cac28">bvhar::ssvs_chol_diag</a></div><div class="ttdeci">void ssvs_chol_diag(Eigen::VectorXd &amp;chol_diag, Eigen::MatrixXd &amp;sse_mat, Eigen::VectorXd &amp;DRD, Eigen::VectorXd &amp;shape, Eigen::VectorXd &amp;rate, int num_design, boost::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:143</div></div>
 <div class="ttc" id="anamespacebvhar_html_a942b8ce9779c1860d9658a864b22755a"><div class="ttname"><a href="namespacebvhar.html#a942b8ce9779c1860d9658a864b22755a">bvhar::gdp_logdens_shape</a></div><div class="ttdeci">double gdp_logdens_shape(double cand, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, double rate)</div><div class="ttdef"><b>Definition</b> draw.h:1196</div></div>
@@ -1589,12 +1582,9 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="ttc" id="anamespacebvhar_html_aa32fe926c993d71a84d4efade5c06caa"><div class="ttname"><a href="namespacebvhar.html#aa32fe926c993d71a84d4efade5c06caa">bvhar::gdp_local_sparsity</a></div><div class="ttdeci">void gdp_local_sparsity(Eigen::Ref&lt; Eigen::VectorXd &gt; local_param, Eigen::Ref&lt; const Eigen::VectorXd &gt; local_shape, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:1146</div></div>
 <div class="ttc" id="anamespacebvhar_html_aaeee09a0594e5115772a49e05b625d74"><div class="ttname"><a href="namespacebvhar.html#aaeee09a0594e5115772a49e05b625d74">bvhar::horseshoe_fast_coef</a></div><div class="ttdeci">void horseshoe_fast_coef(Eigen::VectorXd &amp;coef, Eigen::VectorXd response_vec, Eigen::MatrixXd design_mat, Eigen::MatrixXd shrink_mat, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:583</div></div>
 <div class="ttc" id="anamespacebvhar_html_ab504dab1f393bc44eeffe4a751aa4d94"><div class="ttname"><a href="namespacebvhar.html#ab504dab1f393bc44eeffe4a751aa4d94">bvhar::dl_dir_griddy</a></div><div class="ttdeci">void dl_dir_griddy(double &amp;dir_concen, int grid_size, Eigen::Ref&lt; Eigen::VectorXd &gt; local_param, double global_param, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:879</div></div>
-<div class="ttc" id="anamespacebvhar_html_ab5ac6c0bbd170f7f281df17ab66f49ea"><div class="ttname"><a href="namespacebvhar.html#ab5ac6c0bbd170f7f281df17ab66f49ea">bvhar::unif_rand</a></div><div class="ttdeci">double unif_rand(double min, double max)</div><div class="ttdef"><b>Definition</b> common.h:177</div></div>
 <div class="ttc" id="anamespacebvhar_html_abb10a218018e15b4b7dd51b5f0e7ff3b"><div class="ttname"><a href="namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b">bvhar::draw_coef</a></div><div class="ttdeci">void draw_coef(Eigen::Ref&lt; Eigen::VectorXd &gt; coef, Eigen::Ref&lt; const Eigen::MatrixXd &gt; x, Eigen::Ref&lt; const Eigen::VectorXd &gt; y, Eigen::Ref&lt; Eigen::VectorXd &gt; prior_mean, Eigen::Ref&lt; Eigen::VectorXd &gt; prior_prec, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:371</div></div>
 <div class="ttc" id="anamespacebvhar_html_abc8c34f1eec2f91d9cad434099fe2f3f"><div class="ttname"><a href="namespacebvhar.html#abc8c34f1eec2f91d9cad434099fe2f3f">bvhar::dl_mn_sparsity</a></div><div class="ttdeci">void dl_mn_sparsity(Eigen::VectorXd &amp;group_param, Eigen::VectorXi &amp;grp_vec, Eigen::VectorXi &amp;grp_id, double &amp;global_param, Eigen::VectorXd &amp;local_param, double &amp;shape, double &amp;rate, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_vec, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:807</div></div>
 <div class="ttc" id="anamespacebvhar_html_ac2d40ebac391df5378eed70d097abc67"><div class="ttname"><a href="namespacebvhar.html#ac2d40ebac391df5378eed70d097abc67">bvhar::build_ssvs_sd</a></div><div class="ttdeci">Eigen::VectorXd build_ssvs_sd(Eigen::VectorXd spike_sd, Eigen::VectorXd slab_sd, Eigen::VectorXd mixture_dummy)</div><div class="ttdef"><b>Definition</b> draw.h:111</div></div>
-<div class="ttc" id="anamespacebvhar_html_ac4a110471bb06f9ceb514a5f5bbfb34a"><div class="ttname"><a href="namespacebvhar.html#ac4a110471bb06f9ceb514a5f5bbfb34a">bvhar::cat_rand</a></div><div class="ttdeci">int cat_rand(const Eigen::VectorXd &amp;probabilities, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> common.h:221</div></div>
-<div class="ttc" id="anamespacebvhar_html_ac52b34b04087dbccc8a44136af5b89bd"><div class="ttname"><a href="namespacebvhar.html#ac52b34b04087dbccc8a44136af5b89bd">bvhar::invgamma_dens</a></div><div class="ttdeci">double invgamma_dens(double x, double shp, double scl, bool lg)</div><div class="ttdef"><b>Definition</b> common.h:146</div></div>
 <div class="ttc" id="anamespacebvhar_html_ac68ceac28554c2c5e77832a2ce027760"><div class="ttname"><a href="namespacebvhar.html#ac68ceac28554c2c5e77832a2ce027760">bvhar::compute_logml</a></div><div class="ttdeci">double compute_logml(int dim, int num_design, Eigen::MatrixXd prior_prec, Eigen::MatrixXd prior_scale, Eigen::MatrixXd mn_prec, Eigen::MatrixXd iw_scale, int posterior_shape)</div><div class="ttdef"><b>Definition</b> draw.h:21</div></div>
 <div class="ttc" id="anamespacebvhar_html_ac6bb55644716aa31e73cccc0cc8b986d"><div class="ttname"><a href="namespacebvhar.html#ac6bb55644716aa31e73cccc0cc8b986d">bvhar::ng_shape_jump</a></div><div class="ttdeci">double ng_shape_jump(double &amp;gamma_hyper, Eigen::VectorXd &amp;local_param, double global_param, double lognormal_sd, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:1097</div></div>
 <div class="ttc" id="anamespacebvhar_html_ac74dabf583eb93b50b18ac4fd4487117"><div class="ttname"><a href="namespacebvhar.html#ac74dabf583eb93b50b18ac4fd4487117">bvhar::ng_mn_sparsity</a></div><div class="ttdeci">void ng_mn_sparsity(Eigen::VectorXd &amp;group_param, Eigen::VectorXi &amp;grp_vec, Eigen::VectorXi &amp;grp_id, Eigen::VectorXd &amp;hyper_gamma, double &amp;global_param, Eigen::VectorXd &amp;local_param, double &amp;shape, double &amp;scl, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:1075</div></div>
@@ -1604,7 +1594,6 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="ttc" id="anamespacebvhar_html_ad19a0535c3496e83c21c225d85d982cd"><div class="ttname"><a href="namespacebvhar.html#ad19a0535c3496e83c21c225d85d982cd">bvhar::varsv_h0</a></div><div class="ttdeci">void varsv_h0(Eigen::VectorXd &amp;h0, Eigen::VectorXd &amp;prior_mean, Eigen::MatrixXd &amp;prior_prec, Eigen::VectorXd h1, Eigen::VectorXd &amp;sv_sig, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:522</div></div>
 <div class="ttc" id="anamespacebvhar_html_ad4d88410c0399a67585f3841dfc053e3"><div class="ttname"><a href="namespacebvhar.html#ad4d88410c0399a67585f3841dfc053e3">bvhar::gdp_logdens_rate</a></div><div class="ttdeci">double gdp_logdens_rate(double cand, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, double shape)</div><div class="ttdef"><b>Definition</b> draw.h:1201</div></div>
 <div class="ttc" id="anamespacebvhar_html_ad6be181db9520956bdb3ecd6dcde8a50"><div class="ttname"><a href="namespacebvhar.html#ad6be181db9520956bdb3ecd6dcde8a50">bvhar::ng_global_sparsity</a></div><div class="ttdeci">double ng_global_sparsity(Eigen::Ref&lt; const Eigen::VectorXd &gt; local_param, double &amp;hyper_gamma, double &amp;shape, double &amp;scl, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:1039</div></div>
-<div class="ttc" id="anamespacebvhar_html_ada8a56bced3e316e21dff22713f4e0f7"><div class="ttname"><a href="namespacebvhar.html#ada8a56bced3e316e21dff22713f4e0f7">bvhar::lmgammafn</a></div><div class="ttdeci">double lmgammafn(double x, int p)</div><div class="ttdef"><b>Definition</b> common.h:118</div></div>
 <div class="ttc" id="anamespacebvhar_html_ae39bebbc220145e3bf7b965b5dfbf959"><div class="ttname"><a href="namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959">bvhar::build_inv_lower</a></div><div class="ttdeci">Eigen::MatrixXd build_inv_lower(int dim, Eigen::VectorXd lower_vec)</div><div class="ttdef"><b>Definition</b> draw.h:123</div></div>
 <div class="ttc" id="anamespacebvhar_html_ae8974271cfe38c584ab0784a92f3970d"><div class="ttname"><a href="namespacebvhar.html#ae8974271cfe38c584ab0784a92f3970d">bvhar::dl_global_sparsity</a></div><div class="ttdeci">double dl_global_sparsity(Eigen::Ref&lt; const Eigen::VectorXd &gt; local_param, double &amp;dir_concen, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:792</div></div>
 <div class="ttc" id="anamespacebvhar_html_aeb2068c9e3b5327c458e16cfcd605961"><div class="ttname"><a href="namespacebvhar.html#aeb2068c9e3b5327c458e16cfcd605961">bvhar::horseshoe_latent</a></div><div class="ttdeci">void horseshoe_latent(Eigen::VectorXd &amp;latent, Eigen::VectorXd &amp;hyperparam, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:739</div></div>
@@ -1612,7 +1601,6 @@ $(document).ready(function(){initNavTree('draw_8h_source.html',''); initResizabl
 <div class="ttc" id="anamespacebvhar_html_af5f21ed18ceb4cea727b325b403e084e"><div class="ttname"><a href="namespacebvhar.html#af5f21ed18ceb4cea727b325b403e084e">bvhar::build_companion</a></div><div class="ttdeci">Eigen::MatrixXd build_companion(Eigen::Ref&lt; const Eigen::MatrixXd &gt; coef_mat)</div><div class="ttdef"><b>Definition</b> draw.h:1264</div></div>
 <div class="ttc" id="anamespacebvhar_html_af684a9841d0c9339a11192df93696435"><div class="ttname"><a href="namespacebvhar.html#af684a9841d0c9339a11192df93696435">bvhar::ssvs_weight</a></div><div class="ttdeci">void ssvs_weight(Eigen::VectorXd &amp;weight, Eigen::VectorXd param_obs, double prior_s1, double prior_s2, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:289</div></div>
 <div class="ttc" id="anamespacebvhar_html_af7be13bf814602fe3ea716486898b9b8"><div class="ttname"><a href="namespacebvhar.html#af7be13bf814602fe3ea716486898b9b8">bvhar::ssvs_coef</a></div><div class="ttdeci">void ssvs_coef(Eigen::VectorXd &amp;coef, Eigen::VectorXd &amp;prior_mean, Eigen::VectorXd &amp;prior_sd, Eigen::MatrixXd &amp;XtX, Eigen::VectorXd &amp;coef_ols, Eigen::MatrixXd &amp;chol_factor, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:239</div></div>
-<div class="ttc" id="anamespacebvhar_html_afa448494b312ba6cdc95f5bb83ff2d16"><div class="ttname"><a href="namespacebvhar.html#afa448494b312ba6cdc95f5bb83ff2d16">bvhar::gamma_dens</a></div><div class="ttdeci">double gamma_dens(double x, double shp, double scl, bool lg)</div><div class="ttdef"><b>Definition</b> common.h:108</div></div>
 <div class="ttc" id="anamespacebvhar_html_afab906218ee3f6f4fe29415da9c5cea4"><div class="ttname"><a href="namespacebvhar.html#afab906218ee3f6f4fe29415da9c5cea4">bvhar::ssvs_scl_griddy</a></div><div class="ttdeci">void ssvs_scl_griddy(double &amp;spike_scl, int grid_size, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_vec, Eigen::Ref&lt; Eigen::VectorXd &gt; slab_param, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:350</div></div>
 <div class="ttc" id="anamespacebvhar_html_afe5a3ebee84622c2c286a387cf545a7c"><div class="ttname"><a href="namespacebvhar.html#afe5a3ebee84622c2c286a387cf545a7c">bvhar::varsv_sigh</a></div><div class="ttdeci">void varsv_sigh(Eigen::VectorXd &amp;sv_sig, Eigen::VectorXd &amp;shp, Eigen::VectorXd &amp;scl, Eigen::VectorXd &amp;init_sv, Eigen::MatrixXd &amp;h1, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> draw.h:497</div></div>
 </div><!-- fragment --></div><!-- contents -->

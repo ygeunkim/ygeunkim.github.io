@@ -4,10 +4,12 @@ var hierarchy =
     [ "bvhar::bvharprogress", "classbvhar_1_1bvharprogress.html", null ],
     [ "bvhar::DynamicLdltSpillover", "classbvhar_1_1DynamicLdltSpillover.html", null ],
     [ "bvhar::DynamicSvSpillover", "classbvhar_1_1DynamicSvSpillover.html", null ],
+    [ "boost::random::generalized_inverse_gaussian_distribution< RealType >", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html", null ],
     [ "bvhar::GlobalLocalRecords", "structbvhar_1_1GlobalLocalRecords.html", [
       [ "bvhar::HorseshoeRecords", "structbvhar_1_1HorseshoeRecords.html", null ],
       [ "bvhar::NgRecords", "structbvhar_1_1NgRecords.html", null ]
     ] ],
+    [ "boost::random::inverse_gaussian_distribution< RealType >", "classboost_1_1random_1_1inverse__gaussian__distribution.html", null ],
     [ "bvhar::McmcForecaster", "classbvhar_1_1McmcForecaster.html", [
       [ "bvhar::RegForecaster", "classbvhar_1_1RegForecaster.html", [
         [ "bvhar::McmcVarForecaster< RegForecaster >", "classbvhar_1_1McmcVarForecaster.html", null ],
@@ -91,6 +93,8 @@ var hierarchy =
     [ "bvhar::OlsSpillover", "classbvhar_1_1OlsSpillover.html", null ],
     [ "bvhar::OlsVar", "classbvhar_1_1OlsVar.html", null ],
     [ "bvhar::OlsVhar", "classbvhar_1_1OlsVhar.html", null ],
+    [ "boost::random::generalized_inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution_1_1param__type.html", null ],
+    [ "boost::random::inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1inverse__gaussian__distribution_1_1param__type.html", null ],
     [ "spdlog::sinks::r_sink", null, [
       [ "bvhar::sinks::bvhar_sink< Mutex >", "classbvhar_1_1sinks_1_1bvhar__sink.html", null ]
     ] ],

@@ -24,5 +24,6 @@ var random_8h =
     [ "rgig_without_mode", "random_8h.html#a17317a80fb76f2ef5b9891a128cb6ed8", null ],
     [ "rgig_with_mode", "random_8h.html#a7266ff7488ec42882d25e2402fa35c11", null ],
     [ "sim_gig", "random_8h.html#a2bf645851c2e5492c061216bb41f99a6", null ],
+    [ "sim_gig", "random_8h.html#aaf0ffb0d0b12b1eeed3e0aabe057b211", null ],
     [ "sim_invgauss", "random_8h.html#a701898c90db3d9ab804498128b6df9f7", null ]
 ];
