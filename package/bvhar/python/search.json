@@ -147,27 +147,6 @@
     "text": "Name\nType\nDescription\n\n\n\n\n\npd.DataFrame\nDataframe for CBOE VIX series"
   },
   {
-    "objectID": "reference/checkomp.check_omp.html",
-    "href": "reference/checkomp.check_omp.html",
-    "title": "checkomp.check_omp",
-    "section": "",
-    "text": "checkomp.check_omp\nutils.checkomp.check_omp()\ncheck_omp() -&gt; None\nPrint if OpenMP is enabled"
-  },
-  {
-    "objectID": "authors.html",
-    "href": "authors.html",
-    "title": "Authors and Citation ",
-    "section": "",
-    "text": "Young Geun Kim. Author, maintainer, copyright holder."
-  },
-  {
-    "objectID": "authors.html#authors",
-    "href": "authors.html#authors",
-    "title": "Authors and Citation ",
-    "section": "",
-    "text": "Young Geun Kim. Author, maintainer, copyright holder."
-  },
-  {
     "objectID": "get_started.html",
     "href": "get_started.html",
     "title": "bvhar Getting Started",
@@ -189,11 +168,25 @@
     "text": "OpenMP\nOpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. bvhar provides OpenMP checking functions.\n\nfrom bvhar.utils import checkomp\ncheckomp.check_omp()\n\nOpenMP threads:  4\n\n\nTrue if enabled, False if not:\n\ncheckomp.is_omp()\n\nTrue\n\n\nIn macOS, you need additional step to enable OpenMP. There are many options you can consider. Here is an example with LLVM.\nbrew update\nbrew install llvm libomp\necho \"export CC=$(brew --prefix llvm)/bin/clang\" &gt;&gt; ~/.zshrc\necho \"export CXX=$(brew --prefix llvm)/bin/clang++\" &gt;&gt; ~/.zshrc\necho \"export CPPFLAGS=-I$(brew --prefix llvm)/include -I$(brew --prefix libomp)/include\" &gt;&gt; ~/.zshrc\necho \"export LDFLAGS=-L$(brew --prefix llvm)/lib -L$(brew --prefix libomp)/lib\" &gt;&gt; ~/.zshrc"
   },
   {
-    "objectID": "reference/normal.generate_gig.html",
-    "href": "reference/normal.generate_gig.html",
-    "title": "normal.generate_gig",
+    "objectID": "authors.html",
+    "href": "authors.html",
+    "title": "Authors and Citation ",
     "section": "",
-    "text": "normal.generate_gig\nrandom.normal.generate_gig()\ngenerate_gig(arg0: int, arg1: float, arg2: float, arg3: float, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, 1]]\nA function that GIG random variates"
+    "text": "Young Geun Kim. Author, maintainer, copyright holder."
+  },
+  {
+    "objectID": "authors.html#authors",
+    "href": "authors.html#authors",
+    "title": "Authors and Citation ",
+    "section": "",
+    "text": "Young Geun Kim. Author, maintainer, copyright holder."
+  },
+  {
+    "objectID": "reference/checkomp.check_omp.html",
+    "href": "reference/checkomp.check_omp.html",
+    "title": "checkomp.check_omp",
+    "section": "",
+    "text": "checkomp.check_omp\nutils.checkomp.check_omp()\ncheck_omp() -&gt; None\nPrint if OpenMP is enabled"
   },
   {
     "objectID": "reference/DlConfig.html",
@@ -270,7 +263,7 @@
     "href": "reference/index.html",
     "title": "Reference",
     "section": "",
-    "text": "Vector autoregressive model\n\n\n\nVarOls\nOLS for Vector autoregressive model\n\n\nVarBayes\nBayesian Vector Autoregressive Model\n\n\n\n\n\n\nVector heterogeneous autoregressive model\n\n\n\nVharOls\nOLS for Vector heterogeneous autoregressive model\n\n\nVharBayes\nBayesian Vector Autoregressive Model\n\n\n\n\n\n\nPrior configuration\n\n\n\nSsvsConfig\nSSVS prior configuration\n\n\nHorseshoeConfig\nHorseshoe prior configuration\n\n\nMinnesotaConfig\nMinnesota prior configuration\n\n\nLambdaConfig\nHierarchical structure of Minnesota prior\n\n\nNgConfig\nNormal-Gamma prior configuration\n\n\nDlConfig\nDirichlet-Laplace prior configuration\n\n\nLdltConfig\nPrior for Covariance Matrix\n\n\nSvConfig\n\n\n\nInterceptConfig\nPrior for Constant term\n\n\n\n\n\n\nRandom generation functions\n\n\n\nnormal.generate_mnormal\ngenerate_mnormal(arg0: int, arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: int, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, n]]\n\n\nnormal.generate_gig\ngenerate_gig(arg0: int, arg1: float, arg2: float, arg3: float, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, 1]]\n\n\n\n\n\n\nDatasets\n\n\n\nload_vix\nLoad and return the CBOE VIX of several ETF datasets\n\n\n\n\n\n\nRelated to configuration\n\n\n\ncheckomp.is_omp\nis_omp() -&gt; bool\n\n\ncheckomp.check_omp\ncheck_omp() -&gt; None"
+    "text": "Vector autoregressive model\n\n\n\nVarOls\nOLS for Vector autoregressive model\n\n\nVarBayes\nBayesian Vector Autoregressive Model\n\n\n\n\n\n\nVector heterogeneous autoregressive model\n\n\n\nVharOls\nOLS for Vector heterogeneous autoregressive model\n\n\nVharBayes\nBayesian Vector Autoregressive Model\n\n\n\n\n\n\nPrior configuration\n\n\n\nSsvsConfig\nSSVS prior configuration\n\n\nHorseshoeConfig\nHorseshoe prior configuration\n\n\nMinnesotaConfig\nMinnesota prior configuration\n\n\nLambdaConfig\nHierarchical structure of Minnesota prior\n\n\nNgConfig\nNormal-Gamma prior configuration\n\n\nDlConfig\nDirichlet-Laplace prior configuration\n\n\nLdltConfig\nPrior for Covariance Matrix\n\n\nSvConfig\n\n\n\nInterceptConfig\nPrior for Constant term\n\n\n\n\n\n\nRandom generation functions\n\n\n\nnormal.generate_mnormal\ngenerate_mnormal(arg0: int, arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: int, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, n]]\n\n\n\n\n\n\nDatasets\n\n\n\nload_vix\nLoad and return the CBOE VIX of several ETF datasets\n\n\n\n\n\n\nRelated to configuration\n\n\n\ncheckomp.is_omp\nis_omp() -&gt; bool\n\n\ncheckomp.check_omp\ncheck_omp() -&gt; None"
   },
   {
     "objectID": "reference/index.html#var",
@@ -298,7 +291,7 @@
     "href": "reference/index.html#random",
     "title": "Reference",
     "section": "",
-    "text": "Random generation functions\n\n\n\nnormal.generate_mnormal\ngenerate_mnormal(arg0: int, arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: int, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, n]]\n\n\nnormal.generate_gig\ngenerate_gig(arg0: int, arg1: float, arg2: float, arg3: float, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, 1]]"
+    "text": "Random generation functions\n\n\n\nnormal.generate_mnormal\ngenerate_mnormal(arg0: int, arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: int, arg4: int) -&gt; numpy.ndarray[numpy.float64[m, n]]"
   },
   {
     "objectID": "reference/index.html#datasets",
