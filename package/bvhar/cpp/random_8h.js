@@ -1,9 +1,5 @@
 var random_8h =
 [
-    [ "sim_mgaussian", "random_8h.html#a0a6c74a8afbc3da30946f508a4fd9e21", null ],
-    [ "sim_mstudent", "random_8h.html#a564782c98aed10e117f319116b04dd45", null ],
-    [ "sim_matgaussian", "random_8h.html#a12b72e531d76f6d9999f6757a2737a29", null ],
-    [ "sim_iw", "random_8h.html#a2acfcc04312c3ce7a344ba71103f450b", null ],
     [ "sim_mgaussian_chol", "random_8h.html#a78b640d2e12075d23207a062ef51eddf", null ],
     [ "sim_mgaussian_chol", "random_8h.html#a9a6a648f32478ed26de42232f61c8176", null ],
     [ "sim_mn", "random_8h.html#a8a823406839d5172c3dd17c290e87257", null ],
