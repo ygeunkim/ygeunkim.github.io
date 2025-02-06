@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9017</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.2.0.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,6 @@
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/forecasting.html">Forecasting</a></li>
-    <li><a class="dropdown-item" href="../articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="../articles/minnesota.html">Minnesota Prior</a></li>
     <li><a class="dropdown-item" href="../articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
     <li><a class="dropdown-item" href="../articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
@@ -37,6 +36,7 @@
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.2">Version 2.1.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.2.0">Version 2.2.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
@@ -57,6 +57,9 @@
 
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="development version" id="bvhar-development-version">bvhar (development version)<a class="anchor" aria-label="anchor" href="#bvhar-development-version"></a></h2>
+</div>
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="2.2.0" id="bvhar-220">bvhar 2.2.0<a class="anchor" aria-label="anchor" href="#bvhar-220"></a></h2><p class="text-muted">CRAN release: 2025-02-06</p>
 <ul><li><p>Requires <code>R &gt;= 4.1</code> following <a href="https://www.tidyverse.org/blog/2019/04/r-version-support/" class="external-link">tidyverse R version support schedule</a></p></li>
 <li><p><code>stable = TRUE</code> can filter MCMC draws where coefficient is stable when forecasting.</p></li>
 <li><p>Changed Eigen and boost assertion behavior (<code>eigen_assert</code> and <code>BOOST_ASSERT</code>) to give error instead of abort.</p></li>
@@ -66,7 +69,7 @@
 <li><p><code><a href="../reference/set_gdp.html">set_gdp()</a></code> can use Generalized Double Pareto (GDP) shrinkage prior.</p></li>
 <li><p><code><a href="../reference/alpl.html">alpl()</a></code> gives summary of LPL across every horizon.</p></li>
 </ul><div class="section level4">
-<h4 id="internal-changes-development-version">Internal changes<a class="anchor" aria-label="anchor" href="#internal-changes-development-version"></a></h4>
+<h4 id="internal-changes-2-2-0">Internal changes<a class="anchor" aria-label="anchor" href="#internal-changes-2-2-0"></a></h4>
 <ul><li><p>Apply Devroye (2014) to draw GIG instead of Hörmann and Leydold.</p></li>
 <li><p>Use <code>spdlog</code> (using <code>RcppSpdlog</code>) logger instead of custom progress bar (<code>bvharprogress</code>).</p></li>
 <li><p>Use <code>RcppThread</code> to make the logger thread-safe (<a href="https://github.com/eddelbuettel/rcppspdlog/issues/22" class="external-link">eddelbuettel/rcppspdlog#22</a>)</p></li>
@@ -74,18 +77,18 @@
 <li><p>SAVS penalty is zero in own-lag.</p></li>
 </ul></div>
 <div class="section level4">
-<h4 id="removal-or-deprecation-development-version">Removal or deprecation<a class="anchor" aria-label="anchor" href="#removal-or-deprecation-development-version"></a></h4>
+<h4 id="removal-or-deprecation-2-2-0">Removal or deprecation<a class="anchor" aria-label="anchor" href="#removal-or-deprecation-2-2-0"></a></h4>
 <ul><li>Removed <code>sim_gig()</code> R function.</li>
 </ul></div>
 <div class="section level3">
-<h3 id="c-header-file-changes-development-version">C++ Header file changes<a class="anchor" aria-label="anchor" href="#c-header-file-changes-development-version"></a></h3>
+<h3 id="c-header-file-changes-2-2-0">C++ Header file changes<a class="anchor" aria-label="anchor" href="#c-header-file-changes-2-2-0"></a></h3>
 <ul><li><p>Use template to avoid code duplicates among LDLT and SV models.</p></li>
 <li><p>Can easily conduct MCMC using <code>McmcRun</code> class in C++ source.</p></li>
 <li><p>Can easily implement forecasting for LDLT and SV MCMC using <code>McmcVarforecastRun&lt;&gt;</code> and <code>McmcVharforecastRun&lt;&gt;</code>.</p></li>
 <li><p>Can easily use rolling and expanding forecast for LDLT ans SV MCMC using <code>McmcVarforecastRun&lt;&gt;</code> and <code>McmcVharforecastRun&lt;&gt;</code>.</p></li>
 </ul></div>
 <div class="section level3">
-<h3 id="removal-of-deprecated-functions-development-version">Removal of deprecated functions<a class="anchor" aria-label="anchor" href="#removal-of-deprecated-functions-development-version"></a></h3>
+<h3 id="removal-of-deprecated-functions-2-2-0">Removal of deprecated functions<a class="anchor" aria-label="anchor" href="#removal-of-deprecated-functions-2-2-0"></a></h3>
 <ul><li><p>Removed bvar_sv() and bvhar_sv().</p></li>
 <li><p>Removed bvar_ssvs(), bvhar_ssvs(), init_ssvs(), choose_ssvs(), sim_ssvs_var(), and sim_ssvs_vhar().</p></li>
 <li><p>Removed bvar_horseshoe(), bvhar_horseshoe(), sim_horseshoe_var(), and sim_horseshoe_vhar().</p></li>
