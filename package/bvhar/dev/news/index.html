@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9016</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.1.2.9017</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,18 +58,26 @@
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="development version" id="bvhar-development-version">bvhar (development version)<a class="anchor" aria-label="anchor" href="#bvhar-development-version"></a></h2>
 <ul><li><p>Requires <code>R &gt;= 4.1</code> following <a href="https://www.tidyverse.org/blog/2019/04/r-version-support/" class="external-link">tidyverse R version support schedule</a></p></li>
-<li><p>Use <code>spdlog</code> (using <code>RcppSpdlog</code>) logger instead of custom progress bar (<code>bvharprogress</code>).</p></li>
-<li><p>Use <code>RcppThread</code> to make the logger thread-safe (<a href="https://github.com/eddelbuettel/rcppspdlog/issues/22" class="external-link">eddelbuettel/rcppspdlog#22</a>)</p></li>
-<li><p>Can filter MCMC draws where coefficient is stable when forecasting.</p></li>
+<li><p><code>stable = TRUE</code> can filter MCMC draws where coefficient is stable when forecasting.</p></li>
 <li><p>Changed Eigen and boost assertion behavior (<code>eigen_assert</code> and <code>BOOST_ASSERT</code>) to give error instead of abort.</p></li>
 <li><p>Transpose the predictive distribution update loop.</p></li>
 <li><p><code>med = TRUE</code> gives median of forecast draws as point forecast.</p></li>
 <li><p><code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code> can choose to use only group shrinkage parameters without global parameter with <code>ggl = FALSE</code> option.</p></li>
-<li><p>Use inverse-gamma prior for group parameters in DL.</p></li>
-<li><p>SAVS penalty is zero in own-lag.</p></li>
 <li><p><code><a href="../reference/set_gdp.html">set_gdp()</a></code> can use Generalized Double Pareto (GDP) shrinkage prior.</p></li>
 <li><p><code><a href="../reference/alpl.html">alpl()</a></code> gives summary of LPL across every horizon.</p></li>
-</ul><div class="section level3">
+</ul><div class="section level4">
+<h4 id="internal-changes-development-version">Internal changes<a class="anchor" aria-label="anchor" href="#internal-changes-development-version"></a></h4>
+<ul><li><p>Apply Devroye (2014) to draw GIG instead of Hörmann and Leydold.</p></li>
+<li><p>Use <code>spdlog</code> (using <code>RcppSpdlog</code>) logger instead of custom progress bar (<code>bvharprogress</code>).</p></li>
+<li><p>Use <code>RcppThread</code> to make the logger thread-safe (<a href="https://github.com/eddelbuettel/rcppspdlog/issues/22" class="external-link">eddelbuettel/rcppspdlog#22</a>)</p></li>
+<li><p>Use inverse-gamma prior for group parameters in DL.</p></li>
+<li><p>SAVS penalty is zero in own-lag.</p></li>
+</ul></div>
+<div class="section level4">
+<h4 id="removal-or-deprecation-development-version">Removal or deprecation<a class="anchor" aria-label="anchor" href="#removal-or-deprecation-development-version"></a></h4>
+<ul><li>Removed <code>sim_gig()</code> R function.</li>
+</ul></div>
+<div class="section level3">
 <h3 id="c-header-file-changes-development-version">C++ Header file changes<a class="anchor" aria-label="anchor" href="#c-header-file-changes-development-version"></a></h3>
 <ul><li><p>Use template to avoid code duplicates among LDLT and SV models.</p></li>
 <li><p>Can easily conduct MCMC using <code>McmcRun</code> class in C++ source.</p></li>
@@ -104,7 +112,7 @@
 <li><p><code><a href="../reference/set_ssvs.html">set_ssvs()</a></code> sets scaling factor and inverse-gamma hyperparameters for coefficients and cholesky factor slab sd.</p></li>
 <li><p>Use full bayesian approach to SSVS spike and slab sd’s instead of semi-automatic approach, in <code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code>.</p></li>
 <li><p>MCMC functions return give <code>$param</code> and <code>$param_names</code>, not individual <code>$*_record</code> members.</p></li>
-<li><p><code><a href="../reference/sim_gig.html">sim_gig()</a></code> generates Generalized Inverse Gaussian (GIG) random numbers using the algorithm of R package <code>GIGrvg</code>.</p></li>
+<li><p><code>sim_gig()</code> generates Generalized Inverse Gaussian (GIG) random numbers using the algorithm of R package <code>GIGrvg</code>.</p></li>
 </ul><div class="section level3">
 <h3 id="new-priors-2-1-0">New priors<a class="anchor" aria-label="anchor" href="#new-priors-2-1-0"></a></h3>
 <ul><li><p><code><a href="../reference/set_dl.html">set_dl()</a></code> specifies Dirichlet-Laplace (DL) prior in <code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code>.</p></li>
