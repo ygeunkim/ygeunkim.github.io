@@ -7,7 +7,6 @@
 <url><loc>/articles/bvhar.html</loc></url>
 <url><loc>/articles/forecasting.html</loc></url>
 <url><loc>/articles/index.html</loc></url>
-<url><loc>/articles/linking.html</loc></url>
 <url><loc>/articles/minnesota.html</loc></url>
 <url><loc>/articles/shrinkage.html</loc></url>
 <url><loc>/articles/stochastic-volatility.html</loc></url>
@@ -18,6 +17,7 @@
 <url><loc>/reference/HQ.html</loc></url>
 <url><loc>/reference/VARtoVMA.html</loc></url>
 <url><loc>/reference/VHARtoVMA.html</loc></url>
+<url><loc>/reference/alpl.html</loc></url>
 <url><loc>/reference/autoplot.bvhardynsp.html</loc></url>
 <url><loc>/reference/autoplot.bvharirf.html</loc></url>
 <url><loc>/reference/autoplot.bvharsp.html</loc></url>
@@ -27,18 +27,11 @@
 <url><loc>/reference/autoplot.summary.normaliw.html</loc></url>
 <url><loc>/reference/bound_bvhar.html</loc></url>
 <url><loc>/reference/bvar_flat.html</loc></url>
-<url><loc>/reference/bvar_horseshoe.html</loc></url>
 <url><loc>/reference/bvar_minnesota.html</loc></url>
-<url><loc>/reference/bvar_ssvs.html</loc></url>
-<url><loc>/reference/bvar_sv.html</loc></url>
 <url><loc>/reference/bvhar-package.html</loc></url>
-<url><loc>/reference/bvhar_horseshoe.html</loc></url>
 <url><loc>/reference/bvhar_minnesota.html</loc></url>
-<url><loc>/reference/bvhar_ssvs.html</loc></url>
-<url><loc>/reference/bvhar_sv.html</loc></url>
 <url><loc>/reference/choose_bayes.html</loc></url>
 <url><loc>/reference/choose_bvar.html</loc></url>
-<url><loc>/reference/choose_ssvs.html</loc></url>
 <url><loc>/reference/choose_var.html</loc></url>
 <url><loc>/reference/coef.html</loc></url>
 <url><loc>/reference/compute_dic.html</loc></url>
@@ -60,7 +53,6 @@
 <url><loc>/reference/geom_eval.html</loc></url>
 <url><loc>/reference/gg_loss.html</loc></url>
 <url><loc>/reference/index.html</loc></url>
-<url><loc>/reference/init_ssvs.html</loc></url>
 <url><loc>/reference/irf.html</loc></url>
 <url><loc>/reference/is.stable.html</loc></url>
 <url><loc>/reference/mae.html</loc></url>
@@ -68,7 +60,6 @@
 <url><loc>/reference/mase.html</loc></url>
 <url><loc>/reference/mrae.html</loc></url>
 <url><loc>/reference/mse.html</loc></url>
-<url><loc>/reference/pipe.html</loc></url>
 <url><loc>/reference/predict.html</loc></url>
 <url><loc>/reference/reexports.html</loc></url>
 <url><loc>/reference/relmae.html</loc></url>
@@ -80,14 +71,13 @@
 <url><loc>/reference/rmsfe.html</loc></url>
 <url><loc>/reference/set_bvar.html</loc></url>
 <url><loc>/reference/set_dl.html</loc></url>
+<url><loc>/reference/set_gdp.html</loc></url>
 <url><loc>/reference/set_horseshoe.html</loc></url>
 <url><loc>/reference/set_intercept.html</loc></url>
 <url><loc>/reference/set_lambda.html</loc></url>
 <url><loc>/reference/set_ldlt.html</loc></url>
 <url><loc>/reference/set_ng.html</loc></url>
 <url><loc>/reference/set_ssvs.html</loc></url>
-<url><loc>/reference/sim_gig.html</loc></url>
-<url><loc>/reference/sim_horseshoe_var.html</loc></url>
 <url><loc>/reference/sim_iw.html</loc></url>
 <url><loc>/reference/sim_matgaussian.html</loc></url>
 <url><loc>/reference/sim_mncoef.html</loc></url>
@@ -95,7 +85,6 @@
 <url><loc>/reference/sim_mnormal.html</loc></url>
 <url><loc>/reference/sim_mnvhar_coef.html</loc></url>
 <url><loc>/reference/sim_mvt.html</loc></url>
-<url><loc>/reference/sim_ssvs_var.html</loc></url>
 <url><loc>/reference/sim_var.html</loc></url>
 <url><loc>/reference/sim_vhar.html</loc></url>
 <url><loc>/reference/spillover.html</loc></url>

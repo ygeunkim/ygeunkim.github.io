@@ -16,8 +16,8 @@
 <link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/Noto_Sans-0.4.9/font.css" rel="stylesheet">
 <link href="deps/Anonymous_Pro-0.4.9/font.css" rel="stylesheet">
-<link href="deps/font-awesome-6.4.2/css/all.min.css" rel="stylesheet">
-<link href="deps/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet">
+<link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
+<link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Bayesian Vector Heterogeneous Autoregressive Modeling">
 <meta name="description" content="Tools to model and forecast multivariate time series including Bayesian Vector heterogeneous autoregressive (VHAR) model by Kim &amp; Baek (2023) (&lt;doi:10.1080/00949655.2023.2281644&gt;). bvhar can model Vector Autoregressive (VAR), VHAR, Bayesian VAR (BVAR), and Bayesian VHAR (BVHAR) models.">
 <meta property="og:description" content="Tools to model and forecast multivariate time series including Bayesian Vector heterogeneous autoregressive (VHAR) model by Kim &amp; Baek (2023) (&lt;doi:10.1080/00949655.2023.2281644&gt;). bvhar can model Vector Autoregressive (VAR), VHAR, Bayesian VAR (BVAR), and Bayesian VHAR (BVHAR) models.">
@@ -31,7 +31,7 @@
 
     <a class="navbar-brand me-2" href="index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.1.2</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.2.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,6 @@
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
 <li><a class="dropdown-item" href="articles/forecasting.html">Forecasting</a></li>
-    <li><a class="dropdown-item" href="articles/linking.html">Cpp source usage</a></li>
     <li><a class="dropdown-item" href="articles/minnesota.html">Minnesota Prior</a></li>
     <li><a class="dropdown-item" href="articles/shrinkage.html">Bayesian VAR and VHAR Models</a></li>
     <li><a class="dropdown-item" href="articles/stochastic-volatility.html">Stochastic Volatility Models</a></li>
@@ -65,6 +64,7 @@
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.0.1">Version 2.0.1</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.2">Version 2.1.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.2.0">Version 2.2.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="news/index.html">Changelog</a></li>
   </ul>
@@ -131,9 +131,9 @@
 <p>Repeatedly, <code>bvhar</code> is a research tool to analyze multivariate time series model above</p>
 <table class="table">
 <colgroup>
-<col width="10%">
-<col width="30%">
-<col width="59%">
+<col width="33%">
+<col width="33%">
+<col width="33%">
 </colgroup>
 <thead><tr class="header">
 <th align="center">Model</th>
@@ -153,27 +153,31 @@
 </tr>
 <tr class="odd">
 <td align="center">BVAR</td>
-<td align="center"><code><a href="reference/bvar_minnesota.html">bvar_minnesota()</a></code></td>
+<td align="center">
+<code><a href="reference/bvar_minnesota.html">bvar_minnesota()</a></code> and <code><a href="reference/choose_bvar.html">choose_bvar()</a></code>
+</td>
 <td align="center">Minnesota (will move to <code><a href="reference/var_bayes.html">var_bayes()</a></code>)</td>
 </tr>
 <tr class="even">
 <td align="center">BVHAR</td>
-<td align="center"><code><a href="reference/bvhar_minnesota.html">bvhar_minnesota()</a></code></td>
+<td align="center">
+<code><a href="reference/bvhar_minnesota.html">bvhar_minnesota()</a></code> and <code><a href="reference/choose_bvar.html">choose_bvhar()</a></code>
+</td>
 <td align="center">Minnesota (will move to <code><a href="reference/vhar_bayes.html">vhar_bayes()</a></code>)</td>
 </tr>
 <tr class="odd">
 <td align="center">BVAR</td>
 <td align="center"><code><a href="reference/var_bayes.html">var_bayes()</a></code></td>
-<td align="center">SSVS, Horseshoe, Minnesota, NG, DL</td>
+<td align="center">SSVS, Horseshoe, Minnesota, NG, DL, GDP</td>
 </tr>
 <tr class="even">
 <td align="center">BVHAR</td>
 <td align="center"><code><a href="reference/vhar_bayes.html">vhar_bayes()</a></code></td>
-<td align="center">SSVS, Horseshoe, Minnesota, NG, DL</td>
+<td align="center">SSVS, Horseshoe, Minnesota, NG, DL, GDP</td>
 </tr>
 </tbody>
 </table>
-<p>This readme document shows forecasting procedure briefly. Details about each function are in vignettes and help documents. Note that each <code><a href="reference/bvar_minnesota.html">bvar_minnesota()</a></code> and <code><a href="reference/bvhar_minnesota.html">bvhar_minnesota()</a></code> will be integrated into <code><a href="reference/var_bayes.html">var_bayes()</a></code> and <code><a href="reference/vhar_bayes.html">vhar_bayes()</a></code> and removed in the next version.</p>
+<p>This readme document shows forecasting procedure briefly. Details about each function are in vignettes and help documents. Note that each <code><a href="reference/bvar_minnesota.html">bvar_minnesota()</a></code> and <code><a href="reference/bvhar_minnesota.html">bvhar_minnesota()</a></code> will be integrated into <code><a href="reference/var_bayes.html">var_bayes()</a></code> and <code><a href="reference/vhar_bayes.html">vhar_bayes()</a></code> and removed in the near future.</p>
 <p>h-step ahead forecasting:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">h</span> <span class="op">&lt;-</span> <span class="fl">19</span></span>
@@ -351,7 +355,7 @@
 <span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a>  author <span class="ot">=</span> {Young Geun Kim and Changryong Baek},</span>
 <span id="cb19-4"><a href="#cb19-4" tabindex="-1"></a>  year <span class="ot">=</span> {<span class="dv">2023</span>},</span>
 <span id="cb19-5"><a href="#cb19-5" tabindex="-1"></a>  doi <span class="ot">=</span> {<span class="fl">10.32614</span><span class="sc">/</span>CRAN.package.bvhar},</span>
-<span id="cb19-6"><a href="#cb19-6" tabindex="-1"></a>  note <span class="ot">=</span> {R package version <span class="dv">2</span>.<span class="fl">1.1</span>},</span>
+<span id="cb19-6"><a href="#cb19-6" tabindex="-1"></a>  note <span class="ot">=</span> {R package version <span class="dv">2</span>.<span class="fl">2.0</span>},</span>
 <span id="cb19-7"><a href="#cb19-7" tabindex="-1"></a>  url <span class="ot">=</span> {https<span class="sc">:</span><span class="er">//</span>cran.r<span class="sc">-</span>project.org<span class="sc">/</span>package<span class="ot">=</span>bvhar},</span>
 <span id="cb19-8"><a href="#cb19-8" tabindex="-1"></a>}</span>
 <span id="cb19-9"><a href="#cb19-9" tabindex="-1"></a></span>
@@ -379,6 +383,7 @@
 <li><a href="https://github.com/ygeunkim/bvhar/" class="external-link">Browse source code</a></li>
 <li><a href="https://github.com/ygeunkim/bvhar/issues" class="external-link">Report a bug</a></li>
 <li><a href="https://ygeunkim.github.io/package/bvhar/dev/" class="external-link">Development version</a></li>
+<li><a href="https://ygeunkim.github.io/package/bvhar/cpp/" class="external-link">C++ headers</a></li>
 <li><a href="https://ygeunkim.github.io/package/bvhar/python/" class="external-link">bvhar for Python</a></li>
 </ul>
 </div>
