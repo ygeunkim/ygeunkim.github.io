@@ -1,0 +1,20 @@
+<map id="bvhar::McmcNg::updateCoefPrec" name="bvhar::McmcNg::updateCoefPrec">
+<area shape="rect" id="Node000001" title="Draw precision of coefficient based on each shrinkage priors." alt="" coords="5,81,240,107"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ad6be181db9520956bdb3ecd6dcde8a50" title=" " alt="" coords="533,5,723,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,79,217,59,287,41,407,24,519,17,520,23,408,30,289,46,218,64,158,84"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a3b90f7edeeb7483a8c6721295b19cdf0" title=" " alt="" coords="297,107,477,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="240,103,283,107,283,112,240,108"/>
+<area shape="rect" id="Node000006" href="$namespacebvhar.html#a9e8055f0fd3ca5603060d55faa720ae9" title=" " alt="" coords="288,181,485,207"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="159,104,340,174,338,179,157,109"/>
+<area shape="rect" id="Node000008" href="$namespacebvhar.html#ac74dabf583eb93b50b18ac4fd4487117" title=" " alt="" coords="301,56,472,81"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="240,80,288,75,288,81,240,85"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b" title=" " alt="" coords="771,56,907,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="682,28,773,50,772,55,681,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="431,130,489,143,563,154,643,155,683,151,722,142,747,132,772,118,812,88,815,93,775,123,750,137,723,147,684,156,643,161,562,159,488,148,430,135"/>
+<area shape="rect" id="Node000005" href="$namespacebvhar.html#aaf0ffb0d0b12b1eeed3e0aabe057b211" title=" " alt="" coords="569,107,687,132"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="477,117,555,117,555,122,477,122"/>
+<area shape="rect" id="Node000007" href="$namespacebvhar.html#ac6bb55644716aa31e73cccc0cc8b986d" title=" " alt="" coords="543,208,713,233"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="486,202,530,207,530,213,485,208"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="448,53,553,31,554,36,449,58"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="473,66,757,66,757,71,473,71"/>
+</map>

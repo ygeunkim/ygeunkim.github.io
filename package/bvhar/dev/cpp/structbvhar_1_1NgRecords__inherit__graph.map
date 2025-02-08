@@ -1,0 +1,5 @@
+<map id="bvhar::NgRecords" name="bvhar::NgRecords">
+<area shape="rect" id="Node000001" title="MCMC records for McmcNg" alt="" coords="34,79,171,104"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1GlobalLocalRecords.html" title="MCMC records for global&#45;local shrinkage prior McmcDl directly uses this." alt="" coords="5,5,200,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,44,105,79,100,79,100,44"/>
+</map>

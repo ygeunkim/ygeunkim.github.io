@@ -1,0 +1,15 @@
+<map id="bvhar::McmcSsvs::updateImpactPrec" name="bvhar::McmcSsvs::updateImpactPrec">
+<area shape="rect" id="Node000001" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="5,104,268,129"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ac2d40ebac391df5378eed70d097abc67" title=" " alt="" coords="322,5,479,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,101,233,72,315,39,338,32,339,37,317,45,235,77,167,106"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a83ddecf9323fcde4322cdfb498a94e5d" title=" " alt="" coords="324,55,477,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,101,318,80,319,85,206,107"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a6f24ad6432e692580147f26ed077f509" title=" " alt="" coords="317,104,485,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="268,114,303,114,303,119,268,119"/>
+<area shape="rect" id="Node000005" href="$namespacebvhar.html#afab906218ee3f6f4fe29415da9c5cea4" title=" " alt="" coords="316,153,485,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="206,127,319,148,318,153,205,132"/>
+<area shape="rect" id="Node000007" href="$namespacebvhar.html#af684a9841d0c9339a11192df93696435" title=" " alt="" coords="327,203,474,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="168,127,317,187,342,196,340,201,315,193,166,132"/>
+<area shape="rect" id="Node000006" href="$namespacebvhar.html#a729f46d496f5a79e0a68491b42f182c3" title=" " alt="" coords="533,153,712,179"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="486,163,520,163,520,169,486,169"/>
+</map>

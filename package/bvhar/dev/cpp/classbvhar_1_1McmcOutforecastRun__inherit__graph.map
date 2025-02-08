@@ -1,0 +1,7 @@
+<map id="bvhar::McmcOutforecastRun&lt; BaseForecaster &gt;" name="bvhar::McmcOutforecastRun&lt; BaseForecaster &gt;">
+<area shape="rect" id="Node000001" title="Out&#45;of&#45;sample forecasting class." alt="" coords="5,37,212,77"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="260,5,495,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,41,260,37,260,42,226,46"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="272,69,483,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,69,272,74,272,79,225,74"/>
+</map>

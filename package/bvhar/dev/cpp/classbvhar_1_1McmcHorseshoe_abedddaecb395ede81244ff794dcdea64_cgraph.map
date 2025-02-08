@@ -1,0 +1,9 @@
+<map id="bvhar::McmcHorseshoe::updateRecords" name="bvhar::McmcHorseshoe::updateRecords">
+<area shape="rect" id="Node000001" title="Save MCMC records." alt="" coords="5,37,180,77"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1HorseshoeRecords.html#a5fd98136fb4ef2079e00c073974b587f" title="Assign MCMC draw to the draw matrix." alt="" coords="241,5,429,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,43,228,37,228,42,181,48"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcReg.html#ac899f94435e63dc9073fa640f4866c56" title="Save coefficient records." alt="" coords="228,69,443,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,66,215,71,214,76,180,71"/>
+<area shape="rect" id="Node000004" href="$structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71" title="Assign MCMC draw to the draw matrix." alt="" coords="491,69,653,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="443,87,477,87,477,92,443,92"/>
+</map>

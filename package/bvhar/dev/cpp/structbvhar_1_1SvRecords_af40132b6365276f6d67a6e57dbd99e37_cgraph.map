@@ -1,0 +1,8 @@
+<map id="bvhar::SvRecords::updateDiag" name="bvhar::SvRecords::updateDiag">
+<area shape="rect" id="Node000001" title="Update parameters in D." alt="" coords="5,5,224,31"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1SvRecords.html#a6168e7c9c17d9562a5c299761bd528f2" title="Get the dimension." alt="" coords="539,5,729,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,15,525,15,525,21,224,21"/>
+<area shape="rect" id="Node000003" href="$structbvhar_1_1SvRecords.html#afe7c93076e1d4ad233e5fed6a38fdcb8" title="Update parameters in D." alt="" coords="272,31,491,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,26,259,29,258,34,224,31"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="491,30,525,26,525,32,491,35"/>
+</map>

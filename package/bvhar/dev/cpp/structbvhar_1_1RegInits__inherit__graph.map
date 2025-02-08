@@ -1,0 +1,23 @@
+<map id="bvhar::RegInits" name="bvhar::RegInits">
+<area shape="rect" id="Node000001" title="MCMC initial values for McmcTriangular" alt="" coords="5,145,125,171"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1LdltInits.html" title="MCMC initial values for McmcReg" alt="" coords="173,120,292,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,144,173,139,174,144,139,150"/>
+<area shape="rect" id="Node000011" href="$structbvhar_1_1SvInits.html" title="MCMC initial values for McmcSv" alt="" coords="177,169,288,195"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="139,166,178,171,177,177,138,171"/>
+<area shape="rect" id="Node000003" href="$structbvhar_1_1GlInits.html" title=" " alt="" coords="357,5,547,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="253,108,291,73,339,41,372,28,374,33,341,46,294,77,257,112"/>
+<area shape="rect" id="Node000004" href="$structbvhar_1_1GdpInits.html" title="MCMC initial values for McmcGdp" alt="" coords="355,55,549,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="294,114,374,93,376,98,296,119"/>
+<area shape="rect" id="Node000005" href="$structbvhar_1_1GlInits.html" title="MCMC initial values for global&#45;local shrinkage prior. McmcDl takes this." alt="" coords="340,120,564,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="306,130,340,130,340,135,306,135"/>
+<area shape="rect" id="Node000009" href="$structbvhar_1_1HierminnInits.html" title="MCMC initial values for McmcHierminn" alt="" coords="375,170,529,210"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="296,146,376,167,374,173,294,151"/>
+<area shape="rect" id="Node000010" href="$structbvhar_1_1SsvsInits.html" title="MCMC initial values for McmcSsvs" alt="" coords="353,234,551,274"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="285,150,294,156,309,173,318,189,326,205,342,220,363,231,360,236,338,224,322,208,313,192,305,176,290,160,282,154"/>
+<area shape="rect" id="Node000006" href="$structbvhar_1_1HsInits.html" title=" " alt="" coords="628,96,823,121"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="577,119,627,115,628,120,578,124"/>
+<area shape="rect" id="Node000007" href="$structbvhar_1_1HsInits.html" title="MCMC initial values for McmcHorseshoe" alt="" coords="612,145,839,171"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="578,142,612,145,612,150,577,147"/>
+<area shape="rect" id="Node000008" href="$structbvhar_1_1NgInits.html" title="MCMC initial values for McmcNg" alt="" coords="887,145,1115,171"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="852,155,886,155,886,161,852,161"/>
+</map>
