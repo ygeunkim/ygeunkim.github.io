@@ -64,8 +64,8 @@ var NAVTREEINDEX =
 "classbvhar_1_1McmcTriangular.html#ab108d89d73c05dd0de94add817f1d390",
 "classbvhar_1_1MinnForecaster.html#a34a3cd22963a24e1f4cb1c365bb8cc45",
 "classbvhar_1_1OlsSpillover.html#a4929a071beecd8e545f5e9a776f26ae5",
-"draw_8h.html#ad6be181db9520956bdb3ecd6dcde8a50",
-"random_8h.html#aaf0ffb0d0b12b1eeed3e0aabe057b211",
+"draw_8h.html#ad4d88410c0399a67585f3841dfc053e3",
+"random_8h.html#a9a6a648f32478ed26de42232f61c8176",
 "structbvhar_1_1MhMinnSpec.html#a3813e45be5a8ceb56d91b7b7e3b3b76d",
 "structbvhar_1_1SsvsParams.html#a5692daca1580457b914022b3ec8477c5"
 ];

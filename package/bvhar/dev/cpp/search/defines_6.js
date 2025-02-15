@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['named_0',['NAMED',['../commondefs_8h.html#a6df7b022ffdb2532f2a0b31f12be6581',1,'commondefs.h']]],
-  ['nullopt_1',['NULLOPT',['../common_8h.html#a488a801cd2b77d24dd1b71d8bbfcb35a',1,'common.h']]]
+  ['list_0',['LIST',['../commondefs_8h.html#aed0a8f83088c41d721066cd5b3b9a00c',1,'commondefs.h']]],
+  ['list_5fof_5flist_1',['LIST_OF_LIST',['../commondefs_8h.html#a224f1f022bcfed2cc94435fc8cf8130b',1,'commondefs.h']]]
 ];
