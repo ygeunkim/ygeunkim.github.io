@@ -3,7 +3,7 @@ var draw_8h =
     [ "compute_logml", "draw_8h.html#ac68ceac28554c2c5e77832a2ce027760", null ],
     [ "jointdens_hyperparam", "draw_8h.html#a6c82c52ae0dcbf443b5c467f596a47d9", null ],
     [ "set_grp_id", "draw_8h.html#a4259e76082437051b0f410f0edfd51d5", null ],
-    [ "cut_param", "draw_8h.html#a21079ede93ae3df9ccbf7340daef816b", null ],
+    [ "cut_param", "draw_8h.html#a9169efcc0851c664c3fb8f696c1c6006", null ],
     [ "build_ssvs_sd", "draw_8h.html#ac2d40ebac391df5378eed70d097abc67", null ],
     [ "build_inv_lower", "draw_8h.html#ae39bebbc220145e3bf7b965b5dfbf959", null ],
     [ "ssvs_chol_diag", "draw_8h.html#a8eaf2a2fcbc5d01ab08020a7f65cac28", null ],

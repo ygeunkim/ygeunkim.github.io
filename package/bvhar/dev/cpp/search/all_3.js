@@ -43,5 +43,5 @@ var searchData=
   ['cout_40',['COUT',['../commondefs_8h.html#a8c54b10b84183429bcbcbc82c92fcca9',1,'commondefs.h']]],
   ['cov_41',['cov',['../classbvhar_1_1OlsSpillover.html#ad5467bb16349b3aa9d7b3fcaa8c4f721',1,'bvhar::OlsSpillover::cov'],['../classbvhar_1_1MultiOls.html#ab9faf54b2c3c42df3ab2863eba7160f8',1,'bvhar::MultiOls::cov'],['../classbvhar_1_1McmcSpillover.html#aeb5b7dbac18b9870b8d9650d8fb40725',1,'bvhar::McmcSpillover::cov']]],
   ['create_5flist_42',['CREATE_LIST',['../commondefs_8h.html#a0eaf7b50cdcc71a7812e26908299f8aa',1,'commondefs.h']]],
-  ['cut_5fparam_43',['cut_param',['../namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b',1,'bvhar']]]
+  ['cut_5fparam_43',['cut_param',['../namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006',1,'bvhar']]]
 ];

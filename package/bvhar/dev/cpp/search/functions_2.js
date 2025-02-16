@@ -16,5 +16,5 @@ var searchData=
   ['convert_5fvhar_5fto_5fvma_13',['convert_vhar_to_vma',['../namespacebvhar.html#a9c49c49d367e439692421e35372ab860',1,'bvhar']]],
   ['convert_5fvhar_5fvma_5fortho_14',['convert_vhar_vma_ortho',['../namespacebvhar.html#af7148de722566e02deec3ff3a583426f',1,'bvhar']]],
   ['convert_5fvma_5fortho_15',['convert_vma_ortho',['../namespacebvhar.html#a5aacb856322b9ba67fc19a0ccdcc4448',1,'bvhar']]],
-  ['cut_5fparam_16',['cut_param',['../namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b',1,'bvhar']]]
+  ['cut_5fparam_16',['cut_param',['../namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006',1,'bvhar']]]
 ];
