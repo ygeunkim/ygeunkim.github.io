@@ -1,9 +1,12 @@
 <map id="bvhar::McmcOutforecastRun::forecastWindow" name="bvhar::McmcOutforecastRun::forecastWindow">
-<area shape="rect" id="Node000001" title="Forecast." alt="" coords="5,37,212,77"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title="Conduct MCMC and update forecast pointer." alt="" coords="260,37,467,77"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,55,246,55,246,60,212,60"/>
+<area shape="rect" id="Node000001" title="Forecast." alt="" coords="5,87,212,127"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcOutforecastRun.html#a09429bdb46febc19b045d3999f0d4986" title="Conduct MCMC and update forecast pointer." alt="" coords="260,87,467,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,104,246,104,246,109,212,109"/>
 <area shape="rect" id="Node000003" href="$classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="538,5,698,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="466,42,524,34,525,40,467,47"/>
-<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title="Replace the forecast smart pointer given MCMC result." alt="" coords="515,69,721,109"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="467,68,501,72,501,77,466,73"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,84,514,55,539,47,540,52,515,60,426,89"/>
+<area shape="rect" id="Node000004" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="549,94,687,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="467,104,536,104,536,109,467,109"/>
+<area shape="rect" id="Node000005" href="$classbvhar_1_1McmcOutforecastRun.html#a295dfde5dfc147c2bae5995794ac6074" title="Replace the forecast smart pointer given MCMC result." alt="" coords="515,144,721,184"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="453,124,516,138,515,144,452,129"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="577,96,568,86,573,76,590,70,618,67,654,71,664,76,668,82,663,85,660,80,652,76,618,73,591,75,576,80,573,85,581,92"/>
 </map>
