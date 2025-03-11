@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9000</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9001</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -196,6 +196,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcNg.html">McmcNg</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal-Gamma Prior.  <a href="classbvhar_1_1McmcNg.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface class for Out-of-sample forecasting with MCMC.  <a href="classbvhar_1_1McmcOutforecastInterface.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html">McmcOutforecastRun</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Out-of-sample forecasting class.  <a href="classbvhar_1_1McmcOutforecastRun.html#details">More...</a><br /></td></tr>
@@ -537,6 +540,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a8c57200974000a91da089ce0feaa6edd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; BaseForecaster &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#a8c57200974000a91da089ce0feaa6edd">initialize_forecaster</a> (int num_chains, int ord, int step, const Eigen::MatrixXd &amp;response_mat, bool sparse, double level, Rcpp::List &amp;fit_record, Eigen::Ref&lt; const Eigen::VectorXi &gt; seed_chain, bool include_mean, bool stable, int nthreads, bool sv=true, <a class="el" href="common_8h.html#ad2d809b9d71f39717698ac42fe339257">Optional</a>&lt; Eigen::MatrixXd &gt; har_trans=boost::none)</td></tr>
 <tr class="memdesc:a8c57200974000a91da089ce0feaa6edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the vector of forecast class smart pointer.  <br /></td></tr>
 <tr class="separator:a8c57200974000a91da089ce0feaa6edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d9b25c0645dc2e5ea35098d737f241" id="r_a47d9b25c0645dc2e5ea35098d737f241"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = McmcRollforecastRun, typename BaseForecaster  = RegForecaster&gt; </td></tr>
+<tr class="memitem:a47d9b25c0645dc2e5ea35098d737f241"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a>&lt; BaseForecaster &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#a47d9b25c0645dc2e5ea35098d737f241">initialize_outforecaster</a> (const Eigen::MatrixXd &amp;y, int lag, int num_chains, int num_iter, int num_burn, int thinning, bool sparse, double level, Rcpp::List &amp;fit_record, bool run_mcmc, Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, bool ggl, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, bool include_mean, bool stable, int step, const Eigen::MatrixXd &amp;y_test, bool get_lpl, const Eigen::MatrixXi &amp;seed_chain, const Eigen::VectorXi &amp;seed_forecast, bool display_progress, int nthreads, const bool sv)</td></tr>
+<tr class="separator:a47d9b25c0645dc2e5ea35098d737f241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac44d848150794fc3319c7cd7a0e85183" id="r_ac44d848150794fc3319c7cd7a0e85183"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = McmcRollforecastRun, typename BaseForecaster  = RegForecaster&gt; </td></tr>
+<tr class="memitem:ac44d848150794fc3319c7cd7a0e85183"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a>&lt; BaseForecaster &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#ac44d848150794fc3319c7cd7a0e85183">initialize_outforecaster</a> (const Eigen::MatrixXd &amp;y, int week, int month, int num_chains, int num_iter, int num_burn, int thinning, bool sparse, double level, Rcpp::List &amp;fit_record, bool run_mcmc, Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, bool ggl, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, bool include_mean, bool stable, int step, const Eigen::MatrixXd &amp;y_test, bool get_lpl, const Eigen::MatrixXi &amp;seed_chain, const Eigen::VectorXi &amp;seed_forecast, bool display_progress, int nthreads, const bool sv)</td></tr>
+<tr class="separator:ac44d848150794fc3319c7cd7a0e85183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67f7e1c7c600d5c0cc6cd94f1dd52bd0" id="r_a67f7e1c7c600d5c0cc6cd94f1dd52bd0"><td class="memTemplParams" colspan="2">template&lt;typename RecordType  = LdltRecords&gt; </td></tr>
 <tr class="memitem:a67f7e1c7c600d5c0cc6cd94f1dd52bd0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcSpillover.html">McmcSpillover</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#a67f7e1c7c600d5c0cc6cd94f1dd52bd0">initialize_spillover</a> (int chain_id, int lag, int step, Rcpp::List &amp;fit_record, bool sparse, int id=-1, <a class="el" href="common_8h.html#ad2d809b9d71f39717698ac42fe339257">Optional</a>&lt; Eigen::MatrixXd &gt; har_trans=boost::none, <a class="el" href="common_8h.html#ad2d809b9d71f39717698ac42fe339257">Optional</a>&lt; int &gt; week=boost::none)</td></tr>
 <tr class="separator:a67f7e1c7c600d5c0cc6cd94f1dd52bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5006,6 +5015,446 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="202,41,455,41,455,46,202,46"/>
 <area shape="poly" title=" " alt="" coords="421,26,455,30,454,36,420,31"/>
 <area shape="poly" title=" " alt="" coords="504,32,497,22,500,12,514,6,537,4,565,8,576,17,572,21,562,13,537,9,515,11,504,16,502,22,508,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a47d9b25c0645dc2e5ea35098d737f241" name="a47d9b25c0645dc2e5ea35098d737f241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47d9b25c0645dc2e5ea35098d737f241">&#9670;&#160;</a></span>initialize_outforecaster() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = McmcRollforecastRun, typename BaseForecaster  = RegForecaster&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a>&lt; BaseForecaster &gt; &gt; bvhar::initialize_outforecaster </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_chains</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_iter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_burn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>thinning</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sparse</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>fit_record</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>run_mcmc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_prior</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_intercept</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prior_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ggl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>own_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>cross_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include_mean</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>stable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>step</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>y_test</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>get_lpl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>seed_chain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>seed_forecast</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>display_progress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nthreads</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>sv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacebvhar_a47d9b25c0645dc2e5ea35098d737f241_cgraph.png" border="0" usemap="#anamespacebvhar_a47d9b25c0645dc2e5ea35098d737f241_cgraph" alt=""/></div>
+<map name="anamespacebvhar_a47d9b25c0645dc2e5ea35098d737f241_cgraph" id="anamespacebvhar_a47d9b25c0645dc2e5ea35098d737f241_cgraph">
+<area shape="rect" title=" " alt="" coords="5,29,223,55"/>
+<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="271,29,408,55"/>
+<area shape="poly" title=" " alt="" coords="223,39,257,39,257,45,223,45"/>
+<area shape="poly" title=" " alt="" coords="303,31,295,21,299,11,314,5,339,3,371,7,383,16,380,20,369,11,339,8,315,10,303,15,300,20,307,27"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac44d848150794fc3319c7cd7a0e85183" name="ac44d848150794fc3319c7cd7a0e85183"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac44d848150794fc3319c7cd7a0e85183">&#9670;&#160;</a></span>initialize_outforecaster() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = McmcRollforecastRun, typename BaseForecaster  = RegForecaster&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a>&lt; BaseForecaster &gt; &gt; bvhar::initialize_outforecaster </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>week</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>month</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_chains</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_iter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_burn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>thinning</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sparse</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>fit_record</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>run_mcmc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_prior</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_intercept</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prior_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ggl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>own_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>cross_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include_mean</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>stable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>step</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>y_test</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>get_lpl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>seed_chain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>seed_forecast</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>display_progress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nthreads</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>sv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacebvhar_ac44d848150794fc3319c7cd7a0e85183_cgraph.png" border="0" usemap="#anamespacebvhar_ac44d848150794fc3319c7cd7a0e85183_cgraph" alt=""/></div>
+<map name="anamespacebvhar_ac44d848150794fc3319c7cd7a0e85183_cgraph" id="anamespacebvhar_ac44d848150794fc3319c7cd7a0e85183_cgraph">
+<area shape="rect" title=" " alt="" coords="5,29,223,55"/>
+<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="271,29,408,55"/>
+<area shape="poly" title=" " alt="" coords="223,39,257,39,257,45,223,45"/>
+<area shape="poly" title=" " alt="" coords="303,31,295,21,299,11,314,5,339,3,371,7,383,16,380,20,369,11,339,8,315,10,303,15,300,20,307,27"/>
 </map>
 </div>
 

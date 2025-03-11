@@ -1,7 +1,7 @@
 var searchData=
 [
   ['b_0',['b',['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html#aced8710632ea086fe3c4f3fd00a675ac',1,'boost::random::generalized_inverse_gaussian_distribution::b()'],['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution_1_1param__type.html#ae87ae631c462ee053a391995066d6c7b',1,'boost::random::generalized_inverse_gaussian_distribution::param_type::b()']]],
-  ['basemcmc_1',['BaseMcmc',['../classbvhar_1_1McmcOutforecastRun.html#a81ccad3100c910edf7282041db30c4a3',1,'bvhar::McmcOutforecastRun']]],
+  ['basemcmc_1',['BaseMcmc',['../classbvhar_1_1McmcOutforecastRun.html#aff6b4b5a75df913280fed4d3d7eb74ce',1,'bvhar::McmcOutforecastRun']]],
   ['bayes_2fmniw_2fforecaster_2eh_2',['forecaster.h',['../bayes_2mniw_2forecaster_8h.html',1,'']]],
   ['bayes_2fmniw_2fspillover_2eh_3',['spillover.h',['../bayes_2mniw_2spillover_8h.html',1,'']]],
   ['bayes_2ftriangular_2fforecaster_2eh_4',['forecaster.h',['../bayes_2triangular_2forecaster_8h.html',1,'']]],
@@ -26,7 +26,7 @@ var searchData=
   ['build_5fxdummy_23',['build_xdummy',['../namespacebvhar.html#a6f04749bb537a4c13614d26b4751c854',1,'bvhar']]],
   ['build_5fy0_24',['build_y0',['../namespacebvhar.html#ae1354f368716d19119b45819613cd05b',1,'bvhar']]],
   ['build_5fydummy_25',['build_ydummy',['../namespacebvhar.html#a8f898c60e82830ea8a8146d681020a50',1,'bvhar']]],
-  ['builddesign_26',['builddesign',['../classbvhar_1_1McmcOutforecastRun.html#afeebaf140a257475c96b40540fd62cf8',1,'bvhar::McmcOutforecastRun::buildDesign()'],['../classbvhar_1_1McmcVarforecastRun.html#a9976ccbec5b73f94224a3c2cfaaf9303',1,'bvhar::McmcVarforecastRun::buildDesign()'],['../classbvhar_1_1McmcVharforecastRun.html#a8c08f3cd7ae38947307602903d1aac29',1,'bvhar::McmcVharforecastRun::buildDesign()'],['../classbvhar_1_1DynamicLdltSpillover.html#a0a6895d914f1db249e78796603adab88',1,'bvhar::DynamicLdltSpillover::buildDesign()']]],
+  ['builddesign_26',['builddesign',['../classbvhar_1_1McmcOutforecastRun.html#a3fd3c69f8d8de30959ef4ae58c516e29',1,'bvhar::McmcOutforecastRun::buildDesign()'],['../classbvhar_1_1McmcVarforecastRun.html#a191b22fdbe7bd317b607f2d70b8451af',1,'bvhar::McmcVarforecastRun::buildDesign()'],['../classbvhar_1_1McmcVharforecastRun.html#a5b0525691926d91c3028e780078f7338',1,'bvhar::McmcVharforecastRun::buildDesign()'],['../classbvhar_1_1DynamicLdltSpillover.html#a0a6895d914f1db249e78796603adab88',1,'bvhar::DynamicLdltSpillover::buildDesign()']]],
   ['bvarforecaster_27',['bvarforecaster',['../classbvhar_1_1BvarForecaster.html#a3da14d1ca6c75b6dc3ca16696d635f89',1,'bvhar::BvarForecaster::BvarForecaster()'],['../classbvhar_1_1BvarForecaster.html',1,'bvhar::BvarForecaster']]],
   ['bvarspec_28',['bvarspec',['../structbvhar_1_1BvarSpec.html',1,'bvhar::BvarSpec'],['../structbvhar_1_1BvarSpec.html#a5045c616cda2a05aea4aea0215935dc4',1,'bvhar::BvarSpec::BvarSpec()']]],
   ['bvhar_29',['bvhar',['../namespacebvhar.html',1,'']]],

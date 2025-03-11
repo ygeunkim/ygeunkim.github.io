@@ -1,7 +1,7 @@
 var classbvhar_1_1McmcExpandforecastRun =
 [
-    [ "McmcExpandforecastRun", "classbvhar_1_1McmcExpandforecastRun.html#a0fda62fd5bf9cd59964f8a0598ba43e4", null ],
-    [ "~McmcExpandforecastRun", "classbvhar_1_1McmcExpandforecastRun.html#a9822e86c280f4dc058420447f0000d0a", null ],
-    [ "initData", "classbvhar_1_1McmcExpandforecastRun.html#ae5d66f91ea50f909807d3e8f07152d69", null ],
-    [ "initMcmc", "classbvhar_1_1McmcExpandforecastRun.html#ad882962a1ff075b1eb4df20057ed59dc", null ]
+    [ "McmcExpandforecastRun", "classbvhar_1_1McmcExpandforecastRun.html#aa0dc5a09a1dd63c6876d8d64ff009c04", null ],
+    [ "~McmcExpandforecastRun", "classbvhar_1_1McmcExpandforecastRun.html#ab6bf7fa3f2a6a8990c4a8748c9550cd2", null ],
+    [ "initData", "classbvhar_1_1McmcExpandforecastRun.html#ab14427e5c92b034a08195778b965c0fe", null ],
+    [ "initMcmc", "classbvhar_1_1McmcExpandforecastRun.html#a6e4ec13098098bd4f6d9026ed7832742", null ]
 ];

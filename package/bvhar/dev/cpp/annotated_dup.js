@@ -43,6 +43,7 @@ var annotated_dup =
       [ "McmcMinn", "classbvhar_1_1McmcMinn.html", "classbvhar_1_1McmcMinn" ],
       [ "McmcMniw", "classbvhar_1_1McmcMniw.html", "classbvhar_1_1McmcMniw" ],
       [ "McmcNg", "classbvhar_1_1McmcNg.html", "classbvhar_1_1McmcNg" ],
+      [ "McmcOutforecastInterface", "classbvhar_1_1McmcOutforecastInterface.html", "classbvhar_1_1McmcOutforecastInterface" ],
       [ "McmcOutforecastRun", "classbvhar_1_1McmcOutforecastRun.html", "classbvhar_1_1McmcOutforecastRun" ],
       [ "McmcReg", "classbvhar_1_1McmcReg.html", "classbvhar_1_1McmcReg" ],
       [ "McmcRollforecastRun", "classbvhar_1_1McmcRollforecastRun.html", "classbvhar_1_1McmcRollforecastRun" ],

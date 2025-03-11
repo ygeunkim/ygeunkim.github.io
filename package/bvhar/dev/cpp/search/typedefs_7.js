@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['recordtype_0',['RecordType',['../classbvhar_1_1McmcOutforecastRun.html#a9508f51c1e9b750e654d5aee4ed4f955',1,'bvhar::McmcOutforecastRun']]],
+  ['recordtype_0',['RecordType',['../classbvhar_1_1McmcOutforecastRun.html#a00af68a47f9cf24b52994b76df757ee3',1,'bvhar::McmcOutforecastRun']]],
   ['regspillover_1',['RegSpillover',['../namespacebvhar.html#aa9b07b0107e01f963abc6ad1ba977e60',1,'bvhar']]],
   ['regvarforecaster_2',['RegVarForecaster',['../namespacebvhar.html#a7ab959fa232c50de7080a81998783fdf',1,'bvhar']]],
   ['regvarselectforecaster_3',['RegVarSelectForecaster',['../namespacebvhar.html#a8a4f13e4874baa778b5aae80df28be98',1,'bvhar']]],

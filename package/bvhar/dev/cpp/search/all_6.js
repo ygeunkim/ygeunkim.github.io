@@ -7,12 +7,12 @@ var searchData=
   ['flush_4',['FLUSH',['../commondefs_8h.html#a263ccab0461d1643cb62c6625b788a7f',1,'commondefs.h']]],
   ['flush_5f_5',['flush_',['../classbvhar_1_1sinks_1_1bvhar__sink.html#a441400c9404385bf44296e3cfb4222ee',1,'bvhar::sinks::bvhar_sink']]],
   ['for_20r_20package_20developers_6',['For R package developers',['../index.html#autotoc_md1',1,'']]],
-  ['forecast_7',['forecast',['../classbvhar_1_1McmcOutforecastRun.html#a9314163ea541d6dbebd60c5be8cbdce8',1,'bvhar::McmcOutforecastRun::forecast()'],['../classbvhar_1_1McmcForecastRun.html#a9b5de209c7ecd9eb79d14f11f4854dee',1,'bvhar::McmcForecastRun::forecast()']]],
+  ['forecast_7',['forecast',['../classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5',1,'bvhar::McmcOutforecastRun::forecast()'],['../classbvhar_1_1McmcOutforecastInterface.html#af70f23c8db1f460676f0941d1afd4cda',1,'bvhar::McmcOutforecastInterface::forecast()'],['../classbvhar_1_1McmcForecastRun.html#a9b5de209c7ecd9eb79d14f11f4854dee',1,'bvhar::McmcForecastRun::forecast()']]],
   ['forecastdensity_8',['forecastdensity',['../classbvhar_1_1MinnForecaster.html#a3e4ea0cafdf2502d00b5fbb0bb9fafa3',1,'bvhar::MinnForecaster::forecastDensity()'],['../classbvhar_1_1McmcForecaster.html#a2adb6068fd479f5ebef19fa8fff05d2a',1,'bvhar::McmcForecaster::forecastDensity()'],['../classbvhar_1_1McmcForecaster.html#aaedabb4f263af3275a14f325280291e3',1,'bvhar::McmcForecaster::forecastDensity(const Eigen::VectorXd &amp;valid_vec)']]],
-  ['forecaster_9',['forecaster',['../classbvhar_1_1McmcOutforecastRun.html#ae2736390d84c45c542919298134757fa',1,'bvhar::McmcOutforecastRun']]],
+  ['forecaster_9',['forecaster',['../classbvhar_1_1McmcOutforecastRun.html#a0cd89924b4b309e4896ecfc988777706',1,'bvhar::McmcOutforecastRun']]],
   ['forecastout_10',['forecastout',['../classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844',1,'bvhar::McmcForecaster::forecastOut(int i)'],['../classbvhar_1_1McmcForecaster.html#a07095c0bc37406752ce42b02c169b624',1,'bvhar::McmcForecaster::forecastOut(int i, const Eigen::VectorXd &amp;valid_vec)']]],
   ['forecastpoint_11',['forecastpoint',['../classbvhar_1_1MinnForecaster.html#a24636ef92c9475f7025bc9f9e08e46d6',1,'bvhar::MinnForecaster::forecastPoint()'],['../classbvhar_1_1OlsForecaster.html#af1b5de1cc9af1df14b685b4e19651f18',1,'bvhar::OlsForecaster::forecastPoint()']]],
-  ['forecastwindow_12',['forecastWindow',['../classbvhar_1_1McmcOutforecastRun.html#ac8c929b315b4de949db3ddcb5be8dc09',1,'bvhar::McmcOutforecastRun']]],
+  ['forecastwindow_12',['forecastWindow',['../classbvhar_1_1McmcOutforecastRun.html#affa11838e63ce2075ffca0ae76a9b108',1,'bvhar::McmcOutforecastRun']]],
   ['from_5fsp_13',['from_sp',['../classbvhar_1_1DynamicLdltSpillover.html#aa07c4b9fa94350667da4169e18915cf7',1,'bvhar::DynamicLdltSpillover::from_sp'],['../classbvhar_1_1DynamicSvSpillover.html#af05ab26c7e9959d3c417483c668f2c58',1,'bvhar::DynamicSvSpillover::from_sp']]],
   ['from_5fspillover_14',['from_spillover',['../classbvhar_1_1McmcSpillover.html#a9fc064ac11553b162b9a51691da81ad8',1,'bvhar::McmcSpillover']]]
 ];

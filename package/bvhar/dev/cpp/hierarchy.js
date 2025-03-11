@@ -28,14 +28,17 @@ var hierarchy =
       [ "bvhar::McmcRun< BaseMcmc, isGroup >", "classbvhar_1_1McmcRun.html", null ]
     ] ],
     [ "bvhar::McmcMniw", "classbvhar_1_1McmcMniw.html", null ],
-    [ "bvhar::McmcOutforecastRun< BaseForecaster >", "classbvhar_1_1McmcOutforecastRun.html", [
-      [ "bvhar::McmcExpandforecastRun< BaseForecaster, isGroup >", "classbvhar_1_1McmcExpandforecastRun.html", null ],
-      [ "bvhar::McmcRollforecastRun< BaseForecaster, isGroup >", "classbvhar_1_1McmcRollforecastRun.html", null ]
+    [ "bvhar::McmcOutforecastInterface< BaseForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", [
+      [ "bvhar::McmcOutforecastRun< RegForecaster, true >", "classbvhar_1_1McmcOutforecastRun.html", null ],
+      [ "bvhar::McmcOutforecastRun< BaseForecaster, isUpdate >", "classbvhar_1_1McmcOutforecastRun.html", [
+        [ "bvhar::McmcExpandforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcExpandforecastRun.html", null ],
+        [ "bvhar::McmcRollforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcRollforecastRun.html", null ]
+      ] ]
     ] ],
-    [ "bvhar::McmcOutforecastRun< RegForecaster >", "classbvhar_1_1McmcOutforecastRun.html", null ],
+    [ "bvhar::McmcOutforecastInterface< RegForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", null ],
     [ "McmcRollforecastRun", null, [
-      [ "bvhar::McmcVarforecastRun< BaseOutForecast, BaseForecaster, isGroup >", "classbvhar_1_1McmcVarforecastRun.html", null ],
-      [ "bvhar::McmcVharforecastRun< BaseOutForecast, BaseForecaster, isGroup >", "classbvhar_1_1McmcVharforecastRun.html", null ]
+      [ "bvhar::McmcVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVarforecastRun.html", null ],
+      [ "bvhar::McmcVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVharforecastRun.html", null ]
     ] ],
     [ "bvhar::McmcSpillover", "classbvhar_1_1McmcSpillover.html", [
       [ "bvhar::McmcVarSpillover< RecordType >", "classbvhar_1_1McmcVarSpillover.html", null ],

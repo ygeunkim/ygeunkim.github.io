@@ -59,15 +59,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classbvhar_1_1LltOls.html#ab1c0025bb4d97df575811108883e4f0d",
-"classbvhar_1_1McmcOutforecastRun.html#a9314163ea541d6dbebd60c5be8cbdce8",
-"classbvhar_1_1McmcTriangular.html#ab108d89d73c05dd0de94add817f1d390",
-"classbvhar_1_1MinnForecaster.html#a34a3cd22963a24e1f4cb1c365bb8cc45",
-"classbvhar_1_1OlsSpillover.html#a4929a071beecd8e545f5e9a776f26ae5",
-"draw_8h.html#ad4d88410c0399a67585f3841dfc053e3",
-"random_8h.html#a9a6a648f32478ed26de42232f61c8176",
-"structbvhar_1_1MhMinnSpec.html#a3813e45be5a8ceb56d91b7b7e3b3b76d",
-"structbvhar_1_1SsvsParams.html#a5692daca1580457b914022b3ec8477c5"
+"classbvhar_1_1LltOls.html#a942a152d94c8fabf6ab2be6ee0a00d6a",
+"classbvhar_1_1McmcOutforecastRun.html#a48d527155ee84b3d5cbb038f0fb5ea10",
+"classbvhar_1_1McmcTriangular.html#a8e3012ff18a92edafc7ce33f662a622a",
+"classbvhar_1_1MinnFlat.html#af23c2a40965bcbb5664b53ccdf0cf600",
+"classbvhar_1_1OlsSpillover.html#a0ccf2d988d70da7890c4314821e33cfa",
+"draw_8h.html#abb10a218018e15b4b7dd51b5f0e7ff3b",
+"omp_8h.html",
+"structbvhar_1_1MhMinnRecords.html#a767297113d2fc935b4355323fd33bca0",
+"structbvhar_1_1SsvsInits.html#abb2f7bde89030ac643f5f74ce1a028d9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
