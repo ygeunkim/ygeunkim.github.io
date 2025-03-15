@@ -5,12 +5,20 @@
     <link>https://ygeunkim.github.io/tag/bayesian-econometrics/</link>
       <atom:link href="https://ygeunkim.github.io/tag/bayesian-econometrics/index.xml" rel="self" type="application/rss+xml" />
     <description>bayesian-econometrics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Young Geun Kim</copyright><lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Young Geun Kim</copyright><lastBuildDate>Thu, 13 Mar 2025 05:30:00 +0000</lastBuildDate>
     <image>
       <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
       <title>bayesian-econometrics</title>
       <link>https://ygeunkim.github.io/tag/bayesian-econometrics/</link>
     </image>
+    
+    <item>
+      <title>Bayesian Modeling and Forecasting of High Dimensional Long Range Dependent Time Series</title>
+      <link>https://ygeunkim.github.io/event/cornellmatteson/</link>
+      <pubDate>Thu, 13 Mar 2025 05:30:00 +0000</pubDate>
+      <guid>https://ygeunkim.github.io/event/cornellmatteson/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bvhar: Bayesian Vector Heterogeneous Autoregressive Modeling</title>
