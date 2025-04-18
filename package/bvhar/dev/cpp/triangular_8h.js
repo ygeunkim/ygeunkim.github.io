@@ -10,7 +10,6 @@ var triangular_8h =
     [ "bvhar::McmcNg< BaseMcmc, isGroup >", "classbvhar_1_1McmcNg.html", "classbvhar_1_1McmcNg" ],
     [ "bvhar::McmcDl< BaseMcmc, isGroup >", "classbvhar_1_1McmcDl.html", "classbvhar_1_1McmcDl" ],
     [ "bvhar::McmcGdp< BaseMcmc >", "classbvhar_1_1McmcGdp.html", "classbvhar_1_1McmcGdp" ],
-    [ "bvhar::McmcInterface", "classbvhar_1_1McmcInterface.html", "classbvhar_1_1McmcInterface" ],
-    [ "bvhar::McmcRun< BaseMcmc, isGroup >", "classbvhar_1_1McmcRun.html", "classbvhar_1_1McmcRun" ],
+    [ "bvhar::CtaRun< BaseMcmc, isGroup >", "classbvhar_1_1CtaRun.html", "classbvhar_1_1CtaRun" ],
     [ "initialize_mcmc", "triangular_8h.html#a4f3d2320a8a70caa9b41dfc1c70a4abd", null ]
 ];

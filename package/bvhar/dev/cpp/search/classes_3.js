@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['hierminninits_0',['HierminnInits',['../structbvhar_1_1HierminnInits.html',1,'bvhar']]],
-  ['hierminnparams_1',['HierminnParams',['../structbvhar_1_1HierminnParams.html',1,'bvhar']]],
-  ['horseshoeparams_2',['HorseshoeParams',['../structbvhar_1_1HorseshoeParams.html',1,'bvhar']]],
-  ['horseshoerecords_3',['HorseshoeRecords',['../structbvhar_1_1HorseshoeRecords.html',1,'bvhar']]],
-  ['hsinits_4',['HsInits',['../structbvhar_1_1HsInits.html',1,'bvhar']]],
-  ['hsinits_3c_20ldltinits_20_3e_5',['HsInits&lt; LdltInits &gt;',['../structbvhar_1_1HsInits.html',1,'bvhar']]]
+  ['gdpinits_0',['GdpInits',['../structbvhar_1_1GdpInits.html',1,'bvhar']]],
+  ['gdpparams_1',['GdpParams',['../structbvhar_1_1GdpParams.html',1,'bvhar']]],
+  ['generalized_5finverse_5fgaussian_5fdistribution_2',['generalized_inverse_gaussian_distribution',['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html',1,'boost::random']]],
+  ['glinits_3',['GlInits',['../structbvhar_1_1GlInits.html',1,'bvhar']]],
+  ['glinits_3c_20ldltinits_20_3e_4',['GlInits&lt; LdltInits &gt;',['../structbvhar_1_1GlInits.html',1,'bvhar']]],
+  ['globallocalrecords_5',['GlobalLocalRecords',['../structbvhar_1_1GlobalLocalRecords.html',1,'bvhar']]]
 ];

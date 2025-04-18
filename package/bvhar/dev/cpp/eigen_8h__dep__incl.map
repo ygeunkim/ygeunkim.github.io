@@ -1,53 +1,56 @@
 <map id="eigen.h" name="eigen.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="258,5,329,31"/>
-<area shape="rect" id="Node000002" href="$common_8h.html" title=" " alt="" coords="165,79,256,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,42,226,80,222,76,268,38"/>
-<area shape="rect" id="Node000019" href="$design_8h.html" title=" " alt="" coords="243,225,320,251"/>
-<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="295,45,285,225,279,225,289,45"/>
-<area shape="rect" id="Node000022" href="$structural_8h.html" title=" " alt="" coords="199,299,295,324"/>
-<area shape="poly" id="edge26_Node000001_Node000022" title=" " alt="" coords="309,42,327,83,344,137,348,166,349,195,345,224,334,252,323,268,308,282,277,301,274,296,305,277,319,265,330,249,340,223,344,195,343,166,338,138,322,85,304,44"/>
-<area shape="rect" id="Node000003" href="$ols_2forecaster_8h.html" title=" " alt="" coords="5,372,104,397"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="200,117,63,373,59,370,196,115"/>
-<area shape="rect" id="Node000004" href="$random_8h.html" title=" " alt="" coords="466,152,550,177"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="270,104,467,151,465,156,269,109"/>
-<area shape="rect" id="Node000005" href="$draw_8h.html" title=" " alt="" coords="435,225,501,251"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="497,191,477,227,472,224,492,188"/>
-<area shape="rect" id="Node000017" href="$bayes_2mniw_2forecaster_8h.html" title=" " alt="" coords="537,372,636,397"/>
-<area shape="poly" id="edge18_Node000004_Node000017" title=" " alt="" coords="519,189,585,371,580,372,514,191"/>
-<area shape="rect" id="Node000018" href="$bayes_2mniw_2spillover_8h.html" title=" " alt="" coords="423,372,513,397"/>
-<area shape="poly" id="edge19_Node000004_Node000018" title=" " alt="" coords="522,189,532,217,541,252,543,289,534,325,514,354,489,374,485,370,510,350,530,323,537,289,535,253,527,219,517,191"/>
-<area shape="rect" id="Node000006" href="$config_8h.html" title="Headers including MCMC configuration structs." alt="" coords="319,299,393,324"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="440,260,376,301,373,296,437,256"/>
-<area shape="rect" id="Node000016" href="$minnesota_8h.html" title=" " alt="" coords="417,299,519,324"/>
-<area shape="poly" id="edge15_Node000005_Node000016" title=" " alt="" coords="471,264,471,299,465,299,465,264"/>
-<area shape="rect" id="Node000007" href="$triangular_8h.html" title="Header including MCMC algorithm." alt="" coords="303,372,399,397"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="357,338,354,372,349,372,351,338"/>
-<area shape="rect" id="Node000008" href="$bayes_2triangular_2forecaster_8h.html" title=" " alt="" coords="301,445,400,471"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="353,411,353,445,348,445,348,411"/>
-<area shape="rect" id="Node000011" href="$reg_8h.html" title=" " alt="" coords="425,445,479,471"/>
-<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="380,403,437,443,434,447,377,407"/>
-<area shape="rect" id="Node000012" href="$bayes_2triangular_2spillover_8h.html" title=" " alt="" coords="183,445,273,471"/>
-<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="321,406,249,447,247,443,318,402"/>
-<area shape="rect" id="Node000015" href="$sv_8h.html" title=" " alt="" coords="504,445,552,471"/>
-<area shape="poly" id="edge14_Node000007_Node000015" title=" " alt="" coords="393,400,505,444,503,449,391,405"/>
-<area shape="rect" id="Node000009" href="$regforecaster_8h.html" title=" " alt="" coords="296,519,416,544"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="355,484,358,518,352,519,350,485"/>
-<area shape="rect" id="Node000010" href="$svforecaster_8h.html" title=" " alt="" coords="440,519,555,544"/>
-<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="387,474,474,516,472,521,385,479"/>
-<area shape="rect" id="Node000013" href="$regspillover_8h.html" title=" " alt="" coords="33,519,143,544"/>
-<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="195,479,112,521,110,516,192,474"/>
-<area shape="rect" id="Node000014" href="$svspillover_8h.html" title=" " alt="" coords="168,519,272,544"/>
-<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="228,485,224,519,219,518,223,484"/>
-<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="500,329,569,369,566,374,498,333"/>
-<area shape="poly" id="edge17_Node000016_Node000018" title=" " alt="" coords="471,338,471,372,465,372,465,338"/>
-<area shape="poly" id="edge21_Node000019_Node000006" title=" " alt="" coords="305,258,346,297,342,300,301,262"/>
-<area shape="poly" id="edge22_Node000019_Node000016" title=" " alt="" coords="325,253,438,296,437,301,323,258"/>
-<area shape="rect" id="Node000020" href="$ols_8h.html" title=" " alt="" coords="121,299,175,324"/>
-<area shape="poly" id="edge23_Node000019_Node000020" title=" " alt="" coords="249,259,171,301,169,296,247,255"/>
-<area shape="poly" id="edge24_Node000020_Node000003" title=" " alt="" coords="124,334,72,374,68,370,121,330"/>
-<area shape="rect" id="Node000021" href="$ols_2spillover_8h.html" title=" " alt="" coords="129,372,218,397"/>
-<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="159,336,172,371,167,373,154,338"/>
-<area shape="poly" id="edge28_Node000022_Node000012" title=" " alt="" coords="246,338,232,445,227,445,241,338"/>
-<area shape="poly" id="edge27_Node000022_Node000018" title=" " alt="" coords="296,326,433,369,431,374,294,331"/>
-<area shape="poly" id="edge29_Node000022_Node000021" title=" " alt="" coords="227,336,187,374,183,370,223,332"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="414,5,485,31"/>
+<area shape="rect" id="Node000002" href="$common_8h.html" title=" " alt="" coords="288,79,379,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="421,40,354,81,351,76,418,35"/>
+<area shape="rect" id="Node000020" href="$design_8h.html" title=" " alt="" coords="411,225,488,251"/>
+<area shape="poly" id="edge22_Node000001_Node000020" title=" " alt="" coords="452,45,452,225,447,225,447,45"/>
+<area shape="rect" id="Node000023" href="$structural_8h.html" title=" " alt="" coords="489,299,585,324"/>
+<area shape="poly" id="edge28_Node000001_Node000023" title=" " alt="" coords="460,43,471,78,536,298,531,299,465,79,455,45"/>
+<area shape="rect" id="Node000003" href="$bayes_8h.html" title="MCMC base class." alt="" coords="262,152,335,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="324,118,307,153,302,151,319,115"/>
+<area shape="rect" id="Node000014" href="$ols_2forecaster_8h.html" title=" " alt="" coords="369,372,468,397"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="343,116,403,323,418,371,412,373,397,325,338,118"/>
+<area shape="rect" id="Node000015" href="$random_8h.html" title=" " alt="" coords="133,152,217,177"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="297,112,202,154,200,149,295,107"/>
+<area shape="rect" id="Node000004" href="$config_8h.html" title="Headers including MCMC configuration structs." alt="" coords="262,299,335,324"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,191,301,298,296,298,296,191"/>
+<area shape="rect" id="Node000005" href="$triangular_8h.html" title="Header including MCMC algorithm." alt="" coords="249,372,345,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="301,338,300,372,295,372,296,338"/>
+<area shape="rect" id="Node000006" href="$bayes_2triangular_2forecaster_8h.html" title=" " alt="" coords="147,445,245,471"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="271,407,214,447,211,443,268,403"/>
+<area shape="rect" id="Node000009" href="$reg_8h.html" title=" " alt="" coords="270,445,325,471"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="300,411,300,445,295,445,295,411"/>
+<area shape="rect" id="Node000010" href="$bayes_2triangular_2spillover_8h.html" title=" " alt="" coords="459,445,549,471"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="344,399,471,443,470,448,343,404"/>
+<area shape="rect" id="Node000013" href="$sv_8h.html" title=" " alt="" coords="349,445,397,471"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="321,405,363,443,359,447,318,409"/>
+<area shape="rect" id="Node000007" href="$regforecaster_8h.html" title=" " alt="" coords="47,519,167,544"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="173,481,123,521,120,516,169,477"/>
+<area shape="rect" id="Node000008" href="$svforecaster_8h.html" title=" " alt="" coords="191,519,305,544"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="215,480,242,517,237,520,210,483"/>
+<area shape="rect" id="Node000011" href="$regspillover_8h.html" title=" " alt="" coords="397,519,507,544"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="490,483,463,520,458,517,485,480"/>
+<area shape="rect" id="Node000012" href="$svspillover_8h.html" title=" " alt="" coords="532,519,636,544"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="529,478,573,516,569,520,525,482"/>
+<area shape="rect" id="Node000016" href="$draw_8h.html" title=" " alt="" coords="121,225,186,251"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="170,192,159,226,154,224,165,190"/>
+<area shape="rect" id="Node000018" href="$bayes_2mniw_2forecaster_8h.html" title=" " alt="" coords="5,372,104,397"/>
+<area shape="poly" id="edge20_Node000015_Node000018" title=" " alt="" coords="149,188,110,227,88,261,73,299,63,339,58,372,53,371,58,338,68,298,83,259,106,224,146,184"/>
+<area shape="rect" id="Node000019" href="$bayes_2mniw_2spillover_8h.html" title=" " alt="" coords="135,372,225,397"/>
+<area shape="poly" id="edge21_Node000015_Node000019" title=" " alt="" coords="189,189,200,225,205,275,200,324,187,372,182,371,195,324,200,275,195,226,184,191"/>
+<area shape="poly" id="edge16_Node000016_Node000004" title=" " alt="" coords="190,254,276,296,274,301,188,259"/>
+<area shape="rect" id="Node000017" href="$minnesota_8h.html" title=" " alt="" coords="83,299,186,324"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="149,265,140,299,135,298,144,263"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="114,335,70,374,66,370,110,331"/>
+<area shape="poly" id="edge19_Node000017_Node000019" title=" " alt="" coords="152,334,175,370,170,373,147,337"/>
+<area shape="poly" id="edge23_Node000020_Node000004" title=" " alt="" coords="414,259,324,301,322,296,412,254"/>
+<area shape="poly" id="edge24_Node000020_Node000017" title=" " alt="" coords="398,254,186,301,185,296,396,248"/>
+<area shape="rect" id="Node000021" href="$ols_8h.html" title=" " alt="" coords="412,299,465,324"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="448,265,443,299,438,298,443,264"/>
+<area shape="poly" id="edge26_Node000021_Node000014" title=" " alt="" coords="434,338,424,373,419,371,429,337"/>
+<area shape="rect" id="Node000022" href="$ols_2spillover_8h.html" title=" " alt="" coords="493,372,582,397"/>
+<area shape="poly" id="edge27_Node000021_Node000022" title=" " alt="" coords="467,330,523,370,520,374,464,334"/>
+<area shape="poly" id="edge30_Node000023_Node000010" title=" " alt="" coords="567,331,581,345,594,361,600,380,596,398,584,415,569,429,536,448,533,443,566,424,580,411,591,396,594,380,589,364,577,348,563,334"/>
+<area shape="poly" id="edge29_Node000023_Node000019" title=" " alt="" coords="476,327,226,377,225,372,475,322"/>
+<area shape="poly" id="edge31_Node000023_Node000022" title=" " alt="" coords="540,338,540,372,535,372,535,338"/>
 </map>

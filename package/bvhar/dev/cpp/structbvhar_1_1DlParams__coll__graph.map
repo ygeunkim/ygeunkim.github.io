@@ -1,5 +1,7 @@
 <map id="bvhar::DlParams&lt; BaseRegParams &gt;" name="bvhar::DlParams&lt; BaseRegParams &gt;">
-<area shape="rect" id="Node000001" title="Hyperparameters for Dirichlet&#45;Laplace prior McmcDl" alt="" coords="5,79,207,119"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="36,5,176,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
+<area shape="rect" id="Node000001" title="Hyperparameters for Dirichlet&#45;Laplace prior McmcDl" alt="" coords="5,152,207,192"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="36,79,176,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,118,109,152,103,152,103,118"/>
+<area shape="rect" id="Node000003" href="$structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="29,5,183,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
 </map>

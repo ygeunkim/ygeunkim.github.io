@@ -1,7 +1,21 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classbvhar_1_1McmcSpillover.html" title="Spillover class for McmcTriangular" alt="" coords="5,45,168,70"/>
-<area shape="rect" id="Node000001" href="$classbvhar_1_1McmcVarSpillover.html" title="Spillover class for VAR with McmcTriangular" alt="" coords="221,5,405,45"/>
-<area shape="poly" id="edge16_Node000000_Node000001" title=" " alt="" coords="181,41,220,36,221,41,182,47"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcVharSpillover.html" title="Spillover class for VHAR with McmcTriangular" alt="" coords="216,69,409,109"/>
-<area shape="poly" id="edge17_Node000000_Node000002" title=" " alt="" coords="183,68,216,73,216,78,182,73"/>
+<area shape="rect" id="Node000000" href="$structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="5,237,160,262"/>
+<area shape="rect" id="Node000001" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="208,237,348,262"/>
+<area shape="poly" id="edge25_Node000000_Node000001" title=" " alt="" coords="174,247,208,247,208,252,174,252"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1DlParams.html" title="Hyperparameters for Dirichlet&#45;Laplace prior McmcDl" alt="" coords="402,5,603,45"/>
+<area shape="poly" id="edge26_Node000001_Node000002" title=" " alt="" coords="286,223,301,185,324,140,355,94,394,55,414,43,417,48,398,59,359,98,329,143,306,188,291,225"/>
+<area shape="rect" id="Node000003" href="$structbvhar_1_1GdpParams.html" title="Hyperparameters for GDP prior McmcGdp" alt="" coords="396,69,609,109"/>
+<area shape="poly" id="edge27_Node000001_Node000003" title=" " alt="" coords="293,224,335,171,363,143,395,119,418,107,421,112,397,124,367,147,339,175,297,227"/>
+<area shape="rect" id="Node000004" href="$structbvhar_1_1HierminnParams.html" title="Hyperparameters for Hierarchical Minnesota prior McmcHierminn" alt="" coords="415,133,590,173"/>
+<area shape="poly" id="edge28_Node000001_Node000004" title=" " alt="" coords="310,227,395,183,427,171,429,176,397,188,313,232"/>
+<area shape="rect" id="Node000005" href="$structbvhar_1_1HorseshoeParams.html" title="Hyperparameters for Horseshoe prior McmcHorseshoe" alt="" coords="411,197,595,237"/>
+<area shape="poly" id="edge29_Node000001_Node000005" title=" " alt="" coords="362,235,410,228,411,233,362,240"/>
+<area shape="rect" id="Node000006" href="$structbvhar_1_1MinnParams.html" title="Hyperparameters for Minnesota prior McmcMinn" alt="" coords="423,261,582,301"/>
+<area shape="poly" id="edge30_Node000001_Node000006" title=" " alt="" coords="362,259,423,267,423,273,362,264"/>
+<area shape="rect" id="Node000007" href="$structbvhar_1_1NgParams.html" title="Hyperparameters for Normal&#45;gamma prior McmcNg" alt="" coords="400,325,605,365"/>
+<area shape="poly" id="edge31_Node000001_Node000007" title=" " alt="" coords="313,267,397,311,429,323,427,328,395,316,310,272"/>
+<area shape="rect" id="Node000008" href="$structbvhar_1_1SsvsParams.html" title="Hyperparameters for SSVS prior McmcSsvs" alt="" coords="425,389,581,429"/>
+<area shape="poly" id="edge32_Node000001_Node000008" title=" " alt="" coords="297,272,339,324,367,352,397,375,426,389,423,394,395,380,363,356,335,328,293,275"/>
+<area shape="rect" id="Node000009" href="$structbvhar_1_1SvParams.html" title="Hyperparameters for McmcSv" alt="" coords="437,454,568,479"/>
+<area shape="poly" id="edge33_Node000001_Node000009" title=" " alt="" coords="290,274,305,311,328,356,358,401,398,439,417,450,438,457,436,462,415,455,394,443,354,405,323,359,300,314,285,276"/>
 </map>

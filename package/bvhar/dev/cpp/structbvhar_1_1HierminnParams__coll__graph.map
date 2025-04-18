@@ -1,5 +1,7 @@
 <map id="bvhar::HierminnParams&lt; BaseRegParams &gt;" name="bvhar::HierminnParams&lt; BaseRegParams &gt;">
-<area shape="rect" id="Node000001" title="Hyperparameters for Hierarchical Minnesota prior McmcHierminn" alt="" coords="5,79,180,119"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="23,5,163,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,79,90,79,90,44"/>
+<area shape="rect" id="Node000001" title="Hyperparameters for Hierarchical Minnesota prior McmcHierminn" alt="" coords="5,152,180,192"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="23,79,163,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,118,95,152,90,152,90,118"/>
+<area shape="rect" id="Node000003" href="$structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="15,5,170,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,44,95,79,90,79,90,44"/>
 </map>

@@ -10,6 +10,20 @@ var hierarchy =
       [ "bvhar::NgRecords", "structbvhar_1_1NgRecords.html", null ]
     ] ],
     [ "boost::random::inverse_gaussian_distribution< RealType >", "classboost_1_1random_1_1inverse__gaussian__distribution.html", null ],
+    [ "bvhar::McmcAlgo", "classbvhar_1_1McmcAlgo.html", [
+      [ "bvhar::McmcTriangular", "classbvhar_1_1McmcTriangular.html", [
+        [ "bvhar::McmcReg", "classbvhar_1_1McmcReg.html", [
+          [ "bvhar::McmcDl< BaseMcmc, isGroup >", "classbvhar_1_1McmcDl.html", null ],
+          [ "bvhar::McmcGdp< BaseMcmc >", "classbvhar_1_1McmcGdp.html", null ],
+          [ "bvhar::McmcHierminn< BaseMcmc >", "classbvhar_1_1McmcHierminn.html", null ],
+          [ "bvhar::McmcHorseshoe< BaseMcmc, isGroup >", "classbvhar_1_1McmcHorseshoe.html", null ],
+          [ "bvhar::McmcMinn< BaseMcmc >", "classbvhar_1_1McmcMinn.html", null ],
+          [ "bvhar::McmcNg< BaseMcmc, isGroup >", "classbvhar_1_1McmcNg.html", null ],
+          [ "bvhar::McmcSsvs< BaseMcmc >", "classbvhar_1_1McmcSsvs.html", null ]
+        ] ],
+        [ "bvhar::McmcSv", "classbvhar_1_1McmcSv.html", null ]
+      ] ]
+    ] ],
     [ "bvhar::McmcForecaster", "classbvhar_1_1McmcForecaster.html", [
       [ "bvhar::RegForecaster", "classbvhar_1_1RegForecaster.html", [
         [ "bvhar::McmcVarForecaster< RegForecaster >", "classbvhar_1_1McmcVarForecaster.html", null ],
@@ -24,9 +38,6 @@ var hierarchy =
       [ "bvhar::SvForecaster", "classbvhar_1_1SvForecaster.html", null ]
     ] ],
     [ "bvhar::McmcForecastRun< BaseForecaster >", "classbvhar_1_1McmcForecastRun.html", null ],
-    [ "bvhar::McmcInterface", "classbvhar_1_1McmcInterface.html", [
-      [ "bvhar::McmcRun< BaseMcmc, isGroup >", "classbvhar_1_1McmcRun.html", null ]
-    ] ],
     [ "bvhar::McmcMniw", "classbvhar_1_1McmcMniw.html", null ],
     [ "bvhar::McmcOutforecastInterface< BaseForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", [
       [ "bvhar::McmcOutforecastRun< RegForecaster, true >", "classbvhar_1_1McmcOutforecastRun.html", null ],
@@ -36,27 +47,30 @@ var hierarchy =
       ] ]
     ] ],
     [ "bvhar::McmcOutforecastInterface< RegForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", null ],
+    [ "bvhar::McmcParams", "structbvhar_1_1McmcParams.html", [
+      [ "bvhar::RegParams", "structbvhar_1_1RegParams.html", [
+        [ "bvhar::DlParams< BaseRegParams >", "structbvhar_1_1DlParams.html", null ],
+        [ "bvhar::GdpParams< BaseRegParams >", "structbvhar_1_1GdpParams.html", null ],
+        [ "bvhar::HierminnParams< BaseRegParams >", "structbvhar_1_1HierminnParams.html", null ],
+        [ "bvhar::HorseshoeParams< BaseRegParams >", "structbvhar_1_1HorseshoeParams.html", null ],
+        [ "bvhar::MinnParams< BaseRegParams >", "structbvhar_1_1MinnParams.html", null ],
+        [ "bvhar::NgParams< BaseRegParams >", "structbvhar_1_1NgParams.html", null ],
+        [ "bvhar::SsvsParams< BaseRegParams >", "structbvhar_1_1SsvsParams.html", null ],
+        [ "bvhar::SvParams", "structbvhar_1_1SvParams.html", null ]
+      ] ]
+    ] ],
     [ "McmcRollforecastRun", null, [
       [ "bvhar::McmcVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVarforecastRun.html", null ],
       [ "bvhar::McmcVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVharforecastRun.html", null ]
+    ] ],
+    [ "bvhar::McmcRun", "classbvhar_1_1McmcRun.html", [
+      [ "bvhar::CtaRun< BaseMcmc, isGroup >", "classbvhar_1_1CtaRun.html", null ]
     ] ],
     [ "bvhar::McmcSpillover", "classbvhar_1_1McmcSpillover.html", [
       [ "bvhar::McmcVarSpillover< RecordType >", "classbvhar_1_1McmcVarSpillover.html", null ],
       [ "bvhar::McmcVharSpillover< RecordType >", "classbvhar_1_1McmcVharSpillover.html", null ]
     ] ],
     [ "bvhar::McmcSpilloverRun< RecordType >", "classbvhar_1_1McmcSpilloverRun.html", null ],
-    [ "bvhar::McmcTriangular", "classbvhar_1_1McmcTriangular.html", [
-      [ "bvhar::McmcReg", "classbvhar_1_1McmcReg.html", [
-        [ "bvhar::McmcDl< BaseMcmc, isGroup >", "classbvhar_1_1McmcDl.html", null ],
-        [ "bvhar::McmcGdp< BaseMcmc >", "classbvhar_1_1McmcGdp.html", null ],
-        [ "bvhar::McmcHierminn< BaseMcmc >", "classbvhar_1_1McmcHierminn.html", null ],
-        [ "bvhar::McmcHorseshoe< BaseMcmc, isGroup >", "classbvhar_1_1McmcHorseshoe.html", null ],
-        [ "bvhar::McmcMinn< BaseMcmc >", "classbvhar_1_1McmcMinn.html", null ],
-        [ "bvhar::McmcNg< BaseMcmc, isGroup >", "classbvhar_1_1McmcNg.html", null ],
-        [ "bvhar::McmcSsvs< BaseMcmc >", "classbvhar_1_1McmcSsvs.html", null ]
-      ] ],
-      [ "bvhar::McmcSv", "classbvhar_1_1McmcSv.html", null ]
-    ] ],
     [ "bvhar::MhMinnInits", "structbvhar_1_1MhMinnInits.html", null ],
     [ "bvhar::MhMinnRecords", "structbvhar_1_1MhMinnRecords.html", null ],
     [ "bvhar::MhMinnSpec", "structbvhar_1_1MhMinnSpec.html", null ],
@@ -115,16 +129,6 @@ var hierarchy =
         [ "bvhar::SsvsInits< BaseRegInits >", "structbvhar_1_1SsvsInits.html", null ]
       ] ],
       [ "bvhar::SvInits", "structbvhar_1_1SvInits.html", null ]
-    ] ],
-    [ "bvhar::RegParams", "structbvhar_1_1RegParams.html", [
-      [ "bvhar::DlParams< BaseRegParams >", "structbvhar_1_1DlParams.html", null ],
-      [ "bvhar::GdpParams< BaseRegParams >", "structbvhar_1_1GdpParams.html", null ],
-      [ "bvhar::HierminnParams< BaseRegParams >", "structbvhar_1_1HierminnParams.html", null ],
-      [ "bvhar::HorseshoeParams< BaseRegParams >", "structbvhar_1_1HorseshoeParams.html", null ],
-      [ "bvhar::MinnParams< BaseRegParams >", "structbvhar_1_1MinnParams.html", null ],
-      [ "bvhar::NgParams< BaseRegParams >", "structbvhar_1_1NgParams.html", null ],
-      [ "bvhar::SsvsParams< BaseRegParams >", "structbvhar_1_1SsvsParams.html", null ],
-      [ "bvhar::SvParams", "structbvhar_1_1SvParams.html", null ]
     ] ],
     [ "bvhar::RegRecords", "structbvhar_1_1RegRecords.html", [
       [ "bvhar::LdltRecords", "structbvhar_1_1LdltRecords.html", null ],

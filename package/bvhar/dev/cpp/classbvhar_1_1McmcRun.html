@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>bvhar: bvhar::McmcRun&lt; BaseMcmc, isGroup &gt; Class Template Reference</title>
+<title>bvhar: bvhar::McmcRun Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9001</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9002</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -94,82 +94,79 @@ $(document).ready(function(){initNavTree('classbvhar_1_1McmcRun.html',''); initR
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classbvhar_1_1McmcRun-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">bvhar::McmcRun&lt; BaseMcmc, isGroup &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">bvhar::McmcRun Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>Class that conducts MCMC.  
  <a href="classbvhar_1_1McmcRun.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="triangular_8h_source.html">triangular.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="bayes_8h_source.html">bayes.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for bvhar::McmcRun&lt; BaseMcmc, isGroup &gt;:</div>
+Inheritance diagram for bvhar::McmcRun:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1McmcRun__inherit__graph.png" border="0" usemap="#abvhar_1_1McmcRun_3_01BaseMcmc_00_01isGroup_01_4_inherit__map" alt="Inheritance graph"/></div>
-<map name="abvhar_1_1McmcRun_3_01BaseMcmc_00_01isGroup_01_4_inherit__map" id="abvhar_1_1McmcRun_3_01BaseMcmc_00_01isGroup_01_4_inherit__map">
-<area shape="rect" title="Class that conducts MCMC." alt="" coords="5,79,227,119"/>
-<area shape="rect" href="classbvhar_1_1McmcInterface.html" title="Interface class for MCMC." alt="" coords="34,5,198,31"/>
-<area shape="poly" title=" " alt="" coords="119,44,119,79,113,79,113,44"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for bvhar::McmcRun&lt; BaseMcmc, isGroup &gt;:</div>
-<div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1McmcRun__coll__graph.png" border="0" usemap="#abvhar_1_1McmcRun_3_01BaseMcmc_00_01isGroup_01_4_coll__map" alt="Collaboration graph"/></div>
-<map name="abvhar_1_1McmcRun_3_01BaseMcmc_00_01isGroup_01_4_coll__map" id="abvhar_1_1McmcRun_3_01BaseMcmc_00_01isGroup_01_4_coll__map">
-<area shape="rect" title="Class that conducts MCMC." alt="" coords="5,79,227,119"/>
-<area shape="rect" href="classbvhar_1_1McmcInterface.html" title="Interface class for MCMC." alt="" coords="34,5,198,31"/>
-<area shape="poly" title=" " alt="" coords="119,44,119,79,113,79,113,44"/>
+<div class="center"><img src="classbvhar_1_1McmcRun__inherit__graph.png" border="0" usemap="#abvhar_1_1McmcRun_inherit__map" alt="Inheritance graph"/></div>
+<map name="abvhar_1_1McmcRun_inherit__map" id="abvhar_1_1McmcRun_inherit__map">
+<area shape="rect" title="Class that conducts MCMC." alt="" coords="42,5,173,31"/>
+<area shape="rect" href="classbvhar_1_1CtaRun.html" title="Class that conducts MCMC using CTA." alt="" coords="5,79,209,119"/>
+<area shape="poly" title=" " alt="" coords="110,44,110,79,105,79,105,44"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad257f3bc8893c075ed3497d3328da956" id="r_ad257f3bc8893c075ed3497d3328da956"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#ad257f3bc8893c075ed3497d3328da956">McmcRun</a> (int num_chains, int num_iter, int num_burn, int thin, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;param_cov, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, bool include_mean, const Eigen::VectorXi &amp;seed_chain, bool display_progress, int nthreads)</td></tr>
-<tr class="separator:ad257f3bc8893c075ed3497d3328da956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1588f9b1c0a9d5f8cc130209682c825" id="r_ab1588f9b1c0a9d5f8cc130209682c825"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#ab1588f9b1c0a9d5f8cc130209682c825">~McmcRun</a> ()=default</td></tr>
-<tr class="separator:ab1588f9b1c0a9d5f8cc130209682c825"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04637f90eae48f672651c20c5ad17293" id="r_a04637f90eae48f672651c20c5ad17293"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a04637f90eae48f672651c20c5ad17293">fit</a> ()</td></tr>
-<tr class="memdesc:a04637f90eae48f672651c20c5ad17293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conduct multi-chain MCMC.  <br /></td></tr>
-<tr class="separator:a04637f90eae48f672651c20c5ad17293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02e95be7c152cdea2dca6a530509492b" id="r_a02e95be7c152cdea2dca6a530509492b"><td class="memItemLeft" align="right" valign="top">Rcpp::List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a02e95be7c152cdea2dca6a530509492b">returnRecords</a> () override</td></tr>
-<tr class="memdesc:a02e95be7c152cdea2dca6a530509492b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conduct multi-chain MCMC and return MCMC records of every chain.  <br /></td></tr>
-<tr class="separator:a02e95be7c152cdea2dca6a530509492b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classbvhar_1_1McmcInterface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classbvhar_1_1McmcInterface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbvhar_1_1McmcInterface.html">bvhar::McmcInterface</a></td></tr>
-<tr class="memitem:aa40f1cc39a1fe211110c01655c299878 inherit pub_methods_classbvhar_1_1McmcInterface" id="r_aa40f1cc39a1fe211110c01655c299878"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcInterface.html#aa40f1cc39a1fe211110c01655c299878">~McmcInterface</a> ()=default</td></tr>
-<tr class="separator:aa40f1cc39a1fe211110c01655c299878 inherit pub_methods_classbvhar_1_1McmcInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7db6d048904e6092f1feb4ed009d538" id="r_ad7db6d048904e6092f1feb4ed009d538"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#ad7db6d048904e6092f1feb4ed009d538">McmcRun</a> (int <a class="el" href="classbvhar_1_1McmcRun.html#aa2252d7e2d2d420f6ad2640b70e6d412">num_chains</a>, int <a class="el" href="classbvhar_1_1McmcRun.html#a1bfe42c6066c99c946ac884fd2d03bea">num_iter</a>, int <a class="el" href="classbvhar_1_1McmcRun.html#a9f9395f22ef5d7ea7ecedbd1c6f0a2be">num_burn</a>, int <a class="el" href="classbvhar_1_1McmcRun.html#a7fae9d9813b834c5cac1363fbd0a53be">thin</a>, bool <a class="el" href="classbvhar_1_1McmcRun.html#a6f09fbdce0036f679d388816304e41f5">display_progress</a>, int <a class="el" href="classbvhar_1_1McmcRun.html#a3c93f0616c8c85ca5e79bb7b37ca8cd5">nthreads</a>)</td></tr>
+<tr class="separator:ad7db6d048904e6092f1feb4ed009d538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fffb810dbcd4ce56f28def146b26450" id="r_a8fffb810dbcd4ce56f28def146b26450"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a8fffb810dbcd4ce56f28def146b26450">~McmcRun</a> ()=default</td></tr>
+<tr class="separator:a8fffb810dbcd4ce56f28def146b26450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab5ca44d546f4ec3e505b71e04f3cd6" id="r_a6ab5ca44d546f4ec3e505b71e04f3cd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a6ab5ca44d546f4ec3e505b71e04f3cd6">fit</a> ()</td></tr>
+<tr class="memdesc:a6ab5ca44d546f4ec3e505b71e04f3cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conduct multi-chain MCMC.  <br /></td></tr>
+<tr class="separator:a6ab5ca44d546f4ec3e505b71e04f3cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404c1e752f5e7055c31f59cba08bc2d1" id="r_a404c1e752f5e7055c31f59cba08bc2d1"><td class="memItemLeft" align="right" valign="top">Rcpp::List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a404c1e752f5e7055c31f59cba08bc2d1">returnRecords</a> ()</td></tr>
+<tr class="memdesc:a404c1e752f5e7055c31f59cba08bc2d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conduct multi-chain MCMC and return MCMC records of every chain.  <br /></td></tr>
+<tr class="separator:a404c1e752f5e7055c31f59cba08bc2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a49796cb2e5511f3b02f5ad801a433767" id="r_a49796cb2e5511f3b02f5ad801a433767"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a49796cb2e5511f3b02f5ad801a433767">runGibbs</a> (int chain)</td></tr>
-<tr class="memdesc:a49796cb2e5511f3b02f5ad801a433767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Single chain MCMC.  <br /></td></tr>
-<tr class="separator:a49796cb2e5511f3b02f5ad801a433767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf483f598ca68385fd8b135f4cb8f9cb" id="r_aaf483f598ca68385fd8b135f4cb8f9cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#aaf483f598ca68385fd8b135f4cb8f9cb">runGibbs</a> (int chain)</td></tr>
+<tr class="memdesc:aaf483f598ca68385fd8b135f4cb8f9cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Single chain MCMC.  <br /></td></tr>
+<tr class="separator:aaf483f598ca68385fd8b135f4cb8f9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aa2252d7e2d2d420f6ad2640b70e6d412" id="r_aa2252d7e2d2d420f6ad2640b70e6d412"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#aa2252d7e2d2d420f6ad2640b70e6d412">num_chains</a></td></tr>
+<tr class="separator:aa2252d7e2d2d420f6ad2640b70e6d412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bfe42c6066c99c946ac884fd2d03bea" id="r_a1bfe42c6066c99c946ac884fd2d03bea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a1bfe42c6066c99c946ac884fd2d03bea">num_iter</a></td></tr>
+<tr class="separator:a1bfe42c6066c99c946ac884fd2d03bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9395f22ef5d7ea7ecedbd1c6f0a2be" id="r_a9f9395f22ef5d7ea7ecedbd1c6f0a2be"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a9f9395f22ef5d7ea7ecedbd1c6f0a2be">num_burn</a></td></tr>
+<tr class="separator:a9f9395f22ef5d7ea7ecedbd1c6f0a2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fae9d9813b834c5cac1363fbd0a53be" id="r_a7fae9d9813b834c5cac1363fbd0a53be"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a7fae9d9813b834c5cac1363fbd0a53be">thin</a></td></tr>
+<tr class="separator:a7fae9d9813b834c5cac1363fbd0a53be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c93f0616c8c85ca5e79bb7b37ca8cd5" id="r_a3c93f0616c8c85ca5e79bb7b37ca8cd5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a3c93f0616c8c85ca5e79bb7b37ca8cd5">nthreads</a></td></tr>
+<tr class="separator:a3c93f0616c8c85ca5e79bb7b37ca8cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f09fbdce0036f679d388816304e41f5" id="r_a6f09fbdce0036f679d388816304e41f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#a6f09fbdce0036f679d388816304e41f5">display_progress</a></td></tr>
+<tr class="separator:a6f09fbdce0036f679d388816304e41f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accafade6f7bceee9e274a7a0bb06829a" id="r_accafade6f7bceee9e274a7a0bb06829a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcAlgo.html">McmcAlgo</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#accafade6f7bceee9e274a7a0bb06829a">mcmc_ptr</a></td></tr>
+<tr class="separator:accafade6f7bceee9e274a7a0bb06829a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd73dab1d890fc9a8fc56274a9119e7" id="r_aebd73dab1d890fc9a8fc56274a9119e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Rcpp::List &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcRun.html#aebd73dab1d890fc9a8fc56274a9119e7">res</a></td></tr>
+<tr class="separator:aebd73dab1d890fc9a8fc56274a9119e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename BaseMcmc = McmcReg, bool isGroup = true&gt;<br />
-class bvhar::McmcRun&lt; BaseMcmc, isGroup &gt;</div><p>Class that conducts MCMC. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">BaseMcmc</td><td><code><a class="el" href="classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization.">McmcReg</a></code> or <code><a class="el" href="classbvhar_1_1McmcSv.html" title="MCMC for stochastic volatility.">McmcSv</a></code> </td></tr>
-    <tr><td class="paramname">isGroup</td><td>If <code>true</code>, use group shrinkage parameter </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Class that conducts MCMC. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad257f3bc8893c075ed3497d3328da956" name="ad257f3bc8893c075ed3497d3328da956"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad257f3bc8893c075ed3497d3328da956">&#9670;&#160;</a></span>McmcRun()</h2>
+<a id="ad7db6d048904e6092f1feb4ed009d538" name="ad7db6d048904e6092f1feb4ed009d538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7db6d048904e6092f1feb4ed009d538">&#9670;&#160;</a></span>McmcRun()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classbvhar_1_1McmcRun.html">bvhar::McmcRun</a>&lt; BaseMcmc, isGroup &gt;::McmcRun </td>
+          <td class="memname">bvhar::McmcRun::McmcRun </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>num_chains</em>, </td>
@@ -191,84 +188,6 @@ template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
           <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>thin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Rcpp::List &amp;&#160;</td>
-          <td class="paramname"><em>param_cov</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Rcpp::List &amp;&#160;</td>
-          <td class="paramname"><em>param_prior</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Rcpp::List &amp;&#160;</td>
-          <td class="paramname"><em>param_intercept</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Rcpp::List &amp;&#160;</td>
-          <td class="paramname"><em>param_init</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>prior_type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
-          <td class="paramname"><em>grp_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
-          <td class="paramname"><em>own_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
-          <td class="paramname"><em>cross_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
-          <td class="paramname"><em>grp_mat</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>include_mean</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
-          <td class="paramname"><em>seed_chain</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -297,19 +216,17 @@ template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
 
 </div>
 </div>
-<a id="ab1588f9b1c0a9d5f8cc130209682c825" name="ab1588f9b1c0a9d5f8cc130209682c825"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1588f9b1c0a9d5f8cc130209682c825">&#9670;&#160;</a></span>~McmcRun()</h2>
+<a id="a8fffb810dbcd4ce56f28def146b26450" name="a8fffb810dbcd4ce56f28def146b26450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fffb810dbcd4ce56f28def146b26450">&#9670;&#160;</a></span>~McmcRun()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classbvhar_1_1McmcRun.html">bvhar::McmcRun</a>&lt; BaseMcmc, isGroup &gt;::~<a class="el" href="classbvhar_1_1McmcRun.html">McmcRun</a> </td>
+          <td class="memname">virtual bvhar::McmcRun::~McmcRun </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -325,19 +242,17 @@ template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a04637f90eae48f672651c20c5ad17293" name="a04637f90eae48f672651c20c5ad17293"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04637f90eae48f672651c20c5ad17293">&#9670;&#160;</a></span>fit()</h2>
+<a id="a6ab5ca44d546f4ec3e505b71e04f3cd6" name="a6ab5ca44d546f4ec3e505b71e04f3cd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ab5ca44d546f4ec3e505b71e04f3cd6">&#9670;&#160;</a></span>fit()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classbvhar_1_1McmcRun.html">bvhar::McmcRun</a>&lt; BaseMcmc, isGroup &gt;::fit </td>
+          <td class="memname">void bvhar::McmcRun::fit </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -354,34 +269,29 @@ template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1McmcRun_a04637f90eae48f672651c20c5ad17293_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcRun_a04637f90eae48f672651c20c5ad17293_cgraph" alt=""/></div>
-<map name="aclassbvhar_1_1McmcRun_a04637f90eae48f672651c20c5ad17293_cgraph" id="aclassbvhar_1_1McmcRun_a04637f90eae48f672651c20c5ad17293_cgraph">
-<area shape="rect" title="Conduct multi&#45;chain MCMC." alt="" coords="5,54,157,79"/>
-<area shape="rect" href="classbvhar_1_1McmcRun.html#a49796cb2e5511f3b02f5ad801a433767" title="Single chain MCMC." alt="" coords="205,54,403,79"/>
-<area shape="poly" title=" " alt="" coords="158,64,192,64,192,69,158,69"/>
+<div class="center"><img src="classbvhar_1_1McmcRun_a6ab5ca44d546f4ec3e505b71e04f3cd6_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcRun_a6ab5ca44d546f4ec3e505b71e04f3cd6_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1McmcRun_a6ab5ca44d546f4ec3e505b71e04f3cd6_cgraph" id="aclassbvhar_1_1McmcRun_a6ab5ca44d546f4ec3e505b71e04f3cd6_cgraph">
+<area shape="rect" title="Conduct multi&#45;chain MCMC." alt="" coords="5,13,157,38"/>
+<area shape="rect" href="classbvhar_1_1McmcRun.html#aaf483f598ca68385fd8b135f4cb8f9cb" title="Single chain MCMC." alt="" coords="205,13,403,38"/>
+<area shape="poly" title=" " alt="" coords="158,23,192,23,192,28,158,28"/>
 <area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="451,5,611,45"/>
-<area shape="poly" title=" " alt="" coords="374,51,436,40,437,45,375,57"/>
-<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="462,94,599,119"/>
-<area shape="poly" title=" " alt="" coords="377,77,449,90,448,95,376,82"/>
-<area shape="poly" title=" " alt="" coords="494,96,486,86,490,76,505,70,531,67,563,71,575,81,571,85,561,76,531,73,506,75,494,80,491,85,498,92"/>
+<area shape="poly" title=" " alt="" coords="403,23,437,23,437,28,403,28"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a02e95be7c152cdea2dca6a530509492b" name="a02e95be7c152cdea2dca6a530509492b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02e95be7c152cdea2dca6a530509492b">&#9670;&#160;</a></span>returnRecords()</h2>
+<a id="a404c1e752f5e7055c31f59cba08bc2d1" name="a404c1e752f5e7055c31f59cba08bc2d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a404c1e752f5e7055c31f59cba08bc2d1">&#9670;&#160;</a></span>returnRecords()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Rcpp::List <a class="el" href="classbvhar_1_1McmcRun.html">bvhar::McmcRun</a>&lt; BaseMcmc, isGroup &gt;::returnRecords </td>
+          <td class="memname">Rcpp::List bvhar::McmcRun::returnRecords </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -389,48 +299,41 @@ template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Conduct multi-chain MCMC and return MCMC records of every chain. </p>
 <dl class="section return"><dt>Returns</dt><dd>LIST_OF_LIST <code>LIST_OF_LIST</code> </dd></dl>
-
-<p>Implements <a class="el" href="classbvhar_1_1McmcInterface.html#a768e8884ec3e2b8f6c14b1c173f25055">bvhar::McmcInterface</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1McmcRun_a02e95be7c152cdea2dca6a530509492b_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcRun_a02e95be7c152cdea2dca6a530509492b_cgraph" alt=""/></div>
-<map name="aclassbvhar_1_1McmcRun_a02e95be7c152cdea2dca6a530509492b_cgraph" id="aclassbvhar_1_1McmcRun_a02e95be7c152cdea2dca6a530509492b_cgraph">
-<area shape="rect" title="Conduct multi&#45;chain MCMC and return MCMC records of every chain." alt="" coords="5,54,236,79"/>
-<area shape="rect" href="classbvhar_1_1McmcRun.html#a04637f90eae48f672651c20c5ad17293" title="Conduct multi&#45;chain MCMC." alt="" coords="284,54,436,79"/>
-<area shape="poly" title=" " alt="" coords="236,64,270,64,270,69,236,69"/>
-<area shape="rect" href="classbvhar_1_1McmcRun.html#a49796cb2e5511f3b02f5ad801a433767" title="Single chain MCMC." alt="" coords="484,54,681,79"/>
-<area shape="poly" title=" " alt="" coords="436,64,470,64,470,69,436,69"/>
+<div class="center"><img src="classbvhar_1_1McmcRun_a404c1e752f5e7055c31f59cba08bc2d1_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcRun_a404c1e752f5e7055c31f59cba08bc2d1_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1McmcRun_a404c1e752f5e7055c31f59cba08bc2d1_cgraph" id="aclassbvhar_1_1McmcRun_a404c1e752f5e7055c31f59cba08bc2d1_cgraph">
+<area shape="rect" title="Conduct multi&#45;chain MCMC and return MCMC records of every chain." alt="" coords="5,13,236,38"/>
+<area shape="rect" href="classbvhar_1_1McmcRun.html#a6ab5ca44d546f4ec3e505b71e04f3cd6" title="Conduct multi&#45;chain MCMC." alt="" coords="284,13,436,38"/>
+<area shape="poly" title=" " alt="" coords="236,23,270,23,270,28,236,28"/>
+<area shape="rect" href="classbvhar_1_1McmcRun.html#aaf483f598ca68385fd8b135f4cb8f9cb" title="Single chain MCMC." alt="" coords="484,13,681,38"/>
+<area shape="poly" title=" " alt="" coords="436,23,470,23,470,28,436,28"/>
 <area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="729,5,889,45"/>
-<area shape="poly" title=" " alt="" coords="653,51,715,40,716,45,654,57"/>
-<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="741,94,878,119"/>
-<area shape="poly" title=" " alt="" coords="656,77,728,90,727,95,655,82"/>
-<area shape="poly" title=" " alt="" coords="772,96,764,86,769,76,784,70,809,67,841,71,853,81,850,85,839,76,809,73,785,75,772,80,770,85,776,92"/>
+<area shape="poly" title=" " alt="" coords="682,23,716,23,716,28,682,28"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a49796cb2e5511f3b02f5ad801a433767" name="a49796cb2e5511f3b02f5ad801a433767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49796cb2e5511f3b02f5ad801a433767">&#9670;&#160;</a></span>runGibbs()</h2>
+<a id="aaf483f598ca68385fd8b135f4cb8f9cb" name="aaf483f598ca68385fd8b135f4cb8f9cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf483f598ca68385fd8b135f4cb8f9cb">&#9670;&#160;</a></span>runGibbs()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classbvhar_1_1McmcRun.html">bvhar::McmcRun</a>&lt; BaseMcmc, isGroup &gt;::runGibbs </td>
+          <td class="memname">void bvhar::McmcRun::runGibbs </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>chain</em></td><td>)</td>
@@ -454,21 +357,195 @@ template&lt;typename BaseMcmc  = McmcReg, bool isGroup = true&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1McmcRun_a49796cb2e5511f3b02f5ad801a433767_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcRun_a49796cb2e5511f3b02f5ad801a433767_cgraph" alt=""/></div>
-<map name="aclassbvhar_1_1McmcRun_a49796cb2e5511f3b02f5ad801a433767_cgraph" id="aclassbvhar_1_1McmcRun_a49796cb2e5511f3b02f5ad801a433767_cgraph">
-<area shape="rect" title="Single chain MCMC." alt="" coords="5,54,203,79"/>
+<div class="center"><img src="classbvhar_1_1McmcRun_aaf483f598ca68385fd8b135f4cb8f9cb_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcRun_aaf483f598ca68385fd8b135f4cb8f9cb_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1McmcRun_aaf483f598ca68385fd8b135f4cb8f9cb_cgraph" id="aclassbvhar_1_1McmcRun_aaf483f598ca68385fd8b135f4cb8f9cb_cgraph">
+<area shape="rect" title="Single chain MCMC." alt="" coords="5,13,203,38"/>
 <area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="251,5,411,45"/>
-<area shape="poly" title=" " alt="" coords="174,51,236,40,237,45,175,57"/>
-<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="262,94,399,119"/>
-<area shape="poly" title=" " alt="" coords="177,77,249,90,248,95,176,82"/>
-<area shape="poly" title=" " alt="" coords="294,96,286,86,290,76,305,70,331,67,363,71,375,81,371,85,361,76,331,73,306,75,294,80,291,85,298,92"/>
+<area shape="poly" title=" " alt="" coords="203,23,237,23,237,28,203,28"/>
 </map>
 </div>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa2252d7e2d2d420f6ad2640b70e6d412" name="aa2252d7e2d2d420f6ad2640b70e6d412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2252d7e2d2d420f6ad2640b70e6d412">&#9670;&#160;</a></span>num_chains</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bvhar::McmcRun::num_chains</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bfe42c6066c99c946ac884fd2d03bea" name="a1bfe42c6066c99c946ac884fd2d03bea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bfe42c6066c99c946ac884fd2d03bea">&#9670;&#160;</a></span>num_iter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bvhar::McmcRun::num_iter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f9395f22ef5d7ea7ecedbd1c6f0a2be" name="a9f9395f22ef5d7ea7ecedbd1c6f0a2be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f9395f22ef5d7ea7ecedbd1c6f0a2be">&#9670;&#160;</a></span>num_burn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bvhar::McmcRun::num_burn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fae9d9813b834c5cac1363fbd0a53be" name="a7fae9d9813b834c5cac1363fbd0a53be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fae9d9813b834c5cac1363fbd0a53be">&#9670;&#160;</a></span>thin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bvhar::McmcRun::thin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c93f0616c8c85ca5e79bb7b37ca8cd5" name="a3c93f0616c8c85ca5e79bb7b37ca8cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c93f0616c8c85ca5e79bb7b37ca8cd5">&#9670;&#160;</a></span>nthreads</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bvhar::McmcRun::nthreads</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f09fbdce0036f679d388816304e41f5" name="a6f09fbdce0036f679d388816304e41f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f09fbdce0036f679d388816304e41f5">&#9670;&#160;</a></span>display_progress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool bvhar::McmcRun::display_progress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accafade6f7bceee9e274a7a0bb06829a" name="accafade6f7bceee9e274a7a0bb06829a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accafade6f7bceee9e274a7a0bb06829a">&#9670;&#160;</a></span>mcmc_ptr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt;<a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt;<a class="el" href="classbvhar_1_1McmcAlgo.html">McmcAlgo</a>&gt; &gt; bvhar::McmcRun::mcmc_ptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebd73dab1d890fc9a8fc56274a9119e7" name="aebd73dab1d890fc9a8fc56274a9119e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebd73dab1d890fc9a8fc56274a9119e7">&#9670;&#160;</a></span>res</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Rcpp::List &gt; bvhar::McmcRun::res</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="triangular_8h_source.html">triangular.h</a></li>
+<li><a class="el" href="bayes_8h_source.html">bayes.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

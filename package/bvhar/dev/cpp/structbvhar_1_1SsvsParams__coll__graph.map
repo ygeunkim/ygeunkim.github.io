@@ -1,5 +1,7 @@
 <map id="bvhar::SsvsParams&lt; BaseRegParams &gt;" name="bvhar::SsvsParams&lt; BaseRegParams &gt;">
-<area shape="rect" id="Node000001" title="Hyperparameters for SSVS prior McmcSsvs" alt="" coords="5,79,161,119"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="13,5,153,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
+<area shape="rect" id="Node000001" title="Hyperparameters for SSVS prior McmcSsvs" alt="" coords="5,152,161,192"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="13,79,153,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,118,86,152,81,152,81,118"/>
+<area shape="rect" id="Node000003" href="$structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="6,5,161,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
 </map>

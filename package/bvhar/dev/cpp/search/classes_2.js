@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['gdpinits_0',['GdpInits',['../structbvhar_1_1GdpInits.html',1,'bvhar']]],
-  ['gdpparams_1',['GdpParams',['../structbvhar_1_1GdpParams.html',1,'bvhar']]],
-  ['generalized_5finverse_5fgaussian_5fdistribution_2',['generalized_inverse_gaussian_distribution',['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html',1,'boost::random']]],
-  ['glinits_3',['GlInits',['../structbvhar_1_1GlInits.html',1,'bvhar']]],
-  ['glinits_3c_20ldltinits_20_3e_4',['GlInits&lt; LdltInits &gt;',['../structbvhar_1_1GlInits.html',1,'bvhar']]],
-  ['globallocalrecords_5',['GlobalLocalRecords',['../structbvhar_1_1GlobalLocalRecords.html',1,'bvhar']]]
+  ['dlparams_0',['DlParams',['../structbvhar_1_1DlParams.html',1,'bvhar']]],
+  ['dynamicldltspillover_1',['DynamicLdltSpillover',['../classbvhar_1_1DynamicLdltSpillover.html',1,'bvhar']]],
+  ['dynamicsvspillover_2',['DynamicSvSpillover',['../classbvhar_1_1DynamicSvSpillover.html',1,'bvhar']]]
 ];
