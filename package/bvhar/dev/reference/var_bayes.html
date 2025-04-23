@@ -13,7 +13,7 @@ It can have Minnesota, SSVS, and Horseshoe prior."><meta property="og:image" con
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.2.2.9002</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.2.2.9003</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,7 +78,8 @@ It can have Minnesota, SSVS, and Horseshoe prior.</p>
 <span>  num_iter <span class="op">=</span> <span class="fl">1000</span>,</span>
 <span>  num_burn <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html" class="external-link">floor</a></span><span class="op">(</span><span class="va">num_iter</span><span class="op">/</span><span class="fl">2</span><span class="op">)</span>,</span>
 <span>  thinning <span class="op">=</span> <span class="fl">1</span>,</span>
-<span>  bayes_spec <span class="op">=</span> <span class="fu"><a href="set_bvar.html">set_bvar</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>  coef_spec <span class="op">=</span> <span class="fu"><a href="set_bvar.html">set_bvar</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>  contem_spec <span class="op">=</span> <span class="va">coef_spec</span>,</span>
 <span>  cov_spec <span class="op">=</span> <span class="fu"><a href="set_ldlt.html">set_ldlt</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>  intercept <span class="op">=</span> <span class="fu"><a href="set_intercept.html">set_intercept</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>  include_mean <span class="op">=</span> <span class="cn">TRUE</span>,</span>
@@ -131,8 +132,12 @@ It can have Minnesota, SSVS, and Horseshoe prior.</p>
 <dd><p>Thinning every thinning-th iteration</p></dd>
 
 
-<dt id="arg-bayes-spec">bayes_spec<a class="anchor" aria-label="anchor" href="#arg-bayes-spec"></a></dt>
-<dd><p>A BVAR model specification by <code><a href="set_bvar.html">set_bvar()</a></code>, <code><a href="set_ssvs.html">set_ssvs()</a></code>, or <code><a href="set_horseshoe.html">set_horseshoe()</a></code>.</p></dd>
+<dt id="arg-coef-spec">coef_spec<a class="anchor" aria-label="anchor" href="#arg-coef-spec"></a></dt>
+<dd><p>Coefficient prior specification by <code><a href="set_bvar.html">set_bvar()</a></code>, <code><a href="set_ssvs.html">set_ssvs()</a></code>, or <code><a href="set_horseshoe.html">set_horseshoe()</a></code>.</p></dd>
+
+
+<dt id="arg-contem-spec">contem_spec<a class="anchor" aria-label="anchor" href="#arg-contem-spec"></a></dt>
+<dd><p>Contemporaneous coefficient prior specification by <code><a href="set_bvar.html">set_bvar()</a></code>, <code><a href="set_ssvs.html">set_ssvs()</a></code>, or <code><a href="set_horseshoe.html">set_horseshoe()</a></code>.</p></dd>
 
 
 <dt id="arg-cov-spec">cov_spec<a class="anchor" aria-label="anchor" href="#arg-cov-spec"></a></dt>
