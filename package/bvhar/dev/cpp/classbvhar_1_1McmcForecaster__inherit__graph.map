@@ -1,19 +1,27 @@
 <map id="bvhar::McmcForecaster" name="bvhar::McmcForecaster">
 <area shape="rect" id="Node000001" title="Forecast class for McmcTriangular" alt="" coords="5,134,180,159"/>
 <area shape="rect" id="Node000002" href="$classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg" alt="" coords="228,109,388,134"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,132,227,128,228,133,194,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,141,262,131,263,137,194,146"/>
+<area shape="poly" id="edge14_Node000001_Node000002" title=" " alt="" coords="151,129,228,119,228,125,152,134"/>
 <area shape="rect" id="Node000009" href="$classbvhar_1_1SvForecaster.html" title="Forecast class for McmcSv" alt="" coords="233,158,383,183"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="194,155,233,160,232,165,194,161"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="153,159,233,168,232,174,152,164"/>
+<area shape="poly" id="edge16_Node000001_Node000009" title=" " alt="" coords="195,146,261,155,261,161,194,152"/>
 <area shape="rect" id="Node000003" href="$classbvhar_1_1McmcVarForecaster.html" title=" " alt="" coords="441,5,635,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,100,435,55,468,43,469,48,437,60,345,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="363,100,435,67,501,43,503,48,437,72,365,105"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="330,98,378,70,435,43,440,41,442,46,437,48,380,75,333,102"/>
 <area shape="rect" id="Node000004" href="$classbvhar_1_1McmcVharForecaster.html" title=" " alt="" coords="436,69,640,109"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="401,106,436,101,436,106,402,111"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="401,115,456,107,456,112,402,120"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="363,103,436,92,436,97,364,109"/>
 <area shape="rect" id="Node000005" href="$classbvhar_1_1McmcVarForecaster.html" title="Forecast class of Bayesian VAR based on McmcTriangular" alt="" coords="441,133,635,173"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="402,132,441,137,440,142,401,137"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="364,134,441,146,440,151,363,139"/>
+<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="402,123,456,131,456,136,401,128"/>
 <area shape="rect" id="Node000007" href="$classbvhar_1_1McmcVharForecaster.html" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="436,197,640,237"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="375,136,389,143,404,153,414,163,423,173,437,183,463,195,461,200,435,188,420,177,410,167,401,157,387,148,373,141"/>
+<area shape="poly" id="edge10_Node000002_Node000007" title=" " alt="" coords="341,136,389,155,404,165,414,175,423,185,437,195,438,195,435,200,435,200,420,189,410,179,401,169,387,160,339,141"/>
+<area shape="poly" id="edge13_Node000002_Node000007" title=" " alt="" coords="401,139,417,155,437,171,497,195,495,200,435,176,414,159,397,143"/>
 <area shape="rect" id="Node000006" href="$classbvhar_1_1McmcVarSelectForecaster.html" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="693,133,927,173"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="649,151,692,151,692,156,649,156"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="649,160,692,160,692,165,649,165"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="649,142,692,142,692,147,649,147"/>
 <area shape="rect" id="Node000008" href="$classbvhar_1_1McmcVharSelectForecaster.html" title="Bayesian VHAR forecast class with sparse draw induced by posterior summary." alt="" coords="688,197,932,237"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="654,215,688,215,688,220,654,220"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="654,224,688,224,688,229,654,229"/>
+<area shape="poly" id="edge12_Node000007_Node000008" title=" " alt="" coords="654,206,688,206,688,211,654,211"/>
 </map>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['net_5fsp_0',['net_sp',['../classbvhar_1_1DynamicSvSpillover.html#ad61bd1fca6db621e2117e1f6bb4ca684',1,'bvhar::DynamicSvSpillover::net_sp'],['../classbvhar_1_1DynamicLdltSpillover.html#acb53565261345b9cdaed9a51ba2baa8f',1,'bvhar::DynamicLdltSpillover::net_sp']]],
+  ['net_5fsp_0',['net_sp',['../classbvhar_1_1DynamicSvSpillover.html#a4e501890b9959c53c3192019c5455e6d',1,'bvhar::DynamicSvSpillover::net_sp'],['../classbvhar_1_1DynamicLdltSpillover.html#afc5adfec1549e393e00c40c702de6fd7',1,'bvhar::DynamicLdltSpillover::net_sp']]],
   ['net_5fspillover_1',['net_spillover',['../classbvhar_1_1McmcSpillover.html#a8d56fbc8a5e6e3535ac563299a6630c8',1,'bvhar::McmcSpillover']]],
   ['nrow_5fcoef_2',['nrow_coef',['../classbvhar_1_1McmcAlgo.html#af8b92376fb348780234b1a4b93f7b381',1,'bvhar::McmcAlgo::nrow_coef'],['../classbvhar_1_1McmcForecaster.html#a1be4fa432e3f6f9d9338be2357988109',1,'bvhar::McmcForecaster::nrow_coef']]],
   ['nthreads_3',['nthreads',['../classbvhar_1_1McmcRun.html#a3c93f0616c8c85ca5e79bb7b37ca8cd5',1,'bvhar::McmcRun::nthreads'],['../classbvhar_1_1McmcOutforecastRun.html#a13f05a90e1f53aea031b4f44ccad57df',1,'bvhar::McmcOutforecastRun::nthreads'],['../classbvhar_1_1DynamicLdltSpillover.html#ad4476ce876ac796190c6315d901f211a',1,'bvhar::DynamicLdltSpillover::nthreads'],['../classbvhar_1_1DynamicSvSpillover.html#aa41e24a70cd366a68fa5d4810b5dc206',1,'bvhar::DynamicSvSpillover::nthreads']]],

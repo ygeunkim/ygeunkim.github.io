@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9002</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9003</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('classbvhar_1_1McmcOutforecastInterface
 <p>Interface class for Out-of-sample forecasting with MCMC.  
  <a href="classbvhar_1_1McmcOutforecastInterface.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="bayes_2triangular_2forecaster_8h_source.html">forecaster.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="bayes_2triangular_2deprecated_2forecaster_8h_source.html">forecaster.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for bvhar::McmcOutforecastInterface&lt; BaseForecaster &gt;:</div>
 <div class="dyncontent">
@@ -109,18 +109,30 @@ Inheritance diagram for bvhar::McmcOutforecastInterface&lt; BaseForecaster &gt;:
 <map name="abvhar_1_1McmcOutforecastInterface_3_01BaseForecaster_01_4_inherit__map" id="abvhar_1_1McmcOutforecastInterface_3_01BaseForecaster_01_4_inherit__map">
 <area shape="rect" title="Interface class for Out&#45;of&#45;sample forecasting with MCMC." alt="" coords="5,37,245,77"/>
 <area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html" title=" " alt="" coords="299,5,506,45"/>
-<area shape="poly" title=" " alt="" coords="259,39,299,35,299,40,259,45"/>
+<area shape="poly" title=" " alt="" coords="258,48,303,43,304,48,259,54"/>
+<area shape="poly" title=" " alt="" coords="238,33,299,26,299,31,238,38"/>
 <area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="293,69,512,109"/>
-<area shape="poly" title=" " alt="" coords="259,70,293,74,293,79,259,75"/>
+<area shape="poly" title=" " alt="" coords="238,76,294,83,293,88,237,82"/>
+<area shape="poly" title=" " alt="" coords="259,61,304,67,303,72,258,66"/>
 <area shape="rect" href="classbvhar_1_1McmcExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="560,22,784,77"/>
-<area shape="poly" title=" " alt="" coords="525,68,559,63,560,69,526,74"/>
+<area shape="poly" title=" " alt="" coords="525,77,559,72,560,77,526,83"/>
+<area shape="poly" title=" " alt="" coords="495,64,559,54,560,60,496,70"/>
 <area shape="rect" href="classbvhar_1_1McmcRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="567,101,777,155"/>
-<area shape="poly" title=" " alt="" coords="526,104,568,110,567,116,525,110"/>
+<area shape="poly" title=" " alt="" coords="499,109,567,119,567,124,498,114"/>
+<area shape="poly" title=" " alt="" coords="526,95,568,102,567,107,525,101"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ac2679f1065aca324712c18503d55a7d1" id="r_ac2679f1065aca324712c18503d55a7d1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastInterface.html#ac2679f1065aca324712c18503d55a7d1">~McmcOutforecastInterface</a> ()=default</td></tr>
+<tr class="separator:ac2679f1065aca324712c18503d55a7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af70f23c8db1f460676f0941d1afd4cda" id="r_af70f23c8db1f460676f0941d1afd4cda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastInterface.html#af70f23c8db1f460676f0941d1afd4cda">forecast</a> ()=0</td></tr>
+<tr class="memdesc:af70f23c8db1f460676f0941d1afd4cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Out-of-sample forecasting.  <br /></td></tr>
+<tr class="separator:af70f23c8db1f460676f0941d1afd4cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0a745a8e439b9a53e1a0b7098cc20b" id="r_ace0a745a8e439b9a53e1a0b7098cc20b"><td class="memItemLeft" align="right" valign="top">virtual Rcpp::List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastInterface.html#ace0a745a8e439b9a53e1a0b7098cc20b">returnForecast</a> ()=0</td></tr>
+<tr class="memdesc:ace0a745a8e439b9a53e1a0b7098cc20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return out-of-sample forecasting draws.  <br /></td></tr>
+<tr class="separator:ace0a745a8e439b9a53e1a0b7098cc20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2679f1065aca324712c18503d55a7d1" id="r_ac2679f1065aca324712c18503d55a7d1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastInterface.html#ac2679f1065aca324712c18503d55a7d1">~McmcOutforecastInterface</a> ()=default</td></tr>
 <tr class="separator:ac2679f1065aca324712c18503d55a7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70f23c8db1f460676f0941d1afd4cda" id="r_af70f23c8db1f460676f0941d1afd4cda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastInterface.html#af70f23c8db1f460676f0941d1afd4cda">forecast</a> ()=0</td></tr>
@@ -141,7 +153,34 @@ class bvhar::McmcOutforecastInterface&lt; BaseForecaster &gt;</div><p>Interface 
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac2679f1065aca324712c18503d55a7d1" name="ac2679f1065aca324712c18503d55a7d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2679f1065aca324712c18503d55a7d1">&#9670;&#160;</a></span>~McmcOutforecastInterface()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2679f1065aca324712c18503d55a7d1">&#9670;&#160;</a></span>~McmcOutforecastInterface() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">bvhar::McmcOutforecastInterface</a>&lt; BaseForecaster &gt;::~<a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2679f1065aca324712c18503d55a7d1" name="ac2679f1065aca324712c18503d55a7d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2679f1065aca324712c18503d55a7d1">&#9670;&#160;</a></span>~McmcOutforecastInterface() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +208,7 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="af70f23c8db1f460676f0941d1afd4cda" name="af70f23c8db1f460676f0941d1afd4cda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af70f23c8db1f460676f0941d1afd4cda">&#9670;&#160;</a></span>forecast()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af70f23c8db1f460676f0941d1afd4cda">&#9670;&#160;</a></span>forecast() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,12 +234,12 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
 
 <p>Out-of-sample forecasting. </p>
 
-<p>Implemented in <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>, <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>.</p>
 
 </div>
 </div>
 <a id="ace0a745a8e439b9a53e1a0b7098cc20b" name="ace0a745a8e439b9a53e1a0b7098cc20b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace0a745a8e439b9a53e1a0b7098cc20b">&#9670;&#160;</a></span>returnForecast()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0a745a8e439b9a53e1a0b7098cc20b">&#9670;&#160;</a></span>returnForecast() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,11 +266,75 @@ template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
 <p>Return out-of-sample forecasting draws. </p>
 <dl class="section return"><dt>Returns</dt><dd>LIST <code>LIST</code> containing forecast draws. Include ALPL when <code>get_lpl</code> is <code>true</code>. </dd></dl>
 
-<p>Implemented in <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>, <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a id="af70f23c8db1f460676f0941d1afd4cda" name="af70f23c8db1f460676f0941d1afd4cda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af70f23c8db1f460676f0941d1afd4cda">&#9670;&#160;</a></span>forecast() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">bvhar::McmcOutforecastInterface</a>&lt; BaseForecaster &gt;::forecast </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Out-of-sample forecasting. </p>
+
+<p>Implemented in <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>, <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>.</p>
+
+</div>
+</div>
+<a id="ace0a745a8e439b9a53e1a0b7098cc20b" name="ace0a745a8e439b9a53e1a0b7098cc20b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0a745a8e439b9a53e1a0b7098cc20b">&#9670;&#160;</a></span>returnForecast() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Rcpp::List <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">bvhar::McmcOutforecastInterface</a>&lt; BaseForecaster &gt;::returnForecast </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return out-of-sample forecasting draws. </p>
+<dl class="section return"><dt>Returns</dt><dd>LIST <code>LIST</code> containing forecast draws. Include ALPL when <code>get_lpl</code> is <code>true</code>. </dd></dl>
+
+<p>Implemented in <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>, <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">bvhar::McmcOutforecastRun&lt; RegForecaster, true &gt;</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="bayes_2triangular_2deprecated_2forecaster_8h_source.html">bayes/triangular/deprecated/forecaster.h</a></li>
 <li><a class="el" href="bayes_2triangular_2forecaster_8h_source.html">bayes/triangular/forecaster.h</a></li>
 </ul>
 </div><!-- contents -->

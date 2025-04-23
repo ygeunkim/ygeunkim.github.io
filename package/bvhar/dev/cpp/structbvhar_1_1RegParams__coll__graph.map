@@ -1,5 +1,6 @@
 <map id="bvhar::RegParams" name="bvhar::RegParams">
 <area shape="rect" id="Node000001" title="Hyperparameters for McmcReg" alt="" coords="13,79,153,104"/>
 <area shape="rect" id="Node000002" href="$structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="5,5,160,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,44,85,79,80,79,80,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,44,78,78,73,79,71,45"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="94,45,92,79,87,78,89,44"/>
 </map>

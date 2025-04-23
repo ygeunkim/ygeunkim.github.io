@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9002</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9003</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -99,20 +99,23 @@ $(document).ready(function(){initNavTree('structbvhar_1_1HierminnParams.html',''
 </div><!--header-->
 <div class="contents">
 
-<p>Hyperparameters for Hierarchical <a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> prior <code><a class="el" href="classbvhar_1_1McmcHierminn.html" title="Hierarchical Minnesota prior.">McmcHierminn</a></code>  
+<p>Hyperparameters for hierarchical <a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> prior <code><a class="el" href="classbvhar_1_1HierminnUpdater.html" title="Hierarchical Minnesota prior.">HierminnUpdater</a></code>  
  <a href="structbvhar_1_1HierminnParams.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="config_8h_source.html">config.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="shrinkage_2config_8h_source.html">config.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for bvhar::HierminnParams&lt; BaseRegParams &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1HierminnParams__inherit__graph.png" border="0" usemap="#abvhar_1_1HierminnParams_3_01BaseRegParams_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="abvhar_1_1HierminnParams_3_01BaseRegParams_01_4_inherit__map" id="abvhar_1_1HierminnParams_3_01BaseRegParams_01_4_inherit__map">
-<area shape="rect" title="Hyperparameters for Hierarchical Minnesota prior McmcHierminn" alt="" coords="5,152,180,192"/>
-<area shape="rect" href="structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="23,79,163,104"/>
-<area shape="poly" title=" " alt="" coords="95,118,95,152,90,152,90,118"/>
-<area shape="rect" href="structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="15,5,170,31"/>
-<area shape="poly" title=" " alt="" coords="95,44,95,79,90,79,90,44"/>
+<area shape="rect" title="Hyperparameters for hierarchical Minnesota prior HierminnUpdater" alt="" coords="126,167,301,207"/>
+<area shape="rect" href="structbvhar_1_1MinnParams.html" title="Hyperparameters for Minnesota prior MinnUpdater" alt="" coords="75,79,234,119"/>
+<area shape="poly" title=" " alt="" coords="177,128,203,165,198,168,173,131"/>
+<area shape="rect" href="structbvhar_1_1ShrinkageParams.html" title="Hyperparameters for shrinkage priors ShrinkageUpdater" alt="" coords="5,5,184,31"/>
+<area shape="poly" title=" " alt="" coords="114,40,142,77,138,80,110,43"/>
+<area shape="rect" title=" " alt="" coords="209,5,335,31"/>
+<area shape="poly" title=" " alt="" coords="269,45,248,120,226,168,221,165,243,118,264,43"/>
+<area shape="poly" title=" " alt="" coords="245,40,184,81,182,76,242,36"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -120,33 +123,50 @@ Collaboration diagram for bvhar::HierminnParams&lt; BaseRegParams &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="structbvhar_1_1HierminnParams__coll__graph.png" border="0" usemap="#abvhar_1_1HierminnParams_3_01BaseRegParams_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="abvhar_1_1HierminnParams_3_01BaseRegParams_01_4_coll__map" id="abvhar_1_1HierminnParams_3_01BaseRegParams_01_4_coll__map">
-<area shape="rect" title="Hyperparameters for Hierarchical Minnesota prior McmcHierminn" alt="" coords="5,152,180,192"/>
-<area shape="rect" href="structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="23,79,163,104"/>
-<area shape="poly" title=" " alt="" coords="95,118,95,152,90,152,90,118"/>
-<area shape="rect" href="structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="15,5,170,31"/>
-<area shape="poly" title=" " alt="" coords="95,44,95,79,90,79,90,44"/>
+<area shape="rect" title="Hyperparameters for hierarchical Minnesota prior HierminnUpdater" alt="" coords="126,167,301,207"/>
+<area shape="rect" href="structbvhar_1_1MinnParams.html" title="Hyperparameters for Minnesota prior MinnUpdater" alt="" coords="75,79,234,119"/>
+<area shape="poly" title=" " alt="" coords="177,128,203,165,198,168,173,131"/>
+<area shape="rect" href="structbvhar_1_1ShrinkageParams.html" title="Hyperparameters for shrinkage priors ShrinkageUpdater" alt="" coords="5,5,184,31"/>
+<area shape="poly" title=" " alt="" coords="114,40,142,77,138,80,110,43"/>
+<area shape="rect" title=" " alt="" coords="209,5,335,31"/>
+<area shape="poly" title=" " alt="" coords="269,45,248,120,226,168,221,165,243,118,264,43"/>
+<area shape="poly" title=" " alt="" coords="245,40,184,81,182,76,242,36"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a210cc1c2f11e8ed3080f432ceb11ca0d" id="r_a210cc1c2f11e8ed3080f432ceb11ca0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#a210cc1c2f11e8ed3080f432ceb11ca0d">HierminnParams</a> (Rcpp::List &amp;priors)</td></tr>
+<tr class="separator:a210cc1c2f11e8ed3080f432ceb11ca0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5cff9959b6736c064ec54e60457df56" id="r_ab5cff9959b6736c064ec54e60457df56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#ab5cff9959b6736c064ec54e60457df56">HierminnParams</a> (Rcpp::List &amp;priors, int num_lowerchol)</td></tr>
+<tr class="separator:ab5cff9959b6736c064ec54e60457df56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7d3e94426d3dd38998df602f4a555dd" id="r_af7d3e94426d3dd38998df602f4a555dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#af7d3e94426d3dd38998df602f4a555dd">HierminnParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;reg_spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::VectorXi &amp;grp_id, const Eigen::MatrixXi &amp;grp_mat, Rcpp::List &amp;priors, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
 <tr class="separator:af7d3e94426d3dd38998df602f4a555dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structbvhar_1_1RegParams"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structbvhar_1_1RegParams')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structbvhar_1_1RegParams.html">bvhar::RegParams</a></td></tr>
-<tr class="memitem:af51e42304ebb224d85d7d022915b48ab inherit pub_methods_structbvhar_1_1RegParams" id="r_af51e42304ebb224d85d7d022915b48ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#af51e42304ebb224d85d7d022915b48ab">RegParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::VectorXi &amp;grp_id, const Eigen::MatrixXi &amp;grp_mat, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
-<tr class="separator:af51e42304ebb224d85d7d022915b48ab inherit pub_methods_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structbvhar_1_1McmcParams"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structbvhar_1_1McmcParams')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structbvhar_1_1McmcParams.html">bvhar::McmcParams</a></td></tr>
-<tr class="memitem:a464740d79fc0b7523a66ec97cfb2381a inherit pub_methods_structbvhar_1_1McmcParams" id="r_a464740d79fc0b7523a66ec97cfb2381a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#a464740d79fc0b7523a66ec97cfb2381a">McmcParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, bool include_mean)</td></tr>
-<tr class="separator:a464740d79fc0b7523a66ec97cfb2381a inherit pub_methods_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structbvhar_1_1MinnParams"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structbvhar_1_1MinnParams')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structbvhar_1_1MinnParams.html">bvhar::MinnParams&lt; BaseRegParams &gt;</a></td></tr>
+<tr class="memitem:a36ecb65d78f3d81dcc4155f6fcdf4f42 inherit pub_methods_structbvhar_1_1MinnParams" id="r_a36ecb65d78f3d81dcc4155f6fcdf4f42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#a36ecb65d78f3d81dcc4155f6fcdf4f42">MinnParams</a> (Rcpp::List &amp;priors)</td></tr>
+<tr class="separator:a36ecb65d78f3d81dcc4155f6fcdf4f42 inherit pub_methods_structbvhar_1_1MinnParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ba71324ee153aa74438337a2bfe25c inherit pub_methods_structbvhar_1_1MinnParams" id="r_af8ba71324ee153aa74438337a2bfe25c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#af8ba71324ee153aa74438337a2bfe25c">MinnParams</a> (Rcpp::List &amp;priors, int num_lowerchol)</td></tr>
+<tr class="separator:af8ba71324ee153aa74438337a2bfe25c inherit pub_methods_structbvhar_1_1MinnParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1bda7b2ecf1c10d5b71730f0aea60f3 inherit pub_methods_structbvhar_1_1MinnParams" id="r_ae1bda7b2ecf1c10d5b71730f0aea60f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#ae1bda7b2ecf1c10d5b71730f0aea60f3">MinnParams</a> (int num_iter, const Eigen::MatrixXd &amp;x, const Eigen::MatrixXd &amp;y, Rcpp::List &amp;reg_spec, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::VectorXi &amp;grp_id, const Eigen::MatrixXi &amp;grp_mat, Rcpp::List &amp;priors, Rcpp::List &amp;intercept, bool include_mean)</td></tr>
+<tr class="separator:ae1bda7b2ecf1c10d5b71730f0aea60f3 inherit pub_methods_structbvhar_1_1MinnParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structbvhar_1_1ShrinkageParams"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structbvhar_1_1ShrinkageParams')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structbvhar_1_1ShrinkageParams.html">bvhar::ShrinkageParams</a></td></tr>
+<tr class="memitem:a5a71d2d092f674ae6b03593eb7f65163 inherit pub_methods_structbvhar_1_1ShrinkageParams" id="r_a5a71d2d092f674ae6b03593eb7f65163"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1ShrinkageParams.html#a5a71d2d092f674ae6b03593eb7f65163">ShrinkageParams</a> ()</td></tr>
+<tr class="separator:a5a71d2d092f674ae6b03593eb7f65163 inherit pub_methods_structbvhar_1_1ShrinkageParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3602714d408655209ffb2007c2e883b1 inherit pub_methods_structbvhar_1_1ShrinkageParams" id="r_a3602714d408655209ffb2007c2e883b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1ShrinkageParams.html#a3602714d408655209ffb2007c2e883b1">ShrinkageParams</a> (Rcpp::List &amp;priors)</td></tr>
+<tr class="separator:a3602714d408655209ffb2007c2e883b1 inherit pub_methods_structbvhar_1_1ShrinkageParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:ab90e44663dc0de2dd4c8ed5d5f4b65f7" id="r_ab90e44663dc0de2dd4c8ed5d5f4b65f7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#ab90e44663dc0de2dd4c8ed5d5f4b65f7">_shape</a></td></tr>
+<tr class="separator:ab90e44663dc0de2dd4c8ed5d5f4b65f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c79392662c21addf1a60cfce8ecb4b7" id="r_a9c79392662c21addf1a60cfce8ecb4b7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#a9c79392662c21addf1a60cfce8ecb4b7">_rate</a></td></tr>
+<tr class="separator:a9c79392662c21addf1a60cfce8ecb4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e011ec82bb1dbbee49ef6cc20b2b808" id="r_a0e011ec82bb1dbbee49ef6cc20b2b808"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#a0e011ec82bb1dbbee49ef6cc20b2b808">_grid_size</a></td></tr>
+<tr class="separator:a0e011ec82bb1dbbee49ef6cc20b2b808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b8f22e089ecbddc823a6254810192bd" id="r_a9b8f22e089ecbddc823a6254810192bd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#a9b8f22e089ecbddc823a6254810192bd">shape</a></td></tr>
 <tr class="separator:a9b8f22e089ecbddc823a6254810192bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe37b6d728d53a5c01914b748d9126e2" id="r_abe37b6d728d53a5c01914b748d9126e2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#abe37b6d728d53a5c01914b748d9126e2">rate</a></td></tr>
 <tr class="separator:abe37b6d728d53a5c01914b748d9126e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e011ec82bb1dbbee49ef6cc20b2b808" id="r_a0e011ec82bb1dbbee49ef6cc20b2b808"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#a0e011ec82bb1dbbee49ef6cc20b2b808">_grid_size</a></td></tr>
-<tr class="separator:a0e011ec82bb1dbbee49ef6cc20b2b808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21fb40736855f0ead1e24cd90913e3ed" id="r_a21fb40736855f0ead1e24cd90913e3ed"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#a21fb40736855f0ead1e24cd90913e3ed">_prec_diag</a></td></tr>
 <tr class="separator:a21fb40736855f0ead1e24cd90913e3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a766b050f72e6e4f428a015ffadc285" id="r_a6a766b050f72e6e4f428a015ffadc285"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#a6a766b050f72e6e4f428a015ffadc285">_prior_mean</a></td></tr>
@@ -155,50 +175,22 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a72ca2aa50dbedbbe540b462085926bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a708ed9735ae7965e3a0363028e539dd1" id="r_a708ed9735ae7965e3a0363028e539dd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1HierminnParams.html#a708ed9735ae7965e3a0363028e539dd1">_minnesota</a></td></tr>
 <tr class="separator:a708ed9735ae7965e3a0363028e539dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_structbvhar_1_1RegParams"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structbvhar_1_1RegParams')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structbvhar_1_1RegParams.html">bvhar::RegParams</a></td></tr>
-<tr class="memitem:a9db556f516287219a2630995b942afcf inherit pub_attribs_structbvhar_1_1RegParams" id="r_a9db556f516287219a2630995b942afcf"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a9db556f516287219a2630995b942afcf">_sig_shp</a></td></tr>
-<tr class="separator:a9db556f516287219a2630995b942afcf inherit pub_attribs_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dafd9f6ecb6bf94b5a3964619fd1898 inherit pub_attribs_structbvhar_1_1RegParams" id="r_a3dafd9f6ecb6bf94b5a3964619fd1898"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a3dafd9f6ecb6bf94b5a3964619fd1898">_sig_scl</a></td></tr>
-<tr class="separator:a3dafd9f6ecb6bf94b5a3964619fd1898 inherit pub_attribs_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06f4e19e97dbef5ebb9ef7d518be0905 inherit pub_attribs_structbvhar_1_1RegParams" id="r_a06f4e19e97dbef5ebb9ef7d518be0905"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a06f4e19e97dbef5ebb9ef7d518be0905">_mean_non</a></td></tr>
-<tr class="separator:a06f4e19e97dbef5ebb9ef7d518be0905 inherit pub_attribs_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a905f486898d3380822e8a6a5afca10b7 inherit pub_attribs_structbvhar_1_1RegParams" id="r_a905f486898d3380822e8a6a5afca10b7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a905f486898d3380822e8a6a5afca10b7">_sd_non</a></td></tr>
-<tr class="separator:a905f486898d3380822e8a6a5afca10b7 inherit pub_attribs_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87ac68e944343f56ac0cc8b2b2c8369 inherit pub_attribs_structbvhar_1_1RegParams" id="r_ac87ac68e944343f56ac0cc8b2b2c8369"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::set</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#ac87ac68e944343f56ac0cc8b2b2c8369">_own_id</a></td></tr>
-<tr class="separator:ac87ac68e944343f56ac0cc8b2b2c8369 inherit pub_attribs_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8048811f923fbf958b847bd7bd12c067 inherit pub_attribs_structbvhar_1_1RegParams" id="r_a8048811f923fbf958b847bd7bd12c067"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::set</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a8048811f923fbf958b847bd7bd12c067">_cross_id</a></td></tr>
-<tr class="separator:a8048811f923fbf958b847bd7bd12c067 inherit pub_attribs_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74cc9494c8c24cdf8cffe7ba035ee7e5 inherit pub_attribs_structbvhar_1_1RegParams" id="r_a74cc9494c8c24cdf8cffe7ba035ee7e5"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXi&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a74cc9494c8c24cdf8cffe7ba035ee7e5">_grp_id</a></td></tr>
-<tr class="separator:a74cc9494c8c24cdf8cffe7ba035ee7e5 inherit pub_attribs_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50f90d55307a9621506e4535b87c5044 inherit pub_attribs_structbvhar_1_1RegParams" id="r_a50f90d55307a9621506e4535b87c5044"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXi&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1RegParams.html#a50f90d55307a9621506e4535b87c5044">_grp_mat</a></td></tr>
-<tr class="separator:a50f90d55307a9621506e4535b87c5044 inherit pub_attribs_structbvhar_1_1RegParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_structbvhar_1_1McmcParams"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structbvhar_1_1McmcParams')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structbvhar_1_1McmcParams.html">bvhar::McmcParams</a></td></tr>
-<tr class="memitem:ad479d3f56a7eb3f34cb6ea705cfe37e6 inherit pub_attribs_structbvhar_1_1McmcParams" id="r_ad479d3f56a7eb3f34cb6ea705cfe37e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#ad479d3f56a7eb3f34cb6ea705cfe37e6">_iter</a></td></tr>
-<tr class="separator:ad479d3f56a7eb3f34cb6ea705cfe37e6 inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ba90b881446e08231a8d86d606b2972 inherit pub_attribs_structbvhar_1_1McmcParams" id="r_a8ba90b881446e08231a8d86d606b2972"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#a8ba90b881446e08231a8d86d606b2972">_x</a></td></tr>
-<tr class="separator:a8ba90b881446e08231a8d86d606b2972 inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ab036a0991f1ff131a1798af5c90c39 inherit pub_attribs_structbvhar_1_1McmcParams" id="r_a8ab036a0991f1ff131a1798af5c90c39"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#a8ab036a0991f1ff131a1798af5c90c39">_y</a></td></tr>
-<tr class="separator:a8ab036a0991f1ff131a1798af5c90c39 inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1751d7ea9995f58e9595949e1b1a13c inherit pub_attribs_structbvhar_1_1McmcParams" id="r_ab1751d7ea9995f58e9595949e1b1a13c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#ab1751d7ea9995f58e9595949e1b1a13c">_mean</a></td></tr>
-<tr class="separator:ab1751d7ea9995f58e9595949e1b1a13c inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a572dee991c8c1ba5c3723788253a1a98 inherit pub_attribs_structbvhar_1_1McmcParams" id="r_a572dee991c8c1ba5c3723788253a1a98"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#a572dee991c8c1ba5c3723788253a1a98">_dim</a></td></tr>
-<tr class="separator:a572dee991c8c1ba5c3723788253a1a98 inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a839edd1403d283d1d6722d5d24a104f8 inherit pub_attribs_structbvhar_1_1McmcParams" id="r_a839edd1403d283d1d6722d5d24a104f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#a839edd1403d283d1d6722d5d24a104f8">_dim_design</a></td></tr>
-<tr class="separator:a839edd1403d283d1d6722d5d24a104f8 inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b0cfc380c56bcc013211ee5f4def4be inherit pub_attribs_structbvhar_1_1McmcParams" id="r_a2b0cfc380c56bcc013211ee5f4def4be"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#a2b0cfc380c56bcc013211ee5f4def4be">_num_design</a></td></tr>
-<tr class="separator:a2b0cfc380c56bcc013211ee5f4def4be inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac605772431b785995fdf7c0dc60046f8 inherit pub_attribs_structbvhar_1_1McmcParams" id="r_ac605772431b785995fdf7c0dc60046f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#ac605772431b785995fdf7c0dc60046f8">_num_lowerchol</a></td></tr>
-<tr class="separator:ac605772431b785995fdf7c0dc60046f8 inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1575abb847bbb1bbbe6f46123350886 inherit pub_attribs_structbvhar_1_1McmcParams" id="r_aa1575abb847bbb1bbbe6f46123350886"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#aa1575abb847bbb1bbbe6f46123350886">_num_coef</a></td></tr>
-<tr class="separator:aa1575abb847bbb1bbbe6f46123350886 inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8077892b29525e8c1a5c1e63349acc8 inherit pub_attribs_structbvhar_1_1McmcParams" id="r_af8077892b29525e8c1a5c1e63349acc8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#af8077892b29525e8c1a5c1e63349acc8">_num_alpha</a></td></tr>
-<tr class="separator:af8077892b29525e8c1a5c1e63349acc8 inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ba58385864ec24abc673431306576fc inherit pub_attribs_structbvhar_1_1McmcParams" id="r_a5ba58385864ec24abc673431306576fc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1McmcParams.html#a5ba58385864ec24abc673431306576fc">_nrow</a></td></tr>
-<tr class="separator:a5ba58385864ec24abc673431306576fc inherit pub_attribs_structbvhar_1_1McmcParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_structbvhar_1_1MinnParams"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structbvhar_1_1MinnParams')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structbvhar_1_1MinnParams.html">bvhar::MinnParams&lt; BaseRegParams &gt;</a></td></tr>
+<tr class="memitem:acd90c048814c91687d393aef5f75b535 inherit pub_attribs_structbvhar_1_1MinnParams" id="r_acd90c048814c91687d393aef5f75b535"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#acd90c048814c91687d393aef5f75b535">_prior_prec</a></td></tr>
+<tr class="separator:acd90c048814c91687d393aef5f75b535 inherit pub_attribs_structbvhar_1_1MinnParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e9d76b372e68d1c98c2356c9f97d95 inherit pub_attribs_structbvhar_1_1MinnParams" id="r_a62e9d76b372e68d1c98c2356c9f97d95"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#a62e9d76b372e68d1c98c2356c9f97d95">_prior_mean</a></td></tr>
+<tr class="separator:a62e9d76b372e68d1c98c2356c9f97d95 inherit pub_attribs_structbvhar_1_1MinnParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2964211d6cf89883702cc92d8d84ebcd inherit pub_attribs_structbvhar_1_1MinnParams" id="r_a2964211d6cf89883702cc92d8d84ebcd"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#a2964211d6cf89883702cc92d8d84ebcd">_prec_diag</a></td></tr>
+<tr class="separator:a2964211d6cf89883702cc92d8d84ebcd inherit pub_attribs_structbvhar_1_1MinnParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afedb193cf6a537054ded8c1d9ca70442 inherit pub_attribs_structbvhar_1_1MinnParams" id="r_afedb193cf6a537054ded8c1d9ca70442"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#afedb193cf6a537054ded8c1d9ca70442">_prior_mean</a></td></tr>
+<tr class="separator:afedb193cf6a537054ded8c1d9ca70442 inherit pub_attribs_structbvhar_1_1MinnParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae885f09327bbb2bb4ad26913ff257a76 inherit pub_attribs_structbvhar_1_1MinnParams" id="r_ae885f09327bbb2bb4ad26913ff257a76"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1MinnParams.html#ae885f09327bbb2bb4ad26913ff257a76">_prior_prec</a></td></tr>
+<tr class="separator:ae885f09327bbb2bb4ad26913ff257a76 inherit pub_attribs_structbvhar_1_1MinnParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename BaseRegParams = RegParams&gt;<br />
-struct bvhar::HierminnParams&lt; BaseRegParams &gt;</div><p>Hyperparameters for Hierarchical <a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> prior <code><a class="el" href="classbvhar_1_1McmcHierminn.html" title="Hierarchical Minnesota prior.">McmcHierminn</a></code> </p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename BaseRegParams&gt;<br />
+struct bvhar::HierminnParams&lt; BaseRegParams &gt;</div><p>Hyperparameters for hierarchical <a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> prior <code><a class="el" href="classbvhar_1_1HierminnUpdater.html" title="Hierarchical Minnesota prior.">HierminnUpdater</a></code> </p>
+<p>Hyperparameters for Hierarchical <a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> prior <code><a class="el" href="classbvhar_1_1McmcHierminn.html" title="Hierarchical Minnesota prior.">McmcHierminn</a></code></p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">BaseRegParams</td><td><code><a class="el" href="structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg">RegParams</a></code> or <code><a class="el" href="structbvhar_1_1SvParams.html" title="Hyperparameters for McmcSv">SvParams</a></code> </td></tr>
@@ -206,13 +198,79 @@ struct bvhar::HierminnParams&lt; BaseRegParams &gt;</div><p>Hyperparameters for 
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af7d3e94426d3dd38998df602f4a555dd" name="af7d3e94426d3dd38998df602f4a555dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7d3e94426d3dd38998df602f4a555dd">&#9670;&#160;</a></span>HierminnParams()</h2>
+<a id="a210cc1c2f11e8ed3080f432ceb11ca0d" name="a210cc1c2f11e8ed3080f432ceb11ca0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a210cc1c2f11e8ed3080f432ceb11ca0d">&#9670;&#160;</a></span>HierminnParams() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename BaseRegParams  = RegParams&gt; </div>
+template&lt;typename BaseRegParams &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::HierminnParams </td>
+          <td>(</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>priors</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5cff9959b6736c064ec54e60457df56" name="ab5cff9959b6736c064ec54e60457df56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5cff9959b6736c064ec54e60457df56">&#9670;&#160;</a></span>HierminnParams() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseRegParams &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::HierminnParams </td>
+          <td>(</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>priors</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_lowerchol</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7d3e94426d3dd38998df602f4a555dd" name="af7d3e94426d3dd38998df602f4a555dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d3e94426d3dd38998df602f4a555dd">&#9670;&#160;</a></span>HierminnParams() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseRegParams &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -314,13 +372,61 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab90e44663dc0de2dd4c8ed5d5f4b65f7" name="ab90e44663dc0de2dd4c8ed5d5f4b65f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab90e44663dc0de2dd4c8ed5d5f4b65f7">&#9670;&#160;</a></span>_shape</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseRegParams &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::_shape</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c79392662c21addf1a60cfce8ecb4b7" name="a9c79392662c21addf1a60cfce8ecb4b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c79392662c21addf1a60cfce8ecb4b7">&#9670;&#160;</a></span>_rate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseRegParams &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::_rate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e011ec82bb1dbbee49ef6cc20b2b808" name="a0e011ec82bb1dbbee49ef6cc20b2b808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e011ec82bb1dbbee49ef6cc20b2b808">&#9670;&#160;</a></span>_grid_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseRegParams &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::_grid_size</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9b8f22e089ecbddc823a6254810192bd" name="a9b8f22e089ecbddc823a6254810192bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b8f22e089ecbddc823a6254810192bd">&#9670;&#160;</a></span>shape</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename BaseRegParams  = RegParams&gt; </div>
+template&lt;typename BaseRegParams &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">double <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::shape</td>
@@ -336,26 +442,10 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename BaseRegParams  = RegParams&gt; </div>
+template&lt;typename BaseRegParams &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">double <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::rate</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0e011ec82bb1dbbee49ef6cc20b2b808" name="a0e011ec82bb1dbbee49ef6cc20b2b808"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e011ec82bb1dbbee49ef6cc20b2b808">&#9670;&#160;</a></span>_grid_size</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename BaseRegParams  = RegParams&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::_grid_size</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -368,7 +458,7 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename BaseRegParams  = RegParams&gt; </div>
+template&lt;typename BaseRegParams &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">Eigen::MatrixXd <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::_prec_diag</td>
@@ -384,7 +474,7 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename BaseRegParams  = RegParams&gt; </div>
+template&lt;typename BaseRegParams &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">Eigen::MatrixXd <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::_prior_mean</td>
@@ -400,7 +490,7 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename BaseRegParams  = RegParams&gt; </div>
+template&lt;typename BaseRegParams &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">Eigen::MatrixXd <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::_prior_prec</td>
@@ -416,7 +506,7 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename BaseRegParams  = RegParams&gt; </div>
+template&lt;typename BaseRegParams &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="structbvhar_1_1HierminnParams.html">bvhar::HierminnParams</a>&lt; BaseRegParams &gt;::_minnesota</td>
@@ -426,8 +516,9 @@ template&lt;typename BaseRegParams  = RegParams&gt; </div>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="config_8h_source.html">config.h</a></li>
+<hr/>The documentation for this struct was generated from the following files:<ul>
+<li><a class="el" href="shrinkage_2config_8h_source.html">shrinkage/config.h</a></li>
+<li><a class="el" href="triangular_2deprecated_2config_8h_source.html">triangular/deprecated/config.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

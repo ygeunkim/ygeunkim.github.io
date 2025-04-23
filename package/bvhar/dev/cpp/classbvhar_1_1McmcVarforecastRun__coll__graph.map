@@ -1,5 +1,7 @@
 <map id="bvhar::McmcVarforecastRun&lt; BaseOutForecast, BaseForecaster, isGroup, isUpdate &gt;" name="bvhar::McmcVarforecastRun&lt; BaseOutForecast, BaseForecaster, isGroup, isUpdate &gt;">
-<area shape="rect" id="Node000001" title="Out&#45;of&#45;sample forecast class for Bayesian VAR." alt="" coords="5,108,264,163"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="49,5,221,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,74,137,108,132,108,132,74"/>
+<area shape="rect" id="Node000001" title="Out&#45;of&#45;sample forecast class for Bayesian VAR." alt="" coords="225,45,484,100"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,177,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,45,225,50,225,56,191,50"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="7,84,175,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,94,225,89,225,94,189,100"/>
 </map>

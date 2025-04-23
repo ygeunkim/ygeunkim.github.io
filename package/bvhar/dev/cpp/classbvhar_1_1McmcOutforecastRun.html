@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9002</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9003</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('classbvhar_1_1McmcOutforecastRun.html'
 <p>Out-of-sample forecasting class.  
  <a href="classbvhar_1_1McmcOutforecastRun.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="bayes_2triangular_2forecaster_8h_source.html">forecaster.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="bayes_2triangular_2deprecated_2forecaster_8h_source.html">forecaster.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;:</div>
 <div class="dyncontent">
@@ -112,11 +112,14 @@ Inheritance diagram for bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &
 <map name="abvhar_1_1McmcOutforecastRun_3_01BaseForecaster_00_01isUpdate_01_4_inherit__map" id="abvhar_1_1McmcOutforecastRun_3_01BaseForecaster_00_01isUpdate_01_4_inherit__map">
 <area shape="rect" title="Out&#45;of&#45;sample forecasting class." alt="" coords="293,53,512,93"/>
 <area shape="rect" href="classbvhar_1_1McmcExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="560,5,784,60"/>
-<area shape="poly" title=" " alt="" coords="525,52,559,47,560,52,526,57"/>
+<area shape="poly" title=" " alt="" coords="525,61,559,56,560,61,526,66"/>
+<area shape="poly" title=" " alt="" coords="495,48,559,38,560,43,496,53"/>
 <area shape="rect" href="classbvhar_1_1McmcRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="567,84,777,139"/>
-<area shape="poly" title=" " alt="" coords="526,88,568,94,567,99,525,93"/>
+<area shape="poly" title=" " alt="" coords="499,92,567,102,567,108,498,98"/>
+<area shape="poly" title=" " alt="" coords="526,79,568,85,567,90,525,84"/>
 <area shape="rect" href="classbvhar_1_1McmcOutforecastInterface.html" title="Interface class for Out&#45;of&#45;sample forecasting with MCMC." alt="" coords="5,53,245,93"/>
-<area shape="poly" title=" " alt="" coords="259,70,293,70,293,75,259,75"/>
+<area shape="poly" title=" " alt="" coords="259,79,293,79,293,84,259,84"/>
+<area shape="poly" title=" " alt="" coords="259,61,293,61,293,67,259,66"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -126,7 +129,8 @@ Collaboration diagram for bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate
 <map name="abvhar_1_1McmcOutforecastRun_3_01BaseForecaster_00_01isUpdate_01_4_coll__map" id="abvhar_1_1McmcOutforecastRun_3_01BaseForecaster_00_01isUpdate_01_4_coll__map">
 <area shape="rect" title="Out&#45;of&#45;sample forecasting class." alt="" coords="16,93,235,133"/>
 <area shape="rect" href="classbvhar_1_1McmcOutforecastInterface.html" title="Interface class for Out&#45;of&#45;sample forecasting with MCMC." alt="" coords="5,5,245,45"/>
-<area shape="poly" title=" " alt="" coords="128,59,128,93,123,93,123,59"/>
+<area shape="poly" title=" " alt="" coords="119,59,120,93,115,93,114,59"/>
+<area shape="poly" title=" " alt="" coords="137,59,136,93,130,93,131,59"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -142,12 +146,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ae6efba559216876f4db5a17e94f4af" id="r_a3ae6efba559216876f4db5a17e94f4af"><td class="memItemLeft" align="right" valign="top">Rcpp::List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">returnForecast</a> () override</td></tr>
 <tr class="memdesc:a3ae6efba559216876f4db5a17e94f4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return out-of-sample forecasting draws.  <br /></td></tr>
 <tr class="separator:a3ae6efba559216876f4db5a17e94f4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33da75070ebdf12fe0734c0de5a27a5e" id="r_a33da75070ebdf12fe0734c0de5a27a5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a33da75070ebdf12fe0734c0de5a27a5e">McmcOutforecastRun</a> (const Eigen::MatrixXd &amp;y, int <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2e6f7544c54815e53bdc3aa6af0d9bb3">lag</a>, int <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a6c24daf3f10a292e1d1c357a8615759e">num_chains</a>, int <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#aff2dd1ee4788f37618dd55326f6c19bf">num_iter</a>, int <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#ae3f67dd711f479092efe959c663da52a">num_burn</a>, int <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#ae8ad73b3212f500bb9bafe904fe37980">thin</a>, bool <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#adc2414d301679dc6d9f2b41831427599">sparse</a>, double <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a5671c115db30424793a500ab2628d1d7">level</a>, Rcpp::List &amp;fit_record, Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, Rcpp::List &amp;contem_prior, Rcpp::List &amp;contem_init, int contem_prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, bool <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a4741acc824d2ccf47cbd20bced343502">include_mean</a>, bool stable, int <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a9ac8fc73e7a57654c7c02c9461dbb6dc">step</a>, const Eigen::MatrixXd &amp;<a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a152aba349ac3619ced830ccfbbdc10d9">y_test</a>, bool <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#ab0d353f92cd23ff12a473e9447671e8b">get_lpl</a>, const Eigen::MatrixXi &amp;seed_chain, const Eigen::VectorXi &amp;<a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a1795a7a713b54dac7a9b21951dbe1721">seed_forecast</a>, bool <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3b95fe95712795c754e2c830f410952b">display_progress</a>, int <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a13f05a90e1f53aea031b4f44ccad57df">nthreads</a>, bool <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#aff90a0b86c66a05b6f9a06dc146d79ce">sv</a>=true)</td></tr>
+<tr class="separator:a33da75070ebdf12fe0734c0de5a27a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe4b63667c66ea28cdc1ffdcea90a2d2" id="r_afe4b63667c66ea28cdc1ffdcea90a2d2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#afe4b63667c66ea28cdc1ffdcea90a2d2">~McmcOutforecastRun</a> ()=default</td></tr>
+<tr class="separator:afe4b63667c66ea28cdc1ffdcea90a2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f6e5a614e22419958dd83c45cc0aaf5" id="r_a2f6e5a614e22419958dd83c45cc0aaf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5">forecast</a> () override</td></tr>
+<tr class="memdesc:a2f6e5a614e22419958dd83c45cc0aaf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Out-of-sample forecasting.  <br /></td></tr>
+<tr class="separator:a2f6e5a614e22419958dd83c45cc0aaf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ae6efba559216876f4db5a17e94f4af" id="r_a3ae6efba559216876f4db5a17e94f4af"><td class="memItemLeft" align="right" valign="top">Rcpp::List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3ae6efba559216876f4db5a17e94f4af">returnForecast</a> () override</td></tr>
+<tr class="memdesc:a3ae6efba559216876f4db5a17e94f4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return out-of-sample forecasting draws.  <br /></td></tr>
+<tr class="separator:a3ae6efba559216876f4db5a17e94f4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbvhar_1_1McmcOutforecastInterface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classbvhar_1_1McmcOutforecastInterface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">bvhar::McmcOutforecastInterface&lt; BaseForecaster &gt;</a></td></tr>
+<tr class="memitem:ac2679f1065aca324712c18503d55a7d1 inherit pub_methods_classbvhar_1_1McmcOutforecastInterface" id="r_ac2679f1065aca324712c18503d55a7d1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastInterface.html#ac2679f1065aca324712c18503d55a7d1">~McmcOutforecastInterface</a> ()=default</td></tr>
+<tr class="separator:ac2679f1065aca324712c18503d55a7d1 inherit pub_methods_classbvhar_1_1McmcOutforecastInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2679f1065aca324712c18503d55a7d1 inherit pub_methods_classbvhar_1_1McmcOutforecastInterface" id="r_ac2679f1065aca324712c18503d55a7d1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastInterface.html#ac2679f1065aca324712c18503d55a7d1">~McmcOutforecastInterface</a> ()=default</td></tr>
 <tr class="separator:ac2679f1065aca324712c18503d55a7d1 inherit pub_methods_classbvhar_1_1McmcOutforecastInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
+<tr class="memitem:aff6b4b5a75df913280fed4d3d7eb74ce" id="r_aff6b4b5a75df913280fed4d3d7eb74ce"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#aff6b4b5a75df913280fed4d3d7eb74ce">BaseMcmc</a> = typename <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::conditional</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::is_same</a>&lt; BaseForecaster, <a class="el" href="classbvhar_1_1RegForecaster.html">RegForecaster</a> &gt;::value, <a class="el" href="classbvhar_1_1McmcReg.html">McmcReg</a>, <a class="el" href="classbvhar_1_1McmcSv.html">McmcSv</a> &gt;::type</td></tr>
+<tr class="separator:aff6b4b5a75df913280fed4d3d7eb74ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00af68a47f9cf24b52994b76df757ee3" id="r_a00af68a47f9cf24b52994b76df757ee3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a00af68a47f9cf24b52994b76df757ee3">RecordType</a> = typename <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::conditional</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::is_same</a>&lt; BaseForecaster, <a class="el" href="classbvhar_1_1RegForecaster.html">RegForecaster</a> &gt;::value, <a class="el" href="structbvhar_1_1LdltRecords.html">LdltRecords</a>, <a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a> &gt;::type</td></tr>
+<tr class="separator:a00af68a47f9cf24b52994b76df757ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff6b4b5a75df913280fed4d3d7eb74ce" id="r_aff6b4b5a75df913280fed4d3d7eb74ce"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#aff6b4b5a75df913280fed4d3d7eb74ce">BaseMcmc</a> = typename <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::conditional</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::is_same</a>&lt; BaseForecaster, <a class="el" href="classbvhar_1_1RegForecaster.html">RegForecaster</a> &gt;::value, <a class="el" href="classbvhar_1_1McmcReg.html">McmcReg</a>, <a class="el" href="classbvhar_1_1McmcSv.html">McmcSv</a> &gt;::type</td></tr>
 <tr class="separator:aff6b4b5a75df913280fed4d3d7eb74ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00af68a47f9cf24b52994b76df757ee3" id="r_a00af68a47f9cf24b52994b76df757ee3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a00af68a47f9cf24b52994b76df757ee3">RecordType</a> = typename <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::conditional</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::is_same</a>&lt; BaseForecaster, <a class="el" href="classbvhar_1_1RegForecaster.html">RegForecaster</a> &gt;::value, <a class="el" href="structbvhar_1_1LdltRecords.html">LdltRecords</a>, <a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a> &gt;::type</td></tr>
@@ -173,6 +193,30 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a756a5e6f811bee549bc0b5ec67e27fdf" id="r_a756a5e6f811bee549bc0b5ec67e27fdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a756a5e6f811bee549bc0b5ec67e27fdf">initialize</a> (const Eigen::MatrixXd &amp;y, Rcpp::List &amp;fit_record, Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, const Eigen::MatrixXi &amp;seed_chain)</td></tr>
 <tr class="memdesc:a756a5e6f811bee549bc0b5ec67e27fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize every member of <code><a class="el" href="classbvhar_1_1McmcOutforecastRun.html" title="Out-of-sample forecasting class.">McmcOutforecastRun</a></code>  <br /></td></tr>
 <tr class="separator:a756a5e6f811bee549bc0b5ec67e27fdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac75c076c43003ec5e1b5818d45185dd7" id="r_ac75c076c43003ec5e1b5818d45185dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#ac75c076c43003ec5e1b5818d45185dd7">runGibbs</a> (int window, int chain)</td></tr>
+<tr class="memdesc:ac75c076c43003ec5e1b5818d45185dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conduct MCMC and update forecast pointer.  <br /></td></tr>
+<tr class="separator:ac75c076c43003ec5e1b5818d45185dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa11838e63ce2075ffca0ae76a9b108" id="r_affa11838e63ce2075ffca0ae76a9b108"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#affa11838e63ce2075ffca0ae76a9b108">forecastWindow</a> (int window, int chain)</td></tr>
+<tr class="memdesc:affa11838e63ce2075ffca0ae76a9b108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forecast.  <br /></td></tr>
+<tr class="separator:affa11838e63ce2075ffca0ae76a9b108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6922809d8fc576ecb65fcec1188b9eab" id="r_a6922809d8fc576ecb65fcec1188b9eab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a6922809d8fc576ecb65fcec1188b9eab">initData</a> (const Eigen::MatrixXd &amp;y)=0</td></tr>
+<tr class="memdesc:a6922809d8fc576ecb65fcec1188b9eab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define input in each window.  <br /></td></tr>
+<tr class="separator:a6922809d8fc576ecb65fcec1188b9eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a335f697bf8b459a8de73b29422fa2ec3" id="r_a335f697bf8b459a8de73b29422fa2ec3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a335f697bf8b459a8de73b29422fa2ec3">initForecaster</a> (Rcpp::List &amp;fit_record)=0</td></tr>
+<tr class="memdesc:a335f697bf8b459a8de73b29422fa2ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize forecaster.  <br /></td></tr>
+<tr class="separator:a335f697bf8b459a8de73b29422fa2ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6810cf176a102a2fbe9975bd9549169e" id="r_a6810cf176a102a2fbe9975bd9549169e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a6810cf176a102a2fbe9975bd9549169e">initMcmc</a> (Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, Rcpp::List &amp;contem_prior, Rcpp::List &amp;contem_init, int contem_prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, const Eigen::MatrixXi &amp;seed_chain)=0</td></tr>
+<tr class="memdesc:a6810cf176a102a2fbe9975bd9549169e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize CTA.  <br /></td></tr>
+<tr class="separator:a6810cf176a102a2fbe9975bd9549169e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fd3c69f8d8de30959ef4ae58c516e29" id="r_a3fd3c69f8d8de30959ef4ae58c516e29"><td class="memItemLeft" align="right" valign="top">virtual Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3fd3c69f8d8de30959ef4ae58c516e29">buildDesign</a> (int window)=0</td></tr>
+<tr class="memdesc:a3fd3c69f8d8de30959ef4ae58c516e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define VAR or VHAR design matrix.  <br /></td></tr>
+<tr class="separator:a3fd3c69f8d8de30959ef4ae58c516e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe50188f9e291c8cdad62874fa64c7f3" id="r_afe50188f9e291c8cdad62874fa64c7f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#afe50188f9e291c8cdad62874fa64c7f3">updateForecaster</a> (<a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a00af68a47f9cf24b52994b76df757ee3">RecordType</a> &amp;reg_record, int window, int chain)=0</td></tr>
+<tr class="memdesc:afe50188f9e291c8cdad62874fa64c7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the forecast smart pointer given MCMC result.  <br /></td></tr>
+<tr class="separator:afe50188f9e291c8cdad62874fa64c7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b409f6c029cc9f90ec243da13899f47" id="r_a4b409f6c029cc9f90ec243da13899f47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a4b409f6c029cc9f90ec243da13899f47">initialize</a> (const Eigen::MatrixXd &amp;y, Rcpp::List &amp;fit_record, Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, Rcpp::List &amp;contem_prior, Rcpp::List &amp;contem_init, int contem_prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, const Eigen::MatrixXi &amp;seed_chain)</td></tr>
+<tr class="memdesc:a4b409f6c029cc9f90ec243da13899f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize every member of <code><a class="el" href="classbvhar_1_1McmcOutforecastRun.html" title="Out-of-sample forecasting class.">McmcOutforecastRun</a></code>  <br /></td></tr>
+<tr class="separator:a4b409f6c029cc9f90ec243da13899f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac75c076c43003ec5e1b5818d45185dd7" id="r_ac75c076c43003ec5e1b5818d45185dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#ac75c076c43003ec5e1b5818d45185dd7">runGibbs</a> (int window, int chain)</td></tr>
 <tr class="memdesc:ac75c076c43003ec5e1b5818d45185dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conduct MCMC and update forecast pointer.  <br /></td></tr>
 <tr class="separator:ac75c076c43003ec5e1b5818d45185dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,18 +264,18 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a5671c115db30424793a500ab2628d1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1795a7a713b54dac7a9b21951dbe1721" id="r_a1795a7a713b54dac7a9b21951dbe1721"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXi&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a1795a7a713b54dac7a9b21951dbe1721">seed_forecast</a></td></tr>
 <tr class="separator:a1795a7a713b54dac7a9b21951dbe1721"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5b7258c33c5e9b018d190cb744f66ed" id="r_af5b7258c33c5e9b018d190cb744f66ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#af5b7258c33c5e9b018d190cb744f66ed">roll_mat</a></td></tr>
-<tr class="separator:af5b7258c33c5e9b018d190cb744f66ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20918ee90a4ebf1eb45f608555d451a3" id="r_a20918ee90a4ebf1eb45f608555d451a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a20918ee90a4ebf1eb45f608555d451a3">roll_y0</a></td></tr>
-<tr class="separator:a20918ee90a4ebf1eb45f608555d451a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2287c4aa1f0f1788c75e881100179a0d" id="r_a2287c4aa1f0f1788c75e881100179a0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2287c4aa1f0f1788c75e881100179a0d">roll_mat</a></td></tr>
+<tr class="separator:a2287c4aa1f0f1788c75e881100179a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c3740b99021fc6243874c2d0f5a679d" id="r_a3c3740b99021fc6243874c2d0f5a679d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a3c3740b99021fc6243874c2d0f5a679d">roll_y0</a></td></tr>
+<tr class="separator:a3c3740b99021fc6243874c2d0f5a679d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a152aba349ac3619ced830ccfbbdc10d9" id="r_a152aba349ac3619ced830ccfbbdc10d9"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a152aba349ac3619ced830ccfbbdc10d9">y_test</a></td></tr>
 <tr class="separator:a152aba349ac3619ced830ccfbbdc10d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c4e7968d490c073dbbe8eef50389c37" id="r_a2c4e7968d490c073dbbe8eef50389c37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#aff6b4b5a75df913280fed4d3d7eb74ce">BaseMcmc</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a2c4e7968d490c073dbbe8eef50389c37">model</a></td></tr>
-<tr class="separator:a2c4e7968d490c073dbbe8eef50389c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cd89924b4b309e4896ecfc988777706" id="r_a0cd89924b4b309e4896ecfc988777706"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; BaseForecaster &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a0cd89924b4b309e4896ecfc988777706">forecaster</a></td></tr>
-<tr class="separator:a0cd89924b4b309e4896ecfc988777706"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23349ebc472ff8ae8189472c8484a212" id="r_a23349ebc472ff8ae8189472c8484a212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Eigen::MatrixXd &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a23349ebc472ff8ae8189472c8484a212">out_forecast</a></td></tr>
-<tr class="separator:a23349ebc472ff8ae8189472c8484a212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62156fabc2d9c90702f7a5e50f4d19a2" id="r_a62156fabc2d9c90702f7a5e50f4d19a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#aff6b4b5a75df913280fed4d3d7eb74ce">BaseMcmc</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a62156fabc2d9c90702f7a5e50f4d19a2">model</a></td></tr>
+<tr class="separator:a62156fabc2d9c90702f7a5e50f4d19a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b368aefb7e8a4850cc7e41e0bc79294" id="r_a6b368aefb7e8a4850cc7e41e0bc79294"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; BaseForecaster &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a6b368aefb7e8a4850cc7e41e0bc79294">forecaster</a></td></tr>
+<tr class="separator:a6b368aefb7e8a4850cc7e41e0bc79294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b33294a9f100e73be4a79dc63a0ec3" id="r_a85b33294a9f100e73be4a79dc63a0ec3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Eigen::MatrixXd &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a85b33294a9f100e73be4a79dc63a0ec3">out_forecast</a></td></tr>
+<tr class="separator:a85b33294a9f100e73be4a79dc63a0ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40e3523314397085ae71ac95292802cf" id="r_a40e3523314397085ae71ac95292802cf"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a40e3523314397085ae71ac95292802cf">lpl_record</a></td></tr>
 <tr class="separator:a40e3523314397085ae71ac95292802cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -247,7 +291,7 @@ class bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;</div><p>Out-of
 </dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aff6b4b5a75df913280fed4d3d7eb74ce" name="aff6b4b5a75df913280fed4d3d7eb74ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff6b4b5a75df913280fed4d3d7eb74ce">&#9670;&#160;</a></span>BaseMcmc</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aff6b4b5a75df913280fed4d3d7eb74ce">&#9670;&#160;</a></span>BaseMcmc <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -271,7 +315,55 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 </div>
 </div>
 <a id="a00af68a47f9cf24b52994b76df757ee3" name="a00af68a47f9cf24b52994b76df757ee3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00af68a47f9cf24b52994b76df757ee3">&#9670;&#160;</a></span>RecordType</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a00af68a47f9cf24b52994b76df757ee3">&#9670;&#160;</a></span>RecordType <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::RecordType =  typename <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::conditional</a>&lt;<a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::is_same</a>&lt;BaseForecaster, <a class="el" href="classbvhar_1_1RegForecaster.html">RegForecaster</a>&gt;::value, <a class="el" href="structbvhar_1_1LdltRecords.html">LdltRecords</a>, <a class="el" href="structbvhar_1_1SvRecords.html">SvRecords</a>&gt;::type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff6b4b5a75df913280fed4d3d7eb74ce" name="aff6b4b5a75df913280fed4d3d7eb74ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff6b4b5a75df913280fed4d3d7eb74ce">&#9670;&#160;</a></span>BaseMcmc <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::BaseMcmc =  typename <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::conditional</a>&lt;<a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::is_same</a>&lt;BaseForecaster, <a class="el" href="classbvhar_1_1RegForecaster.html">RegForecaster</a>&gt;::value, <a class="el" href="classbvhar_1_1McmcReg.html">McmcReg</a>, <a class="el" href="classbvhar_1_1McmcSv.html">McmcSv</a>&gt;::type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00af68a47f9cf24b52994b76df757ee3" name="a00af68a47f9cf24b52994b76df757ee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00af68a47f9cf24b52994b76df757ee3">&#9670;&#160;</a></span>RecordType <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,7 +388,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8e5195734e8e56f316ffbb0926b899e9" name="a8e5195734e8e56f316ffbb0926b899e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e5195734e8e56f316ffbb0926b899e9">&#9670;&#160;</a></span>McmcOutforecastRun()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e5195734e8e56f316ffbb0926b899e9">&#9670;&#160;</a></span>McmcOutforecastRun() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,7 +582,246 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 </div>
 </div>
 <a id="afe4b63667c66ea28cdc1ffdcea90a2d2" name="afe4b63667c66ea28cdc1ffdcea90a2d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe4b63667c66ea28cdc1ffdcea90a2d2">&#9670;&#160;</a></span>~McmcOutforecastRun()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe4b63667c66ea28cdc1ffdcea90a2d2">&#9670;&#160;</a></span>~McmcOutforecastRun() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::~<a class="el" href="classbvhar_1_1McmcOutforecastRun.html">McmcOutforecastRun</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33da75070ebdf12fe0734c0de5a27a5e" name="a33da75070ebdf12fe0734c0de5a27a5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33da75070ebdf12fe0734c0de5a27a5e">&#9670;&#160;</a></span>McmcOutforecastRun() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::McmcOutforecastRun </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_chains</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_iter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_burn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>thin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sparse</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>fit_record</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_prior</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_intercept</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prior_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>contem_prior</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>contem_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contem_prior_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>own_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>cross_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include_mean</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>stable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>step</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>y_test</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>get_lpl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>seed_chain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>seed_forecast</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>display_progress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nthreads</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sv</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe4b63667c66ea28cdc1ffdcea90a2d2" name="afe4b63667c66ea28cdc1ffdcea90a2d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe4b63667c66ea28cdc1ffdcea90a2d2">&#9670;&#160;</a></span>~McmcOutforecastRun() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,7 +849,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2f6e5a614e22419958dd83c45cc0aaf5" name="a2f6e5a614e22419958dd83c45cc0aaf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f6e5a614e22419958dd83c45cc0aaf5">&#9670;&#160;</a></span>forecast()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f6e5a614e22419958dd83c45cc0aaf5">&#9670;&#160;</a></span>forecast() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -569,7 +900,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a3ae6efba559216876f4db5a17e94f4af" name="a3ae6efba559216876f4db5a17e94f4af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ae6efba559216876f4db5a17e94f4af">&#9670;&#160;</a></span>returnForecast()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ae6efba559216876f4db5a17e94f4af">&#9670;&#160;</a></span>returnForecast() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -623,7 +954,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a6922809d8fc576ecb65fcec1188b9eab" name="a6922809d8fc576ecb65fcec1188b9eab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6922809d8fc576ecb65fcec1188b9eab">&#9670;&#160;</a></span>initData()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6922809d8fc576ecb65fcec1188b9eab">&#9670;&#160;</a></span>initData() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -656,12 +987,12 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#adc16882092255c8422b2ba036c0bb32d">bvhar::McmcRollforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcExpandforecastRun.html#ab14427e5c92b034a08195778b965c0fe">bvhar::McmcExpandforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#adc16882092255c8422b2ba036c0bb32d">bvhar::McmcRollforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>, <a class="el" href="classbvhar_1_1McmcExpandforecastRun.html#ab14427e5c92b034a08195778b965c0fe">bvhar::McmcExpandforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>, <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#adc16882092255c8422b2ba036c0bb32d">bvhar::McmcRollforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcExpandforecastRun.html#ab14427e5c92b034a08195778b965c0fe">bvhar::McmcExpandforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>.</p>
 
 </div>
 </div>
 <a id="a335f697bf8b459a8de73b29422fa2ec3" name="a335f697bf8b459a8de73b29422fa2ec3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a335f697bf8b459a8de73b29422fa2ec3">&#9670;&#160;</a></span>initForecaster()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a335f697bf8b459a8de73b29422fa2ec3">&#9670;&#160;</a></span>initForecaster() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -697,7 +1028,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 </div>
 </div>
 <a id="a48d527155ee84b3d5cbb038f0fb5ea10" name="a48d527155ee84b3d5cbb038f0fb5ea10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48d527155ee84b3d5cbb038f0fb5ea10">&#9670;&#160;</a></span>initMcmc()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d527155ee84b3d5cbb038f0fb5ea10">&#9670;&#160;</a></span>initMcmc() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -802,7 +1133,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 </div>
 </div>
 <a id="a3fd3c69f8d8de30959ef4ae58c516e29" name="a3fd3c69f8d8de30959ef4ae58c516e29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fd3c69f8d8de30959ef4ae58c516e29">&#9670;&#160;</a></span>buildDesign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd3c69f8d8de30959ef4ae58c516e29">&#9670;&#160;</a></span>buildDesign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -839,7 +1170,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 </div>
 </div>
 <a id="afe50188f9e291c8cdad62874fa64c7f3" name="afe50188f9e291c8cdad62874fa64c7f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe50188f9e291c8cdad62874fa64c7f3">&#9670;&#160;</a></span>updateForecaster()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe50188f9e291c8cdad62874fa64c7f3">&#9670;&#160;</a></span>updateForecaster() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -893,7 +1224,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 </div>
 </div>
 <a id="a756a5e6f811bee549bc0b5ec67e27fdf" name="a756a5e6f811bee549bc0b5ec67e27fdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a756a5e6f811bee549bc0b5ec67e27fdf">&#9670;&#160;</a></span>initialize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a756a5e6f811bee549bc0b5ec67e27fdf">&#9670;&#160;</a></span>initialize() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1027,7 +1358,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ac75c076c43003ec5e1b5818d45185dd7" name="ac75c076c43003ec5e1b5818d45185dd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac75c076c43003ec5e1b5818d45185dd7">&#9670;&#160;</a></span>runGibbs()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75c076c43003ec5e1b5818d45185dd7">&#9670;&#160;</a></span>runGibbs() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1089,7 +1420,679 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="affa11838e63ce2075ffca0ae76a9b108" name="affa11838e63ce2075ffca0ae76a9b108"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affa11838e63ce2075ffca0ae76a9b108">&#9670;&#160;</a></span>forecastWindow()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#affa11838e63ce2075ffca0ae76a9b108">&#9670;&#160;</a></span>forecastWindow() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::forecastWindow </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>window</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>chain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Forecast. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Window index </td></tr>
+    <tr><td class="paramname">chain</td><td>Chain index </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbvhar_1_1McmcOutforecastRun_affa11838e63ce2075ffca0ae76a9b108_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_affa11838e63ce2075ffca0ae76a9b108_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1McmcOutforecastRun_affa11838e63ce2075ffca0ae76a9b108_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_affa11838e63ce2075ffca0ae76a9b108_cgraph">
+<area shape="rect" title="Forecast." alt="" coords="5,51,212,91"/>
+<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="549,29,687,55"/>
+<area shape="poly" title=" " alt="" coords="212,63,535,44,536,49,213,68"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#ac75c076c43003ec5e1b5818d45185dd7" title="Conduct MCMC and update forecast pointer." alt="" coords="260,79,467,119"/>
+<area shape="poly" title=" " alt="" coords="212,80,247,84,246,89,212,85"/>
+<area shape="poly" title=" " alt="" coords="577,31,568,21,573,11,590,5,618,3,654,7,664,11,668,17,663,20,660,15,652,12,618,8,591,10,576,15,573,20,581,27"/>
+<area shape="poly" title=" " alt="" coords="452,77,547,55,548,60,453,82"/>
+<area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="538,79,698,119"/>
+<area shape="poly" title=" " alt="" coords="467,97,525,97,525,102,467,102"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#afe50188f9e291c8cdad62874fa64c7f3" title="Replace the forecast smart pointer given MCMC result." alt="" coords="515,143,721,183"/>
+<area shape="poly" title=" " alt="" coords="444,117,525,137,524,143,443,122"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2f6e5a614e22419958dd83c45cc0aaf5" name="a2f6e5a614e22419958dd83c45cc0aaf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f6e5a614e22419958dd83c45cc0aaf5">&#9670;&#160;</a></span>forecast() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::forecast </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Out-of-sample forecasting. </p>
+
+<p>Implements <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html#af70f23c8db1f460676f0941d1afd4cda">bvhar::McmcOutforecastInterface&lt; BaseForecaster &gt;</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbvhar_1_1McmcOutforecastRun_a2f6e5a614e22419958dd83c45cc0aaf5_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_a2f6e5a614e22419958dd83c45cc0aaf5_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1McmcOutforecastRun_a2f6e5a614e22419958dd83c45cc0aaf5_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_a2f6e5a614e22419958dd83c45cc0aaf5_cgraph">
+<area shape="rect" title="Out&#45;of&#45;sample forecasting." alt="" coords="5,51,212,91"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#affa11838e63ce2075ffca0ae76a9b108" title="Forecast." alt="" coords="260,51,467,91"/>
+<area shape="poly" title=" " alt="" coords="212,69,246,69,246,74,212,74"/>
+<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="804,29,941,55"/>
+<area shape="poly" title=" " alt="" coords="467,63,790,44,790,49,467,68"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#ac75c076c43003ec5e1b5818d45185dd7" title="Conduct MCMC and update forecast pointer." alt="" coords="515,79,721,119"/>
+<area shape="poly" title=" " alt="" coords="467,80,501,84,501,89,467,85"/>
+<area shape="poly" title=" " alt="" coords="832,31,823,21,827,11,844,5,873,3,908,7,919,11,922,17,918,20,915,15,907,12,873,8,845,10,831,15,828,20,836,27"/>
+<area shape="poly" title=" " alt="" coords="707,77,802,55,803,60,708,82"/>
+<area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="793,79,953,119"/>
+<area shape="poly" title=" " alt="" coords="721,97,779,97,779,102,721,102"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#afe50188f9e291c8cdad62874fa64c7f3" title="Replace the forecast smart pointer given MCMC result." alt="" coords="769,143,976,183"/>
+<area shape="poly" title=" " alt="" coords="699,117,780,137,779,143,698,122"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3ae6efba559216876f4db5a17e94f4af" name="a3ae6efba559216876f4db5a17e94f4af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ae6efba559216876f4db5a17e94f4af">&#9670;&#160;</a></span>returnForecast() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rcpp::List <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::returnForecast </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return out-of-sample forecasting draws. </p>
+<dl class="section return"><dt>Returns</dt><dd>LIST <code>LIST</code> containing forecast draws. Include ALPL when <code>get_lpl</code> is <code>true</code>. </dd></dl>
+
+<p>Implements <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html#ace0a745a8e439b9a53e1a0b7098cc20b">bvhar::McmcOutforecastInterface&lt; BaseForecaster &gt;</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbvhar_1_1McmcOutforecastRun_a3ae6efba559216876f4db5a17e94f4af_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_a3ae6efba559216876f4db5a17e94f4af_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1McmcOutforecastRun_a3ae6efba559216876f4db5a17e94f4af_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_a3ae6efba559216876f4db5a17e94f4af_cgraph">
+<area shape="rect" title="Return out&#45;of&#45;sample forecasting draws." alt="" coords="5,51,212,91"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a2f6e5a614e22419958dd83c45cc0aaf5" title="Out&#45;of&#45;sample forecasting." alt="" coords="260,51,467,91"/>
+<area shape="poly" title=" " alt="" coords="212,69,246,69,246,74,212,74"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#affa11838e63ce2075ffca0ae76a9b108" title="Forecast." alt="" coords="515,51,721,91"/>
+<area shape="poly" title=" " alt="" coords="467,69,501,69,501,74,467,74"/>
+<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="1059,29,1196,55"/>
+<area shape="poly" title=" " alt="" coords="722,63,1045,44,1045,49,722,68"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#ac75c076c43003ec5e1b5818d45185dd7" title="Conduct MCMC and update forecast pointer." alt="" coords="769,79,976,119"/>
+<area shape="poly" title=" " alt="" coords="722,80,756,84,755,89,721,85"/>
+<area shape="poly" title=" " alt="" coords="1086,31,1077,21,1082,11,1099,5,1127,3,1163,7,1173,11,1177,17,1173,20,1170,15,1162,12,1127,8,1100,10,1086,15,1083,20,1090,27"/>
+<area shape="poly" title=" " alt="" coords="962,77,1057,55,1058,60,963,82"/>
+<area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="1047,79,1207,119"/>
+<area shape="poly" title=" " alt="" coords="976,97,1034,97,1034,102,976,102"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#afe50188f9e291c8cdad62874fa64c7f3" title="Replace the forecast smart pointer given MCMC result." alt="" coords="1024,143,1231,183"/>
+<area shape="poly" title=" " alt="" coords="954,117,1035,137,1033,143,952,122"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6922809d8fc576ecb65fcec1188b9eab" name="a6922809d8fc576ecb65fcec1188b9eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6922809d8fc576ecb65fcec1188b9eab">&#9670;&#160;</a></span>initData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::initData </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>y</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Define input in each window. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>Entire data including validation set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#adc16882092255c8422b2ba036c0bb32d">bvhar::McmcRollforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>, <a class="el" href="classbvhar_1_1McmcExpandforecastRun.html#ab14427e5c92b034a08195778b965c0fe">bvhar::McmcExpandforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>, <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#adc16882092255c8422b2ba036c0bb32d">bvhar::McmcRollforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcExpandforecastRun.html#ab14427e5c92b034a08195778b965c0fe">bvhar::McmcExpandforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a335f697bf8b459a8de73b29422fa2ec3" name="a335f697bf8b459a8de73b29422fa2ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a335f697bf8b459a8de73b29422fa2ec3">&#9670;&#160;</a></span>initForecaster() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::initForecaster </td>
+          <td>(</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>fit_record</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize forecaster. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fit_record</td><td>MCMC draw <code>LIST</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6810cf176a102a2fbe9975bd9549169e" name="a6810cf176a102a2fbe9975bd9549169e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6810cf176a102a2fbe9975bd9549169e">&#9670;&#160;</a></span>initMcmc() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::initMcmc </td>
+          <td>(</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_prior</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_intercept</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prior_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>contem_prior</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>contem_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contem_prior_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>own_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>cross_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>seed_chain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize CTA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">param_reg</td><td><code>LIST</code> of CTA hyperparameters </td></tr>
+    <tr><td class="paramname">param_prior</td><td><code>LIST</code> of shrinkage prior hyperparameters </td></tr>
+    <tr><td class="paramname">param_intercept</td><td><code>LIST</code> of Normal prior hyperparameters for constant term </td></tr>
+    <tr><td class="paramname">param_init</td><td><code>LIST_OF_LIST</code> for initial values </td></tr>
+    <tr><td class="paramname">prior_type</td><td>Shrinkage prior number </td></tr>
+    <tr><td class="paramname">grp_id</td><td><a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> group unique id </td></tr>
+    <tr><td class="paramname">own_id</td><td>own-lag id </td></tr>
+    <tr><td class="paramname">cross_id</td><td>cross-lag id </td></tr>
+    <tr><td class="paramname">grp_mat</td><td><a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> group matrix </td></tr>
+    <tr><td class="paramname">seed_chain</td><td>Random seed for each chain </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classbvhar_1_1McmcRollforecastRun.html#a050ba474021e42f64345965cd42df0de">bvhar::McmcRollforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>, and <a class="el" href="classbvhar_1_1McmcExpandforecastRun.html#aec5e1b0317f746ef38a7902805006ed8">bvhar::McmcExpandforecastRun&lt; BaseForecaster, isGroup, isUpdate &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a3fd3c69f8d8de30959ef4ae58c516e29" name="a3fd3c69f8d8de30959ef4ae58c516e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd3c69f8d8de30959ef4ae58c516e29">&#9670;&#160;</a></span>buildDesign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Eigen::MatrixXd <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::buildDesign </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>window</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Define VAR or VHAR design matrix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Window index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::MatrixXd Design matrix </dd></dl>
+
+</div>
+</div>
+<a id="afe50188f9e291c8cdad62874fa64c7f3" name="afe50188f9e291c8cdad62874fa64c7f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe50188f9e291c8cdad62874fa64c7f3">&#9670;&#160;</a></span>updateForecaster() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::updateForecaster </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbvhar_1_1McmcOutforecastRun.html#a00af68a47f9cf24b52994b76df757ee3">RecordType</a> &amp;&#160;</td>
+          <td class="paramname"><em>reg_record</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>window</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>chain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replace the forecast smart pointer given MCMC result. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reg_record</td><td>MCMC record </td></tr>
+    <tr><td class="paramname">window</td><td>Window index </td></tr>
+    <tr><td class="paramname">chain</td><td>Chain index </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4b409f6c029cc9f90ec243da13899f47" name="a4b409f6c029cc9f90ec243da13899f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b409f6c029cc9f90ec243da13899f47">&#9670;&#160;</a></span>initialize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::initialize </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>fit_record</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_prior</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_intercept</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>param_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prior_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>contem_prior</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>contem_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>contem_prior_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>own_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXi &amp;&#160;</td>
+          <td class="paramname"><em>cross_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>grp_mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
+          <td class="paramname"><em>seed_chain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize every member of <code><a class="el" href="classbvhar_1_1McmcOutforecastRun.html" title="Out-of-sample forecasting class.">McmcOutforecastRun</a></code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>Response matrix </td></tr>
+    <tr><td class="paramname">fit_record</td><td><code>LIST</code> of MCMC draws </td></tr>
+    <tr><td class="paramname">param_reg</td><td><code>LIST</code> of CTA hyperparameters </td></tr>
+    <tr><td class="paramname">param_prior</td><td><code>LIST</code> of shrinkage prior hyperparameters </td></tr>
+    <tr><td class="paramname">param_intercept</td><td><code>LIST</code> of Normal prior hyperparameters for constant term </td></tr>
+    <tr><td class="paramname">param_init</td><td><code>LIST_OF_LIST</code> for initial values </td></tr>
+    <tr><td class="paramname">prior_type</td><td>Shrinkage prior number </td></tr>
+    <tr><td class="paramname">grp_id</td><td><a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> group unique id </td></tr>
+    <tr><td class="paramname">own_id</td><td>own-lag id </td></tr>
+    <tr><td class="paramname">cross_id</td><td>cross-lag id </td></tr>
+    <tr><td class="paramname">grp_mat</td><td><a class="el" href="classbvhar_1_1Minnesota.html">Minnesota</a> group matrix </td></tr>
+    <tr><td class="paramname">seed_chain</td><td>Random seed for each chain </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbvhar_1_1McmcOutforecastRun_a4b409f6c029cc9f90ec243da13899f47_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_a4b409f6c029cc9f90ec243da13899f47_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1McmcOutforecastRun_a4b409f6c029cc9f90ec243da13899f47_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_a4b409f6c029cc9f90ec243da13899f47_cgraph">
+<area shape="rect" title="Initialize every member of McmcOutforecastRun" alt="" coords="5,101,212,141"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a6922809d8fc576ecb65fcec1188b9eab" title="Define input in each window." alt="" coords="260,5,467,45"/>
+<area shape="poly" title=" " alt="" coords="153,99,259,55,281,47,282,52,261,60,155,104"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a335f697bf8b459a8de73b29422fa2ec3" title="Initialize forecaster." alt="" coords="260,69,467,109"/>
+<area shape="poly" title=" " alt="" coords="212,106,246,101,247,107,212,111"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#a48d527155ee84b3d5cbb038f0fb5ea10" title="Initialize CTA." alt="" coords="260,133,467,173"/>
+<area shape="poly" title=" " alt="" coords="212,132,247,136,246,141,212,137"/>
+<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="295,222,432,247"/>
+<area shape="poly" title=" " alt="" coords="156,139,322,214,320,219,153,144"/>
+<area shape="poly" title=" " alt="" coords="322,224,313,214,318,204,335,198,363,195,399,199,409,204,413,210,409,213,406,208,398,204,363,201,336,203,322,208,319,213,326,220"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac75c076c43003ec5e1b5818d45185dd7" name="ac75c076c43003ec5e1b5818d45185dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75c076c43003ec5e1b5818d45185dd7">&#9670;&#160;</a></span>runGibbs() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::runGibbs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>window</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>chain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Conduct MCMC and update forecast pointer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Window index </td></tr>
+    <tr><td class="paramname">chain</td><td>Chain index </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classbvhar_1_1McmcOutforecastRun_ac75c076c43003ec5e1b5818d45185dd7_cgraph.png" border="0" usemap="#aclassbvhar_1_1McmcOutforecastRun_ac75c076c43003ec5e1b5818d45185dd7_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1McmcOutforecastRun_ac75c076c43003ec5e1b5818d45185dd7_cgraph" id="aclassbvhar_1_1McmcOutforecastRun_ac75c076c43003ec5e1b5818d45185dd7_cgraph">
+<area shape="rect" title="Conduct MCMC and update forecast pointer." alt="" coords="5,87,212,127"/>
+<area shape="rect" href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="283,5,443,45"/>
+<area shape="poly" title=" " alt="" coords="170,84,259,55,284,47,286,52,261,60,171,89"/>
+<area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="295,94,432,119"/>
+<area shape="poly" title=" " alt="" coords="212,104,281,104,281,109,212,109"/>
+<area shape="rect" href="classbvhar_1_1McmcOutforecastRun.html#afe50188f9e291c8cdad62874fa64c7f3" title="Replace the forecast smart pointer given MCMC result." alt="" coords="260,144,467,184"/>
+<area shape="poly" title=" " alt="" coords="199,124,261,138,260,144,198,129"/>
+<area shape="poly" title=" " alt="" coords="322,96,313,86,318,76,335,70,363,67,399,71,409,76,413,82,409,85,406,80,398,76,363,73,336,75,322,80,319,85,326,92"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="affa11838e63ce2075ffca0ae76a9b108" name="affa11838e63ce2075ffca0ae76a9b108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affa11838e63ce2075ffca0ae76a9b108">&#9670;&#160;</a></span>forecastWindow() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1610,8 +2613,8 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 
 </div>
 </div>
-<a id="af5b7258c33c5e9b018d190cb744f66ed" name="af5b7258c33c5e9b018d190cb744f66ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5b7258c33c5e9b018d190cb744f66ed">&#9670;&#160;</a></span>roll_mat</h2>
+<a id="a2287c4aa1f0f1788c75e881100179a0d" name="a2287c4aa1f0f1788c75e881100179a0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2287c4aa1f0f1788c75e881100179a0d">&#9670;&#160;</a></span>roll_mat</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1622,7 +2625,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt;Eigen::MatrixXd&gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::roll_mat</td>
+          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Eigen::MatrixXd &gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::roll_mat</td>
         </tr>
       </table>
   </td>
@@ -1634,8 +2637,8 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 
 </div>
 </div>
-<a id="a20918ee90a4ebf1eb45f608555d451a3" name="a20918ee90a4ebf1eb45f608555d451a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20918ee90a4ebf1eb45f608555d451a3">&#9670;&#160;</a></span>roll_y0</h2>
+<a id="a3c3740b99021fc6243874c2d0f5a679d" name="a3c3740b99021fc6243874c2d0f5a679d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c3740b99021fc6243874c2d0f5a679d">&#9670;&#160;</a></span>roll_y0</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1646,7 +2649,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt;Eigen::MatrixXd&gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::roll_y0</td>
+          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Eigen::MatrixXd &gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::roll_y0</td>
         </tr>
       </table>
   </td>
@@ -1682,8 +2685,8 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 
 </div>
 </div>
-<a id="a2c4e7968d490c073dbbe8eef50389c37" name="a2c4e7968d490c073dbbe8eef50389c37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c4e7968d490c073dbbe8eef50389c37">&#9670;&#160;</a></span>model</h2>
+<a id="a62156fabc2d9c90702f7a5e50f4d19a2" name="a62156fabc2d9c90702f7a5e50f4d19a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62156fabc2d9c90702f7a5e50f4d19a2">&#9670;&#160;</a></span>model</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1694,7 +2697,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt;<a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt;<a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt;<a class="el" href="classbvhar_1_1McmcOutforecastRun.html#aff6b4b5a75df913280fed4d3d7eb74ce">BaseMcmc</a>&gt; &gt; &gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::model</td>
+          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html#aff6b4b5a75df913280fed4d3d7eb74ce">BaseMcmc</a> &gt; &gt; &gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::model</td>
         </tr>
       </table>
   </td>
@@ -1706,8 +2709,8 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 
 </div>
 </div>
-<a id="a0cd89924b4b309e4896ecfc988777706" name="a0cd89924b4b309e4896ecfc988777706"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cd89924b4b309e4896ecfc988777706">&#9670;&#160;</a></span>forecaster</h2>
+<a id="a6b368aefb7e8a4850cc7e41e0bc79294" name="a6b368aefb7e8a4850cc7e41e0bc79294"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b368aefb7e8a4850cc7e41e0bc79294">&#9670;&#160;</a></span>forecaster</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1718,7 +2721,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt;<a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt;<a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt;BaseForecaster&gt; &gt; &gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::forecaster</td>
+          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; BaseForecaster &gt; &gt; &gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::forecaster</td>
         </tr>
       </table>
   </td>
@@ -1730,8 +2733,8 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 
 </div>
 </div>
-<a id="a23349ebc472ff8ae8189472c8484a212" name="a23349ebc472ff8ae8189472c8484a212"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23349ebc472ff8ae8189472c8484a212">&#9670;&#160;</a></span>out_forecast</h2>
+<a id="a85b33294a9f100e73be4a79dc63a0ec3" name="a85b33294a9f100e73be4a79dc63a0ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85b33294a9f100e73be4a79dc63a0ec3">&#9670;&#160;</a></span>out_forecast</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1742,7 +2745,7 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt;<a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt;Eigen::MatrixXd&gt; &gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::out_forecast</td>
+          <td class="memname"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; Eigen::MatrixXd &gt; &gt; <a class="el" href="classbvhar_1_1McmcOutforecastRun.html">bvhar::McmcOutforecastRun</a>&lt; BaseForecaster, isUpdate &gt;::out_forecast</td>
         </tr>
       </table>
   </td>
@@ -1778,7 +2781,8 @@ template&lt;typename BaseForecaster  = RegForecaster, bool isUpdate = true&gt; <
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="bayes_2triangular_2deprecated_2forecaster_8h_source.html">bayes/triangular/deprecated/forecaster.h</a></li>
 <li><a class="el" href="bayes_2triangular_2forecaster_8h_source.html">bayes/triangular/forecaster.h</a></li>
 </ul>
 </div><!-- contents -->

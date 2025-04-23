@@ -1,6 +1,12 @@
 var structbvhar_1_1SsvsParams =
 [
+    [ "SsvsParams", "structbvhar_1_1SsvsParams.html#ab29f7c89a36c7a8d7265d5ebc764ca3f", null ],
     [ "SsvsParams", "structbvhar_1_1SsvsParams.html#a7e85253c125f222232df795c1a793c6c", null ],
+    [ "_s1", "structbvhar_1_1SsvsParams.html#adc78f5c57ead15fe6615b0b6912c6575", null ],
+    [ "_s2", "structbvhar_1_1SsvsParams.html#a131bf1fc6592691af00fd296aac14d39", null ],
+    [ "_slab_shape", "structbvhar_1_1SsvsParams.html#afd521e1f8c9af611694f2dedeec7326f", null ],
+    [ "_slab_scl", "structbvhar_1_1SsvsParams.html#a957c030727d94528caaa9e1acb60cac1", null ],
+    [ "_grid_size", "structbvhar_1_1SsvsParams.html#a09686b62d2b1b7a5299d46ea2b8214d0", null ],
     [ "_coef_s1", "structbvhar_1_1SsvsParams.html#ada11ef8265d3ff9cbb418ef7cba9b23c", null ],
     [ "_coef_s2", "structbvhar_1_1SsvsParams.html#a2794830eaacc91198314e7d766490fa7", null ],
     [ "_contem_s1", "structbvhar_1_1SsvsParams.html#a6f54c98a24a30b93ea6a10c9607c57c7", null ],

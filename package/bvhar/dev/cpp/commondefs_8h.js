@@ -12,6 +12,7 @@ var commondefs_8h =
     [ "CAST", "commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd", null ],
     [ "CAST_DOUBLE", "commondefs_8h.html#ad3bb8a8eb9c7d8cf9b00154a59ccf7ac", null ],
     [ "CAST_INT", "commondefs_8h.html#a5582ac6edc43337a2073691b1703b89d", null ],
+    [ "CAST_BOOL", "commondefs_8h.html#a4faf52177bc977be5a96924d921ea484", null ],
     [ "CONTAINS", "commondefs_8h.html#a33bceaf7cf3832becbb90414b892ada0", null ],
     [ "CREATE_LIST", "commondefs_8h.html#a0eaf7b50cdcc71a7812e26908299f8aa", null ],
     [ "NAMED", "commondefs_8h.html#a6df7b022ffdb2532f2a0b31f12be6581", null ],

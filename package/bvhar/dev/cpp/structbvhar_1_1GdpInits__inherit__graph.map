@@ -1,7 +1,7 @@
 <map id="bvhar::GdpInits&lt; BaseRegInits &gt;" name="bvhar::GdpInits&lt; BaseRegInits &gt;">
-<area shape="rect" id="Node000001" title="MCMC initial values for McmcGdp" alt="" coords="5,152,199,192"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1LdltInits.html" title="MCMC initial values for McmcReg" alt="" coords="43,79,161,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,118,105,152,99,152,99,118"/>
-<area shape="rect" id="Node000003" href="$structbvhar_1_1RegInits.html" title="MCMC initial values for McmcTriangular" alt="" coords="42,5,162,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,44,105,79,99,79,99,44"/>
+<area shape="rect" id="Node000001" title="MCMC initial values for GdpUpdater" alt="" coords="67,79,260,119"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1ShrinkageInits.html" title="MCMC initial values for ShrinkageUpdater" alt="" coords="5,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,39,146,77,142,80,104,42"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="189,5,295,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,42,184,80,180,77,219,39"/>
 </map>

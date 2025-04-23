@@ -15,6 +15,6 @@ var bayes_2triangular_2forecaster_8h =
     [ "bvhar::McmcVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVarforecastRun.html", "classbvhar_1_1McmcVarforecastRun" ],
     [ "bvhar::McmcVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVharforecastRun.html", "classbvhar_1_1McmcVharforecastRun" ],
     [ "initialize_forecaster", "bayes_2triangular_2forecaster_8h.html#a8c57200974000a91da089ce0feaa6edd", null ],
-    [ "initialize_outforecaster", "bayes_2triangular_2forecaster_8h.html#a47d9b25c0645dc2e5ea35098d737f241", null ],
-    [ "initialize_outforecaster", "bayes_2triangular_2forecaster_8h.html#ac44d848150794fc3319c7cd7a0e85183", null ]
+    [ "initialize_outforecaster", "bayes_2triangular_2forecaster_8h.html#ae32bad636dbc3a7115f485622164cbfe", null ],
+    [ "initialize_outforecaster", "bayes_2triangular_2forecaster_8h.html#a8cba7f9fa0c56fd41c83e6954193e689", null ]
 ];

@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9002</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9003</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -102,10 +102,25 @@ $(document).ready(function(){initNavTree('structbvhar_1_1SparseRecords.html','')
 <p>Signal adaptive variable selector records.  
  <a href="structbvhar_1_1SparseRecords.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="config_8h_source.html">config.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="triangular_2config_8h_source.html">config.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:af23628b32899b09043575f1073898394" id="r_af23628b32899b09043575f1073898394"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#af23628b32899b09043575f1073898394">SparseRecords</a> ()</td></tr>
+<tr class="separator:af23628b32899b09043575f1073898394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa53c94dae1bd38d707bd4ddd4d5df17e" id="r_aa53c94dae1bd38d707bd4ddd4d5df17e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#aa53c94dae1bd38d707bd4ddd4d5df17e">SparseRecords</a> (int num_iter, int dim, int num_design, int num_coef, int num_lowerchol)</td></tr>
+<tr class="separator:aa53c94dae1bd38d707bd4ddd4d5df17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af10ccc1208722f935cdb496d454ed0d8" id="r_af10ccc1208722f935cdb496d454ed0d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#af10ccc1208722f935cdb496d454ed0d8">SparseRecords</a> (const Eigen::MatrixXd &amp;alpha_record, const Eigen::MatrixXd &amp;a_record)</td></tr>
+<tr class="separator:af10ccc1208722f935cdb496d454ed0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ceaf55ece71219dc670eb13113b0b71" id="r_a8ceaf55ece71219dc670eb13113b0b71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71">assignRecords</a> (int id, const Eigen::MatrixXd &amp;coef_mat, const Eigen::VectorXd &amp;contem_coef)</td></tr>
+<tr class="memdesc:a8ceaf55ece71219dc670eb13113b0b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign MCMC draw to the draw matrix.  <br /></td></tr>
+<tr class="separator:a8ceaf55ece71219dc670eb13113b0b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6746817444f20d0107601b6b51b4e623" id="r_a6746817444f20d0107601b6b51b4e623"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#a6746817444f20d0107601b6b51b4e623">assignRecords</a> (int id, int num_alpha, int dim, int nrow_coef, const Eigen::MatrixXd &amp;coef_mat, const Eigen::VectorXd &amp;contem_coef)</td></tr>
+<tr class="memdesc:a6746817444f20d0107601b6b51b4e623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign MCMC draw to the draw matrix.    <br /></td></tr>
+<tr class="separator:a6746817444f20d0107601b6b51b4e623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af030eeeb644d3022e097a6abd56011bd" id="r_af030eeeb644d3022e097a6abd56011bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#af030eeeb644d3022e097a6abd56011bd">appendRecords</a> (Rcpp::List &amp;list, int dim, int num_alpha, bool include_mean)</td></tr>
+<tr class="memdesc:af030eeeb644d3022e097a6abd56011bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append sparse records to the MCMC record <code>LIST</code>  <br /></td></tr>
+<tr class="separator:af030eeeb644d3022e097a6abd56011bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af23628b32899b09043575f1073898394" id="r_af23628b32899b09043575f1073898394"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#af23628b32899b09043575f1073898394">SparseRecords</a> ()</td></tr>
 <tr class="separator:af23628b32899b09043575f1073898394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa53c94dae1bd38d707bd4ddd4d5df17e" id="r_aa53c94dae1bd38d707bd4ddd4d5df17e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbvhar_1_1SparseRecords.html#aa53c94dae1bd38d707bd4ddd4d5df17e">SparseRecords</a> (int num_iter, int dim, int num_design, int num_coef, int num_lowerchol)</td></tr>
@@ -133,7 +148,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>Signal adaptive variable selector records. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af23628b32899b09043575f1073898394" name="af23628b32899b09043575f1073898394"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af23628b32899b09043575f1073898394">&#9670;&#160;</a></span>SparseRecords() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af23628b32899b09043575f1073898394">&#9670;&#160;</a></span>SparseRecords() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,7 +173,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aa53c94dae1bd38d707bd4ddd4d5df17e" name="aa53c94dae1bd38d707bd4ddd4d5df17e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa53c94dae1bd38d707bd4ddd4d5df17e">&#9670;&#160;</a></span>SparseRecords() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa53c94dae1bd38d707bd4ddd4d5df17e">&#9670;&#160;</a></span>SparseRecords() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,7 +227,122 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="af10ccc1208722f935cdb496d454ed0d8" name="af10ccc1208722f935cdb496d454ed0d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af10ccc1208722f935cdb496d454ed0d8">&#9670;&#160;</a></span>SparseRecords() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af10ccc1208722f935cdb496d454ed0d8">&#9670;&#160;</a></span>SparseRecords() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bvhar::SparseRecords::SparseRecords </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>alpha_record</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>a_record</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af23628b32899b09043575f1073898394" name="af23628b32899b09043575f1073898394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af23628b32899b09043575f1073898394">&#9670;&#160;</a></span>SparseRecords() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bvhar::SparseRecords::SparseRecords </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa53c94dae1bd38d707bd4ddd4d5df17e" name="aa53c94dae1bd38d707bd4ddd4d5df17e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa53c94dae1bd38d707bd4ddd4d5df17e">&#9670;&#160;</a></span>SparseRecords() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bvhar::SparseRecords::SparseRecords </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_iter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_design</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_coef</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_lowerchol</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af10ccc1208722f935cdb496d454ed0d8" name="af10ccc1208722f935cdb496d454ed0d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af10ccc1208722f935cdb496d454ed0d8">&#9670;&#160;</a></span>SparseRecords() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,7 +379,7 @@ Public Attributes</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8ceaf55ece71219dc670eb13113b0b71" name="a8ceaf55ece71219dc670eb13113b0b71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ceaf55ece71219dc670eb13113b0b71">&#9670;&#160;</a></span>assignRecords() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ceaf55ece71219dc670eb13113b0b71">&#9670;&#160;</a></span>assignRecords() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,7 +431,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a6746817444f20d0107601b6b51b4e623" name="a6746817444f20d0107601b6b51b4e623"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6746817444f20d0107601b6b51b4e623">&#9670;&#160;</a></span>assignRecords() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6746817444f20d0107601b6b51b4e623">&#9670;&#160;</a></span>assignRecords() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,7 +504,191 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="af030eeeb644d3022e097a6abd56011bd" name="af030eeeb644d3022e097a6abd56011bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af030eeeb644d3022e097a6abd56011bd">&#9670;&#160;</a></span>appendRecords()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af030eeeb644d3022e097a6abd56011bd">&#9670;&#160;</a></span>appendRecords() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bvhar::SparseRecords::appendRecords </td>
+          <td>(</td>
+          <td class="paramtype">Rcpp::List &amp;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include_mean</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Append sparse records to the MCMC record <code>LIST</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">list</td><td>MCMC record <code>LIST</code> </td></tr>
+    <tr><td class="paramname">dim</td><td>Time series dimension </td></tr>
+    <tr><td class="paramname">num_alpha</td><td>The number of coefficient elements except constant term </td></tr>
+    <tr><td class="paramname">include_mean</td><td>If <code>true</code>, constant term is included </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8ceaf55ece71219dc670eb13113b0b71" name="a8ceaf55ece71219dc670eb13113b0b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ceaf55ece71219dc670eb13113b0b71">&#9670;&#160;</a></span>assignRecords() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bvhar::SparseRecords::assignRecords </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>coef_mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>contem_coef</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assign MCMC draw to the draw matrix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">coef_mat</td><td>Coefficient matrix processed by SAVS </td></tr>
+    <tr><td class="paramname">contem_coef</td><td>Contemporaneous vector processed by SAVS </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6746817444f20d0107601b6b51b4e623" name="a6746817444f20d0107601b6b51b4e623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6746817444f20d0107601b6b51b4e623">&#9670;&#160;</a></span>assignRecords() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bvhar::SparseRecords::assignRecords </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nrow_coef</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>coef_mat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>contem_coef</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assign MCMC draw to the draw matrix.   </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>MCMC step </td></tr>
+    <tr><td class="paramname">coef_mat</td><td>Coefficient matrix processed by SAVS </td></tr>
+    <tr><td class="paramname">contem_coef</td><td>Contemporaneous vector processed by SAVS  </td></tr>
+    <tr><td class="paramname">num_alpha</td><td>The number of coefficient elements except constant term </td></tr>
+    <tr><td class="paramname">dim</td><td>Time series dimension </td></tr>
+    <tr><td class="paramname">nrow_coef</td><td>Number of rows of coefficient matrix </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af030eeeb644d3022e097a6abd56011bd" name="af030eeeb644d3022e097a6abd56011bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af030eeeb644d3022e097a6abd56011bd">&#9670;&#160;</a></span>appendRecords() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,8 +775,9 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="config_8h_source.html">config.h</a></li>
+<hr/>The documentation for this struct was generated from the following files:<ul>
+<li><a class="el" href="triangular_2config_8h_source.html">triangular/config.h</a></li>
+<li><a class="el" href="triangular_2deprecated_2config_8h_source.html">triangular/deprecated/config.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

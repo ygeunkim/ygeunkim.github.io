@@ -50,5 +50,6 @@ var searchData=
   ['minnrecords_47',['MinnRecords',['../structbvhar_1_1MinnRecords.html',1,'bvhar']]],
   ['minnspec_48',['MinnSpec',['../structbvhar_1_1MinnSpec.html',1,'bvhar']]],
   ['minnspillover_49',['MinnSpillover',['../classbvhar_1_1MinnSpillover.html',1,'bvhar']]],
-  ['multiols_50',['MultiOls',['../classbvhar_1_1MultiOls.html',1,'bvhar']]]
+  ['minnupdater_50',['MinnUpdater',['../classbvhar_1_1MinnUpdater.html',1,'bvhar']]],
+  ['multiols_51',['MultiOls',['../classbvhar_1_1MultiOls.html',1,'bvhar']]]
 ];

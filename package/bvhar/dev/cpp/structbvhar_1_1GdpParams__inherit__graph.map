@@ -1,7 +1,7 @@
 <map id="bvhar::GdpParams&lt; BaseRegParams &gt;" name="bvhar::GdpParams&lt; BaseRegParams &gt;">
-<area shape="rect" id="Node000001" title="Hyperparameters for GDP prior McmcGdp" alt="" coords="5,152,219,192"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="42,79,182,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,118,115,152,109,152,109,118"/>
-<area shape="rect" id="Node000003" href="$structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="35,5,189,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,44,115,79,109,79,109,44"/>
+<area shape="rect" id="Node000001" title="Hyperparameters for GDP prior GdpUpdater" alt="" coords="76,79,289,119"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1ShrinkageParams.html" title="Hyperparameters for shrinkage priors ShrinkageUpdater" alt="" coords="5,5,184,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,38,163,77,160,81,116,42"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="209,5,335,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,42,206,81,202,77,247,38"/>
 </map>

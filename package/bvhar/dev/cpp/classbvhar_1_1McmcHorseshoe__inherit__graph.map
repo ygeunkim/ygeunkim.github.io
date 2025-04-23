@@ -3,7 +3,9 @@
 <area shape="rect" id="Node000002" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="31,152,161,177"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,191,99,225,93,225,93,191"/>
 <area shape="rect" id="Node000003" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="11,79,181,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,118,99,152,93,152,93,118"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,118,92,152,86,152,85,118"/>
+<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="107,118,106,152,100,152,102,118"/>
 <area shape="rect" id="Node000004" href="$classbvhar_1_1McmcAlgo.html" title="Base class for MCMC algorithm." alt="" coords="29,5,163,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="99,44,99,79,93,79,93,44"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,44,92,78,86,79,85,45"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="107,45,106,79,100,78,102,44"/>
 </map>

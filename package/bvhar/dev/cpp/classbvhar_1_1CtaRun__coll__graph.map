@@ -1,5 +1,6 @@
 <map id="bvhar::CtaRun&lt; BaseMcmc, isGroup &gt;" name="bvhar::CtaRun&lt; BaseMcmc, isGroup &gt;">
 <area shape="rect" id="Node000001" title="Class that conducts MCMC using CTA." alt="" coords="5,79,209,119"/>
 <area shape="rect" id="Node000002" href="$classbvhar_1_1McmcRun.html" title="Class that conducts MCMC." alt="" coords="42,5,173,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,44,110,79,105,79,105,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,44,102,78,97,79,96,44"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="118,44,118,79,112,78,113,44"/>
 </map>
