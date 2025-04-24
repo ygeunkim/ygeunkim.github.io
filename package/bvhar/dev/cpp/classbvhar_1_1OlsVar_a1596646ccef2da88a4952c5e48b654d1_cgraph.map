@@ -1,11 +1,8 @@
 <map id="bvhar::OlsVar::OlsVar" name="bvhar::OlsVar::OlsVar">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,164,81"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#af89bd7ebd3a9fa3977460958dd0e7083" title=" " alt="" coords="219,5,342,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,53,217,32,218,37,135,58"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#ae1354f368716d19119b45819613cd05b" title=" " alt="" coords="397,31,520,56"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="164,61,383,46,384,51,164,66"/>
-<area shape="rect" id="Node000004" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="212,131,349,156"/>
-<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="120,79,235,123,233,128,118,84"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="343,24,384,30,383,35,342,29"/>
-<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="251,132,245,122,248,113,261,106,281,104,305,108,315,116,312,120,303,112,281,109,262,111,252,116,250,122,256,129"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,164,56"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#af89bd7ebd3a9fa3977460958dd0e7083" title=" " alt="" coords="212,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,30,198,25,199,31,165,35"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#ae1354f368716d19119b45819613cd05b" title=" " alt="" coords="383,31,505,56"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="164,41,369,41,369,46,164,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,24,369,30,369,35,334,30"/>
 </map>

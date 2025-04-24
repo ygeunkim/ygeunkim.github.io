@@ -1,37 +1,34 @@
 <map id="bvhar::McmcTriangular::doPosteriorDraws" name="bvhar::McmcTriangular::doPosteriorDraws">
-<area shape="rect" id="Node000001" title="MCMC posterior sampling step." alt="" coords="5,353,176,393"/>
+<area shape="rect" id="Node000001" title="MCMC posterior sampling step." alt="" coords="5,311,176,351"/>
 <area shape="rect" id="Node000002" href="$classbvhar_1_1McmcAlgo.html#a24bbd89566929c5e6419135e7ad7aa9b" title="Increment the MCMC step." alt="" coords="224,5,420,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,352,100,291,122,207,139,161,161,117,189,76,222,40,228,36,231,40,226,44,193,79,166,120,144,163,127,208,106,292,96,353"/>
-<area shape="rect" id="Node000003" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="253,79,391,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,352,108,303,133,239,170,172,194,141,222,115,239,104,242,109,226,119,198,145,175,175,137,241,113,305,99,353"/>
-<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884" title="Compute L." alt="" coords="237,129,407,169"/>
-<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="98,351,116,315,143,268,179,220,222,179,230,173,233,178,226,183,183,224,147,271,121,317,103,354"/>
-<area shape="rect" id="Node000006" href="$classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0" title="Draw coefficients." alt="" coords="237,193,407,233"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="106,351,154,297,187,268,223,242,234,236,237,241,225,247,190,272,158,301,110,354"/>
-<area shape="rect" id="Node000009" href="$classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd" title="Draw precision of coefficient based on each shrinkage priors." alt="" coords="237,257,407,297"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="129,350,223,306,242,299,244,304,225,311,131,355"/>
-<area shape="rect" id="Node000010" href="$classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4" title="Draw contemporaneous coefficients." alt="" coords="237,321,407,361"/>
-<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="176,358,223,352,223,357,177,363"/>
-<area shape="rect" id="Node000012" href="$classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="237,385,407,425"/>
-<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="177,382,223,388,223,394,176,387"/>
-<area shape="rect" id="Node000013" href="$classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295" title="Compute residual matrix for orthogonalization." alt="" coords="237,449,407,489"/>
-<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="131,390,225,434,244,442,242,447,223,439,129,395"/>
-<area shape="rect" id="Node000014" href="$classbvhar_1_1McmcTriangular.html#ab108d89d73c05dd0de94add817f1d390" title="Update SAVS penalty." alt="" coords="237,513,407,553"/>
-<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="110,391,158,444,190,473,225,498,237,505,234,509,223,503,187,477,154,448,106,395"/>
-<area shape="rect" id="Node000015" href="$classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d" title="Save MCMC records." alt="" coords="237,577,407,617"/>
-<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="103,392,121,428,147,474,183,522,226,563,233,568,230,572,222,567,179,525,143,477,116,431,98,394"/>
-<area shape="rect" id="Node000016" href="$classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b" title="Draw state vector." alt="" coords="237,641,407,681"/>
-<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="99,392,114,440,139,503,176,569,199,600,226,627,232,631,229,636,222,631,195,603,171,572,134,505,109,442,94,394"/>
-<area shape="rect" id="Node000017" href="$classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3" title="Compute D." alt="" coords="237,705,407,745"/>
-<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="97,392,108,451,130,531,147,574,168,616,195,656,226,691,231,695,228,699,222,695,190,659,164,619,142,576,125,533,103,452,92,393"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="285,80,277,70,281,60,296,54,322,52,354,56,367,65,363,70,352,61,322,57,297,59,284,64,282,70,289,77"/>
-<area shape="rect" id="Node000005" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="468,136,637,161"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="408,146,454,146,454,151,408,151"/>
-<area shape="rect" id="Node000007" href="$namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b" title=" " alt="" coords="485,264,620,289"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="396,230,493,258,492,263,394,235"/>
-<area shape="rect" id="Node000008" href="$namespacebvhar.html#a2660b13d27969ebb81758734cbdd4fc9" title=" " alt="" coords="471,200,635,225"/>
-<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="408,210,457,210,457,215,408,215"/>
-<area shape="poly" id="edge11_Node000010_Node000007" title=" " alt="" coords="394,318,492,291,493,296,396,323"/>
-<area shape="rect" id="Node000011" href="$namespacebvhar.html#a3a8cdbc5d65e51aaf92c80f97b989972" title=" " alt="" coords="485,328,621,353"/>
-<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="408,338,471,338,471,343,408,343"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,310,105,256,128,184,145,145,166,107,192,72,222,41,231,35,234,39,226,45,196,75,171,110,150,147,133,186,110,258,98,312"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884" title="Compute L." alt="" coords="237,55,407,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,310,112,267,138,212,175,155,197,129,222,105,229,100,232,105,226,109,201,132,179,158,143,215,117,269,101,312"/>
+<area shape="rect" id="Node000005" href="$classbvhar_1_1McmcTriangular.html#a0af184d8f06d56e57c4af519075f76d0" title="Draw coefficients." alt="" coords="237,119,407,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="101,310,148,241,183,203,222,169,232,164,234,168,226,173,186,206,153,244,106,313"/>
+<area shape="rect" id="Node000008" href="$classbvhar_1_1McmcTriangular.html#a137b416d4a2e19d787334da841e7cacd" title="Draw precision of coefficient based on each shrinkage priors." alt="" coords="237,183,407,223"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="113,309,162,271,223,233,237,226,240,231,225,238,165,275,117,313"/>
+<area shape="rect" id="Node000009" href="$classbvhar_1_1McmcTriangular.html#aea9fddcef3df0b060da051f0fa6b49a4" title="Draw contemporaneous coefficients." alt="" coords="237,247,407,287"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="163,309,235,288,237,294,164,314"/>
+<area shape="rect" id="Node000011" href="$classbvhar_1_1McmcTriangular.html#a20f715f57006061f8b7950fc1ceef57c" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="237,311,407,351"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="176,329,223,329,223,334,176,334"/>
+<area shape="rect" id="Node000012" href="$classbvhar_1_1McmcTriangular.html#a2fc2be3125d2df3ff0f95bffa2a8e295" title="Compute residual matrix for orthogonalization." alt="" coords="237,375,407,415"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="164,349,237,369,235,374,163,354"/>
+<area shape="rect" id="Node000013" href="$classbvhar_1_1McmcTriangular.html#ab108d89d73c05dd0de94add817f1d390" title="Update SAVS penalty." alt="" coords="237,439,407,479"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="117,349,165,387,225,425,240,432,237,437,223,430,162,392,113,353"/>
+<area shape="rect" id="Node000014" href="$classbvhar_1_1McmcTriangular.html#ad44ecbfc4d7c770777b04d8d55c3c40d" title="Save MCMC records." alt="" coords="237,503,407,543"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="106,350,153,418,186,456,226,489,234,495,232,499,222,493,183,460,148,422,101,353"/>
+<area shape="rect" id="Node000015" href="$classbvhar_1_1McmcTriangular.html#a1ad127a956e41d6084da33b8614f697b" title="Draw state vector." alt="" coords="237,567,407,607"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="101,351,117,393,143,448,179,504,201,530,226,553,232,558,229,562,222,557,197,534,175,508,138,450,112,395,96,353"/>
+<area shape="rect" id="Node000016" href="$classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3" title="Compute D." alt="" coords="237,631,407,671"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="98,351,111,404,134,476,151,514,172,551,197,587,226,617,231,622,228,626,222,621,193,590,167,554,147,516,129,477,105,405,93,352"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959" title=" " alt="" coords="468,63,637,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="408,73,454,73,454,78,408,78"/>
+<area shape="rect" id="Node000006" href="$namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b" title=" " alt="" coords="485,191,620,216"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="396,157,493,184,492,189,394,162"/>
+<area shape="rect" id="Node000007" href="$namespacebvhar.html#a2660b13d27969ebb81758734cbdd4fc9" title=" " alt="" coords="471,127,635,152"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="408,137,457,137,457,142,408,142"/>
+<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="394,245,492,217,493,222,396,250"/>
+<area shape="rect" id="Node000010" href="$namespacebvhar.html#a3a8cdbc5d65e51aaf92c80f97b989972" title=" " alt="" coords="485,255,621,280"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="408,265,471,265,471,270,408,270"/>
 </map>
