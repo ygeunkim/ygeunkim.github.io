@@ -195,7 +195,7 @@ var namespacebvhar =
     [ "ssvs_scl_griddy", "namespacebvhar.html#afab906218ee3f6f4fe29415da9c5cea4", null ],
     [ "varsv_ht", "namespacebvhar.html#a35f9e0939e2342d23a6763fbedf113bf", null ],
     [ "varsv_sigh", "namespacebvhar.html#afe5a3ebee84622c2c286a387cf545a7c", null ],
-    [ "varsv_h0", "namespacebvhar.html#ad19a0535c3496e83c21c225d85d982cd", null ],
+    [ "varsv_h0", "namespacebvhar.html#afff9e42bb32ac9d0d5f4cbf9327d9eac", null ],
     [ "initialize_shrinkageupdater", "namespacebvhar.html#a05df9ac8e35aa795fc27d6f95e2fbfe8", null ],
     [ "initialize_record", "namespacebvhar.html#a1c28510c1a60c0d61f1fc7ccadd03fd9", null ],
     [ "initialize_record", "namespacebvhar.html#a6c0609624e6286035939a41a47027e68", null ],
