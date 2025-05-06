@@ -60,16 +60,16 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classbvhar_1_1DynamicLdltSpillover.html#ad23dabf1918474bb356e45fc20346a25",
-"classbvhar_1_1McmcForecaster.html#a596f87fb1fa479391eefa79190489d6d",
-"classbvhar_1_1McmcOutforecastRun.html#aff2dd1ee4788f37618dd55326f6c19bf",
-"classbvhar_1_1McmcTriangular.html#a22e4739c2db342b3aa86e7b1a9a916d3",
+"classbvhar_1_1McmcForecaster.html#a97bcb9c5e09a7dc75792e11d29c3cf09",
+"classbvhar_1_1McmcReg.html#a5e8e04864c69b2ed4aa8e4999d7ef3fa",
+"classbvhar_1_1McmcTriangular.html#a55a7767aa098f060189fb912645b1884",
 "classbvhar_1_1MhMinnesota.html",
 "classbvhar_1_1Minnesota.html#a13e4dc97759cd9eec1fe06a225a775d6",
 "classbvhar_1_1RegForecaster.html#acccc8c48b04f1c62ef570a0280d31930",
 "functions_m.html",
 "random_8h.html#ac20c97e92d1e9eb026ed1fd7e9d1f364",
 "structbvhar_1_1LdltRecords.html#a380c49625bdf0b7a044d142622108f83",
-"structbvhar_1_1RegParams.html#a06f4e19e97dbef5ebb9ef7d518be0905",
+"structbvhar_1_1RegParams.html#a58201350db3bc29b1304bcad1bd41f50",
 "structbvhar_1_1SsvsRecords.html#afaecdb4e13eab1ce4c6bbf8e1bddec42"
 ];
 
