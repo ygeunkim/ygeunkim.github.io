@@ -7,7 +7,7 @@ var classbvhar_1_1RegForecaster =
     [ "updateParams", "classbvhar_1_1RegForecaster.html#ae1b154995cfc1479114e42106af56f54", null ],
     [ "updateVariance", "classbvhar_1_1RegForecaster.html#a3d001246bcf0379715ca2a930094cfcb", null ],
     [ "updateLpl", "classbvhar_1_1RegForecaster.html#a1ff0b1fe040e48b918ae4727b92c8581", null ],
-    [ "updateParams", "classbvhar_1_1RegForecaster.html#ae1b154995cfc1479114e42106af56f54", null ],
+    [ "updateParams", "classbvhar_1_1RegForecaster.html#a18a0df700380ece625b22268bd13ae79", null ],
     [ "updateVariance", "classbvhar_1_1RegForecaster.html#a3d001246bcf0379715ca2a930094cfcb", null ],
     [ "updateLpl", "classbvhar_1_1RegForecaster.html#a1ff0b1fe040e48b918ae4727b92c8581", null ]
 ];

@@ -1,0 +1,9 @@
+<map id="bvhar::BayesForecaster::forecastOut" name="bvhar::BayesForecaster::forecastOut">
+<area shape="rect" id="Node000001" title="Draw i&#45;th forecast." alt="" coords="5,69,180,109"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1MultistepForecaster.html#ab369c30c5a78ba3bb1a725a82602a8ac" title="Set the initial lagged unit." alt="" coords="228,5,424,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,67,239,46,240,52,167,72"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1MultistepForecaster.html#a66cd2e57b580f295e5bdbbe97ac73b21" title="Compute Linear predictor." alt="" coords="228,69,424,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,87,215,87,215,92,181,92"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1MultistepForecaster.html#ac5a5604891773202acd4b773e7c30609" title="Move the lagged unit element based on one&#45;step ahead forecasting." alt="" coords="228,133,424,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,107,240,127,239,132,166,112"/>
+</map>

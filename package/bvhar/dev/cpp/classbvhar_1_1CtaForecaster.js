@@ -1,0 +1,28 @@
+var classbvhar_1_1CtaForecaster =
+[
+    [ "CtaForecaster", "classbvhar_1_1CtaForecaster.html#aea26af51e461faefa0342a6ff20199a2", null ],
+    [ "~CtaForecaster", "classbvhar_1_1CtaForecaster.html#ab05c5c66cff279ca09d215c65770c5d3", null ],
+    [ "forecastDensity", "classbvhar_1_1CtaForecaster.html#a8a2a03b259de1b76de93a7eb795f1196", null ],
+    [ "forecastDensity", "classbvhar_1_1CtaForecaster.html#a4ff2c01b153fc235548e527e25f5216d", null ],
+    [ "getLastForecast", "classbvhar_1_1CtaForecaster.html#a8ba258507bcc3d7e26709b60a3287a1b", null ],
+    [ "getLastForecast", "classbvhar_1_1CtaForecaster.html#ac981741c5ca87fa67a1aea352ddfd233", null ],
+    [ "initLagged", "classbvhar_1_1CtaForecaster.html#a7b2596b6ed5d5105790e0c3f57525975", null ],
+    [ "initRecursion", "classbvhar_1_1CtaForecaster.html#ab7e0d93183569fc6055064af47fa4403", null ],
+    [ "setRecursion", "classbvhar_1_1CtaForecaster.html#a4e004309115fca0884a329451ee05e55", null ],
+    [ "updatePred", "classbvhar_1_1CtaForecaster.html#aeea0ab765cd8b36b059bbd1bbfb69cd8", null ],
+    [ "updateRecursion", "classbvhar_1_1CtaForecaster.html#a2720e2fd8bed3126a1c9afc3fbf45341", null ],
+    [ "computeMean", "classbvhar_1_1CtaForecaster.html#af768a0ed672e6a8d921ffa57d7a96ac8", null ],
+    [ "updateVariance", "classbvhar_1_1CtaForecaster.html#a99025e1b1b43053f356a785beac5250c", null ],
+    [ "reg_record", "classbvhar_1_1CtaForecaster.html#a49bf03e020d2b1c5350313606cf36d1e", null ],
+    [ "include_mean", "classbvhar_1_1CtaForecaster.html#afe01a03b6f419c763c28d24c9311e36c", null ],
+    [ "stable_filter", "classbvhar_1_1CtaForecaster.html#ab2a2787bef41d0c06f6536b53c45f63b", null ],
+    [ "dim", "classbvhar_1_1CtaForecaster.html#acfef4535c9a8bfcc2836ded07a4db12c", null ],
+    [ "dim_design", "classbvhar_1_1CtaForecaster.html#a37b483e606743dfd2672d0e2d2535e32", null ],
+    [ "num_coef", "classbvhar_1_1CtaForecaster.html#a7ee320b9cf2e39d3617218523bd28557", null ],
+    [ "num_alpha", "classbvhar_1_1CtaForecaster.html#a1a8b0186a1bee0e9ff41515bb82eb956", null ],
+    [ "nrow_coef", "classbvhar_1_1CtaForecaster.html#afde6e3b3a2133d88361825600ebc3544", null ],
+    [ "sv_update", "classbvhar_1_1CtaForecaster.html#af21264ed02f366a110d7af9984d85c18", null ],
+    [ "coef_mat", "classbvhar_1_1CtaForecaster.html#a9d95cb084f0ea81b97bbce2d8552d84c", null ],
+    [ "contem_mat", "classbvhar_1_1CtaForecaster.html#af893cffd4c1631ae7c9bfe5cd4c0b791", null ],
+    [ "standard_normal", "classbvhar_1_1CtaForecaster.html#ad2c53d9be20585595d378fc63472010f", null ]
+];

@@ -26,6 +26,11 @@ var hierarchy =
     ] ],
     [ "bvhar::bvharinterrupt", "classbvhar_1_1bvharinterrupt.html", null ],
     [ "bvhar::bvharprogress", "classbvhar_1_1bvharprogress.html", null ],
+    [ "bvhar::CtaOutforecastInterface< BaseForecaster >", "classbvhar_1_1CtaOutforecastInterface.html", null ],
+    [ "CtaRollforecastRun", null, [
+      [ "bvhar::CtaVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaVarforecastRun.html", null ],
+      [ "bvhar::CtaVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaVharforecastRun.html", null ]
+    ] ],
     [ "bvhar::DynamicLdltSpillover", "classbvhar_1_1DynamicLdltSpillover.html", null ],
     [ "bvhar::DynamicSvSpillover", "classbvhar_1_1DynamicSvSpillover.html", null ],
     [ "boost::random::generalized_inverse_gaussian_distribution< RealType >", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html", null ],
@@ -53,37 +58,42 @@ var hierarchy =
     ] ],
     [ "bvhar::McmcForecaster", "classbvhar_1_1McmcForecaster.html", [
       [ "bvhar::RegForecaster", "classbvhar_1_1RegForecaster.html", [
-        [ "bvhar::McmcVarForecaster< RegForecaster >", "classbvhar_1_1McmcVarForecaster.html", null ],
+        [ "bvhar::CtaVarForecaster< RegForecaster >", "classbvhar_1_1CtaVarForecaster.html", null ],
+        [ "bvhar::CtaVharForecaster< RegForecaster >", "classbvhar_1_1CtaVharForecaster.html", null ],
         [ "bvhar::McmcVarForecaster< RegForecaster >", "classbvhar_1_1McmcVarForecaster.html", null ],
         [ "bvhar::McmcVharForecaster< RegForecaster >", "classbvhar_1_1McmcVharForecaster.html", null ],
-        [ "bvhar::McmcVharForecaster< RegForecaster >", "classbvhar_1_1McmcVharForecaster.html", null ],
+        [ "bvhar::CtaVarForecaster< BaseForecaster >", "classbvhar_1_1CtaVarForecaster.html", [
+          [ "bvhar::CtaVarSelectForecaster< BaseForecaster >", "classbvhar_1_1CtaVarSelectForecaster.html", null ]
+        ] ],
+        [ "bvhar::CtaVharForecaster< BaseForecaster >", "classbvhar_1_1CtaVharForecaster.html", [
+          [ "bvhar::CtaVharSelectForecaster< BaseForecaster >", "classbvhar_1_1CtaVharSelectForecaster.html", null ]
+        ] ],
         [ "bvhar::McmcVarForecaster< BaseForecaster >", "classbvhar_1_1McmcVarForecaster.html", [
-          [ "bvhar::McmcVarSelectForecaster< BaseForecaster >", "classbvhar_1_1McmcVarSelectForecaster.html", null ],
           [ "bvhar::McmcVarSelectForecaster< BaseForecaster >", "classbvhar_1_1McmcVarSelectForecaster.html", null ]
         ] ],
-        [ "bvhar::McmcVarForecaster< BaseForecaster >", "classbvhar_1_1McmcVarForecaster.html", null ],
         [ "bvhar::McmcVharForecaster< BaseForecaster >", "classbvhar_1_1McmcVharForecaster.html", [
-          [ "bvhar::McmcVharSelectForecaster< BaseForecaster >", "classbvhar_1_1McmcVharSelectForecaster.html", null ],
           [ "bvhar::McmcVharSelectForecaster< BaseForecaster >", "classbvhar_1_1McmcVharSelectForecaster.html", null ]
-        ] ],
-        [ "bvhar::McmcVharForecaster< BaseForecaster >", "classbvhar_1_1McmcVharForecaster.html", null ]
+        ] ]
       ] ],
-      [ "bvhar::RegForecaster", "classbvhar_1_1RegForecaster.html", null ],
-      [ "bvhar::SvForecaster", "classbvhar_1_1SvForecaster.html", null ],
       [ "bvhar::SvForecaster", "classbvhar_1_1SvForecaster.html", null ]
     ] ],
-    [ "bvhar::McmcForecastRun< BaseForecaster >", "classbvhar_1_1McmcForecastRun.html", null ],
     [ "bvhar::McmcMniw", "classbvhar_1_1McmcMniw.html", null ],
     [ "bvhar::McmcOutforecastInterface< BaseForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", [
+      [ "bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, isUpdate >", "classbvhar_1_1McmcOutForecastRun.html", [
+        [ "bvhar::CtaOutforecastRun< RegForecaster, true >", "classbvhar_1_1CtaOutforecastRun.html", null ]
+      ] ],
+      [ "bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, true >", "classbvhar_1_1McmcOutForecastRun.html", null ],
       [ "bvhar::McmcOutforecastRun< RegForecaster, true >", "classbvhar_1_1McmcOutforecastRun.html", null ],
-      [ "bvhar::McmcOutforecastRun< RegForecaster, true >", "classbvhar_1_1McmcOutforecastRun.html", null ],
+      [ "bvhar::McmcOutForecastRun< ReturnType, DataType, isUpdate >", "classbvhar_1_1McmcOutForecastRun.html", [
+        [ "bvhar::CtaOutforecastRun< BaseForecaster, isUpdate >", "classbvhar_1_1CtaOutforecastRun.html", [
+          [ "bvhar::CtaExpandforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaExpandforecastRun.html", null ],
+          [ "bvhar::CtaRollforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaRollforecastRun.html", null ]
+        ] ]
+      ] ],
       [ "bvhar::McmcOutforecastRun< BaseForecaster, isUpdate >", "classbvhar_1_1McmcOutforecastRun.html", [
         [ "bvhar::McmcExpandforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcExpandforecastRun.html", null ],
-        [ "bvhar::McmcExpandforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcExpandforecastRun.html", null ],
-        [ "bvhar::McmcRollforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcRollforecastRun.html", null ],
         [ "bvhar::McmcRollforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcRollforecastRun.html", null ]
-      ] ],
-      [ "bvhar::McmcOutforecastRun< BaseForecaster, isUpdate >", "classbvhar_1_1McmcOutforecastRun.html", null ]
+      ] ]
     ] ],
     [ "bvhar::McmcOutforecastInterface< RegForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", null ],
     [ "bvhar::McmcParams", "structbvhar_1_1McmcParams.html", [
@@ -96,8 +106,6 @@ var hierarchy =
     ] ],
     [ "McmcRollforecastRun", null, [
       [ "bvhar::McmcVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVarforecastRun.html", null ],
-      [ "bvhar::McmcVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVarforecastRun.html", null ],
-      [ "bvhar::McmcVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVharforecastRun.html", null ],
       [ "bvhar::McmcVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVharforecastRun.html", null ]
     ] ],
     [ "bvhar::McmcRun", "classbvhar_1_1McmcRun.html", [
@@ -139,6 +147,23 @@ var hierarchy =
     [ "bvhar::MultiOls", "classbvhar_1_1MultiOls.html", [
       [ "bvhar::LltOls", "classbvhar_1_1LltOls.html", null ],
       [ "bvhar::QrOls", "classbvhar_1_1QrOls.html", null ]
+    ] ],
+    [ "bvhar::MultistepForecaster< ReturnType, DataType >", "classbvhar_1_1MultistepForecaster.html", [
+      [ "bvhar::BayesForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1BayesForecaster.html", [
+        [ "bvhar::CtaForecaster", "classbvhar_1_1CtaForecaster.html", [
+          [ "bvhar::RegForecaster", "classbvhar_1_1RegForecaster.html", null ],
+          [ "bvhar::SvForecaster", "classbvhar_1_1SvForecaster.html", null ]
+        ] ]
+      ] ],
+      [ "bvhar::BayesForecaster< ReturnType, DataType >", "classbvhar_1_1BayesForecaster.html", null ]
+    ] ],
+    [ "bvhar::MultistepForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1MultistepForecaster.html", null ],
+    [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", null ],
+    [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", [
+      [ "bvhar::McmcForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1McmcForecastRun.html", [
+        [ "bvhar::CtaForecastRun< BaseForecaster >", "classbvhar_1_1CtaForecastRun.html", null ]
+      ] ],
+      [ "bvhar::McmcForecastRun< BaseForecaster >", "classbvhar_1_1McmcForecastRun.html", null ]
     ] ],
     [ "bvhar::OlsFit", "structbvhar_1_1OlsFit.html", [
       [ "bvhar::StructuralFit", "structbvhar_1_1StructuralFit.html", null ]

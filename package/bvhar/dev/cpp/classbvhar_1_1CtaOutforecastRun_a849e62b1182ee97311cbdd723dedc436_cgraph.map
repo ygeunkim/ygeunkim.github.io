@@ -1,0 +1,9 @@
+<map id="bvhar::CtaOutforecastRun::initialize" name="bvhar::CtaOutforecastRun::initialize">
+<area shape="rect" id="Node000001" title="Replace the forecast smart pointer given MCMC result." alt="" coords="5,69,196,109"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1CtaOutforecastRun.html#ad65933b00b8aa09e55d5227370101335" title="Define input in each window." alt="" coords="244,5,435,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,67,250,46,252,51,177,72"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1CtaOutforecastRun.html#a2a21024005d3a47a17abbc1f8ea43d66" title="Initialize forecaster." alt="" coords="244,69,435,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,87,230,87,230,92,196,92"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1CtaOutforecastRun.html#adf4f3619d693a646abc997ed4fed00a5" title="Initialize CTA." alt="" coords="244,133,435,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,107,252,127,250,132,175,112"/>
+</map>

@@ -1,6 +1,5 @@
 <map id="bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;" name="bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;">
 <area shape="rect" id="Node000001" title="Out&#45;of&#45;sample forecasting class." alt="" coords="16,93,235,133"/>
 <area shape="rect" id="Node000002" href="$classbvhar_1_1McmcOutforecastInterface.html" title="Interface class for Out&#45;of&#45;sample forecasting with MCMC." alt="" coords="5,5,245,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,59,120,93,115,93,114,59"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="137,59,136,93,130,93,131,59"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,59,128,93,123,93,123,59"/>
 </map>

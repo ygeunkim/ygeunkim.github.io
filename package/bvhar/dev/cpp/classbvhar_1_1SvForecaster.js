@@ -7,7 +7,7 @@ var classbvhar_1_1SvForecaster =
     [ "updateParams", "classbvhar_1_1SvForecaster.html#a26844faf449f17df9378d3f897dab9a8", null ],
     [ "updateVariance", "classbvhar_1_1SvForecaster.html#adcfb16f5b1267065d91939500de2d43a", null ],
     [ "updateLpl", "classbvhar_1_1SvForecaster.html#a7a5cbb78b165989bb355718841bfee5a", null ],
-    [ "updateParams", "classbvhar_1_1SvForecaster.html#a26844faf449f17df9378d3f897dab9a8", null ],
+    [ "updateParams", "classbvhar_1_1SvForecaster.html#a360b6bf928eba18ffc610394951365f3", null ],
     [ "updateVariance", "classbvhar_1_1SvForecaster.html#adcfb16f5b1267065d91939500de2d43a", null ],
     [ "updateLpl", "classbvhar_1_1SvForecaster.html#a7a5cbb78b165989bb355718841bfee5a", null ]
 ];
