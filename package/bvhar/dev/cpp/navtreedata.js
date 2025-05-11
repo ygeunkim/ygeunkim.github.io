@@ -59,7 +59,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classbvhar_1_1CtaForecaster.html#ab7e0d93183569fc6055064af47fa4403",
+"classbvhar_1_1CtaForecaster.html#ab2a2787bef41d0c06f6536b53c45f63b",
 "classbvhar_1_1DynamicSvSpillover.html#a44eaf664b41408a770a40765e3ec3657",
 "classbvhar_1_1McmcHorseshoe.html#a0e66b0cce727a4661dc5d25a7f5893f9",
 "classbvhar_1_1McmcRun.html#a404c1e752f5e7055c31f59cba08bc2d1",

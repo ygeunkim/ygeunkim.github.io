@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>bvhar: bvhar::MultistepForecaster&lt; ReturnType, DataType &gt; Class Template Reference</title>
+<title>bvhar: bvhar::MultistepForecaster&lt; ReturnType, InputType, DataType, XType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9005</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9006</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('classbvhar_1_1MultistepForecaster.html
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classbvhar_1_1MultistepForecaster-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">bvhar::MultistepForecaster&lt; ReturnType, DataType &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">bvhar::MultistepForecaster&lt; ReturnType, InputType, DataType, XType &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -105,125 +105,127 @@ $(document).ready(function(){initNavTree('classbvhar_1_1MultistepForecaster.html
 
 <p><code>#include &lt;<a class="el" href="core_2forecaster_8h_source.html">forecaster.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for bvhar::MultistepForecaster&lt; ReturnType, DataType &gt;:</div>
+Inheritance diagram for bvhar::MultistepForecaster&lt; ReturnType, InputType, DataType, XType &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1MultistepForecaster__inherit__graph.png" border="0" usemap="#abvhar_1_1MultistepForecaster_3_01ReturnType_00_01DataType_01_4_inherit__map" alt="Inheritance graph"/></div>
-<map name="abvhar_1_1MultistepForecaster_3_01ReturnType_00_01DataType_01_4_inherit__map" id="abvhar_1_1MultistepForecaster_3_01ReturnType_00_01DataType_01_4_inherit__map">
-<area shape="rect" title="Base class for Recursive multi&#45;step forecasting." alt="" coords="5,291,201,331"/>
-<area shape="rect" href="classbvhar_1_1BayesForecaster.html" title=" " alt="" coords="255,247,439,302"/>
-<area shape="poly" title=" " alt="" coords="214,292,254,286,255,291,215,297"/>
-<area shape="rect" href="classbvhar_1_1BayesForecaster.html" title="Base class for forecaster of Bayesian methods." alt="" coords="249,327,444,367"/>
-<area shape="poly" title=" " alt="" coords="215,325,249,330,249,335,214,330"/>
-<area shape="rect" href="classbvhar_1_1CtaForecaster.html" title="Forecast class for McmcTriangular" alt="" coords="492,262,649,287"/>
-<area shape="poly" title=" " alt="" coords="453,272,492,272,492,277,453,277"/>
-<area shape="rect" href="classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg" alt="" coords="697,237,857,262"/>
-<area shape="poly" title=" " alt="" coords="663,261,697,256,697,262,663,266"/>
-<area shape="rect" href="classbvhar_1_1SvForecaster.html" title="Forecast class for McmcSv" alt="" coords="702,286,853,311"/>
-<area shape="poly" title=" " alt="" coords="663,283,702,287,702,293,663,288"/>
-<area shape="rect" href="classbvhar_1_1CtaVarForecaster.html" title=" " alt="" coords="918,5,1097,45"/>
-<area shape="poly" title=" " alt="" coords="786,222,804,185,829,140,863,95,904,55,924,43,926,48,907,59,867,98,834,143,809,188,791,225"/>
-<area shape="rect" href="classbvhar_1_1CtaVharForecaster.html" title=" " alt="" coords="914,69,1101,109"/>
-<area shape="poly" title=" " alt="" coords="794,224,840,171,870,143,904,119,928,107,930,112,907,124,874,147,844,175,798,228"/>
-<area shape="rect" href="classbvhar_1_1McmcVarForecaster.html" title=" " alt="" coords="910,133,1105,173"/>
-<area shape="poly" title=" " alt="" coords="812,228,904,183,937,171,939,176,906,188,814,233"/>
-<area shape="rect" href="classbvhar_1_1McmcVharForecaster.html" title=" " alt="" coords="905,197,1109,237"/>
-<area shape="poly" title=" " alt="" coords="871,234,905,229,906,234,871,239"/>
-<area shape="rect" href="classbvhar_1_1CtaVarForecaster.html" title="Forecast class of Bayesian VAR based on McmcTriangular" alt="" coords="918,261,1097,301"/>
-<area shape="poly" title=" " alt="" coords="871,260,918,266,918,272,871,265"/>
-<area shape="rect" href="classbvhar_1_1CtaVharForecaster.html" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="914,325,1101,365"/>
-<area shape="poly" title=" " alt="" coords="845,264,859,271,873,281,883,291,893,301,907,311,933,323,930,328,904,316,889,305,879,295,870,285,856,276,843,269"/>
-<area shape="rect" href="classbvhar_1_1McmcVarForecaster.html" title="Forecast class of Bayesian VAR based on McmcTriangular" alt="" coords="910,389,1105,429"/>
-<area shape="poly" title=" " alt="" coords="853,267,859,271,871,284,878,298,884,325,890,351,896,363,907,375,924,387,921,391,904,379,892,366,885,352,879,326,873,300,867,288,856,275,850,271"/>
-<area shape="rect" href="classbvhar_1_1McmcVharForecaster.html" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="905,453,1109,493"/>
-<area shape="poly" title=" " alt="" coords="855,268,859,272,875,293,883,315,884,357,885,399,892,419,907,439,922,451,919,455,903,443,888,422,880,400,879,357,878,316,870,295,855,275,852,272"/>
-<area shape="rect" href="classbvhar_1_1CtaVarSelectForecaster.html" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="1170,261,1389,301"/>
-<area shape="poly" title=" " alt="" coords="1111,279,1170,279,1170,284,1111,284"/>
-<area shape="rect" href="classbvhar_1_1CtaVharSelectForecaster.html" title="Bayesian VHAR forecast class with sparse draw induced by posterior summary." alt="" coords="1166,325,1393,365"/>
-<area shape="poly" title=" " alt="" coords="1114,343,1166,343,1166,348,1114,348"/>
-<area shape="rect" href="classbvhar_1_1McmcVarSelectForecaster.html" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="1162,389,1397,429"/>
-<area shape="poly" title=" " alt="" coords="1118,407,1162,407,1162,412,1118,412"/>
-<area shape="rect" href="classbvhar_1_1McmcVharSelectForecaster.html" title="Bayesian VHAR forecast class with sparse draw induced by posterior summary." alt="" coords="1157,453,1401,493"/>
-<area shape="poly" title=" " alt="" coords="1123,471,1157,471,1157,476,1123,476"/>
+<div class="center"><img src="classbvhar_1_1MultistepForecaster__inherit__graph.png" border="0" usemap="#abvhar_1_1MultistepForecaster_3_01ReturnType_00_01InputType_00_01DataType_00_01XType_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="abvhar_1_1MultistepForecaster_3_01ReturnType_00_01InputType_00_01DataType_00_01XType_01_4_inherit__map" id="abvhar_1_1MultistepForecaster_3_01ReturnType_00_01InputType_00_01DataType_00_01XType_01_4_inherit__map">
+<area shape="rect" title="Base class for Recursive multi&#45;step forecasting." alt="" coords="5,291,201,346"/>
+<area shape="rect" href="classbvhar_1_1BayesForecaster.html" title=" " alt="" coords="249,240,452,309"/>
+<area shape="poly" title=" " alt="" coords="214,296,249,290,250,295,215,301"/>
+<area shape="rect" href="classbvhar_1_1BayesForecaster.html" title="Base class for forecaster of Bayesian methods." alt="" coords="258,334,443,389"/>
+<area shape="poly" title=" " alt="" coords="215,335,258,343,257,348,214,340"/>
+<area shape="rect" href="classbvhar_1_1CtaForecaster.html" title="Forecast class for McmcTriangular" alt="" coords="500,262,657,287"/>
+<area shape="poly" title=" " alt="" coords="466,272,500,272,500,277,466,277"/>
+<area shape="rect" href="classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg" alt="" coords="705,237,865,262"/>
+<area shape="poly" title=" " alt="" coords="671,261,705,256,705,262,671,266"/>
+<area shape="rect" href="classbvhar_1_1SvForecaster.html" title="Forecast class for McmcSv" alt="" coords="710,286,861,311"/>
+<area shape="poly" title=" " alt="" coords="671,283,710,287,710,293,671,288"/>
+<area shape="rect" href="classbvhar_1_1CtaVarForecaster.html" title=" " alt="" coords="926,5,1105,45"/>
+<area shape="poly" title=" " alt="" coords="794,222,812,185,837,140,871,95,912,55,932,43,934,48,915,59,875,98,842,143,817,188,799,225"/>
+<area shape="rect" href="classbvhar_1_1CtaVharForecaster.html" title=" " alt="" coords="922,69,1109,109"/>
+<area shape="poly" title=" " alt="" coords="802,224,848,171,878,143,912,119,936,107,938,112,915,124,882,147,852,175,806,228"/>
+<area shape="rect" href="classbvhar_1_1McmcVarForecaster.html" title=" " alt="" coords="918,133,1113,173"/>
+<area shape="poly" title=" " alt="" coords="820,228,912,183,945,171,947,176,914,188,822,233"/>
+<area shape="rect" href="classbvhar_1_1McmcVharForecaster.html" title=" " alt="" coords="913,197,1117,237"/>
+<area shape="poly" title=" " alt="" coords="879,234,913,229,914,234,879,239"/>
+<area shape="rect" href="classbvhar_1_1CtaVarForecaster.html" title="Forecast class of Bayesian VAR based on McmcTriangular" alt="" coords="926,261,1105,301"/>
+<area shape="poly" title=" " alt="" coords="879,260,926,266,926,272,879,265"/>
+<area shape="rect" href="classbvhar_1_1CtaVharForecaster.html" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="922,325,1109,365"/>
+<area shape="poly" title=" " alt="" coords="853,264,867,271,881,281,891,291,901,301,915,311,941,323,938,328,912,316,897,305,887,295,878,285,864,276,851,269"/>
+<area shape="rect" href="classbvhar_1_1McmcVarForecaster.html" title="Forecast class of Bayesian VAR based on McmcTriangular" alt="" coords="918,389,1113,429"/>
+<area shape="poly" title=" " alt="" coords="861,267,867,271,879,284,886,298,892,325,898,351,904,363,915,375,932,387,929,391,912,379,900,366,893,352,887,326,881,300,875,288,864,275,858,271"/>
+<area shape="rect" href="classbvhar_1_1McmcVharForecaster.html" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="913,453,1117,493"/>
+<area shape="poly" title=" " alt="" coords="863,268,867,272,883,293,891,315,892,357,893,399,900,419,915,439,930,451,927,455,911,443,896,422,888,400,887,357,886,316,878,295,863,275,860,272"/>
+<area shape="rect" href="classbvhar_1_1CtaVarSelectForecaster.html" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="1178,261,1397,301"/>
+<area shape="poly" title=" " alt="" coords="1119,279,1178,279,1178,284,1119,284"/>
+<area shape="rect" href="classbvhar_1_1CtaVharSelectForecaster.html" title="Bayesian VHAR forecast class with sparse draw induced by posterior summary." alt="" coords="1174,325,1401,365"/>
+<area shape="poly" title=" " alt="" coords="1122,343,1174,343,1174,348,1122,348"/>
+<area shape="rect" href="classbvhar_1_1McmcVarSelectForecaster.html" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="1170,389,1405,429"/>
+<area shape="poly" title=" " alt="" coords="1126,407,1170,407,1170,412,1126,412"/>
+<area shape="rect" href="classbvhar_1_1McmcVharSelectForecaster.html" title="Bayesian VHAR forecast class with sparse draw induced by posterior summary." alt="" coords="1165,453,1409,493"/>
+<area shape="poly" title=" " alt="" coords="1131,471,1165,471,1165,476,1131,476"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aed9ce80db599bbe54d7b6e5afd4d87f8" id="r_aed9ce80db599bbe54d7b6e5afd4d87f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#aed9ce80db599bbe54d7b6e5afd4d87f8">MultistepForecaster</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html#a132ca384662df3d0eb3446f4ac257ab4">step</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> &amp;<a class="el" href="classbvhar_1_1MultistepForecaster.html#a27b269a5d14dc8d669a92366c7eacd6f">response</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html#ad267fb27de7163e2528f6e7dc8f5554b">lag</a>)</td></tr>
-<tr class="separator:aed9ce80db599bbe54d7b6e5afd4d87f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adabe018aa9a4a95cd5399295d345fc93" id="r_adabe018aa9a4a95cd5399295d345fc93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#adabe018aa9a4a95cd5399295d345fc93">~MultistepForecaster</a> ()=<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">default</a></td></tr>
-<tr class="separator:adabe018aa9a4a95cd5399295d345fc93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adba1badb87bc67c0e28b3a0ae12fe885" id="r_adba1badb87bc67c0e28b3a0ae12fe885"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#adba1badb87bc67c0e28b3a0ae12fe885">doForecast</a> ()</td></tr>
-<tr class="memdesc:adba1badb87bc67c0e28b3a0ae12fe885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the forecast result. Bayes methods return density forecast while frequentist methods return point forecast.  <br /></td></tr>
-<tr class="separator:adba1badb87bc67c0e28b3a0ae12fe885"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9483b7e868eb42732e4e2cb02f4c49e4" id="r_a9483b7e868eb42732e4e2cb02f4c49e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a9483b7e868eb42732e4e2cb02f4c49e4">doForecast</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &amp;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">valid_vec</a>)</td></tr>
-<tr class="separator:a9483b7e868eb42732e4e2cb02f4c49e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbf23033e2a8b28b0186e37729d6c430" id="r_adbf23033e2a8b28b0186e37729d6c430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#adbf23033e2a8b28b0186e37729d6c430">getLastForecast</a> ()=0</td></tr>
-<tr class="separator:adbf23033e2a8b28b0186e37729d6c430"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f03e5f7e05886374175810fa7bca8f" id="r_a38f03e5f7e05886374175810fa7bca8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a38f03e5f7e05886374175810fa7bca8f">getLastForecast</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &amp;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">valid_vec</a>)=0</td></tr>
-<tr class="separator:a38f03e5f7e05886374175810fa7bca8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf37e1d339d71564a2fc1eab984015df" id="r_aaf37e1d339d71564a2fc1eab984015df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#aaf37e1d339d71564a2fc1eab984015df">MultistepForecaster</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html#ab18523584de63e549ff51498dc9eadbb">step</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a> &amp;<a class="el" href="classbvhar_1_1MultistepForecaster.html#a534e328e2881f8601bb4b3d6afa9ac00">response</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html#a8b77667b16c6889badb8a58d509e4601">lag</a>)</td></tr>
+<tr class="separator:aaf37e1d339d71564a2fc1eab984015df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62606201040c4ac2607d7a4ea331d085" id="r_a62606201040c4ac2607d7a4ea331d085"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a62606201040c4ac2607d7a4ea331d085">~MultistepForecaster</a> ()=<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">default</a></td></tr>
+<tr class="separator:a62606201040c4ac2607d7a4ea331d085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5fc64acfec563de65018e479eea0745" id="r_af5fc64acfec563de65018e479eea0745"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#af5fc64acfec563de65018e479eea0745">doForecast</a> ()</td></tr>
+<tr class="memdesc:af5fc64acfec563de65018e479eea0745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the forecast result. Bayes methods return density forecast while frequentist methods return point forecast.  <br /></td></tr>
+<tr class="separator:af5fc64acfec563de65018e479eea0745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad00612fd8c9cc23f0647f72c8996c11e" id="r_ad00612fd8c9cc23f0647f72c8996c11e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#ad00612fd8c9cc23f0647f72c8996c11e">doForecast</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &amp;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">valid_vec</a>)</td></tr>
+<tr class="separator:ad00612fd8c9cc23f0647f72c8996c11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addde894ef03098a61d47675336c8d82f" id="r_addde894ef03098a61d47675336c8d82f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#addde894ef03098a61d47675336c8d82f">getLastForecast</a> ()=0</td></tr>
+<tr class="separator:addde894ef03098a61d47675336c8d82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5fa228fdf667967c8fc045375ed816" id="r_a8b5fa228fdf667967c8fc045375ed816"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a8b5fa228fdf667967c8fc045375ed816">getLastForecast</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &amp;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">valid_vec</a>)=0</td></tr>
+<tr class="separator:a8b5fa228fdf667967c8fc045375ed816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa50c33e2dff8fa74869648bdc3928d96" id="r_aa50c33e2dff8fa74869648bdc3928d96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#aa50c33e2dff8fa74869648bdc3928d96">initLagged</a> ()=0</td></tr>
-<tr class="memdesc:aa50c33e2dff8fa74869648bdc3928d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize lagged predictors 'point_forecast', 'last_pvec' and 'tmp_vec'.  <br /></td></tr>
-<tr class="separator:aa50c33e2dff8fa74869648bdc3928d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a033f3de5282928e4aa78f60b5f6c8101" id="r_a033f3de5282928e4aa78f60b5f6c8101"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a033f3de5282928e4aa78f60b5f6c8101">forecast</a> ()=0</td></tr>
-<tr class="memdesc:a033f3de5282928e4aa78f60b5f6c8101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-step forecasting.  <br /></td></tr>
-<tr class="separator:a033f3de5282928e4aa78f60b5f6c8101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5eb66ed9377c6c55bcb5e51689af78da" id="r_a5eb66ed9377c6c55bcb5e51689af78da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a5eb66ed9377c6c55bcb5e51689af78da">forecast</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &amp;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">valid_vec</a>)=0</td></tr>
-<tr class="separator:a5eb66ed9377c6c55bcb5e51689af78da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab369c30c5a78ba3bb1a725a82602a8ac" id="r_ab369c30c5a78ba3bb1a725a82602a8ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#ab369c30c5a78ba3bb1a725a82602a8ac">setRecursion</a> ()=0</td></tr>
-<tr class="memdesc:ab369c30c5a78ba3bb1a725a82602a8ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the initial lagged unit.  <br /></td></tr>
-<tr class="separator:ab369c30c5a78ba3bb1a725a82602a8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5a5604891773202acd4b773e7c30609" id="r_ac5a5604891773202acd4b773e7c30609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#ac5a5604891773202acd4b773e7c30609">updateRecursion</a> ()=0</td></tr>
-<tr class="memdesc:ac5a5604891773202acd4b773e7c30609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the lagged unit element based on one-step ahead forecasting.  <br /></td></tr>
-<tr class="separator:ac5a5604891773202acd4b773e7c30609"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66cd2e57b580f295e5bdbbe97ac73b21" id="r_a66cd2e57b580f295e5bdbbe97ac73b21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a66cd2e57b580f295e5bdbbe97ac73b21">updatePred</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">h</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">i</a>)=0</td></tr>
-<tr class="memdesc:a66cd2e57b580f295e5bdbbe97ac73b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute Linear predictor.  <br /></td></tr>
-<tr class="separator:a66cd2e57b580f295e5bdbbe97ac73b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5114234eb62d75dc6cfcfc0d4a83ff80" id="r_a5114234eb62d75dc6cfcfc0d4a83ff80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a5114234eb62d75dc6cfcfc0d4a83ff80">initLagged</a> ()=0</td></tr>
+<tr class="memdesc:a5114234eb62d75dc6cfcfc0d4a83ff80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize lagged predictors 'point_forecast', 'last_pvec' and 'tmp_vec'.  <br /></td></tr>
+<tr class="separator:a5114234eb62d75dc6cfcfc0d4a83ff80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a956d8e59ccb3395d9f68c9ff49b79a0d" id="r_a956d8e59ccb3395d9f68c9ff49b79a0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a956d8e59ccb3395d9f68c9ff49b79a0d">forecast</a> ()=0</td></tr>
+<tr class="memdesc:a956d8e59ccb3395d9f68c9ff49b79a0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-step forecasting.  <br /></td></tr>
+<tr class="separator:a956d8e59ccb3395d9f68c9ff49b79a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3c7b576a23dfc182756aad975f76127" id="r_ac3c7b576a23dfc182756aad975f76127"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#ac3c7b576a23dfc182756aad975f76127">forecast</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &amp;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">valid_vec</a>)=0</td></tr>
+<tr class="separator:ac3c7b576a23dfc182756aad975f76127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8145e21c03ed01d8261fd54aa2b5fb57" id="r_a8145e21c03ed01d8261fd54aa2b5fb57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a8145e21c03ed01d8261fd54aa2b5fb57">setRecursion</a> ()=0</td></tr>
+<tr class="memdesc:a8145e21c03ed01d8261fd54aa2b5fb57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the initial lagged unit.  <br /></td></tr>
+<tr class="separator:a8145e21c03ed01d8261fd54aa2b5fb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7edfa4fa945b03ad92dd6a9c569b675" id="r_aa7edfa4fa945b03ad92dd6a9c569b675"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#aa7edfa4fa945b03ad92dd6a9c569b675">updateRecursion</a> ()=0</td></tr>
+<tr class="memdesc:aa7edfa4fa945b03ad92dd6a9c569b675"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the lagged unit element based on one-step ahead forecasting.  <br /></td></tr>
+<tr class="separator:aa7edfa4fa945b03ad92dd6a9c569b675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c6259de65f3877dc0516d29b85e63a2" id="r_a1c6259de65f3877dc0516d29b85e63a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a1c6259de65f3877dc0516d29b85e63a2">updatePred</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">h</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">i</a>)=0</td></tr>
+<tr class="memdesc:a1c6259de65f3877dc0516d29b85e63a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute Linear predictor.  <br /></td></tr>
+<tr class="separator:a1c6259de65f3877dc0516d29b85e63a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a132ca384662df3d0eb3446f4ac257ab4" id="r_a132ca384662df3d0eb3446f4ac257ab4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a132ca384662df3d0eb3446f4ac257ab4">step</a></td></tr>
-<tr class="separator:a132ca384662df3d0eb3446f4ac257ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad267fb27de7163e2528f6e7dc8f5554b" id="r_ad267fb27de7163e2528f6e7dc8f5554b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#ad267fb27de7163e2528f6e7dc8f5554b">lag</a></td></tr>
-<tr class="separator:ad267fb27de7163e2528f6e7dc8f5554b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27b269a5d14dc8d669a92366c7eacd6f" id="r_a27b269a5d14dc8d669a92366c7eacd6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a27b269a5d14dc8d669a92366c7eacd6f">response</a></td></tr>
-<tr class="separator:a27b269a5d14dc8d669a92366c7eacd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93f5c9ff238f0bae59dad1e8443c27ea" id="r_a93f5c9ff238f0bae59dad1e8443c27ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a93f5c9ff238f0bae59dad1e8443c27ea">pred_save</a></td></tr>
-<tr class="separator:a93f5c9ff238f0bae59dad1e8443c27ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9999871b6ce97484a1a89e32856cf6cc" id="r_a9999871b6ce97484a1a89e32856cf6cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a9999871b6ce97484a1a89e32856cf6cc">point_forecast</a></td></tr>
-<tr class="separator:a9999871b6ce97484a1a89e32856cf6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92ad4eaccdfb92c41a7f9c98de9bb793" id="r_a92ad4eaccdfb92c41a7f9c98de9bb793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a92ad4eaccdfb92c41a7f9c98de9bb793">last_pvec</a></td></tr>
-<tr class="separator:a92ad4eaccdfb92c41a7f9c98de9bb793"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e83316325ad67b9651ef278541e5b7f" id="r_a8e83316325ad67b9651ef278541e5b7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a8e83316325ad67b9651ef278541e5b7f">tmp_vec</a></td></tr>
-<tr class="separator:a8e83316325ad67b9651ef278541e5b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab18523584de63e549ff51498dc9eadbb" id="r_ab18523584de63e549ff51498dc9eadbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#ab18523584de63e549ff51498dc9eadbb">step</a></td></tr>
+<tr class="separator:ab18523584de63e549ff51498dc9eadbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b77667b16c6889badb8a58d509e4601" id="r_a8b77667b16c6889badb8a58d509e4601"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a8b77667b16c6889badb8a58d509e4601">lag</a></td></tr>
+<tr class="separator:a8b77667b16c6889badb8a58d509e4601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a534e328e2881f8601bb4b3d6afa9ac00" id="r_a534e328e2881f8601bb4b3d6afa9ac00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#a534e328e2881f8601bb4b3d6afa9ac00">response</a></td></tr>
+<tr class="separator:a534e328e2881f8601bb4b3d6afa9ac00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbe12676c776d73cc7ecc9f5ae467e87" id="r_afbe12676c776d73cc7ecc9f5ae467e87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#afbe12676c776d73cc7ecc9f5ae467e87">pred_save</a></td></tr>
+<tr class="separator:afbe12676c776d73cc7ecc9f5ae467e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae074f2557f1ffccb3f8a5021d063af77" id="r_ae074f2557f1ffccb3f8a5021d063af77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#ae074f2557f1ffccb3f8a5021d063af77">point_forecast</a></td></tr>
+<tr class="separator:ae074f2557f1ffccb3f8a5021d063af77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae895bef6d4cb99403c5f0702495f5a11" id="r_ae895bef6d4cb99403c5f0702495f5a11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#ae895bef6d4cb99403c5f0702495f5a11">last_pvec</a></td></tr>
+<tr class="separator:ae895bef6d4cb99403c5f0702495f5a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28f77df0223e2f27c598cfbcd276982" id="r_ab28f77df0223e2f27c598cfbcd276982"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecaster.html#ab28f77df0223e2f27c598cfbcd276982">tmp_vec</a></td></tr>
+<tr class="separator:ab28f77df0223e2f27c598cfbcd276982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> = Eigen::VectorXd&gt;<br />
-class bvhar::MultistepForecaster&lt; ReturnType, DataType &gt;</div><p>Base class for Recursive multi-step forecasting. </p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a> = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> = DataType&gt;<br />
+class bvhar::MultistepForecaster&lt; ReturnType, InputType, DataType, XType &gt;</div><p>Base class for Recursive multi-step forecasting. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">ReturnType</td><td>Type of forecasting result. </td></tr>
+    <tr><td class="paramname">InputType</td><td>Type of input data. </td></tr>
     <tr><td class="paramname">DataType</td><td>Type of one unit. </td></tr>
+    <tr><td class="paramname">XType</td><td>Type of predictor. </td></tr>
   </table>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aed9ce80db599bbe54d7b6e5afd4d87f8" name="aed9ce80db599bbe54d7b6e5afd4d87f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed9ce80db599bbe54d7b6e5afd4d87f8">&#9670;&#160;</a></span>MultistepForecaster()</h2>
+<a id="aaf37e1d339d71564a2fc1eab984015df" name="aaf37e1d339d71564a2fc1eab984015df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf37e1d339d71564a2fc1eab984015df">&#9670;&#160;</a></span>MultistepForecaster()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::MultistepForecaster </td>
+          <td class="memname"><a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::MultistepForecaster </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a>&#160;</td>
           <td class="paramname"><em>step</em>, </td>
@@ -231,7 +233,7 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a> &amp;&#160;</td>
           <td class="paramname"><em>response</em>, </td>
         </tr>
         <tr>
@@ -255,19 +257,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="adabe018aa9a4a95cd5399295d345fc93" name="adabe018aa9a4a95cd5399295d345fc93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adabe018aa9a4a95cd5399295d345fc93">&#9670;&#160;</a></span>~MultistepForecaster()</h2>
+<a id="a62606201040c4ac2607d7a4ea331d085" name="a62606201040c4ac2607d7a4ea331d085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62606201040c4ac2607d7a4ea331d085">&#9670;&#160;</a></span>~MultistepForecaster()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::~<a class="el" href="classbvhar_1_1MultistepForecaster.html">MultistepForecaster</a> </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::~<a class="el" href="classbvhar_1_1MultistepForecaster.html">MultistepForecaster</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -283,19 +285,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="adba1badb87bc67c0e28b3a0ae12fe885" name="adba1badb87bc67c0e28b3a0ae12fe885"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adba1badb87bc67c0e28b3a0ae12fe885">&#9670;&#160;</a></span>doForecast() <span class="overload">[1/2]</span></h2>
+<a id="af5fc64acfec563de65018e479eea0745" name="af5fc64acfec563de65018e479eea0745"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5fc64acfec563de65018e479eea0745">&#9670;&#160;</a></span>doForecast() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::doForecast </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::doForecast </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -313,29 +315,29 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1MultistepForecaster_adba1badb87bc67c0e28b3a0ae12fe885_cgraph.png" border="0" usemap="#aclassbvhar_1_1MultistepForecaster_adba1badb87bc67c0e28b3a0ae12fe885_cgraph" alt=""/></div>
-<map name="aclassbvhar_1_1MultistepForecaster_adba1badb87bc67c0e28b3a0ae12fe885_cgraph" id="aclassbvhar_1_1MultistepForecaster_adba1badb87bc67c0e28b3a0ae12fe885_cgraph">
+<div class="center"><img src="classbvhar_1_1MultistepForecaster_af5fc64acfec563de65018e479eea0745_cgraph.png" border="0" usemap="#aclassbvhar_1_1MultistepForecaster_af5fc64acfec563de65018e479eea0745_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1MultistepForecaster_af5fc64acfec563de65018e479eea0745_cgraph" id="aclassbvhar_1_1MultistepForecaster_af5fc64acfec563de65018e479eea0745_cgraph">
 <area shape="rect" title="Return the forecast result. Bayes methods return density forecast while frequentist methods return po..." alt="" coords="5,5,201,45"/>
-<area shape="rect" href="classbvhar_1_1MultistepForecaster.html#a033f3de5282928e4aa78f60b5f6c8101" title="Multi&#45;step forecasting." alt="" coords="249,5,445,45"/>
+<area shape="rect" href="classbvhar_1_1MultistepForecaster.html#a956d8e59ccb3395d9f68c9ff49b79a0d" title="Multi&#45;step forecasting." alt="" coords="249,5,445,45"/>
 <area shape="poly" title=" " alt="" coords="201,23,236,23,236,28,201,28"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a9483b7e868eb42732e4e2cb02f4c49e4" name="a9483b7e868eb42732e4e2cb02f4c49e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9483b7e868eb42732e4e2cb02f4c49e4">&#9670;&#160;</a></span>doForecast() <span class="overload">[2/2]</span></h2>
+<a id="ad00612fd8c9cc23f0647f72c8996c11e" name="ad00612fd8c9cc23f0647f72c8996c11e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad00612fd8c9cc23f0647f72c8996c11e">&#9670;&#160;</a></span>doForecast() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::doForecast </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::doForecast </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &amp;&#160;</td>
           <td class="paramname"><em>valid_vec</em></td><td>)</td>
@@ -351,29 +353,29 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1MultistepForecaster_a9483b7e868eb42732e4e2cb02f4c49e4_cgraph.png" border="0" usemap="#aclassbvhar_1_1MultistepForecaster_a9483b7e868eb42732e4e2cb02f4c49e4_cgraph" alt=""/></div>
-<map name="aclassbvhar_1_1MultistepForecaster_a9483b7e868eb42732e4e2cb02f4c49e4_cgraph" id="aclassbvhar_1_1MultistepForecaster_a9483b7e868eb42732e4e2cb02f4c49e4_cgraph">
+<div class="center"><img src="classbvhar_1_1MultistepForecaster_ad00612fd8c9cc23f0647f72c8996c11e_cgraph.png" border="0" usemap="#aclassbvhar_1_1MultistepForecaster_ad00612fd8c9cc23f0647f72c8996c11e_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1MultistepForecaster_ad00612fd8c9cc23f0647f72c8996c11e_cgraph" id="aclassbvhar_1_1MultistepForecaster_ad00612fd8c9cc23f0647f72c8996c11e_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,201,45"/>
-<area shape="rect" href="classbvhar_1_1MultistepForecaster.html#a033f3de5282928e4aa78f60b5f6c8101" title="Multi&#45;step forecasting." alt="" coords="249,5,445,45"/>
+<area shape="rect" href="classbvhar_1_1MultistepForecaster.html#a956d8e59ccb3395d9f68c9ff49b79a0d" title="Multi&#45;step forecasting." alt="" coords="249,5,445,45"/>
 <area shape="poly" title=" " alt="" coords="201,23,236,23,236,28,201,28"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="adbf23033e2a8b28b0186e37729d6c430" name="adbf23033e2a8b28b0186e37729d6c430"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbf23033e2a8b28b0186e37729d6c430">&#9670;&#160;</a></span>getLastForecast() <span class="overload">[1/2]</span></h2>
+<a id="addde894ef03098a61d47675336c8d82f" name="addde894ef03098a61d47675336c8d82f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addde894ef03098a61d47675336c8d82f">&#9670;&#160;</a></span>getLastForecast() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::getLastForecast </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::getLastForecast </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -386,23 +388,23 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classbvhar_1_1CtaForecaster.html#a8ba258507bcc3d7e26709b60a3287a1b">bvhar::CtaForecaster</a>.</p>
+<p>Implemented in <a class="el" href="classbvhar_1_1CtaForecaster.html#aadc11ac1d3b4f73195b0340346765c33">bvhar::CtaForecaster</a>.</p>
 
 </div>
 </div>
-<a id="a38f03e5f7e05886374175810fa7bca8f" name="a38f03e5f7e05886374175810fa7bca8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38f03e5f7e05886374175810fa7bca8f">&#9670;&#160;</a></span>getLastForecast() <span class="overload">[2/2]</span></h2>
+<a id="a8b5fa228fdf667967c8fc045375ed816" name="a8b5fa228fdf667967c8fc045375ed816"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5fa228fdf667967c8fc045375ed816">&#9670;&#160;</a></span>getLastForecast() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::getLastForecast </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::getLastForecast </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &amp;&#160;</td>
           <td class="paramname"><em>valid_vec</em></td><td>)</td>
@@ -418,19 +420,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="aa50c33e2dff8fa74869648bdc3928d96" name="aa50c33e2dff8fa74869648bdc3928d96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa50c33e2dff8fa74869648bdc3928d96">&#9670;&#160;</a></span>initLagged()</h2>
+<a id="a5114234eb62d75dc6cfcfc0d4a83ff80" name="a5114234eb62d75dc6cfcfc0d4a83ff80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5114234eb62d75dc6cfcfc0d4a83ff80">&#9670;&#160;</a></span>initLagged()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::initLagged </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::initLagged </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -449,19 +451,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="a033f3de5282928e4aa78f60b5f6c8101" name="a033f3de5282928e4aa78f60b5f6c8101"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a033f3de5282928e4aa78f60b5f6c8101">&#9670;&#160;</a></span>forecast() <span class="overload">[1/2]</span></h2>
+<a id="a956d8e59ccb3395d9f68c9ff49b79a0d" name="a956d8e59ccb3395d9f68c9ff49b79a0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a956d8e59ccb3395d9f68c9ff49b79a0d">&#9670;&#160;</a></span>forecast() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::forecast </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::forecast </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -476,23 +478,23 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 <p>Multi-step forecasting. </p>
 
-<p>Implemented in <a class="el" href="classbvhar_1_1BayesForecaster.html#af1580aba5a48c63fc53db257c11997c8">bvhar::BayesForecaster&lt; ReturnType, DataType &gt;</a>, and <a class="el" href="classbvhar_1_1BayesForecaster.html#af1580aba5a48c63fc53db257c11997c8">bvhar::BayesForecaster&lt; Eigen::MatrixXd, Eigen::VectorXd &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classbvhar_1_1BayesForecaster.html#a0706483f8961f38fea9341049ab72d3d">bvhar::BayesForecaster&lt; ReturnType, InputType, DataType, XType &gt;</a>, and <a class="el" href="classbvhar_1_1BayesForecaster.html#a0706483f8961f38fea9341049ab72d3d">bvhar::BayesForecaster&lt; Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a5eb66ed9377c6c55bcb5e51689af78da" name="a5eb66ed9377c6c55bcb5e51689af78da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5eb66ed9377c6c55bcb5e51689af78da">&#9670;&#160;</a></span>forecast() <span class="overload">[2/2]</span></h2>
+<a id="ac3c7b576a23dfc182756aad975f76127" name="ac3c7b576a23dfc182756aad975f76127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c7b576a23dfc182756aad975f76127">&#9670;&#160;</a></span>forecast() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::forecast </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::forecast </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &amp;&#160;</td>
           <td class="paramname"><em>valid_vec</em></td><td>)</td>
@@ -508,19 +510,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="ab369c30c5a78ba3bb1a725a82602a8ac" name="ab369c30c5a78ba3bb1a725a82602a8ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab369c30c5a78ba3bb1a725a82602a8ac">&#9670;&#160;</a></span>setRecursion()</h2>
+<a id="a8145e21c03ed01d8261fd54aa2b5fb57" name="a8145e21c03ed01d8261fd54aa2b5fb57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8145e21c03ed01d8261fd54aa2b5fb57">&#9670;&#160;</a></span>setRecursion()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::setRecursion </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::setRecursion </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -539,19 +541,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="ac5a5604891773202acd4b773e7c30609" name="ac5a5604891773202acd4b773e7c30609"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5a5604891773202acd4b773e7c30609">&#9670;&#160;</a></span>updateRecursion()</h2>
+<a id="aa7edfa4fa945b03ad92dd6a9c569b675" name="aa7edfa4fa945b03ad92dd6a9c569b675"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7edfa4fa945b03ad92dd6a9c569b675">&#9670;&#160;</a></span>updateRecursion()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::updateRecursion </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::updateRecursion </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -570,19 +572,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="a66cd2e57b580f295e5bdbbe97ac73b21" name="a66cd2e57b580f295e5bdbbe97ac73b21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66cd2e57b580f295e5bdbbe97ac73b21">&#9670;&#160;</a></span>updatePred()</h2>
+<a id="a1c6259de65f3877dc0516d29b85e63a2" name="a1c6259de65f3877dc0516d29b85e63a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c6259de65f3877dc0516d29b85e63a2">&#9670;&#160;</a></span>updatePred()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::updatePred </td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::updatePred </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a>&#160;</td>
           <td class="paramname"><em>h</em>, </td>
@@ -613,19 +615,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a132ca384662df3d0eb3446f4ac257ab4" name="a132ca384662df3d0eb3446f4ac257ab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a132ca384662df3d0eb3446f4ac257ab4">&#9670;&#160;</a></span>step</h2>
+<a id="ab18523584de63e549ff51498dc9eadbb" name="ab18523584de63e549ff51498dc9eadbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab18523584de63e549ff51498dc9eadbb">&#9670;&#160;</a></span>step</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::step</td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::step</td>
         </tr>
       </table>
   </td>
@@ -637,19 +639,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="ad267fb27de7163e2528f6e7dc8f5554b" name="ad267fb27de7163e2528f6e7dc8f5554b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad267fb27de7163e2528f6e7dc8f5554b">&#9670;&#160;</a></span>lag</h2>
+<a id="a8b77667b16c6889badb8a58d509e4601" name="a8b77667b16c6889badb8a58d509e4601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b77667b16c6889badb8a58d509e4601">&#9670;&#160;</a></span>lag</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::lag</td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::lag</td>
         </tr>
       </table>
   </td>
@@ -661,19 +663,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="a27b269a5d14dc8d669a92366c7eacd6f" name="a27b269a5d14dc8d669a92366c7eacd6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27b269a5d14dc8d669a92366c7eacd6f">&#9670;&#160;</a></span>response</h2>
+<a id="a534e328e2881f8601bb4b3d6afa9ac00" name="a534e328e2881f8601bb4b3d6afa9ac00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a534e328e2881f8601bb4b3d6afa9ac00">&#9670;&#160;</a></span>response</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::response</td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::response</td>
         </tr>
       </table>
   </td>
@@ -685,19 +687,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="a93f5c9ff238f0bae59dad1e8443c27ea" name="a93f5c9ff238f0bae59dad1e8443c27ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93f5c9ff238f0bae59dad1e8443c27ea">&#9670;&#160;</a></span>pred_save</h2>
+<a id="afbe12676c776d73cc7ecc9f5ae467e87" name="afbe12676c776d73cc7ecc9f5ae467e87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbe12676c776d73cc7ecc9f5ae467e87">&#9670;&#160;</a></span>pred_save</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::pred_save</td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::pred_save</td>
         </tr>
       </table>
   </td>
@@ -709,19 +711,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="a9999871b6ce97484a1a89e32856cf6cc" name="a9999871b6ce97484a1a89e32856cf6cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9999871b6ce97484a1a89e32856cf6cc">&#9670;&#160;</a></span>point_forecast</h2>
+<a id="ae074f2557f1ffccb3f8a5021d063af77" name="ae074f2557f1ffccb3f8a5021d063af77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae074f2557f1ffccb3f8a5021d063af77">&#9670;&#160;</a></span>point_forecast</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::point_forecast</td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::point_forecast</td>
         </tr>
       </table>
   </td>
@@ -733,19 +735,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="a92ad4eaccdfb92c41a7f9c98de9bb793" name="a92ad4eaccdfb92c41a7f9c98de9bb793"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92ad4eaccdfb92c41a7f9c98de9bb793">&#9670;&#160;</a></span>last_pvec</h2>
+<a id="ae895bef6d4cb99403c5f0702495f5a11" name="ae895bef6d4cb99403c5f0702495f5a11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae895bef6d4cb99403c5f0702495f5a11">&#9670;&#160;</a></span>last_pvec</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::last_pvec</td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::last_pvec</td>
         </tr>
       </table>
   </td>
@@ -757,19 +759,19 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 
 </div>
 </div>
-<a id="a8e83316325ad67b9651ef278541e5b7f" name="a8e83316325ad67b9651ef278541e5b7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e83316325ad67b9651ef278541e5b7f">&#9670;&#160;</a></span>tmp_vec</h2>
+<a id="ab28f77df0223e2f27c598cfbcd276982" name="ab28f77df0223e2f27c598cfbcd276982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28f77df0223e2f27c598cfbcd276982">&#9670;&#160;</a></span>tmp_vec</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>  = ReturnType, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a>  = DataType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::tmp_vec</td>
+          <td class="memname"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> <a class="el" href="classbvhar_1_1MultistepForecaster.html">bvhar::MultistepForecaster</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">InputType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">XType</a> &gt;::tmp_vec</td>
         </tr>
       </table>
   </td>

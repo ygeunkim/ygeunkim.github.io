@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classbvhar_1_1MultistepForecastRun.html" title="Base class for multi&#45;step forecasting runner." alt="" coords="5,5,224,45"/>
+<area shape="rect" id="Node000000" href="$classbvhar_1_1MultistepForecastRun.html" title=" " alt="" coords="5,53,216,107"/>
+<area shape="rect" id="Node000001" href="$classbvhar_1_1McmcForecastRun.html" title=" " alt="" coords="264,5,467,75"/>
+<area shape="poly" id="edge88_Node000000_Node000001" title=" " alt="" coords="229,59,263,53,264,59,230,64"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcForecastRun.html" title="Base runner class for MCMC forecaster." alt="" coords="272,99,459,139"/>
+<area shape="poly" id="edge90_Node000000_Node000003" title=" " alt="" coords="230,95,272,102,271,107,229,101"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1CtaForecastRun.html" title="CTA forecasting class." alt="" coords="515,20,684,60"/>
+<area shape="poly" id="edge89_Node000001_Node000002" title=" " alt="" coords="480,37,514,37,514,43,480,43"/>
 </map>

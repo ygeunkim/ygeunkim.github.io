@@ -1,11 +1,11 @@
-<map id="bvhar::McmcOutForecastRun&lt; ReturnType, DataType, isUpdate &gt;" name="bvhar::McmcOutForecastRun&lt; ReturnType, DataType, isUpdate &gt;">
-<area shape="rect" id="Node000001" title="Base class for pseudo out&#45;of&#45;sample forecasting." alt="" coords="293,45,503,100"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1CtaOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="551,53,769,93"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="517,70,551,70,551,75,517,75"/>
+<map id="bvhar::McmcOutForecastRun&lt; ReturnType, InputType, DataType, XType, isUpdate &gt;" name="bvhar::McmcOutForecastRun&lt; ReturnType, InputType, DataType, XType, isUpdate &gt;">
+<area shape="rect" id="Node000001" title="Base class for pseudo out&#45;of&#45;sample forecasting." alt="" coords="293,45,508,100"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1CtaOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="556,53,775,93"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="522,70,556,70,556,75,522,75"/>
 <area shape="rect" id="Node000002" href="$classbvhar_1_1McmcOutforecastInterface.html" title="Interface class for Out&#45;of&#45;sample forecasting with MCMC." alt="" coords="5,53,245,93"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,70,293,70,293,75,259,75"/>
-<area shape="rect" id="Node000004" href="$classbvhar_1_1CtaExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="817,5,1041,60"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="782,52,817,47,818,52,783,57"/>
-<area shape="rect" id="Node000005" href="$classbvhar_1_1CtaRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="830,84,1029,139"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="783,88,830,94,829,100,783,93"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1CtaExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="823,5,1047,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="788,52,822,47,823,52,789,57"/>
+<area shape="rect" id="Node000005" href="$classbvhar_1_1CtaRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="835,84,1034,139"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="789,88,835,94,835,100,788,93"/>
 </map>

@@ -79,12 +79,12 @@ var hierarchy =
     ] ],
     [ "bvhar::McmcMniw", "classbvhar_1_1McmcMniw.html", null ],
     [ "bvhar::McmcOutforecastInterface< BaseForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", [
-      [ "bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, isUpdate >", "classbvhar_1_1McmcOutForecastRun.html", [
+      [ "bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd, isUpdate >", "classbvhar_1_1McmcOutForecastRun.html", [
         [ "bvhar::CtaOutforecastRun< RegForecaster, true >", "classbvhar_1_1CtaOutforecastRun.html", null ]
       ] ],
-      [ "bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, true >", "classbvhar_1_1McmcOutForecastRun.html", null ],
+      [ "bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd, true >", "classbvhar_1_1McmcOutForecastRun.html", null ],
       [ "bvhar::McmcOutforecastRun< RegForecaster, true >", "classbvhar_1_1McmcOutforecastRun.html", null ],
-      [ "bvhar::McmcOutForecastRun< ReturnType, DataType, isUpdate >", "classbvhar_1_1McmcOutForecastRun.html", [
+      [ "bvhar::McmcOutForecastRun< ReturnType, InputType, DataType, XType, isUpdate >", "classbvhar_1_1McmcOutForecastRun.html", [
         [ "bvhar::CtaOutforecastRun< BaseForecaster, isUpdate >", "classbvhar_1_1CtaOutforecastRun.html", [
           [ "bvhar::CtaExpandforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaExpandforecastRun.html", null ],
           [ "bvhar::CtaRollforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaRollforecastRun.html", null ]
@@ -148,19 +148,19 @@ var hierarchy =
       [ "bvhar::LltOls", "classbvhar_1_1LltOls.html", null ],
       [ "bvhar::QrOls", "classbvhar_1_1QrOls.html", null ]
     ] ],
-    [ "bvhar::MultistepForecaster< ReturnType, DataType >", "classbvhar_1_1MultistepForecaster.html", [
-      [ "bvhar::BayesForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1BayesForecaster.html", [
+    [ "bvhar::MultistepForecaster< ReturnType, InputType, DataType, XType >", "classbvhar_1_1MultistepForecaster.html", [
+      [ "bvhar::BayesForecaster< Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd >", "classbvhar_1_1BayesForecaster.html", [
         [ "bvhar::CtaForecaster", "classbvhar_1_1CtaForecaster.html", [
           [ "bvhar::RegForecaster", "classbvhar_1_1RegForecaster.html", null ],
           [ "bvhar::SvForecaster", "classbvhar_1_1SvForecaster.html", null ]
         ] ]
       ] ],
-      [ "bvhar::BayesForecaster< ReturnType, DataType >", "classbvhar_1_1BayesForecaster.html", null ]
+      [ "bvhar::BayesForecaster< ReturnType, InputType, DataType, XType >", "classbvhar_1_1BayesForecaster.html", null ]
     ] ],
-    [ "bvhar::MultistepForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1MultistepForecaster.html", null ],
-    [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", null ],
-    [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", [
-      [ "bvhar::McmcForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1McmcForecastRun.html", [
+    [ "bvhar::MultistepForecaster< Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd >", "classbvhar_1_1MultistepForecaster.html", null ],
+    [ "bvhar::MultistepForecastRun< ReturnType, InputType, DataType, XType >", "classbvhar_1_1MultistepForecastRun.html", null ],
+    [ "bvhar::MultistepForecastRun< ReturnType, InputType, DataType >", "classbvhar_1_1MultistepForecastRun.html", [
+      [ "bvhar::McmcForecastRun< Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd >", "classbvhar_1_1McmcForecastRun.html", [
         [ "bvhar::CtaForecastRun< BaseForecaster >", "classbvhar_1_1CtaForecastRun.html", null ]
       ] ],
       [ "bvhar::McmcForecastRun< BaseForecaster >", "classbvhar_1_1McmcForecastRun.html", null ]

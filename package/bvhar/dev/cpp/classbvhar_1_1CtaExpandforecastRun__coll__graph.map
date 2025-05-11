@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Expanding&#45;window forecast class." alt="" coords="13,284,237,339"/>
 <area shape="rect" id="Node000002" href="$classbvhar_1_1CtaOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="16,196,235,236"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,249,128,284,123,284,123,249"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcOutForecastRun.html" title="Base class for pseudo out&#45;of&#45;sample forecasting." alt="" coords="21,93,230,148"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcOutForecastRun.html" title="Base class for pseudo out&#45;of&#45;sample forecasting." alt="" coords="18,93,233,148"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="128,162,128,196,123,196,123,162"/>
 <area shape="rect" id="Node000004" href="$classbvhar_1_1McmcOutforecastInterface.html" title="Interface class for Out&#45;of&#45;sample forecasting with MCMC." alt="" coords="5,5,245,45"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="128,59,128,93,123,93,123,59"/>

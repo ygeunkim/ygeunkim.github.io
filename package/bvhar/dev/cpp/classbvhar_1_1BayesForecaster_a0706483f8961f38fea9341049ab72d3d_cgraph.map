@@ -1,0 +1,15 @@
+<map id="bvhar::BayesForecaster::forecast" name="bvhar::BayesForecaster::forecast">
+<area shape="rect" id="Node000001" title="Multi&#45;step forecasting." alt="" coords="5,133,180,173"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1BayesForecaster.html#a1c287ef2326a2eb8ef4b98a4b94eff67" title="Draw i&#45;th forecast." alt="" coords="228,69,403,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,131,231,111,233,116,164,136"/>
+<area shape="rect" id="Node000006" href="$classbvhar_1_1BayesForecaster.html#a20e136a9e9e6a48a274e73446f6ec496" title="Initialize lagged predictor for each MCMC loop." alt="" coords="228,133,403,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="180,151,214,151,214,156,180,156"/>
+<area shape="rect" id="Node000007" href="$classbvhar_1_1BayesForecaster.html#a9ed34eb15abdc437cd8eb0adfe68cd28" title="Update members with corresponding MCMC draw." alt="" coords="228,197,403,237"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="164,171,233,191,231,196,162,176"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1MultistepForecaster.html#a8145e21c03ed01d8261fd54aa2b5fb57" title="Set the initial lagged unit." alt="" coords="451,5,647,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,67,461,46,463,52,390,72"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1MultistepForecaster.html#a1c6259de65f3877dc0516d29b85e63a2" title="Compute Linear predictor." alt="" coords="451,69,647,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="403,87,437,87,437,92,403,92"/>
+<area shape="rect" id="Node000005" href="$classbvhar_1_1MultistepForecaster.html#aa7edfa4fa945b03ad92dd6a9c569b675" title="Move the lagged unit element based on one&#45;step ahead forecasting." alt="" coords="451,133,647,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="390,107,463,127,461,132,388,112"/>
+</map>
