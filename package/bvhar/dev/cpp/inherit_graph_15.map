@@ -1,25 +1,25 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classbvhar_1_1McmcOutforecastInterface.html" title="Interface class for Out&#45;of&#45;sample forecasting with MCMC." alt="" coords="5,192,245,232"/>
-<area shape="rect" id="Node000001" href="$classbvhar_1_1McmcOutForecastRun.html" title=" " alt="" coords="298,5,507,75"/>
-<area shape="poly" id="edge61_Node000000_Node000001" title=" " alt="" coords="158,181,219,133,292,84,314,72,317,77,295,89,222,138,162,185"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcOutForecastRun.html" title=" " alt="" coords="298,99,507,168"/>
-<area shape="poly" id="edge63_Node000000_Node000003" title=" " alt="" coords="209,186,297,160,298,166,210,191"/>
-<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcOutforecastRun.html" title=" " alt="" coords="299,192,506,232"/>
-<area shape="poly" id="edge64_Node000000_Node000004" title=" " alt="" coords="259,209,299,209,299,215,259,215"/>
-<area shape="rect" id="Node000005" href="$classbvhar_1_1McmcOutForecastRun.html" title="Base class for pseudo out&#45;of&#45;sample forecasting." alt="" coords="295,257,510,311"/>
-<area shape="poly" id="edge65_Node000000_Node000005" title=" " alt="" coords="217,233,298,254,296,259,216,238"/>
-<area shape="rect" id="Node000009" href="$classbvhar_1_1McmcOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="293,336,512,376"/>
-<area shape="poly" id="edge69_Node000000_Node000009" title=" " alt="" coords="164,238,224,280,294,320,327,333,325,338,292,325,221,284,161,242"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1CtaOutforecastRun.html" title=" " alt="" coords="577,20,767,60"/>
-<area shape="poly" id="edge62_Node000001_Node000002" title=" " alt="" coords="521,37,576,37,576,43,521,43"/>
-<area shape="rect" id="Node000006" href="$classbvhar_1_1CtaOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="563,264,781,304"/>
-<area shape="poly" id="edge66_Node000005_Node000006" title=" " alt="" coords="524,281,562,281,562,287,524,287"/>
-<area shape="rect" id="Node000007" href="$classbvhar_1_1CtaExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="832,218,1056,273"/>
-<area shape="poly" id="edge67_Node000006_Node000007" title=" " alt="" coords="795,264,831,259,832,264,795,269"/>
-<area shape="rect" id="Node000008" href="$classbvhar_1_1CtaRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="845,297,1043,351"/>
-<area shape="poly" id="edge68_Node000006_Node000008" title=" " alt="" coords="795,299,845,307,844,312,795,305"/>
-<area shape="rect" id="Node000010" href="$classbvhar_1_1McmcExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="560,329,784,383"/>
-<area shape="poly" id="edge70_Node000009_Node000010" title=" " alt="" coords="525,353,560,353,560,359,525,359"/>
-<area shape="rect" id="Node000011" href="$classbvhar_1_1McmcRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="567,407,777,462"/>
-<area shape="poly" id="edge71_Node000009_Node000011" title=" " alt="" coords="486,377,578,405,577,410,484,382"/>
+<area shape="rect" id="Node000000" href="$classbvhar_1_1McmcOutforecastInterface.html" title="Interface class for Out&#45;of&#45;sample forecasting with MCMC." alt="" coords="5,163,245,203"/>
+<area shape="rect" id="Node000001" href="$classbvhar_1_1McmcOutForecastRun.html" title=" " alt="" coords="298,5,507,60"/>
+<area shape="poly" id="edge61_Node000000_Node000001" title=" " alt="" coords="162,153,221,111,292,69,317,58,319,63,295,74,224,115,165,157"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcOutForecastRun.html" title=" " alt="" coords="298,84,507,139"/>
+<area shape="poly" id="edge63_Node000000_Node000003" title=" " alt="" coords="215,157,297,136,298,141,217,162"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcOutforecastRun.html" title=" " alt="" coords="299,163,506,203"/>
+<area shape="poly" id="edge64_Node000000_Node000004" title=" " alt="" coords="259,181,299,181,299,186,259,186"/>
+<area shape="rect" id="Node000005" href="$classbvhar_1_1McmcOutForecastRun.html" title="Base class for pseudo out&#45;of&#45;sample forecasting." alt="" coords="298,228,507,283"/>
+<area shape="poly" id="edge65_Node000000_Node000005" title=" " alt="" coords="217,204,298,226,297,231,215,209"/>
+<area shape="rect" id="Node000009" href="$classbvhar_1_1McmcOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="293,307,512,347"/>
+<area shape="poly" id="edge69_Node000000_Node000009" title=" " alt="" coords="164,209,224,251,294,292,327,305,325,310,292,296,221,256,161,214"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1CtaOutforecastRun.html" title=" " alt="" coords="577,13,767,53"/>
+<area shape="poly" id="edge62_Node000001_Node000002" title=" " alt="" coords="521,30,576,30,576,35,521,35"/>
+<area shape="rect" id="Node000006" href="$classbvhar_1_1CtaOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="563,235,781,275"/>
+<area shape="poly" id="edge66_Node000005_Node000006" title=" " alt="" coords="521,253,562,253,562,258,521,258"/>
+<area shape="rect" id="Node000007" href="$classbvhar_1_1CtaExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="832,189,1056,244"/>
+<area shape="poly" id="edge67_Node000006_Node000007" title=" " alt="" coords="795,235,831,230,832,235,795,241"/>
+<area shape="rect" id="Node000008" href="$classbvhar_1_1CtaRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="845,268,1043,323"/>
+<area shape="poly" id="edge68_Node000006_Node000008" title=" " alt="" coords="795,271,845,278,844,283,795,276"/>
+<area shape="rect" id="Node000010" href="$classbvhar_1_1McmcExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="560,300,784,355"/>
+<area shape="poly" id="edge70_Node000009_Node000010" title=" " alt="" coords="525,325,560,325,560,330,525,330"/>
+<area shape="rect" id="Node000011" href="$classbvhar_1_1McmcRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="567,379,777,433"/>
+<area shape="poly" id="edge71_Node000009_Node000011" title=" " alt="" coords="486,349,578,376,577,381,484,354"/>
 </map>

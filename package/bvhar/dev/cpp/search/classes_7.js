@@ -5,7 +5,7 @@ var searchData=
   ['mcmcexpandforecastrun_2',['McmcExpandforecastRun',['../classbvhar_1_1McmcExpandforecastRun.html',1,'bvhar']]],
   ['mcmcforecaster_3',['McmcForecaster',['../classbvhar_1_1McmcForecaster.html',1,'bvhar']]],
   ['mcmcforecastrun_4',['McmcForecastRun',['../classbvhar_1_1McmcForecastRun.html',1,'bvhar']]],
-  ['mcmcforecastrun_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_2c_20eigen_3a_3avectorxd_20_3e_5',['McmcForecastRun&lt; Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd &gt;',['../classbvhar_1_1McmcForecastRun.html',1,'bvhar']]],
+  ['mcmcforecastrun_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_20_3e_5',['McmcForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd &gt;',['../classbvhar_1_1McmcForecastRun.html',1,'bvhar']]],
   ['mcmcgdp_6',['McmcGdp',['../classbvhar_1_1McmcGdp.html',1,'bvhar']]],
   ['mcmchierminn_7',['McmcHierminn',['../classbvhar_1_1McmcHierminn.html',1,'bvhar']]],
   ['mcmchorseshoe_8',['McmcHorseshoe',['../classbvhar_1_1McmcHorseshoe.html',1,'bvhar']]],
@@ -14,9 +14,9 @@ var searchData=
   ['mcmcng_11',['McmcNg',['../classbvhar_1_1McmcNg.html',1,'bvhar']]],
   ['mcmcoutforecastinterface_12',['McmcOutforecastInterface',['../classbvhar_1_1McmcOutforecastInterface.html',1,'bvhar']]],
   ['mcmcoutforecastinterface_3c_20regforecaster_20_3e_13',['McmcOutforecastInterface&lt; RegForecaster &gt;',['../classbvhar_1_1McmcOutforecastInterface.html',1,'bvhar']]],
-  ['mcmcoutforecastrun_14',['mcmcoutforecastrun',['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar::McmcOutForecastRun&lt; ReturnType, InputType, DataType, XType, isUpdate &gt;'],['../classbvhar_1_1McmcOutforecastRun.html',1,'bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;']]],
-  ['mcmcoutforecastrun_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_2c_20eigen_3a_3avectorxd_2c_20isupdate_20_3e_15',['McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd, isUpdate &gt;',['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar']]],
-  ['mcmcoutforecastrun_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_2c_20eigen_3a_3avectorxd_2c_20true_20_3e_16',['McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd, true &gt;',['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar']]],
+  ['mcmcoutforecastrun_14',['mcmcoutforecastrun',['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar::McmcOutForecastRun&lt; ReturnType, DataType, isUpdate &gt;'],['../classbvhar_1_1McmcOutforecastRun.html',1,'bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;']]],
+  ['mcmcoutforecastrun_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_2c_20isupdate_20_3e_15',['McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, isUpdate &gt;',['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar']]],
+  ['mcmcoutforecastrun_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_2c_20true_20_3e_16',['McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, true &gt;',['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar']]],
   ['mcmcoutforecastrun_3c_20regforecaster_2c_20true_20_3e_17',['McmcOutforecastRun&lt; RegForecaster, true &gt;',['../classbvhar_1_1McmcOutforecastRun.html',1,'bvhar']]],
   ['mcmcparams_18',['McmcParams',['../structbvhar_1_1McmcParams.html',1,'bvhar']]],
   ['mcmcreg_19',['McmcReg',['../classbvhar_1_1McmcReg.html',1,'bvhar']]],
@@ -56,7 +56,7 @@ var searchData=
   ['minnupdater_53',['MinnUpdater',['../classbvhar_1_1MinnUpdater.html',1,'bvhar']]],
   ['multiols_54',['MultiOls',['../classbvhar_1_1MultiOls.html',1,'bvhar']]],
   ['multistepforecaster_55',['MultistepForecaster',['../classbvhar_1_1MultistepForecaster.html',1,'bvhar']]],
-  ['multistepforecaster_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_2c_20eigen_3a_3avectorxd_20_3e_56',['MultistepForecaster&lt; Eigen::MatrixXd, Eigen::MatrixXd, Eigen::VectorXd, Eigen::VectorXd &gt;',['../classbvhar_1_1MultistepForecaster.html',1,'bvhar']]],
+  ['multistepforecaster_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_20_3e_56',['MultistepForecaster&lt; Eigen::MatrixXd, Eigen::VectorXd &gt;',['../classbvhar_1_1MultistepForecaster.html',1,'bvhar']]],
   ['multistepforecastrun_57',['MultistepForecastRun',['../classbvhar_1_1MultistepForecastRun.html',1,'bvhar']]],
-  ['multistepforecastrun_3c_20returntype_2c_20inputtype_2c_20datatype_20_3e_58',['MultistepForecastRun&lt; ReturnType, InputType, DataType &gt;',['../classbvhar_1_1MultistepForecastRun.html',1,'bvhar']]]
+  ['multistepforecastrun_3c_20returntype_2c_20datatype_20_3e_58',['MultistepForecastRun&lt; ReturnType, DataType &gt;',['../classbvhar_1_1MultistepForecastRun.html',1,'bvhar']]]
 ];

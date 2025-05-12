@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['_7ebayesforecaster_0',['~BayesForecaster',['../classbvhar_1_1BayesForecaster.html#aab268b056fd0391ed3be3470c49bd438',1,'bvhar::BayesForecaster']]],
+  ['_7ebayesforecaster_0',['~BayesForecaster',['../classbvhar_1_1BayesForecaster.html#aefe8503bba881225023e95056f3a126d',1,'bvhar::BayesForecaster']]],
   ['_7ebvarforecaster_1',['~BvarForecaster',['../classbvhar_1_1BvarForecaster.html#af0d7e5b08953b41d45b5cf7ee3b43d0f',1,'bvhar::BvarForecaster']]],
   ['_7ebvharforecaster_2',['~BvharForecaster',['../classbvhar_1_1BvharForecaster.html#af8f16695e3bec00f1eabe8c17c1a431a',1,'bvhar::BvharForecaster']]],
   ['_7ebvharinterrupt_3',['~bvharinterrupt',['../classbvhar_1_1bvharinterrupt.html#a0a9ebb6d8b3d4e79a9a3c7cbbaa13654',1,'bvhar::bvharinterrupt']]],
@@ -39,7 +39,7 @@ var searchData=
   ['_7emcmcmniw_36',['~McmcMniw',['../classbvhar_1_1McmcMniw.html#a56ae4f75366591566556edc1b2b6774b',1,'bvhar::McmcMniw']]],
   ['_7emcmcng_37',['~McmcNg',['../classbvhar_1_1McmcNg.html#a93e9ae7b3928c4958dbed2a83b271691',1,'bvhar::McmcNg']]],
   ['_7emcmcoutforecastinterface_38',['~mcmcoutforecastinterface',['../classbvhar_1_1McmcOutforecastInterface.html#ac2679f1065aca324712c18503d55a7d1',1,'bvhar::McmcOutforecastInterface::~McmcOutforecastInterface()=default'],['../classbvhar_1_1McmcOutforecastInterface.html#ac2679f1065aca324712c18503d55a7d1',1,'bvhar::McmcOutforecastInterface::~McmcOutforecastInterface()=default']]],
-  ['_7emcmcoutforecastrun_39',['~mcmcoutforecastrun',['../classbvhar_1_1McmcOutForecastRun.html#a10520ed7c9660dbca41e89b5eac8193d',1,'bvhar::McmcOutForecastRun::~McmcOutForecastRun()'],['../classbvhar_1_1McmcOutforecastRun.html#afe4b63667c66ea28cdc1ffdcea90a2d2',1,'bvhar::McmcOutforecastRun::~McmcOutforecastRun()']]],
+  ['_7emcmcoutforecastrun_39',['~mcmcoutforecastrun',['../classbvhar_1_1McmcOutForecastRun.html#a60caf246463c754a3d2a32ea53c7df56',1,'bvhar::McmcOutForecastRun::~McmcOutForecastRun()'],['../classbvhar_1_1McmcOutforecastRun.html#afe4b63667c66ea28cdc1ffdcea90a2d2',1,'bvhar::McmcOutforecastRun::~McmcOutforecastRun()']]],
   ['_7emcmcreg_40',['~mcmcreg',['../classbvhar_1_1McmcReg.html#af584d5e8ad78f9f7f24076a6ed144e32',1,'bvhar::McmcReg::~McmcReg()=default'],['../classbvhar_1_1McmcReg.html#af584d5e8ad78f9f7f24076a6ed144e32',1,'bvhar::McmcReg::~McmcReg()=default']]],
   ['_7emcmcrollforecastrun_41',['~McmcRollforecastRun',['../classbvhar_1_1McmcRollforecastRun.html#aa12eee129906746a7ce4125fa499a6dd',1,'bvhar::McmcRollforecastRun']]],
   ['_7emcmcrun_42',['~McmcRun',['../classbvhar_1_1McmcRun.html#a8fffb810dbcd4ce56f28def146b26450',1,'bvhar::McmcRun']]],
@@ -67,8 +67,8 @@ var searchData=
   ['_7eminnspillover_64',['~MinnSpillover',['../classbvhar_1_1MinnSpillover.html#ae28f76cd03499d682f30a472b1ebb4d7',1,'bvhar::MinnSpillover']]],
   ['_7eminnupdater_65',['~MinnUpdater',['../classbvhar_1_1MinnUpdater.html#a947ce36991460fca0e7b3647374d2ef3',1,'bvhar::MinnUpdater']]],
   ['_7emultiols_66',['~MultiOls',['../classbvhar_1_1MultiOls.html#ab77bdb0fed20e0d0e0581392638fc48d',1,'bvhar::MultiOls']]],
-  ['_7emultistepforecaster_67',['~MultistepForecaster',['../classbvhar_1_1MultistepForecaster.html#a62606201040c4ac2607d7a4ea331d085',1,'bvhar::MultistepForecaster']]],
-  ['_7emultistepforecastrun_68',['~MultistepForecastRun',['../classbvhar_1_1MultistepForecastRun.html#a23df09752cfab204110f9298dab5daa4',1,'bvhar::MultistepForecastRun']]],
+  ['_7emultistepforecaster_67',['~MultistepForecaster',['../classbvhar_1_1MultistepForecaster.html#adabe018aa9a4a95cd5399295d345fc93',1,'bvhar::MultistepForecaster']]],
+  ['_7emultistepforecastrun_68',['~MultistepForecastRun',['../classbvhar_1_1MultistepForecastRun.html#ad2af4fbfe52c88027113852d142272ee',1,'bvhar::MultistepForecastRun']]],
   ['_7engupdater_69',['~NgUpdater',['../classbvhar_1_1NgUpdater.html#ae50214198f217902ba1c9873b6712410',1,'bvhar::NgUpdater']]],
   ['_7eolsforecaster_70',['~OlsForecaster',['../classbvhar_1_1OlsForecaster.html#ac3d089aca1286bcc3737c553acd89519',1,'bvhar::OlsForecaster']]],
   ['_7eolsspillover_71',['~OlsSpillover',['../classbvhar_1_1OlsSpillover.html#a0ccf2d988d70da7890c4314821e33cfa',1,'bvhar::OlsSpillover']]],

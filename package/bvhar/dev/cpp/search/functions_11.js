@@ -1,7 +1,7 @@
 var searchData=
 [
   ['set_5fgrp_5fid_0',['set_grp_id',['../namespacebvhar.html#a4259e76082437051b0f410f0edfd51d5',1,'bvhar']]],
-  ['setrecursion_1',['setrecursion',['../classbvhar_1_1MultistepForecaster.html#a8145e21c03ed01d8261fd54aa2b5fb57',1,'bvhar::MultistepForecaster::setRecursion()'],['../classbvhar_1_1CtaForecaster.html#a4e004309115fca0884a329451ee05e55',1,'bvhar::CtaForecaster::setRecursion()']]],
+  ['setrecursion_1',['setrecursion',['../classbvhar_1_1MultistepForecaster.html#ab369c30c5a78ba3bb1a725a82602a8ac',1,'bvhar::MultistepForecaster::setRecursion()'],['../classbvhar_1_1CtaForecaster.html#a4e004309115fca0884a329451ee05e55',1,'bvhar::CtaForecaster::setRecursion()']]],
   ['shrinkageinits_2',['shrinkageinits',['../structbvhar_1_1ShrinkageInits.html#a12a19962d2bd7effb03de062395c2a4d',1,'bvhar::ShrinkageInits::ShrinkageInits(Rcpp::List &amp;init, int num_design)'],['../structbvhar_1_1ShrinkageInits.html#a41623c572c9ec61b3063158f9ab40277',1,'bvhar::ShrinkageInits::ShrinkageInits(Rcpp::List &amp;init)'],['../structbvhar_1_1ShrinkageInits.html#aa133a24b7d6c7b52a30200a510c56612',1,'bvhar::ShrinkageInits::ShrinkageInits()']]],
   ['shrinkageparams_3',['shrinkageparams',['../structbvhar_1_1ShrinkageParams.html#a5a71d2d092f674ae6b03593eb7f65163',1,'bvhar::ShrinkageParams::ShrinkageParams()'],['../structbvhar_1_1ShrinkageParams.html#a3602714d408655209ffb2007c2e883b1',1,'bvhar::ShrinkageParams::ShrinkageParams(Rcpp::List &amp;priors)']]],
   ['shrinkageupdater_4',['ShrinkageUpdater',['../classbvhar_1_1ShrinkageUpdater.html#ae679fed32432ce0e23b58399726e244f',1,'bvhar::ShrinkageUpdater']]],

@@ -1,18 +1,18 @@
 var classbvhar_1_1BayesForecaster =
 [
-    [ "BayesForecaster", "classbvhar_1_1BayesForecaster.html#a4b69f401b30de7d0620119307ad5eed5", null ],
-    [ "~BayesForecaster", "classbvhar_1_1BayesForecaster.html#aab268b056fd0391ed3be3470c49bd438", null ],
-    [ "returnLplRecord", "classbvhar_1_1BayesForecaster.html#ae07075d9b22a7758b33c0d265dc59b84", null ],
-    [ "returnLpl", "classbvhar_1_1BayesForecaster.html#adc7a1d062edbe8ed115cd6e055a6b21c", null ],
-    [ "forecast", "classbvhar_1_1BayesForecaster.html#a0706483f8961f38fea9341049ab72d3d", null ],
-    [ "forecast", "classbvhar_1_1BayesForecaster.html#a199edd5aabb19bad69ecec852556644d", null ],
-    [ "initRecursion", "classbvhar_1_1BayesForecaster.html#a20e136a9e9e6a48a274e73446f6ec496", null ],
-    [ "updateParams", "classbvhar_1_1BayesForecaster.html#a9ed34eb15abdc437cd8eb0adfe68cd28", null ],
-    [ "forecastOut", "classbvhar_1_1BayesForecaster.html#a1c287ef2326a2eb8ef4b98a4b94eff67", null ],
-    [ "updateLpl", "classbvhar_1_1BayesForecaster.html#ae134cedb9e4318daeb3b952ea3d42ec1", null ],
-    [ "forecastOut", "classbvhar_1_1BayesForecaster.html#aff0a1fc749a59c8fbe2904a63af555af", null ],
-    [ "lpl", "classbvhar_1_1BayesForecaster.html#ae624073e6f0b844d74e6953466003cf7", null ],
-    [ "mtx", "classbvhar_1_1BayesForecaster.html#a6d0e0ef726ba222425e199d14e603bef", null ],
-    [ "num_sim", "classbvhar_1_1BayesForecaster.html#aa4e488520551a30a3751800f1ab2bf70", null ],
-    [ "rng", "classbvhar_1_1BayesForecaster.html#a92cc2fd3df902a2cdb2a1e28eee009bc", null ]
+    [ "BayesForecaster", "classbvhar_1_1BayesForecaster.html#a5b4c1aa813e620788b1a7b3a7feac717", null ],
+    [ "~BayesForecaster", "classbvhar_1_1BayesForecaster.html#aefe8503bba881225023e95056f3a126d", null ],
+    [ "returnLplRecord", "classbvhar_1_1BayesForecaster.html#afc44d1ce080935cf7f7c2cd0afd43bd3", null ],
+    [ "returnLpl", "classbvhar_1_1BayesForecaster.html#a5f27de5c7966498170d9985c33849bb7", null ],
+    [ "forecast", "classbvhar_1_1BayesForecaster.html#af1580aba5a48c63fc53db257c11997c8", null ],
+    [ "forecast", "classbvhar_1_1BayesForecaster.html#a4585b860583aaefb1a6b4e3d75474bfa", null ],
+    [ "initRecursion", "classbvhar_1_1BayesForecaster.html#a606d69ab8d4d7cc290ce31923abd22ee", null ],
+    [ "updateParams", "classbvhar_1_1BayesForecaster.html#a091917460ab69cd8ce2ad3f56f07115d", null ],
+    [ "forecastOut", "classbvhar_1_1BayesForecaster.html#abaefee69a9ff3ebc9fad8160f5b46eb7", null ],
+    [ "updateLpl", "classbvhar_1_1BayesForecaster.html#a728b1a6a3e6fdc61835ba3b72d98d85b", null ],
+    [ "forecastOut", "classbvhar_1_1BayesForecaster.html#a15db40b932497be4210e27f8ddae2bfb", null ],
+    [ "lpl", "classbvhar_1_1BayesForecaster.html#a79029ba0db880af1f6e9092127cb936b", null ],
+    [ "mtx", "classbvhar_1_1BayesForecaster.html#ae32cb63607201776fbbfa2c1102e46f0", null ],
+    [ "num_sim", "classbvhar_1_1BayesForecaster.html#a2ddbf3c90833ed05cda1cb1f12b8e703", null ],
+    [ "rng", "classbvhar_1_1BayesForecaster.html#ae8ac12737bf0f0f6e6c69b048b613f8c", null ]
 ];

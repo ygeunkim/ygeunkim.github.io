@@ -10,5 +10,5 @@ var classbvhar_1_1McmcForecastRun =
     [ "returnForecast", "classbvhar_1_1McmcForecastRun.html#a8d103d80aad611a0b0934aab29cde996", null ],
     [ "forecast", "classbvhar_1_1McmcForecastRun.html#a9b5de209c7ecd9eb79d14f11f4854dee", null ],
     [ "returnForecast", "classbvhar_1_1McmcForecastRun.html#a84cc4c4c4f8c8fa08fd4282a189d8749", null ],
-    [ "forecaster", "classbvhar_1_1McmcForecastRun.html#a1e4622c082462600f16394a8ca067878", null ]
+    [ "forecaster", "classbvhar_1_1McmcForecastRun.html#a1d8601319c4c4c15fef968378d90ab1e", null ]
 ];
