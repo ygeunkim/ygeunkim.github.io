@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.2.2.9006</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.2.2.9007</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,11 +58,15 @@
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="development version" id="bvhar-development-version">bvhar (development version)<a class="anchor" aria-label="anchor" href="#bvhar-development-version"></a></h2>
 <ul><li><p>Changed <code>bayes_spec</code> argument into <code>coef_spec</code> and <code>contem_spec</code> to enable different priors</p></li>
-<li><p>In C++, added <code>shrinkage</code> headers for strategy design pattern.</p></li>
 <li><p>Added <code>mcmc</code> option in <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code> and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> for <code>ldltmod</code> and <code>svmod</code> classes.</p></li>
-<li><p>In C++ side, added <code>McmcParams</code>, <code>McmcAlgo</code>, and <code>McmcRun</code> (changed original <code>McmcRun</code> to <code>CtaRun</code>) for extensibility of MCMC algorithms.</p></li>
+<li><p><code><a href="../reference/var_lm.html">var_lm()</a></code> and <code><a href="../reference/vhar_lm.html">vhar_lm()</a></code> can run frequentist VARX and VHARX via <code>exogen</code> and <code>s</code>.</p></li>
+</ul><div class="section level3">
+<h3 id="internal-changes-c-development-version">Internal changes (C++)<a class="anchor" aria-label="anchor" href="#internal-changes-c-development-version"></a></h3>
+<ul><li><p>Added <code>shrinkage</code> headers for strategy design pattern.</p></li>
+<li><p>Added <code>McmcParams</code>, <code>McmcAlgo</code>, and <code>McmcRun</code> (changed original <code>McmcRun</code> to <code>CtaRun</code>) for extensibility of MCMC algorithms.</p></li>
 <li><p>Also added base forecaster classes.</p></li>
 </ul></div>
+</div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="2.2.2" id="bvhar-222">bvhar 2.2.2<a class="anchor" aria-label="anchor" href="#bvhar-222"></a></h2><p class="text-muted">CRAN release: 2025-02-28</p>
 <ul><li>Fix <code><a href="https://rdrr.io/r/base/unlist.html" class="external-link">unlist()</a></code> error in print methods for <code>r-devel</code> (4.5.0).</li>

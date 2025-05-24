@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.2.2.9006</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.2.2.9007</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,10 +63,10 @@
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="co"># S3 method for class 'varlse'</span></span>
-<span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, level <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, level <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">newxreg</span>, <span class="va">...</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for class 'vharlse'</span></span>
-<span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, level <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, level <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">newxreg</span>, <span class="va">...</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for class 'bvarmn'</span></span>
 <span><span class="fu">predict</span><span class="op">(</span><span class="va">object</span>, <span class="va">n_ahead</span>, n_iter <span class="op">=</span> <span class="fl">100L</span>, level <span class="op">=</span> <span class="fl">0.05</span>, num_thread <span class="op">=</span> <span class="fl">1</span>, <span class="va">...</span><span class="op">)</span></span>
@@ -154,6 +154,11 @@
 
 <dt id="arg-level">level<a class="anchor" aria-label="anchor" href="#arg-level"></a></dt>
 <dd><p>Specify alpha of confidence interval level 100(1 - alpha) percentage. By default, .05.</p></dd>
+
+
+<dt id="arg-newxreg">newxreg<a class="anchor" aria-label="anchor" href="#arg-newxreg"></a></dt>
+<dd><p>New values for exogenous variables.
+Should have the same row numbers with <code>n_ahead</code>.</p></dd>
 
 
 <dt id="arg--">...<a class="anchor" aria-label="anchor" href="#arg--"></a></dt>
