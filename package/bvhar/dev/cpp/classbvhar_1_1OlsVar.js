@@ -1,6 +1,7 @@
 var classbvhar_1_1OlsVar =
 [
     [ "OlsVar", "classbvhar_1_1OlsVar.html#a1596646ccef2da88a4952c5e48b654d1", null ],
+    [ "OlsVar", "classbvhar_1_1OlsVar.html#a4c7f314fdd48f12ef4563f5af2021c7a", null ],
     [ "~OlsVar", "classbvhar_1_1OlsVar.html#a2773152c24dfbc4feb8f125cfb839861", null ],
     [ "returnOlsRes", "classbvhar_1_1OlsVar.html#a2b900d0481783bf1dde0355049ff63d7", null ],
     [ "returnOlsFit", "classbvhar_1_1OlsVar.html#a16e7793d7e324d520182a108b57632d9", null ],

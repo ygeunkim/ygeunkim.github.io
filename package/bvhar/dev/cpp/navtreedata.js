@@ -61,17 +61,17 @@ var NAVTREEINDEX =
 "annotated.html",
 "classbvhar_1_1CtaForecaster.html#ab2a2787bef41d0c06f6536b53c45f63b",
 "classbvhar_1_1DynamicSvSpillover.html#a44eaf664b41408a770a40765e3ec3657",
-"classbvhar_1_1McmcHorseshoe.html#a0e66b0cce727a4661dc5d25a7f5893f9",
-"classbvhar_1_1McmcRun.html#a404c1e752f5e7055c31f59cba08bc2d1",
-"classbvhar_1_1McmcTriangular.html#aa5767cc285c2d6ee84d187664f24267a",
-"classbvhar_1_1MinnFlat.html#a2cd629bcc939ca5d6bc29234b933312d",
-"classbvhar_1_1MultiOls.html#afa85ac0a4a12e81a7161f1ccf631f4d9",
-"classbvhar_1_1SsvsUpdater.html#aa4eb20a8c7654a6874c2444037d8b111",
-"gdp__helper_8h.html#a3eac8bafb0785e4fcfcc2a159ff042f1",
-"structbvhar_1_1BvarSpec.html",
-"structbvhar_1_1LdltRecords.html#ab04b4aae60a2a6ca923e869e75ee791e",
-"structbvhar_1_1RegRecords.html#a01d42aec7da42b1326f1a0c2e8b54ea6",
-"structbvhar_1_1SvParams.html"
+"classbvhar_1_1McmcHierminn.html",
+"classbvhar_1_1McmcRollforecastRun.html",
+"classbvhar_1_1McmcTriangular.html#a7b758b0d743cf62372c39e3dc814e742",
+"classbvhar_1_1MinnBvharS.html#a32b1e512e4cb9ea411e69e490a6ae0f5",
+"classbvhar_1_1MultiOls.html#a8b4a24f6d6d8e84fcdd46c921b757c28",
+"classbvhar_1_1RegForecaster.html#a1ff0b1fe040e48b918ae4727b92c8581",
+"functions_func_q.html",
+"ols_2spillover_8h.html",
+"structbvhar_1_1LdltInits.html",
+"structbvhar_1_1RegParams.html#a06f4e19e97dbef5ebb9ef7d518be0905",
+"structbvhar_1_1SsvsParams.html#afeceaff79eb2ed537655a69f004dc43c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -33,6 +33,10 @@ var hierarchy =
     ] ],
     [ "bvhar::DynamicLdltSpillover", "classbvhar_1_1DynamicLdltSpillover.html", null ],
     [ "bvhar::DynamicSvSpillover", "classbvhar_1_1DynamicSvSpillover.html", null ],
+    [ "bvhar::ExogenForecaster< ReturnType, DataType >", "classbvhar_1_1ExogenForecaster.html", null ],
+    [ "bvhar::ExogenForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1ExogenForecaster.html", [
+      [ "bvhar::OlsExogenForecaster", "classbvhar_1_1OlsExogenForecaster.html", null ]
+    ] ],
     [ "boost::random::generalized_inverse_gaussian_distribution< RealType >", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html", null ],
     [ "bvhar::GlobalLocalRecords", "structbvhar_1_1GlobalLocalRecords.html", [
       [ "bvhar::HorseshoeRecords", "structbvhar_1_1HorseshoeRecords.html", null ],
@@ -157,8 +161,16 @@ var hierarchy =
       ] ],
       [ "bvhar::BayesForecaster< ReturnType, DataType >", "classbvhar_1_1BayesForecaster.html", null ]
     ] ],
-    [ "bvhar::MultistepForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1MultistepForecaster.html", null ],
+    [ "bvhar::MultistepForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1MultistepForecaster.html", [
+      [ "bvhar::OlsForecaster", "classbvhar_1_1OlsForecaster.html", [
+        [ "bvhar::VarForecaster", "classbvhar_1_1VarForecaster.html", null ],
+        [ "bvhar::VharForecaster", "classbvhar_1_1VharForecaster.html", null ]
+      ] ]
+    ] ],
     [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", null ],
+    [ "bvhar::MultistepForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1MultistepForecastRun.html", [
+      [ "bvhar::OlsForecastRun", "classbvhar_1_1OlsForecastRun.html", null ]
+    ] ],
     [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", [
       [ "bvhar::McmcForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1McmcForecastRun.html", [
         [ "bvhar::CtaForecastRun< BaseForecaster >", "classbvhar_1_1CtaForecastRun.html", null ]
@@ -167,10 +179,6 @@ var hierarchy =
     ] ],
     [ "bvhar::OlsFit", "structbvhar_1_1OlsFit.html", [
       [ "bvhar::StructuralFit", "structbvhar_1_1StructuralFit.html", null ]
-    ] ],
-    [ "bvhar::OlsForecaster", "classbvhar_1_1OlsForecaster.html", [
-      [ "bvhar::VarForecaster", "classbvhar_1_1VarForecaster.html", null ],
-      [ "bvhar::VharForecaster", "classbvhar_1_1VharForecaster.html", null ]
     ] ],
     [ "bvhar::OlsSpillover", "classbvhar_1_1OlsSpillover.html", null ],
     [ "bvhar::OlsVar", "classbvhar_1_1OlsVar.html", null ],

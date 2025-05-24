@@ -1,9 +1,25 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="5,42,160,67"/>
-<area shape="rect" id="Node000001" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="208,42,348,67"/>
-<area shape="poly" id="edge72_Node000000_Node000001" title=" " alt="" coords="174,52,208,52,208,57,174,57"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1HorseshoeParams.html" title="Hyperparameters for Horseshoe prior McmcHorseshoe" alt="" coords="396,5,580,45"/>
-<area shape="poly" id="edge73_Node000001_Node000002" title=" " alt="" coords="361,40,395,36,396,41,362,46"/>
-<area shape="rect" id="Node000003" href="$structbvhar_1_1SvParams.html" title="Hyperparameters for McmcSv" alt="" coords="423,70,553,95"/>
-<area shape="poly" id="edge74_Node000001_Node000003" title=" " alt="" coords="362,63,423,71,422,77,362,68"/>
+<area shape="rect" id="Node000000" href="$classbvhar_1_1McmcOutforecastInterface.html" title="Interface class for Out&#45;of&#45;sample forecasting with MCMC." alt="" coords="5,163,245,203"/>
+<area shape="rect" id="Node000001" href="$classbvhar_1_1McmcOutForecastRun.html" title=" " alt="" coords="298,5,507,60"/>
+<area shape="poly" id="edge62_Node000000_Node000001" title=" " alt="" coords="162,153,221,111,292,69,317,58,319,63,295,74,224,115,165,157"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcOutForecastRun.html" title=" " alt="" coords="298,84,507,139"/>
+<area shape="poly" id="edge64_Node000000_Node000003" title=" " alt="" coords="215,157,297,136,298,141,217,162"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcOutforecastRun.html" title=" " alt="" coords="299,163,506,203"/>
+<area shape="poly" id="edge65_Node000000_Node000004" title=" " alt="" coords="259,181,299,181,299,186,259,186"/>
+<area shape="rect" id="Node000005" href="$classbvhar_1_1McmcOutForecastRun.html" title="Base class for pseudo out&#45;of&#45;sample forecasting." alt="" coords="298,228,507,283"/>
+<area shape="poly" id="edge66_Node000000_Node000005" title=" " alt="" coords="217,204,298,226,297,231,215,209"/>
+<area shape="rect" id="Node000009" href="$classbvhar_1_1McmcOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="293,307,512,347"/>
+<area shape="poly" id="edge70_Node000000_Node000009" title=" " alt="" coords="164,209,224,251,294,292,327,305,325,310,292,296,221,256,161,214"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1CtaOutforecastRun.html" title=" " alt="" coords="577,13,767,53"/>
+<area shape="poly" id="edge63_Node000001_Node000002" title=" " alt="" coords="521,30,576,30,576,35,521,35"/>
+<area shape="rect" id="Node000006" href="$classbvhar_1_1CtaOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="563,235,781,275"/>
+<area shape="poly" id="edge67_Node000005_Node000006" title=" " alt="" coords="521,253,562,253,562,258,521,258"/>
+<area shape="rect" id="Node000007" href="$classbvhar_1_1CtaExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="832,189,1056,244"/>
+<area shape="poly" id="edge68_Node000006_Node000007" title=" " alt="" coords="795,235,831,230,832,235,795,241"/>
+<area shape="rect" id="Node000008" href="$classbvhar_1_1CtaRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="845,268,1043,323"/>
+<area shape="poly" id="edge69_Node000006_Node000008" title=" " alt="" coords="795,271,845,278,844,283,795,276"/>
+<area shape="rect" id="Node000010" href="$classbvhar_1_1McmcExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="560,300,784,355"/>
+<area shape="poly" id="edge71_Node000009_Node000010" title=" " alt="" coords="525,325,560,325,560,330,525,330"/>
+<area shape="rect" id="Node000011" href="$classbvhar_1_1McmcRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="567,379,777,433"/>
+<area shape="poly" id="edge72_Node000009_Node000011" title=" " alt="" coords="486,349,578,376,577,381,484,354"/>
 </map>
