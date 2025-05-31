@@ -1,5 +1,5 @@
 <map id="bvhar::initialize_forecaster" name="bvhar::initialize_forecaster">
 <area shape="rect" id="Node000001" title="Initialize the vector of forecast class smart pointer." alt="" coords="5,5,201,31"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a1c28510c1a60c0d61f1fc7ccadd03fd9" title="Initialize MCMC record used in forecast classes." alt="" coords="249,5,420,31"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#abf94b380ff705c1abdb726bd63d98e02" title="Initialize MCMC record used in forecast classes." alt="" coords="249,5,420,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,15,236,15,236,21,202,21"/>
 </map>

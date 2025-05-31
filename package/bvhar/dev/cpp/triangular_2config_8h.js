@@ -9,6 +9,6 @@ var triangular_2config_8h =
     [ "bvhar::SparseRecords", "structbvhar_1_1SparseRecords.html", "structbvhar_1_1SparseRecords" ],
     [ "bvhar::LdltRecords", "structbvhar_1_1LdltRecords.html", "structbvhar_1_1LdltRecords" ],
     [ "bvhar::SvRecords", "structbvhar_1_1SvRecords.html", "structbvhar_1_1SvRecords" ],
-    [ "initialize_record", "triangular_2config_8h.html#a1c28510c1a60c0d61f1fc7ccadd03fd9", null ],
-    [ "initialize_record", "triangular_2config_8h.html#a6c0609624e6286035939a41a47027e68", null ]
+    [ "initialize_record", "triangular_2config_8h.html#abf94b380ff705c1abdb726bd63d98e02", null ],
+    [ "initialize_record", "triangular_2config_8h.html#a4af6f11a06df3bfe4b2c9e82d8e60ebf", null ]
 ];

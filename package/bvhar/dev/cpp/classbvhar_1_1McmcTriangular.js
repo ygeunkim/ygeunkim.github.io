@@ -2,7 +2,7 @@ var classbvhar_1_1McmcTriangular =
 [
     [ "McmcTriangular", "classbvhar_1_1McmcTriangular.html#ae75d1e9783a704d900173e9f21b07a62", null ],
     [ "~McmcTriangular", "classbvhar_1_1McmcTriangular.html#a6870ad567a1e7e070d690b2c7f28cacc", null ],
-    [ "McmcTriangular", "classbvhar_1_1McmcTriangular.html#a3fd0df48c57dda67771529db3b5731c7", null ],
+    [ "McmcTriangular", "classbvhar_1_1McmcTriangular.html#aea6545bbb1cf077df2d03e8e49a3b296", null ],
     [ "~McmcTriangular", "classbvhar_1_1McmcTriangular.html#a6870ad567a1e7e070d690b2c7f28cacc", null ],
     [ "appendRecords", "classbvhar_1_1McmcTriangular.html#ae178bc2832842acdeff16432e8227be4", null ],
     [ "doWarmUp", "classbvhar_1_1McmcTriangular.html#ab96d423b6fbfd762465b36a95ac14b09", null ],
@@ -75,6 +75,10 @@ var classbvhar_1_1McmcTriangular =
     [ "sqrt_sv", "classbvhar_1_1McmcTriangular.html#ab4868a904c9164a309dedc161d7c6904", null ],
     [ "prior_sig_shp", "classbvhar_1_1McmcTriangular.html#a76a667341e52f53fc516d40689ef8872", null ],
     [ "prior_sig_scl", "classbvhar_1_1McmcTriangular.html#a2023a20ef851494729f054253744d250", null ],
+    [ "nrow_exogen", "classbvhar_1_1McmcTriangular.html#ab12159baa14d5e92dca065216fd81572", null ],
+    [ "num_exogen", "classbvhar_1_1McmcTriangular.html#ac3ae084109cc1d6e77f194b801121dd6", null ],
+    [ "num_endog", "classbvhar_1_1McmcTriangular.html#a5c31ceb0ea4b7dd93d1baec5ddc0a88c", null ],
     [ "coef_updater", "classbvhar_1_1McmcTriangular.html#afdf8a5718d2963767678537ddc6e1558", null ],
-    [ "contem_updater", "classbvhar_1_1McmcTriangular.html#a7b6a2bf30d1a1186a65478147d07c7e6", null ]
+    [ "contem_updater", "classbvhar_1_1McmcTriangular.html#a7b6a2bf30d1a1186a65478147d07c7e6", null ],
+    [ "exogen_updater", "classbvhar_1_1McmcTriangular.html#a9b4b021b84c91ec5178e7af52154078d", null ]
 ];

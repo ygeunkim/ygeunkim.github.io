@@ -1,6 +1,6 @@
 var classbvhar_1_1McmcOutForecastRun =
 [
-    [ "McmcOutForecastRun", "classbvhar_1_1McmcOutForecastRun.html#a34bb8edaed2c3d08cbda766be6378bc5", null ],
+    [ "McmcOutForecastRun", "classbvhar_1_1McmcOutForecastRun.html#a7cf566831fc9f66bc86505a67cacbc4e", null ],
     [ "~McmcOutForecastRun", "classbvhar_1_1McmcOutForecastRun.html#a60caf246463c754a3d2a32ea53c7df56", null ],
     [ "forecast", "classbvhar_1_1McmcOutForecastRun.html#ae9415a7dabe815e4b77a895901cc816f", null ],
     [ "returnForecast", "classbvhar_1_1McmcOutForecastRun.html#acb1ca7c55b405528a96e8d46298d2536", null ],
@@ -27,5 +27,8 @@ var classbvhar_1_1McmcOutForecastRun =
     [ "model", "classbvhar_1_1McmcOutForecastRun.html#a15a5cc8f54656fa8c54fc66605de77f7", null ],
     [ "forecaster", "classbvhar_1_1McmcOutForecastRun.html#a3f0ed4556eb079cacf104f8076c59ff0", null ],
     [ "out_forecast", "classbvhar_1_1McmcOutForecastRun.html#a91a5bf3ca6e123c487be2d5f9440faf9", null ],
-    [ "lpl_record", "classbvhar_1_1McmcOutForecastRun.html#a29ae5e532202dcb5d9a8afddcc068382", null ]
+    [ "lpl_record", "classbvhar_1_1McmcOutForecastRun.html#a29ae5e532202dcb5d9a8afddcc068382", null ],
+    [ "roll_exogen_mat", "classbvhar_1_1McmcOutForecastRun.html#a499af871e9fd7f82d47d3bfe7d630d8a", null ],
+    [ "roll_exogen", "classbvhar_1_1McmcOutForecastRun.html#a4b10a99774ae734601d18e079bda193f", null ],
+    [ "lag_exogen", "classbvhar_1_1McmcOutForecastRun.html#ab092fe5832eaa47f01d1151056aac4e3", null ]
 ];

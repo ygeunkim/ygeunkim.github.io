@@ -1,6 +1,6 @@
 var structbvhar_1_1RegParams =
 [
-    [ "RegParams", "structbvhar_1_1RegParams.html#af51e42304ebb224d85d7d022915b48ab", null ],
+    [ "RegParams", "structbvhar_1_1RegParams.html#ae7b455b4b10975de4bad9c13c28851a7", null ],
     [ "RegParams", "structbvhar_1_1RegParams.html#af51e42304ebb224d85d7d022915b48ab", null ],
     [ "_x", "structbvhar_1_1RegParams.html#a6a75ce4d38aa5f2aea8a6ef6d609309d", null ],
     [ "_y", "structbvhar_1_1RegParams.html#acd0e89fb44f614831f9b0dbe64d32d43", null ],
@@ -12,6 +12,8 @@ var structbvhar_1_1RegParams =
     [ "_num_coef", "structbvhar_1_1RegParams.html#a3a4889879d7b692fa0569a0ba56c3467", null ],
     [ "_num_alpha", "structbvhar_1_1RegParams.html#a5c4801543e7fa3184cafa000dd705831", null ],
     [ "_nrow", "structbvhar_1_1RegParams.html#a275500b950765adeac69b4fbc4358ccc", null ],
+    [ "_nrow_exogen", "structbvhar_1_1RegParams.html#a166709d4b9cb445e9fd9b51970917288", null ],
+    [ "_num_exogen", "structbvhar_1_1RegParams.html#a54fa1c33193949b9096570bddf8b7a20", null ],
     [ "_alpha_mean", "structbvhar_1_1RegParams.html#ab1cc5cb67476379769dda1b8739b4f73", null ],
     [ "_alpha_prec", "structbvhar_1_1RegParams.html#a410e7c253d8d2c9104b607b5eb3d428e", null ],
     [ "_chol_mean", "structbvhar_1_1RegParams.html#a8e402337bca249db376ecb3b4da1b078", null ],

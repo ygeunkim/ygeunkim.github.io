@@ -1,7 +1,7 @@
 var classbvhar_1_1CtaRollforecastRun =
 [
-    [ "CtaRollforecastRun", "classbvhar_1_1CtaRollforecastRun.html#ab96c13137056843a9b0706b064bc4a3f", null ],
+    [ "CtaRollforecastRun", "classbvhar_1_1CtaRollforecastRun.html#af25c3916d6d5dca0aa0aaf2e8afba0b3", null ],
     [ "~CtaRollforecastRun", "classbvhar_1_1CtaRollforecastRun.html#a7ef24c7222f0dd4a31abcb6fa9023d40", null ],
-    [ "initData", "classbvhar_1_1CtaRollforecastRun.html#a91df0e9a67bc6a252d9990e205687e5e", null ],
-    [ "initMcmc", "classbvhar_1_1CtaRollforecastRun.html#ace01ee377467542d85a5cc2cfb4daf00", null ]
+    [ "initData", "classbvhar_1_1CtaRollforecastRun.html#a9ec9332396aff0e9c343da3d216a1d55", null ],
+    [ "initMcmc", "classbvhar_1_1CtaRollforecastRun.html#a9455e93fd6ef09f5206d8a959e34946e", null ]
 ];

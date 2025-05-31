@@ -35,6 +35,7 @@ var hierarchy =
     [ "bvhar::DynamicSvSpillover", "classbvhar_1_1DynamicSvSpillover.html", null ],
     [ "bvhar::ExogenForecaster< ReturnType, DataType >", "classbvhar_1_1ExogenForecaster.html", null ],
     [ "bvhar::ExogenForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1ExogenForecaster.html", [
+      [ "bvhar::CtaExogenForecaster", "classbvhar_1_1CtaExogenForecaster.html", null ],
       [ "bvhar::OlsExogenForecaster", "classbvhar_1_1OlsExogenForecaster.html", null ]
     ] ],
     [ "boost::random::generalized_inverse_gaussian_distribution< RealType >", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html", null ],
