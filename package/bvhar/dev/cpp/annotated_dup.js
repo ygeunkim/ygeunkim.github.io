@@ -65,8 +65,8 @@ var annotated_dup =
       [ "McmcMniw", "classbvhar_1_1McmcMniw.html", "classbvhar_1_1McmcMniw" ],
       [ "McmcNg", "classbvhar_1_1McmcNg.html", "classbvhar_1_1McmcNg" ],
       [ "McmcOutforecastInterface", "classbvhar_1_1McmcOutforecastInterface.html", "classbvhar_1_1McmcOutforecastInterface" ],
-      [ "McmcOutforecastRun", "classbvhar_1_1McmcOutforecastRun.html", "classbvhar_1_1McmcOutforecastRun" ],
       [ "McmcOutForecastRun", "classbvhar_1_1McmcOutForecastRun.html", "classbvhar_1_1McmcOutForecastRun" ],
+      [ "McmcOutforecastRun", "classbvhar_1_1McmcOutforecastRun.html", "classbvhar_1_1McmcOutforecastRun" ],
       [ "McmcParams", "structbvhar_1_1McmcParams.html", "structbvhar_1_1McmcParams" ],
       [ "McmcReg", "classbvhar_1_1McmcReg.html", "classbvhar_1_1McmcReg" ],
       [ "McmcRollforecastRun", "classbvhar_1_1McmcRollforecastRun.html", "classbvhar_1_1McmcRollforecastRun" ],
@@ -109,9 +109,12 @@ var annotated_dup =
       [ "NgRecords", "structbvhar_1_1NgRecords.html", "structbvhar_1_1NgRecords" ],
       [ "NgUpdater", "classbvhar_1_1NgUpdater.html", "classbvhar_1_1NgUpdater" ],
       [ "OlsExogenForecaster", "classbvhar_1_1OlsExogenForecaster.html", "classbvhar_1_1OlsExogenForecaster" ],
+      [ "OlsExpandforecastRun", "classbvhar_1_1OlsExpandforecastRun.html", "classbvhar_1_1OlsExpandforecastRun" ],
       [ "OlsFit", "structbvhar_1_1OlsFit.html", "structbvhar_1_1OlsFit" ],
       [ "OlsForecaster", "classbvhar_1_1OlsForecaster.html", "classbvhar_1_1OlsForecaster" ],
       [ "OlsForecastRun", "classbvhar_1_1OlsForecastRun.html", "classbvhar_1_1OlsForecastRun" ],
+      [ "OlsOutforecastRun", "classbvhar_1_1OlsOutforecastRun.html", "classbvhar_1_1OlsOutforecastRun" ],
+      [ "OlsRollforecastRun", "classbvhar_1_1OlsRollforecastRun.html", "classbvhar_1_1OlsRollforecastRun" ],
       [ "OlsSpillover", "classbvhar_1_1OlsSpillover.html", "classbvhar_1_1OlsSpillover" ],
       [ "OlsVar", "classbvhar_1_1OlsVar.html", "classbvhar_1_1OlsVar" ],
       [ "OlsVhar", "classbvhar_1_1OlsVhar.html", "classbvhar_1_1OlsVhar" ],
@@ -134,6 +137,8 @@ var annotated_dup =
       [ "SvParams", "structbvhar_1_1SvParams.html", "structbvhar_1_1SvParams" ],
       [ "SvRecords", "structbvhar_1_1SvRecords.html", "structbvhar_1_1SvRecords" ],
       [ "VarForecaster", "classbvhar_1_1VarForecaster.html", "classbvhar_1_1VarForecaster" ],
-      [ "VharForecaster", "classbvhar_1_1VharForecaster.html", "classbvhar_1_1VharForecaster" ]
+      [ "VarOutforecastRun", "classbvhar_1_1VarOutforecastRun.html", "classbvhar_1_1VarOutforecastRun" ],
+      [ "VharForecaster", "classbvhar_1_1VharForecaster.html", "classbvhar_1_1VharForecaster" ],
+      [ "VharOutforecastRun", "classbvhar_1_1VharOutforecastRun.html", "classbvhar_1_1VharOutforecastRun" ]
     ] ]
 ];

@@ -181,6 +181,13 @@ var hierarchy =
     [ "bvhar::OlsFit", "structbvhar_1_1OlsFit.html", [
       [ "bvhar::StructuralFit", "structbvhar_1_1StructuralFit.html", null ]
     ] ],
+    [ "bvhar::OlsOutforecastRun", "classbvhar_1_1OlsOutforecastRun.html", [
+      [ "bvhar::OlsExpandforecastRun", "classbvhar_1_1OlsExpandforecastRun.html", null ],
+      [ "bvhar::OlsRollforecastRun", "classbvhar_1_1OlsRollforecastRun.html", [
+        [ "bvhar::VarOutforecastRun< BaseOutForecast >", "classbvhar_1_1VarOutforecastRun.html", null ],
+        [ "bvhar::VharOutforecastRun< BaseOutForecast >", "classbvhar_1_1VharOutforecastRun.html", null ]
+      ] ]
+    ] ],
     [ "bvhar::OlsSpillover", "classbvhar_1_1OlsSpillover.html", null ],
     [ "bvhar::OlsVar", "classbvhar_1_1OlsVar.html", null ],
     [ "bvhar::OlsVhar", "classbvhar_1_1OlsVhar.html", null ],

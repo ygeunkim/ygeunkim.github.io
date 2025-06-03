@@ -4,6 +4,7 @@ var classbvhar_1_1OlsVar =
     [ "OlsVar", "classbvhar_1_1OlsVar.html#a4c7f314fdd48f12ef4563f5af2021c7a", null ],
     [ "~OlsVar", "classbvhar_1_1OlsVar.html#a2773152c24dfbc4feb8f125cfb839861", null ],
     [ "returnOlsRes", "classbvhar_1_1OlsVar.html#a2b900d0481783bf1dde0355049ff63d7", null ],
+    [ "returnCoef", "classbvhar_1_1OlsVar.html#afc742dabd61c8904bad1e5a74c46647b", null ],
     [ "returnOlsFit", "classbvhar_1_1OlsVar.html#a16e7793d7e324d520182a108b57632d9", null ],
     [ "returnStructuralFit", "classbvhar_1_1OlsVar.html#abe5d5f05c6afa7251529e9de48814f69", null ],
     [ "lag", "classbvhar_1_1OlsVar.html#afee34b9d8bca13a8c55dbc344bce2df9", null ],

@@ -14,7 +14,7 @@ var searchData=
   ['mcmcng_11',['McmcNg',['../classbvhar_1_1McmcNg.html',1,'bvhar']]],
   ['mcmcoutforecastinterface_12',['McmcOutforecastInterface',['../classbvhar_1_1McmcOutforecastInterface.html',1,'bvhar']]],
   ['mcmcoutforecastinterface_3c_20regforecaster_20_3e_13',['McmcOutforecastInterface&lt; RegForecaster &gt;',['../classbvhar_1_1McmcOutforecastInterface.html',1,'bvhar']]],
-  ['mcmcoutforecastrun_14',['mcmcoutforecastrun',['../classbvhar_1_1McmcOutforecastRun.html',1,'bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;'],['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar::McmcOutForecastRun&lt; ReturnType, DataType, isUpdate &gt;']]],
+  ['mcmcoutforecastrun_14',['mcmcoutforecastrun',['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar::McmcOutForecastRun&lt; ReturnType, DataType, isUpdate &gt;'],['../classbvhar_1_1McmcOutforecastRun.html',1,'bvhar::McmcOutforecastRun&lt; BaseForecaster, isUpdate &gt;']]],
   ['mcmcoutforecastrun_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_2c_20isupdate_20_3e_15',['McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, isUpdate &gt;',['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar']]],
   ['mcmcoutforecastrun_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_2c_20true_20_3e_16',['McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, true &gt;',['../classbvhar_1_1McmcOutForecastRun.html',1,'bvhar']]],
   ['mcmcoutforecastrun_3c_20regforecaster_2c_20true_20_3e_17',['McmcOutforecastRun&lt; RegForecaster, true &gt;',['../classbvhar_1_1McmcOutforecastRun.html',1,'bvhar']]],
