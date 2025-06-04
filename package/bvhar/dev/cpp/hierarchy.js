@@ -178,8 +178,13 @@ var hierarchy =
       ] ],
       [ "bvhar::McmcForecastRun< BaseForecaster >", "classbvhar_1_1McmcForecastRun.html", null ]
     ] ],
+    [ "bvhar::OlsDynamicSpillover", "classbvhar_1_1OlsDynamicSpillover.html", null ],
     [ "bvhar::OlsFit", "structbvhar_1_1OlsFit.html", [
       [ "bvhar::StructuralFit", "structbvhar_1_1StructuralFit.html", null ]
+    ] ],
+    [ "bvhar::OlsInterface", "classbvhar_1_1OlsInterface.html", [
+      [ "bvhar::OlsVar", "classbvhar_1_1OlsVar.html", null ],
+      [ "bvhar::OlsVhar", "classbvhar_1_1OlsVhar.html", null ]
     ] ],
     [ "bvhar::OlsOutforecastRun", "classbvhar_1_1OlsOutforecastRun.html", [
       [ "bvhar::OlsExpandforecastRun", "classbvhar_1_1OlsExpandforecastRun.html", null ],
@@ -188,9 +193,10 @@ var hierarchy =
         [ "bvhar::VharOutforecastRun< BaseOutForecast >", "classbvhar_1_1VharOutforecastRun.html", null ]
       ] ]
     ] ],
-    [ "bvhar::OlsSpillover", "classbvhar_1_1OlsSpillover.html", null ],
-    [ "bvhar::OlsVar", "classbvhar_1_1OlsVar.html", null ],
-    [ "bvhar::OlsVhar", "classbvhar_1_1OlsVhar.html", null ],
+    [ "bvhar::OlsSpilloverRun", "classbvhar_1_1OlsSpilloverRun.html", null ],
+    [ "bvhar::OlsVarSpillover", "classbvhar_1_1OlsVarSpillover.html", [
+      [ "bvhar::OlsVharSpillover", "classbvhar_1_1OlsVharSpillover.html", null ]
+    ] ],
     [ "boost::random::generalized_inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution_1_1param__type.html", null ],
     [ "boost::random::inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1inverse__gaussian__distribution_1_1param__type.html", null ],
     [ "spdlog::sinks::r_sink", null, [

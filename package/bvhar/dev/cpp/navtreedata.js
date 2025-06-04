@@ -66,13 +66,13 @@ var NAVTREEINDEX =
 "classbvhar_1_1McmcTriangular.html#a5c31ceb0ea4b7dd93d1baec5ddc0a88c",
 "classbvhar_1_1MinnBvhar.html#a3b01df0cb712b4c6e808281d2936784d",
 "classbvhar_1_1Minnesota.html#acbbb426d59fd08d682c8c35eee36d7ce",
-"classbvhar_1_1OlsSpillover.html#a07f912788fa5e2ff336e89a3a7d19c7b",
-"coef__helper_8h.html#abb10a218018e15b4b7dd51b5f0e7ff3b",
-"namespacebvhar.html#a3b90f7edeeb7483a8c6721295b19cdf0",
-"structbvhar_1_1GdpInits.html#aaa7e54e726f05d8a9ed9dbf81ca82d66",
-"structbvhar_1_1MhMinnSpec.html",
-"structbvhar_1_1RegRecords.html#aabf3d90e65e064b9fee32ad0735bf044",
-"structbvhar_1_1SvRecords.html#a7e2fcf42d48f9d8fc1624b186a6ae912"
+"classbvhar_1_1OlsOutforecastRun.html#ac86bf42d1c96da1442b4bbc187f9f99c",
+"classbvhar_1_1VarOutforecastRun.html#a71ac7d14a447b2bac196821e58318775",
+"helper_8h.html",
+"ssvs__helper_8h.html#ac2d40ebac391df5378eed70d097abc67",
+"structbvhar_1_1LdltRecords.html#aa8d78c46d062dfe4bf8f243a25ded737",
+"structbvhar_1_1RegParams.html#ae7b455b4b10975de4bad9c13c28851a7",
+"structbvhar_1_1SvInits.html#a384d823d57c6bf030071b352fd30e197"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

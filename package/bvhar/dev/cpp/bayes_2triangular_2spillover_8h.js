@@ -6,6 +6,6 @@ var bayes_2triangular_2spillover_8h =
     [ "bvhar::McmcSpilloverRun< RecordType >", "classbvhar_1_1McmcSpilloverRun.html", "classbvhar_1_1McmcSpilloverRun" ],
     [ "bvhar::DynamicLdltSpillover", "classbvhar_1_1DynamicLdltSpillover.html", "classbvhar_1_1DynamicLdltSpillover" ],
     [ "bvhar::DynamicSvSpillover", "classbvhar_1_1DynamicSvSpillover.html", "classbvhar_1_1DynamicSvSpillover" ],
-    [ "initialize_spillover", "bayes_2triangular_2spillover_8h.html#a67f7e1c7c600d5c0cc6cd94f1dd52bd0", null ],
-    [ "initialize_spillover", "bayes_2triangular_2spillover_8h.html#a88ba279736eb76486456f6f099b17004", null ]
+    [ "initialize_ctaspillover", "bayes_2triangular_2spillover_8h.html#a890d892a04194c38992c1c0971546a1c", null ],
+    [ "initialize_ctaspillover", "bayes_2triangular_2spillover_8h.html#acd27e6287923002f133a0ef8ad48c96e", null ]
 ];
