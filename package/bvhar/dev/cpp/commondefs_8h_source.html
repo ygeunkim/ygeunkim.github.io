@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9009</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9010</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -208,26 +208,27 @@ $(document).ready(function(){initNavTree('commondefs_8h_source.html',''); initRe
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="preprocessor">#if !defined(__cpp_lib_make_unique)</span></div>
-<div class="foldopen" id="foldopen00117" data-start="{" data-end="}">
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="namespacestd.html">  117</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacestd.html">std</a> {</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">T</a>, <span class="keyword">typename</span>... <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">Args</a>&gt;</div>
-<div class="foldopen" id="foldopen00120" data-start="{" data-end="}">
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">  120</a></span><a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">unique_ptr&lt;T&gt;</a> <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">make_unique</a>(<a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">Args</a>&amp;&amp;... <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">args</a>) {</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">unique_ptr&lt;T&gt;</a>(<span class="keyword">new</span> <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">T</a>(<a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">forward&lt;Args&gt;</a>(<a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">args</a>)...));</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>}</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="preprocessor">#include &lt;type_traits&gt;</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="preprocessor">#if !defined(__cpp_lib_make_unique)</span></div>
+<div class="foldopen" id="foldopen00118" data-start="{" data-end="}">
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="namespacestd.html">  118</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacestd.html">std</a> {</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">T</a>, <span class="keyword">typename</span>... <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">Args</a>&gt;</div>
+<div class="foldopen" id="foldopen00121" data-start="{" data-end="}">
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">  121</a></span><a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">unique_ptr&lt;T&gt;</a> <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">make_unique</a>(<a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">Args</a>&amp;&amp;... <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">args</a>) {</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">unique_ptr&lt;T&gt;</a>(<span class="keyword">new</span> <a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">T</a>(<a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">forward&lt;Args&gt;</a>(<a class="code hl_define" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">args</a>)...));</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>}</div>
 </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>} <span class="comment">// namespace std</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>} <span class="comment">// namespace std</span></div>
 </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_CORE_COMMONDEFS_H</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_CORE_COMMONDEFS_H</span></div>
 <div class="ttc" id="acommondefs_8h_html_a8b6956a3b15c98d5016a0cfc601b47bd"><div class="ttname"><a href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">CAST</a></div><div class="ttdeci">#define CAST</div><div class="ttdef"><b>Definition</b> commondefs.h:39</div></div>
-<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition</b> commondefs.h:117</div></div>
-<div class="ttc" id="anamespacestd_html_a03d5ca705e3360c607bf2586e9a9de3b"><div class="ttname"><a href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::make_unique</a></div><div class="ttdeci">unique_ptr&lt; T &gt; make_unique(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> commondefs.h:120</div></div>
+<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition</b> commondefs.h:118</div></div>
+<div class="ttc" id="anamespacestd_html_a03d5ca705e3360c607bf2586e9a9de3b"><div class="ttname"><a href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::make_unique</a></div><div class="ttdeci">unique_ptr&lt; T &gt; make_unique(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> commondefs.h:121</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

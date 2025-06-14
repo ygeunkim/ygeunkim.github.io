@@ -1,7 +1,7 @@
 var classbvhar_1_1OlsForecaster =
 [
     [ "OlsForecaster", "classbvhar_1_1OlsForecaster.html#a20742b406991f21ed91f7a22ce2410ae", null ],
-    [ "OlsForecaster", "classbvhar_1_1OlsForecaster.html#a8f8940b45da34ecde78ce9daee9476a8", null ],
+    [ "OlsForecaster", "classbvhar_1_1OlsForecaster.html#ab0b7299bd388b99872a9175c5678a5c4", null ],
     [ "~OlsForecaster", "classbvhar_1_1OlsForecaster.html#ac3d089aca1286bcc3737c553acd89519", null ],
     [ "forecastPoint", "classbvhar_1_1OlsForecaster.html#af1b5de1cc9af1df14b685b4e19651f18", null ],
     [ "getLastForecast", "classbvhar_1_1OlsForecaster.html#a66e264349a9193205167f269e64e4f08", null ],
