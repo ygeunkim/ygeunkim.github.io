@@ -74,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-46f4cc9626f044588a66931b604fc9c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9d7f9ca4f199dd4f2419d727f70e55ad.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-d1191f15f7289bbcf24acab5058adb56.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -253,7 +253,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="openmp" class="level2">
 <h2 class="anchored" data-anchor-id="openmp">OpenMP</h2>
 <p>OpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. <code>bvhar</code> provides OpenMP checking functions.</p>
-<div id="e01b05de" class="cell" data-execution_count="1">
+<div id="28807436" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bvhar.utils <span class="im">import</span> checkomp</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>checkomp.check_omp()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -261,7 +261,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p><code>True</code> if enabled, <code>False</code> if not:</p>
-<div id="fd08db1d" class="cell" data-execution_count="2">
+<div id="d9eb304a" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>checkomp.is_omp()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="2">
 <pre><code>True</code></pre>
