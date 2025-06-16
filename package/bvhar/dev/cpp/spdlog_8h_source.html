@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9010</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9011</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -173,7 +173,28 @@ $(document).ready(function(){initNavTree('spdlog_8h_source.html',''); initResiza
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif </span><span class="comment">// USE_RCPP</span></div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_CORE_SPDLOG_H</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">// Debug base classes by defining `USE_BVHAR_DEBUG`</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#ifdef USE_BVHAR_DEBUG</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#define BVHAR_DEBUG_LOGGER(value) \</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">  ([](const std::string&amp; log_name) -&gt; std::shared_ptr&lt;spdlog::logger&gt; { \</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">    auto temp_logger = spdlog::get(log_name); \</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">    return temp_logger ? temp_logger : SPDLOG_SINK_MT(log_name); \</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">  })(value)</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#define BVHAR_INIT_DEBUG(logger) logger-&gt;set_level(spdlog::level::debug)</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#define BVHAR_DEBUG_LOG(logger, ...) logger-&gt;debug(__VA_ARGS__)</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#define BVHAR_DEBUG_DROP(value) spdlog::drop(value)</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="spdlog_8h.html#acd58570a9bb5144e0b7c4822151621f8">   79</a></span><span class="preprocessor">#define BVHAR_DEBUG_LOGGER(value) std::shared_ptr&lt;spdlog::logger&gt;(nullptr)</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="spdlog_8h.html#adb19913a0a8c783bd6dc577b26cb1b40">   80</a></span><span class="preprocessor">#define BVHAR_INIT_DEBUG(logger) (void)0</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="spdlog_8h.html#afca36798c70bcf95dd2ec673771064e4">   81</a></span><span class="preprocessor">#define BVHAR_DEBUG_LOG(logger, ...) (void)0</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="spdlog_8h.html#a9f64103c67a47c67dbea72a75e667793">   82</a></span><span class="preprocessor">#define BVHAR_DEBUG_DROP(value) (void)0</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="preprocessor">#endif </span><span class="comment">// USE_BVHAR_DEBUG</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_CORE_SPDLOG_H</span></div>
 <div class="ttc" id="aclassbvhar_1_1sinks_1_1bvhar__sink_html"><div class="ttname"><a href="classbvhar_1_1sinks_1_1bvhar__sink.html">bvhar::sinks::bvhar_sink</a></div><div class="ttdef"><b>Definition</b> spdlog.h:16</div></div>
 <div class="ttc" id="aclassbvhar_1_1sinks_1_1bvhar__sink_html_a441400c9404385bf44296e3cfb4222ee"><div class="ttname"><a href="classbvhar_1_1sinks_1_1bvhar__sink.html#a441400c9404385bf44296e3cfb4222ee">bvhar::sinks::bvhar_sink::flush_</a></div><div class="ttdeci">void flush_() override</div><div class="ttdef"><b>Definition</b> spdlog.h:28</div></div>
 <div class="ttc" id="aclassbvhar_1_1sinks_1_1bvhar__sink_html_ab4348fffbdf2f22d16beeecead7606ef"><div class="ttname"><a href="classbvhar_1_1sinks_1_1bvhar__sink.html#ab4348fffbdf2f22d16beeecead7606ef">bvhar::sinks::bvhar_sink::sink_it_</a></div><div class="ttdeci">void sink_it_(const spdlog::details::log_msg &amp;msg) override</div><div class="ttdef"><b>Definition</b> spdlog.h:18</div></div>

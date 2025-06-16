@@ -30,5 +30,6 @@ var classbvhar_1_1McmcOutForecastRun =
     [ "lpl_record", "classbvhar_1_1McmcOutForecastRun.html#a29ae5e532202dcb5d9a8afddcc068382", null ],
     [ "roll_exogen_mat", "classbvhar_1_1McmcOutForecastRun.html#a499af871e9fd7f82d47d3bfe7d630d8a", null ],
     [ "roll_exogen", "classbvhar_1_1McmcOutForecastRun.html#a4b10a99774ae734601d18e079bda193f", null ],
-    [ "lag_exogen", "classbvhar_1_1McmcOutForecastRun.html#ab092fe5832eaa47f01d1151056aac4e3", null ]
+    [ "lag_exogen", "classbvhar_1_1McmcOutForecastRun.html#ab092fe5832eaa47f01d1151056aac4e3", null ],
+    [ "debug_logger", "classbvhar_1_1McmcOutForecastRun.html#ab64a7747ee75fdb7ff90e46fd96ed317", null ]
 ];

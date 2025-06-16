@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9010</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2.9011</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('classbvhar_1_1MultistepForecastRun.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classbvhar_1_1MultistepForecastRun-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">bvhar::MultistepForecastRun&lt; ReturnType, DataType &gt; Class Template Reference</div></div>
 </div><!--header-->
@@ -112,6 +113,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a464e0bcecb90626737b67b401ba749f7" id="r_a464e0bcecb90626737b67b401ba749f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">virtual</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecastRun.html#a464e0bcecb90626737b67b401ba749f7">forecast</a> ()</td></tr>
 <tr class="memdesc:a464e0bcecb90626737b67b401ba749f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forecast.  <br /></td></tr>
 <tr class="separator:a464e0bcecb90626737b67b401ba749f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a5d8fc5cb7e246ce3cbf72268d5b9d65e" id="r_a5d8fc5cb7e246ce3cbf72268d5b9d65e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1MultistepForecastRun.html#a5d8fc5cb7e246ce3cbf72268d5b9d65e">debug_logger</a></td></tr>
+<tr class="separator:a5d8fc5cb7e246ce3cbf72268d5b9d65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a> = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> = Eigen::VectorXd&gt;<br />
@@ -207,6 +213,31 @@ template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b
 <p>Forecast. </p>
 
 <p>Reimplemented in <a class="el" href="classbvhar_1_1McmcForecastRun.html#a9b5de209c7ecd9eb79d14f11f4854dee">bvhar::McmcForecastRun&lt; BaseForecaster &gt;</a>, <a class="el" href="classbvhar_1_1McmcForecastRun.html#a9b5de209c7ecd9eb79d14f11f4854dee">bvhar::McmcForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd &gt;</a>, <a class="el" href="classbvhar_1_1McmcForecastRun.html#a8820adb91a5baad86cb87999a4c68fd9">bvhar::McmcForecastRun&lt; BaseForecaster &gt;</a>, and <a class="el" href="classbvhar_1_1McmcForecastRun.html#a8820adb91a5baad86cb87999a4c68fd9">bvhar::McmcForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd &gt;</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5d8fc5cb7e246ce3cbf72268d5b9d65e" name="a5d8fc5cb7e246ce3cbf72268d5b9d65e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d8fc5cb7e246ce3cbf72268d5b9d65e">&#9670;&#160;</a></span>debug_logger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>  = Eigen::MatrixXd, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">typename</a> <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a>  = Eigen::VectorXd&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;spdlog::logger&gt; <a class="el" href="classbvhar_1_1MultistepForecastRun.html">bvhar::MultistepForecastRun</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">ReturnType</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">DataType</a> &gt;::debug_logger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

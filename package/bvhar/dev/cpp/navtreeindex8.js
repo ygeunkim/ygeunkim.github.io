@@ -1,5 +1,15 @@
 var NAVTREEINDEX8 =
 {
+"classbvhar_1_1OlsOutforecastRun.html#a84de6bb49a3e82bec327fcf9ef963719":[2,0,1,106,11],
+"classbvhar_1_1OlsOutforecastRun.html#a91981faead3a884c013351f26a1a2105":[2,0,1,106,4],
+"classbvhar_1_1OlsOutforecastRun.html#a91981faead3a884c013351f26a1a2105":[1,0,1,106,4],
+"classbvhar_1_1OlsOutforecastRun.html#a9fc7c26101213f9b8c7cb15584e164c8":[2,0,1,106,21],
+"classbvhar_1_1OlsOutforecastRun.html#a9fc7c26101213f9b8c7cb15584e164c8":[1,0,1,106,21],
+"classbvhar_1_1OlsOutforecastRun.html#aa900eb942399f95bcede54a77a2b1600":[1,0,1,106,9],
+"classbvhar_1_1OlsOutforecastRun.html#aa900eb942399f95bcede54a77a2b1600":[2,0,1,106,9],
+"classbvhar_1_1OlsOutforecastRun.html#ab4870e33dbd02cd40302a1e48f46802d":[1,0,1,106,12],
+"classbvhar_1_1OlsOutforecastRun.html#ab4870e33dbd02cd40302a1e48f46802d":[2,0,1,106,12],
+"classbvhar_1_1OlsOutforecastRun.html#ac86bf42d1c96da1442b4bbc187f9f99c":[1,0,1,106,2],
 "classbvhar_1_1OlsOutforecastRun.html#ac86bf42d1c96da1442b4bbc187f9f99c":[2,0,1,106,2],
 "classbvhar_1_1OlsOutforecastRun.html#acc8d7831f9704ac73c6562e7fd17c2af":[1,0,1,106,14],
 "classbvhar_1_1OlsOutforecastRun.html#acc8d7831f9704ac73c6562e7fd17c2af":[2,0,1,106,14],
@@ -239,15 +249,5 @@ var NAVTREEINDEX8 =
 "classbvhar_1_1VarForecaster.html":[1,0,1,131],
 "classbvhar_1_1VarForecaster.html#a3b571605861168d8bc098a7f99739ebc":[1,0,1,131,3],
 "classbvhar_1_1VarForecaster.html#a3b571605861168d8bc098a7f99739ebc":[2,0,1,131,3],
-"classbvhar_1_1VarForecaster.html#a87e3c22c4f7b79023db62d5a54a541ae":[1,0,1,131,0],
-"classbvhar_1_1VarForecaster.html#a87e3c22c4f7b79023db62d5a54a541ae":[2,0,1,131,0],
-"classbvhar_1_1VarForecaster.html#ae9843f1718cb469c8da93ab6b2e51162":[1,0,1,131,1],
-"classbvhar_1_1VarForecaster.html#ae9843f1718cb469c8da93ab6b2e51162":[2,0,1,131,1],
-"classbvhar_1_1VarForecaster.html#af6d5fb36f8fac889dae8e8d664067661":[2,0,1,131,2],
-"classbvhar_1_1VarForecaster.html#af6d5fb36f8fac889dae8e8d664067661":[1,0,1,131,2],
-"classbvhar_1_1VarOutforecastRun.html":[2,0,1,132],
-"classbvhar_1_1VarOutforecastRun.html":[1,0,1,132],
-"classbvhar_1_1VarOutforecastRun.html#a60f4d565986b33f8988357c4bce60f22":[2,0,1,132,4],
-"classbvhar_1_1VarOutforecastRun.html#a60f4d565986b33f8988357c4bce60f22":[1,0,1,132,4],
-"classbvhar_1_1VarOutforecastRun.html#a71ac7d14a447b2bac196821e58318775":[2,0,1,132,0]
+"classbvhar_1_1VarForecaster.html#a87e3c22c4f7b79023db62d5a54a541ae":[1,0,1,131,0]
 };
