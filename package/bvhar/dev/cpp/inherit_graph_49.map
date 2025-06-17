@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structbvhar_1_1SsvsRecords.html" title="MCMC records for McmcSsvs" alt="" coords="5,5,155,31"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,60,152,85"/>
+<area shape="rect" id="Node000001" href="$classbvhar_1_1CtaVarforecastRun.html" title="Out&#45;of&#45;sample forecast class for Bayesian VAR." alt="" coords="200,5,459,60"/>
+<area shape="poly" id="edge114_Node000000_Node000001" title=" " alt="" coords="165,56,199,51,200,56,166,62"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1CtaVharforecastRun.html" title="Out&#45;of&#45;sample forecast class for Bayesian VHAR." alt="" coords="200,84,459,139"/>
+<area shape="poly" id="edge115_Node000000_Node000002" title=" " alt="" coords="166,83,200,89,199,94,165,89"/>
 </map>

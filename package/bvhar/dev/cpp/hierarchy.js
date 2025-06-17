@@ -38,7 +38,6 @@ var hierarchy =
       [ "bvhar::CtaExogenForecaster", "classbvhar_1_1CtaExogenForecaster.html", null ],
       [ "bvhar::OlsExogenForecaster", "classbvhar_1_1OlsExogenForecaster.html", null ]
     ] ],
-    [ "boost::random::generalized_inverse_gaussian_distribution< RealType >", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html", null ],
     [ "bvhar::GlobalLocalRecords", "structbvhar_1_1GlobalLocalRecords.html", [
       [ "bvhar::HorseshoeRecords", "structbvhar_1_1HorseshoeRecords.html", null ],
       [ "bvhar::NgRecords", "structbvhar_1_1NgRecords.html", null ]

@@ -7,5 +7,5 @@ var searchData=
   ['regvharforecaster_4',['RegVharForecaster',['../namespacebvhar.html#a76140a03222d02354c932039e298001b',1,'bvhar']]],
   ['regvharselectforecaster_5',['RegVharSelectForecaster',['../namespacebvhar.html#a1ff5f8a7b49c41bab60f4acd33b6b23d',1,'bvhar']]],
   ['regvharspillover_6',['RegVharSpillover',['../namespacebvhar.html#a4cac4dc5b0ca96ee1e59784eb4fd8454',1,'bvhar']]],
-  ['result_5ftype_7',['result_type',['../classboost_1_1random_1_1inverse__gaussian__distribution.html#ac62cfdf21f66196c86f57ad809dbb603',1,'boost::random::inverse_gaussian_distribution::result_type'],['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution.html#ab4d105da2d2ab0066d4ed44889054f42',1,'boost::random::generalized_inverse_gaussian_distribution::result_type']]]
+  ['result_5ftype_7',['result_type',['../classboost_1_1random_1_1inverse__gaussian__distribution.html#ac62cfdf21f66196c86f57ad809dbb603',1,'boost::random::inverse_gaussian_distribution']]]
 ];
