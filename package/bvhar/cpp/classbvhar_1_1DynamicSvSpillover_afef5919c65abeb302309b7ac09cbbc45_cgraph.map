@@ -2,9 +2,8 @@
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,23,204,63"/>
 <area shape="rect" id="Node000002" href="$namespacebvhar.html#aca149dc0e3f8744d039a4b3c5d98f1c6" title=" " alt="" coords="270,5,405,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,30,256,24,256,29,204,35"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#a1c28510c1a60c0d61f1fc7ccadd03fd9" title="Initialize MCMC record used in forecast classes." alt="" coords="252,55,423,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,51,239,54,238,60,204,56"/>
-<area shape="rect" id="Node000004" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="471,55,608,80"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="423,65,457,65,457,70,423,70"/>
-<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="506,56,499,46,503,36,517,30,539,28,567,32,578,41,575,45,565,37,539,33,518,35,507,40,505,46,511,53"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#abf94b380ff705c1abdb726bd63d98e02" title="Initialize MCMC record used in forecast classes." alt="" coords="252,55,423,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,51,239,54,238,60,204,56"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#accc0de59b48816603aad8c456e1502f0" title=" " alt="" coords="471,5,648,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="405,15,457,15,457,21,405,21"/>
 </map>

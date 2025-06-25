@@ -1,12 +1,9 @@
 <map id="bvhar::SvRecords::subsetStable" name="bvhar::SvRecords::subsetStable">
-<area shape="rect" id="Node000001" title="Remove unstable coefficients draw." alt="" coords="5,59,192,99"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a9f3f80aab23106e10656cfd5553ac3c8" title=" " alt="" coords="246,29,371,55"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,60,232,53,233,58,193,65"/>
-<area shape="rect" id="Node000005" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="240,103,377,128"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="193,93,227,99,226,104,192,98"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#af5f21ed18ceb4cea727b325b403e084e" title=" " alt="" coords="425,5,604,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,32,411,27,412,33,372,37"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a57050b65b961aeca0868dea22a5cad94" title=" " alt="" coords="435,55,595,80"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="372,47,421,53,421,58,371,52"/>
-<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="275,104,268,94,271,84,285,78,309,76,337,80,349,89,345,93,335,85,309,81,287,83,275,88,273,94,279,101"/>
+<area shape="rect" id="Node000001" title="Remove unstable coefficients draw." alt="" coords="5,23,192,63"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a9f3f80aab23106e10656cfd5553ac3c8" title=" " alt="" coords="240,31,365,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,41,227,41,227,46,192,46"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#af5f21ed18ceb4cea727b325b403e084e" title=" " alt="" coords="413,5,592,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="365,33,400,28,400,34,366,38"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a57050b65b961aeca0868dea22a5cad94" title=" " alt="" coords="423,55,583,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="366,48,409,53,409,59,365,53"/>
 </map>

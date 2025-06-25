@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -93,7 +93,8 @@ $(document).ready(function(){initNavTree('ols_2spillover_8h.html',''); initResiz
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">spillover.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -104,29 +105,74 @@ Include dependency graph for ols/spillover.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="ols_2spillover_8h__incl.png" border="0" usemap="#aspillover_8h" alt=""/></div>
 <map name="aspillover_8h" id="aspillover_8h">
-<area shape="rect" title=" " alt="" coords="110,5,199,31"/>
-<area shape="rect" href="ols_8h.html" title=" " alt="" coords="91,79,152,104"/>
-<area shape="poly" title=" " alt="" coords="152,32,135,67,130,65,147,30"/>
-<area shape="rect" href="structural_8h.html" title=" " alt="" coords="209,152,356,177"/>
-<area shape="poly" title=" " alt="" coords="167,29,265,140,261,143,163,33"/>
-<area shape="rect" href="design_8h.html" title=" " alt="" coords="58,152,185,177"/>
-<area shape="poly" title=" " alt="" coords="124,104,124,138,119,138,119,104"/>
-<area shape="rect" title=" " alt="" coords="5,372,83,397"/>
-<area shape="poly" title=" " alt="" coords="98,106,70,126,57,138,48,153,37,179,31,207,28,264,32,317,40,358,35,359,27,318,22,264,26,207,32,178,43,151,53,135,67,122,95,102"/>
-<area shape="rect" href="eigen_8h.html" title=" " alt="" coords="127,225,241,251"/>
-<area shape="poly" title=" " alt="" coords="134,176,167,213,163,217,130,179"/>
-<area shape="rect" href="commondefs_8h.html" title="Common header." alt="" coords="185,299,311,324"/>
-<area shape="poly" title=" " alt="" coords="197,249,231,287,227,290,193,253"/>
-<area shape="rect" title=" " alt="" coords="58,299,161,324"/>
-<area shape="poly" title=" " alt="" coords="174,253,133,291,130,287,170,249"/>
-<area shape="rect" title=" " alt="" coords="301,372,368,397"/>
-<area shape="poly" title=" " alt="" coords="264,322,312,361,308,365,260,326"/>
-<area shape="rect" title=" " alt="" coords="131,372,194,397"/>
-<area shape="poly" title=" " alt="" coords="236,326,189,365,185,361,233,322"/>
-<area shape="rect" title=" " alt="" coords="219,372,277,397"/>
-<area shape="poly" title=" " alt="" coords="251,324,251,358,245,358,245,324"/>
-<area shape="poly" title=" " alt="" coords="216,327,91,370,89,365,214,322"/>
-<area shape="poly" title=" " alt="" coords="268,180,213,219,210,215,265,175"/>
+<area shape="rect" title=" " alt="" coords="227,5,317,31"/>
+<area shape="rect" href="ols_8h.html" title=" " alt="" coords="177,79,239,104"/>
+<area shape="poly" title=" " alt="" coords="263,33,229,70,225,67,259,29"/>
+<area shape="rect" href="structural_8h.html" title=" " alt="" coords="772,79,919,104"/>
+<area shape="poly" title=" " alt="" coords="317,22,759,77,758,82,317,28"/>
+<area shape="rect" href="design_8h.html" title=" " alt="" coords="145,152,271,177"/>
+<area shape="poly" title=" " alt="" coords="211,104,211,138,205,138,205,104"/>
+<area shape="rect" title=" " alt="" coords="5,387,83,412"/>
+<area shape="poly" title=" " alt="" coords="189,106,161,126,134,154,101,211,77,272,60,329,51,374,46,372,55,328,72,271,96,209,130,150,157,122,186,102"/>
+<area shape="rect" href="eigen_8h.html" title=" " alt="" coords="151,233,265,258"/>
+<area shape="poly" title=" " alt="" coords="211,178,211,219,205,219,205,178"/>
+<area shape="rect" href="commondefs_8h.html" title="Common header." alt="" coords="145,313,271,339"/>
+<area shape="poly" title=" " alt="" coords="211,258,211,299,205,299,205,258"/>
+<area shape="rect" title=" " alt="" coords="295,313,398,339"/>
+<area shape="poly" title=" " alt="" coords="230,256,316,304,313,309,227,261"/>
+<area shape="rect" title=" " alt="" coords="107,387,173,412"/>
+<area shape="poly" title=" " alt="" coords="199,341,163,378,159,375,195,337"/>
+<area shape="rect" title=" " alt="" coords="198,387,261,412"/>
+<area shape="poly" title=" " alt="" coords="214,338,225,373,219,374,209,340"/>
+<area shape="rect" title=" " alt="" coords="285,387,344,412"/>
+<area shape="poly" title=" " alt="" coords="227,336,287,377,284,381,224,341"/>
+<area shape="poly" title=" " alt="" coords="183,341,84,384,82,379,181,336"/>
+<area shape="rect" title=" " alt="" coords="369,387,461,412"/>
+<area shape="poly" title=" " alt="" coords="242,336,369,380,367,385,240,341"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1406,152,1541,177"/>
+<area shape="poly" title=" " alt="" coords="920,98,1393,152,1392,157,919,104"/>
+<area shape="poly" title=" " alt="" coords="1406,170,842,188,516,205,380,216,278,228,258,232,257,227,277,223,380,210,515,200,842,183,1406,165"/>
+<area shape="rect" href="spdlog_8h.html" title=" " alt="" coords="2677,233,2763,258"/>
+<area shape="poly" title=" " alt="" coords="1541,164,1778,169,2103,179,2429,196,2564,208,2666,223,2679,226,2678,231,2665,228,2563,214,2428,202,2103,184,1778,174,1541,170"/>
+<area shape="rect" title=" " alt="" coords="2787,225,2968,265"/>
+<area shape="poly" title=" " alt="" coords="1541,163,1747,165,2049,173,2405,191,2590,205,2773,223,2773,228,2590,210,2405,196,2049,178,1747,171,1541,169"/>
+<area shape="rect" title=" " alt="" coords="289,225,452,265"/>
+<area shape="poly" title=" " alt="" coords="1406,169,1242,173,1011,183,742,200,466,228,465,223,742,195,1011,177,1242,168,1406,164"/>
+<area shape="rect" title=" " alt="" coords="476,225,671,265"/>
+<area shape="poly" title=" " alt="" coords="1406,172,1098,190,895,206,685,228,684,223,894,201,1098,184,1406,166"/>
+<area shape="rect" title=" " alt="" coords="695,225,862,265"/>
+<area shape="poly" title=" " alt="" coords="1406,173,1175,193,1028,208,876,228,876,222,1027,203,1175,187,1405,168"/>
+<area shape="rect" title=" " alt="" coords="886,225,1053,265"/>
+<area shape="poly" title=" " alt="" coords="1406,177,1067,228,1066,222,1405,172"/>
+<area shape="rect" title=" " alt="" coords="1077,225,1243,265"/>
+<area shape="poly" title=" " alt="" coords="1428,180,1249,225,1248,219,1427,175"/>
+<area shape="rect" title=" " alt="" coords="1268,225,1441,265"/>
+<area shape="poly" title=" " alt="" coords="1457,180,1396,220,1394,215,1454,175"/>
+<area shape="rect" title=" " alt="" coords="1466,233,1721,258"/>
+<area shape="poly" title=" " alt="" coords="1492,175,1565,223,1562,227,1490,180"/>
+<area shape="rect" title=" " alt="" coords="1745,225,1913,265"/>
+<area shape="poly" title=" " alt="" coords="1526,175,1733,220,1731,225,1525,180"/>
+<area shape="rect" title=" " alt="" coords="1938,225,2089,265"/>
+<area shape="poly" title=" " alt="" coords="1541,171,1711,191,1924,223,1924,228,1710,196,1541,176"/>
+<area shape="rect" title=" " alt="" coords="2113,225,2263,265"/>
+<area shape="poly" title=" " alt="" coords="1541,167,1784,185,1939,201,2100,223,2099,228,1939,207,1783,191,1541,172"/>
+<area shape="rect" title=" " alt="" coords="2287,225,2486,265"/>
+<area shape="poly" title=" " alt="" coords="1541,166,1854,184,2061,201,2274,223,2274,228,2061,206,1854,190,1541,172"/>
+<area shape="rect" title=" " alt="" coords="2510,233,2653,258"/>
+<area shape="poly" title=" " alt="" coords="1541,163,1710,166,1947,175,2221,192,2362,206,2499,223,2524,227,2523,232,2498,228,2361,211,2221,198,1947,180,1710,171,1541,169"/>
+<area shape="rect" title=" " alt="" coords="2479,313,2647,339"/>
+<area shape="poly" title=" " alt="" coords="2698,260,2599,310,2597,305,2696,256"/>
+<area shape="rect" title=" " alt="" coords="2671,313,2769,339"/>
+<area shape="poly" title=" " alt="" coords="2723,258,2723,299,2717,299,2717,258"/>
+<area shape="rect" href="omp_8h.html" title=" " alt="" coords="2794,313,2857,339"/>
+<area shape="poly" title=" " alt="" coords="2737,256,2800,303,2797,307,2734,260"/>
+<area shape="poly" title=" " alt="" coords="2852,311,2873,312,2880,317,2883,326,2878,337,2866,342,2864,337,2874,333,2878,326,2876,321,2871,317,2851,316"/>
+<area shape="rect" title=" " alt="" coords="2792,387,2859,412"/>
+<area shape="poly" title=" " alt="" coords="2828,339,2828,373,2823,373,2823,339"/>
+<area shape="rect" title=" " alt="" coords="2883,387,2947,412"/>
+<area shape="poly" title=" " alt="" coords="2841,337,2891,376,2888,380,2838,341"/>
+<area shape="rect" title=" " alt="" coords="2705,387,2767,412"/>
+<area shape="poly" title=" " alt="" coords="2813,341,2763,380,2760,376,2809,337"/>
 </map>
 </div>
 </div>
@@ -134,13 +180,26 @@ Include dependency graph for ols/spillover.h:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsSpillover.html">bvhar::OlsSpillover</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsVarSpillover.html">bvhar::OlsVarSpillover</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsVharSpillover.html">bvhar::OlsVharSpillover</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsSpilloverRun.html">bvhar::OlsSpilloverRun</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsDynamicSpillover.html">bvhar::OlsDynamicSpillover</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacebvhar" id="r_namespacebvhar"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebvhar.html">bvhar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a578644824f25a31576ae7955fbb00ce3" id="r_a578644824f25a31576ae7955fbb00ce3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classbvhar_1_1OlsVarSpillover.html">OlsVarSpillover</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#a578644824f25a31576ae7955fbb00ce3">bvhar::initialize_olsspillover</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> Eigen::MatrixXd &amp;coef_mat, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> lag, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> Eigen::MatrixXd &amp;<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">cov_mat</a>, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> step, <a class="el" href="common_8h.html#ad2d809b9d71f39717698ac42fe339257">Optional</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> &gt; week=boost::none)</td></tr>
+<tr class="separator:a578644824f25a31576ae7955fbb00ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad16c2f1cf188e2ca4ec3f733837aaf0b" id="r_ad16c2f1cf188e2ca4ec3f733837aaf0b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classbvhar_1_1OlsVarSpillover.html">OlsVarSpillover</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#ad16c2f1cf188e2ca4ec3f733837aaf0b">bvhar::initialize_olsspillover</a> (<a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">const</a> <a class="el" href="structbvhar_1_1StructuralFit.html">StructuralFit</a> &amp;fit, <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> step, <a class="el" href="common_8h.html#ad2d809b9d71f39717698ac42fe339257">Optional</a>&lt; <a class="el" href="commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd">int</a> &gt; week=boost::none)</td></tr>
+<tr class="separator:ad16c2f1cf188e2ca4ec3f733837aaf0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

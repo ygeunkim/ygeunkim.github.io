@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.2.2</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -97,79 +97,84 @@ $(document).ready(function(){initNavTree('ols_2forecaster_8h.html',''); initResi
   <div class="headertitle"><div class="title">forecaster.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="common_8h_source.html">../core/common.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="core_2forecaster_8h_source.html">../core/forecaster.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ols_8h_source.html">./ols.h</a>&quot;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ols/forecaster.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="ols_2forecaster_8h__incl.png" border="0" usemap="#aforecaster_8h" alt=""/></div>
 <map name="aforecaster_8h" id="aforecaster_8h">
-<area shape="rect" title=" " alt="" coords="2319,5,2417,31"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="1683,79,1818,104"/>
-<area shape="poly" title=" " alt="" coords="2319,28,1832,83,1831,78,2318,22"/>
-<area shape="rect" href="ols_8h.html" title=" " alt="" coords="2956,79,3017,104"/>
-<area shape="poly" title=" " alt="" coords="2418,22,2943,82,2942,88,2417,28"/>
-<area shape="rect" href="eigen_8h.html" title=" " alt="" coords="2918,240,2997,265"/>
-<area shape="poly" title=" " alt="" coords="1818,91,2063,95,2388,105,2689,123,2798,135,2861,150,2879,162,2900,182,2941,228,2937,231,2896,186,2876,166,2859,154,2797,140,2689,128,2388,110,2063,100,1818,96"/>
-<area shape="rect" href="spdlog_8h.html" title=" " alt="" coords="2763,159,2848,185"/>
-<area shape="poly" title=" " alt="" coords="1818,92,2290,109,2557,126,2667,137,2751,149,2764,153,2763,158,2750,155,2667,142,2556,131,2290,115,1818,97"/>
-<area shape="rect" title=" " alt="" coords="5,152,187,192"/>
-<area shape="poly" title=" " alt="" coords="1683,97,965,115,531,132,345,143,201,155,200,149,345,138,530,127,965,110,1683,91"/>
-<area shape="rect" title=" " alt="" coords="211,152,373,192"/>
-<area shape="poly" title=" " alt="" coords="1683,95,1468,95,1150,102,775,120,580,135,387,155,387,149,579,129,774,114,1150,96,1468,90,1683,89"/>
-<area shape="rect" title=" " alt="" coords="397,152,592,192"/>
-<area shape="poly" title=" " alt="" coords="1683,96,1500,100,1235,109,926,127,606,155,606,149,925,121,1235,104,1499,95,1683,91"/>
-<area shape="rect" title=" " alt="" coords="617,152,783,192"/>
-<area shape="poly" title=" " alt="" coords="1683,96,1527,101,1310,111,1057,128,797,154,797,149,1057,122,1309,105,1527,96,1683,91"/>
-<area shape="rect" title=" " alt="" coords="807,152,974,192"/>
-<area shape="poly" title=" " alt="" coords="1683,98,1386,115,1190,131,988,154,987,149,1189,126,1385,110,1683,93"/>
-<area shape="rect" title=" " alt="" coords="998,152,1165,192"/>
-<area shape="poly" title=" " alt="" coords="1683,100,1463,120,1179,155,1178,149,1463,115,1683,95"/>
-<area shape="rect" title=" " alt="" coords="1189,152,1363,192"/>
-<area shape="poly" title=" " alt="" coords="1684,105,1377,154,1376,149,1683,100"/>
-<area shape="rect" title=" " alt="" coords="1387,159,1642,185"/>
-<area shape="poly" title=" " alt="" coords="1717,107,1563,158,1561,153,1716,101"/>
-<area shape="rect" title=" " alt="" coords="1667,152,1835,192"/>
-<area shape="poly" title=" " alt="" coords="1753,104,1753,138,1748,138,1748,104"/>
-<area shape="rect" title=" " alt="" coords="1859,152,2010,192"/>
-<area shape="poly" title=" " alt="" coords="1778,102,1879,144,1877,149,1776,106"/>
-<area shape="rect" title=" " alt="" coords="2034,152,2185,192"/>
-<area shape="poly" title=" " alt="" coords="1803,101,2021,149,2020,154,1802,107"/>
-<area shape="rect" title=" " alt="" coords="2209,152,2407,192"/>
-<area shape="poly" title=" " alt="" coords="1819,98,2196,149,2195,155,1818,104"/>
-<area shape="rect" title=" " alt="" coords="2432,159,2571,185"/>
-<area shape="poly" title=" " alt="" coords="1819,93,2082,111,2250,127,2419,149,2443,154,2442,159,2418,155,2250,132,2082,116,1818,98"/>
-<area shape="rect" title=" " alt="" coords="2595,159,2738,185"/>
-<area shape="poly" title=" " alt="" coords="1819,91,2148,106,2365,123,2583,149,2608,154,2608,159,2582,155,2364,129,2148,112,1818,97"/>
-<area shape="rect" href="commondefs_8h.html" title="Common header." alt="" coords="2886,313,3013,339"/>
-<area shape="poly" title=" " alt="" coords="2959,266,2955,300,2949,300,2953,265"/>
-<area shape="rect" title=" " alt="" coords="3037,313,3139,339"/>
-<area shape="poly" title=" " alt="" coords="2980,263,3056,304,3054,309,2977,268"/>
-<area shape="rect" title=" " alt="" coords="3003,387,3069,412"/>
-<area shape="poly" title=" " alt="" coords="2965,337,3013,376,3010,380,2962,341"/>
-<area shape="rect" title=" " alt="" coords="2833,387,2895,412"/>
-<area shape="poly" title=" " alt="" coords="2937,341,2890,380,2887,376,2934,337"/>
-<area shape="rect" title=" " alt="" coords="2920,387,2979,412"/>
-<area shape="poly" title=" " alt="" coords="2952,339,2952,373,2947,373,2947,339"/>
-<area shape="rect" title=" " alt="" coords="3116,387,3193,412"/>
-<area shape="poly" title=" " alt="" coords="2983,336,3109,380,3108,385,2981,341"/>
-<area shape="rect" title=" " alt="" coords="2467,240,2635,265"/>
-<area shape="poly" title=" " alt="" coords="2773,187,2751,195,2604,239,2603,234,2750,189,2772,182"/>
-<area shape="rect" title=" " alt="" coords="2659,240,2757,265"/>
-<area shape="poly" title=" " alt="" coords="2793,187,2735,233,2731,229,2789,183"/>
-<area shape="rect" href="omp_8h.html" title=" " alt="" coords="2782,240,2845,265"/>
-<area shape="poly" title=" " alt="" coords="2809,185,2813,226,2808,226,2804,185"/>
-<area shape="poly" title=" " alt="" coords="2840,237,2861,239,2868,244,2871,253,2866,264,2854,268,2852,263,2862,260,2866,252,2864,247,2859,244,2839,243"/>
-<area shape="rect" title=" " alt="" coords="2795,313,2861,339"/>
-<area shape="poly" title=" " alt="" coords="2818,265,2825,299,2820,300,2813,266"/>
-<area shape="rect" title=" " alt="" coords="2619,313,2683,339"/>
-<area shape="poly" title=" " alt="" coords="2788,268,2691,310,2689,305,2786,263"/>
-<area shape="rect" title=" " alt="" coords="2707,313,2770,339"/>
-<area shape="poly" title=" " alt="" coords="2803,267,2763,306,2759,302,2800,263"/>
-<area shape="poly" title=" " alt="" coords="3007,102,3036,123,3065,150,3098,191,3121,225,3139,263,3155,313,3159,344,3160,372,3154,372,3154,344,3149,314,3134,265,3117,228,3094,194,3061,154,3032,127,3004,106"/>
-<area shape="rect" href="design_8h.html" title=" " alt="" coords="2923,159,3050,185"/>
-<area shape="poly" title=" " alt="" coords="2989,104,2989,145,2984,145,2984,104"/>
-<area shape="poly" title=" " alt="" coords="2985,186,2969,228,2964,226,2980,184"/>
+<area shape="rect" title=" " alt="" coords="113,5,211,31"/>
+<area shape="rect" href="core_2forecaster_8h.html" title=" " alt="" coords="1324,79,1467,104"/>
+<area shape="poly" title=" " alt="" coords="212,20,1310,82,1310,88,211,25"/>
+<area shape="rect" title=" " alt="" coords="5,387,97,412"/>
+<area shape="poly" title=" " alt="" coords="146,33,118,54,88,84,64,121,57,142,54,163,54,247,54,373,49,373,49,247,49,163,51,141,59,119,84,81,115,50,143,29"/>
+<area shape="rect" href="ols_8h.html" title=" " alt="" coords="131,79,193,104"/>
+<area shape="poly" title=" " alt="" coords="165,31,165,65,159,65,159,31"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1346,152,1445,177"/>
+<area shape="poly" title=" " alt="" coords="1398,104,1398,138,1393,138,1393,104"/>
+<area shape="rect" href="omp_8h.html" title=" " alt="" coords="2108,313,2171,339"/>
+<area shape="poly" title=" " alt="" coords="1467,91,1808,97,2038,105,2280,116,2513,133,2717,156,2801,170,2870,185,2921,203,2952,223,2959,234,2962,245,2959,256,2952,267,2936,278,2909,287,2832,301,2728,312,2609,319,2365,326,2184,328,2184,322,2365,321,2608,314,2727,306,2831,296,2908,281,2933,273,2948,263,2954,254,2956,245,2954,236,2948,227,2919,208,2868,191,2800,175,2716,161,2513,138,2280,122,2038,110,1807,102,1467,96"/>
+<area shape="rect" href="eigen_8h.html" title=" " alt="" coords="157,233,236,258"/>
+<area shape="poly" title=" " alt="" coords="1346,169,1124,173,805,183,483,201,349,213,248,228,236,231,235,226,247,223,348,208,482,195,805,178,1123,168,1346,164"/>
+<area shape="rect" href="spdlog_8h.html" title=" " alt="" coords="999,233,1085,258"/>
+<area shape="poly" title=" " alt="" coords="1346,176,1232,197,1097,228,1087,231,1085,226,1096,223,1231,192,1345,171"/>
+<area shape="rect" title=" " alt="" coords="1109,225,1290,265"/>
+<area shape="poly" title=" " alt="" coords="1368,180,1260,223,1258,218,1366,175"/>
+<area shape="rect" title=" " alt="" coords="1314,225,1477,265"/>
+<area shape="poly" title=" " alt="" coords="1398,178,1398,212,1393,212,1393,178"/>
+<area shape="rect" title=" " alt="" coords="1501,225,1695,265"/>
+<area shape="poly" title=" " alt="" coords="1426,175,1538,218,1536,223,1424,180"/>
+<area shape="rect" title=" " alt="" coords="1720,225,1887,265"/>
+<area shape="poly" title=" " alt="" coords="1446,173,1707,222,1706,228,1445,178"/>
+<area shape="rect" title=" " alt="" coords="1911,225,2077,265"/>
+<area shape="poly" title=" " alt="" coords="1445,168,1639,188,1897,223,1896,228,1638,194,1444,173"/>
+<area shape="rect" title=" " alt="" coords="2101,225,2268,265"/>
+<area shape="poly" title=" " alt="" coords="1445,166,1715,184,1898,200,2088,223,2087,228,1897,206,1714,189,1445,171"/>
+<area shape="rect" title=" " alt="" coords="2293,225,2466,265"/>
+<area shape="poly" title=" " alt="" coords="1445,165,1789,180,2030,197,2279,223,2278,228,2029,202,1789,185,1445,170"/>
+<area shape="rect" title=" " alt="" coords="2491,233,2745,258"/>
+<area shape="poly" title=" " alt="" coords="1445,165,1870,181,2171,198,2478,223,2528,228,2527,234,2478,228,2170,204,1870,187,1445,170"/>
+<area shape="rect" title=" " alt="" coords="2770,225,2938,265"/>
+<area shape="poly" title=" " alt="" coords="1445,163,1651,163,1972,170,2357,188,2558,203,2757,223,2756,228,2558,208,2357,193,1972,175,1651,169,1445,168"/>
+<area shape="rect" title=" " alt="" coords="260,225,411,265"/>
+<area shape="poly" title=" " alt="" coords="1346,169,1193,172,967,181,700,198,424,228,424,223,700,193,967,176,1193,167,1346,164"/>
+<area shape="rect" title=" " alt="" coords="435,225,585,265"/>
+<area shape="poly" title=" " alt="" coords="1346,170,1034,185,820,202,599,228,599,223,820,197,1034,180,1345,165"/>
+<area shape="rect" title=" " alt="" coords="609,225,808,265"/>
+<area shape="poly" title=" " alt="" coords="1346,173,1123,193,822,228,821,222,1123,188,1346,167"/>
+<area shape="rect" title=" " alt="" coords="832,233,975,258"/>
+<area shape="poly" title=" " alt="" coords="1346,175,1186,196,988,228,966,232,964,227,987,223,1185,191,1345,169"/>
+<area shape="rect" href="commondefs_8h.html" title="Common header." alt="" coords="267,313,393,339"/>
+<area shape="poly" title=" " alt="" coords="218,256,300,304,297,309,215,260"/>
+<area shape="rect" title=" " alt="" coords="140,313,243,339"/>
+<area shape="poly" title=" " alt="" coords="199,258,196,300,190,299,193,258"/>
+<area shape="rect" title=" " alt="" coords="223,387,290,412"/>
+<area shape="poly" title=" " alt="" coords="320,341,280,379,277,375,316,337"/>
+<area shape="rect" title=" " alt="" coords="315,387,377,412"/>
+<area shape="poly" title=" " alt="" coords="335,338,343,373,338,374,330,340"/>
+<area shape="rect" title=" " alt="" coords="402,387,461,412"/>
+<area shape="poly" title=" " alt="" coords="348,336,405,376,402,381,345,341"/>
+<area shape="rect" title=" " alt="" coords="122,387,199,412"/>
+<area shape="poly" title=" " alt="" coords="304,341,202,384,200,379,302,336"/>
+<area shape="poly" title=" " alt="" coords="286,341,110,386,109,381,285,336"/>
+<area shape="rect" title=" " alt="" coords="879,313,1047,339"/>
+<area shape="poly" title=" " alt="" coords="1032,260,987,305,983,302,1029,256"/>
+<area shape="rect" title=" " alt="" coords="1071,313,1170,339"/>
+<area shape="poly" title=" " alt="" coords="1055,256,1101,302,1097,305,1052,260"/>
+<area shape="poly" title=" " alt="" coords="1071,255,1097,263,1189,276,1311,287,1603,305,2094,321,2094,326,1603,310,1310,293,1188,281,1096,268,1070,261"/>
+<area shape="poly" title=" " alt="" coords="2166,311,2187,312,2194,317,2197,326,2192,337,2180,342,2178,337,2188,333,2192,326,2190,321,2185,317,2165,316"/>
+<area shape="rect" title=" " alt="" coords="2017,387,2083,412"/>
+<area shape="poly" title=" " alt="" coords="2127,341,2077,380,2074,376,2123,337"/>
+<area shape="rect" title=" " alt="" coords="2107,387,2171,412"/>
+<area shape="poly" title=" " alt="" coords="2142,339,2142,373,2137,373,2137,339"/>
+<area shape="rect" title=" " alt="" coords="2196,387,2259,412"/>
+<area shape="poly" title=" " alt="" coords="2155,337,2204,376,2201,380,2152,341"/>
+<area shape="poly" title=" " alt="" coords="155,106,141,127,130,153,118,204,114,245,118,286,130,338,147,374,142,377,125,340,113,287,109,245,113,203,125,151,136,124,151,103"/>
+<area shape="rect" href="design_8h.html" title=" " alt="" coords="140,152,267,177"/>
+<area shape="poly" title=" " alt="" coords="171,103,192,139,187,141,167,106"/>
+<area shape="poly" title=" " alt="" coords="205,178,201,219,196,219,200,177"/>
 </map>
 </div>
 </div>
@@ -177,11 +182,25 @@ Include dependency graph for ols/forecaster.h:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsExogenForecaster.html">bvhar::OlsExogenForecaster</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsForecaster.html">bvhar::OlsForecaster</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1VarForecaster.html">bvhar::VarForecaster</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1VharForecaster.html">bvhar::VharForecaster</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsForecastRun.html">bvhar::OlsForecastRun</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsOutforecastRun.html">bvhar::OlsOutforecastRun</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsRollforecastRun.html">bvhar::OlsRollforecastRun</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1OlsExpandforecastRun.html">bvhar::OlsExpandforecastRun</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1VarOutforecastRun.html">bvhar::VarOutforecastRun&lt; BaseOutForecast &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1VharOutforecastRun.html">bvhar::VharOutforecastRun&lt; BaseOutForecast &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>

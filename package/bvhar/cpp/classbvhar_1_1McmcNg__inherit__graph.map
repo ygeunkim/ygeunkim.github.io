@@ -1,7 +1,11 @@
 <map id="bvhar::McmcNg&lt; BaseMcmc, isGroup &gt;" name="bvhar::McmcNg&lt; BaseMcmc, isGroup &gt;">
-<area shape="rect" id="Node000001" title="Normal&#45;Gamma Prior." alt="" coords="5,152,220,192"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="47,79,178,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,118,115,152,110,152,110,118"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="27,5,198,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,44,115,79,110,79,110,44"/>
+<area shape="rect" id="Node000001" title="Normal&#45;Gamma Prior." alt="" coords="5,225,220,265"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcReg.html" title="MCMC for homoskedastic LDLT parameterization." alt="" coords="47,152,178,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,191,115,225,110,225,110,191"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="27,79,198,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,118,108,152,103,152,101,118"/>
+<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="124,118,122,152,117,152,119,118"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcAlgo.html" title="Base class for MCMC algorithm." alt="" coords="45,5,180,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="107,44,108,78,103,79,101,45"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="124,45,122,79,117,78,119,44"/>
 </map>

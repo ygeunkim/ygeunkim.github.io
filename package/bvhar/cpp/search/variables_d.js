@@ -1,13 +1,23 @@
 var searchData=
 [
-  ['rate_0',['rate',['../structbvhar_1_1HierminnParams.html#abe37b6d728d53a5c01914b748d9126e2',1,'bvhar::HierminnParams']]],
-  ['record_1',['record',['../classbvhar_1_1MinnSpillover.html#afb1bc983eaef6916bb68cb515deab5d5',1,'bvhar::MinnSpillover']]],
-  ['record_5fwarm_2',['record_warm',['../classbvhar_1_1MinnSpillover.html#a49d116e6cd65c7ef3d86bfb6655c5e7b',1,'bvhar::MinnSpillover']]],
-  ['reg_5frecord_3',['reg_record',['../classbvhar_1_1McmcForecaster.html#a7f3fa302e8c3455045db8437ea449006',1,'bvhar::McmcForecaster::reg_record'],['../classbvhar_1_1McmcSpillover.html#a29f1f7967ee747a8f9f673ce76ab419d',1,'bvhar::McmcSpillover::reg_record'],['../classbvhar_1_1DynamicSvSpillover.html#a4c5f80a7f728a8d95d36bc92821cd3b5',1,'bvhar::DynamicSvSpillover::reg_record'],['../classbvhar_1_1McmcTriangular.html#a1435f73cafc5ef7fe72784d32b6a546e',1,'bvhar::McmcTriangular::reg_record']]],
-  ['resid_4',['resid',['../classbvhar_1_1Minnesota.html#acb4e8e1a2a51415e5e6ffe19f575d8d3',1,'bvhar::Minnesota::resid'],['../classbvhar_1_1MinnFlat.html#adb85461cc694f13bbc9cdc8e4ea4959f',1,'bvhar::MinnFlat::resid'],['../classbvhar_1_1MultiOls.html#a8b4a24f6d6d8e84fcdd46c921b757c28',1,'bvhar::MultiOls::resid']]],
-  ['response_5',['response',['../classbvhar_1_1MinnFlat.html#abcb481eb05d07790e371fc6805038f07',1,'bvhar::MinnFlat::response'],['../classbvhar_1_1OlsVhar.html#aee702d66206e77210f8b0b35db7ce6cb',1,'bvhar::OlsVhar::response'],['../classbvhar_1_1OlsVar.html#a5c95157edf4c4607a118dd83d7bdbabd',1,'bvhar::OlsVar::response'],['../classbvhar_1_1MultiOls.html#a210785c8fdce29d82770633cb7de4d3e',1,'bvhar::MultiOls::response'],['../classbvhar_1_1OlsForecaster.html#a4bd9ccc741263470d8b536006c3f6a78',1,'bvhar::OlsForecaster::response'],['../classbvhar_1_1McmcForecaster.html#a97bcb9c5e09a7dc75792e11d29c3cf09',1,'bvhar::McmcForecaster::response'],['../classbvhar_1_1MinnBvhar.html#a7541df3a1a475b5b3720514293f6a364',1,'bvhar::MinnBvhar::response'],['../classbvhar_1_1Minnesota.html#a345364eb1861311a7f8b3d3e0cbb6776',1,'bvhar::Minnesota::response'],['../classbvhar_1_1MinnForecaster.html#a400485dbef3f22e47abdaf39b5d9714d',1,'bvhar::MinnForecaster::response']]],
-  ['response_5fcontem_6',['response_contem',['../classbvhar_1_1McmcTriangular.html#aac2e47ab2d3600415ecff4c4ed55c514',1,'bvhar::McmcTriangular']]],
-  ['rng_7',['rng',['../classbvhar_1_1MinnForecaster.html#a77974e82da4b2333b6a6db78b68786ed',1,'bvhar::MinnForecaster::rng'],['../classbvhar_1_1MinnSpillover.html#abefef9ca46dd2e21390eb1d75513a38f',1,'bvhar::MinnSpillover::rng'],['../classbvhar_1_1McmcForecaster.html#ac36a4e14ea929dd131f6b192112dff15',1,'bvhar::McmcForecaster::rng'],['../classbvhar_1_1McmcTriangular.html#a844c99e657d0ec5ba62a1b72eb21b48e',1,'bvhar::McmcTriangular::rng']]],
-  ['roll_5fmat_8',['roll_mat',['../classbvhar_1_1McmcOutforecastRun.html#a41a8676fac3efd70b9107a495d3802d7',1,'bvhar::McmcOutforecastRun']]],
-  ['roll_5fy0_9',['roll_y0',['../classbvhar_1_1McmcOutforecastRun.html#a58e65749e668697ceb0dda6f73c5e64e',1,'bvhar::McmcOutforecastRun']]]
+  ['point_5fforecast_0',['point_forecast',['../classbvhar_1_1MultistepForecaster.html#a9999871b6ce97484a1a89e32856cf6cc',1,'bvhar::MultistepForecaster::point_forecast'],['../classbvhar_1_1MinnForecaster.html#a7faf68644723c86f584df287bbdf7b82',1,'bvhar::MinnForecaster::point_forecast']]],
+  ['post_5fmean_1',['post_mean',['../classbvhar_1_1McmcForecaster.html#af12f7daa42e19a80d3d268792da03c09',1,'bvhar::McmcForecaster']]],
+  ['posterior_5fiw_5fscale_2',['posterior_iw_scale',['../classbvhar_1_1MinnForecaster.html#a3d8aa09914787560ef699e15102d12c2',1,'bvhar::MinnForecaster']]],
+  ['posterior_5fiw_5fshape_3',['posterior_iw_shape',['../classbvhar_1_1MinnForecaster.html#ab30ff61b709eda011699275609405264',1,'bvhar::MinnForecaster']]],
+  ['posterior_5fmean_4',['posterior_mean',['../classbvhar_1_1MinnForecaster.html#a76bc3bb146083d8b781b8bf22a4632f1',1,'bvhar::MinnForecaster']]],
+  ['posterior_5fsig_5',['posterior_sig',['../classbvhar_1_1MinnForecaster.html#ab8fce8badc2b12ba078f00aae956d1ad',1,'bvhar::MinnForecaster']]],
+  ['prec_6',['prec',['../classbvhar_1_1Minnesota.html#ad8518e2b44663d2b156a8dca61cf36ff',1,'bvhar::Minnesota::prec'],['../classbvhar_1_1MinnFlat.html#af23c2a40965bcbb5664b53ccdf0cf600',1,'bvhar::MinnFlat::prec'],['../classbvhar_1_1MinnSpillover.html#a93cf0de7f9e81ec1a1f852ae6ecc9a72',1,'bvhar::MinnSpillover::prec']]],
+  ['pred_5fsave_7',['pred_save',['../classbvhar_1_1MinnForecaster.html#ac2567b6069bd75f76be988e6cb244d06',1,'bvhar::MinnForecaster::pred_save'],['../classbvhar_1_1MultistepForecaster.html#a93f5c9ff238f0bae59dad1e8443c27ea',1,'bvhar::MultistepForecaster::pred_save']]],
+  ['predictive_5fdistn_8',['predictive_distn',['../classbvhar_1_1McmcForecaster.html#a756a48407e13cef82576eb53bb561c65',1,'bvhar::McmcForecaster::predictive_distn'],['../classbvhar_1_1MinnForecaster.html#a1b80b7b6afa516858add5beca6987cb0',1,'bvhar::MinnForecaster::predictive_distn']]],
+  ['prior_5falpha_5fmean_9',['prior_alpha_mean',['../classbvhar_1_1McmcTriangular.html#ad7805a06d1b4cf7a6e804ea438f44305',1,'bvhar::McmcTriangular']]],
+  ['prior_5falpha_5fprec_10',['prior_alpha_prec',['../classbvhar_1_1McmcTriangular.html#afd85383bd6d311b7f69ff3124a1bfdd0',1,'bvhar::McmcTriangular']]],
+  ['prior_5fchol_5fmean_11',['prior_chol_mean',['../classbvhar_1_1McmcTriangular.html#a13aa92c76892994c3224743d04bc6aa3',1,'bvhar::McmcTriangular']]],
+  ['prior_5fchol_5fprec_12',['prior_chol_prec',['../classbvhar_1_1McmcTriangular.html#a5fa3f952f905e2f4207d2a5991bfc1cc',1,'bvhar::McmcTriangular']]],
+  ['prior_5fmean_13',['prior_mean',['../classbvhar_1_1Minnesota.html#a689558828668c0f8dcb4ffe2abb6646e',1,'bvhar::Minnesota::prior_mean'],['../classbvhar_1_1MinnFlat.html#a70bef363138ae9ce9c1ad175c673ab15',1,'bvhar::MinnFlat::prior_mean']]],
+  ['prior_5fprec_14',['prior_prec',['../classbvhar_1_1Minnesota.html#aebb2f895c4d67f4ec2e5936239e567cc',1,'bvhar::Minnesota::prior_prec'],['../classbvhar_1_1MinnFlat.html#a5c8feec5b73236ec8f6d62b3d4ecdc61',1,'bvhar::MinnFlat::prior_prec']]],
+  ['prior_5fscale_15',['prior_scale',['../classbvhar_1_1Minnesota.html#a8b6dcbcd11782ba1779641f8c0729bcd',1,'bvhar::Minnesota']]],
+  ['prior_5fshape_16',['prior_shape',['../classbvhar_1_1Minnesota.html#a0c2ba82e776e39ed791e1798f22c5b17',1,'bvhar::Minnesota']]],
+  ['prior_5fsig_5fscl_17',['prior_sig_scl',['../classbvhar_1_1McmcTriangular.html#a2023a20ef851494729f054253744d250',1,'bvhar::McmcTriangular']]],
+  ['prior_5fsig_5fshp_18',['prior_sig_shp',['../classbvhar_1_1McmcTriangular.html#a76a667341e52f53fc516d40689ef8872',1,'bvhar::McmcTriangular']]],
+  ['psi_5frecord_19',['psi_record',['../structbvhar_1_1MhMinnRecords.html#a767297113d2fc935b4355323fd33bca0',1,'bvhar::MhMinnRecords']]]
 ];

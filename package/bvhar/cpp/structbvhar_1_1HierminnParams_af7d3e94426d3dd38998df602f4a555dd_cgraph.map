@@ -1,10 +1,7 @@
 <map id="bvhar::HierminnParams::HierminnParams" name="bvhar::HierminnParams::HierminnParams">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,180,87"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,180,63"/>
 <area shape="rect" id="Node000002" href="$namespacebvhar.html#a6f04749bb537a4c13614d26b4751c854" title=" " alt="" coords="228,5,392,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,45,239,31,241,36,181,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,31,214,26,215,32,180,36"/>
 <area shape="rect" id="Node000003" href="$namespacebvhar.html#a8f898c60e82830ea8a8146d681020a50" title=" " alt="" coords="228,55,392,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,65,214,65,214,70,180,70"/>
-<area shape="rect" id="Node000004" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="241,128,379,153"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,85,259,121,257,126,152,90"/>
-<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="275,130,267,120,271,110,286,104,310,101,340,105,352,114,349,118,338,110,310,107,287,109,275,114,272,119,279,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,50,215,54,214,59,180,56"/>
 </map>

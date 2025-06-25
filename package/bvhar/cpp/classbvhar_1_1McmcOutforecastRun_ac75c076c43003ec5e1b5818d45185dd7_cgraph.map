@@ -1,0 +1,7 @@
+<map id="bvhar::McmcOutforecastRun::runGibbs" name="bvhar::McmcOutforecastRun::runGibbs">
+<area shape="rect" id="Node000001" title="Conduct MCMC and update forecast pointer." alt="" coords="5,37,212,77"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="283,5,443,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,42,270,34,270,40,212,47"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcOutforecastRun.html#afe50188f9e291c8cdad62874fa64c7f3" title="Replace the forecast smart pointer given MCMC result." alt="" coords="260,69,467,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,68,247,72,246,77,212,73"/>
+</map>

@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['param_5ftype_0',['param_type',['../classboost_1_1random_1_1generalized__inverse__gaussian__distribution_1_1param__type.html',1,'boost::random::generalized_inverse_gaussian_distribution&lt; RealType &gt;::param_type'],['../classboost_1_1random_1_1inverse__gaussian__distribution_1_1param__type.html',1,'boost::random::inverse_gaussian_distribution&lt; RealType &gt;::param_type']]]
+  ['nginits_0',['NgInits',['../structbvhar_1_1NgInits.html',1,'bvhar']]],
+  ['ngparams_1',['NgParams',['../structbvhar_1_1NgParams.html',1,'bvhar']]],
+  ['ngrecords_2',['NgRecords',['../structbvhar_1_1NgRecords.html',1,'bvhar']]],
+  ['ngupdater_3',['NgUpdater',['../classbvhar_1_1NgUpdater.html',1,'bvhar']]]
 ];

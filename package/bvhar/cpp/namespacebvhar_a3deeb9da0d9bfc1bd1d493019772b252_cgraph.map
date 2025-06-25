@@ -1,7 +1,8 @@
 <map id="bvhar::dl_latent" name="bvhar::dl_latent">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,129,56"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a21079ede93ae3df9ccbf7340daef816b" title=" " alt="" coords="187,5,323,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,32,173,26,174,32,130,38"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#a701898c90db3d9ab804498128b6df9f7" title=" " alt="" coords="177,55,333,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,49,164,53,163,58,129,54"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,129,31"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006" title=" " alt="" coords="381,5,517,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,15,367,15,367,21,130,21"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a701898c90db3d9ab804498128b6df9f7" title=" " alt="" coords="177,31,333,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,24,164,28,163,34,129,29"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="333,31,368,26,368,31,334,36"/>
 </map>

@@ -1,5 +1,8 @@
 <map id="bvhar::HorseshoeParams&lt; BaseRegParams &gt;" name="bvhar::HorseshoeParams&lt; BaseRegParams &gt;">
-<area shape="rect" id="Node000001" title="Hyperparameters for Horseshoe prior McmcHorseshoe" alt="" coords="5,79,189,119"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="27,5,167,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,44,100,79,95,79,95,44"/>
+<area shape="rect" id="Node000001" title="Hyperparameters for Horseshoe prior McmcHorseshoe" alt="" coords="5,152,189,192"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="27,79,167,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,118,100,152,95,152,95,118"/>
+<area shape="rect" id="Node000003" href="$structbvhar_1_1McmcParams.html" title="Base input for McmcAlgo" alt="" coords="20,5,175,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,44,93,78,88,79,86,45"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="109,45,107,79,102,78,103,44"/>
 </map>

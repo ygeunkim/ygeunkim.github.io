@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['cast_0',['CAST',['../commondefs_8h.html#a8b6956a3b15c98d5016a0cfc601b47bd',1,'commondefs.h']]],
-  ['cast_5fdouble_1',['CAST_DOUBLE',['../commondefs_8h.html#ad3bb8a8eb9c7d8cf9b00154a59ccf7ac',1,'commondefs.h']]],
-  ['cast_5fint_2',['CAST_INT',['../commondefs_8h.html#a5582ac6edc43337a2073691b1703b89d',1,'commondefs.h']]],
-  ['cast_5fmatrix_3',['CAST_MATRIX',['../commondefs_8h.html#af94daf4bd28cd382c5cbb43b906c26f1',1,'commondefs.h']]],
-  ['cast_5fvector_4',['CAST_VECTOR',['../commondefs_8h.html#a367e52d020b865ed1ff03dae08bd8351',1,'commondefs.h']]],
-  ['contains_5',['CONTAINS',['../commondefs_8h.html#a33bceaf7cf3832becbb90414b892ada0',1,'commondefs.h']]],
-  ['cout_6',['COUT',['../commondefs_8h.html#a8c54b10b84183429bcbcbc82c92fcca9',1,'commondefs.h']]],
-  ['create_5flist_7',['CREATE_LIST',['../commondefs_8h.html#a0eaf7b50cdcc71a7812e26908299f8aa',1,'commondefs.h']]]
+  ['bhrng_0',['BHRNG',['../common_8h.html#a8761330823b6d0af9a62c87fb65f0b23',1,'common.h']]],
+  ['bvhar_5fdebug_5fdrop_1',['BVHAR_DEBUG_DROP',['../spdlog_8h.html#a9f64103c67a47c67dbea72a75e667793',1,'spdlog.h']]],
+  ['bvhar_5fdebug_5flog_2',['BVHAR_DEBUG_LOG',['../spdlog_8h.html#afca36798c70bcf95dd2ec673771064e4',1,'spdlog.h']]],
+  ['bvhar_5fdebug_5flogger_3',['BVHAR_DEBUG_LOGGER',['../spdlog_8h.html#acd58570a9bb5144e0b7c4822151621f8',1,'spdlog.h']]],
+  ['bvhar_5finit_5fdebug_4',['BVHAR_INIT_DEBUG',['../spdlog_8h.html#adb19913a0a8c783bd6dc577b26cb1b40',1,'spdlog.h']]]
 ];

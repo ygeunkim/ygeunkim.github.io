@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['fac_5frecord_0',['fac_record',['../structbvhar_1_1LdltRecords.html#a57225c61aa0ba17e9d1a2ece8a88310a',1,'bvhar::LdltRecords']]],
-  ['fevd_1',['fevd',['../classbvhar_1_1MinnSpillover.html#ac5b20b6c5ef23572528b3eef51fce8d7',1,'bvhar::MinnSpillover::fevd'],['../classbvhar_1_1McmcSpillover.html#afa3cd8cf90f996d444240a7638e56c43',1,'bvhar::McmcSpillover::fevd'],['../classbvhar_1_1OlsSpillover.html#aaa6f41107af31ca22bcb389ff67e4172',1,'bvhar::OlsSpillover::fevd']]],
-  ['forecaster_2',['forecaster',['../classbvhar_1_1McmcOutforecastRun.html#ae2736390d84c45c542919298134757fa',1,'bvhar::McmcOutforecastRun']]],
-  ['from_5fsp_3',['from_sp',['../classbvhar_1_1DynamicLdltSpillover.html#aa07c4b9fa94350667da4169e18915cf7',1,'bvhar::DynamicLdltSpillover::from_sp'],['../classbvhar_1_1DynamicSvSpillover.html#af05ab26c7e9959d3c417483c668f2c58',1,'bvhar::DynamicSvSpillover::from_sp']]],
-  ['from_5fspillover_4',['from_spillover',['../classbvhar_1_1McmcSpillover.html#a9fc064ac11553b162b9a51691da81ad8',1,'bvhar::McmcSpillover']]]
+  ['exogen_0',['exogen',['../classbvhar_1_1ExogenForecaster.html#a127e21e5e4c5c32ffcf203b5fd0aa87f',1,'bvhar::ExogenForecaster']]],
+  ['exogen_5fupdater_1',['exogen_updater',['../classbvhar_1_1CtaForecaster.html#a5db51494ce4831c0f1bb8cee385b06bf',1,'bvhar::CtaForecaster::exogen_updater'],['../classbvhar_1_1McmcTriangular.html#a9b4b021b84c91ec5178e7af52154078d',1,'bvhar::McmcTriangular::exogen_updater'],['../classbvhar_1_1OlsForecaster.html#a08f1d1208b46e8aa9ab6f09dac4c7453',1,'bvhar::OlsForecaster::exogen_updater']]]
 ];

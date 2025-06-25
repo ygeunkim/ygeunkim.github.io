@@ -1,0 +1,9 @@
+<map id="bvhar::MultistepForecaster::forecast" name="bvhar::MultistepForecaster::forecast">
+<area shape="rect" id="Node000001" title="Multi&#45;step forecasting." alt="" coords="5,69,201,109"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1MultistepForecaster.html#ab369c30c5a78ba3bb1a725a82602a8ac" title="Set the initial lagged unit." alt="" coords="249,5,445,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,67,257,46,258,51,181,72"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1MultistepForecaster.html#a66cd2e57b580f295e5bdbbe97ac73b21" title="Compute Linear predictor." alt="" coords="249,69,445,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,87,236,87,236,92,201,92"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1MultistepForecaster.html#ac5a5604891773202acd4b773e7c30609" title="Move the lagged unit element based on one&#45;step ahead forecasting." alt="" coords="249,133,445,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="181,107,258,127,257,132,180,112"/>
+</map>

@@ -1,5 +1,7 @@
 <map id="bvhar::MinnParams&lt; BaseRegParams &gt;" name="bvhar::MinnParams&lt; BaseRegParams &gt;">
-<area shape="rect" id="Node000001" title="Hyperparameters for Minnesota prior McmcMinn" alt="" coords="5,79,164,119"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1RegParams.html" title="Hyperparameters for McmcReg" alt="" coords="15,5,155,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,44,87,79,82,79,82,44"/>
+<area shape="rect" id="Node000001" title="Hyperparameters for Minnesota prior MinnUpdater" alt="" coords="103,79,262,119"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1ShrinkageParams.html" title="Hyperparameters for shrinkage priors ShrinkageUpdater" alt="" coords="5,5,184,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,38,163,77,160,81,116,42"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="209,5,335,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,42,206,81,202,77,247,38"/>
 </map>

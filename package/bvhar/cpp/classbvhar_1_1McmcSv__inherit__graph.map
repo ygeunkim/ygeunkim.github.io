@@ -1,5 +1,9 @@
 <map id="bvhar::McmcSv" name="bvhar::McmcSv">
-<area shape="rect" id="Node000001" title="MCMC for stochastic volatility." alt="" coords="29,79,152,104"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="5,5,176,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,44,93,79,88,79,88,44"/>
+<area shape="rect" id="Node000001" title="MCMC for stochastic volatility." alt="" coords="29,152,152,177"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcTriangular.html" title="Corrected Triangular Algorithm (CTA)" alt="" coords="5,79,176,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,118,86,152,81,152,79,118"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="102,118,100,152,95,152,97,118"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcAlgo.html" title="Base class for MCMC algorithm." alt="" coords="23,5,158,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,44,86,78,81,79,79,45"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="102,45,100,79,95,78,97,44"/>
 </map>

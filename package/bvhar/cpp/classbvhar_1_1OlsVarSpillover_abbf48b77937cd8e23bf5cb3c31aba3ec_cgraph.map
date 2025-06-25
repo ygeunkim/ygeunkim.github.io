@@ -1,0 +1,19 @@
+<map id="bvhar::OlsVarSpillover::computeSpillover" name="bvhar::OlsVarSpillover::computeSpillover">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,146,172,186"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#ab612394662d870cd24c7ee82f4f9c18c" title=" " alt="" coords="237,5,399,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,144,151,92,183,64,219,40,233,33,235,38,221,44,186,68,155,96,107,148"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a603ad1a5467432c8f5cc97dc44621a88" title=" " alt="" coords="242,55,394,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="118,143,165,115,219,89,240,81,242,86,221,94,167,120,121,148"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a191acb84683d6ca12d59bfd47042ef69" title=" " alt="" coords="223,104,413,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,145,245,130,246,135,173,151"/>
+<area shape="rect" id="Node000005" href="$namespacebvhar.html#a7f3873a6016ab756fd878955eed99f22" title=" " alt="" coords="246,153,390,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="172,163,232,163,232,169,172,169"/>
+<area shape="rect" id="Node000006" href="$namespacebvhar.html#ae0291f3cf22e0370d40dec1f917795de" title=" " alt="" coords="243,203,393,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="173,181,246,197,245,202,172,187"/>
+<area shape="rect" id="Node000007" href="$namespacebvhar.html#a6c2ed586ec94b15e2a8f0f81fda3ad04" title=" " alt="" coords="220,252,416,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="122,184,168,211,221,237,246,246,244,251,219,242,165,216,119,188"/>
+<area shape="rect" id="Node000008" href="$classbvhar_1_1OlsVarSpillover.html#a7a246ef7b79f2c893c9c8ebaefad0e50" title=" " alt="" coords="235,302,401,342"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="108,184,156,235,187,262,221,286,236,294,233,299,219,291,184,267,152,239,105,188"/>
+<area shape="rect" id="Node000009" href="$namespacebvhar.html#a553add500f9cca170348da566ebeeb7f" title=" " alt="" coords="464,302,608,342"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="401,319,450,319,450,325,401,325"/>
+</map>

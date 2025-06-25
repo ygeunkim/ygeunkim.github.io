@@ -1,10 +1,12 @@
 var classbvhar_1_1OlsVhar =
 [
     [ "OlsVhar", "classbvhar_1_1OlsVhar.html#acf9908914f9646d4d0fa5e845a9b7ed9", null ],
+    [ "OlsVhar", "classbvhar_1_1OlsVhar.html#ad4fed90aed108bbd690f97fde45512df", null ],
     [ "~OlsVhar", "classbvhar_1_1OlsVhar.html#aa2f74feae1f5419d07c1c5b9a97ead2b", null ],
-    [ "returnOlsRes", "classbvhar_1_1OlsVhar.html#a2f393ac235f5319e40658e782a53402d", null ],
-    [ "returnOlsFit", "classbvhar_1_1OlsVhar.html#aba9813148d5446b87be0853915a086f5", null ],
-    [ "returnStructuralFit", "classbvhar_1_1OlsVhar.html#a0e38a96f3c680d2e06b80d13a7ae6347", null ],
+    [ "returnOlsRes", "classbvhar_1_1OlsVhar.html#adf7a04af6280cdf9c766f658e57295c2", null ],
+    [ "returnCoef", "classbvhar_1_1OlsVhar.html#a0b8a3e26e547b173466d6dd95c17ab8f", null ],
+    [ "returnOlsFit", "classbvhar_1_1OlsVhar.html#a6dd985fd6a0a993ef43e4976ea38a0fe", null ],
+    [ "returnStructuralFit", "classbvhar_1_1OlsVhar.html#a77772b5ee3e5c8b2b86480388caebef9", null ],
     [ "week", "classbvhar_1_1OlsVhar.html#a5706f9b7fddf25483602ebffc7a4da24", null ],
     [ "month", "classbvhar_1_1OlsVhar.html#a7116fa9c209256d49c3d2825fd23671b", null ],
     [ "const_term", "classbvhar_1_1OlsVhar.html#a41900c5651d3a866434d8c10657804df", null ],
