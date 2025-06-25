@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.2.2.9012</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +37,7 @@
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.2">Version 2.1.2</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.2.2">Version 2.2.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.3.0">Version 2.3.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul></li>
@@ -57,18 +58,21 @@
 
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="development version" id="bvhar-development-version">bvhar (development version)<a class="anchor" aria-label="anchor" href="#bvhar-development-version"></a></h2>
+</div>
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="2.3.0" id="bvhar-230">bvhar 2.3.0<a class="anchor" aria-label="anchor" href="#bvhar-230"></a></h2><p class="text-muted">CRAN release: 2025-06-25</p>
 <ul><li><p>Requires <code>R &gt;= 4.2</code> due to Rtools 4.0 error with optional parameters in C++.</p></li>
 <li><p>Changed <code>bayes_spec</code> argument into <code>coef_spec</code> and <code>contem_spec</code> to enable different priors</p></li>
 <li><p>Added <code>mcmc</code> option in <code><a href="../reference/forecast_roll.html">forecast_roll()</a></code> and <code><a href="../reference/forecast_expand.html">forecast_expand()</a></code> for <code>ldltmod</code> and <code>svmod</code> classes.</p></li>
 </ul><div class="section level3">
-<h3 id="exogenous-variables-development-version">Exogenous variables<a class="anchor" aria-label="anchor" href="#exogenous-variables-development-version"></a></h3>
+<h3 id="exogenous-variables-2-3-0">Exogenous variables<a class="anchor" aria-label="anchor" href="#exogenous-variables-2-3-0"></a></h3>
 <ul><li><p><code><a href="../reference/var_lm.html">var_lm()</a></code> and <code><a href="../reference/vhar_lm.html">vhar_lm()</a></code> can run VARX and VHARX via <code>exogen</code> and <code>s</code>.</p></li>
 <li><p><code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code> can run Bayesian VARX and VHARX via <code>exogen</code>, <code>s</code>, and <code>exogen_spec</code>.</p></li>
 <li><p><code>exogen_spec</code> determines the prior for the exogenous term.</p></li>
 <li><p>When forecasting these VARX and VHARX models, <code><a href="../reference/predict.html">predict()</a></code> requires <code>newxreg</code>.</p></li>
 </ul></div>
 <div class="section level3">
-<h3 id="internal-changes-c-development-version">Internal changes (C++)<a class="anchor" aria-label="anchor" href="#internal-changes-c-development-version"></a></h3>
+<h3 id="internal-changes-c-2-3-0">Internal changes (C++)<a class="anchor" aria-label="anchor" href="#internal-changes-c-2-3-0"></a></h3>
 <ul><li><p>Added <code>shrinkage</code> headers for strategy design pattern.</p></li>
 <li><p>Added <code>McmcParams</code>, <code>McmcAlgo</code>, and <code>McmcRun</code> (changed original <code>McmcRun</code> to <code>CtaRun</code>) for extensibility of MCMC algorithms.</p></li>
 <li><p>Also added base forecaster classes.</p></li>
