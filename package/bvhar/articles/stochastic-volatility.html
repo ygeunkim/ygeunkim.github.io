@@ -6,16 +6,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Stochastic Volatility Models • bvhar</title>
-<!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../apple-touch-icon.png">
-<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="../apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="../apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="../apple-touch-icon-60x60.png">
+<!-- favicons --><link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+<link rel="icon" type="”image/svg+xml”" href="../favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" sizes="any" href="../favicon.ico">
+<link rel="manifest" href="../site.webmanifest">
 <script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="../deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
-<script src="../deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="../deps/Noto_Sans-0.4.9/font.css" rel="stylesheet">
-<link href="../deps/Anonymous_Pro-0.4.9/font.css" rel="stylesheet">
+<script src="../deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="../deps/Noto_Sans-0.4.10/font.css" rel="stylesheet">
+<link href="../deps/Anonymous_Pro-0.4.10/font.css" rel="stylesheet">
 <link href="../deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="../deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
 <script src="../deps/headroom-0.11.0/headroom.min.js"></script><script src="../deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="../deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="../deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="../deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="../deps/search-1.0.0/fuse.min.js"></script><script src="../deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Stochastic Volatility Models">
@@ -28,7 +27,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.2.2</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">2.3.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,6 +61,7 @@
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.0">Version 2.1.0</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.1.2">Version 2.1.2</a></li>
     <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.2.2">Version 2.2.2</a></li>
+    <li><a class="external-link dropdown-item" href="https://github.com/ygeunkim/bvhar/releases/tag/v2.3.0">Version 2.3.0</a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
   </ul>
@@ -110,7 +110,7 @@
 VHAR-SV with shrinkage priors, respectively.</p>
 <ul>
 <li>Three different prior for innovation covariance, and specify through
-<code>bayes_spec</code>
+<code>coef_spec</code>
 <ul>
 <li>Minneosta prior
 <ul>
@@ -162,9 +162,9 @@ VHAR-SV with shrinkage priors, respectively.</p>
 <h3 id="ssvs">SSVS<a class="anchor" aria-label="anchor" href="#ssvs"></a>
 </h3>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ssvs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/vhar_bayes.html">vhar_bayes</a></span><span class="op">(</span><span class="va">etf_train</span>, num_chains <span class="op">=</span> <span class="fl">2</span>, num_iter <span class="op">=</span> <span class="fl">20</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ssvs.html">set_ssvs</a></span><span class="op">(</span><span class="op">)</span>, cov_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ldlt.html">set_sv</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ssvs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/vhar_bayes.html">vhar_bayes</a></span><span class="op">(</span><span class="va">etf_train</span>, num_chains <span class="op">=</span> <span class="fl">2</span>, num_iter <span class="op">=</span> <span class="fl">20</span>, coef_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ssvs.html">set_ssvs</a></span><span class="op">(</span><span class="op">)</span>, cov_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ldlt.html">set_sv</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; vhar_bayes(y = etf_train, num_chains = 2, num_iter = 20, bayes_spec = set_ssvs(), </span></span>
+<span><span class="co">#&gt; vhar_bayes(y = etf_train, num_chains = 2, num_iter = 20, coef_spec = set_ssvs(), </span></span>
 <span><span class="co">#&gt;     cov_spec = set_sv(), include_mean = FALSE, minnesota = "longrun")</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with Stochastic Volatility</span></span>
@@ -176,17 +176,17 @@ VHAR-SV with shrinkage priors, respectively.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter Record:</span></span>
 <span><span class="co">#&gt; # A draws_df: 10 iterations, 2 chains, and 177 variables</span></span>
-<span><span class="co">#&gt;       phi[1]    phi[2]   phi[3]   phi[4]   phi[5]  phi[6]   phi[7]  phi[8]</span></span>
-<span><span class="co">#&gt; 1    0.71105   0.00356  -0.2354   1.4005   0.5242   0.377  -0.5504  -0.626</span></span>
-<span><span class="co">#&gt; 2    0.62412   0.03416  -0.1300   1.4909  -0.3586   0.449  -0.7490  -0.841</span></span>
-<span><span class="co">#&gt; 3    0.61407   0.17488   0.2433   0.6047   0.4285   0.645   0.3232  -0.394</span></span>
-<span><span class="co">#&gt; 4    0.41066   0.02684   0.5377   1.2127  -0.0233   0.320  -0.4488  -0.420</span></span>
-<span><span class="co">#&gt; 5    0.62156  -0.17664  -0.3490  -0.0559  -0.2779   0.379  -0.3396  -0.673</span></span>
-<span><span class="co">#&gt; 6    0.14841  -0.06202  -0.4995   0.0806   0.6769   0.263  -1.4350  -0.898</span></span>
-<span><span class="co">#&gt; 7    0.22024  -0.02836  -0.0231   0.1458   0.4921   0.594  -0.7086  -0.273</span></span>
-<span><span class="co">#&gt; 8   -0.23065  -0.15851  -0.0929  -0.7372  -0.6345   0.140  -0.4590  -0.522</span></span>
-<span><span class="co">#&gt; 9   -0.00424  -0.02825   0.1001   0.0354   0.4155   0.928   0.2185  -0.165</span></span>
-<span><span class="co">#&gt; 10  -0.10142  -0.09113   0.4434   0.2203  -0.5776   1.030   0.0774  -0.442</span></span>
+<span><span class="co">#&gt;      phi[1]  phi[2]  phi[3]   phi[4]  phi[5]  phi[6]  phi[7]   phi[8]</span></span>
+<span><span class="co">#&gt; 1   -0.2809  -0.435  -0.132   0.0164   1.632  0.6737   1.506   0.4338</span></span>
+<span><span class="co">#&gt; 2   -0.6398  -0.671  -1.804  -0.2749   2.726  1.4386   1.466   0.2481</span></span>
+<span><span class="co">#&gt; 3   -0.1688  -0.194  -0.273   0.4175   1.932  0.5967   1.070  -0.0451</span></span>
+<span><span class="co">#&gt; 4    0.0548  -0.344  -0.509   0.7781   0.789  0.1965   0.977  -0.1877</span></span>
+<span><span class="co">#&gt; 5   -0.1710  -0.260  -1.072  -0.2136   2.007  0.2803  -0.482  -0.4731</span></span>
+<span><span class="co">#&gt; 6   -0.0850  -0.251  -0.780   0.1651   1.843  0.0452  -0.751  -0.7045</span></span>
+<span><span class="co">#&gt; 7   -0.4064  -0.299  -0.621   0.3135   1.570  0.6197   1.189   0.2086</span></span>
+<span><span class="co">#&gt; 8   -0.1958  -0.306  -0.756  -0.0284   2.209  0.8177   0.786  -0.1558</span></span>
+<span><span class="co">#&gt; 9   -0.4582  -0.509  -1.145  -0.1341   2.061  0.6314   0.395   0.0669</span></span>
+<span><span class="co">#&gt; 10  -0.3015  -0.323  -1.456  -0.4003   2.746  0.1895   0.527  -0.3645</span></span>
 <span><span class="co">#&gt; # ... with 10 more draws, and 169 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 </div>
@@ -194,9 +194,9 @@ VHAR-SV with shrinkage priors, respectively.</p>
 <h3 id="horseshoe">Horseshoe<a class="anchor" aria-label="anchor" href="#horseshoe"></a>
 </h3>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_hs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/vhar_bayes.html">vhar_bayes</a></span><span class="op">(</span><span class="va">etf_train</span>, num_chains <span class="op">=</span> <span class="fl">2</span>, num_iter <span class="op">=</span> <span class="fl">20</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_horseshoe.html">set_horseshoe</a></span><span class="op">(</span><span class="op">)</span>, cov_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ldlt.html">set_sv</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_hs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/vhar_bayes.html">vhar_bayes</a></span><span class="op">(</span><span class="va">etf_train</span>, num_chains <span class="op">=</span> <span class="fl">2</span>, num_iter <span class="op">=</span> <span class="fl">20</span>, coef_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_horseshoe.html">set_horseshoe</a></span><span class="op">(</span><span class="op">)</span>, cov_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ldlt.html">set_sv</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; vhar_bayes(y = etf_train, num_chains = 2, num_iter = 20, bayes_spec = set_horseshoe(), </span></span>
+<span><span class="co">#&gt; vhar_bayes(y = etf_train, num_chains = 2, num_iter = 20, coef_spec = set_horseshoe(), </span></span>
 <span><span class="co">#&gt;     cov_spec = set_sv(), include_mean = FALSE, minnesota = "longrun")</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with Stochastic Volatility</span></span>
@@ -208,17 +208,17 @@ VHAR-SV with shrinkage priors, respectively.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter Record:</span></span>
 <span><span class="co">#&gt; # A draws_df: 10 iterations, 2 chains, and 211 variables</span></span>
-<span><span class="co">#&gt;      phi[1]    phi[2]   phi[3]   phi[4]  phi[5]  phi[6]   phi[7]   phi[8]</span></span>
-<span><span class="co">#&gt; 1    1.9047   0.10675  -3.0428  -1.4967  13.881  -0.021  -1.7332  -0.3254</span></span>
-<span><span class="co">#&gt; 2   -1.1849  -0.14683   0.0659   1.3729   4.433   1.027   1.4436  -0.2240</span></span>
-<span><span class="co">#&gt; 3    0.5951   0.32890   1.0851  -1.8757   0.787   1.256   2.2909   0.3748</span></span>
-<span><span class="co">#&gt; 4    0.9921   0.18625   0.2809  -0.6060   1.338   0.625  -0.0329   0.0596</span></span>
-<span><span class="co">#&gt; 5   -0.0508  -0.13928  -0.1525  -0.0089   1.492   1.026  -0.1330  -0.0765</span></span>
-<span><span class="co">#&gt; 6    0.7467  -0.00729   0.2119  -0.1068   1.244   0.853   0.4273  -0.1003</span></span>
-<span><span class="co">#&gt; 7    0.3877   0.37315   0.0221   0.2599   0.787   0.794   0.2481  -0.0294</span></span>
-<span><span class="co">#&gt; 8    0.2332   0.50406   0.1071   0.3790   0.643   0.925   0.0102  -0.0212</span></span>
-<span><span class="co">#&gt; 9    0.0456  -0.12203   0.0302   0.1127   0.225   0.914   0.1009   0.1686</span></span>
-<span><span class="co">#&gt; 10   0.0165   0.02265  -0.0299  -0.0358   0.229   0.903  -0.3033  -0.0313</span></span>
+<span><span class="co">#&gt;      phi[1]   phi[2]   phi[3]    phi[4]   phi[5]   phi[6]   phi[7]     phi[8]</span></span>
+<span><span class="co">#&gt; 1   -0.0304  -0.0309   0.4039  -0.04124  -0.1909   0.0206   0.0882   0.033078</span></span>
+<span><span class="co">#&gt; 2    0.0177  -0.0218   0.1822   0.00925   0.9670  -0.0115   0.3481   0.247849</span></span>
+<span><span class="co">#&gt; 3   -0.0891  -0.0189  -0.0337   0.01162   0.4190   0.0393   0.1657  -0.035753</span></span>
+<span><span class="co">#&gt; 4   -0.1159  -0.0660  -0.1383  -0.05007   0.2089   0.4171  -0.1424   0.129915</span></span>
+<span><span class="co">#&gt; 5   -0.1867  -0.0577  -0.1094   0.06793   0.0804   0.4281  -0.1954   0.067185</span></span>
+<span><span class="co">#&gt; 6   -0.2408  -0.0842   0.0510  -0.08670   0.3418  -0.0325  -0.6220  -0.044931</span></span>
+<span><span class="co">#&gt; 7   -0.2050  -0.1970  -0.0949  -0.58709   0.0457   0.3472  -0.5688   0.036126</span></span>
+<span><span class="co">#&gt; 8   -0.1667  -0.0684   0.0127   0.37730  -0.1097  -0.0351  -0.7691  -0.055198</span></span>
+<span><span class="co">#&gt; 9   -0.2836  -0.0533   0.1063  -0.06070   0.4966   0.1201  -0.3582   0.000847</span></span>
+<span><span class="co">#&gt; 10  -0.0980  -0.1000   0.0668  -0.06924   0.2454   0.2899  -0.1129   0.055355</span></span>
 <span><span class="co">#&gt; # ... with 10 more draws, and 203 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 </div>
@@ -226,9 +226,9 @@ VHAR-SV with shrinkage priors, respectively.</p>
 <h3 id="normal-gamma-prior">Normal-Gamma prior<a class="anchor" aria-label="anchor" href="#normal-gamma-prior"></a>
 </h3>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ng</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/vhar_bayes.html">vhar_bayes</a></span><span class="op">(</span><span class="va">etf_train</span>, num_chains <span class="op">=</span> <span class="fl">2</span>, num_iter <span class="op">=</span> <span class="fl">20</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ng.html">set_ng</a></span><span class="op">(</span><span class="op">)</span>, cov_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ldlt.html">set_sv</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_ng</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/vhar_bayes.html">vhar_bayes</a></span><span class="op">(</span><span class="va">etf_train</span>, num_chains <span class="op">=</span> <span class="fl">2</span>, num_iter <span class="op">=</span> <span class="fl">20</span>, coef_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ng.html">set_ng</a></span><span class="op">(</span><span class="op">)</span>, cov_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ldlt.html">set_sv</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; vhar_bayes(y = etf_train, num_chains = 2, num_iter = 20, bayes_spec = set_ng(), </span></span>
+<span><span class="co">#&gt; vhar_bayes(y = etf_train, num_chains = 2, num_iter = 20, coef_spec = set_ng(), </span></span>
 <span><span class="co">#&gt;     cov_spec = set_sv(), include_mean = FALSE, minnesota = "longrun")</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with Stochastic Volatility</span></span>
@@ -240,28 +240,17 @@ VHAR-SV with shrinkage priors, respectively.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter Record:</span></span>
 <span><span class="co">#&gt; # A draws_df: 10 iterations, 2 chains, and 184 variables</span></span>
-<span><span class="co">#&gt;       phi[1]     phi[2]   phi[3]    phi[4]   phi[5]   phi[6]     phi[7]</span></span>
-<span><span class="co">#&gt; 1    0.16282  -0.001510  -0.0265  -1.02780   0.5815  -0.0183  -0.004602</span></span>
-<span><span class="co">#&gt; 2    0.27451   0.008657   0.0115   0.21912   0.3532   0.6041  -0.001096</span></span>
-<span><span class="co">#&gt; 3    0.07962  -0.009057  -0.0885  -0.20976   0.3575   0.5401   0.004027</span></span>
-<span><span class="co">#&gt; 4    0.20349  -0.003115   0.1644  -0.18843   0.0525   0.3825   0.038893</span></span>
-<span><span class="co">#&gt; 5    0.11482  -0.009128  -0.2588   0.28820  -0.2782   0.2964   0.010517</span></span>
-<span><span class="co">#&gt; 6   -0.01974  -0.000145  -0.2407   0.06672   0.2959   0.2881   0.006225</span></span>
-<span><span class="co">#&gt; 7   -0.00601   0.000303  -0.2053   0.13345   0.0120   0.5838   0.008869</span></span>
-<span><span class="co">#&gt; 8    0.07843  -0.015252  -0.0583   0.22260  -0.2394   0.6201  -0.001104</span></span>
-<span><span class="co">#&gt; 9    0.10169   0.002507  -0.0766  -0.00289   0.0498   0.5533   0.000464</span></span>
-<span><span class="co">#&gt; 10   0.08147   0.000114  -0.0616  -0.02339  -0.0502   0.7777   0.000499</span></span>
-<span><span class="co">#&gt;       phi[8]</span></span>
-<span><span class="co">#&gt; 1   -0.18781</span></span>
-<span><span class="co">#&gt; 2   -0.13008</span></span>
-<span><span class="co">#&gt; 3   -0.14159</span></span>
-<span><span class="co">#&gt; 4    0.01105</span></span>
-<span><span class="co">#&gt; 5   -0.01519</span></span>
-<span><span class="co">#&gt; 6   -0.13691</span></span>
-<span><span class="co">#&gt; 7   -0.03704</span></span>
-<span><span class="co">#&gt; 8   -0.05995</span></span>
-<span><span class="co">#&gt; 9   -0.02037</span></span>
-<span><span class="co">#&gt; 10   0.00613</span></span>
+<span><span class="co">#&gt;     phi[1]   phi[2]   phi[3]   phi[4]    phi[5]  phi[6]    phi[7]    phi[8]</span></span>
+<span><span class="co">#&gt; 1   0.0163  -0.2097  -0.2567  -0.0240   1.18921  0.0884  -0.00159  -0.25690</span></span>
+<span><span class="co">#&gt; 2   0.0638  -0.0326  -0.2059   0.0562   0.61534  0.0264   0.05115   0.02492</span></span>
+<span><span class="co">#&gt; 3   0.0547  -0.1303   0.1697   0.1383  -0.20499  0.0158  -0.00102  -0.01696</span></span>
+<span><span class="co">#&gt; 4   0.2011  -0.0707   0.3999  -0.2971  -0.57085  0.3386  -0.06278   0.00699</span></span>
+<span><span class="co">#&gt; 5   0.0901  -0.0309  -0.0367  -0.1016  -0.04590  0.2839   0.17475   0.02876</span></span>
+<span><span class="co">#&gt; 6   0.4087   0.0346   0.0456  -0.0183   0.01097  0.3827   0.00866   0.11522</span></span>
+<span><span class="co">#&gt; 7   0.3760  -0.0289   0.0864   0.0130  -0.01013  0.3841   0.00161  -0.07671</span></span>
+<span><span class="co">#&gt; 8   0.7592  -0.0359   0.3242   0.0197  -0.05092  0.4131   0.12073   0.16257</span></span>
+<span><span class="co">#&gt; 9   0.3201  -0.0498   0.0851   0.0352   0.21481  0.5987  -0.10256  -0.06171</span></span>
+<span><span class="co">#&gt; 10  0.2380  -0.0225   0.1437   0.0886   0.00587  0.5508  -0.26221  -0.37486</span></span>
 <span><span class="co">#&gt; # ... with 10 more draws, and 176 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 </div>
@@ -269,9 +258,9 @@ VHAR-SV with shrinkage priors, respectively.</p>
 <h3 id="dirichlet-laplace-prior">Dirichlet-Laplace prior<a class="anchor" aria-label="anchor" href="#dirichlet-laplace-prior"></a>
 </h3>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_dl</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/vhar_bayes.html">vhar_bayes</a></span><span class="op">(</span><span class="va">etf_train</span>, num_chains <span class="op">=</span> <span class="fl">2</span>, num_iter <span class="op">=</span> <span class="fl">20</span>, bayes_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_dl.html">set_dl</a></span><span class="op">(</span><span class="op">)</span>, cov_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ldlt.html">set_sv</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="op">(</span><span class="va">fit_dl</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/vhar_bayes.html">vhar_bayes</a></span><span class="op">(</span><span class="va">etf_train</span>, num_chains <span class="op">=</span> <span class="fl">2</span>, num_iter <span class="op">=</span> <span class="fl">20</span>, coef_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_dl.html">set_dl</a></span><span class="op">(</span><span class="op">)</span>, cov_spec <span class="op">=</span> <span class="fu"><a href="../reference/set_ldlt.html">set_sv</a></span><span class="op">(</span><span class="op">)</span>, include_mean <span class="op">=</span> <span class="cn">FALSE</span>, minnesota <span class="op">=</span> <span class="st">"longrun"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Call:</span></span>
-<span><span class="co">#&gt; vhar_bayes(y = etf_train, num_chains = 2, num_iter = 20, bayes_spec = set_dl(), </span></span>
+<span><span class="co">#&gt; vhar_bayes(y = etf_train, num_chains = 2, num_iter = 20, coef_spec = set_dl(), </span></span>
 <span><span class="co">#&gt;     cov_spec = set_sv(), include_mean = FALSE, minnesota = "longrun")</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; BVHAR with Stochastic Volatility</span></span>
@@ -283,28 +272,28 @@ VHAR-SV with shrinkage priors, respectively.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Parameter Record:</span></span>
 <span><span class="co">#&gt; # A draws_df: 10 iterations, 2 chains, and 178 variables</span></span>
-<span><span class="co">#&gt;       phi[1]     phi[2]    phi[3]    phi[4]   phi[5]     phi[6]    phi[7]</span></span>
-<span><span class="co">#&gt; 1   -0.66196  -3.37e-02   0.02690  -0.02595   1.1088  -4.55e-03   0.01696</span></span>
-<span><span class="co">#&gt; 2    0.48403   4.42e-02  -0.03458   0.01613   0.0914  -5.42e-03   0.00626</span></span>
-<span><span class="co">#&gt; 3    0.29808  -9.21e-02  -0.02248  -0.02748   0.1457  -1.38e-02   0.10091</span></span>
-<span><span class="co">#&gt; 4    0.27450   1.92e-01  -0.02035  -0.01319  -0.2982   1.82e-02  -0.00349</span></span>
-<span><span class="co">#&gt; 5   -0.04541   6.25e-02  -0.00833   0.01974  -0.2197  -1.30e-04  -0.00109</span></span>
-<span><span class="co">#&gt; 6   -0.30669  -2.12e-05   0.00729   0.01402   0.7581   4.65e-05  -0.00389</span></span>
-<span><span class="co">#&gt; 7    0.07643   5.67e-06  -0.01991  -0.01810   0.0871  -2.21e-06  -0.07152</span></span>
-<span><span class="co">#&gt; 8   -0.03875   7.79e-05   0.01445  -0.00371  -0.0453   4.33e-06   0.07340</span></span>
-<span><span class="co">#&gt; 9    0.00181   4.48e-05  -0.01553  -0.11883   0.7590  -3.83e-06   0.20149</span></span>
-<span><span class="co">#&gt; 10   0.00215  -9.07e-04  -0.01055  -0.03061   0.7278   1.23e-04   0.02112</span></span>
-<span><span class="co">#&gt;      phi[8]</span></span>
-<span><span class="co">#&gt; 1    0.4839</span></span>
-<span><span class="co">#&gt; 2    0.6876</span></span>
-<span><span class="co">#&gt; 3    0.1069</span></span>
-<span><span class="co">#&gt; 4   -0.0503</span></span>
-<span><span class="co">#&gt; 5    0.0250</span></span>
-<span><span class="co">#&gt; 6   -0.3637</span></span>
-<span><span class="co">#&gt; 7   -0.0708</span></span>
-<span><span class="co">#&gt; 8   -0.0946</span></span>
-<span><span class="co">#&gt; 9   -0.0350</span></span>
-<span><span class="co">#&gt; 10  -0.1484</span></span>
+<span><span class="co">#&gt;       phi[1]    phi[2]    phi[3]     phi[4]   phi[5]    phi[6]    phi[7]</span></span>
+<span><span class="co">#&gt; 1    0.00748   0.13291   0.04639   0.011642   0.2212   0.01788   0.24556</span></span>
+<span><span class="co">#&gt; 2   -0.02351  -0.07930   0.01324  -0.008135   0.6338  -0.01306  -0.06538</span></span>
+<span><span class="co">#&gt; 3   -0.00167  -0.03925   0.02584  -0.005772  -0.3211  -0.00127   0.11515</span></span>
+<span><span class="co">#&gt; 4   -0.01316  -0.01056   0.06144  -0.002228  -0.4073   0.00070  -0.14095</span></span>
+<span><span class="co">#&gt; 5   -0.01329  -0.00228  -0.00488  -0.001493  -0.1545  -0.00529   0.03903</span></span>
+<span><span class="co">#&gt; 6    0.00558  -0.01154  -0.03222  -0.003665  -0.0167   0.02611   0.03366</span></span>
+<span><span class="co">#&gt; 7    0.06363  -0.00909  -0.02406   0.000727   0.1396   0.09105  -0.00148</span></span>
+<span><span class="co">#&gt; 8   -0.22652   0.03128   0.13404   0.000510  -0.1946   0.00773   0.00545</span></span>
+<span><span class="co">#&gt; 9    0.10193  -0.10966   0.00554  -0.000764   0.2897   0.00304  -0.00380</span></span>
+<span><span class="co">#&gt; 10   0.04194   0.00683  -0.00989  -0.000337   0.0232   0.00636   0.01094</span></span>
+<span><span class="co">#&gt;        phi[8]</span></span>
+<span><span class="co">#&gt; 1    0.005781</span></span>
+<span><span class="co">#&gt; 2   -0.034383</span></span>
+<span><span class="co">#&gt; 3    0.020210</span></span>
+<span><span class="co">#&gt; 4   -0.062570</span></span>
+<span><span class="co">#&gt; 5    0.025049</span></span>
+<span><span class="co">#&gt; 6   -0.021208</span></span>
+<span><span class="co">#&gt; 7    0.005351</span></span>
+<span><span class="co">#&gt; 8   -0.000236</span></span>
+<span><span class="co">#&gt; 9    0.003069</span></span>
+<span><span class="co">#&gt; 10   0.000639</span></span>
 <span><span class="co">#&gt; # ... with 10 more draws, and 170 more variables</span></span>
 <span><span class="co">#&gt; # ... hidden reserved variables {'.chain', '.iteration', '.draw'}</span></span></code></pre></div>
 </div>
@@ -333,7 +322,7 @@ VHAR-SV with shrinkage priors, respectively.</p>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
 </div>
 
     </footer>
