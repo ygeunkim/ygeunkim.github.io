@@ -1,6 +1,9 @@
 var ols_2forecaster_8h =
 [
     [ "bvhar::OlsExogenForecaster", "classbvhar_1_1OlsExogenForecaster.html", "classbvhar_1_1OlsExogenForecaster" ],
+    [ "bvhar::OlsErrorGenerator", "classbvhar_1_1OlsErrorGenerator.html", "classbvhar_1_1OlsErrorGenerator" ],
+    [ "bvhar::OlsGaussianGenerator", "classbvhar_1_1OlsGaussianGenerator.html", "classbvhar_1_1OlsGaussianGenerator" ],
+    [ "bvhar::OlsStudentGenerator", "classbvhar_1_1OlsStudentGenerator.html", "classbvhar_1_1OlsStudentGenerator" ],
     [ "bvhar::OlsForecaster", "classbvhar_1_1OlsForecaster.html", "classbvhar_1_1OlsForecaster" ],
     [ "bvhar::VarForecaster", "classbvhar_1_1VarForecaster.html", "classbvhar_1_1VarForecaster" ],
     [ "bvhar::VharForecaster", "classbvhar_1_1VharForecaster.html", "classbvhar_1_1VharForecaster" ],

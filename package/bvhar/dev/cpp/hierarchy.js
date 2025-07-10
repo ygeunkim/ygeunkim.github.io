@@ -1,5 +1,12 @@
 var hierarchy =
 [
+    [ "bvhar::AutoregGenerator< ReturnType, DataType >", "classbvhar_1_1AutoregGenerator.html", null ],
+    [ "bvhar::AutoregGenerator< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1AutoregGenerator.html", [
+      [ "bvhar::OlsErrorGenerator", "classbvhar_1_1OlsErrorGenerator.html", [
+        [ "bvhar::OlsGaussianGenerator", "classbvhar_1_1OlsGaussianGenerator.html", null ],
+        [ "bvhar::OlsStudentGenerator", "classbvhar_1_1OlsStudentGenerator.html", null ]
+      ] ]
+    ] ],
     [ "BaseRegInits", null, [
       [ "bvhar::GdpInits< BaseRegInits >", "structbvhar_1_1GdpInits.html", null ],
       [ "bvhar::GlInits< BaseRegInits >", "structbvhar_1_1GlInits.html", [
@@ -169,7 +176,8 @@ var hierarchy =
     ] ],
     [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", null ],
     [ "bvhar::MultistepForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1MultistepForecastRun.html", [
-      [ "bvhar::OlsForecastRun", "classbvhar_1_1OlsForecastRun.html", null ]
+      [ "bvhar::OlsForecastRun", "classbvhar_1_1OlsForecastRun.html", null ],
+      [ "bvhar::OlsSimulator", "classbvhar_1_1OlsSimulator.html", null ]
     ] ],
     [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", [
       [ "bvhar::McmcForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1McmcForecastRun.html", [

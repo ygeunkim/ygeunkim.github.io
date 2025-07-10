@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['exogenforecaster_0',['ExogenForecaster',['../classbvhar_1_1ExogenForecaster.html',1,'bvhar']]],
-  ['exogenforecaster_3c_20eigen_3a_3amatrixxd_2c_20eigen_3a_3avectorxd_20_3e_1',['ExogenForecaster&lt; Eigen::MatrixXd, Eigen::VectorXd &gt;',['../classbvhar_1_1ExogenForecaster.html',1,'bvhar']]]
+  ['dlparams_0',['DlParams',['../structbvhar_1_1DlParams.html',1,'bvhar']]],
+  ['dlupdater_1',['DlUpdater',['../classbvhar_1_1DlUpdater.html',1,'bvhar']]],
+  ['dynamicldltspillover_2',['DynamicLdltSpillover',['../classbvhar_1_1DynamicLdltSpillover.html',1,'bvhar']]],
+  ['dynamicsvspillover_3',['DynamicSvSpillover',['../classbvhar_1_1DynamicSvSpillover.html',1,'bvhar']]]
 ];

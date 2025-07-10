@@ -1,7 +1,13 @@
 var random_8h =
 [
+    [ "sim_mgaussian_eigen", "random_8h.html#ab83267fb9cd94476d0fc29f4e01b9f8c", null ],
     [ "sim_mgaussian_chol", "random_8h.html#a78b640d2e12075d23207a062ef51eddf", null ],
+    [ "sim_mstudent_eigen", "random_8h.html#a987e55dab1047dc5cec22d5eae819a00", null ],
+    [ "sim_mstudent_chol", "random_8h.html#a27c8d13d978010c2d59c139aabdd11f4", null ],
+    [ "sim_mgaussian_eigen", "random_8h.html#aeb88ff0b24085267c635bf4ca6fb5219", null ],
     [ "sim_mgaussian_chol", "random_8h.html#a9a6a648f32478ed26de42232f61c8176", null ],
+    [ "sim_mstudent_eigen", "random_8h.html#a4d6b9be043f1c5d85bd505d13ded835b", null ],
+    [ "sim_mstudent_chol", "random_8h.html#ae07a925c0bcecaab523add083c02feff", null ],
     [ "sim_mn", "random_8h.html#a8a823406839d5172c3dd17c290e87257", null ],
     [ "sim_iw_tri", "random_8h.html#ac20c97e92d1e9eb026ed1fd7e9d1f364", null ],
     [ "sim_inv_wishart", "random_8h.html#a16f6b6f4d77ccc011d094a32b320ee98", null ],

@@ -1,0 +1,7 @@
+<map id="bvhar::OlsStudentGenerator" name="bvhar::OlsStudentGenerator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,181,208,207"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1OlsErrorGenerator.html" title=" " alt="" coords="15,108,199,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,147,109,181,104,181,104,147"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1AutoregGenerator.html" title=" " alt="" coords="15,5,199,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,74,109,108,104,108,104,74"/>
+</map>
