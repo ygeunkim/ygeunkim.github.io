@@ -1,9 +1,12 @@
 <map id="bvhar::MhMinnesota::updateMniw" name="bvhar::MhMinnesota::updateMniw">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,160,63"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a7a0a588ca841b959be2a134105c591c5" title=" " alt="" coords="208,31,349,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,41,194,41,194,46,160,46"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#ac20c97e92d1e9eb026ed1fd7e9d1f364" title=" " alt="" coords="397,5,532,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="349,31,384,26,384,32,350,36"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a8a823406839d5172c3dd17c290e87257" title=" " alt="" coords="405,55,524,80"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="350,50,392,55,391,61,349,55"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,71,160,111"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a7a0a588ca841b959be2a134105c591c5" title=" " alt="" coords="208,79,349,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,89,194,89,194,94,160,94"/>
+<area shape="rect" id="Node000003" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="397,29,535,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="327,76,403,56,404,61,328,81"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#ac20c97e92d1e9eb026ed1fd7e9d1f364" title=" " alt="" coords="399,79,533,104"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="350,89,385,89,385,94,350,94"/>
+<area shape="rect" id="Node000005" href="$namespacebvhar.html#a8a823406839d5172c3dd17c290e87257" title=" " alt="" coords="407,128,525,153"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="328,101,404,122,403,127,327,107"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="435,31,429,21,432,11,445,5,466,3,492,6,502,15,499,19,490,11,466,8,446,10,436,15,434,20,439,28"/>
 </map>

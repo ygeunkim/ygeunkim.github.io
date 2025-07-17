@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9001</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9002</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('deprecated_2draw_8h_source.html',''); 
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacebvhar.html">bvhar</a> {</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifdef USE_RCPP</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifdef BVHAR_USE_RCPP</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// Generating the Diagonal Component of Cholesky Factor in SSVS Gibbs Sampler</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// </span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// In MCMC process of SSVS, this function generates the diagonal component \eqn{\Psi} from variance matrix</span></div>
@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('deprecated_2draw_8h_source.html',''); 
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">// @param DRD Inverse of matrix product between \eqn{D_j} and correlation matrix \eqn{R_j}</span></div>
 <div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a1fbddab8de7fab9f2b10ecc9a3e63ea2">   50</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a1fbddab8de7fab9f2b10ecc9a3e63ea2">ssvs_chol_off</a>(Eigen::VectorXd&amp; chol_off, Eigen::MatrixXd&amp; sse_mat,</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                          Eigen::VectorXd&amp; chol_diag, Eigen::VectorXd&amp; DRD, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                          Eigen::VectorXd&amp; chol_diag, Eigen::VectorXd&amp; DRD, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordtype">int</span> dim = sse_mat.cols();</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="keywordtype">int</span> num_param = DRD.size();</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  Eigen::MatrixXd normal_variance(dim - 1, dim - 1);</div>
@@ -224,7 +224,7 @@ $(document).ready(function(){initNavTree('deprecated_2draw_8h_source.html',''); 
 <div class="foldopen" id="foldopen00115" data-start="{" data-end="}">
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="namespacebvhar.html#af7be13bf814602fe3ea716486898b9b8">  115</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#af7be13bf814602fe3ea716486898b9b8">ssvs_coef</a>(Eigen::VectorXd&amp; coef, Eigen::VectorXd&amp; prior_mean, Eigen::VectorXd&amp; prior_sd,</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                      Eigen::MatrixXd&amp; XtX, Eigen::VectorXd&amp; coef_ols,</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                      Eigen::MatrixXd&amp; chol_factor, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                      Eigen::MatrixXd&amp; chol_factor, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  <span class="keywordtype">int</span> num_coef = prior_sd.size();</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  Eigen::MatrixXd scaled_xtx = kronecker_eigen((chol_factor * chol_factor.transpose()).eval(), XtX); <span class="comment">// Sigma^(-1) = chol * chol^T</span></div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  Eigen::MatrixXd prior_prec = Eigen::MatrixXd::Zero(num_coef, num_coef);</div>
@@ -270,7 +270,7 @@ $(document).ready(function(){initNavTree('deprecated_2draw_8h_source.html',''); 
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span><span class="comment">// @param shrink_mat Diagonal matrix made by global and local sparsity hyperparameters</span></div>
 <div class="foldopen" id="foldopen00158" data-start="{" data-end="}">
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a8a835632ed022459d1dd3e98c57cd5f1">  158</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a8a835632ed022459d1dd3e98c57cd5f1">horseshoe_coef</a>(Eigen::VectorXd&amp; coef, Eigen::VectorXd&amp; response_vec, Eigen::MatrixXd&amp; design_mat,</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>                           <span class="keywordtype">double</span> var, Eigen::MatrixXd&amp; shrink_mat, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>                           <span class="keywordtype">double</span> var, Eigen::MatrixXd&amp; shrink_mat, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>  <span class="keywordtype">int</span> dim = coef.size();</div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>  Eigen::VectorXd res(dim);</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('deprecated_2draw_8h_source.html',''); 
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="comment">// @param shrink_mat Diagonal matrix made by global and local sparsity hyperparameters</span></div>
 <div class="foldopen" id="foldopen00179" data-start="{" data-end="}">
 <div class="line"><a id="l00179" name="l00179"></a><span class="lineno"><a class="line" href="namespacebvhar.html#aaeee09a0594e5115772a49e05b625d74">  179</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#aaeee09a0594e5115772a49e05b625d74">horseshoe_fast_coef</a>(Eigen::VectorXd&amp; coef, Eigen::VectorXd response_vec, Eigen::MatrixXd design_mat,</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>                                Eigen::MatrixXd shrink_mat, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>                                Eigen::MatrixXd shrink_mat, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>  <span class="keywordtype">int</span> num_coef = design_mat.cols(); <span class="comment">// k^2 kp(+1)</span></div>
 <div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>  <span class="keywordtype">int</span> num_sur = response_vec.size(); <span class="comment">// nk-dim</span></div>
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>  Eigen::MatrixXd sur_identity = Eigen::MatrixXd::Identity(num_sur, num_sur);</div>
@@ -316,7 +316,7 @@ $(document).ready(function(){initNavTree('deprecated_2draw_8h_source.html',''); 
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="comment">// @param shrink_mat Diagonal matrix made by global and local sparsity hyperparameters</span></div>
 <div class="foldopen" id="foldopen00200" data-start="{" data-end="}">
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a08102a12aef4f0d4f777731fda3035f3">  200</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a08102a12aef4f0d4f777731fda3035f3">horseshoe_coef_var</a>(Eigen::VectorXd&amp; coef_var, Eigen::VectorXd&amp; response_vec, Eigen::MatrixXd&amp; design_mat,</div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>                               Eigen::MatrixXd&amp; shrink_mat, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>                               Eigen::MatrixXd&amp; shrink_mat, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>  <span class="keywordtype">int</span> dim = design_mat.cols();</div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>  <span class="keywordtype">int</span> sample_size = response_vec.size();</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>  Eigen::MatrixXd prec_mat = (design_mat.transpose() * design_mat + shrink_mat).llt().solve(</div>
@@ -345,7 +345,7 @@ $(document).ready(function(){initNavTree('deprecated_2draw_8h_source.html',''); 
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><span class="comment">// }</span></div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
 <div class="foldopen" id="foldopen00228" data-start="{" data-end="}">
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a3ceb42163c92feab42ac2ac754ce9b54">  228</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="namespacebvhar.html#a3ceb42163c92feab42ac2ac754ce9b54">horseshoe_var</a>(Eigen::VectorXd&amp; response_vec, Eigen::MatrixXd&amp; design_mat, Eigen::VectorXd&amp; coef_vec, Eigen::MatrixXd&amp; shrink_mat, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a3ceb42163c92feab42ac2ac754ce9b54">  228</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="namespacebvhar.html#a3ceb42163c92feab42ac2ac754ce9b54">horseshoe_var</a>(Eigen::VectorXd&amp; response_vec, Eigen::MatrixXd&amp; design_mat, Eigen::VectorXd&amp; coef_vec, Eigen::MatrixXd&amp; shrink_mat, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>  <span class="keywordflow">return</span> 1 / gamma_rand(</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    design_mat.size() / 2,</div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    2 / ((response_vec - design_mat * coef_vec).squaredNorm() + coef_vec.transpose() * shrink_mat * coef_vec), rng</div>
@@ -357,7 +357,7 @@ $(document).ready(function(){initNavTree('deprecated_2draw_8h_source.html',''); 
 <div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>} <span class="comment">// namespace bvhar</span></div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
 <div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_BAYES_MISC_DEPRECATED_DRAW_H</span></div>
-<div class="ttc" id="acommon_8h_html_a8761330823b6d0af9a62c87fb65f0b23"><div class="ttname"><a href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a></div><div class="ttdeci">#define BHRNG</div><div class="ttdef"><b>Definition</b> common.h:32</div></div>
+<div class="ttc" id="acommon_8h_html_a6cf9f648a944e66c2478fa29468b7ac0"><div class="ttname"><a href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a></div><div class="ttdeci">#define BVHAR_BHRNG</div><div class="ttdef"><b>Definition</b> common.h:32</div></div>
 <div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> bayes.h:16</div></div>
 <div class="ttc" id="anamespacebvhar_html_a08102a12aef4f0d4f777731fda3035f3"><div class="ttname"><a href="namespacebvhar.html#a08102a12aef4f0d4f777731fda3035f3">bvhar::horseshoe_coef_var</a></div><div class="ttdeci">void horseshoe_coef_var(Eigen::VectorXd &amp;coef_var, Eigen::VectorXd &amp;response_vec, Eigen::MatrixXd &amp;design_mat, Eigen::MatrixXd &amp;shrink_mat, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> deprecated/draw.h:200</div></div>
 <div class="ttc" id="anamespacebvhar_html_a1fbddab8de7fab9f2b10ecc9a3e63ea2"><div class="ttname"><a href="namespacebvhar.html#a1fbddab8de7fab9f2b10ecc9a3e63ea2">bvhar::ssvs_chol_off</a></div><div class="ttdeci">void ssvs_chol_off(Eigen::VectorXd &amp;chol_off, Eigen::MatrixXd &amp;sse_mat, Eigen::VectorXd &amp;chol_diag, Eigen::VectorXd &amp;DRD, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> deprecated/draw.h:50</div></div>

@@ -24,6 +24,5 @@ var searchData=
   ['prior_5fsig_5fscl_21',['prior_sig_scl',['../classbvhar_1_1McmcTriangular.html#a2023a20ef851494729f054253744d250',1,'bvhar::McmcTriangular']]],
   ['prior_5fsig_5fshp_22',['prior_sig_shp',['../classbvhar_1_1McmcTriangular.html#a76a667341e52f53fc516d40689ef8872',1,'bvhar::McmcTriangular']]],
   ['progress_2eh_23',['progress.h',['../progress_8h.html',1,'']]],
-  ['psi_5frecord_24',['psi_record',['../structbvhar_1_1MhMinnRecords.html#a767297113d2fc935b4355323fd33bca0',1,'bvhar::MhMinnRecords']]],
-  ['py_5flist_25',['PY_LIST',['../commondefs_8h.html#a2c38b90bde6b29fa821f2c5ce9454bab',1,'commondefs.h']]]
+  ['psi_5frecord_24',['psi_record',['../structbvhar_1_1MhMinnRecords.html#a767297113d2fc935b4355323fd33bca0',1,'bvhar::MhMinnRecords']]]
 ];

@@ -1,9 +1,13 @@
 <map id="bvhar::OlsSimulator::OlsSimulator" name="bvhar::OlsSimulator::OlsSimulator">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,156,63"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,156,87"/>
 <area shape="rect" id="Node000002" href="$namespacebvhar.html#aca149dc0e3f8744d039a4b3c5d98f1c6" title=" " alt="" coords="243,5,377,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,32,228,24,229,30,157,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,49,237,31,238,36,157,54"/>
 <area shape="rect" id="Node000004" href="$namespacebvhar.html#a06a2d3278b8a9bd57c0b10523c76b163" title=" " alt="" coords="204,55,416,80"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,49,191,52,190,57,156,54"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,65,190,65,190,70,156,70"/>
+<area shape="rect" id="Node000005" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="484,92,621,117"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="157,82,204,90,345,101,470,103,470,108,345,106,204,95,156,88"/>
 <area shape="rect" id="Node000003" href="$namespacebvhar.html#accc0de59b48816603aad8c456e1502f0" title=" " alt="" coords="464,5,641,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="378,15,450,15,450,21,378,21"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="393,77,471,89,470,95,393,83"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="513,94,505,84,509,74,526,68,553,65,587,69,597,74,600,80,596,83,593,78,586,74,553,71,527,73,513,78,510,83,517,90"/>
 </map>

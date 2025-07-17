@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9001</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9002</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -107,10 +107,10 @@ $(document).ready(function(){initNavTree('eigen_8h_source.html',''); initResizab
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#undef eigen_assert</span></div>
 <div class="foldopen" id="foldopen00007" data-start="" data-end="">
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="eigen_8h.html#acaa7ba89800cfe18d5fd6eed620aea9c">    7</a></span><span class="preprocessor">#define eigen_assert(x) \</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">  if (!(x)) { STOP(&quot;Eigen assertion failed: &quot; #x); }</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">  if (!(x)) { BVHAR_STOP(&quot;Eigen assertion failed: &quot; #x); }</span></div>
 </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifdef USE_RCPP</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifdef BVHAR_USE_RCPP</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">  #include &lt;RcppEigen.h&gt;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">  #include &lt;Eigen/Eigen&gt;</span></div>

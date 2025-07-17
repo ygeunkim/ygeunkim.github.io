@@ -1,9 +1,12 @@
 <map id="bvhar::DynamicSvSpillover::DynamicSvSpillover" name="bvhar::DynamicSvSpillover::DynamicSvSpillover">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,204,63"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#aca149dc0e3f8744d039a4b3c5d98f1c6" title=" " alt="" coords="270,5,405,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,30,256,24,256,29,204,35"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#abf94b380ff705c1abdb726bd63d98e02" title="Initialize MCMC record used in forecast classes." alt="" coords="252,55,423,80"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,51,239,54,238,60,204,56"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,204,75"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#aca149dc0e3f8744d039a4b3c5d98f1c6" title=" " alt="" coords="270,12,405,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,40,256,33,257,38,205,45"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#abf94b380ff705c1abdb726bd63d98e02" title="Initialize MCMC record used in forecast classes." alt="" coords="252,67,423,92"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,63,239,66,238,72,204,68"/>
 <area shape="rect" id="Node000003" href="$namespacebvhar.html#accc0de59b48816603aad8c456e1502f0" title=" " alt="" coords="471,5,648,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="405,15,457,15,457,21,405,21"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="405,20,457,18,457,24,405,25"/>
+<area shape="rect" id="Node000005" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="491,79,628,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="423,81,477,84,476,90,423,87"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="523,80,515,70,519,60,534,54,559,52,590,56,602,65,599,69,588,61,559,57,536,59,523,64,521,70,527,77"/>
 </map>

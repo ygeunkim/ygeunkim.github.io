@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9001</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9002</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('coef__helper_8h_source.html',''); init
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// @param innov_prec Stacked precision matrix of innovation</span></div>
 <div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b">   17</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#abb10a218018e15b4b7dd51b5f0e7ff3b">draw_coef</a>(Eigen::Ref&lt;Eigen::VectorXd&gt; coef, Eigen::Ref&lt;const Eigen::MatrixXd&gt; x, Eigen::Ref&lt;const Eigen::VectorXd&gt; y,</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                      Eigen::Ref&lt;Eigen::VectorXd&gt; prior_mean, Eigen::Ref&lt;Eigen::VectorXd&gt; prior_prec, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                      Eigen::Ref&lt;Eigen::VectorXd&gt; prior_mean, Eigen::Ref&lt;Eigen::VectorXd&gt; prior_prec, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keywordtype">int</span> dim = prior_mean.size();</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  Eigen::VectorXd res(dim);</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('coef__helper_8h_source.html',''); init
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="comment">// @param rng boost rng</span></div>
 <div class="foldopen" id="foldopen00094" data-start="{" data-end="}">
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a28bffc2e3f14a57b7d55f5c05e6f4ee4">   94</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a28bffc2e3f14a57b7d55f5c05e6f4ee4">reg_ldlt_diag</a>(Eigen::Ref&lt;Eigen::VectorXd&gt; diag_vec, Eigen::VectorXd&amp; shape, Eigen::VectorXd&amp; scl,</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                          Eigen::Ref&lt;const Eigen::MatrixXd&gt; ortho_latent, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                          Eigen::Ref&lt;const Eigen::MatrixXd&gt; ortho_latent, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="keywordtype">int</span> num_design = ortho_latent.rows();</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; diag_vec.size(); ++i) {</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="comment">// diag_vec[i] = 1 / gamma_rand(</span></div>
@@ -220,7 +220,7 @@ $(document).ready(function(){initNavTree('coef__helper_8h_source.html',''); init
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>} <span class="comment">// namespace bvhar</span></div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_BAYES_MISC_COEF_HELPER_H_H_H</span></div>
-<div class="ttc" id="acommon_8h_html_a8761330823b6d0af9a62c87fb65f0b23"><div class="ttname"><a href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a></div><div class="ttdeci">#define BHRNG</div><div class="ttdef"><b>Definition</b> common.h:32</div></div>
+<div class="ttc" id="acommon_8h_html_a6cf9f648a944e66c2478fa29468b7ac0"><div class="ttname"><a href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a></div><div class="ttdeci">#define BVHAR_BHRNG</div><div class="ttdef"><b>Definition</b> common.h:32</div></div>
 <div class="ttc" id="aeigen_8h_html_acaa7ba89800cfe18d5fd6eed620aea9c"><div class="ttname"><a href="eigen_8h.html#acaa7ba89800cfe18d5fd6eed620aea9c">eigen_assert</a></div><div class="ttdeci">#define eigen_assert(x)</div><div class="ttdef"><b>Definition</b> eigen.h:7</div></div>
 <div class="ttc" id="ahelper_8h_html"><div class="ttname"><a href="helper_8h.html">helper.h</a></div></div>
 <div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> bayes.h:16</div></div>

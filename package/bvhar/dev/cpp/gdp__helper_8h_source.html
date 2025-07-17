@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9001</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9002</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('gdp__helper_8h_source.html',''); initR
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// @param rng</span></div>
 <div class="foldopen" id="foldopen00014" data-start="{" data-end="}">
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="namespacebvhar.html#aa32fe926c993d71a84d4efade5c06caa">   14</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#aa32fe926c993d71a84d4efade5c06caa">gdp_local_sparsity</a>(Eigen::Ref&lt;Eigen::VectorXd&gt; local_param, Eigen::Ref&lt;const Eigen::VectorXd&gt; local_shape,</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                               Eigen::Ref&lt;Eigen::VectorXd&gt; coef, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                               Eigen::Ref&lt;Eigen::VectorXd&gt; coef, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; local_param.size(); ++i) {</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    local_param[i] = 1 / <a class="code hl_function" href="namespacebvhar.html#a701898c90db3d9ab804498128b6df9f7">sim_invgauss</a>(abs(local_shape[i] / coef[i]), local_shape[i] * local_shape[i], rng);</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="comment">// local_param[i] = 1 / (local_shape[i] * sim_invgauss(1 / abs(coef[i]), local_shape[i], rng));</span></div>
@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('gdp__helper_8h_source.html',''); initR
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment">// @param rng</span></div>
 <div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a3eac8bafb0785e4fcfcc2a159ff042f1">   27</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a3eac8bafb0785e4fcfcc2a159ff042f1">gdp_exp_rate</a>(Eigen::Ref&lt;Eigen::VectorXd&gt; rate_hyper, <span class="keywordtype">double</span> prior_shape, <span class="keywordtype">double</span> prior_rate,</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                           Eigen::Ref&lt;Eigen::VectorXd&gt; coef, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                           Eigen::Ref&lt;Eigen::VectorXd&gt; coef, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; rate_hyper.size(); ++i) {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    rate_hyper[i] = gamma_rand(prior_shape + 1, 1 / (prior_rate + abs(coef[i])), rng);</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  }</div>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('gdp__helper_8h_source.html',''); initR
 <div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a2af3467cab6db73bc65f1f97e3bf79f0">   40</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a3eac8bafb0785e4fcfcc2a159ff042f1">gdp_exp_rate</a>(Eigen::Ref&lt;Eigen::VectorXd&gt; group_rate, <span class="keywordtype">double</span> prior_shape, <span class="keywordtype">double</span> prior_rate,</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                         Eigen::Ref&lt;Eigen::VectorXd&gt; coef,</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                         Eigen::VectorXi&amp; grp_vec, Eigen::VectorXi&amp; grp_id, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                         Eigen::VectorXi&amp; grp_vec, Eigen::VectorXi&amp; grp_id, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  Eigen::Array&lt;bool, Eigen::Dynamic, 1&gt; group_id;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">int</span> mn_size = 0;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">int</span> num_coef = coef.size();</div>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('gdp__helper_8h_source.html',''); initR
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment">// @param coef</span></div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment">// @param rng</span></div>
 <div class="foldopen" id="foldopen00080" data-start="{" data-end="}">
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="namespacebvhar.html#aef98a3da0d2e897cb3974afa2ac2a05d">   80</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#aef98a3da0d2e897cb3974afa2ac2a05d">gdp_shape_griddy</a>(<span class="keywordtype">double</span>&amp; shape_hyper, <span class="keywordtype">double</span> rate_hyper, <span class="keywordtype">int</span> grid_size, Eigen::Ref&lt;Eigen::VectorXd&gt; coef, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="namespacebvhar.html#aef98a3da0d2e897cb3974afa2ac2a05d">   80</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#aef98a3da0d2e897cb3974afa2ac2a05d">gdp_shape_griddy</a>(<span class="keywordtype">double</span>&amp; shape_hyper, <span class="keywordtype">double</span> rate_hyper, <span class="keywordtype">int</span> grid_size, Eigen::Ref&lt;Eigen::VectorXd&gt; coef, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  Eigen::VectorXd grid = Eigen::VectorXd::LinSpaced(grid_size + 2, 0.0, 1.0).segment(1, grid_size);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  Eigen::VectorXd log_wt(grid_size);</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; grid_size; ++i) {</div>
@@ -203,7 +203,7 @@ $(document).ready(function(){initNavTree('gdp__helper_8h_source.html',''); initR
 </div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
 <div class="foldopen" id="foldopen00092" data-start="{" data-end="}">
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a5738660dd4ed45b23870ead101e34cef">   92</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a5738660dd4ed45b23870ead101e34cef">gdp_rate_griddy</a>(<span class="keywordtype">double</span>&amp; rate_hyper, <span class="keywordtype">double</span> shape_hyper, <span class="keywordtype">int</span> grid_size, Eigen::Ref&lt;Eigen::VectorXd&gt; coef, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a5738660dd4ed45b23870ead101e34cef">   92</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a5738660dd4ed45b23870ead101e34cef">gdp_rate_griddy</a>(<span class="keywordtype">double</span>&amp; rate_hyper, <span class="keywordtype">double</span> shape_hyper, <span class="keywordtype">int</span> grid_size, Eigen::Ref&lt;Eigen::VectorXd&gt; coef, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  Eigen::VectorXd grid = Eigen::VectorXd::LinSpaced(grid_size + 2, 0.0, 1.0).segment(1, grid_size);</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  Eigen::VectorXd log_wt(grid_size);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; grid_size; ++i) {</div>
@@ -219,7 +219,7 @@ $(document).ready(function(){initNavTree('gdp__helper_8h_source.html',''); initR
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>} <span class="comment">// namespace bvhar</span></div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_BAYES_MISC_GDP_HELPER_H</span></div>
-<div class="ttc" id="acommon_8h_html_a8761330823b6d0af9a62c87fb65f0b23"><div class="ttname"><a href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a></div><div class="ttdeci">#define BHRNG</div><div class="ttdef"><b>Definition</b> common.h:32</div></div>
+<div class="ttc" id="acommon_8h_html_a6cf9f648a944e66c2478fa29468b7ac0"><div class="ttname"><a href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a></div><div class="ttdeci">#define BVHAR_BHRNG</div><div class="ttdef"><b>Definition</b> common.h:32</div></div>
 <div class="ttc" id="ahelper_8h_html"><div class="ttname"><a href="helper_8h.html">helper.h</a></div></div>
 <div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> bayes.h:16</div></div>
 <div class="ttc" id="anamespacebvhar_html_a3eac8bafb0785e4fcfcc2a159ff042f1"><div class="ttname"><a href="namespacebvhar.html#a3eac8bafb0785e4fcfcc2a159ff042f1">bvhar::gdp_exp_rate</a></div><div class="ttdeci">void gdp_exp_rate(Eigen::Ref&lt; Eigen::VectorXd &gt; rate_hyper, double prior_shape, double prior_rate, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> gdp_helper.h:27</div></div>

@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9001</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9002</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -115,9 +115,9 @@ For R package developers</h1>
 <div class="line"> </div>
 <div class="line"><span class="comment">// [[Rcpp::export]]</span></div>
 <div class="line"><span class="comment">// Your C++ code</span></div>
-</div><!-- fragment --><p>You need to add <code>plugins</code> attribute because the header in this package should define <code>USE_RCPP</code> macro. Or you can use instead:</p>
-<div class="fragment"><div class="line">Sys.setenv(&quot;PKG_CPPFLAGS&quot; = &quot;-DUSE_RCPP&quot;)</div>
-</div><!-- fragment --><p>If the <code>USE_RCPP</code> macro is not defined, the headers are compiled for <a href="https://pybind11.readthedocs.io/en/stable/index.html"><code>pybind11</code></a> of <code>Python</code>. </p>
+</div><!-- fragment --><p>You need to add <code>plugins</code> attribute because the header in this package should define <code>BVHAR_USE_RCPP</code> macro. Or you can use instead:</p>
+<div class="fragment"><div class="line">Sys.setenv(&quot;PKG_CPPFLAGS&quot; = &quot;-DBVHAR_USE_RCPP&quot;)</div>
+</div><!-- fragment --><p>If the <code>BVHAR_USE_RCPP</code> macro is not defined, the headers are compiled for <a href="https://pybind11.readthedocs.io/en/stable/index.html"><code>pybind11</code></a> of <code>Python</code>. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

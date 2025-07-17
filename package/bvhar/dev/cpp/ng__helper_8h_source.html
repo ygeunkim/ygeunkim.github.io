@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9001</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9002</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="foldopen" id="foldopen00015" data-start="{" data-end="}">
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a3b90f7edeeb7483a8c6721295b19cdf0">   15</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a3b90f7edeeb7483a8c6721295b19cdf0">ng_local_sparsity</a>(Eigen::VectorXd&amp; local_param, <span class="keywordtype">double</span>&amp; shape,</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                              Eigen::Ref&lt;Eigen::VectorXd&gt; coef, Eigen::Ref&lt;const Eigen::VectorXd&gt; global_param,</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                              <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                              <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coef.size(); ++i) {</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    local_param[i] = sqrt(<a class="code hl_function" href="namespacebvhar.html#aaf0ffb0d0b12b1eeed3e0aabe057b211">sim_gig</a>(</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>      shape - .5,</div>
@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a7a2bef908b7e147fbc97b11a469d8f20">   28</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a3b90f7edeeb7483a8c6721295b19cdf0">ng_local_sparsity</a>(Eigen::VectorXd&amp; local_param, Eigen::VectorXd&amp; shape,</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                              Eigen::Ref&lt;Eigen::VectorXd&gt; coef, Eigen::Ref&lt;const Eigen::VectorXd&gt; global_param,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                              <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                              <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coef.size(); ++i) {</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    local_param[i] = sqrt(<a class="code hl_function" href="namespacebvhar.html#aaf0ffb0d0b12b1eeed3e0aabe057b211">sim_gig</a>(</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>      shape[i] - .5,</div>
@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">// @param rng boost rng</span></div>
 <div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="namespacebvhar.html#ad6be181db9520956bdb3ecd6dcde8a50">   48</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="namespacebvhar.html#ad6be181db9520956bdb3ecd6dcde8a50">ng_global_sparsity</a>(Eigen::Ref&lt;const Eigen::VectorXd&gt; local_param, <span class="keywordtype">double</span>&amp; hyper_gamma,</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                                 <span class="keywordtype">double</span>&amp; shape, <span class="keywordtype">double</span>&amp; scl, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                                 <span class="keywordtype">double</span>&amp; shape, <span class="keywordtype">double</span>&amp; scl, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="comment">// return sqrt(1 / gamma_rand(</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="comment">//  shape + local_param.size() * hyper_gamma,</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="comment">//  1 / (hyper_gamma * local_param.squaredNorm() + scl),</span></div>
@@ -170,7 +170,7 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">// overloading</span></div>
 <div class="foldopen" id="foldopen00064" data-start="{" data-end="}">
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a85b241b90d98418686ee69d2b6bfc6d1">   64</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="namespacebvhar.html#ad6be181db9520956bdb3ecd6dcde8a50">ng_global_sparsity</a>(Eigen::Ref&lt;const Eigen::VectorXd&gt; local_param, Eigen::VectorXd&amp; hyper_gamma,</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                                 <span class="keywordtype">double</span>&amp; shape, <span class="keywordtype">double</span>&amp; scl, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                                 <span class="keywordtype">double</span>&amp; shape, <span class="keywordtype">double</span>&amp; scl, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="comment">// return sqrt(1 / gamma_rand(</span></div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="comment">//  shape + hyper_gamma.sum(),</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="comment">//  1 / ((hyper_gamma.array() * local_param.array().square()).sum() + scl),</span></div>
@@ -193,7 +193,7 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="foldopen" id="foldopen00084" data-start="{" data-end="}">
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="namespacebvhar.html#ac74dabf583eb93b50b18ac4fd4487117">   84</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#ac74dabf583eb93b50b18ac4fd4487117">ng_mn_sparsity</a>(Eigen::VectorXd&amp; group_param, Eigen::VectorXi&amp; grp_vec, Eigen::VectorXi&amp; grp_id,</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                           Eigen::VectorXd&amp; hyper_gamma, <span class="keywordtype">double</span>&amp; global_param, Eigen::VectorXd&amp; local_param, <span class="keywordtype">double</span>&amp; shape, <span class="keywordtype">double</span>&amp; scl,</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                           <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                           <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  <span class="keywordtype">int</span> num_grp = grp_id.size();</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  <span class="keywordtype">int</span> num_coef = local_param.size();</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  Eigen::Array&lt;bool, Eigen::Dynamic, 1&gt; group_id;</div>
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="comment">// MH for shape parameter of Normal-Gamma Prior</span></div>
 <div class="foldopen" id="foldopen00106" data-start="{" data-end="}">
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="namespacebvhar.html#ac6bb55644716aa31e73cccc0cc8b986d">  106</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="namespacebvhar.html#ac6bb55644716aa31e73cccc0cc8b986d">ng_shape_jump</a>(<span class="keywordtype">double</span>&amp; gamma_hyper, Eigen::VectorXd&amp; local_param,</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                            <span class="keywordtype">double</span> global_param, <span class="keywordtype">double</span> lognormal_sd, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                            <span class="keywordtype">double</span> global_param, <span class="keywordtype">double</span> lognormal_sd, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <span class="keywordtype">int</span> num_coef = local_param.size();</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  <span class="keywordtype">double</span> cand = exp(log(gamma_hyper) + normal_rand(rng) * lognormal_sd);</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  <span class="keywordtype">double</span> log_ratio = log(cand) - log(gamma_hyper) + num_coef * (lgammafn(gamma_hyper) - lgammafn(cand));</div>
@@ -242,7 +242,7 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="foldopen" id="foldopen00129" data-start="{" data-end="}">
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a9e8055f0fd3ca5603060d55faa720ae9">  129</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a9e8055f0fd3ca5603060d55faa720ae9">ng_mn_shape_jump</a>(Eigen::VectorXd&amp; gamma_hyper, Eigen::VectorXd&amp; local_param,</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>                             Eigen::VectorXd&amp; group_param, Eigen::VectorXi&amp; grp_vec, Eigen::VectorXi&amp; grp_id,</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>                             <span class="keywordtype">double</span>&amp; global_param, <span class="keywordtype">double</span> lognormal_sd, <a class="code hl_define" href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>                             <span class="keywordtype">double</span>&amp; global_param, <span class="keywordtype">double</span> lognormal_sd, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  <span class="keywordtype">int</span> num_coef = local_param.size();</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>  Eigen::Array&lt;bool, Eigen::Dynamic, 1&gt; group_id;</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>  <span class="keywordtype">int</span> mn_size = 0;</div>
@@ -264,7 +264,7 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>} <span class="comment">// namespace bvhar</span></div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_BAYES_MISC_NG_HELPER_H</span></div>
-<div class="ttc" id="acommon_8h_html_a8761330823b6d0af9a62c87fb65f0b23"><div class="ttname"><a href="common_8h.html#a8761330823b6d0af9a62c87fb65f0b23">BHRNG</a></div><div class="ttdeci">#define BHRNG</div><div class="ttdef"><b>Definition</b> common.h:32</div></div>
+<div class="ttc" id="acommon_8h_html_a6cf9f648a944e66c2478fa29468b7ac0"><div class="ttname"><a href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a></div><div class="ttdeci">#define BVHAR_BHRNG</div><div class="ttdef"><b>Definition</b> common.h:32</div></div>
 <div class="ttc" id="ahelper_8h_html"><div class="ttname"><a href="helper_8h.html">helper.h</a></div></div>
 <div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> bayes.h:16</div></div>
 <div class="ttc" id="anamespacebvhar_html_a3b90f7edeeb7483a8c6721295b19cdf0"><div class="ttname"><a href="namespacebvhar.html#a3b90f7edeeb7483a8c6721295b19cdf0">bvhar::ng_local_sparsity</a></div><div class="ttdeci">void ng_local_sparsity(Eigen::VectorXd &amp;local_param, double &amp;shape, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, Eigen::Ref&lt; const Eigen::VectorXd &gt; global_param, boost::random::mt19937 &amp;rng)</div><div class="ttdef"><b>Definition</b> ng_helper.h:15</div></div>
