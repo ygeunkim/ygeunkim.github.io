@@ -1,12 +1,12 @@
 var classbvhar_1_1OlsOutforecastRun =
 [
-    [ "OlsOutforecastRun", "classbvhar_1_1OlsOutforecastRun.html#a5e3f2a7726a02e2c64bc1fd9e4d61d9d", null ],
+    [ "OlsOutforecastRun", "classbvhar_1_1OlsOutforecastRun.html#a383940821beb608c49d0788ec7673f9c", null ],
     [ "~OlsOutforecastRun", "classbvhar_1_1OlsOutforecastRun.html#a2cb84ad4352e5b408b7bcea80e77092c", null ],
     [ "forecast", "classbvhar_1_1OlsOutforecastRun.html#ac86bf42d1c96da1442b4bbc187f9f99c", null ],
     [ "returnForecast", "classbvhar_1_1OlsOutforecastRun.html#a40c2a899537dc61c49df973dedbe76d5", null ],
     [ "initOls", "classbvhar_1_1OlsOutforecastRun.html#a91981faead3a884c013351f26a1a2105", null ],
-    [ "initData", "classbvhar_1_1OlsOutforecastRun.html#a7f4d3a853939f8d11a83b8af4b47a9c4", null ],
-    [ "initialize", "classbvhar_1_1OlsOutforecastRun.html#afc382a481b94f98ea634b82f54e01441", null ],
+    [ "initData", "classbvhar_1_1OlsOutforecastRun.html#ab4a484be183aa1b220c0bafcdd28fba2", null ],
+    [ "initialize", "classbvhar_1_1OlsOutforecastRun.html#a5dc2f89db1b7347b1518770978c1b1a6", null ],
     [ "buildDesign", "classbvhar_1_1OlsOutforecastRun.html#a453e14cb2c2971fd16b2a6908186c560", null ],
     [ "updateForecaster", "classbvhar_1_1OlsOutforecastRun.html#a0d8c274f8fc35c3e36c6395616680abe", null ],
     [ "updateForecaster", "classbvhar_1_1OlsOutforecastRun.html#aa900eb942399f95bcede54a77a2b1600", null ],
@@ -24,7 +24,7 @@ var classbvhar_1_1OlsOutforecastRun =
     [ "model", "classbvhar_1_1OlsOutforecastRun.html#a9fc7c26101213f9b8c7cb15584e164c8", null ],
     [ "forecaster", "classbvhar_1_1OlsOutforecastRun.html#a69b1551cf61733431b62c18d4ff5a836", null ],
     [ "out_forecast", "classbvhar_1_1OlsOutforecastRun.html#a5f9092c15c5ecd728dd02b45286e67c1", null ],
-    [ "roll_exogen_mat", "classbvhar_1_1OlsOutforecastRun.html#a2e7d650602b5af9e96789badd58fae4f", null ],
-    [ "roll_exogen", "classbvhar_1_1OlsOutforecastRun.html#a62e466d2aa59cad7ba6ee2708de43081", null ],
-    [ "lag_exogen", "classbvhar_1_1OlsOutforecastRun.html#a727be536ca1a081f42504e6f8320cfb7", null ]
+    [ "roll_exogen_mat", "classbvhar_1_1OlsOutforecastRun.html#a324795786a200d1e996805d0754c5b1a", null ],
+    [ "roll_exogen", "classbvhar_1_1OlsOutforecastRun.html#a4cb4c9db1ca84465af2fd7802d17d231", null ],
+    [ "lag_exogen", "classbvhar_1_1OlsOutforecastRun.html#a7ddf5084b3ae8fe71618843837bba83d", null ]
 ];

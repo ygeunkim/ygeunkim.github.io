@@ -11,5 +11,5 @@ var deprecated_2triangular_8h =
     [ "bvhar::McmcDl< BaseMcmc, isGroup >", "classbvhar_1_1McmcDl.html", "classbvhar_1_1McmcDl" ],
     [ "bvhar::McmcGdp< BaseMcmc >", "classbvhar_1_1McmcGdp.html", "classbvhar_1_1McmcGdp" ],
     [ "bvhar::CtaRun< BaseMcmc, isGroup >", "classbvhar_1_1CtaRun.html", "classbvhar_1_1CtaRun" ],
-    [ "initialize_mcmc", "deprecated_2triangular_8h.html#a4f3d2320a8a70caa9b41dfc1c70a4abd", null ]
+    [ "initialize_mcmc", "deprecated_2triangular_8h.html#a5a06f848e72cd031e7a9d6e478d4a657", null ]
 ];

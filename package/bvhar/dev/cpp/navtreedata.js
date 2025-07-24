@@ -63,15 +63,15 @@ var NAVTREEINDEX =
 "classbvhar_1_1DynamicSvSpillover.html#af74a5bc33613f72a695c3de1ff9c7ce6",
 "classbvhar_1_1McmcHorseshoe.html#a537f497a0a960d98ed755f42cfef7f17",
 "classbvhar_1_1McmcRun.html",
-"classbvhar_1_1McmcTriangular.html#a90270e3ba32b089352e0751fdaff3000",
+"classbvhar_1_1McmcTriangular.html#a9b4b021b84c91ec5178e7af52154078d",
 "classbvhar_1_1MinnBvharS.html#a8050e124dca8e6fdc3ecf5e8b3e5d6e3",
 "classbvhar_1_1MultiOls.html#aa12ef5fc20340c9bae80daff53b77ee0",
-"classbvhar_1_1OlsRollforecastRun.html#a256d6c45205008d38de42cc9109a4003",
+"classbvhar_1_1OlsRollforecastRun.html#a2889d5cd03ff2c4458522cf094c789e6",
 "classbvhar_1_1VarForecaster.html#af6d5fb36f8fac889dae8e8d664067661",
 "gdp__helper_8h.html#ad4d88410c0399a67585f3841dfc053e3",
 "reg_8h_source.html",
 "structbvhar_1_1LdltRecords.html#a3e07a0a88ca221147981e45a64f21ada",
-"structbvhar_1_1RegParams.html#a551a91e92f63c52a6f0b0fbe2992a52a",
+"structbvhar_1_1RegParams.html#a54fa1c33193949b9096570bddf8b7a20",
 "structbvhar_1_1SsvsRecords.html#af9909f48df170ce0dfae55f117aee4a5"
 ];
 

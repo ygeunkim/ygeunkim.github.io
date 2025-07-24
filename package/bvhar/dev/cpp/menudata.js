@@ -138,8 +138,6 @@ var menudata={children:[
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
 {text:"b",url:"globals.html#index_b"},
-{text:"e",url:"globals.html#index_e"},
-{text:"n",url:"globals.html#index_n"},
-{text:"o",url:"globals.html#index_o"}]},
+{text:"e",url:"globals.html#index_e"}]},
 {text:"Typedefs",url:"globals_type.html"},
 {text:"Macros",url:"globals_defs.html"}]}]}]}

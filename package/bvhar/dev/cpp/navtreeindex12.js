@@ -239,6 +239,8 @@ var NAVTREEINDEX12 =
 "structbvhar_1_1RegParams.html#a1b7b1d47b35f53a751b0fe0d191bf9ae":[2,0,1,121,17],
 "structbvhar_1_1RegParams.html#a275500b950765adeac69b4fbc4358ccc":[1,0,1,121,11],
 "structbvhar_1_1RegParams.html#a275500b950765adeac69b4fbc4358ccc":[2,0,1,121,11],
+"structbvhar_1_1RegParams.html#a307885a9fced08711c5b9db189c446eb":[1,0,1,121,0],
+"structbvhar_1_1RegParams.html#a307885a9fced08711c5b9db189c446eb":[2,0,1,121,0],
 "structbvhar_1_1RegParams.html#a3a4889879d7b692fa0569a0ba56c3467":[1,0,1,121,9],
 "structbvhar_1_1RegParams.html#a3a4889879d7b692fa0569a0ba56c3467":[2,0,1,121,9],
 "structbvhar_1_1RegParams.html#a3dafd9f6ecb6bf94b5a3964619fd1898":[2,0,1,121,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "structbvhar_1_1RegParams.html#a410e7c253d8d2c9104b607b5eb3d428e":[2,0,1,121,15],
 "structbvhar_1_1RegParams.html#a50f90d55307a9621506e4535b87c5044":[1,0,1,121,26],
 "structbvhar_1_1RegParams.html#a50f90d55307a9621506e4535b87c5044":[2,0,1,121,26],
-"structbvhar_1_1RegParams.html#a54fa1c33193949b9096570bddf8b7a20":[1,0,1,121,13],
-"structbvhar_1_1RegParams.html#a54fa1c33193949b9096570bddf8b7a20":[2,0,1,121,13],
-"structbvhar_1_1RegParams.html#a551a91e92f63c52a6f0b0fbe2992a52a":[1,0,1,121,7]
+"structbvhar_1_1RegParams.html#a54fa1c33193949b9096570bddf8b7a20":[1,0,1,121,13]
 };

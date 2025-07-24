@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9002</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9003</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -283,7 +283,7 @@ $(document).ready(function(){initNavTree('random_8h_source.html',''); initResiza
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>  }</div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>  Eigen::MatrixXd chol_scale = mat_scale.llt().matrixL();</div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>  <span class="comment">// return chol_scale * mat_bartlett.inverse().transpose(); // lower triangular</span></div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>  <span class="keywordflow">return</span> chol_scale * mat_bartlett.transpose().triangularView&lt;Eigen::Lower&gt;().solve(Eigen::MatrixXd::Identity(dim, dim)); <span class="comment">// lower triangular</span></div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>  <span class="keywordflow">return</span> mat_bartlett.transpose().triangularView&lt;Eigen::Lower&gt;().solve&lt;Eigen::OnTheRight&gt;(chol_scale);</div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>}</div>
 </div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
@@ -387,16 +387,16 @@ $(document).ready(function(){initNavTree('random_8h_source.html',''); initResiza
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>  }</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>  Eigen::MatrixXd mat_bartlett = Eigen::MatrixXd::Zero(dim, dim); <span class="comment">// upper triangular bartlett decomposition</span></div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>  <span class="comment">// generate in row direction</span></div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; ++i) {</div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    mat_bartlett(i, i) = sqrt(bvhar::chisq_rand(shape - (<span class="keywordtype">double</span>)i, rng)); <span class="comment">// diagonal: qii^2 ~ chi^2(nu - i + 1)</span></div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>  }</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim - 1; i ++) {</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = i + 1; j &lt; dim; j++) {</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim - 1; ++i) {</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = i + 1; j &lt; dim; ++j) {</div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>      mat_bartlett(i, j) = normal_rand(rng); <span class="comment">// upper triangular (j &gt; i) ~ N(0, 1)</span></div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    }</div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>  }</div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>  Eigen::MatrixXd chol_scale = mat_scale.llt().matrixL();</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>  <span class="keywordflow">return</span> chol_scale * mat_bartlett.transpose().triangularView&lt;Eigen::Lower&gt;().solve(Eigen::MatrixXd::Identity(dim, dim)); <span class="comment">// lower triangular</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>  <span class="keywordflow">return</span> mat_bartlett.transpose().triangularView&lt;Eigen::Lower&gt;().solve&lt;Eigen::OnTheRight&gt;(chol_scale);</div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>}</div>
 </div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> </div>

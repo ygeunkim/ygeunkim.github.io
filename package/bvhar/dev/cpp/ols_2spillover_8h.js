@@ -4,6 +4,6 @@ var ols_2spillover_8h =
     [ "bvhar::OlsVharSpillover", "classbvhar_1_1OlsVharSpillover.html", "classbvhar_1_1OlsVharSpillover" ],
     [ "bvhar::OlsSpilloverRun", "classbvhar_1_1OlsSpilloverRun.html", "classbvhar_1_1OlsSpilloverRun" ],
     [ "bvhar::OlsDynamicSpillover", "classbvhar_1_1OlsDynamicSpillover.html", "classbvhar_1_1OlsDynamicSpillover" ],
-    [ "initialize_olsspillover", "ols_2spillover_8h.html#a578644824f25a31576ae7955fbb00ce3", null ],
-    [ "initialize_olsspillover", "ols_2spillover_8h.html#ad16c2f1cf188e2ca4ec3f733837aaf0b", null ]
+    [ "initialize_olsspillover", "ols_2spillover_8h.html#a864d957d0fa88810e9069379217bc2f4", null ],
+    [ "initialize_olsspillover", "ols_2spillover_8h.html#ac05528f5502d4b2f1ca5d6183f89d00f", null ]
 ];

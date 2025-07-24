@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9002</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9003</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -534,18 +534,18 @@ $(document).ready(function(){initNavTree('common_8h_source.html',''); initResiza
 <div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span> </div>
 <div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span><span class="keyword">using </span><a class="code hl_typedef" href="common_8h.html#ad2d809b9d71f39717698ac42fe339257">Optional</a> = <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::optional&lt;T&gt;</a>;</div>
+<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span><span class="keyword">using </span><a class="code hl_typedef" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a> = <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::optional&lt;T&gt;</a>;</div>
 <div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span> </div>
-<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span><span class="preprocessor">#define NULLOPT std::nullopt</span></div>
+<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span><span class="preprocessor">#define BVHAR_NULLOPT std::nullopt</span></div>
 <div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span> </div>
 <div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span> </div>
 <div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span><span class="preprocessor">#include &lt;boost/optional.hpp&gt;</span></div>
 <div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span> </div>
 <div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00425" name="l00425"></a><span class="lineno"><a class="line" href="common_8h.html#ad2d809b9d71f39717698ac42fe339257">  425</a></span><span class="keyword">using </span><a class="code hl_typedef" href="common_8h.html#ad2d809b9d71f39717698ac42fe339257">Optional</a> = boost::optional&lt;T&gt;;</div>
+<div class="line"><a id="l00425" name="l00425"></a><span class="lineno"><a class="line" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">  425</a></span><span class="keyword">using </span><a class="code hl_typedef" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a> = boost::optional&lt;T&gt;;</div>
 <div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span> </div>
-<div class="line"><a id="l00427" name="l00427"></a><span class="lineno"><a class="line" href="common_8h.html#a488a801cd2b77d24dd1b71d8bbfcb35a">  427</a></span><span class="preprocessor">#define NULLOPT boost::none</span></div>
+<div class="line"><a id="l00427" name="l00427"></a><span class="lineno"><a class="line" href="common_8h.html#aad28bfb79c3118088572c1f3da9f83dd">  427</a></span><span class="preprocessor">#define BVHAR_NULLOPT boost::none</span></div>
 <div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span> </div>
 <div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span> </div>
@@ -792,7 +792,7 @@ $(document).ready(function(){initNavTree('common_8h_source.html',''); initResiza
 <div class="ttc" id="aclassboost_1_1random_1_1inverse__gaussian__distribution_html_af21e822cd7dac4ae12f5a8858ab0c294"><div class="ttname"><a href="classboost_1_1random_1_1inverse__gaussian__distribution.html#af21e822cd7dac4ae12f5a8858ab0c294">boost::random::inverse_gaussian_distribution::operator()</a></div><div class="ttdeci">RealType operator()(URNG &amp;urng, const param_type &amp;parm) const</div><div class="ttdef"><b>Definition</b> common.h:118</div></div>
 <div class="ttc" id="aclassboost_1_1random_1_1inverse__gaussian__distribution_html_af37a9347ab1a7ed27f858bbf1fb33624"><div class="ttname"><a href="classboost_1_1random_1_1inverse__gaussian__distribution.html#af37a9347ab1a7ed27f858bbf1fb33624">boost::random::inverse_gaussian_distribution::BOOST_RANDOM_DETAIL_OSTREAM_OPERATOR</a></div><div class="ttdeci">BOOST_RANDOM_DETAIL_OSTREAM_OPERATOR(os, inverse_gaussian_distribution, wd)</div><div class="ttdef"><b>Definition</b> common.h:137</div></div>
 <div class="ttc" id="acommon_8h_html_a6cf9f648a944e66c2478fa29468b7ac0"><div class="ttname"><a href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a></div><div class="ttdeci">#define BVHAR_BHRNG</div><div class="ttdef"><b>Definition</b> common.h:32</div></div>
-<div class="ttc" id="acommon_8h_html_ad2d809b9d71f39717698ac42fe339257"><div class="ttname"><a href="common_8h.html#ad2d809b9d71f39717698ac42fe339257">Optional</a></div><div class="ttdeci">boost::optional&lt; T &gt; Optional</div><div class="ttdef"><b>Definition</b> common.h:425</div></div>
+<div class="ttc" id="acommon_8h_html_a86a80d5eec2ef849167f34308b38dea2"><div class="ttname"><a href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a></div><div class="ttdeci">boost::optional&lt; T &gt; BVHAR_OPTIONAL</div><div class="ttdef"><b>Definition</b> common.h:425</div></div>
 <div class="ttc" id="acommondefs_8h_html_abc2ee0187a6d5ca2c32fe4873f941159"><div class="ttname"><a href="commondefs_8h.html#abc2ee0187a6d5ca2c32fe4873f941159">BVHAR_STOP</a></div><div class="ttdeci">#define BVHAR_STOP(...)</div><div class="ttdef"><b>Definition</b> commondefs.h:18</div></div>
 <div class="ttc" id="aeigen_8h_html"><div class="ttname"><a href="eigen_8h.html">eigen.h</a></div></div>
 <div class="ttc" id="anamespaceboost_html"><div class="ttname"><a href="namespaceboost.html">boost</a></div><div class="ttdef"><b>Definition</b> common.h:7</div></div>

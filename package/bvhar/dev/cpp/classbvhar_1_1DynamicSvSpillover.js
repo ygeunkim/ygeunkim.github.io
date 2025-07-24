@@ -21,5 +21,5 @@ var classbvhar_1_1DynamicSvSpillover =
     [ "net_sp", "classbvhar_1_1DynamicSvSpillover.html#a4e501890b9959c53c3192019c5455e6d", null ],
     [ "spillover", "classbvhar_1_1DynamicSvSpillover.html#aedce7a2fc91db7a6741ffcab8bfea430", null ],
     [ "reg_record", "classbvhar_1_1DynamicSvSpillover.html#a48151de877203f5724aa5f09da92c7fd", null ],
-    [ "har_trans", "classbvhar_1_1DynamicSvSpillover.html#afb3353b08f0db3c5e2f32d7974c47276", null ]
+    [ "har_trans", "classbvhar_1_1DynamicSvSpillover.html#a7c3e35880e4f3a901014570d098feb1d", null ]
 ];

@@ -1,6 +1,6 @@
 var classbvhar_1_1CtaForecaster =
 [
-    [ "CtaForecaster", "classbvhar_1_1CtaForecaster.html#abb5759c742ea0f7e806da334bd892229", null ],
+    [ "CtaForecaster", "classbvhar_1_1CtaForecaster.html#ad3a4f2778fab16d73aa94838b37cf09a", null ],
     [ "~CtaForecaster", "classbvhar_1_1CtaForecaster.html#ab05c5c66cff279ca09d215c65770c5d3", null ],
     [ "forecastDensity", "classbvhar_1_1CtaForecaster.html#a8a2a03b259de1b76de93a7eb795f1196", null ],
     [ "forecastDensity", "classbvhar_1_1CtaForecaster.html#a4ff2c01b153fc235548e527e25f5216d", null ],

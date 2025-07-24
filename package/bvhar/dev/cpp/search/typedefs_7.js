@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['recordtype_0',['recordtype',['../classbvhar_1_1McmcOutforecastRun.html#a00af68a47f9cf24b52994b76df757ee3',1,'bvhar::McmcOutforecastRun::RecordType'],['../classbvhar_1_1CtaOutforecastRun.html#a852f765f2b2e8f54c495a6dff213c35c',1,'bvhar::CtaOutforecastRun::RecordType']]],
-  ['regspillover_1',['RegSpillover',['../namespacebvhar.html#a796944900a8d777784970e3dbf683aee',1,'bvhar']]],
-  ['regvarforecaster_2',['RegVarForecaster',['../namespacebvhar.html#afc6685029e68ff2b35e3389883a517ad',1,'bvhar']]],
-  ['regvarselectforecaster_3',['RegVarSelectForecaster',['../namespacebvhar.html#a44d9e48ed0ab2f5901f8ab998713ab5a',1,'bvhar']]],
-  ['regvharforecaster_4',['RegVharForecaster',['../namespacebvhar.html#a76140a03222d02354c932039e298001b',1,'bvhar']]],
-  ['regvharselectforecaster_5',['RegVharSelectForecaster',['../namespacebvhar.html#a1ff5f8a7b49c41bab60f4acd33b6b23d',1,'bvhar']]],
-  ['regvharspillover_6',['RegVharSpillover',['../namespacebvhar.html#a4cac4dc5b0ca96ee1e59784eb4fd8454',1,'bvhar']]],
-  ['result_5ftype_7',['result_type',['../classboost_1_1random_1_1inverse__gaussian__distribution.html#ac62cfdf21f66196c86f57ad809dbb603',1,'boost::random::inverse_gaussian_distribution']]]
+  ['ssvsreg_0',['SsvsReg',['../namespacebvhar.html#ad4aa5d623c96ba62e4c77aebdebd6ed4',1,'bvhar']]],
+  ['ssvssv_1',['SsvsSv',['../namespacebvhar.html#a9ee7a36194775c7702beb84bd136bb1e',1,'bvhar']]],
+  ['svspillover_2',['SvSpillover',['../namespacebvhar.html#a0a00d20143582a2b4d898926cd919e11',1,'bvhar']]],
+  ['svvarforecaster_3',['SvVarForecaster',['../namespacebvhar.html#a3ca61a15f92e3f43940c2c877a14deab',1,'bvhar']]],
+  ['svvarselectforecaster_4',['SvVarSelectForecaster',['../namespacebvhar.html#a1a55537159228d36acfe254bb40da093',1,'bvhar']]],
+  ['svvharforecaster_5',['SvVharForecaster',['../namespacebvhar.html#afaf604355faf65266854456f72225a9b',1,'bvhar']]],
+  ['svvharselectforecaster_6',['SvVharSelectForecaster',['../namespacebvhar.html#a2a5111b0e7414a931f7c5977f4509f47',1,'bvhar']]],
+  ['svvharspillover_7',['SvVharSpillover',['../namespacebvhar.html#a5ae24d7e6547c434e43e1996288e673a',1,'bvhar']]]
 ];

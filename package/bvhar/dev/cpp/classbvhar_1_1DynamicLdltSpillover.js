@@ -8,13 +8,13 @@ var classbvhar_1_1DynamicLdltSpillover =
     [ "~DynamicLdltSpillover", "classbvhar_1_1DynamicLdltSpillover.html#a9e7bdcbeb124548bdc4cb0b76ba48d95", null ],
     [ "returnSpillover", "classbvhar_1_1DynamicLdltSpillover.html#a8636e1a8ef0759c723717a3b1eba4e42", null ],
     [ "initialize", "classbvhar_1_1DynamicLdltSpillover.html#a6278bd9e1b58985ddb2212b7f74b3ae5", null ],
-    [ "buildDesign", "classbvhar_1_1DynamicLdltSpillover.html#a0a6895d914f1db249e78796603adab88", null ],
+    [ "buildDesign", "classbvhar_1_1DynamicLdltSpillover.html#a62f6cdbd8d4e2b05f51906e5be825011", null ],
     [ "runGibbs", "classbvhar_1_1DynamicLdltSpillover.html#a051f4cebe5b5ecfd218d17ec2cdbe65a", null ],
     [ "getSpillover", "classbvhar_1_1DynamicLdltSpillover.html#aefa6d4ff2b3b91db10cf6bc4f0dba9d3", null ],
     [ "fit", "classbvhar_1_1DynamicLdltSpillover.html#a3a8c04733f1bd305eda98ad0402a0aeb", null ],
     [ "returnSpillover", "classbvhar_1_1DynamicLdltSpillover.html#a8636e1a8ef0759c723717a3b1eba4e42", null ],
     [ "initialize", "classbvhar_1_1DynamicLdltSpillover.html#ad30749ced40be6830f0870b04fc3d0b4", null ],
-    [ "buildDesign", "classbvhar_1_1DynamicLdltSpillover.html#a0a6895d914f1db249e78796603adab88", null ],
+    [ "buildDesign", "classbvhar_1_1DynamicLdltSpillover.html#a62f6cdbd8d4e2b05f51906e5be825011", null ],
     [ "runGibbs", "classbvhar_1_1DynamicLdltSpillover.html#a051f4cebe5b5ecfd218d17ec2cdbe65a", null ],
     [ "getSpillover", "classbvhar_1_1DynamicLdltSpillover.html#aefa6d4ff2b3b91db10cf6bc4f0dba9d3", null ],
     [ "fit", "classbvhar_1_1DynamicLdltSpillover.html#a3a8c04733f1bd305eda98ad0402a0aeb", null ],
@@ -35,5 +35,5 @@ var classbvhar_1_1DynamicLdltSpillover =
     [ "net_sp", "classbvhar_1_1DynamicLdltSpillover.html#afc5adfec1549e393e00c40c702de6fd7", null ],
     [ "model", "classbvhar_1_1DynamicLdltSpillover.html#ad23dabf1918474bb356e45fc20346a25", null ],
     [ "spillover", "classbvhar_1_1DynamicLdltSpillover.html#a4f31a2a03f0c09620685820f92bc71ce", null ],
-    [ "har_trans", "classbvhar_1_1DynamicLdltSpillover.html#a94f98cf3e14bd03e17c6adba41327275", null ]
+    [ "har_trans", "classbvhar_1_1DynamicLdltSpillover.html#a023272b1d399aca2ead0ea74869bd7c1", null ]
 ];
