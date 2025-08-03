@@ -9,7 +9,7 @@ var classbvhar_1_1MinnForecaster =
     [ "forecastDensity", "classbvhar_1_1MinnForecaster.html#a3e4ea0cafdf2502d00b5fbb0bb9fafa3", null ],
     [ "returnForecast", "classbvhar_1_1MinnForecaster.html#ac358e15ac6dcda3b9a378794bcadcd9e", null ],
     [ "returnPoint", "classbvhar_1_1MinnForecaster.html#a015c03c535518d85383d88370f783da5", null ],
-    [ "rng", "classbvhar_1_1MinnForecaster.html#a77974e82da4b2333b6a6db78b68786ed", null ],
+    [ "rng", "classbvhar_1_1MinnForecaster.html#a5493d222bc527e4b73e5dece3f76d7dc", null ],
     [ "response", "classbvhar_1_1MinnForecaster.html#a400485dbef3f22e47abdaf39b5d9714d", null ],
     [ "posterior_mean", "classbvhar_1_1MinnForecaster.html#a76bc3bb146083d8b781b8bf22a4632f1", null ],
     [ "posterior_sig", "classbvhar_1_1MinnForecaster.html#ab8fce8badc2b12ba078f00aae956d1ad", null ],

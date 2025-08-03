@@ -13,7 +13,7 @@ var classbvhar_1_1McmcForecaster =
     [ "forecastOut", "classbvhar_1_1McmcForecaster.html#a2cf14f57e0b67c91f6f19834dcf46844", null ],
     [ "forecastOut", "classbvhar_1_1McmcForecaster.html#a07095c0bc37406752ce42b02c169b624", null ],
     [ "reg_record", "classbvhar_1_1McmcForecaster.html#a7f3fa302e8c3455045db8437ea449006", null ],
-    [ "rng", "classbvhar_1_1McmcForecaster.html#ac36a4e14ea929dd131f6b192112dff15", null ],
+    [ "rng", "classbvhar_1_1McmcForecaster.html#a22c6eb11561a9e5ba69400bc80962ebd", null ],
     [ "mtx", "classbvhar_1_1McmcForecaster.html#a80c80209d71d28fc10f7fa7dec7b2df7", null ],
     [ "response", "classbvhar_1_1McmcForecaster.html#a97bcb9c5e09a7dc75792e11d29c3cf09", null ],
     [ "include_mean", "classbvhar_1_1McmcForecaster.html#afb161a02e9fd2fdec3cc3ebe14030d7e", null ],

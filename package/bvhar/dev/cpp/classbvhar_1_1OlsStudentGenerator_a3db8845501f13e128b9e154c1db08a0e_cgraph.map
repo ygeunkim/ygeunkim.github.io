@@ -1,11 +1,11 @@
 <map id="bvhar::OlsStudentGenerator::appendError" name="bvhar::OlsStudentGenerator::appendError">
 <area shape="rect" id="Node000001" title="Add error term to point forecast." alt="" coords="5,27,208,67"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a27c8d13d978010c2d59c139aabdd11f4" title=" " alt="" coords="256,5,451,31"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a6bf68bd2aedc30e7a8ca5c70b280da93" title=" " alt="" coords="256,5,451,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,33,242,29,242,34,209,38"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a987e55dab1047dc5cec22d5eae819a00" title=" " alt="" coords="273,55,433,95"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#ad91b68ef1459d043f67d48b762731299" title=" " alt="" coords="273,55,433,95"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,56,260,62,259,67,208,61"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#a78b640d2e12075d23207a062ef51eddf" title=" " alt="" coords="499,5,701,31"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a96f0bcf326058b0f644c3b812e717c17" title=" " alt="" coords="499,5,701,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="451,15,485,15,485,21,451,21"/>
-<area shape="rect" id="Node000005" href="$namespacebvhar.html#ab83267fb9cd94476d0fc29f4e01b9f8c" title=" " alt="" coords="515,55,685,95"/>
+<area shape="rect" id="Node000005" href="$namespacebvhar.html#a817f0ad55d8bf5dd2d30dc78a69778f0" title=" " alt="" coords="515,55,685,95"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="434,73,501,73,501,78,434,78"/>
 </map>

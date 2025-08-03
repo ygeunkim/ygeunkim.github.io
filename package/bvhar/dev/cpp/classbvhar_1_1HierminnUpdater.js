@@ -5,6 +5,6 @@ var classbvhar_1_1HierminnUpdater =
     [ "initCoefMean", "classbvhar_1_1HierminnUpdater.html#ae4a019bbffa52a7db23b4a7dd0dba8d7", null ],
     [ "initCoefPrec", "classbvhar_1_1HierminnUpdater.html#af53630b022361c2e11e250bf6b75fcce", null ],
     [ "initImpactPrec", "classbvhar_1_1HierminnUpdater.html#acdb5d78e36b34ba6c25305546feef102", null ],
-    [ "updateCoefPrec", "classbvhar_1_1HierminnUpdater.html#a1de80e65504e00018103161d14dde510", null ],
-    [ "updateImpactPrec", "classbvhar_1_1HierminnUpdater.html#a3d22d420510f62974a2a046a617675ee", null ]
+    [ "updateCoefPrec", "classbvhar_1_1HierminnUpdater.html#a715990cfcb7a32f4be25ed097399c79c", null ],
+    [ "updateImpactPrec", "classbvhar_1_1HierminnUpdater.html#a6bb5bf95940dc95e57ded153ca9b0c79", null ]
 ];

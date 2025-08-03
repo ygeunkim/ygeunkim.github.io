@@ -1,0 +1,8 @@
+<map id="bvhar::dl_local_sparsity" name="bvhar::dl_local_sparsity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,181,31"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006" title=" " alt="" coords="396,5,532,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,15,382,15,382,21,181,21"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#a579cce345237428c7e978c15846c0d5d" title=" " alt="" coords="229,31,348,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,27,216,31,215,37,181,32"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="348,32,382,27,383,32,349,37"/>
+</map>

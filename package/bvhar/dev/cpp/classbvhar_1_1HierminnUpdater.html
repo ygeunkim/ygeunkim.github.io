@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9003</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9004</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -138,12 +138,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acdb5d78e36b34ba6c25305546feef102" id="r_acdb5d78e36b34ba6c25305546feef102"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1HierminnUpdater.html#acdb5d78e36b34ba6c25305546feef102">initImpactPrec</a> (Eigen::Ref&lt; Eigen::VectorXd &gt; prior_chol_prec) override</td></tr>
 <tr class="memdesc:acdb5d78e36b34ba6c25305546feef102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build contemporaneous coefficient precision structure.  <br /></td></tr>
 <tr class="separator:acdb5d78e36b34ba6c25305546feef102"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1de80e65504e00018103161d14dde510" id="r_a1de80e65504e00018103161d14dde510"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1HierminnUpdater.html#a1de80e65504e00018103161d14dde510">updateCoefPrec</a> (Eigen::Ref&lt; Eigen::VectorXd &gt; prior_alpha_prec, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_vec, int num_grp, Eigen::VectorXi &amp;grp_vec, Eigen::VectorXi &amp;grp_id, boost::random::mt19937 &amp;rng) override</td></tr>
-<tr class="memdesc:a1de80e65504e00018103161d14dde510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw precision of coefficient based on each shrinkage priors.  <br /></td></tr>
-<tr class="separator:a1de80e65504e00018103161d14dde510"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d22d420510f62974a2a046a617675ee" id="r_a3d22d420510f62974a2a046a617675ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1HierminnUpdater.html#a3d22d420510f62974a2a046a617675ee">updateImpactPrec</a> (Eigen::Ref&lt; Eigen::VectorXd &gt; prior_chol_prec, Eigen::Ref&lt; Eigen::VectorXd &gt; contem_coef, boost::random::mt19937 &amp;rng) override</td></tr>
-<tr class="memdesc:a3d22d420510f62974a2a046a617675ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw precision of contemporaneous coefficient based on each shrinkage priors.  <br /></td></tr>
-<tr class="separator:a3d22d420510f62974a2a046a617675ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715990cfcb7a32f4be25ed097399c79c" id="r_a715990cfcb7a32f4be25ed097399c79c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1HierminnUpdater.html#a715990cfcb7a32f4be25ed097399c79c">updateCoefPrec</a> (Eigen::Ref&lt; Eigen::VectorXd &gt; prior_alpha_prec, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_vec, int num_grp, Eigen::VectorXi &amp;grp_vec, Eigen::VectorXi &amp;grp_id, boost::random::mixmax &amp;rng) override</td></tr>
+<tr class="memdesc:a715990cfcb7a32f4be25ed097399c79c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw precision of coefficient based on each shrinkage priors.  <br /></td></tr>
+<tr class="separator:a715990cfcb7a32f4be25ed097399c79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb5bf95940dc95e57ded153ca9b0c79" id="r_a6bb5bf95940dc95e57ded153ca9b0c79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1HierminnUpdater.html#a6bb5bf95940dc95e57ded153ca9b0c79">updateImpactPrec</a> (Eigen::Ref&lt; Eigen::VectorXd &gt; prior_chol_prec, Eigen::Ref&lt; Eigen::VectorXd &gt; contem_coef, boost::random::mixmax &amp;rng) override</td></tr>
+<tr class="memdesc:a6bb5bf95940dc95e57ded153ca9b0c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw precision of contemporaneous coefficient based on each shrinkage priors.  <br /></td></tr>
+<tr class="separator:a6bb5bf95940dc95e57ded153ca9b0c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbvhar_1_1ShrinkageUpdater"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classbvhar_1_1ShrinkageUpdater')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbvhar_1_1ShrinkageUpdater.html">bvhar::ShrinkageUpdater</a></td></tr>
 <tr class="memitem:ae679fed32432ce0e23b58399726e244f inherit pub_methods_classbvhar_1_1ShrinkageUpdater" id="r_ae679fed32432ce0e23b58399726e244f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1ShrinkageUpdater.html#ae679fed32432ce0e23b58399726e244f">ShrinkageUpdater</a> (int num_iter, const <a class="el" href="structbvhar_1_1ShrinkageParams.html">ShrinkageParams</a> &amp;params, const <a class="el" href="structbvhar_1_1ShrinkageInits.html">ShrinkageInits</a> &amp;inits)</td></tr>
 <tr class="separator:ae679fed32432ce0e23b58399726e244f inherit pub_methods_classbvhar_1_1ShrinkageUpdater"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,8 +356,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1de80e65504e00018103161d14dde510" name="a1de80e65504e00018103161d14dde510"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1de80e65504e00018103161d14dde510">&#9670;&#160;</a></span>updateCoefPrec()</h2>
+<a id="a715990cfcb7a32f4be25ed097399c79c" name="a715990cfcb7a32f4be25ed097399c79c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715990cfcb7a32f4be25ed097399c79c">&#9670;&#160;</a></span>updateCoefPrec()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,7 +398,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::random::mt19937 &amp;&#160;</td>
+          <td class="paramtype">boost::random::mixmax &amp;&#160;</td>
           <td class="paramname"><em>rng</em>&#160;</td>
         </tr>
         <tr>
@@ -427,20 +427,20 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="classbvhar_1_1ShrinkageUpdater.html#aee32e8953c78ba72b25685ebe8a12c5d">bvhar::ShrinkageUpdater</a>.</p>
+<p>Reimplemented from <a class="el" href="classbvhar_1_1ShrinkageUpdater.html#a204555656383ba757c3486929a0d2528">bvhar::ShrinkageUpdater</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1HierminnUpdater_a1de80e65504e00018103161d14dde510_cgraph.png" border="0" usemap="#aclassbvhar_1_1HierminnUpdater_a1de80e65504e00018103161d14dde510_cgraph" alt=""/></div>
-<map name="aclassbvhar_1_1HierminnUpdater_a1de80e65504e00018103161d14dde510_cgraph" id="aclassbvhar_1_1HierminnUpdater_a1de80e65504e00018103161d14dde510_cgraph">
+<div class="center"><img src="classbvhar_1_1HierminnUpdater_a715990cfcb7a32f4be25ed097399c79c_cgraph.png" border="0" usemap="#aclassbvhar_1_1HierminnUpdater_a715990cfcb7a32f4be25ed097399c79c_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1HierminnUpdater_a715990cfcb7a32f4be25ed097399c79c_cgraph" id="aclassbvhar_1_1HierminnUpdater_a715990cfcb7a32f4be25ed097399c79c_cgraph">
 <area shape="rect" title="Draw precision of coefficient based on each shrinkage priors." alt="" coords="5,49,184,89"/>
-<area shape="rect" href="namespacebvhar.html#a4fe4229cf4a485926449c5ea07cb5b00" title=" " alt="" coords="232,27,424,52"/>
+<area shape="rect" href="namespacebvhar.html#aae3537b273ffe5b30ce05b79ec8c68c4" title=" " alt="" coords="232,27,424,52"/>
 <area shape="poly" title=" " alt="" coords="184,55,218,50,219,56,185,60"/>
-<area shape="rect" href="namespacebvhar.html#a347183c24d51974f9c516ed67f0cac02" title=" " alt="" coords="249,77,407,117"/>
+<area shape="rect" href="namespacebvhar.html#a52136d10b128d8ef05faf9c8f674a053" title=" " alt="" coords="249,77,407,117"/>
 <area shape="poly" title=" " alt="" coords="185,77,235,83,235,88,184,82"/>
 <area shape="rect" href="namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006" title=" " alt="" coords="739,5,875,31"/>
 <area shape="poly" title=" " alt="" coords="400,24,472,15,605,11,725,12,725,17,605,16,472,21,401,29"/>
-<area shape="rect" href="namespacebvhar.html#aaf0ffb0d0b12b1eeed3e0aabe057b211" title=" " alt="" coords="522,31,641,56"/>
+<area shape="rect" href="namespacebvhar.html#a579cce345237428c7e978c15846c0d5d" title=" " alt="" coords="522,31,641,56"/>
 <area shape="poly" title=" " alt="" coords="424,38,509,40,508,45,424,44"/>
 <area shape="poly" title=" " alt="" coords="641,34,725,24,725,30,641,39"/>
 <area shape="rect" href="namespacebvhar.html#a4f8efbfa8c4e28bf9165b513317a4120" title=" " alt="" coords="472,84,691,109"/>
@@ -450,8 +450,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a3d22d420510f62974a2a046a617675ee" name="a3d22d420510f62974a2a046a617675ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d22d420510f62974a2a046a617675ee">&#9670;&#160;</a></span>updateImpactPrec()</h2>
+<a id="a6bb5bf95940dc95e57ded153ca9b0c79" name="a6bb5bf95940dc95e57ded153ca9b0c79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb5bf95940dc95e57ded153ca9b0c79">&#9670;&#160;</a></span>updateImpactPrec()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,7 +474,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::random::mt19937 &amp;&#160;</td>
+          <td class="paramtype">boost::random::mixmax &amp;&#160;</td>
           <td class="paramname"><em>rng</em>&#160;</td>
         </tr>
         <tr>
@@ -500,18 +500,18 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="classbvhar_1_1ShrinkageUpdater.html#a2ff4b0dd379b9cf34445164644578cd1">bvhar::ShrinkageUpdater</a>.</p>
+<p>Reimplemented from <a class="el" href="classbvhar_1_1ShrinkageUpdater.html#acb6c6eebc3fafad1422ebe139d64d5c4">bvhar::ShrinkageUpdater</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classbvhar_1_1HierminnUpdater_a3d22d420510f62974a2a046a617675ee_cgraph.png" border="0" usemap="#aclassbvhar_1_1HierminnUpdater_a3d22d420510f62974a2a046a617675ee_cgraph" alt=""/></div>
-<map name="aclassbvhar_1_1HierminnUpdater_a3d22d420510f62974a2a046a617675ee_cgraph" id="aclassbvhar_1_1HierminnUpdater_a3d22d420510f62974a2a046a617675ee_cgraph">
+<div class="center"><img src="classbvhar_1_1HierminnUpdater_a6bb5bf95940dc95e57ded153ca9b0c79_cgraph.png" border="0" usemap="#aclassbvhar_1_1HierminnUpdater_a6bb5bf95940dc95e57ded153ca9b0c79_cgraph" alt=""/></div>
+<map name="aclassbvhar_1_1HierminnUpdater_a6bb5bf95940dc95e57ded153ca9b0c79_cgraph" id="aclassbvhar_1_1HierminnUpdater_a6bb5bf95940dc95e57ded153ca9b0c79_cgraph">
 <area shape="rect" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="5,5,184,45"/>
-<area shape="rect" href="namespacebvhar.html#a4fe4229cf4a485926449c5ea07cb5b00" title=" " alt="" coords="232,13,424,38"/>
+<area shape="rect" href="namespacebvhar.html#aae3537b273ffe5b30ce05b79ec8c68c4" title=" " alt="" coords="232,13,424,38"/>
 <area shape="poly" title=" " alt="" coords="185,23,218,23,218,28,185,28"/>
 <area shape="rect" href="namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006" title=" " alt="" coords="639,13,775,38"/>
 <area shape="poly" title=" " alt="" coords="424,23,625,23,625,28,424,28"/>
-<area shape="rect" href="namespacebvhar.html#aaf0ffb0d0b12b1eeed3e0aabe057b211" title=" " alt="" coords="472,38,591,63"/>
+<area shape="rect" href="namespacebvhar.html#a579cce345237428c7e978c15846c0d5d" title=" " alt="" coords="472,38,591,63"/>
 <area shape="poly" title=" " alt="" coords="425,35,459,39,458,44,424,40"/>
 <area shape="poly" title=" " alt="" coords="591,39,625,34,626,40,592,45"/>
 </map>

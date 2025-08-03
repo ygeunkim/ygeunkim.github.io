@@ -14,5 +14,5 @@ var classbvhar_1_1BayesForecaster =
     [ "lpl", "classbvhar_1_1BayesForecaster.html#a79029ba0db880af1f6e9092127cb936b", null ],
     [ "mtx", "classbvhar_1_1BayesForecaster.html#ae32cb63607201776fbbfa2c1102e46f0", null ],
     [ "num_sim", "classbvhar_1_1BayesForecaster.html#a2ddbf3c90833ed05cda1cb1f12b8e703", null ],
-    [ "rng", "classbvhar_1_1BayesForecaster.html#ae8ac12737bf0f0f6e6c69b048b613f8c", null ]
+    [ "rng", "classbvhar_1_1BayesForecaster.html#a64224d80c2a408f498a5d4911844e7a1", null ]
 ];

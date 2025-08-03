@@ -1,10 +1,10 @@
 var dl__helper_8h =
 [
-    [ "dl_latent", "dl__helper_8h.html#a3deeb9da0d9bfc1bd1d493019772b252", null ],
-    [ "dl_local_sparsity", "dl__helper_8h.html#a6e74f43e4ad5c983e3f7a4499e9e27e5", null ],
-    [ "dl_global_sparsity", "dl__helper_8h.html#ae8974271cfe38c584ab0784a92f3970d", null ],
-    [ "dl_mn_sparsity", "dl__helper_8h.html#abc8c34f1eec2f91d9cad434099fe2f3f", null ],
-    [ "dl_mn_sparsity", "dl__helper_8h.html#a694b08090d0444fff90d2f30156d2114", null ],
+    [ "dl_latent", "dl__helper_8h.html#ae4a982547dfcc089d766617fe301fea7", null ],
+    [ "dl_local_sparsity", "dl__helper_8h.html#a41591f76d8ad56e8b95c9edf6c007501", null ],
+    [ "dl_global_sparsity", "dl__helper_8h.html#a4d85457be855c031891048eaa7b5a0ea", null ],
+    [ "dl_mn_sparsity", "dl__helper_8h.html#a1da56722c04d90f100054c9b87824a6e", null ],
+    [ "dl_mn_sparsity", "dl__helper_8h.html#afd9b1bff65f3a07720a26c8281de08b6", null ],
     [ "dl_logdens_dir", "dl__helper_8h.html#a995b33adf973e070e11427951603931b", null ],
-    [ "dl_dir_griddy", "dl__helper_8h.html#ab504dab1f393bc44eeffe4a751aa4d94", null ]
+    [ "dl_dir_griddy", "dl__helper_8h.html#aec3db1a8f6241c296eee586c3656da21", null ]
 ];

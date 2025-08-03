@@ -25,5 +25,5 @@ var classbvhar_1_1MinnSpillover =
     [ "spillover", "classbvhar_1_1MinnSpillover.html#a3a53907172dbb47975a57c0c1c65f5be", null ],
     [ "record_warm", "classbvhar_1_1MinnSpillover.html#a49d116e6cd65c7ef3d86bfb6655c5e7b", null ],
     [ "record", "classbvhar_1_1MinnSpillover.html#afb1bc983eaef6916bb68cb515deab5d5", null ],
-    [ "rng", "classbvhar_1_1MinnSpillover.html#abefef9ca46dd2e21390eb1d75513a38f", null ]
+    [ "rng", "classbvhar_1_1MinnSpillover.html#ad60bd9b2f50c296638fc233e0be2b3fe", null ]
 ];

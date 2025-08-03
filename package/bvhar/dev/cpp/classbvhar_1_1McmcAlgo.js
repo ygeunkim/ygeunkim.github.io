@@ -9,6 +9,6 @@ var classbvhar_1_1McmcAlgo =
     [ "mtx", "classbvhar_1_1McmcAlgo.html#a1d886396387a7fa41432409d390752fe", null ],
     [ "num_iter", "classbvhar_1_1McmcAlgo.html#ab1368cfc9b42dba3a74b70698b053c80", null ],
     [ "mcmc_step", "classbvhar_1_1McmcAlgo.html#abfe39f16561cc14e15415a2f95983a9e", null ],
-    [ "rng", "classbvhar_1_1McmcAlgo.html#af68083d6eb4bc00dcbd7511f6d344ad9", null ],
+    [ "rng", "classbvhar_1_1McmcAlgo.html#a7df717a0dec3f9aca08241f12041ef2f", null ],
     [ "debug_logger", "classbvhar_1_1McmcAlgo.html#a33370912b27bdd5915fe6a3f01a19f07", null ]
 ];

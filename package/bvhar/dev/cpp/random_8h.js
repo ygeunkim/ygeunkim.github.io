@@ -1,9 +1,9 @@
 var random_8h =
 [
-    [ "sim_mgaussian_eigen", "random_8h.html#ab83267fb9cd94476d0fc29f4e01b9f8c", null ],
-    [ "sim_mgaussian_chol", "random_8h.html#a78b640d2e12075d23207a062ef51eddf", null ],
-    [ "sim_mstudent_eigen", "random_8h.html#a987e55dab1047dc5cec22d5eae819a00", null ],
-    [ "sim_mstudent_chol", "random_8h.html#a27c8d13d978010c2d59c139aabdd11f4", null ],
+    [ "sim_mgaussian_eigen", "random_8h.html#a817f0ad55d8bf5dd2d30dc78a69778f0", null ],
+    [ "sim_mgaussian_chol", "random_8h.html#a96f0bcf326058b0f644c3b812e717c17", null ],
+    [ "sim_mstudent_eigen", "random_8h.html#ad91b68ef1459d043f67d48b762731299", null ],
+    [ "sim_mstudent_chol", "random_8h.html#a6bf68bd2aedc30e7a8ca5c70b280da93", null ],
     [ "sim_mgaussian_eigen", "random_8h.html#aeb88ff0b24085267c635bf4ca6fb5219", null ],
     [ "sim_mgaussian_chol", "random_8h.html#a9a6a648f32478ed26de42232f61c8176", null ],
     [ "sim_mstudent_eigen", "random_8h.html#a4d6b9be043f1c5d85bd505d13ded835b", null ],
@@ -13,9 +13,9 @@ var random_8h =
     [ "sim_inv_wishart", "random_8h.html#a16f6b6f4d77ccc011d094a32b320ee98", null ],
     [ "sim_mn_iw", "random_8h.html#a7a0a588ca841b959be2a134105c591c5", null ],
     [ "sim_wishart", "random_8h.html#af927c386b17ddc79424d1741479c9004", null ],
-    [ "sim_mn", "random_8h.html#ac39e1d9fba8fd61c19aee102efb0ce46", null ],
-    [ "sim_iw_tri", "random_8h.html#a71b0f4e8ddcbef169089916be950f8a6", null ],
-    [ "sim_mn_iw", "random_8h.html#afc9d86e04e7be45182705e172f241cbb", null ],
-    [ "sim_gig", "random_8h.html#aaf0ffb0d0b12b1eeed3e0aabe057b211", null ],
-    [ "sim_invgauss", "random_8h.html#a701898c90db3d9ab804498128b6df9f7", null ]
+    [ "sim_mn", "random_8h.html#a1feb42d86d8171f18d6538624c31052d", null ],
+    [ "sim_iw_tri", "random_8h.html#a8ca8d35a2dff3f8416445df4fcefa991", null ],
+    [ "sim_mn_iw", "random_8h.html#a35a6a2c17e9f406245e6b98a629101bd", null ],
+    [ "sim_gig", "random_8h.html#a579cce345237428c7e978c15846c0d5d", null ],
+    [ "sim_invgauss", "random_8h.html#a75701e427c84e596e7b7b2e9f920a683", null ]
 ];

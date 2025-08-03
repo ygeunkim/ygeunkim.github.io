@@ -2,9 +2,9 @@ var searchData=
 [
   ['varforecaster_0',['varforecaster',['../classbvhar_1_1VarForecaster.html#ae7dc20c1802fea803509f42312534a68',1,'bvhar::VarForecaster::VarForecaster(const OlsFit &amp;fit, int step, const Eigen::MatrixXd &amp;response_mat, bool include_mean, BVHAR_OPTIONAL&lt; std::unique_ptr&lt; OlsErrorGenerator &gt; &gt; dgp_updater=boost::none)'],['../classbvhar_1_1VarForecaster.html#abec39ef4dfacb11197ada594362cded1',1,'bvhar::VarForecaster::VarForecaster(const OlsFit &amp;fit, std::unique_ptr&lt; OlsExogenForecaster &gt; exogen_updater, int step, const Eigen::MatrixXd &amp;response_mat, bool include_mean, BVHAR_OPTIONAL&lt; std::unique_ptr&lt; OlsErrorGenerator &gt; &gt; dgp_updater=boost::none)']]],
   ['varoutforecastrun_1',['VarOutforecastRun',['../classbvhar_1_1VarOutforecastRun.html#aa54cdf89dae4146d7dce355d117ab647',1,'bvhar::VarOutforecastRun']]],
-  ['varsv_5fh0_2',['varsv_h0',['../namespacebvhar.html#afff9e42bb32ac9d0d5f4cbf9327d9eac',1,'bvhar']]],
-  ['varsv_5fht_3',['varsv_ht',['../namespacebvhar.html#a35f9e0939e2342d23a6763fbedf113bf',1,'bvhar']]],
-  ['varsv_5fsigh_4',['varsv_sigh',['../namespacebvhar.html#afe5a3ebee84622c2c286a387cf545a7c',1,'bvhar']]],
+  ['varsv_5fh0_2',['varsv_h0',['../namespacebvhar.html#af64e4c2147064e72f39644d7222caca4',1,'bvhar']]],
+  ['varsv_5fht_3',['varsv_ht',['../namespacebvhar.html#a2d4c788e3ee2ee84a4b0aa2d61072527',1,'bvhar']]],
+  ['varsv_5fsigh_4',['varsv_sigh',['../namespacebvhar.html#a4726f289aca8155329fe958cecbe81d1',1,'bvhar']]],
   ['vharforecaster_5',['vharforecaster',['../classbvhar_1_1VharForecaster.html#a097edda49b024e4b13e68b7eca1f25b0',1,'bvhar::VharForecaster::VharForecaster(const OlsFit &amp;fit, int step, const Eigen::MatrixXd &amp;response_mat, const Eigen::MatrixXd &amp;har_trans, bool include_mean, BVHAR_OPTIONAL&lt; std::unique_ptr&lt; OlsErrorGenerator &gt; &gt; dgp_updater=boost::none)'],['../classbvhar_1_1VharForecaster.html#a5518100abb2292801ce7eb30dde28e58',1,'bvhar::VharForecaster::VharForecaster(const OlsFit &amp;fit, std::unique_ptr&lt; OlsExogenForecaster &gt; exogen_updater, int step, const Eigen::MatrixXd &amp;response_mat, const Eigen::MatrixXd &amp;har_trans, bool include_mean, BVHAR_OPTIONAL&lt; std::unique_ptr&lt; OlsErrorGenerator &gt; &gt; dgp_updater=boost::none)']]],
   ['vharoutforecastrun_6',['VharOutforecastRun',['../classbvhar_1_1VharOutforecastRun.html#a6f0e7232d8000470383c5b1baa928384',1,'bvhar::VharOutforecastRun']]]
 ];
