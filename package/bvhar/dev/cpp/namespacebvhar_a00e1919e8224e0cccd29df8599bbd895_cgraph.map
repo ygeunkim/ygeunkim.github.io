@@ -1,9 +1,5 @@
 <map id="bvhar::initialize_ctaspillover" name="bvhar::initialize_ctaspillover">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,212,56"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,212,31"/>
 <area shape="rect" id="Node000002" href="$namespacebvhar.html#a8a35481038e8aba9b0da146628163d1e" title="Initialize MCMC record used in forecast classes." alt="" coords="260,5,431,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,30,246,26,247,31,213,35"/>
-<area shape="rect" id="Node000003" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="479,31,616,56"/>
-<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="212,41,465,41,465,46,212,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="432,26,465,30,465,36,431,31"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="514,32,507,22,511,12,525,6,547,4,575,8,586,17,583,21,573,13,547,9,526,11,515,16,513,22,519,29"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,15,246,15,246,21,212,21"/>
 </map>
