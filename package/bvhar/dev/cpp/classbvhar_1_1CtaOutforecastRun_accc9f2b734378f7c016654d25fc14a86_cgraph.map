@@ -1,9 +1,12 @@
 <map id="bvhar::CtaOutforecastRun::initialize" name="bvhar::CtaOutforecastRun::initialize">
-<area shape="rect" id="Node000001" title="Initialize every member of CtaOutforecastRun" alt="" coords="5,69,196,109"/>
+<area shape="rect" id="Node000001" title="Initialize every member of CtaOutforecastRun" alt="" coords="5,101,196,141"/>
 <area shape="rect" id="Node000002" href="$classbvhar_1_1CtaOutforecastRun.html#a93135c05250dbdbc17eb86f6312b12e3" title="Define input in each window." alt="" coords="244,5,435,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,67,250,46,252,51,177,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,99,243,55,262,48,264,53,245,60,145,104"/>
 <area shape="rect" id="Node000003" href="$classbvhar_1_1CtaOutforecastRun.html#a2a21024005d3a47a17abbc1f8ea43d66" title="Initialize forecaster." alt="" coords="244,69,435,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,87,230,87,230,92,196,92"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,106,230,101,231,107,197,111"/>
 <area shape="rect" id="Node000004" href="$classbvhar_1_1CtaOutforecastRun.html#a612dbcdfdda8a3a460c11ccdcb03f18e" title="Initialize CTA." alt="" coords="244,133,435,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,107,252,127,250,132,175,112"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="197,131,231,136,230,141,196,137"/>
+<area shape="rect" id="Node000005" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="271,222,408,247"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="145,139,300,214,298,218,142,144"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="301,224,292,214,297,204,313,198,339,195,373,199,385,209,382,213,371,204,339,201,314,203,300,208,298,213,305,220"/>
 </map>

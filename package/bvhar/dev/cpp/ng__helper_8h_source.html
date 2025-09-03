@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9006</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9007</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -224,7 +224,7 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  log_ratio -= num_coef * gamma_hyper * (log(gamma_hyper) - 2 * log(global_param));</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  log_ratio += (cand - gamma_hyper) * local_param.array().log().sum();</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  log_ratio += (gamma_hyper - cand) * local_param.array().square().sum() / (global_param * global_param);</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <span class="keywordflow">if</span> (log(unif_rand(rng)) &lt; std::min(log_ratio, 0.0)) {</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <span class="keywordflow">if</span> (log(unif_rand(rng)) &lt; <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::min</a>(log_ratio, 0.0)) {</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordflow">return</span> cand;</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  }</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  <span class="comment">// double acc_ratio = (cand / gamma_hyper) * pow(gammafn(gamma_hyper) / gammafn(cand), num_coef);</span></div>
@@ -270,10 +270,11 @@ $(document).ready(function(){initNavTree('ng__helper_8h_source.html',''); initRe
 <div class="ttc" id="anamespacebvhar_html_a1ecfd97b2cc9bd9db0a6452171fb6ea8"><div class="ttname"><a href="namespacebvhar.html#a1ecfd97b2cc9bd9db0a6452171fb6ea8">bvhar::ng_mn_shape_jump</a></div><div class="ttdeci">void ng_mn_shape_jump(Eigen::VectorXd &amp;gamma_hyper, Eigen::VectorXd &amp;local_param, Eigen::VectorXd &amp;group_param, Eigen::VectorXi &amp;grp_vec, Eigen::VectorXi &amp;grp_id, double &amp;global_param, double lognormal_sd, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> ng_helper.h:129</div></div>
 <div class="ttc" id="anamespacebvhar_html_a2210bad581a39459d025174af996663e"><div class="ttname"><a href="namespacebvhar.html#a2210bad581a39459d025174af996663e">bvhar::ng_global_sparsity</a></div><div class="ttdeci">double ng_global_sparsity(Eigen::Ref&lt; const Eigen::VectorXd &gt; local_param, double &amp;hyper_gamma, double &amp;shape, double &amp;scl, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> ng_helper.h:48</div></div>
 <div class="ttc" id="anamespacebvhar_html_a576d44ba1c55f91d0d563833ded8d92c"><div class="ttname"><a href="namespacebvhar.html#a576d44ba1c55f91d0d563833ded8d92c">bvhar::ng_mn_sparsity</a></div><div class="ttdeci">void ng_mn_sparsity(Eigen::VectorXd &amp;group_param, Eigen::VectorXi &amp;grp_vec, Eigen::VectorXi &amp;grp_id, Eigen::VectorXd &amp;hyper_gamma, double &amp;global_param, Eigen::VectorXd &amp;local_param, double &amp;shape, double &amp;scl, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> ng_helper.h:84</div></div>
-<div class="ttc" id="anamespacebvhar_html_a579cce345237428c7e978c15846c0d5d"><div class="ttname"><a href="namespacebvhar.html#a579cce345237428c7e978c15846c0d5d">bvhar::sim_gig</a></div><div class="ttdeci">double sim_gig(double lambda, double psi, double chi, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> random.h:290</div></div>
+<div class="ttc" id="anamespacebvhar_html_a579cce345237428c7e978c15846c0d5d"><div class="ttname"><a href="namespacebvhar.html#a579cce345237428c7e978c15846c0d5d">bvhar::sim_gig</a></div><div class="ttdeci">double sim_gig(double lambda, double psi, double chi, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> random.h:315</div></div>
 <div class="ttc" id="anamespacebvhar_html_a87afd8138254a84f038f1bb673f7dfdf"><div class="ttname"><a href="namespacebvhar.html#a87afd8138254a84f038f1bb673f7dfdf">bvhar::ng_shape_jump</a></div><div class="ttdeci">double ng_shape_jump(double &amp;gamma_hyper, Eigen::VectorXd &amp;local_param, double global_param, double lognormal_sd, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> ng_helper.h:106</div></div>
 <div class="ttc" id="anamespacebvhar_html_a9169efcc0851c664c3fb8f696c1c6006"><div class="ttname"><a href="namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006">bvhar::cut_param</a></div><div class="ttdeci">void cut_param(Eigen::Ref&lt; Eigen::VectorXd &gt; param)</div><div class="ttdef"><b>Definition</b> helper.h:36</div></div>
 <div class="ttc" id="anamespacebvhar_html_a93619c0ace2c433b212a75249f5ca1e5"><div class="ttname"><a href="namespacebvhar.html#a93619c0ace2c433b212a75249f5ca1e5">bvhar::ng_local_sparsity</a></div><div class="ttdeci">void ng_local_sparsity(Eigen::VectorXd &amp;local_param, double &amp;shape, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, Eigen::Ref&lt; const Eigen::VectorXd &gt; global_param, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> ng_helper.h:15</div></div>
+<div class="ttc" id="anamespacestd_html_a03d5ca705e3360c607bf2586e9a9de3b"><div class="ttname"><a href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::make_unique</a></div><div class="ttdeci">unique_ptr&lt; T &gt; make_unique(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> commondefs.h:121</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

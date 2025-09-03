@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9006</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9007</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -112,12 +112,12 @@ $(document).ready(function(){initNavTree('interrupt_8h_source.html',''); initRes
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="classbvhar_1_1bvharinterrupt.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="classbvhar_1_1bvharinterrupt.html">bvharinterrupt</a> {</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  <span class="keyword">static</span> std::atomic&lt;bool&gt;&amp; interrupted() {</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">static</span> std::atomic&lt;bool&gt; <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">_interrupted</a>(<span class="keyword">false</span>);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">_interrupted</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  <span class="keyword">static</span> <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::atomic&lt;bool&gt;</a>&amp; interrupted() {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">static</span> <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::atomic&lt;bool&gt;</a> _interrupted(<span class="keyword">false</span>);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordflow">return</span> _interrupted;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  }</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> handle_signal(<span class="keywordtype">int</span> <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">signal</a>) {</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">signal</a> == <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">SIGINT</a>) {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> handle_signal(<span class="keywordtype">int</span> signal) {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordflow">if</span> (signal == SIGINT) {</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>      interrupted().store(<span class="keyword">true</span>);</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    }</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  }</div>
@@ -125,7 +125,7 @@ $(document).ready(function(){initNavTree('interrupt_8h_source.html',''); initRes
 <div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classbvhar_1_1bvharinterrupt.html#a550da36d13332caecddcfd3e9fa721a0">   23</a></span>  <a class="code hl_function" href="classbvhar_1_1bvharinterrupt.html#a550da36d13332caecddcfd3e9fa721a0">bvharinterrupt</a>() {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <a class="code hl_function" href="classbvhar_1_1bvharinterrupt.html#a07364e5ec2fd4defdb5d8bf7fbd6157a">reset</a>();</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    std::signal(<a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">SIGINT</a>, bvharinterrupt::handle_signal);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::signal</a>(SIGINT, bvharinterrupt::handle_signal);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  }</div>
 </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="classbvhar_1_1bvharinterrupt.html#a0a9ebb6d8b3d4e79a9a3c7cbbaa13654">   27</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classbvhar_1_1bvharinterrupt.html#a0a9ebb6d8b3d4e79a9a3c7cbbaa13654">~bvharinterrupt</a>() = <span class="keywordflow">default</span>;</div>
@@ -150,8 +150,8 @@ $(document).ready(function(){initNavTree('interrupt_8h_source.html',''); initRes
 <div class="ttc" id="aclassbvhar_1_1bvharinterrupt_html_a0a9ebb6d8b3d4e79a9a3c7cbbaa13654"><div class="ttname"><a href="classbvhar_1_1bvharinterrupt.html#a0a9ebb6d8b3d4e79a9a3c7cbbaa13654">bvhar::bvharinterrupt::~bvharinterrupt</a></div><div class="ttdeci">virtual ~bvharinterrupt()=default</div></div>
 <div class="ttc" id="aclassbvhar_1_1bvharinterrupt_html_a550da36d13332caecddcfd3e9fa721a0"><div class="ttname"><a href="classbvhar_1_1bvharinterrupt.html#a550da36d13332caecddcfd3e9fa721a0">bvhar::bvharinterrupt::bvharinterrupt</a></div><div class="ttdeci">bvharinterrupt()</div><div class="ttdef"><b>Definition</b> interrupt.h:23</div></div>
 <div class="ttc" id="aclassbvhar_1_1bvharinterrupt_html_acdf8b4665ecefab274aa4724c7029eda"><div class="ttname"><a href="classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda">bvhar::bvharinterrupt::is_interrupted</a></div><div class="ttdeci">static bool is_interrupted()</div><div class="ttdef"><b>Definition</b> interrupt.h:28</div></div>
-<div class="ttc" id="acommondefs_8h_html_a9d75dd3d2aabcb6daaf6019f07066f20"><div class="ttname"><a href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">BVHAR_CAST</a></div><div class="ttdeci">#define BVHAR_CAST</div><div class="ttdef"><b>Definition</b> commondefs.h:39</div></div>
 <div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> bayes.h:16</div></div>
+<div class="ttc" id="anamespacestd_html_a03d5ca705e3360c607bf2586e9a9de3b"><div class="ttname"><a href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::make_unique</a></div><div class="ttdeci">unique_ptr&lt; T &gt; make_unique(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> commondefs.h:121</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -69,10 +69,10 @@ var NAVTREEINDEX =
 "classbvhar_1_1OlsRollforecastRun.html#a2889d5cd03ff2c4458522cf094c789e6",
 "classbvhar_1_1VarForecaster.html#af6d5fb36f8fac889dae8e8d664067661",
 "gdp__helper_8h.html#ad4d88410c0399a67585f3841dfc053e3",
-"reg_8h_source.html",
-"structbvhar_1_1LdltRecords.html#a3e07a0a88ca221147981e45a64f21ada",
-"structbvhar_1_1RegParams.html#a54fa1c33193949b9096570bddf8b7a20",
-"structbvhar_1_1SsvsRecords.html#af9909f48df170ce0dfae55f117aee4a5"
+"reg_8h.html#a328780dc7cc157f403e581ab251a7f35",
+"structbvhar_1_1LdltRecords.html#a318895b3a62c7aafc9400e80035ecb50",
+"structbvhar_1_1RegParams.html#a3dafd9f6ecb6bf94b5a3964619fd1898",
+"structbvhar_1_1SsvsRecords.html#aeb51fa44517982b383d5280b822e3ebe"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

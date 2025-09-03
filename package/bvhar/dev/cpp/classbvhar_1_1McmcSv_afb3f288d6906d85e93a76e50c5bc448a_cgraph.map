@@ -1,5 +1,8 @@
 <map id="bvhar::McmcSv::McmcSv" name="bvhar::McmcSv::McmcSv">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,189,38"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,54,189,79"/>
 <area shape="rect" id="Node000002" href="$structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71" title="Assign MCMC draw to the draw matrix." alt="" coords="237,5,400,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,23,224,23,224,28,190,28"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,51,223,40,224,46,167,57"/>
+<area shape="rect" id="Node000003" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="250,94,387,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,77,237,89,236,94,168,82"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="283,96,275,86,279,76,294,70,319,67,349,71,362,80,358,84,347,76,319,73,295,75,282,80,280,85,287,92"/>
 </map>

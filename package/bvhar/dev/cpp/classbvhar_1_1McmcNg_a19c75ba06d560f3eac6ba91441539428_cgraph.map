@@ -1,15 +1,18 @@
 <map id="bvhar::McmcNg::updateImpactPrec" name="bvhar::McmcNg::updateImpactPrec">
-<area shape="rect" id="Node000001" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="5,56,256,81"/>
+<area shape="rect" id="Node000001" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="5,95,256,120"/>
 <area shape="rect" id="Node000002" href="$namespacebvhar.html#a2210bad581a39459d025174af996663e" title=" " alt="" coords="532,5,721,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,53,304,41,518,22,518,27,304,46,211,59"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a93619c0ace2c433b212a75249f5ca1e5" title=" " alt="" coords="304,56,484,81"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="256,66,290,66,290,71,256,71"/>
-<area shape="rect" id="Node000006" href="$namespacebvhar.html#a87afd8138254a84f038f1bb673f7dfdf" title=" " alt="" coords="309,105,479,131"/>
-<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="200,79,312,100,311,105,199,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,92,541,31,542,36,203,97"/>
+<area shape="rect" id="Node000004" href="$namespacebvhar.html#a93619c0ace2c433b212a75249f5ca1e5" title=" " alt="" coords="304,95,484,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="256,105,290,105,290,110,256,110"/>
+<area shape="rect" id="Node000006" href="$namespacebvhar.html#a87afd8138254a84f038f1bb673f7dfdf" title=" " alt="" coords="309,156,479,181"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="187,117,326,150,325,156,185,123"/>
 <area shape="rect" id="Node000003" href="$namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006" title=" " alt="" coords="769,56,905,81"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="681,28,772,50,770,55,680,33"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="485,66,756,66,756,71,485,71"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="484,96,532,91,755,72,756,78,532,97,485,101"/>
 <area shape="rect" id="Node000005" href="$namespacebvhar.html#a579cce345237428c7e978c15846c0d5d" title=" " alt="" coords="567,107,686,132"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="454,79,555,101,554,106,453,84"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="484,109,554,113,554,118,484,115"/>
 <area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="680,104,770,82,772,87,681,109"/>
+<area shape="rect" id="Node000007" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="558,180,695,205"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="479,175,545,182,544,187,479,180"/>
+<area shape="poly" id="edge9_Node000007_Node000007" title=" " alt="" coords="592,182,585,172,589,162,603,156,627,153,656,157,668,166,664,170,654,162,627,159,604,161,592,165,590,171,596,178"/>
 </map>

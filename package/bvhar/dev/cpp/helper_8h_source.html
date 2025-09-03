@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9006</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9007</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('helper_8h_source.html',''); initResiza
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// Build std::set own-id and cross-id based on VectorXd</span></div>
 <div class="foldopen" id="foldopen00012" data-start="{" data-end="}">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a4259e76082437051b0f410f0edfd51d5">   12</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a4259e76082437051b0f410f0edfd51d5">set_grp_id</a>(std::set&lt;int&gt;&amp; own_id, std::set&lt;int&gt; cross_id, <span class="keyword">const</span> Eigen::VectorXi&amp; grp_own, <span class="keyword">const</span> Eigen::VectorXi&amp; grp_cross) {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a4259e76082437051b0f410f0edfd51d5">   12</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a4259e76082437051b0f410f0edfd51d5">set_grp_id</a>(<a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::set&lt;int&gt;</a>&amp; own_id, <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::set&lt;int&gt;</a> cross_id, <span class="keyword">const</span> Eigen::VectorXi&amp; grp_own, <span class="keyword">const</span> Eigen::VectorXi&amp; grp_cross) {</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; grp_own.size(); ++i) {</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    own_id.insert(grp_own[i]);</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  }</div>
@@ -174,6 +174,7 @@ $(document).ready(function(){initNavTree('helper_8h_source.html',''); initResiza
 <div class="ttc" id="anamespacebvhar_html_a4259e76082437051b0f410f0edfd51d5"><div class="ttname"><a href="namespacebvhar.html#a4259e76082437051b0f410f0edfd51d5">bvhar::set_grp_id</a></div><div class="ttdeci">void set_grp_id(std::set&lt; int &gt; &amp;own_id, std::set&lt; int &gt; cross_id, const Eigen::VectorXi &amp;grp_own, const Eigen::VectorXi &amp;grp_cross)</div><div class="ttdef"><b>Definition</b> helper.h:12</div></div>
 <div class="ttc" id="anamespacebvhar_html_a9169efcc0851c664c3fb8f696c1c6006"><div class="ttname"><a href="namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006">bvhar::cut_param</a></div><div class="ttdeci">void cut_param(Eigen::Ref&lt; Eigen::VectorXd &gt; param)</div><div class="ttdef"><b>Definition</b> helper.h:36</div></div>
 <div class="ttc" id="anamespacebvhar_html_ae39bebbc220145e3bf7b965b5dfbf959"><div class="ttname"><a href="namespacebvhar.html#ae39bebbc220145e3bf7b965b5dfbf959">bvhar::build_inv_lower</a></div><div class="ttdeci">Eigen::MatrixXd build_inv_lower(int dim, Eigen::VectorXd lower_vec)</div><div class="ttdef"><b>Definition</b> helper.h:53</div></div>
+<div class="ttc" id="anamespacestd_html_a03d5ca705e3360c607bf2586e9a9de3b"><div class="ttname"><a href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::make_unique</a></div><div class="ttdeci">unique_ptr&lt; T &gt; make_unique(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> commondefs.h:121</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
