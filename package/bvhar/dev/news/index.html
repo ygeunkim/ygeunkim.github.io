@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9006</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9007</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,6 +62,7 @@
 <h3 id="important-changes-development-version">Important changes<a class="anchor" aria-label="anchor" href="#important-changes-development-version"></a></h3>
 <ul><li><p><code>bvhar</code>-related packages now use <code>boost::random::mixmax</code> instead of <code>boost::random::mt19937</code> for pRNG, which is the same with Stan. This will affect every MCMC results of this library.</p></li>
 <li><p>Fixed DL prior’s latent parameter sampling.</p></li>
+<li><p>Fixed upper triangular Bartlett decomposition for inverse-Wishart rng. This change affects every results that uses MNIW in the posterior sampling.</p></li>
 </ul></div>
 <div class="section level3">
 <h3 id="internal-changes-c-development-version">Internal changes (C++)<a class="anchor" aria-label="anchor" href="#internal-changes-c-development-version"></a></h3>
