@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9008</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9009</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -155,7 +155,10 @@
 
 
 <dt id="arg-y-test">y_test<a class="anchor" aria-label="anchor" href="#arg-y-test"></a></dt>
-<dd><p>Test data to be compared. Use <code><a href="divide_ts.html">divide_ts()</a></code> if you don't have separate evaluation dataset.</p></dd>
+<dd><p>Test data to be compared. Use <code><a href="divide_ts.html">divide_ts()</a></code> if you don't have separate evaluation dataset.
+Use numeric, the length of test period, if <code>object</code> is the full sample result.
+Numeric <code>y_test</code> will automatically splits <code>object$y</code>.
+In this case, <code>use_fit</code> is forced to become <code>FALSE</code>.</p></dd>
 
 
 <dt id="arg-level">level<a class="anchor" aria-label="anchor" href="#arg-level"></a></dt>
