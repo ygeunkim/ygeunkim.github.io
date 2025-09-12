@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9008</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9009</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -690,12 +690,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a57ed0818529c0f14c71c14ac8f488a10"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::vector</a>&lt; <a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; BaseForecaster &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#a57ed0818529c0f14c71c14ac8f488a10">initialize_ctaforecaster</a> (int num_chains, int ord, int step, const Eigen::MatrixXd &amp;response_mat, bool sparse, double level, Rcpp::List &amp;fit_record, Eigen::Ref&lt; const Eigen::VectorXi &gt; seed_chain, bool include_mean, bool stable, int nthreads, bool sv=true, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Eigen::MatrixXd &gt; har_trans=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Eigen::MatrixXd &gt; exogen=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; exogen_lag=boost::none)</td></tr>
 <tr class="memdesc:a57ed0818529c0f14c71c14ac8f488a10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the vector of forecast class smart pointer.  <br /></td></tr>
 <tr class="separator:a57ed0818529c0f14c71c14ac8f488a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad15e0e69030b7085d25a1fc16cde54f2" id="r_ad15e0e69030b7085d25a1fc16cde54f2"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = CtaRollforecastRun, typename BaseForecaster  = RegForecaster&gt; </td></tr>
-<tr class="memitem:ad15e0e69030b7085d25a1fc16cde54f2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#ad15e0e69030b7085d25a1fc16cde54f2">initialize_ctaoutforecaster</a> (const Eigen::MatrixXd &amp;y, int lag, int num_chains, int num_iter, int num_burn, int thinning, bool sparse, double level, Rcpp::List &amp;fit_record, bool run_mcmc, Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, bool ggl, Rcpp::List &amp;contem_prior, Rcpp::List &amp;contem_init, int contem_prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, bool include_mean, bool stable, int step, const Eigen::MatrixXd &amp;y_test, bool get_lpl, const Eigen::MatrixXi &amp;seed_chain, const Eigen::VectorXi &amp;seed_forecast, bool display_progress, int nthreads, const bool sv, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Rcpp::List &gt; exogen_prior=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Rcpp::List &gt; exogen_init=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; exogen_prior_type=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Eigen::MatrixXd &gt; exogen=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; exogen_lag=boost::none)</td></tr>
-<tr class="separator:ad15e0e69030b7085d25a1fc16cde54f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a636dad9a8dbdb0bb42292346e56bfc40" id="r_a636dad9a8dbdb0bb42292346e56bfc40"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = CtaRollforecastRun, typename BaseForecaster  = RegForecaster&gt; </td></tr>
-<tr class="memitem:a636dad9a8dbdb0bb42292346e56bfc40"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#a636dad9a8dbdb0bb42292346e56bfc40">initialize_ctaoutforecaster</a> (const Eigen::MatrixXd &amp;y, int week, int month, int num_chains, int num_iter, int num_burn, int thinning, bool sparse, double level, Rcpp::List &amp;fit_record, bool run_mcmc, Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, bool ggl, Rcpp::List &amp;contem_prior, Rcpp::List &amp;contem_init, int contem_prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, bool include_mean, bool stable, int step, const Eigen::MatrixXd &amp;y_test, bool get_lpl, const Eigen::MatrixXi &amp;seed_chain, const Eigen::VectorXi &amp;seed_forecast, bool display_progress, int nthreads, const bool sv, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Rcpp::List &gt; exogen_prior=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Rcpp::List &gt; exogen_init=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; exogen_prior_type=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Eigen::MatrixXd &gt; exogen=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; exogen_lag=boost::none)</td></tr>
-<tr class="separator:a636dad9a8dbdb0bb42292346e56bfc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae835508b37e846a053c8648ba0b34e65" id="r_ae835508b37e846a053c8648ba0b34e65"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = CtaRollforecastRun, typename BaseForecaster  = RegForecaster&gt; </td></tr>
+<tr class="memitem:ae835508b37e846a053c8648ba0b34e65"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#ae835508b37e846a053c8648ba0b34e65">initialize_ctaoutforecaster</a> (const Eigen::MatrixXd &amp;y, int lag, int num_chains, int num_iter, int num_burn, int thinning, bool sparse, double level, Rcpp::List &amp;fit_record, bool run_mcmc, Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, bool ggl, Rcpp::List &amp;contem_prior, Rcpp::List &amp;contem_init, int contem_prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, bool include_mean, bool stable, int step, const Eigen::MatrixXd &amp;y_test, bool get_lpl, bool use_fit, const Eigen::MatrixXi &amp;seed_chain, const Eigen::VectorXi &amp;seed_forecast, bool display_progress, int nthreads, const bool sv, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Rcpp::List &gt; exogen_prior=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Rcpp::List &gt; exogen_init=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; exogen_prior_type=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Eigen::MatrixXd &gt; exogen=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; exogen_lag=boost::none)</td></tr>
+<tr class="separator:ae835508b37e846a053c8648ba0b34e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4599c3de6d9b146ee72e9445164d99fd" id="r_a4599c3de6d9b146ee72e9445164d99fd"><td class="memTemplParams" colspan="2">template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = CtaRollforecastRun, typename BaseForecaster  = RegForecaster&gt; </td></tr>
+<tr class="memitem:a4599c3de6d9b146ee72e9445164d99fd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcOutforecastInterface.html">McmcOutforecastInterface</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#a4599c3de6d9b146ee72e9445164d99fd">initialize_ctaoutforecaster</a> (const Eigen::MatrixXd &amp;y, int week, int month, int num_chains, int num_iter, int num_burn, int thinning, bool sparse, double level, Rcpp::List &amp;fit_record, bool run_mcmc, Rcpp::List &amp;param_reg, Rcpp::List &amp;param_prior, Rcpp::List &amp;param_intercept, Rcpp::List &amp;param_init, int prior_type, bool ggl, Rcpp::List &amp;contem_prior, Rcpp::List &amp;contem_init, int contem_prior_type, const Eigen::VectorXi &amp;grp_id, const Eigen::VectorXi &amp;own_id, const Eigen::VectorXi &amp;cross_id, const Eigen::MatrixXi &amp;grp_mat, bool include_mean, bool stable, int step, const Eigen::MatrixXd &amp;y_test, bool get_lpl, bool use_fit, const Eigen::MatrixXi &amp;seed_chain, const Eigen::VectorXi &amp;seed_forecast, bool display_progress, int nthreads, const bool sv, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Rcpp::List &gt; exogen_prior=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Rcpp::List &gt; exogen_init=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; exogen_prior_type=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Eigen::MatrixXd &gt; exogen=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; exogen_lag=boost::none)</td></tr>
+<tr class="separator:a4599c3de6d9b146ee72e9445164d99fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00e1919e8224e0cccd29df8599bbd895" id="r_a00e1919e8224e0cccd29df8599bbd895"><td class="memTemplParams" colspan="2">template&lt;typename RecordType  = LdltRecords&gt; </td></tr>
 <tr class="memitem:a00e1919e8224e0cccd29df8599bbd895"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr</a>&lt; <a class="el" href="classbvhar_1_1McmcSpillover.html">McmcSpillover</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#a00e1919e8224e0cccd29df8599bbd895">initialize_ctaspillover</a> (int chain_id, int lag, int step, Rcpp::List &amp;fit_record, bool sparse, int id=-1, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; Eigen::MatrixXd &gt; har_trans=boost::none, <a class="el" href="common_8h.html#a86a80d5eec2ef849167f34308b38dea2">BVHAR_OPTIONAL</a>&lt; int &gt; week=boost::none)</td></tr>
 <tr class="separator:a00e1919e8224e0cccd29df8599bbd895"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6403,8 +6403,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ad15e0e69030b7085d25a1fc16cde54f2" name="ad15e0e69030b7085d25a1fc16cde54f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad15e0e69030b7085d25a1fc16cde54f2">&#9670;&#160;</a></span>initialize_ctaoutforecaster() <span class="overload">[1/2]</span></h2>
+<a id="ae835508b37e846a053c8648ba0b34e65" name="ae835508b37e846a053c8648ba0b34e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae835508b37e846a053c8648ba0b34e65">&#9670;&#160;</a></span>initialize_ctaoutforecaster() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6585,6 +6585,12 @@ template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = CtaRo
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_fit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
           <td class="paramname"><em>seed_chain</em>, </td>
         </tr>
@@ -6657,8 +6663,8 @@ template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = CtaRo
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="namespacebvhar_ad15e0e69030b7085d25a1fc16cde54f2_cgraph.png" border="0" usemap="#anamespacebvhar_ad15e0e69030b7085d25a1fc16cde54f2_cgraph" alt=""/></div>
-<map name="anamespacebvhar_ad15e0e69030b7085d25a1fc16cde54f2_cgraph" id="anamespacebvhar_ad15e0e69030b7085d25a1fc16cde54f2_cgraph">
+<div class="center"><img src="namespacebvhar_ae835508b37e846a053c8648ba0b34e65_cgraph.png" border="0" usemap="#anamespacebvhar_ae835508b37e846a053c8648ba0b34e65_cgraph" alt=""/></div>
+<map name="anamespacebvhar_ae835508b37e846a053c8648ba0b34e65_cgraph" id="anamespacebvhar_ae835508b37e846a053c8648ba0b34e65_cgraph">
 <area shape="rect" title=" " alt="" coords="5,29,243,55"/>
 <area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="291,29,428,55"/>
 <area shape="poly" title=" " alt="" coords="243,39,277,39,277,45,243,45"/>
@@ -6668,8 +6674,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a636dad9a8dbdb0bb42292346e56bfc40" name="a636dad9a8dbdb0bb42292346e56bfc40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a636dad9a8dbdb0bb42292346e56bfc40">&#9670;&#160;</a></span>initialize_ctaoutforecaster() <span class="overload">[2/2]</span></h2>
+<a id="a4599c3de6d9b146ee72e9445164d99fd" name="a4599c3de6d9b146ee72e9445164d99fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4599c3de6d9b146ee72e9445164d99fd">&#9670;&#160;</a></span>initialize_ctaoutforecaster() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6856,6 +6862,12 @@ template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = CtaRo
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_fit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const Eigen::MatrixXi &amp;&#160;</td>
           <td class="paramname"><em>seed_chain</em>, </td>
         </tr>
@@ -6928,8 +6940,8 @@ template&lt;template&lt; typename, bool, bool &gt; class BaseOutForecast = CtaRo
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="namespacebvhar_a636dad9a8dbdb0bb42292346e56bfc40_cgraph.png" border="0" usemap="#anamespacebvhar_a636dad9a8dbdb0bb42292346e56bfc40_cgraph" alt=""/></div>
-<map name="anamespacebvhar_a636dad9a8dbdb0bb42292346e56bfc40_cgraph" id="anamespacebvhar_a636dad9a8dbdb0bb42292346e56bfc40_cgraph">
+<div class="center"><img src="namespacebvhar_a4599c3de6d9b146ee72e9445164d99fd_cgraph.png" border="0" usemap="#anamespacebvhar_a4599c3de6d9b146ee72e9445164d99fd_cgraph" alt=""/></div>
+<map name="anamespacebvhar_a4599c3de6d9b146ee72e9445164d99fd_cgraph" id="anamespacebvhar_a4599c3de6d9b146ee72e9445164d99fd_cgraph">
 <area shape="rect" title=" " alt="" coords="5,29,243,55"/>
 <area shape="rect" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="291,29,428,55"/>
 <area shape="poly" title=" " alt="" coords="243,39,277,39,277,45,243,45"/>

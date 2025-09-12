@@ -1,6 +1,6 @@
 var classbvhar_1_1McmcOutForecastRun =
 [
-    [ "McmcOutForecastRun", "classbvhar_1_1McmcOutForecastRun.html#a059da841d8d423b9b733de2dbe58cfb7", null ],
+    [ "McmcOutForecastRun", "classbvhar_1_1McmcOutForecastRun.html#a4ca727fa106f97f125ddce65e6a20a64", null ],
     [ "~McmcOutForecastRun", "classbvhar_1_1McmcOutForecastRun.html#a60caf246463c754a3d2a32ea53c7df56", null ],
     [ "forecast", "classbvhar_1_1McmcOutForecastRun.html#ae9415a7dabe815e4b77a895901cc816f", null ],
     [ "returnForecast", "classbvhar_1_1McmcOutForecastRun.html#acb1ca7c55b405528a96e8d46298d2536", null ],
@@ -19,6 +19,7 @@ var classbvhar_1_1McmcOutForecastRun =
     [ "thin", "classbvhar_1_1McmcOutForecastRun.html#a9b26619c8773a20b84c44e4cbe110ad9", null ],
     [ "nthreads", "classbvhar_1_1McmcOutForecastRun.html#aa337e7a94674bae21f18db8ea9b77b49", null ],
     [ "get_lpl", "classbvhar_1_1McmcOutForecastRun.html#a30158983b248412a5eaf2c1feac529bb", null ],
+    [ "use_fit", "classbvhar_1_1McmcOutForecastRun.html#ab08b47b2b41c60a953c2436dceeee69f", null ],
     [ "display_progress", "classbvhar_1_1McmcOutForecastRun.html#a2c9cd60376dd1ea06d248a9094d9549d", null ],
     [ "seed_forecast", "classbvhar_1_1McmcOutForecastRun.html#a334219fa19d193a3845528a32809121a", null ],
     [ "roll_mat", "classbvhar_1_1McmcOutForecastRun.html#ad283ec2d57ec1a588293f9216e8cb1c3", null ],

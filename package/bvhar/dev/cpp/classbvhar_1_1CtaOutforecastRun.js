@@ -2,7 +2,7 @@ var classbvhar_1_1CtaOutforecastRun =
 [
     [ "BaseMcmc", "classbvhar_1_1CtaOutforecastRun.html#af389fd6069300eed3bba987f32325133", null ],
     [ "RecordType", "classbvhar_1_1CtaOutforecastRun.html#a852f765f2b2e8f54c495a6dff213c35c", null ],
-    [ "CtaOutforecastRun", "classbvhar_1_1CtaOutforecastRun.html#aca069abc2a5f0d52fd9d39a77ff42d97", null ],
+    [ "CtaOutforecastRun", "classbvhar_1_1CtaOutforecastRun.html#a5e296719b15a97615b163a598e33a5c3", null ],
     [ "~CtaOutforecastRun", "classbvhar_1_1CtaOutforecastRun.html#a151f6a99ab2733694eb8f80510ece1d3", null ],
     [ "initData", "classbvhar_1_1CtaOutforecastRun.html#a93135c05250dbdbc17eb86f6312b12e3", null ],
     [ "initForecaster", "classbvhar_1_1CtaOutforecastRun.html#a2a21024005d3a47a17abbc1f8ea43d66", null ],
