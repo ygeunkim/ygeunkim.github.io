@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9009</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9010</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -112,32 +112,32 @@ $(document).ready(function(){initNavTree('progress_8h_source.html',''); initResi
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="classbvhar_1_1bvharprogress.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="classbvhar_1_1bvharprogress.html">bvharprogress</a> {</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classbvhar_1_1bvharprogress.html#ae20e75f100be9307d6cf0adf16f910d6">   13</a></span>  <a class="code hl_function" href="classbvhar_1_1bvharprogress.html#ae20e75f100be9307d6cf0adf16f910d6">bvharprogress</a>(<span class="keywordtype">int</span> total, <span class="keywordtype">bool</span> verbose) : _current(0), _total(total), _width(50), _verbose(verbose) {}</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classbvhar_1_1bvharprogress.html#ae20e75f100be9307d6cf0adf16f910d6">   13</a></span>  <a class="code hl_function" href="classbvhar_1_1bvharprogress.html#ae20e75f100be9307d6cf0adf16f910d6">bvharprogress</a>(<span class="keywordtype">int</span> <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">total</a>, <span class="keywordtype">bool</span> <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">verbose</a>) : _current(0), _total(<a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">total</a>), _width(50), _verbose(<a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">verbose</a>) {}</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classbvhar_1_1bvharprogress.html#af912195aaf474b3ea9a8196ef1e2b3ff">   14</a></span>  <span class="keyword">virtual</span> <a class="code hl_function" href="classbvhar_1_1bvharprogress.html#af912195aaf474b3ea9a8196ef1e2b3ff">~bvharprogress</a>() = <span class="keywordflow">default</span>;</div>
 <div class="foldopen" id="foldopen00015" data-start="{" data-end="}">
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classbvhar_1_1bvharprogress.html#a417165ed98a5bd61165f792e9f802e63">   15</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classbvhar_1_1bvharprogress.html#a417165ed98a5bd61165f792e9f802e63">increment</a>() {</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordflow">if</span> (omp_get_thread_num() == 0) {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">omp_get_thread_num</a>() == 0) {</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>      _current++;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>      _current.fetch_add(1, <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::memory_order_relaxed</a>);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>      _current.fetch_add(1, std::memory_order_relaxed);</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    }</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  }</div>
 </div>
 <div class="foldopen" id="foldopen00022" data-start="{" data-end="}">
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classbvhar_1_1bvharprogress.html#a02defc72a6dfb7f6473c90d00835ce51">   22</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classbvhar_1_1bvharprogress.html#a02defc72a6dfb7f6473c90d00835ce51">update</a>() {</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordflow">if</span> (!_verbose || omp_get_thread_num() != 0) {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordflow">if</span> (!_verbose || <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">omp_get_thread_num</a>() != 0) {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>      <span class="keywordflow">return</span>; <span class="comment">// not display when verbose is false</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    }</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">int</span> percent = _current * 100 / _total;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">int</span> <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">percent</a> = _current * 100 / _total;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_define" href="commondefs_8h.html#ad6e2731cc0897497a69f8e094791b5aa">BVHAR_COUT</a> &lt;&lt; <span class="stringliteral">&quot;\r&quot;</span>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; _width; i++) {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>      <span class="keywordflow">if</span> (i &lt; (percent * _width / 100)) {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">i</a> = 0; <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">i</a> &lt; _width; <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">i</a>++) {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>      <span class="keywordflow">if</span> (<a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">i</a> &lt; (<a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">percent</a> * _width / 100)) {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_define" href="commondefs_8h.html#ad6e2731cc0897497a69f8e094791b5aa">BVHAR_COUT</a> &lt;&lt; <span class="stringliteral">&quot;#&quot;</span>;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>      } <span class="keywordflow">else</span> {</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <a class="code hl_define" href="commondefs_8h.html#ad6e2731cc0897497a69f8e094791b5aa">BVHAR_COUT</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>      }</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_define" href="commondefs_8h.html#ad6e2731cc0897497a69f8e094791b5aa">BVHAR_COUT</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; percent &lt;&lt; <span class="stringliteral">&quot;%&quot;</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_define" href="commondefs_8h.html#ad6e2731cc0897497a69f8e094791b5aa">BVHAR_COUT</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code hl_define" href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">percent</a> &lt;&lt; <span class="stringliteral">&quot;%&quot;</span>;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_define" href="commondefs_8h.html#aba6ed76e52975eaa379fe53a7ca886f6">BVHAR_FLUSH</a>;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordflow">if</span> (_current &gt;= _total) {</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>      <a class="code hl_define" href="commondefs_8h.html#ad6e2731cc0897497a69f8e094791b5aa">BVHAR_COUT</a> &lt;&lt; <a class="code hl_define" href="commondefs_8h.html#ad0f0138eb6a393adcba42e6377ade428">BVHAR_ENDL</a>;</div>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('progress_8h_source.html',''); initResi
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  }</div>
 </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::atomic&lt;int&gt;</a> _current;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  std::atomic&lt;int&gt; _current;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">int</span> _total;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">int</span> _width;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">bool</span> _verbose;</div>
@@ -161,11 +161,11 @@ $(document).ready(function(){initNavTree('progress_8h_source.html',''); initResi
 <div class="ttc" id="aclassbvhar_1_1bvharprogress_html_ae20e75f100be9307d6cf0adf16f910d6"><div class="ttname"><a href="classbvhar_1_1bvharprogress.html#ae20e75f100be9307d6cf0adf16f910d6">bvhar::bvharprogress::bvharprogress</a></div><div class="ttdeci">bvharprogress(int total, bool verbose)</div><div class="ttdef"><b>Definition</b> progress.h:13</div></div>
 <div class="ttc" id="aclassbvhar_1_1bvharprogress_html_af912195aaf474b3ea9a8196ef1e2b3ff"><div class="ttname"><a href="classbvhar_1_1bvharprogress.html#af912195aaf474b3ea9a8196ef1e2b3ff">bvhar::bvharprogress::~bvharprogress</a></div><div class="ttdeci">virtual ~bvharprogress()=default</div></div>
 <div class="ttc" id="acommondefs_8h_html"><div class="ttname"><a href="commondefs_8h.html">commondefs.h</a></div><div class="ttdoc">Common header.</div></div>
+<div class="ttc" id="acommondefs_8h_html_a9d75dd3d2aabcb6daaf6019f07066f20"><div class="ttname"><a href="commondefs_8h.html#a9d75dd3d2aabcb6daaf6019f07066f20">BVHAR_CAST</a></div><div class="ttdeci">#define BVHAR_CAST</div><div class="ttdef"><b>Definition</b> commondefs.h:39</div></div>
 <div class="ttc" id="acommondefs_8h_html_aba6ed76e52975eaa379fe53a7ca886f6"><div class="ttname"><a href="commondefs_8h.html#aba6ed76e52975eaa379fe53a7ca886f6">BVHAR_FLUSH</a></div><div class="ttdeci">#define BVHAR_FLUSH</div><div class="ttdef"><b>Definition</b> commondefs.h:22</div></div>
 <div class="ttc" id="acommondefs_8h_html_ad0f0138eb6a393adcba42e6377ade428"><div class="ttname"><a href="commondefs_8h.html#ad0f0138eb6a393adcba42e6377ade428">BVHAR_ENDL</a></div><div class="ttdeci">#define BVHAR_ENDL</div><div class="ttdef"><b>Definition</b> commondefs.h:21</div></div>
 <div class="ttc" id="acommondefs_8h_html_ad6e2731cc0897497a69f8e094791b5aa"><div class="ttname"><a href="commondefs_8h.html#ad6e2731cc0897497a69f8e094791b5aa">BVHAR_COUT</a></div><div class="ttdeci">#define BVHAR_COUT</div><div class="ttdef"><b>Definition</b> commondefs.h:20</div></div>
 <div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> bayes.h:16</div></div>
-<div class="ttc" id="anamespacestd_html_a03d5ca705e3360c607bf2586e9a9de3b"><div class="ttname"><a href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::make_unique</a></div><div class="ttdeci">unique_ptr&lt; T &gt; make_unique(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> commondefs.h:121</div></div>
 <div class="ttc" id="aomp_8h_html"><div class="ttname"><a href="omp_8h.html">omp.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

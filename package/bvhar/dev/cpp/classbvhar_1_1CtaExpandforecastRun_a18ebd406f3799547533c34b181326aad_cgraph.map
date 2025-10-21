@@ -1,8 +1,5 @@
 <map id="bvhar::CtaExpandforecastRun::initMcmc" name="bvhar::CtaExpandforecastRun::initMcmc">
-<area shape="rect" id="Node000001" title="Initialize CTA." alt="" coords="5,47,196,87"/>
+<area shape="rect" id="Node000001" title="Initialize CTA." alt="" coords="5,5,196,45"/>
 <area shape="rect" id="Node000002" href="$classbvhar_1_1CtaOutforecastRun.html#a63f194f31902363af1a1088443c7b5bb" title="Define VAR or VHAR design matrix." alt="" coords="244,5,435,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,48,230,42,231,47,197,53"/>
-<area shape="rect" id="Node000003" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="271,94,408,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,80,258,90,257,96,196,85"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="301,96,292,86,297,76,313,70,339,67,373,71,385,81,382,85,371,76,339,73,314,75,300,80,298,85,305,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,23,230,23,230,28,196,28"/>
 </map>

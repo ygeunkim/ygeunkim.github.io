@@ -1,15 +1,11 @@
 <map id="bvhar::McmcOutforecastRun::forecast" name="bvhar::McmcOutforecastRun::forecast">
-<area shape="rect" id="Node000001" title="Out&#45;of&#45;sample forecasting." alt="" coords="5,51,212,91"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcOutforecastRun.html#affa11838e63ce2075ffca0ae76a9b108" title="Forecast." alt="" coords="260,51,467,91"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,69,246,69,246,74,212,74"/>
-<area shape="rect" id="Node000003" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="804,29,941,55"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="467,63,790,44,790,49,467,68"/>
-<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcOutforecastRun.html#ac75c076c43003ec5e1b5818d45185dd7" title="Conduct MCMC and update forecast pointer." alt="" coords="515,79,721,119"/>
-<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="467,80,501,84,501,89,467,85"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="832,31,823,21,827,11,844,5,873,3,908,7,919,11,922,17,918,20,915,15,907,12,873,8,845,10,831,15,828,20,836,27"/>
-<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="707,77,802,55,803,60,708,82"/>
-<area shape="rect" id="Node000005" href="$classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="793,79,953,119"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="721,97,779,97,779,102,721,102"/>
-<area shape="rect" id="Node000006" href="$classbvhar_1_1McmcOutforecastRun.html#afe50188f9e291c8cdad62874fa64c7f3" title="Replace the forecast smart pointer given MCMC result." alt="" coords="769,143,976,183"/>
-<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="699,117,780,137,779,143,698,122"/>
+<area shape="rect" id="Node000001" title="Out&#45;of&#45;sample forecasting." alt="" coords="5,37,212,77"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcOutforecastRun.html#affa11838e63ce2075ffca0ae76a9b108" title="Forecast." alt="" coords="260,37,467,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,55,246,55,246,60,212,60"/>
+<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcOutforecastRun.html#ac75c076c43003ec5e1b5818d45185dd7" title="Conduct MCMC and update forecast pointer." alt="" coords="515,37,721,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="467,55,501,55,501,60,467,60"/>
+<area shape="rect" id="Node000004" href="$classbvhar_1_1bvharinterrupt.html#acdf8b4665ecefab274aa4724c7029eda" title=" " alt="" coords="793,5,953,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="721,42,779,34,780,40,722,47"/>
+<area shape="rect" id="Node000005" href="$classbvhar_1_1McmcOutforecastRun.html#afe50188f9e291c8cdad62874fa64c7f3" title="Replace the forecast smart pointer given MCMC result." alt="" coords="769,69,976,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="722,68,756,72,755,77,721,73"/>
 </map>

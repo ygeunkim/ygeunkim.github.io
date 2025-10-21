@@ -11,6 +11,7 @@ var classbvhar_1_1CtaForecaster =
     [ "setRecursion", "classbvhar_1_1CtaForecaster.html#a4e004309115fca0884a329451ee05e55", null ],
     [ "updatePred", "classbvhar_1_1CtaForecaster.html#aeea0ab765cd8b36b059bbd1bbfb69cd8", null ],
     [ "updateRecursion", "classbvhar_1_1CtaForecaster.html#a2720e2fd8bed3126a1c9afc3fbf45341", null ],
+    [ "forecastIn", "classbvhar_1_1CtaForecaster.html#a1292f73295e55f1696fef47da3fd66a3", null ],
     [ "computeMean", "classbvhar_1_1CtaForecaster.html#af768a0ed672e6a8d921ffa57d7a96ac8", null ],
     [ "updateVariance", "classbvhar_1_1CtaForecaster.html#a99025e1b1b43053f356a785beac5250c", null ],
     [ "reg_record", "classbvhar_1_1CtaForecaster.html#a49bf03e020d2b1c5350313606cf36d1e", null ],
