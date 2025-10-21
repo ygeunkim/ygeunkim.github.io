@@ -13,7 +13,7 @@ var classbvhar_1_1BayesForecaster =
     [ "updateLpl", "classbvhar_1_1BayesForecaster.html#a2365e7695bc920a246a8e7a4ee87266b", null ],
     [ "forecastOut", "classbvhar_1_1BayesForecaster.html#a15db40b932497be4210e27f8ddae2bfb", null ],
     [ "forecastInsample", "classbvhar_1_1BayesForecaster.html#a76f0d5f0302aeeb6d1d7cde664eed156", null ],
-    [ "getDesign", "classbvhar_1_1BayesForecaster.html#a2e57d4ef7ad04aa89eb2ffe0338c66ef", null ],
+    [ "getDesign", "classbvhar_1_1BayesForecaster.html#aaafb1d6bd8f8eaaad7023e7c2a60223f", null ],
     [ "forecastIn", "classbvhar_1_1BayesForecaster.html#a83b13aabd4688a8c81cf2ca204c2d9e5", null ],
     [ "lpl", "classbvhar_1_1BayesForecaster.html#a79029ba0db880af1f6e9092127cb936b", null ],
     [ "mtx", "classbvhar_1_1BayesForecaster.html#ae32cb63607201776fbbfa2c1102e46f0", null ],
