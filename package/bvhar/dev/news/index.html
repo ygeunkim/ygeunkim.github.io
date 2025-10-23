@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9010</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9011</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,8 +67,9 @@
 </ul></div>
 <div class="section level3">
 <h3 id="new-features-development-version">New features<a class="anchor" aria-label="anchor" href="#new-features-development-version"></a></h3>
-<ul><li>
-<code><a href="../reference/predict.html">predict()</a></code> can conduct in-sample forecasting when <code>n_ahead</code> is not specified (for now, only <code>*ldlt</code> and <code>*sv</code> can do this).</li>
+<ul><li><p><code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code> can augment factor term with <code>factor_spec</code> argument.</p></li>
+<li><p><code><a href="../reference/set_factor.html">set_factor()</a></code> determines the factor size.</p></li>
+<li><p><code><a href="../reference/predict.html">predict()</a></code> can conduct in-sample forecasting when <code>n_ahead</code> is not specified (for now, only <code>*ldlt</code> and <code>*sv</code> can do this).</p></li>
 </ul></div>
 <div class="section level3">
 <h3 id="internal-changes-c-development-version">Internal changes (C++)<a class="anchor" aria-label="anchor" href="#internal-changes-c-development-version"></a></h3>

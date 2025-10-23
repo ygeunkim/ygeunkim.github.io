@@ -13,7 +13,7 @@ It can have Minnesota, SSVS, and Horseshoe prior."><meta property="og:image" con
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9010</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9011</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,6 +77,7 @@ It can have Minnesota, SSVS, and Horseshoe prior.</p>
 <span>  <span class="va">p</span>,</span>
 <span>  exogen <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  s <span class="op">=</span> <span class="fl">0</span>,</span>
+<span>  factor_spec <span class="op">=</span> <span class="fu"><a href="set_factor.html">set_factor</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>  num_chains <span class="op">=</span> <span class="fl">1</span>,</span>
 <span>  num_iter <span class="op">=</span> <span class="fl">1000</span>,</span>
 <span>  num_burn <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html" class="external-link">floor</a></span><span class="op">(</span><span class="va">num_iter</span><span class="op">/</span><span class="fl">2</span><span class="op">)</span>,</span>
@@ -86,6 +87,7 @@ It can have Minnesota, SSVS, and Horseshoe prior.</p>
 <span>  cov_spec <span class="op">=</span> <span class="fu"><a href="set_ldlt.html">set_ldlt</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>  intercept <span class="op">=</span> <span class="fu"><a href="set_intercept.html">set_intercept</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>  exogen_spec <span class="op">=</span> <span class="va">coef_spec</span>,</span>
+<span>  loading_spec <span class="op">=</span> <span class="va">coef_spec</span>,</span>
 <span>  include_mean <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  minnesota <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  ggl <span class="op">=</span> <span class="cn">TRUE</span>,</span>
@@ -128,6 +130,10 @@ It can have Minnesota, SSVS, and Horseshoe prior.</p>
 <dd><p>Lag of exogeneous variables in VARX(p, s). By default, <code>s = 0</code>.</p></dd>
 
 
+<dt id="arg-factor-spec">factor_spec<a class="anchor" aria-label="anchor" href="#arg-factor-spec"></a></dt>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="figures/lifecycle-experimental.svg" alt="[Experimental]"></a> Factor augmentation specification by <code><a href="set_factor.html">set_factor()</a></code>.</p></dd>
+
+
 <dt id="arg-num-chains">num_chains<a class="anchor" aria-label="anchor" href="#arg-num-chains"></a></dt>
 <dd><p>Number of MCMC chains</p></dd>
 
@@ -162,6 +168,10 @@ It can have Minnesota, SSVS, and Horseshoe prior.</p>
 
 <dt id="arg-exogen-spec">exogen_spec<a class="anchor" aria-label="anchor" href="#arg-exogen-spec"></a></dt>
 <dd><p>Exogenous coefficient prior specification.</p></dd>
+
+
+<dt id="arg-loading-spec">loading_spec<a class="anchor" aria-label="anchor" href="#arg-loading-spec"></a></dt>
+<dd><p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="figures/lifecycle-experimental.svg" alt="[Experimental]"></a> Factor loading prior specification.</p></dd>
 
 
 <dt id="arg-include-mean">include_mean<a class="anchor" aria-label="anchor" href="#arg-include-mean"></a></dt>
@@ -304,6 +314,7 @@ and implements corrected triangular algorithm for Gibbs sampler.</p>
 <p>Cogley, T., &amp; Sargent, T. J. (2005). <em>Drifts and volatilities: monetary policies and outcomes in the post WWII US</em>. Review of Economic Dynamics, 8(2), 262-302.</p>
 <p>Gruber, L., &amp; Kastner, G. (2022). <em>Forecasting macroeconomic data with Bayesian VARs: Sparse or dense? It depends!</em> arXiv.</p>
 <p>Huber, F., Koop, G., &amp; Onorante, L. (2021). <em>Inducing Sparsity and Shrinkage in Time-Varying Parameter Models</em>. Journal of Business &amp; Economic Statistics, 39(3), 669-683.</p>
+<p>Korobilis, D. (2022). A new algorithm for structural restrictions in Bayesian vector autoregressions. European Economic Review, 148, 104241.</p>
 <p>Korobilis, D., &amp; Shimizu, K. (2022). <em>Bayesian Approaches to Shrinkage and Sparse Estimation</em>. Foundations and Trends® in Econometrics, 11(4), 230-354.</p>
 <p>Ray, P., &amp; Bhattacharya, A. (2018). <em>Signal Adaptive Variable Selector for the Horseshoe Prior</em>. arXiv.</p>
     </div>
