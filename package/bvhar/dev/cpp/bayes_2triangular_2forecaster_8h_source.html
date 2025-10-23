@@ -816,7 +816,7 @@ $(document).ready(function(){initNavTree('bayes_2triangular_2forecaster_8h_sourc
 <div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    }</div>
 <div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span>    <span class="keywordflow">if</span> (size_factor) {</div>
 <div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>      <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr&lt;DfmRecords&gt;</a> dfm_record;</div>
-<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>      <span class="keywordflow">if</span> (*factor_insample) {</div>
+<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>      <span class="keywordflow">if</span> (factor_insample &amp;&amp; *factor_insample) {</div>
 <div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>        <a class="code hl_define" href="commondefs_8h.html#a8a001ba97f1e56f1e764cd07f80397fa">BVHAR_STRING</a> f_name = <span class="stringliteral">&quot;F_record&quot;</span>;</div>
 <div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>        <a class="code hl_function" href="namespacebvhar.html#a69d456cb632de8bd92e9827c8c4aaac4">initialize_dfmrecord</a>(dfm_record, i, fit_record, f_name);</div>
 <div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>        <span class="keywordflow">if</span> (*factor_lag == 0) {</div>
