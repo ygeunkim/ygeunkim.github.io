@@ -1,21 +1,7 @@
 var searchData=
 [
-  ['olsdynamicspillover_0',['OlsDynamicSpillover',['../classbvhar_1_1OlsDynamicSpillover.html',1,'bvhar']]],
-  ['olserrorgenerator_1',['OlsErrorGenerator',['../classbvhar_1_1OlsErrorGenerator.html',1,'bvhar']]],
-  ['olsexogenforecaster_2',['OlsExogenForecaster',['../classbvhar_1_1OlsExogenForecaster.html',1,'bvhar']]],
-  ['olsexpandforecastrun_3',['OlsExpandforecastRun',['../classbvhar_1_1OlsExpandforecastRun.html',1,'bvhar']]],
-  ['olsfit_4',['OlsFit',['../structbvhar_1_1OlsFit.html',1,'bvhar']]],
-  ['olsforecaster_5',['OlsForecaster',['../classbvhar_1_1OlsForecaster.html',1,'bvhar']]],
-  ['olsforecastrun_6',['OlsForecastRun',['../classbvhar_1_1OlsForecastRun.html',1,'bvhar']]],
-  ['olsgaussiangenerator_7',['OlsGaussianGenerator',['../classbvhar_1_1OlsGaussianGenerator.html',1,'bvhar']]],
-  ['olsinterface_8',['OlsInterface',['../classbvhar_1_1OlsInterface.html',1,'bvhar']]],
-  ['olsoutforecastrun_9',['OlsOutforecastRun',['../classbvhar_1_1OlsOutforecastRun.html',1,'bvhar']]],
-  ['olsrollforecastrun_10',['OlsRollforecastRun',['../classbvhar_1_1OlsRollforecastRun.html',1,'bvhar']]],
-  ['olssimulator_11',['OlsSimulator',['../classbvhar_1_1OlsSimulator.html',1,'bvhar']]],
-  ['olsspilloverrun_12',['OlsSpilloverRun',['../classbvhar_1_1OlsSpilloverRun.html',1,'bvhar']]],
-  ['olsstudentgenerator_13',['OlsStudentGenerator',['../classbvhar_1_1OlsStudentGenerator.html',1,'bvhar']]],
-  ['olsvar_14',['OlsVar',['../classbvhar_1_1OlsVar.html',1,'bvhar']]],
-  ['olsvarspillover_15',['OlsVarSpillover',['../classbvhar_1_1OlsVarSpillover.html',1,'bvhar']]],
-  ['olsvhar_16',['OlsVhar',['../classbvhar_1_1OlsVhar.html',1,'bvhar']]],
-  ['olsvharspillover_17',['OlsVharSpillover',['../classbvhar_1_1OlsVharSpillover.html',1,'bvhar']]]
+  ['nginits_0',['NgInits',['../structbvhar_1_1NgInits.html',1,'bvhar']]],
+  ['ngparams_1',['NgParams',['../structbvhar_1_1NgParams.html',1,'bvhar']]],
+  ['ngrecords_2',['NgRecords',['../structbvhar_1_1NgRecords.html',1,'bvhar']]],
+  ['ngupdater_3',['NgUpdater',['../classbvhar_1_1NgUpdater.html',1,'bvhar']]]
 ];

@@ -1,7 +1,10 @@
 <map id="bvhar::OlsForecastRun::OlsForecastRun" name="bvhar::OlsForecastRun::OlsForecastRun">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,173,45"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#aca149dc0e3f8744d039a4b3c5d98f1c6" title=" " alt="" coords="221,13,356,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,23,208,23,208,28,174,28"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#accc0de59b48816603aad8c456e1502f0" title=" " alt="" coords="404,13,581,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="356,23,390,23,390,28,356,28"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,173,75"/>
+<area shape="rect" id="Node000002" href="$namespacebvhar.html#aca149dc0e3f8744d039a4b3c5d98f1c6" title=" " alt="" coords="223,5,357,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,37,209,30,210,36,174,42"/>
+<area shape="rect" id="Node000004" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="221,79,359,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,68,208,74,208,79,173,73"/>
+<area shape="rect" id="Node000003" href="$namespacebvhar.html#accc0de59b48816603aad8c456e1502f0" title=" " alt="" coords="407,5,584,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="358,15,393,15,393,21,358,21"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="257,80,250,70,254,60,267,54,290,52,318,56,329,65,326,69,316,61,290,57,269,59,258,64,255,70,261,77"/>
 </map>

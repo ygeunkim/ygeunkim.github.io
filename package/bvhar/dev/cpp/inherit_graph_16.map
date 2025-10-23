@@ -1,40 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classbvhar_1_1McmcForecaster.html" title="Forecast class for McmcTriangular" alt="" coords="492,237,667,262"/>
-<area shape="rect" id="Node000001" href="$classbvhar_1_1RegForecaster.html" title="Forecast class for McmcReg" alt="" coords="715,237,875,262"/>
-<area shape="poly" id="edge47_Node000000_Node000001" title=" " alt="" coords="681,247,714,247,714,252,681,252"/>
-<area shape="rect" id="Node000015" href="$classbvhar_1_1SvForecaster.html" title="Forecast class for McmcSv" alt="" coords="719,286,870,311"/>
-<area shape="poly" id="edge60_Node000000_Node000015" title=" " alt="" coords="649,262,739,283,738,289,648,268"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1CtaVarForecaster.html" title=" " alt="" coords="935,5,1114,45"/>
-<area shape="poly" id="edge48_Node000001_Node000002" title=" " alt="" coords="804,222,821,185,847,140,880,95,921,55,941,43,944,48,924,59,884,98,851,143,826,188,809,225"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1CtaVharForecaster.html" title=" " alt="" coords="931,69,1118,109"/>
-<area shape="poly" id="edge49_Node000001_Node000003" title=" " alt="" coords="811,224,857,171,888,143,921,119,945,107,947,112,924,124,891,147,861,175,815,228"/>
-<area shape="rect" id="Node000004" href="$classbvhar_1_1McmcVarForecaster.html" title=" " alt="" coords="927,133,1122,173"/>
-<area shape="poly" id="edge50_Node000001_Node000004" title=" " alt="" coords="829,228,922,183,954,171,956,176,924,188,831,233"/>
-<area shape="rect" id="Node000005" href="$classbvhar_1_1McmcVharForecaster.html" title=" " alt="" coords="923,197,1127,237"/>
-<area shape="poly" id="edge51_Node000001_Node000005" title=" " alt="" coords="888,234,922,229,923,234,889,239"/>
-<area shape="rect" id="Node000006" href="$classbvhar_1_1CtaVarForecaster.html" title="Forecast class of Bayesian VAR based on McmcTriangular" alt="" coords="935,261,1114,301"/>
-<area shape="poly" id="edge52_Node000001_Node000006" title=" " alt="" coords="889,260,936,266,935,272,888,265"/>
-<area shape="rect" id="Node000008" href="$classbvhar_1_1CtaVharForecaster.html" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="931,325,1118,365"/>
-<area shape="poly" id="edge54_Node000001_Node000008" title=" " alt="" coords="862,264,876,271,891,281,901,291,910,301,924,311,950,323,948,328,921,316,907,305,897,295,887,285,873,276,860,269"/>
-<area shape="rect" id="Node000010" href="$classbvhar_1_1McmcVarForecaster.html" title="Forecast class of Bayesian VAR based on McmcTriangular" alt="" coords="927,389,1122,429"/>
-<area shape="poly" id="edge56_Node000001_Node000010" title=" " alt="" coords="871,267,876,271,888,284,895,298,901,325,907,351,913,363,924,375,942,387,939,391,921,379,909,366,902,352,896,326,890,300,884,288,873,275,867,271"/>
-<area shape="rect" id="Node000012" href="$classbvhar_1_1McmcVharForecaster.html" title="Forecast class of Bayesian VHAR based on McmcTriangular" alt="" coords="923,453,1127,493"/>
-<area shape="poly" id="edge58_Node000001_Node000012" title=" " alt="" coords="872,268,877,272,892,293,900,315,901,357,903,399,910,419,925,439,939,451,936,455,921,443,905,422,897,400,896,357,895,316,888,295,873,275,869,272"/>
-<area shape="rect" id="Node000007" href="$classbvhar_1_1CtaVarSelectForecaster.html" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="1187,261,1406,301"/>
-<area shape="poly" id="edge53_Node000006_Node000007" title=" " alt="" coords="1128,279,1187,279,1187,284,1128,284"/>
-<area shape="rect" id="Node000009" href="$classbvhar_1_1CtaVharSelectForecaster.html" title="Bayesian VHAR forecast class with sparse draw induced by posterior summary." alt="" coords="1183,325,1410,365"/>
-<area shape="poly" id="edge55_Node000008_Node000009" title=" " alt="" coords="1132,343,1183,343,1183,348,1132,348"/>
-<area shape="rect" id="Node000011" href="$classbvhar_1_1McmcVarSelectForecaster.html" title="Bayesian VAR forecast class with sparse draw induced by posterior summary." alt="" coords="1179,389,1414,429"/>
-<area shape="poly" id="edge57_Node000010_Node000011" title=" " alt="" coords="1136,407,1179,407,1179,412,1136,412"/>
-<area shape="rect" id="Node000013" href="$classbvhar_1_1McmcVharSelectForecaster.html" title="Bayesian VHAR forecast class with sparse draw induced by posterior summary." alt="" coords="1175,453,1419,493"/>
-<area shape="poly" id="edge59_Node000012_Node000013" title=" " alt="" coords="1140,471,1174,471,1174,476,1140,476"/>
-<area shape="rect" id="Node000017" href="$classbvhar_1_1MultistepForecaster.html" title="Base class for Recursive multi&#45;step forecasting." alt="" coords="5,315,201,355"/>
-<area shape="rect" id="Node000016" href="$classbvhar_1_1BayesForecaster.html" title=" " alt="" coords="255,271,439,326"/>
-<area shape="poly" id="edge61_Node000017_Node000016" title=" " alt="" coords="214,316,254,310,255,315,215,321"/>
-<area shape="rect" id="Node000018" href="$classbvhar_1_1BayesForecaster.html" title="Base class for forecaster of Bayesian methods." alt="" coords="249,351,444,391"/>
-<area shape="poly" id="edge65_Node000017_Node000018" title=" " alt="" coords="215,349,249,354,249,359,214,354"/>
-<area shape="rect" id="Node000014" href="$classbvhar_1_1CtaForecaster.html" title="Forecast class for McmcTriangular" alt="" coords="501,286,658,311"/>
-<area shape="poly" id="edge62_Node000016_Node000014" title=" " alt="" coords="452,296,500,296,500,301,452,301"/>
-<area shape="poly" id="edge63_Node000014_Node000001" title=" " alt="" coords="648,280,738,259,739,265,649,286"/>
-<area shape="poly" id="edge64_Node000014_Node000015" title=" " alt="" coords="672,296,719,296,719,301,672,301"/>
+<area shape="rect" id="Node000000" href="$structbvhar_1_1GlobalLocalRecords.html" title="MCMC records for global&#45;local shrinkage prior McmcDl directly uses this." alt="" coords="5,31,200,56"/>
+<area shape="rect" id="Node000001" href="$structbvhar_1_1HorseshoeRecords.html" title="MCMC records for McmcHorseshoe" alt="" coords="248,5,436,31"/>
+<area shape="poly" id="edge38_Node000000_Node000001" title=" " alt="" coords="213,29,248,25,248,31,214,34"/>
+<area shape="rect" id="Node000002" href="$structbvhar_1_1NgRecords.html" title="MCMC records for McmcNg" alt="" coords="273,55,411,80"/>
+<area shape="poly" id="edge39_Node000000_Node000002" title=" " alt="" coords="214,52,273,58,273,63,213,57"/>
 </map>

@@ -33,17 +33,25 @@ var hierarchy =
     ] ],
     [ "bvhar::bvharinterrupt", "classbvhar_1_1bvharinterrupt.html", null ],
     [ "bvhar::bvharprogress", "classbvhar_1_1bvharprogress.html", null ],
-    [ "bvhar::CtaOutforecastInterface< BaseForecaster >", "classbvhar_1_1CtaOutforecastInterface.html", null ],
     [ "CtaRollforecastRun", null, [
       [ "bvhar::CtaVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaVarforecastRun.html", null ],
       [ "bvhar::CtaVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaVharforecastRun.html", null ]
     ] ],
+    [ "bvhar::DfmParams", "structbvhar_1_1DfmParams.html", null ],
+    [ "bvhar::DfmRecords", "structbvhar_1_1DfmRecords.html", null ],
     [ "bvhar::DynamicLdltSpillover", "classbvhar_1_1DynamicLdltSpillover.html", null ],
     [ "bvhar::DynamicSvSpillover", "classbvhar_1_1DynamicSvSpillover.html", null ],
     [ "bvhar::ExogenForecaster< ReturnType, DataType >", "classbvhar_1_1ExogenForecaster.html", null ],
     [ "bvhar::ExogenForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1ExogenForecaster.html", [
-      [ "bvhar::CtaExogenForecaster", "classbvhar_1_1CtaExogenForecaster.html", null ],
+      [ "bvhar::CtaExogenForecaster", "classbvhar_1_1CtaExogenForecaster.html", [
+        [ "bvhar::CtaFactorForecaster", "classbvhar_1_1CtaFactorForecaster.html", [
+          [ "bvhar::CtaFactorNormalForecaster", "classbvhar_1_1CtaFactorNormalForecaster.html", null ]
+        ] ]
+      ] ],
       [ "bvhar::OlsExogenForecaster", "classbvhar_1_1OlsExogenForecaster.html", null ]
+    ] ],
+    [ "bvhar::FactorAugmenter", "classbvhar_1_1FactorAugmenter.html", [
+      [ "bvhar::FactorNormalAugmenter", "classbvhar_1_1FactorNormalAugmenter.html", null ]
     ] ],
     [ "bvhar::GlobalLocalRecords", "structbvhar_1_1GlobalLocalRecords.html", [
       [ "bvhar::HorseshoeRecords", "structbvhar_1_1HorseshoeRecords.html", null ],

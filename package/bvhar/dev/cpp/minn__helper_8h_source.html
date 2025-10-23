@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9010</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9011</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('minn__helper_8h_source.html',''); init
 <div class="foldopen" id="foldopen00093" data-start="{" data-end="}">
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a4f8efbfa8c4e28bf9165b513317a4120">   93</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="namespacebvhar.html#a4f8efbfa8c4e28bf9165b513317a4120">minnesota_logdens_scl</a>(<span class="keywordtype">double</span>&amp; cand, Eigen::Ref&lt;Eigen::VectorXd&gt; coef,</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                                    Eigen::Ref&lt;Eigen::VectorXd&gt; coef_mean, Eigen::Ref&lt;Eigen::VectorXd&gt; coef_prec,</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                                    Eigen::VectorXi&amp; grp_vec, std::set&lt;int&gt;&amp; grp_id) {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                                    Eigen::VectorXi&amp; grp_vec, <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::set&lt;int&gt;</a>&amp; grp_id) {</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="keywordtype">double</span> gaussian_kernel = 0;</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="keywordtype">int</span> mn_size = 0;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coef.size(); ++i) {</div>
@@ -237,7 +237,7 @@ $(document).ready(function(){initNavTree('minn__helper_8h_source.html',''); init
 <div class="foldopen" id="foldopen00126" data-start="{" data-end="}">
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="namespacebvhar.html#a52136d10b128d8ef05faf9c8f674a053">  126</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#a52136d10b128d8ef05faf9c8f674a053">minnesota_nu_griddy</a>(<span class="keywordtype">double</span>&amp; nu, <span class="keywordtype">int</span> grid_size, Eigen::Ref&lt;Eigen::VectorXd&gt; coef,</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                                Eigen::Ref&lt;Eigen::VectorXd&gt; coef_mean, Eigen::Ref&lt;Eigen::VectorXd&gt; coef_prec,</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                                Eigen::VectorXi&amp; grp_vec, std::set&lt;int&gt;&amp; grp_id, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                                Eigen::VectorXi&amp; grp_vec, <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::set&lt;int&gt;</a>&amp; grp_id, <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  Eigen::VectorXd grid = Eigen::VectorXd::LinSpaced(grid_size + 2, 0.0, 1.0).segment(1, grid_size);</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>  Eigen::VectorXd log_wt(grid_size);</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>  <span class="keywordtype">double</span> old_nu = nu;</div>
@@ -294,6 +294,7 @@ $(document).ready(function(){initNavTree('minn__helper_8h_source.html',''); init
 <div class="ttc" id="anamespacebvhar_html_a9169efcc0851c664c3fb8f696c1c6006"><div class="ttname"><a href="namespacebvhar.html#a9169efcc0851c664c3fb8f696c1c6006">bvhar::cut_param</a></div><div class="ttdeci">void cut_param(Eigen::Ref&lt; Eigen::VectorXd &gt; param)</div><div class="ttdef"><b>Definition</b> helper.h:36</div></div>
 <div class="ttc" id="anamespacebvhar_html_aae3537b273ffe5b30ce05b79ec8c68c4"><div class="ttname"><a href="namespacebvhar.html#aae3537b273ffe5b30ce05b79ec8c68c4">bvhar::minnesota_lambda</a></div><div class="ttdeci">void minnesota_lambda(double &amp;lambda, double &amp;shape, double &amp;rate, Eigen::Ref&lt; Eigen::VectorXd &gt; coef, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_mean, Eigen::Ref&lt; Eigen::VectorXd &gt; coef_prec, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> minn_helper.h:82</div></div>
 <div class="ttc" id="anamespacebvhar_html_ac68ceac28554c2c5e77832a2ce027760"><div class="ttname"><a href="namespacebvhar.html#ac68ceac28554c2c5e77832a2ce027760">bvhar::compute_logml</a></div><div class="ttdeci">double compute_logml(int dim, int num_design, Eigen::MatrixXd prior_prec, Eigen::MatrixXd prior_scale, Eigen::MatrixXd mn_prec, Eigen::MatrixXd iw_scale, int posterior_shape)</div><div class="ttdef"><b>Definition</b> minn_helper.h:21</div></div>
+<div class="ttc" id="anamespacestd_html_a03d5ca705e3360c607bf2586e9a9de3b"><div class="ttname"><a href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::make_unique</a></div><div class="ttdeci">unique_ptr&lt; T &gt; make_unique(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> commondefs.h:121</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

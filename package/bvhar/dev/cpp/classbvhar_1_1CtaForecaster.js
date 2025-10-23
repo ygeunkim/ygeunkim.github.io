@@ -1,6 +1,6 @@
 var classbvhar_1_1CtaForecaster =
 [
-    [ "CtaForecaster", "classbvhar_1_1CtaForecaster.html#ad3a4f2778fab16d73aa94838b37cf09a", null ],
+    [ "CtaForecaster", "classbvhar_1_1CtaForecaster.html#a3ad75132a2bf12e3b2dc1c147c9f8d9e", null ],
     [ "~CtaForecaster", "classbvhar_1_1CtaForecaster.html#ab05c5c66cff279ca09d215c65770c5d3", null ],
     [ "forecastDensity", "classbvhar_1_1CtaForecaster.html#a8a2a03b259de1b76de93a7eb795f1196", null ],
     [ "forecastDensity", "classbvhar_1_1CtaForecaster.html#a4ff2c01b153fc235548e527e25f5216d", null ],
@@ -16,6 +16,7 @@ var classbvhar_1_1CtaForecaster =
     [ "updateVariance", "classbvhar_1_1CtaForecaster.html#a99025e1b1b43053f356a785beac5250c", null ],
     [ "reg_record", "classbvhar_1_1CtaForecaster.html#a49bf03e020d2b1c5350313606cf36d1e", null ],
     [ "exogen_updater", "classbvhar_1_1CtaForecaster.html#a5db51494ce4831c0f1bb8cee385b06bf", null ],
+    [ "factor_updater", "classbvhar_1_1CtaForecaster.html#a3e8db2349e6c453b4096a4d08889a5a0", null ],
     [ "include_mean", "classbvhar_1_1CtaForecaster.html#afe01a03b6f419c763c28d24c9311e36c", null ],
     [ "stable_filter", "classbvhar_1_1CtaForecaster.html#ab2a2787bef41d0c06f6536b53c45f63b", null ],
     [ "dim", "classbvhar_1_1CtaForecaster.html#acfef4535c9a8bfcc2836ded07a4db12c", null ],

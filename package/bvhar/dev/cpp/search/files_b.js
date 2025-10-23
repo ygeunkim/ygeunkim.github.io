@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['random_2eh_0',['random.h',['../random_8h.html',1,'']]],
-  ['reg_2eh_1',['reg.h',['../reg_8h.html',1,'']]],
-  ['regforecaster_2eh_2',['regforecaster.h',['../regforecaster_8h.html',1,'']]],
-  ['regspillover_2eh_3',['regspillover.h',['../regspillover_8h.html',1,'']]]
+  ['ols_2eh_0',['ols.h',['../ols_8h.html',1,'']]],
+  ['ols_2fforecaster_2eh_1',['forecaster.h',['../ols_2forecaster_8h.html',1,'']]],
+  ['ols_2fspillover_2eh_2',['spillover.h',['../ols_2spillover_8h.html',1,'']]],
+  ['omp_2eh_3',['omp.h',['../omp_8h.html',1,'']]]
 ];

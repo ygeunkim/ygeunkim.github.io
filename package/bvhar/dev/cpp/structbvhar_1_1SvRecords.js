@@ -5,6 +5,7 @@ var structbvhar_1_1SvRecords =
     [ "SvRecords", "structbvhar_1_1SvRecords.html#a75e8ab259240f2237cd30ad264e51da6", null ],
     [ "SvRecords", "structbvhar_1_1SvRecords.html#a0fe61c33a4172b5c3b20d033df552305", null ],
     [ "SvRecords", "structbvhar_1_1SvRecords.html#a0e42c1ee118e5129a34c573b7575f57b", null ],
+    [ "SvRecords", "structbvhar_1_1SvRecords.html#a366bd934727382286653bdf5c99f6e3a", null ],
     [ "~SvRecords", "structbvhar_1_1SvRecords.html#a7e2fcf42d48f9d8fc1624b186a6ae912", null ],
     [ "SvRecords", "structbvhar_1_1SvRecords.html#a0bc510aacbd79a183e5aa6d02b68b4d7", null ],
     [ "SvRecords", "structbvhar_1_1SvRecords.html#a17ebf319f90bf83849e028f398350c11", null ],
