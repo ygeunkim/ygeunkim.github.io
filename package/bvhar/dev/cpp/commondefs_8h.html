@@ -305,9 +305,9 @@ Macros</h2></td></tr>
 <tr class="separator:a4dbf403a74e6329e48a04990858204ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e37848193702189f52c4fb385c228b7" id="r_a6e37848193702189f52c4fb385c228b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a6e37848193702189f52c4fb385c228b7">BVHAR_ACCESS_LIST</a>(iterator,  list)&#160;&#160;&#160;iterator</td></tr>
 <tr class="separator:a6e37848193702189f52c4fb385c228b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a1caa15b675140d4ddc6774355ecab4" id="r_a2a1caa15b675140d4ddc6774355ecab4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a2a1caa15b675140d4ddc6774355ecab4">BVHAR_IS_MATRIX</a>(element)&#160;&#160;&#160;Rcpp::is&lt;Rcpp::NumericMatrix&gt;(element)</td></tr>
+<tr class="memitem:a2a1caa15b675140d4ddc6774355ecab4" id="r_a2a1caa15b675140d4ddc6774355ecab4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a2a1caa15b675140d4ddc6774355ecab4">BVHAR_IS_MATRIX</a>(element)&#160;&#160;&#160;(Rcpp::is&lt;Rcpp::NumericMatrix&gt;(element) || Rcpp::is&lt;Rcpp::IntegerMatrix&gt;(element) || Rcpp::is&lt;Rcpp::LogicalMatrix&gt;(element))</td></tr>
 <tr class="separator:a2a1caa15b675140d4ddc6774355ecab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a213e05dec2f954b74e6194ed32bec8e3" id="r_a213e05dec2f954b74e6194ed32bec8e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a213e05dec2f954b74e6194ed32bec8e3">BVHAR_IS_VECTOR</a>(element)&#160;&#160;&#160;Rcpp::is&lt;Rcpp::NumericVector&gt;(element)</td></tr>
+<tr class="memitem:a213e05dec2f954b74e6194ed32bec8e3" id="r_a213e05dec2f954b74e6194ed32bec8e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#a213e05dec2f954b74e6194ed32bec8e3">BVHAR_IS_VECTOR</a>(element)&#160;&#160;&#160;(Rcpp::is&lt;Rcpp::NumericVector&gt;(element) || Rcpp::is&lt;Rcpp::IntegerVector&gt;(element) || Rcpp::is&lt;Rcpp::LogicalVector&gt;(element))</td></tr>
 <tr class="separator:a213e05dec2f954b74e6194ed32bec8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affdb7e50a6321b4947a418498dc0bc31" id="r_affdb7e50a6321b4947a418498dc0bc31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="commondefs_8h.html#affdb7e50a6321b4947a418498dc0bc31">BVHAR_IS_LOGICAL</a>(element)&#160;&#160;&#160;Rcpp::is&lt;Rcpp::LogicalVector&gt;(element)</td></tr>
 <tr class="separator:affdb7e50a6321b4947a418498dc0bc31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -627,7 +627,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">element</td><td>)</td>
-          <td>&#160;&#160;&#160;Rcpp::is&lt;Rcpp::NumericMatrix&gt;(element)</td>
+          <td>&#160;&#160;&#160;(Rcpp::is&lt;Rcpp::NumericMatrix&gt;(element) || Rcpp::is&lt;Rcpp::IntegerMatrix&gt;(element) || Rcpp::is&lt;Rcpp::LogicalMatrix&gt;(element))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -645,7 +645,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">element</td><td>)</td>
-          <td>&#160;&#160;&#160;Rcpp::is&lt;Rcpp::NumericVector&gt;(element)</td>
+          <td>&#160;&#160;&#160;(Rcpp::is&lt;Rcpp::NumericVector&gt;(element) || Rcpp::is&lt;Rcpp::IntegerVector&gt;(element) || Rcpp::is&lt;Rcpp::LogicalVector&gt;(element))</td>
         </tr>
       </table>
 </div><div class="memdoc">
