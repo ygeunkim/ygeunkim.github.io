@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -72,7 +72,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-969ddfa49e00a70eb3423444dbc81f6c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-7ac2f9da8c2617a4fdd15004b4601015.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-d0a16658ea708c3581ba40ee2f0f7aa7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
@@ -255,7 +255,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="openmp" class="level2">
 <h2 class="anchored" data-anchor-id="openmp">OpenMP</h2>
 <p>OpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. <code>bvhar</code> provides OpenMP checking functions.</p>
-<div id="fe2397f8" class="cell" data-execution_count="1">
+<div id="41b5fb98" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bvhar.utils <span class="im">import</span> checkomp</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>checkomp.check_omp()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -263,7 +263,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p><code>True</code> if enabled, <code>False</code> if not:</p>
-<div id="12da7b79" class="cell" data-execution_count="2">
+<div id="26f34d3a" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>checkomp.is_omp()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="2">
 <pre><code>True</code></pre>
