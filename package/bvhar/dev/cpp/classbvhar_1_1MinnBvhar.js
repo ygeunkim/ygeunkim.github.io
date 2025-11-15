@@ -1,6 +1,6 @@
 var classbvhar_1_1MinnBvhar =
 [
-    [ "MinnBvhar", "classbvhar_1_1MinnBvhar.html#a51ecf0c3e6427a8f6c81d89521590234", null ],
+    [ "MinnBvhar", "classbvhar_1_1MinnBvhar.html#ab3ca3452cdc527afb62949e815e550c8", null ],
     [ "~MinnBvhar", "classbvhar_1_1MinnBvhar.html#a0a0532b4fabeb55d2274a73a51ee7374", null ],
     [ "returnMinnRes", "classbvhar_1_1MinnBvhar.html#a0db40f75c57cb98c5e21fa55cad708e0", null ],
     [ "returnMinnFit", "classbvhar_1_1MinnBvhar.html#a638df2787a02f5151aa1770ec15e4930", null ],

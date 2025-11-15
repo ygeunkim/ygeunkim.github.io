@@ -1,7 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classbvhar_1_1MultiOls.html" title=" " alt="" coords="5,31,127,56"/>
-<area shape="rect" id="Node000001" href="$classbvhar_1_1LltOls.html" title=" " alt="" coords="175,5,279,31"/>
-<area shape="poly" id="edge94_Node000000_Node000001" title=" " alt="" coords="140,29,174,24,175,29,141,34"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1QrOls.html" title=" " alt="" coords="175,55,278,80"/>
-<area shape="poly" id="edge95_Node000000_Node000002" title=" " alt="" coords="141,52,176,57,175,62,140,57"/>
+<area shape="rect" id="Node000000" href="$classbvhar_1_1MinnSpillover.html" title=" " alt="" coords="5,5,161,31"/>
+<area shape="rect" id="Node000001" href="$classbvhar_1_1BvharSpillover.html" title=" " alt="" coords="209,5,372,31"/>
+<area shape="poly" id="edge95_Node000000_Node000001" title=" " alt="" coords="175,15,209,15,209,21,175,21"/>
 </map>

@@ -1,11 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classbvhar_1_1OlsOutforecastRun.html" title=" " alt="" coords="5,31,195,56"/>
-<area shape="rect" id="Node000001" href="$classbvhar_1_1OlsExpandforecastRun.html" title=" " alt="" coords="243,5,457,31"/>
-<area shape="poly" id="edge107_Node000000_Node000001" title=" " alt="" coords="208,30,242,26,243,32,208,35"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1OlsRollforecastRun.html" title=" " alt="" coords="255,55,445,80"/>
-<area shape="poly" id="edge108_Node000000_Node000002" title=" " alt="" coords="209,51,255,56,254,61,208,56"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1VarOutforecastRun.html" title=" " alt="" coords="510,15,699,55"/>
-<area shape="poly" id="edge109_Node000002_Node000003" title=" " alt="" coords="459,51,509,45,510,50,459,56"/>
-<area shape="rect" id="Node000004" href="$classbvhar_1_1VharOutforecastRun.html" title=" " alt="" coords="505,79,704,119"/>
-<area shape="poly" id="edge110_Node000002_Node000004" title=" " alt="" coords="459,78,505,84,505,89,459,84"/>
+<area shape="rect" id="Node000000" href="$classbvhar_1_1OlsInterface.html" title=" " alt="" coords="5,31,152,56"/>
+<area shape="rect" id="Node000001" href="$classbvhar_1_1OlsVar.html" title=" " alt="" coords="205,5,314,31"/>
+<area shape="poly" id="edge107_Node000000_Node000001" title=" " alt="" coords="166,28,204,23,205,28,166,34"/>
+<area shape="rect" id="Node000002" href="$classbvhar_1_1OlsVhar.html" title=" " alt="" coords="200,55,319,80"/>
+<area shape="poly" id="edge108_Node000000_Node000002" title=" " alt="" coords="166,52,200,57,199,62,165,58"/>
 </map>

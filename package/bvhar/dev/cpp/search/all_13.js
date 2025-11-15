@@ -10,5 +10,6 @@ var searchData=
   ['tot_5fspillover_7',['tot_spillover',['../classbvhar_1_1McmcSpillover.html#ae4e8ff27755e7e6d5f10915213724b6a',1,'bvhar::McmcSpillover::tot_spillover'],['../classbvhar_1_1OlsVarSpillover.html#a9d0843409f7c136417d39c8342ad1c41',1,'bvhar::OlsVarSpillover::tot_spillover']]],
   ['triangular_2eh_8',['triangular.h',['../triangular_8h.html',1,'']]],
   ['triangular_2fconfig_2eh_9',['config.h',['../triangular_2config_8h.html',1,'']]],
-  ['triangular_2fdeprecated_2fconfig_2eh_10',['config.h',['../triangular_2deprecated_2config_8h.html',1,'']]]
+  ['triangular_2fdeprecated_2fconfig_2eh_10',['config.h',['../triangular_2deprecated_2config_8h.html',1,'']]],
+  ['tuning_2eh_11',['tuning.h',['../tuning_8h.html',1,'']]]
 ];

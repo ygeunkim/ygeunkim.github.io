@@ -17,5 +17,6 @@ var searchData=
   ['olsvar_14',['OlsVar',['../classbvhar_1_1OlsVar.html',1,'bvhar']]],
   ['olsvarspillover_15',['OlsVarSpillover',['../classbvhar_1_1OlsVarSpillover.html',1,'bvhar']]],
   ['olsvhar_16',['OlsVhar',['../classbvhar_1_1OlsVhar.html',1,'bvhar']]],
-  ['olsvharspillover_17',['OlsVharSpillover',['../classbvhar_1_1OlsVharSpillover.html',1,'bvhar']]]
+  ['olsvharspillover_17',['OlsVharSpillover',['../classbvhar_1_1OlsVharSpillover.html',1,'bvhar']]],
+  ['optimlbfgsb_18',['OptimLbfgsb',['../classbvhar_1_1OptimLbfgsb.html',1,'bvhar']]]
 ];

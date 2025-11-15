@@ -53,6 +53,10 @@ var hierarchy =
     [ "bvhar::FactorAugmenter", "classbvhar_1_1FactorAugmenter.html", [
       [ "bvhar::FactorNormalAugmenter", "classbvhar_1_1FactorNormalAugmenter.html", null ]
     ] ],
+    [ "bvhar::FuncMin", "classbvhar_1_1FuncMin.html", [
+      [ "bvhar::MhMinnLogLik", "classbvhar_1_1MhMinnLogLik.html", null ],
+      [ "bvhar::MinnesotaLogLik", "classbvhar_1_1MinnesotaLogLik.html", null ]
+    ] ],
     [ "bvhar::GlobalLocalRecords", "structbvhar_1_1GlobalLocalRecords.html", [
       [ "bvhar::HorseshoeRecords", "structbvhar_1_1HorseshoeRecords.html", null ],
       [ "bvhar::NgRecords", "structbvhar_1_1NgRecords.html", null ]
@@ -212,6 +216,7 @@ var hierarchy =
     [ "bvhar::OlsVarSpillover", "classbvhar_1_1OlsVarSpillover.html", [
       [ "bvhar::OlsVharSpillover", "classbvhar_1_1OlsVharSpillover.html", null ]
     ] ],
+    [ "bvhar::OptimLbfgsb", "classbvhar_1_1OptimLbfgsb.html", null ],
     [ "boost::random::generalized_inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution_1_1param__type.html", null ],
     [ "boost::random::inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1inverse__gaussian__distribution_1_1param__type.html", null ],
     [ "spdlog::sinks::r_sink", null, [
