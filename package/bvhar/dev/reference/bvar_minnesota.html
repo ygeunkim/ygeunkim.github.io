@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9011</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9012</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,7 +73,6 @@
 <span>  bayes_spec <span class="op">=</span> <span class="fu"><a href="set_bvar.html">set_bvar</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>  scale_variance <span class="op">=</span> <span class="fl">0.05</span>,</span>
 <span>  include_mean <span class="op">=</span> <span class="cn">TRUE</span>,</span>
-<span>  parallel <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>  verbose <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  num_thread <span class="op">=</span> <span class="fl">1</span></span>
 <span><span class="op">)</span></span>
@@ -140,10 +139,6 @@
 
 <dt id="arg-include-mean">include_mean<a class="anchor" aria-label="anchor" href="#arg-include-mean"></a></dt>
 <dd><p>Add constant term (Default: <code>TRUE</code>) or not (<code>FALSE</code>)</p></dd>
-
-
-<dt id="arg-parallel">parallel<a class="anchor" aria-label="anchor" href="#arg-parallel"></a></dt>
-<dd><p>List the same argument of <code><a href="https://rdrr.io/pkg/optimParallel/man/optimParallel.html" class="external-link">optimParallel::optimParallel()</a></code>. By default, this is empty, and the function does not execute parallel computation.</p></dd>
 
 
 <dt id="arg-verbose">verbose<a class="anchor" aria-label="anchor" href="#arg-verbose"></a></dt>
@@ -279,30 +274,30 @@ $$\Sigma_e \sim IW(S_0, \alpha_0)$$
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Extract coef, fitted values, and residuals</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="coef.html">coef</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                   GVZCLS       OVXCLS      VXFXICLS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_1    0.9687374922  0.003277859 -2.127158e-03</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_1   -0.0006560685  0.995091728  1.835137e-03</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_1  0.0005525222 -0.010547068  9.692097e-01</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_2   -0.0063751732  0.005301266  5.301308e-03</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_2   -0.0015610550 -0.001598387  1.827248e-05</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_2  0.0035974867 -0.002866207 -4.303821e-03</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> const       0.6384546093  0.355905198  7.620063e-01</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                  GVZCLS       OVXCLS     VXFXICLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_1     5.53592211 0.0016039774  -0.04723451</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_1    -0.18239510 0.6993033658  -0.38872757</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_1  -0.04716815 0.0029462876   5.62878711</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_2    -0.02936964 0.0003857827  -0.01149626</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_2    -0.02600117 0.1671250164  -0.09000060</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_2  -0.01143932 0.0006885112  -0.02955262</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> const      -74.88067789 3.6877849659 -99.57329732</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="residuals.html">residuals</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>            [,1]       [,2]       [,3]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,]  0.9565672  0.1633277  0.2936904</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] -0.5842806  1.1471284 -0.4752438</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] -0.2615766 -0.8953073  1.1790744</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [4,]  0.3237965 -0.7384529 -0.3004217</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [5,]  0.3217985 -0.7440802 -0.3050897</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] -0.3306978 -1.3119988 -0.5944614</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>           [,1]       [,2]      [,3]</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] -12.10475  0.7968094 -14.76400</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] -17.45874  1.9904077 -16.38575</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] -13.56689  0.2613005 -11.52573</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] -11.27928 -0.0660408 -18.36572</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] -12.38207 -0.1516327 -16.72343</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] -14.14080 -0.8156461 -15.38097</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="fitted.html">fitted</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>        GVZCLS   OVXCLS VXFXICLS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 21.38343 35.35667 28.76631</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 22.18428 35.44287 28.93524</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 21.46158 36.51531 28.36093</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 21.07620 35.53345 29.40542</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 21.27820 34.71408 28.97509</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 21.47070 33.90200 28.55446</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 34.44475 34.72319 43.82400</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 39.05874 34.59959 44.84575</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 34.76689 35.35870 41.06573</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 32.67928 34.86104 47.47072</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 33.98207 34.12163 45.39343</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 35.28080 33.40565 43.34097</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
@@ -314,7 +309,7 @@ $$\Sigma_e \sim IW(S_0, \alpha_0)$$
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
 </div>
 
     </footer></div>
