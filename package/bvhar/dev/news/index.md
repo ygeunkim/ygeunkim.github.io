@@ -25,6 +25,10 @@
   [`vhar_bayes()`](../reference/vhar_bayes.md) with new spec functions.
   Be careful when using these functions before the changes.
 
+- `spdlog` loggers are replaced with custom progress bar (for master
+  thread) by default. If defining `BVHAR_USE_SPDLOG`, spdlog will be
+  used.
+
 ### New features
 
 - [`var_bayes()`](../reference/var_bayes.md) and

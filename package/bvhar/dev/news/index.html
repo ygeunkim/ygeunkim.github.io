@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9012</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9013</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,6 +65,7 @@
 <li><p>Fixed DL prior’s latent parameter sampling.</p></li>
 <li><p>Fixed upper triangular Bartlett decomposition for inverse-Wishart rng. This change affects every results that uses MNIW in the posterior sampling.</p></li>
 <li><p><code><a href="../reference/bvar_minnesota.html">bvar_minnesota()</a></code> and <code><a href="../reference/bvhar_minnesota.html">bvhar_minnesota()</a></code> will find hyperparameters in C++ using L-BFGS-B of <code>LBFGSpp</code> library. And these functions will be integrated into <code><a href="../reference/var_bayes.html">var_bayes()</a></code> and <code><a href="../reference/vhar_bayes.html">vhar_bayes()</a></code> with new spec functions. Be careful when using these functions before the changes.</p></li>
+<li><p><code>spdlog</code> loggers are replaced with custom progress bar (for master thread) by default. If defining <code>BVHAR_USE_SPDLOG</code>, spdlog will be used.</p></li>
 </ul></div>
 <div class="section level3">
 <h3 id="new-features-development-version">New features<a class="anchor" aria-label="anchor" href="#new-features-development-version"></a></h3>
