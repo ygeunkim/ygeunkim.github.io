@@ -32,7 +32,6 @@ var hierarchy =
       [ "bvhar::SsvsParams< BaseRegParams >", "structbvhar_1_1SsvsParams.html", null ]
     ] ],
     [ "bvhar::bvharinterrupt", "classbvhar_1_1bvharinterrupt.html", null ],
-    [ "bvhar::bvharprogress", "classbvhar_1_1bvharprogress.html", null ],
     [ "CtaRollforecastRun", null, [
       [ "bvhar::CtaVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaVarforecastRun.html", null ],
       [ "bvhar::CtaVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaVharforecastRun.html", null ]
@@ -219,6 +218,10 @@ var hierarchy =
     [ "bvhar::OptimLbfgsb", "classbvhar_1_1OptimLbfgsb.html", null ],
     [ "boost::random::generalized_inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution_1_1param__type.html", null ],
     [ "boost::random::inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1inverse__gaussian__distribution_1_1param__type.html", null ],
+    [ "bvhar::ProgressInterface", "classbvhar_1_1ProgressInterface.html", [
+      [ "bvhar::BarProgress", "classbvhar_1_1BarProgress.html", null ],
+      [ "bvhar::SpdlogProgress", "classbvhar_1_1SpdlogProgress.html", null ]
+    ] ],
     [ "spdlog::sinks::r_sink", null, [
       [ "bvhar::sinks::bvhar_sink< Mutex >", "classbvhar_1_1sinks_1_1bvhar__sink.html", null ]
     ] ],

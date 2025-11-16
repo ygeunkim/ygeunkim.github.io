@@ -8,8 +8,9 @@ var searchData=
   ['to_5fspillover_5',['to_spillover',['../classbvhar_1_1McmcSpillover.html#ae0e3e68be91912cd43c60fa0cdc92404',1,'bvhar::McmcSpillover::to_spillover'],['../classbvhar_1_1OlsVarSpillover.html#a91ca63ca3488f1f19f8060edd584cb9b',1,'bvhar::OlsVarSpillover::to_spillover']]],
   ['tot_6',['tot',['../classbvhar_1_1DynamicLdltSpillover.html#a013908fc2d40c45af5c4a259d083802d',1,'bvhar::DynamicLdltSpillover::tot'],['../classbvhar_1_1DynamicSvSpillover.html#a30ec84a206affb8f0f3e37c8bb12e9da',1,'bvhar::DynamicSvSpillover::tot']]],
   ['tot_5fspillover_7',['tot_spillover',['../classbvhar_1_1McmcSpillover.html#ae4e8ff27755e7e6d5f10915213724b6a',1,'bvhar::McmcSpillover::tot_spillover'],['../classbvhar_1_1OlsVarSpillover.html#a9d0843409f7c136417d39c8342ad1c41',1,'bvhar::OlsVarSpillover::tot_spillover']]],
-  ['triangular_2eh_8',['triangular.h',['../triangular_8h.html',1,'']]],
-  ['triangular_2fconfig_2eh_9',['config.h',['../triangular_2config_8h.html',1,'']]],
-  ['triangular_2fdeprecated_2fconfig_2eh_10',['config.h',['../triangular_2deprecated_2config_8h.html',1,'']]],
-  ['tuning_2eh_11',['tuning.h',['../tuning_8h.html',1,'']]]
+  ['total_8',['total',['../classbvhar_1_1ProgressInterface.html#af540e52f0d1b39073e782e1a0a6516a4',1,'bvhar::ProgressInterface']]],
+  ['triangular_2eh_9',['triangular.h',['../triangular_8h.html',1,'']]],
+  ['triangular_2fconfig_2eh_10',['config.h',['../triangular_2config_8h.html',1,'']]],
+  ['triangular_2fdeprecated_2fconfig_2eh_11',['config.h',['../triangular_2deprecated_2config_8h.html',1,'']]],
+  ['tuning_2eh_12',['tuning.h',['../tuning_8h.html',1,'']]]
 ];

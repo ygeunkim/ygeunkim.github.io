@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9012</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9013</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -172,7 +172,7 @@ $(document).ready(function(){initNavTree('augment_8h_source.html',''); initResiz
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classbvhar_1_1FactorAugmenter.html#ade38ae7b6151983f5e3fdb6bfd5828f6">   61</a></span>  Eigen::MatrixXd <a class="code hl_variable" href="classbvhar_1_1FactorAugmenter.html#ade38ae7b6151983f5e3fdb6bfd5828f6">resid</a>; <span class="comment">// Y0 - X0 A vs Y_j - X_j A(j)</span></div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classbvhar_1_1FactorAugmenter.html#a77d31630392cc281db097089e60d7e4f">   62</a></span>  Eigen::MatrixXd <a class="code hl_variable" href="classbvhar_1_1FactorAugmenter.html#a77d31630392cc281db097089e60d7e4f">factor_design</a>; <span class="comment">// Transpose of (f_{p + 1}, ..., f_T)^T</span></div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="comment">// Eigen::VectorXd factor_t; // f_t</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classbvhar_1_1FactorAugmenter.html#ade6d7914df81d04a23793f57246fba66">   64</a></span>  std::unique_ptr&lt;DfmRecords&gt; <a class="code hl_variable" href="classbvhar_1_1FactorAugmenter.html#ade6d7914df81d04a23793f57246fba66">dfm_record</a>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classbvhar_1_1FactorAugmenter.html#ade6d7914df81d04a23793f57246fba66">   64</a></span>  <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::unique_ptr&lt;DfmRecords&gt;</a> <a class="code hl_variable" href="classbvhar_1_1FactorAugmenter.html#ade6d7914df81d04a23793f57246fba66">dfm_record</a>;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>};</div>
 </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
@@ -245,10 +245,10 @@ $(document).ready(function(){initNavTree('augment_8h_source.html',''); initResiz
 <div class="ttc" id="aclassbvhar_1_1FactorNormalAugmenter_html_a9cf8387b0af4e2658eb5d2ed9d681b3e"><div class="ttname"><a href="classbvhar_1_1FactorNormalAugmenter.html#a9cf8387b0af4e2658eb5d2ed9d681b3e">bvhar::FactorNormalAugmenter::~FactorNormalAugmenter</a></div><div class="ttdeci">virtual ~FactorNormalAugmenter()=default</div></div>
 <div class="ttc" id="aclassbvhar_1_1FactorNormalAugmenter_html_affbe3963d20349b187c2e07777b1cfa4"><div class="ttname"><a href="classbvhar_1_1FactorNormalAugmenter.html#affbe3963d20349b187c2e07777b1cfa4">bvhar::FactorNormalAugmenter::updateRecords</a></div><div class="ttdeci">void updateRecords(int id) override</div><div class="ttdef"><b>Definition</b> augment.h:97</div></div>
 <div class="ttc" id="acommon_8h_html_a6cf9f648a944e66c2478fa29468b7ac0"><div class="ttname"><a href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a></div><div class="ttdeci">#define BVHAR_BHRNG</div><div class="ttdef"><b>Definition</b> common.h:34</div></div>
-<div class="ttc" id="acommondefs_8h_html_ac66f23a4818bd454ba9e7847a2bdb2cb"><div class="ttname"><a href="commondefs_8h.html#ac66f23a4818bd454ba9e7847a2bdb2cb">BVHAR_LIST</a></div><div class="ttdeci">#define BVHAR_LIST</div><div class="ttdef"><b>Definition</b> commondefs.h:35</div></div>
+<div class="ttc" id="acommondefs_8h_html_ac66f23a4818bd454ba9e7847a2bdb2cb"><div class="ttname"><a href="commondefs_8h.html#ac66f23a4818bd454ba9e7847a2bdb2cb">BVHAR_LIST</a></div><div class="ttdeci">#define BVHAR_LIST</div><div class="ttdef"><b>Definition</b> commondefs.h:37</div></div>
 <div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> bayes.h:16</div></div>
 <div class="ttc" id="anamespacebvhar_html_af17f304365ef38dd72efec076b3f7413"><div class="ttname"><a href="namespacebvhar.html#af17f304365ef38dd72efec076b3f7413">bvhar::draw_normal_factor</a></div><div class="ttdeci">void draw_normal_factor(Eigen::Ref&lt; Eigen::VectorXd &gt; factor_t, Eigen::Ref&lt; const Eigen::VectorXd &gt; y, Eigen::Ref&lt; const Eigen::MatrixXd &gt; factor_loading, Eigen::Ref&lt; const Eigen::MatrixXd &gt; sig_lower, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> factor_helper.h:8</div></div>
-<div class="ttc" id="anamespacestd_html_a03d5ca705e3360c607bf2586e9a9de3b"><div class="ttname"><a href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::make_unique</a></div><div class="ttdeci">unique_ptr&lt; T &gt; make_unique(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> commondefs.h:121</div></div>
+<div class="ttc" id="anamespacestd_html_a03d5ca705e3360c607bf2586e9a9de3b"><div class="ttname"><a href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::make_unique</a></div><div class="ttdeci">unique_ptr&lt; T &gt; make_unique(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> commondefs.h:123</div></div>
 <div class="ttc" id="astructbvhar_1_1DfmParams_html"><div class="ttname"><a href="structbvhar_1_1DfmParams.html">bvhar::DfmParams</a></div><div class="ttdef"><b>Definition</b> dfm/config.h:12</div></div>
 <div class="ttc" id="atriangular_2deprecated_2config_8h_html"><div class="ttname"><a href="triangular_2deprecated_2config_8h.html">config.h</a></div><div class="ttdoc">Headers including MCMC configuration structs.</div></div>
 </div><!-- fragment --></div><!-- contents -->

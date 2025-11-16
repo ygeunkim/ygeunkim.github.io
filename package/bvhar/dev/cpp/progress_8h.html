@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9012</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9013</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -93,39 +93,83 @@ $(document).ready(function(){initNavTree('progress_8h.html',''); initResizable()
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle"><div class="title">progress.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="commondefs_8h_source.html">commondefs.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="omp_8h_source.html">omp.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="common_8h_source.html">./common.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for progress.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="progress_8h__incl.png" border="0" usemap="#aprogress_8h" alt=""/></div>
 <map name="aprogress_8h" id="aprogress_8h">
-<area shape="rect" title=" " alt="" coords="321,5,412,31"/>
-<area shape="rect" href="commondefs_8h.html" title="Common header." alt="" coords="201,79,319,104"/>
-<area shape="poly" title=" " alt="" coords="351,33,290,73,287,69,348,28"/>
-<area shape="rect" href="omp_8h.html" title=" " alt="" coords="531,79,594,104"/>
-<area shape="poly" title=" " alt="" coords="399,28,519,72,518,77,397,33"/>
-<area shape="rect" title=" " alt="" coords="5,152,72,177"/>
-<area shape="poly" title=" " alt="" coords="225,107,86,151,84,146,224,101"/>
-<area shape="rect" title=" " alt="" coords="97,152,159,177"/>
-<area shape="poly" title=" " alt="" coords="240,106,163,148,160,143,238,102"/>
-<area shape="rect" title=" " alt="" coords="184,152,243,177"/>
-<area shape="poly" title=" " alt="" coords="255,106,231,142,226,139,250,103"/>
-<area shape="rect" title=" " alt="" coords="267,152,344,177"/>
-<area shape="poly" title=" " alt="" coords="270,103,293,139,288,142,265,106"/>
-<area shape="rect" title=" " alt="" coords="369,152,461,177"/>
-<area shape="poly" title=" " alt="" coords="286,102,378,144,376,149,284,106"/>
-<area shape="poly" title=" " alt="" coords="589,76,610,77,618,83,621,92,615,102,603,107,601,102,612,98,615,91,613,86,608,82,589,81"/>
-<area shape="rect" title=" " alt="" coords="485,152,552,177"/>
-<area shape="poly" title=" " alt="" coords="558,106,535,142,531,139,553,103"/>
-<area shape="rect" title=" " alt="" coords="576,152,640,177"/>
-<area shape="poly" title=" " alt="" coords="572,103,596,139,591,142,568,106"/>
-<area shape="rect" title=" " alt="" coords="665,152,727,177"/>
-<area shape="poly" title=" " alt="" coords="585,102,663,143,661,148,583,106"/>
+<area shape="rect" title=" " alt="" coords="1844,5,1935,31"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1840,79,1939,104"/>
+<area shape="poly" title=" " alt="" coords="1892,31,1892,65,1887,65,1887,31"/>
+<area shape="rect" href="eigen_8h.html" title=" " alt="" coords="385,159,463,185"/>
+<area shape="poly" title=" " alt="" coords="1840,97,1358,117,656,155,477,169,477,163,656,149,1358,112,1840,92"/>
+<area shape="rect" href="spdlog_8h.html" title=" " alt="" coords="668,159,753,185"/>
+<area shape="poly" title=" " alt="" coords="1840,96,1621,101,1310,111,995,129,864,141,766,155,753,158,752,153,765,149,864,135,995,124,1310,106,1621,96,1839,91"/>
+<area shape="rect" href="lbfgspp_8h.html" title=" " alt="" coords="777,159,868,185"/>
+<area shape="poly" title=" " alt="" coords="1840,97,1364,114,1084,131,968,142,880,155,866,158,865,153,880,149,967,137,1084,126,1364,109,1840,91"/>
+<area shape="rect" title=" " alt="" coords="891,159,1090,185"/>
+<area shape="poly" title=" " alt="" coords="1840,98,1529,116,1318,132,1103,155,1067,160,1066,154,1102,149,1317,127,1529,110,1840,92"/>
+<area shape="rect" title=" " alt="" coords="1115,152,1277,192"/>
+<area shape="poly" title=" " alt="" coords="1840,99,1607,118,1452,134,1291,155,1290,149,1451,128,1607,112,1840,93"/>
+<area shape="rect" title=" " alt="" coords="1301,152,1496,192"/>
+<area shape="poly" title=" " alt="" coords="1840,103,1510,155,1509,149,1839,98"/>
+<area shape="rect" title=" " alt="" coords="1521,152,1687,192"/>
+<area shape="poly" title=" " alt="" coords="1849,107,1686,151,1685,146,1847,101"/>
+<area shape="rect" title=" " alt="" coords="1711,152,1878,192"/>
+<area shape="poly" title=" " alt="" coords="1877,106,1830,145,1827,141,1874,102"/>
+<area shape="rect" title=" " alt="" coords="1902,152,2069,192"/>
+<area shape="poly" title=" " alt="" coords="1905,102,1953,141,1950,145,1902,106"/>
+<area shape="rect" title=" " alt="" coords="2093,152,2267,192"/>
+<area shape="poly" title=" " alt="" coords="1932,101,2098,146,2096,151,1931,107"/>
+<area shape="rect" title=" " alt="" coords="2291,159,2546,185"/>
+<area shape="poly" title=" " alt="" coords="1940,97,2329,155,2328,160,1939,103"/>
+<area shape="rect" title=" " alt="" coords="2571,152,2739,192"/>
+<area shape="poly" title=" " alt="" coords="1939,93,2200,111,2375,127,2557,149,2557,155,2375,133,2199,116,1939,98"/>
+<area shape="rect" title=" " alt="" coords="2763,152,2914,192"/>
+<area shape="poly" title=" " alt="" coords="1939,91,2275,105,2508,122,2750,149,2749,155,2508,128,2275,110,1939,96"/>
+<area shape="rect" title=" " alt="" coords="2938,152,3089,192"/>
+<area shape="poly" title=" " alt="" coords="1939,90,2101,93,2342,101,2628,119,2777,132,2924,149,2924,154,2777,137,2628,124,2342,106,2101,98,1939,95"/>
+<area shape="rect" title=" " alt="" coords="3113,152,3311,192"/>
+<area shape="poly" title=" " alt="" coords="1939,90,2125,93,2409,102,2748,120,3099,149,3099,155,2748,125,2409,107,2125,99,1939,96"/>
+<area shape="rect" title=" " alt="" coords="3335,159,3478,185"/>
+<area shape="poly" title=" " alt="" coords="1939,91,2610,108,3022,125,3194,136,3324,149,3350,154,3349,159,3324,155,3194,142,3022,131,2610,113,1939,96"/>
+<area shape="rect" href="commondefs_8h.html" title="Common header." alt="" coords="361,240,487,265"/>
+<area shape="poly" title=" " alt="" coords="427,185,427,226,421,226,421,185"/>
+<area shape="rect" title=" " alt="" coords="234,240,337,265"/>
+<area shape="poly" title=" " alt="" coords="405,187,319,236,316,231,402,183"/>
+<area shape="rect" title=" " alt="" coords="5,313,72,339"/>
+<area shape="poly" title=" " alt="" coords="361,266,238,287,86,316,85,311,237,282,360,261"/>
+<area shape="rect" title=" " alt="" coords="97,313,159,339"/>
+<area shape="poly" title=" " alt="" coords="375,268,173,316,172,311,374,263"/>
+<area shape="rect" title=" " alt="" coords="184,313,243,339"/>
+<area shape="poly" title=" " alt="" coords="391,268,257,313,255,308,389,263"/>
+<area shape="rect" title=" " alt="" coords="267,313,435,339"/>
+<area shape="poly" title=" " alt="" coords="414,268,374,306,371,302,410,264"/>
+<area shape="rect" title=" " alt="" coords="459,313,536,339"/>
+<area shape="poly" title=" " alt="" coords="438,264,477,302,474,306,434,268"/>
+<area shape="rect" title=" " alt="" coords="561,313,653,339"/>
+<area shape="poly" title=" " alt="" coords="454,263,565,306,563,311,452,268"/>
+<area shape="poly" title=" " alt="" coords="670,187,480,239,478,234,668,182"/>
+<area shape="rect" href="omp_8h.html" title=" " alt="" coords="675,240,746,265"/>
+<area shape="poly" title=" " alt="" coords="713,185,713,226,708,226,708,185"/>
+<area shape="rect" title=" " alt="" coords="795,240,893,265"/>
+<area shape="poly" title=" " alt="" coords="732,183,814,231,811,235,729,187"/>
+<area shape="poly" title=" " alt="" coords="739,237,761,239,769,244,773,253,767,264,753,269,751,263,763,260,767,252,765,247,760,244,739,243"/>
+<area shape="rect" title=" " alt="" coords="677,313,744,339"/>
+<area shape="poly" title=" " alt="" coords="713,266,713,300,708,300,708,266"/>
+<area shape="rect" title=" " alt="" coords="768,313,832,339"/>
+<area shape="poly" title=" " alt="" coords="727,263,776,302,773,307,723,267"/>
+<area shape="rect" title=" " alt="" coords="857,313,919,339"/>
+<area shape="poly" title=" " alt="" coords="740,263,848,306,846,311,738,268"/>
+<area shape="rect" title=" " alt="" coords="917,240,1088,265"/>
+<area shape="poly" title=" " alt="" coords="850,182,965,232,963,237,848,187"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -133,56 +177,57 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="progress_8h__dep__incl.png" border="0" usemap="#aprogress_8hdep" alt=""/></div>
 <map name="aprogress_8hdep" id="aprogress_8hdep">
-<area shape="rect" title=" " alt="" coords="583,5,673,31"/>
-<area shape="rect" href="bayes_8h.html" title="MCMC base class." alt="" coords="543,79,617,104"/>
-<area shape="poly" title=" " alt="" coords="615,44,590,80,586,77,610,41"/>
-<area shape="rect" href="mniw_2config_8h.html" title=" " alt="" coords="675,79,749,104"/>
-<area shape="poly" title=" " alt="" coords="654,38,700,76,697,80,650,42"/>
-<area shape="rect" href="triangular_2config_8h.html" title="Headers including MCMC configuration structs." alt="" coords="495,152,569,177"/>
-<area shape="poly" title=" " alt="" coords="567,117,542,153,538,150,562,114"/>
-<area shape="rect" href="triangular_2deprecated_2config_8h.html" title="Headers including MCMC configuration structs." alt="" coords="637,152,710,177"/>
-<area shape="poly" title=" " alt="" coords="607,110,660,150,656,154,604,114"/>
-<area shape="rect" href="bayes_2forecaster_8h.html" title=" " alt="" coords="283,152,381,177"/>
-<area shape="poly" title=" " alt="" coords="530,110,373,155,371,149,529,104"/>
-<area shape="rect" href="triangular_8h.html" title="Header including MCMC algorithm." alt="" coords="315,225,411,251"/>
-<area shape="poly" title=" " alt="" coords="493,185,391,228,389,223,491,180"/>
-<area shape="rect" href="bayes_2triangular_2forecaster_8h.html" title=" " alt="" coords="185,299,284,324"/>
-<area shape="poly" title=" " alt="" coords="331,260,257,301,254,296,329,255"/>
-<area shape="rect" href="bayes_2triangular_2spillover_8h.html" title=" " alt="" coords="318,299,407,324"/>
-<area shape="poly" title=" " alt="" coords="365,264,365,299,360,299,360,264"/>
-<area shape="rect" href="regforecaster_8h.html" title=" " alt="" coords="5,372,125,397"/>
-<area shape="poly" title=" " alt="" coords="196,332,94,374,92,369,194,327"/>
-<area shape="rect" href="svforecaster_8h.html" title=" " alt="" coords="149,372,264,397"/>
-<area shape="poly" title=" " alt="" coords="227,338,214,373,209,371,223,336"/>
-<area shape="rect" href="regspillover_8h.html" title=" " alt="" coords="289,372,399,397"/>
-<area shape="poly" title=" " alt="" coords="359,338,350,373,344,371,354,337"/>
-<area shape="rect" href="svspillover_8h.html" title=" " alt="" coords="424,372,528,397"/>
-<area shape="poly" title=" " alt="" coords="394,329,459,370,456,374,391,334"/>
-<area shape="rect" href="deprecated_2triangular_8h.html" title="Header including MCMC algorithm." alt="" coords="635,225,731,251"/>
-<area shape="poly" title=" " alt="" coords="679,191,684,225,679,226,674,191"/>
-<area shape="rect" href="bayes_2triangular_2deprecated_2forecaster_8h.html" title=" " alt="" coords="583,299,681,324"/>
-<area shape="poly" title=" " alt="" coords="668,264,642,300,638,297,664,261"/>
-<area shape="rect" href="reg_8h.html" title=" " alt="" coords="706,299,761,324"/>
-<area shape="poly" title=" " alt="" coords="701,261,727,297,723,300,697,264"/>
-<area shape="rect" href="bayes_2triangular_2deprecated_2spillover_8h.html" title=" " alt="" coords="825,299,914,324"/>
-<area shape="poly" title=" " alt="" coords="726,253,840,296,838,301,724,258"/>
-<area shape="rect" href="sv_8h.html" title=" " alt="" coords="939,299,987,324"/>
-<area shape="poly" title=" " alt="" coords="745,251,927,296,939,300,938,305,926,301,744,256"/>
-<area shape="rect" href="deprecated_2regforecaster_8h.html" title=" " alt="" coords="552,372,672,397"/>
-<area shape="poly" title=" " alt="" coords="628,338,618,373,613,371,622,337"/>
-<area shape="rect" href="deprecated_2svforecaster_8h.html" title=" " alt="" coords="696,372,811,397"/>
-<area shape="poly" title=" " alt="" coords="665,329,735,369,732,374,662,333"/>
-<area shape="rect" href="deprecated_2regspillover_8h.html" title=" " alt="" coords="835,372,946,397"/>
-<area shape="poly" title=" " alt="" coords="879,337,890,371,885,373,874,338"/>
-<area shape="rect" href="deprecated_2svspillover_8h.html" title=" " alt="" coords="971,372,1075,397"/>
-<area shape="poly" title=" " alt="" coords="907,327,999,369,996,374,905,332"/>
-<area shape="poly" title=" " alt="" coords="319,191,245,300,240,297,314,188"/>
-<area shape="rect" href="minnesota_8h.html" title=" " alt="" coords="749,152,851,177"/>
-<area shape="poly" title=" " alt="" coords="738,110,787,150,784,154,735,115"/>
-<area shape="rect" href="bayes_2mniw_2forecaster_8h.html" title=" " alt="" coords="869,225,968,251"/>
-<area shape="poly" title=" " alt="" coords="832,182,901,223,898,227,830,187"/>
-<area shape="rect" href="bayes_2mniw_2spillover_8h.html" title=" " alt="" coords="755,225,845,251"/>
-<area shape="poly" title=" " alt="" coords="803,191,803,225,797,225,797,191"/>
+<area shape="rect" title=" " alt="" coords="387,5,477,31"/>
+<area shape="rect" href="bayes_8h.html" title="MCMC base class." alt="" coords="443,79,517,104"/>
+<area shape="poly" title=" " alt="" coords="450,41,474,77,470,80,445,44"/>
+<area shape="rect" href="mniw_2config_8h.html" title=" " alt="" coords="346,152,419,177"/>
+<area shape="poly" title=" " alt="" coords="426,45,389,153,384,151,421,43"/>
+<area shape="poly" title=" " alt="" coords="455,114,400,154,397,150,452,110"/>
+<area shape="rect" href="triangular_2config_8h.html" title="Headers including MCMC configuration structs." alt="" coords="691,152,765,177"/>
+<area shape="poly" title=" " alt="" coords="531,104,692,150,690,155,530,110"/>
+<area shape="rect" href="triangular_2deprecated_2config_8h.html" title="Headers including MCMC configuration structs." alt="" coords="443,152,517,177"/>
+<area shape="poly" title=" " alt="" coords="483,118,483,152,477,152,477,118"/>
+<area shape="rect" href="bayes_2forecaster_8h.html" title=" " alt="" coords="572,225,671,251"/>
+<area shape="poly" title=" " alt="" coords="503,112,612,223,608,227,499,116"/>
+<area shape="rect" href="minnesota_8h.html" title=" " alt="" coords="122,225,225,251"/>
+<area shape="poly" title=" " alt="" coords="337,184,208,228,206,223,335,179"/>
+<area shape="rect" href="bayes_2mniw_2forecaster_8h.html" title=" " alt="" coords="5,299,104,324"/>
+<area shape="poly" title=" " alt="" coords="144,260,75,301,73,296,141,255"/>
+<area shape="rect" href="bayes_2mniw_2spillover_8h.html" title=" " alt="" coords="129,299,218,324"/>
+<area shape="poly" title=" " alt="" coords="176,264,176,299,171,299,171,264"/>
+<area shape="rect" href="triangular_8h.html" title="Header including MCMC algorithm." alt="" coords="715,225,811,251"/>
+<area shape="poly" title=" " alt="" coords="742,189,759,224,755,226,737,191"/>
+<area shape="rect" href="bayes_2triangular_2forecaster_8h.html" title=" " alt="" coords="713,299,812,324"/>
+<area shape="poly" title=" " alt="" coords="765,264,765,299,760,299,760,264"/>
+<area shape="rect" href="bayes_2triangular_2spillover_8h.html" title=" " alt="" coords="997,299,1086,324"/>
+<area shape="poly" title=" " alt="" coords="821,251,997,296,996,301,820,257"/>
+<area shape="rect" href="regforecaster_8h.html" title=" " alt="" coords="703,372,823,397"/>
+<area shape="poly" title=" " alt="" coords="765,338,765,372,760,372,760,338"/>
+<area shape="rect" href="svforecaster_8h.html" title=" " alt="" coords="847,372,961,397"/>
+<area shape="poly" title=" " alt="" coords="799,328,882,369,880,374,796,332"/>
+<area shape="rect" href="regspillover_8h.html" title=" " alt="" coords="986,372,1097,397"/>
+<area shape="poly" title=" " alt="" coords="1044,338,1044,372,1039,372,1039,338"/>
+<area shape="rect" href="svspillover_8h.html" title=" " alt="" coords="1121,372,1225,397"/>
+<area shape="poly" title=" " alt="" coords="1076,328,1153,369,1150,374,1073,333"/>
+<area shape="rect" href="deprecated_2triangular_8h.html" title="Header including MCMC algorithm." alt="" coords="411,225,507,251"/>
+<area shape="poly" title=" " alt="" coords="475,192,465,226,460,224,470,190"/>
+<area shape="rect" href="bayes_2triangular_2deprecated_2forecaster_8h.html" title=" " alt="" coords="507,299,605,324"/>
+<area shape="poly" title=" " alt="" coords="487,257,542,296,539,301,484,261"/>
+<area shape="rect" href="reg_8h.html" title=" " alt="" coords="242,299,297,324"/>
+<area shape="poly" title=" " alt="" coords="417,258,298,302,296,297,415,253"/>
+<area shape="rect" href="bayes_2triangular_2deprecated_2spillover_8h.html" title=" " alt="" coords="321,299,410,324"/>
+<area shape="poly" title=" " alt="" coords="435,261,382,301,379,296,431,257"/>
+<area shape="rect" href="sv_8h.html" title=" " alt="" coords="435,299,483,324"/>
+<area shape="poly" title=" " alt="" coords="461,264,461,299,456,299,456,264"/>
+<area shape="rect" href="deprecated_2regforecaster_8h.html" title=" " alt="" coords="420,372,540,397"/>
+<area shape="poly" title=" " alt="" coords="536,335,494,374,491,370,532,331"/>
+<area shape="rect" href="deprecated_2svforecaster_8h.html" title=" " alt="" coords="564,372,679,397"/>
+<area shape="poly" title=" " alt="" coords="578,333,613,370,609,374,574,336"/>
+<area shape="rect" href="deprecated_2regspillover_8h.html" title=" " alt="" coords="157,372,267,397"/>
+<area shape="poly" title=" " alt="" coords="330,332,238,374,236,369,327,327"/>
+<area shape="rect" href="deprecated_2svspillover_8h.html" title=" " alt="" coords="292,372,396,397"/>
+<area shape="poly" title=" " alt="" coords="360,338,350,373,345,371,355,337"/>
+<area shape="poly" title=" " alt="" coords="657,254,741,296,738,301,655,259"/>
 </map>
 </div>
 </div>
@@ -190,14 +235,75 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1bvharprogress.html">bvhar::bvharprogress</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1ProgressInterface.html">bvhar::ProgressInterface</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1BarProgress.html">bvhar::BarProgress</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbvhar_1_1SpdlogProgress.html">bvhar::SpdlogProgress</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacebvhar" id="r_namespacebvhar"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebvhar.html">bvhar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a59d49647c55303e1274e8f045dcbf2b2" id="r_a59d49647c55303e1274e8f045dcbf2b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="progress_8h.html#a59d49647c55303e1274e8f045dcbf2b2">BVHAR_DEFAULT_PROGRESS_LEN</a>&#160;&#160;&#160;50</td></tr>
+<tr class="separator:a59d49647c55303e1274e8f045dcbf2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa22b52d2eb5bd7aa187728c46c5b91c9" id="r_aa22b52d2eb5bd7aa187728c46c5b91c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="progress_8h.html#aa22b52d2eb5bd7aa187728c46c5b91c9">BVHAR_DEFAULT_BAR</a>&#160;&#160;&#160;'-'</td></tr>
+<tr class="separator:aa22b52d2eb5bd7aa187728c46c5b91c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d1fef27d3c1a32fbc13de893b45f35" id="r_a75d1fef27d3c1a32fbc13de893b45f35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="progress_8h.html#a75d1fef27d3c1a32fbc13de893b45f35">BVHAR_DEFAULT_PROGRESS</a>&#160;&#160;&#160;&quot;=&gt;&quot;</td></tr>
+<tr class="separator:a75d1fef27d3c1a32fbc13de893b45f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a89d87c5af813ff98ec6b99b50877bd79" id="r_a89d87c5af813ff98ec6b99b50877bd79"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebvhar.html#a89d87c5af813ff98ec6b99b50877bd79">bvhar::BvharProgress</a> = <a class="el" href="classbvhar_1_1BarProgress.html">BarProgress</a></td></tr>
+<tr class="separator:a89d87c5af813ff98ec6b99b50877bd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a59d49647c55303e1274e8f045dcbf2b2" name="a59d49647c55303e1274e8f045dcbf2b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59d49647c55303e1274e8f045dcbf2b2">&#9670;&#160;</a></span>BVHAR_DEFAULT_PROGRESS_LEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BVHAR_DEFAULT_PROGRESS_LEN&#160;&#160;&#160;50</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa22b52d2eb5bd7aa187728c46c5b91c9" name="aa22b52d2eb5bd7aa187728c46c5b91c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa22b52d2eb5bd7aa187728c46c5b91c9">&#9670;&#160;</a></span>BVHAR_DEFAULT_BAR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BVHAR_DEFAULT_BAR&#160;&#160;&#160;'-'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a75d1fef27d3c1a32fbc13de893b45f35" name="a75d1fef27d3c1a32fbc13de893b45f35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75d1fef27d3c1a32fbc13de893b45f35">&#9670;&#160;</a></span>BVHAR_DEFAULT_PROGRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BVHAR_DEFAULT_PROGRESS&#160;&#160;&#160;&quot;=&gt;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

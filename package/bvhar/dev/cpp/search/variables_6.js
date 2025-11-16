@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['get_5flpl_0',['get_lpl',['../classbvhar_1_1McmcOutForecastRun.html#a30158983b248412a5eaf2c1feac529bb',1,'bvhar::McmcOutForecastRun::get_lpl'],['../classbvhar_1_1McmcOutforecastRun.html#ab0d353f92cd23ff12a473e9447671e8b',1,'bvhar::McmcOutforecastRun::get_lpl']]],
-  ['global_5frecord_1',['global_record',['../structbvhar_1_1GlobalLocalRecords.html#aa8e239554b6c581ec0649ff3827873e8',1,'bvhar::GlobalLocalRecords']]],
-  ['group_5frecord_2',['group_record',['../structbvhar_1_1HorseshoeRecords.html#a28cd1db500dc92f41aac102ac19669da',1,'bvhar::HorseshoeRecords::group_record'],['../structbvhar_1_1NgRecords.html#a8b2e15dd36e2109cc6d838e178b796cf',1,'bvhar::NgRecords::group_record']]],
-  ['grp_5fid_3',['grp_id',['../classbvhar_1_1McmcTriangular.html#a8e3012ff18a92edafc7ce33f662a622a',1,'bvhar::McmcTriangular']]],
-  ['grp_5fvec_4',['grp_vec',['../classbvhar_1_1McmcTriangular.html#ab921bf3d24ec8bc0dad050d3b492941c',1,'bvhar::McmcTriangular']]]
+  ['fac_5frecord_0',['fac_record',['../structbvhar_1_1LdltRecords.html#a57225c61aa0ba17e9d1a2ece8a88310a',1,'bvhar::LdltRecords']]],
+  ['factor_5fdesign_1',['factor_design',['../classbvhar_1_1FactorAugmenter.html#a77d31630392cc281db097089e60d7e4f',1,'bvhar::FactorAugmenter']]],
+  ['factor_5flag_2',['factor_lag',['../classbvhar_1_1CtaFactorForecaster.html#a8aa55c9820ca4f4e52f860f9a51651a5',1,'bvhar::CtaFactorForecaster::factor_lag'],['../classbvhar_1_1CtaOutforecastRun.html#acae5c71935be93eaec050acb60390a9e',1,'bvhar::CtaOutforecastRun::factor_lag']]],
+  ['factor_5frecord_3',['factor_record',['../structbvhar_1_1DfmRecords.html#a99c6b5baf3c992f4c7473ceb6215373c',1,'bvhar::DfmRecords']]],
+  ['factor_5fupdater_4',['factor_updater',['../classbvhar_1_1CtaForecaster.html#a3e8db2349e6c453b4096a4d08889a5a0',1,'bvhar::CtaForecaster::factor_updater'],['../classbvhar_1_1McmcTriangular.html#a767692693ee8594a8898335c909e4cf5',1,'bvhar::McmcTriangular::factor_updater']]],
+  ['favar_5fupdater_5',['favar_updater',['../classbvhar_1_1McmcTriangular.html#afa2870fd7a8062385717263e920ca7da',1,'bvhar::McmcTriangular']]],
+  ['fevd_6',['fevd',['../classbvhar_1_1OlsVarSpillover.html#a5b1c3c8ee158f3007d9a038f3cdacba8',1,'bvhar::OlsVarSpillover::fevd'],['../classbvhar_1_1McmcSpillover.html#afa3cd8cf90f996d444240a7638e56c43',1,'bvhar::McmcSpillover::fevd'],['../classbvhar_1_1MinnSpillover.html#ac5b20b6c5ef23572528b3eef51fce8d7',1,'bvhar::MinnSpillover::fevd']]],
+  ['forecaster_7',['forecaster',['../classbvhar_1_1McmcForecastRun.html#a1d8601319c4c4c15fef968378d90ab1e',1,'bvhar::McmcForecastRun::forecaster'],['../classbvhar_1_1McmcOutForecastRun.html#a3f0ed4556eb079cacf104f8076c59ff0',1,'bvhar::McmcOutForecastRun::forecaster'],['../classbvhar_1_1McmcOutforecastRun.html#a0cd89924b4b309e4896ecfc988777706',1,'bvhar::McmcOutforecastRun::forecaster'],['../classbvhar_1_1OlsForecastRun.html#a67b20ea6ad25bf09d5b8c6bca17df2f1',1,'bvhar::OlsForecastRun::forecaster'],['../classbvhar_1_1OlsOutforecastRun.html#a69b1551cf61733431b62c18d4ff5a836',1,'bvhar::OlsOutforecastRun::forecaster']]],
+  ['from_5fsp_8',['from_sp',['../classbvhar_1_1DynamicLdltSpillover.html#aca2d4adb23f22243e2baf4f9155ea9bb',1,'bvhar::DynamicLdltSpillover::from_sp'],['../classbvhar_1_1DynamicSvSpillover.html#ae44f4621b8be2bc642a4dc8bdf99c56d',1,'bvhar::DynamicSvSpillover::from_sp']]],
+  ['from_5fspillover_9',['from_spillover',['../classbvhar_1_1McmcSpillover.html#a9fc064ac11553b162b9a51691da81ad8',1,'bvhar::McmcSpillover::from_spillover'],['../classbvhar_1_1OlsVarSpillover.html#a71d9f67814396388d7ee6cdd0310fc3c',1,'bvhar::OlsVarSpillover::from_spillover']]]
 ];
