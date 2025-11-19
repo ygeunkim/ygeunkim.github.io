@@ -174,8 +174,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#installing" id="toc-installing" class="nav-link active" data-scroll-target="#installing">Installing</a></li>
-  <li><a href="#openmp" id="toc-openmp" class="nav-link" data-scroll-target="#openmp">OpenMP</a></li>
+  <li><a href="#openmp" id="toc-openmp" class="nav-link active" data-scroll-target="#openmp">OpenMP</a></li>
   </ul>
 </nav>
     </div>
@@ -201,81 +200,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>To install <code>bvhar</code> in non-conda environment, you should have Eigen and boost libraries in system.</p>
-<section id="installing" class="level2">
-<h2 class="anchored" data-anchor-id="installing">Installing</h2>
-<section id="eigen-and-boost" class="level3">
-<h3 class="anchored" data-anchor-id="eigen-and-boost">Eigen and boost</h3>
-<p>In Linux,</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt-get update</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt-get install <span class="at">-y</span> libboost-all-dev libeigen3-dev</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"export EIGEN_INCLUDE_DIR=/usr/include/eigen3"</span> <span class="op">&gt;&gt;</span> ~/.bashrc</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"export BOOST_INCLUDE_DIR=/usr/include/boost"</span> <span class="op">&gt;&gt;</span> ~/.bashrc</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> ~/.bashrc</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>In macOS,</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> update</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install boost eigen</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="va">EIGEN_LOC</span><span class="op">=</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> eigen<span class="va">)</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="va">BOOST_LOC</span><span class="op">=</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> boost<span class="va">)</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"export EIGEN_INCLUDE_DIR=</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> eigen<span class="va">)</span><span class="st">/include/eigen3"</span> <span class="op">&gt;&gt;</span> ~/.zshrc</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"export BOOST_INCLUDE_DIR=</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> boost<span class="va">)</span><span class="st">/include"</span> <span class="op">&gt;&gt;</span> ~/.zshrc</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> ~/.zshrc</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>In both Linux and macOS, verify the installation with</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="va">$EIGEN_INCLUDE_DIR</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="va">$BOOST_INCLUDE_DIR</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>For Windows, you can easily install both libraries using Chocolatey:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>choco install eigen <span class="op">-</span>y</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>choco install boost-msvc-14<span class="op">.</span><span class="dv">3</span> <span class="op">-</span>y</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Set the environment variables:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="va">$eigenPath</span> <span class="op">=</span> <span class="op">(</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">Get-ChildItem</span> <span class="op">-</span>Path <span class="st">"C:\ProgramData\chocolatey\lib\eigen"</span> <span class="op">-</span>Recurse <span class="op">-</span>Filter <span class="st">"Eigen"</span> <span class="op">|</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">Select-Object</span> <span class="op">-</span>First <span class="dv">1</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="op">).</span><span class="fu">Parent</span><span class="op">.</span><span class="fu">FullName</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="va">$boostPath</span> <span class="op">=</span> <span class="va">$null</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="va">$boostCand</span> <span class="op">=</span> <span class="op">@(</span><span class="st">"C:\local"</span><span class="op">,</span> <span class="st">"C:\ProgramData\chocolatey\lib"</span><span class="op">)</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="cf">foreach</span> <span class="op">(</span><span class="va">$cand</span> <span class="kw">in</span> <span class="va">$boostCand</span><span class="op">)</span> <span class="op">{</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="va">$isPath</span> <span class="op">=</span> <span class="op">(</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">Get-ChildItem</span> <span class="op">-</span>Path <span class="va">$cand</span> <span class="op">-</span>Directory <span class="op">|</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>      <span class="fu">Where-Object</span> <span class="op">{</span> <span class="va">$_</span><span class="op">.</span><span class="fu">Name</span> <span class="op">-match</span>  <span class="st">"boost"</span> <span class="op">}</span> <span class="op">|</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>      <span class="fu">Sort-Object</span> LastWriteTime <span class="op">-</span>Descending <span class="op">|</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>      <span class="fu">Select-Object</span> <span class="op">-</span>First <span class="dv">1</span></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  <span class="op">).</span><span class="fu">FullName</span></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> <span class="op">(</span><span class="va">$isPath</span><span class="op">)</span> <span class="op">{</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>      <span class="va">$boostPath</span> <span class="op">=</span> <span class="va">$isPath</span></span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>      <span class="cf">break</span></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>  <span class="op">}</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="op">[</span>System<span class="op">.</span><span class="fu">Environment</span><span class="op">]::</span>SetEnvironmentVariable<span class="op">(</span><span class="st">"EIGEN_INCLUDE_DIR"</span><span class="op">,</span> <span class="va">$eigenPath</span><span class="op">,</span> <span class="op">[</span>System<span class="op">.</span><span class="fu">EnvironmentVariableTarget</span><span class="op">]::</span>Machine<span class="op">)</span></span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="op">[</span>System<span class="op">.</span><span class="fu">Environment</span><span class="op">]::</span>SetEnvironmentVariable<span class="op">(</span><span class="st">"BOOST_INCLUDE_DIR"</span><span class="op">,</span> <span class="va">$boostPath</span><span class="op">,</span> <span class="op">[</span>System<span class="op">.</span><span class="fu">EnvironmentVariableTarget</span><span class="op">]::</span>Machine<span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Verify the environment variables and installation:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dir</span> <span class="va">$env</span><span class="op">:</span><span class="va">EIGEN_INCLUDE_DIR</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">dir</span> <span class="va">$env</span><span class="op">:</span><span class="va">BOOST_INCLUDE_DIR</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-</section>
 <section id="openmp" class="level2">
 <h2 class="anchored" data-anchor-id="openmp">OpenMP</h2>
 <p>OpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. <code>bvhar</code> provides OpenMP checking functions.</p>
-<div id="2b94a3fc" class="cell" data-execution_count="1">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bvhar.utils <span class="im">import</span> checkomp</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>checkomp.check_omp()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div id="2002b1d1" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bvhar.utils <span class="im">import</span> checkomp</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>checkomp.check_omp()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>OpenMP threads:  4</code></pre>
 </div>
 </div>
 <p><code>True</code> if enabled, <code>False</code> if not:</p>
-<div id="82a9f40b" class="cell" data-execution_count="2">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>checkomp.is_omp()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div id="041ebcb1" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>checkomp.is_omp()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="2">
 <pre><code>True</code></pre>
 </div>
 </div>
-<p>In macOS, you need additional step to enable OpenMP. There are many options you can consider. Here is an example with LLVM.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> update</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install llvm libomp</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"export CC=</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> llvm<span class="va">)</span><span class="st">/bin/clang"</span> <span class="op">&gt;&gt;</span> ~/.zshrc</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"export CXX=</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> llvm<span class="va">)</span><span class="st">/bin/clang++"</span> <span class="op">&gt;&gt;</span> ~/.zshrc</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"export CPPFLAGS=-I</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> llvm<span class="va">)</span><span class="st">/include -I</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> libomp<span class="va">)</span><span class="st">/include"</span> <span class="op">&gt;&gt;</span> ~/.zshrc</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"export LDFLAGS=-L</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> llvm<span class="va">)</span><span class="st">/lib -L</span><span class="va">$(</span><span class="ex">brew</span> <span class="at">--prefix</span> libomp<span class="va">)</span><span class="st">/lib"</span> <span class="op">&gt;&gt;</span> ~/.zshrc</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>

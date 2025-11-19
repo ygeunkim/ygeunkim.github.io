@@ -4,21 +4,14 @@
     "href": "get_started.html",
     "title": "bvhar Getting Started",
     "section": "",
-    "text": "To install bvhar in non-conda environment, you should have Eigen and boost libraries in system."
-  },
-  {
-    "objectID": "get_started.html#installing",
-    "href": "get_started.html#installing",
-    "title": "bvhar Getting Started",
-    "section": "Installing",
-    "text": "Installing\n\nEigen and boost\nIn Linux,\nsudo apt-get update\nsudo apt-get install -y libboost-all-dev libeigen3-dev\necho \"export EIGEN_INCLUDE_DIR=/usr/include/eigen3\" &gt;&gt; ~/.bashrc\necho \"export BOOST_INCLUDE_DIR=/usr/include/boost\" &gt;&gt; ~/.bashrc\nsource ~/.bashrc\nIn macOS,\nbrew update\nbrew install boost eigen\nEIGEN_LOC=$(brew --prefix eigen)\nBOOST_LOC=$(brew --prefix boost)\necho \"export EIGEN_INCLUDE_DIR=$(brew --prefix eigen)/include/eigen3\" &gt;&gt; ~/.zshrc\necho \"export BOOST_INCLUDE_DIR=$(brew --prefix boost)/include\" &gt;&gt; ~/.zshrc\nsource ~/.zshrc\nIn both Linux and macOS, verify the installation with\nls $EIGEN_INCLUDE_DIR\nls $BOOST_INCLUDE_DIR\nFor Windows, you can easily install both libraries using Chocolatey:\nchoco install eigen -y\nchoco install boost-msvc-14.3 -y\nSet the environment variables:\n$eigenPath = (\n  Get-ChildItem -Path \"C:\\ProgramData\\chocolatey\\lib\\eigen\" -Recurse -Filter \"Eigen\" |\n  Select-Object -First 1\n).Parent.FullName\n$boostPath = $null\n$boostCand = @(\"C:\\local\", \"C:\\ProgramData\\chocolatey\\lib\")\nforeach ($cand in $boostCand) {\n  $isPath = (\n      Get-ChildItem -Path $cand -Directory |\n      Where-Object { $_.Name -match  \"boost\" } |\n      Sort-Object LastWriteTime -Descending |\n      Select-Object -First 1\n  ).FullName\n  if ($isPath) {\n      $boostPath = $isPath\n      break\n  }\n}\n[System.Environment]::SetEnvironmentVariable(\"EIGEN_INCLUDE_DIR\", $eigenPath, [System.EnvironmentVariableTarget]::Machine)\n[System.Environment]::SetEnvironmentVariable(\"BOOST_INCLUDE_DIR\", $boostPath, [System.EnvironmentVariableTarget]::Machine)\nVerify the environment variables and installation:\ndir $env:EIGEN_INCLUDE_DIR\ndir $env:BOOST_INCLUDE_DIR"
+    "text": "OpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. bvhar provides OpenMP checking functions.\n\nfrom bvhar.utils import checkomp\ncheckomp.check_omp()\n\nOpenMP threads:  4\n\n\nTrue if enabled, False if not:\n\ncheckomp.is_omp()\n\nTrue"
   },
   {
     "objectID": "get_started.html#openmp",
     "href": "get_started.html#openmp",
     "title": "bvhar Getting Started",
-    "section": "OpenMP",
-    "text": "OpenMP\nOpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. bvhar provides OpenMP checking functions.\n\nfrom bvhar.utils import checkomp\ncheckomp.check_omp()\n\nOpenMP threads:  4\n\n\nTrue if enabled, False if not:\n\ncheckomp.is_omp()\n\nTrue\n\n\nIn macOS, you need additional step to enable OpenMP. There are many options you can consider. Here is an example with LLVM.\nbrew update\nbrew install llvm libomp\necho \"export CC=$(brew --prefix llvm)/bin/clang\" &gt;&gt; ~/.zshrc\necho \"export CXX=$(brew --prefix llvm)/bin/clang++\" &gt;&gt; ~/.zshrc\necho \"export CPPFLAGS=-I$(brew --prefix llvm)/include -I$(brew --prefix libomp)/include\" &gt;&gt; ~/.zshrc\necho \"export LDFLAGS=-L$(brew --prefix llvm)/lib -L$(brew --prefix libomp)/lib\" &gt;&gt; ~/.zshrc"
+    "section": "",
+    "text": "OpenMP multithreading is used when conducting parallel chains MCMC. If OpenMP is not enabled, the chains are run sequentially. bvhar provides OpenMP checking functions.\n\nfrom bvhar.utils import checkomp\ncheckomp.check_omp()\n\nOpenMP threads:  4\n\n\nTrue if enabled, False if not:\n\ncheckomp.is_omp()\n\nTrue"
   },
   {
     "objectID": "reference/NgConfig.html",
@@ -235,7 +228,7 @@
     "href": "index.html",
     "title": "bvhar ",
     "section": "",
-    "text": "This is a Python version for bvhar package.\nThe package implements C++ headers made in R package. Learn more about bvhar for R.\n\n\n\n\n\n\nNote\n\n\n\nbvhar for Python is not ready to use. This page is rendered just for testing.\n\n\n\n\nbvhar C++ sources uses\n\nEigen library: for matrix computation\nboost library: for random generation.\n\nIf you use conda, you can avoid manual setting of these libraries. Check requirements/environment.yml in our repo. Since conda provides eigen and boost-cpp, you can easily install them.\nOtherwise, you should set their paths by yourself; at this stage.\n\nEIGEN_INCLUDE_DIR: Eigen path that includes the eigen headers\nBOOST_INCLUDE_DIR: boost path that includes the boost headers\n\n\n\n\nFrom GitHub:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git@develop#egg=bvhar&subdirectory=python'\n\n\n\n\n\n\n\n\n\n\nBrowse source code\nReport a bug\nbvhar in R\n\n\n\nFull License\nGPL (&gt;= 3)\n\n\n\nCode of conduct\n\n\n\nYoung Geun Kim\nMore about authors…"
+    "text": "This is a Python version for bvhar package.\nThe package implements C++ headers made in R package. Learn more about bvhar for R.\n\n\n\n\n\n\nNote\n\n\n\nbvhar for Python is not ready to use. This page is rendered just for testing.\n\n\n\n\nbvhar C++ sources uses\n\nEigen library: for matrix computation\nboost library: for random generation.\n\nIf you use conda, you can avoid manual setting of these libraries. Check requirements/environment.yml in our repo. Since conda provides eigen and boost-cpp, you can easily install them.\nOtherwise, you should set their paths by yourself; at this stage.\n\nEIGEN_INCLUDE_DIR: Eigen path that includes the eigen headers\nBOOST_INCLUDE_DIR: boost path that includes the boost headers\n\n\n\n\nFrom GitHub:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git#egg=bvhar&subdirectory=python'\nDevelopment version:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git@develop#egg=bvhar&subdirectory=python'\n\n\n\n\n\n\n\n\n\n\nBrowse source code\nReport a bug\nbvhar in R\n\n\n\nFull License\nGPL (&gt;= 3)\n\n\n\nCode of conduct\n\n\n\nYoung Geun Kim\nMore about authors…"
   },
   {
     "objectID": "index.html#eigen-and-boost-setting",
@@ -249,7 +242,7 @@
     "href": "index.html#installation",
     "title": "bvhar ",
     "section": "",
-    "text": "From GitHub:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git@develop#egg=bvhar&subdirectory=python'"
+    "text": "From GitHub:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git#egg=bvhar&subdirectory=python'\nDevelopment version:\npython -m pip install 'git+https://github.com/ygeunkim/bvhar.git@develop#egg=bvhar&subdirectory=python'"
   },
   {
     "objectID": "authors.html",
