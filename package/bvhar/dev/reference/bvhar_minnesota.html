@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9013</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9014</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -281,33 +281,33 @@ $$\Sigma_e \sim IW(\Psi_0, \nu_0)$$
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Extract coef, fitted values, and residuals</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="coef.html">coef</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                       GVZCLS        OVXCLS      VXFXICLS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_day      3.525472e+00 -9.431425e-05  -0.039770741</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_day     -1.127710e-02  1.010045e+00  -0.025620084</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_day   -3.903069e-02 -9.755045e-04   3.525070594</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_week    -2.343544e-02 -2.699356e-05  -0.009518515</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_week    -2.338894e-03 -4.145484e-04  -0.006148356</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_week  -9.237058e-03 -1.673195e-04  -0.023714990</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_month   -8.575897e-03  1.134874e-07  -0.003585047</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_month   -4.470536e-04 -1.622227e-04  -0.002446587</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_month -3.558648e-03 -6.780519e-05  -0.007952803</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> const          -4.368955e+01 -2.416707e-01 -59.855553053</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                       GVZCLS       OVXCLS      VXFXICLS</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_day      1.5236613461 6.843633e-04 -1.476293e-02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_day     -0.0027953087 9.762112e-01 -5.998437e-03</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_day   -0.0143359454 2.370681e-04  1.524300e+00</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_week    -0.0090482072 1.677521e-04 -3.557504e-03</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_week    -0.0005892590 4.329118e-04 -1.455029e-03</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_week  -0.0033642481 1.801698e-04 -9.049456e-03</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_month   -0.0032372382 1.100300e-04 -1.308296e-03</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_month   -0.0001114521 1.980318e-04 -5.662509e-04</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_month -0.0012961537 7.944401e-05 -3.019550e-03</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> const          -8.7416502773 6.267428e-01 -1.210906e+01</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="residuals.html">residuals</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>           [,1]        [,2]       [,3]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] -5.051086 -0.11701195 -12.947456</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] -6.576633  0.08351964 -12.209579</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] -4.587208  0.37162713  -6.387872</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] -4.063790  0.44086163 -18.416253</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] -1.618573  0.30502991 -14.265225</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] -2.190238  1.17145025 -12.942407</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>            [,1]          [,2]      [,3]</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] -0.7921447 -0.0004231276 -2.983436</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] -1.8249242  0.1973798969 -3.113070</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] -1.1333918  0.4906518013  1.142142</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] -1.2908943  0.5693860360 -4.776914</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] -0.1351714  0.4512025504 -3.142112</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] -0.3593605  1.3291893623 -2.390797</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="fitted.html">fitted</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>        GVZCLS   OVXCLS VXFXICLS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 25.74109 32.43701 42.40746</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 26.60663 32.34648 40.87958</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 24.31721 32.45837 38.11787</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 23.13379 32.85914 48.88625</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 20.85857 33.33497 44.45523</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 21.47024 33.67855 43.45241</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 21.48214 32.32042 32.44344</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 21.85492 32.23262 31.78307</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 20.86339 32.33935 30.58786</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 20.36089 32.73061 35.24691</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 19.37517 33.18880 33.33211</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 19.63936 33.52081 32.90080</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
