@@ -1,7 +1,7 @@
 var bayes_2forecaster_8h =
 [
-    [ "bvhar::BayesForecaster< ReturnType, DataType >", "classbvhar_1_1BayesForecaster.html", "classbvhar_1_1BayesForecaster" ],
-    [ "bvhar::McmcForecastRun< BaseForecaster >", "classbvhar_1_1McmcForecastRun.html", "classbvhar_1_1McmcForecastRun" ],
-    [ "bvhar::McmcOutforecastInterface< BaseForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", "classbvhar_1_1McmcOutforecastInterface" ],
-    [ "bvhar::McmcOutForecastRun< ReturnType, DataType, isUpdate >", "classbvhar_1_1McmcOutForecastRun.html", "classbvhar_1_1McmcOutForecastRun" ]
+    [ "baecon::bvhar::BayesForecaster< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1BayesForecaster.html", "classbaecon_1_1bvhar_1_1BayesForecaster" ],
+    [ "baecon::bvhar::McmcForecastRun< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1McmcForecastRun.html", "classbaecon_1_1bvhar_1_1McmcForecastRun" ],
+    [ "baecon::bvhar::McmcOutforecastInterface", "classbaecon_1_1bvhar_1_1McmcOutforecastInterface.html", "classbaecon_1_1bvhar_1_1McmcOutforecastInterface" ],
+    [ "baecon::bvhar::McmcOutForecastRun< ReturnType, DataType, isUpdate >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", "classbaecon_1_1bvhar_1_1McmcOutForecastRun" ]
 ];

@@ -1,7 +1,7 @@
 var tuning_8h =
 [
-    [ "bvhar::MinnesotaLogLik", "classbvhar_1_1MinnesotaLogLik.html", "classbvhar_1_1MinnesotaLogLik" ],
-    [ "bvhar::MhMinnLogLik", "classbvhar_1_1MhMinnLogLik.html", "classbvhar_1_1MhMinnLogLik" ],
-    [ "minnesota_logml", "tuning_8h.html#a1523831affd040f4d4f8002b72cd1a2b", null ],
-    [ "minnesota_logml", "tuning_8h.html#a807cdd2237df7de141c2b6baed39223a", null ]
+    [ "baecon::bvhar::MinnesotaLogLik", "classbaecon_1_1bvhar_1_1MinnesotaLogLik.html", "classbaecon_1_1bvhar_1_1MinnesotaLogLik" ],
+    [ "baecon::bvhar::MhMinnLogLik", "classbaecon_1_1bvhar_1_1MhMinnLogLik.html", "classbaecon_1_1bvhar_1_1MhMinnLogLik" ],
+    [ "minnesota_logml", "tuning_8h.html#aea12bdd28a4b09a67b359b243dd6d619", null ],
+    [ "minnesota_logml", "tuning_8h.html#a97a94b04a3ea5f1abea2bc384df52fd4", null ]
 ];

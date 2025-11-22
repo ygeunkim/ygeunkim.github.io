@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['var_5fdesign_0',['var_design',['../classbvhar_1_1MinnBvhar.html#ac90964caf375cabff459cab4879f7f6f',1,'bvhar::MinnBvhar::var_design'],['../classbvhar_1_1OlsVhar.html#ac7bcd775e5bb260b7b92919bae0b39fe',1,'bvhar::OlsVhar::var_design']]],
-  ['var_5flag_1',['var_lag',['../classbvhar_1_1MinnForecaster.html#aab36df47df48158226980f79ae0adea8',1,'bvhar::MinnForecaster::var_lag'],['../classbvhar_1_1McmcForecaster.html#a1e119946eccd017a250202caf6a0e902',1,'bvhar::McmcForecaster::var_lag']]],
-  ['verbose_2',['verbose',['../classbvhar_1_1ProgressInterface.html#a99f4ec617dc4572b0b26245e25f49331',1,'bvhar::ProgressInterface']]],
-  ['vma_5fmat_3',['vma_mat',['../classbvhar_1_1MinnSpillover.html#a527c9e8a0d82c78b6e049aec88af5e1b',1,'bvhar::MinnSpillover::vma_mat'],['../classbvhar_1_1McmcSpillover.html#a1fede853e46f2c36fe18cf477714a1ae',1,'bvhar::McmcSpillover::vma_mat'],['../classbvhar_1_1OlsVarSpillover.html#a523223788b4351e9aea03ff090f7935a',1,'bvhar::OlsVarSpillover::vma_mat']]]
+  ['var_5fdesign_0',['var_design',['../classbaecon_1_1bvhar_1_1MinnBvhar.html#a71945a5b48d2e03e92bdb2a1b179d511',1,'baecon::bvhar::MinnBvhar::var_design'],['../classbaecon_1_1bvhar_1_1OlsVhar.html#a7865f8569a96ea3d96cb3263a692fd43',1,'baecon::bvhar::OlsVhar::var_design']]],
+  ['var_5flag_1',['var_lag',['../classbaecon_1_1bvhar_1_1MinnForecaster.html#a51fac63c21c823ea16c6cf8c08c716aa',1,'baecon::bvhar::MinnForecaster']]],
+  ['verbose_2',['verbose',['../classbaecon_1_1bvhar_1_1ProgressInterface.html#a0368ad47c8eadf29f835349e18a74706',1,'baecon::bvhar::ProgressInterface']]],
+  ['vma_5fmat_3',['vma_mat',['../classbaecon_1_1bvhar_1_1MinnSpillover.html#a2135a95a150e1e211606cdf510418698',1,'baecon::bvhar::MinnSpillover::vma_mat'],['../classbaecon_1_1bvhar_1_1McmcSpillover.html#a15a9f902bf283244095842c23777a471',1,'baecon::bvhar::McmcSpillover::vma_mat'],['../classbaecon_1_1bvhar_1_1OlsVarSpillover.html#a2e92579e71b4109129af4effc971ed16',1,'baecon::bvhar::OlsVarSpillover::vma_mat']]]
 ];

@@ -1,6 +1,6 @@
 var dfm_2config_8h =
 [
-    [ "bvhar::DfmParams", "structbvhar_1_1DfmParams.html", "structbvhar_1_1DfmParams" ],
-    [ "bvhar::DfmRecords", "structbvhar_1_1DfmRecords.html", "structbvhar_1_1DfmRecords" ],
-    [ "initialize_dfmrecord", "dfm_2config_8h.html#a69d456cb632de8bd92e9827c8c4aaac4", null ]
+    [ "baecon::bvhar::DfmParams", "structbaecon_1_1bvhar_1_1DfmParams.html", "structbaecon_1_1bvhar_1_1DfmParams" ],
+    [ "baecon::bvhar::DfmRecords", "structbaecon_1_1bvhar_1_1DfmRecords.html", "structbaecon_1_1bvhar_1_1DfmRecords" ],
+    [ "initialize_dfmrecord", "dfm_2config_8h.html#a4a2ff4ee8917719484cc0dcdf8671722", null ]
 ];

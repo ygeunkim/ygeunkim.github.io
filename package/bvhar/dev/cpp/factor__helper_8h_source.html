@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9013</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9014</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -104,35 +104,37 @@ $(document).ready(function(){initNavTree('factor__helper_8h_source.html',''); in
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="helper_8h.html">./helper.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacebvhar.html">bvhar</a> {</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="foldopen" id="foldopen00008" data-start="{" data-end="}">
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="namespacebvhar.html#af17f304365ef38dd72efec076b3f7413">    8</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebvhar.html#af17f304365ef38dd72efec076b3f7413">draw_normal_factor</a>(Eigen::Ref&lt;Eigen::VectorXd&gt; factor_t, Eigen::Ref&lt;const Eigen::VectorXd&gt; y,</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>                               Eigen::Ref&lt;const Eigen::MatrixXd&gt; factor_loading, Eigen::Ref&lt;const Eigen::MatrixXd&gt; sig_lower,</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>                               <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>  <span class="keywordtype">int</span> size_factor = factor_t.size();</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>  Eigen::VectorXd res(size_factor);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; size_factor; i++) {</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    res[i] = normal_rand(rng);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  }</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  Eigen::LLT&lt;Eigen::MatrixXd&gt; llt_of_prec(</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    (factor_loading.transpose() * sig_lower * sig_lower.transpose() * factor_loading + Eigen::MatrixXd::Identity(size_factor, size_factor)).selfadjointView&lt;Eigen::Lower&gt;()</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>  );</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  Eigen::VectorXd post_mean = llt_of_prec.solve(</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    sig_lower.transpose().triangularView&lt;Eigen::Upper&gt;().solve&lt;Eigen::OnTheRight&gt;(factor_loading.transpose()) *</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    sig_lower.triangularView&lt;Eigen::Lower&gt;().solve(y)</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  );</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  factor_t = post_mean + llt_of_prec.matrixU().solve(res);</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>}</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacebaecon.html">baecon</a> {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>bvhar {</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="}">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="namespacebaecon_1_1bvhar.html#a30f4708df625f5745ff1b9a31a252220">    9</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespacebaecon_1_1bvhar.html#a30f4708df625f5745ff1b9a31a252220">draw_normal_factor</a>(Eigen::Ref&lt;Eigen::VectorXd&gt; factor_t, Eigen::Ref&lt;const Eigen::VectorXd&gt; y,</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>                               Eigen::Ref&lt;const Eigen::MatrixXd&gt; factor_loading, Eigen::Ref&lt;const Eigen::MatrixXd&gt; sig_lower,</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>                               <a class="code hl_define" href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a>&amp; rng) {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>  <span class="keywordtype">int</span> size_factor = factor_t.size();</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  Eigen::VectorXd res(size_factor);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; size_factor; i++) {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    res[i] = normal_rand(rng);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  }</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  Eigen::LLT&lt;Eigen::MatrixXd&gt; llt_of_prec(</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    (factor_loading.transpose() * sig_lower * sig_lower.transpose() * factor_loading + Eigen::MatrixXd::Identity(size_factor, size_factor)).selfadjointView&lt;Eigen::Lower&gt;()</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  );</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  Eigen::VectorXd post_mean = llt_of_prec.solve(</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    sig_lower.transpose().triangularView&lt;Eigen::Upper&gt;().solve&lt;Eigen::OnTheRight&gt;(factor_loading.transpose()) *</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    sig_lower.triangularView&lt;Eigen::Lower&gt;().solve(y)</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  );</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  factor_t = post_mean + llt_of_prec.matrixU().solve(res);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>}</div>
 </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>} <span class="comment">// namespace bvhar</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_BAYES_MISC_FACTOR_HELPER_H</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>} <span class="comment">// namespace bvhar</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>} <span class="comment">// namespace baecon</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#endif </span><span class="comment">// BVHAR_BAYES_MISC_FACTOR_HELPER_H</span></div>
 <div class="ttc" id="acommon_8h_html_a6cf9f648a944e66c2478fa29468b7ac0"><div class="ttname"><a href="common_8h.html#a6cf9f648a944e66c2478fa29468b7ac0">BVHAR_BHRNG</a></div><div class="ttdeci">#define BVHAR_BHRNG</div><div class="ttdef"><b>Definition</b> common.h:34</div></div>
 <div class="ttc" id="ahelper_8h_html"><div class="ttname"><a href="helper_8h.html">helper.h</a></div></div>
-<div class="ttc" id="anamespacebvhar_html"><div class="ttname"><a href="namespacebvhar.html">bvhar</a></div><div class="ttdef"><b>Definition</b> bayes.h:16</div></div>
-<div class="ttc" id="anamespacebvhar_html_af17f304365ef38dd72efec076b3f7413"><div class="ttname"><a href="namespacebvhar.html#af17f304365ef38dd72efec076b3f7413">bvhar::draw_normal_factor</a></div><div class="ttdeci">void draw_normal_factor(Eigen::Ref&lt; Eigen::VectorXd &gt; factor_t, Eigen::Ref&lt; const Eigen::VectorXd &gt; y, Eigen::Ref&lt; const Eigen::MatrixXd &gt; factor_loading, Eigen::Ref&lt; const Eigen::MatrixXd &gt; sig_lower, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> factor_helper.h:8</div></div>
+<div class="ttc" id="anamespacebaecon_1_1bvhar_html_a30f4708df625f5745ff1b9a31a252220"><div class="ttname"><a href="namespacebaecon_1_1bvhar.html#a30f4708df625f5745ff1b9a31a252220">baecon::bvhar::draw_normal_factor</a></div><div class="ttdeci">void draw_normal_factor(Eigen::Ref&lt; Eigen::VectorXd &gt; factor_t, Eigen::Ref&lt; const Eigen::VectorXd &gt; y, Eigen::Ref&lt; const Eigen::MatrixXd &gt; factor_loading, Eigen::Ref&lt; const Eigen::MatrixXd &gt; sig_lower, boost::random::mixmax &amp;rng)</div><div class="ttdef"><b>Definition</b> factor_helper.h:9</div></div>
+<div class="ttc" id="anamespacebaecon_html"><div class="ttname"><a href="namespacebaecon.html">baecon</a></div><div class="ttdef"><b>Definition</b> bayes.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

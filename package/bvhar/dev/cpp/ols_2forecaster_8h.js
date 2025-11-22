@@ -1,16 +1,16 @@
 var ols_2forecaster_8h =
 [
-    [ "bvhar::OlsExogenForecaster", "classbvhar_1_1OlsExogenForecaster.html", "classbvhar_1_1OlsExogenForecaster" ],
-    [ "bvhar::OlsErrorGenerator", "classbvhar_1_1OlsErrorGenerator.html", "classbvhar_1_1OlsErrorGenerator" ],
-    [ "bvhar::OlsGaussianGenerator", "classbvhar_1_1OlsGaussianGenerator.html", "classbvhar_1_1OlsGaussianGenerator" ],
-    [ "bvhar::OlsStudentGenerator", "classbvhar_1_1OlsStudentGenerator.html", "classbvhar_1_1OlsStudentGenerator" ],
-    [ "bvhar::OlsForecaster", "classbvhar_1_1OlsForecaster.html", "classbvhar_1_1OlsForecaster" ],
-    [ "bvhar::VarForecaster", "classbvhar_1_1VarForecaster.html", "classbvhar_1_1VarForecaster" ],
-    [ "bvhar::VharForecaster", "classbvhar_1_1VharForecaster.html", "classbvhar_1_1VharForecaster" ],
-    [ "bvhar::OlsForecastRun", "classbvhar_1_1OlsForecastRun.html", "classbvhar_1_1OlsForecastRun" ],
-    [ "bvhar::OlsOutforecastRun", "classbvhar_1_1OlsOutforecastRun.html", "classbvhar_1_1OlsOutforecastRun" ],
-    [ "bvhar::OlsRollforecastRun", "classbvhar_1_1OlsRollforecastRun.html", "classbvhar_1_1OlsRollforecastRun" ],
-    [ "bvhar::OlsExpandforecastRun", "classbvhar_1_1OlsExpandforecastRun.html", "classbvhar_1_1OlsExpandforecastRun" ],
-    [ "bvhar::VarOutforecastRun< BaseOutForecast >", "classbvhar_1_1VarOutforecastRun.html", "classbvhar_1_1VarOutforecastRun" ],
-    [ "bvhar::VharOutforecastRun< BaseOutForecast >", "classbvhar_1_1VharOutforecastRun.html", "classbvhar_1_1VharOutforecastRun" ]
+    [ "baecon::bvhar::OlsExogenForecaster", "classbaecon_1_1bvhar_1_1OlsExogenForecaster.html", "classbaecon_1_1bvhar_1_1OlsExogenForecaster" ],
+    [ "baecon::bvhar::OlsErrorGenerator", "classbaecon_1_1bvhar_1_1OlsErrorGenerator.html", "classbaecon_1_1bvhar_1_1OlsErrorGenerator" ],
+    [ "baecon::bvhar::OlsGaussianGenerator", "classbaecon_1_1bvhar_1_1OlsGaussianGenerator.html", "classbaecon_1_1bvhar_1_1OlsGaussianGenerator" ],
+    [ "baecon::bvhar::OlsStudentGenerator", "classbaecon_1_1bvhar_1_1OlsStudentGenerator.html", "classbaecon_1_1bvhar_1_1OlsStudentGenerator" ],
+    [ "baecon::bvhar::OlsForecaster", "classbaecon_1_1bvhar_1_1OlsForecaster.html", "classbaecon_1_1bvhar_1_1OlsForecaster" ],
+    [ "baecon::bvhar::VarForecaster", "classbaecon_1_1bvhar_1_1VarForecaster.html", "classbaecon_1_1bvhar_1_1VarForecaster" ],
+    [ "baecon::bvhar::VharForecaster", "classbaecon_1_1bvhar_1_1VharForecaster.html", "classbaecon_1_1bvhar_1_1VharForecaster" ],
+    [ "baecon::bvhar::OlsForecastRun", "classbaecon_1_1bvhar_1_1OlsForecastRun.html", "classbaecon_1_1bvhar_1_1OlsForecastRun" ],
+    [ "baecon::bvhar::OlsOutforecastRun", "classbaecon_1_1bvhar_1_1OlsOutforecastRun.html", "classbaecon_1_1bvhar_1_1OlsOutforecastRun" ],
+    [ "baecon::bvhar::OlsRollforecastRun", "classbaecon_1_1bvhar_1_1OlsRollforecastRun.html", "classbaecon_1_1bvhar_1_1OlsRollforecastRun" ],
+    [ "baecon::bvhar::OlsExpandforecastRun", "classbaecon_1_1bvhar_1_1OlsExpandforecastRun.html", "classbaecon_1_1bvhar_1_1OlsExpandforecastRun" ],
+    [ "baecon::bvhar::VarOutforecastRun< BaseOutForecast >", "classbaecon_1_1bvhar_1_1VarOutforecastRun.html", "classbaecon_1_1bvhar_1_1VarOutforecastRun" ],
+    [ "baecon::bvhar::VharOutforecastRun< BaseOutForecast >", "classbaecon_1_1bvhar_1_1VharOutforecastRun.html", "classbaecon_1_1bvhar_1_1VharOutforecastRun" ]
 ];

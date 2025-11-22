@@ -1,6 +1,5 @@
 var dir_2bfcfd3d0ef3d5442f53ce24219f2304 =
 [
-    [ "deprecated", "dir_010f28b9bbebf8dbbff7dab6f21ffb52.html", "dir_010f28b9bbebf8dbbff7dab6f21ffb52" ],
     [ "coef_helper.h", "coef__helper_8h.html", "coef__helper_8h" ],
     [ "dl_helper.h", "dl__helper_8h.html", "dl__helper_8h" ],
     [ "draw.h", "draw_8h.html", "draw_8h" ],

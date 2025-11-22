@@ -1,6 +1,6 @@
 var bayes_8h =
 [
-    [ "bvhar::McmcParams", "structbvhar_1_1McmcParams.html", "structbvhar_1_1McmcParams" ],
-    [ "bvhar::McmcAlgo", "classbvhar_1_1McmcAlgo.html", "classbvhar_1_1McmcAlgo" ],
-    [ "bvhar::McmcRun", "classbvhar_1_1McmcRun.html", "classbvhar_1_1McmcRun" ]
+    [ "baecon::bvhar::McmcParams", "structbaecon_1_1bvhar_1_1McmcParams.html", "structbaecon_1_1bvhar_1_1McmcParams" ],
+    [ "baecon::bvhar::McmcAlgo", "classbaecon_1_1bvhar_1_1McmcAlgo.html", "classbaecon_1_1bvhar_1_1McmcAlgo" ],
+    [ "baecon::bvhar::McmcRun", "classbaecon_1_1bvhar_1_1McmcRun.html", "classbaecon_1_1bvhar_1_1McmcRun" ]
 ];

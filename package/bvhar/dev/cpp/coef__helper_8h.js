@@ -1,7 +1,7 @@
 var coef__helper_8h =
 [
-    [ "draw_coef", "coef__helper_8h.html#ac1e15e72ed1f0251c9b4542ca0e4486c", null ],
-    [ "draw_savs", "coef__helper_8h.html#a3a8cdbc5d65e51aaf92c80f97b989972", null ],
-    [ "draw_mn_savs", "coef__helper_8h.html#a2660b13d27969ebb81758734cbdd4fc9", null ],
-    [ "reg_ldlt_diag", "coef__helper_8h.html#ad74395c56fc526a2cece75ade1afdbcc", null ]
+    [ "draw_coef", "coef__helper_8h.html#ab9a1e4ef17279f33420594b69be34328", null ],
+    [ "draw_savs", "coef__helper_8h.html#a3cb51f7959767665867602959e1eb455", null ],
+    [ "draw_mn_savs", "coef__helper_8h.html#aefc01b2f02eb5ffd276a73f14557a9e2", null ],
+    [ "reg_ldlt_diag", "coef__helper_8h.html#adcf3a1e5bfeb8934a9ba6e396b7addd5", null ]
 ];

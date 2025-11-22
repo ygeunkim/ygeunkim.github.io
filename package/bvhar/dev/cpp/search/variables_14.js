@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['week_0',['week',['../classbvhar_1_1MinnBvhar.html#a5155324e6446f66fdf636e679e178046',1,'bvhar::MinnBvhar::week'],['../classbvhar_1_1OlsVhar.html#a5706f9b7fddf25483602ebffc7a4da24',1,'bvhar::OlsVhar::week']]],
-  ['win_5fsize_1',['win_size',['../classbvhar_1_1DynamicLdltSpillover.html#a1b3c9f8d481e5237163c4a5181573e93',1,'bvhar::DynamicLdltSpillover']]]
+  ['week_0',['week',['../classbaecon_1_1bvhar_1_1MinnBvhar.html#a47d6d0de07326da1d46f12dde9307429',1,'baecon::bvhar::MinnBvhar::week'],['../classbaecon_1_1bvhar_1_1OlsVhar.html#a0aaf7b2551199dd14e5b84d2032d47b0',1,'baecon::bvhar::OlsVhar::week']]],
+  ['win_5fsize_1',['win_size',['../classbaecon_1_1bvhar_1_1DynamicLdltSpillover.html#aa3d5f338430e8adce063fc0fb7379b1a',1,'baecon::bvhar::DynamicLdltSpillover']]]
 ];

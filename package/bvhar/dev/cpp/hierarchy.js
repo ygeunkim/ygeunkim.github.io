@@ -1,267 +1,198 @@
 var hierarchy =
 [
-    [ "bvhar::AutoregGenerator< ReturnType, DataType >", "classbvhar_1_1AutoregGenerator.html", null ],
-    [ "bvhar::AutoregGenerator< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1AutoregGenerator.html", [
-      [ "bvhar::OlsErrorGenerator", "classbvhar_1_1OlsErrorGenerator.html", [
-        [ "bvhar::OlsGaussianGenerator", "classbvhar_1_1OlsGaussianGenerator.html", null ],
-        [ "bvhar::OlsStudentGenerator", "classbvhar_1_1OlsStudentGenerator.html", null ]
+    [ "baecon::bvhar::AutoregGenerator< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1AutoregGenerator.html", null ],
+    [ "baecon::bvhar::AutoregGenerator< Eigen::MatrixXd, Eigen::VectorXd >", "classbaecon_1_1bvhar_1_1AutoregGenerator.html", [
+      [ "baecon::bvhar::OlsErrorGenerator", "classbaecon_1_1bvhar_1_1OlsErrorGenerator.html", [
+        [ "baecon::bvhar::OlsGaussianGenerator", "classbaecon_1_1bvhar_1_1OlsGaussianGenerator.html", null ],
+        [ "baecon::bvhar::OlsStudentGenerator", "classbaecon_1_1bvhar_1_1OlsStudentGenerator.html", null ]
       ] ]
     ] ],
-    [ "BaseRegInits", null, [
-      [ "bvhar::GdpInits< BaseRegInits >", "structbvhar_1_1GdpInits.html", null ],
-      [ "bvhar::GlInits< BaseRegInits >", "structbvhar_1_1GlInits.html", [
-        [ "bvhar::HsInits< BaseRegInits >", "structbvhar_1_1HsInits.html", [
-          [ "bvhar::NgInits< BaseRegInits >", "structbvhar_1_1NgInits.html", null ]
-        ] ],
-        [ "bvhar::HorseshoeInits", "structbvhar_1_1HorseshoeInits.html", [
-          [ "bvhar::NgInits< BaseRegInits >", "structbvhar_1_1NgInits.html", null ]
-        ] ],
-        [ "bvhar::HsInits< BaseRegInits >", "structbvhar_1_1HsInits.html", null ]
-      ] ],
-      [ "bvhar::HierminnInits< BaseRegInits >", "structbvhar_1_1HierminnInits.html", null ],
-      [ "bvhar::SsvsInits< BaseRegInits >", "structbvhar_1_1SsvsInits.html", null ]
-    ] ],
-    [ "BaseRegParams", null, [
-      [ "bvhar::DlParams< BaseRegParams >", "structbvhar_1_1DlParams.html", null ],
-      [ "bvhar::GdpParams< BaseRegParams >", "structbvhar_1_1GdpParams.html", null ],
-      [ "bvhar::HierminnParams< BaseRegParams >", "structbvhar_1_1HierminnParams.html", null ],
-      [ "bvhar::MinnParams< BaseRegParams >", "structbvhar_1_1MinnParams.html", [
-        [ "bvhar::HierminnParams< BaseRegParams >", "structbvhar_1_1HierminnParams.html", null ]
-      ] ],
-      [ "bvhar::NgParams< BaseRegParams >", "structbvhar_1_1NgParams.html", null ],
-      [ "bvhar::SsvsParams< BaseRegParams >", "structbvhar_1_1SsvsParams.html", null ]
-    ] ],
-    [ "bvhar::bvharinterrupt", "classbvhar_1_1bvharinterrupt.html", null ],
+    [ "baecon::bvhar::bvharinterrupt", "classbaecon_1_1bvhar_1_1bvharinterrupt.html", null ],
     [ "CtaRollforecastRun", null, [
-      [ "bvhar::CtaVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaVarforecastRun.html", null ],
-      [ "bvhar::CtaVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaVharforecastRun.html", null ]
+      [ "baecon::bvhar::CtaVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbaecon_1_1bvhar_1_1CtaVarforecastRun.html", null ],
+      [ "baecon::bvhar::CtaVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbaecon_1_1bvhar_1_1CtaVharforecastRun.html", null ]
     ] ],
-    [ "bvhar::DfmParams", "structbvhar_1_1DfmParams.html", null ],
-    [ "bvhar::DfmRecords", "structbvhar_1_1DfmRecords.html", null ],
-    [ "bvhar::DynamicLdltSpillover", "classbvhar_1_1DynamicLdltSpillover.html", null ],
-    [ "bvhar::DynamicSvSpillover", "classbvhar_1_1DynamicSvSpillover.html", null ],
-    [ "bvhar::ExogenForecaster< ReturnType, DataType >", "classbvhar_1_1ExogenForecaster.html", null ],
-    [ "bvhar::ExogenForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1ExogenForecaster.html", [
-      [ "bvhar::CtaExogenForecaster", "classbvhar_1_1CtaExogenForecaster.html", [
-        [ "bvhar::CtaFactorForecaster", "classbvhar_1_1CtaFactorForecaster.html", [
-          [ "bvhar::CtaFactorNormalForecaster", "classbvhar_1_1CtaFactorNormalForecaster.html", null ]
+    [ "baecon::bvhar::DfmParams", "structbaecon_1_1bvhar_1_1DfmParams.html", null ],
+    [ "baecon::bvhar::DfmRecords", "structbaecon_1_1bvhar_1_1DfmRecords.html", null ],
+    [ "baecon::bvhar::DynamicLdltSpillover", "classbaecon_1_1bvhar_1_1DynamicLdltSpillover.html", null ],
+    [ "baecon::bvhar::DynamicSvSpillover", "classbaecon_1_1bvhar_1_1DynamicSvSpillover.html", null ],
+    [ "baecon::bvhar::ExogenForecaster< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1ExogenForecaster.html", null ],
+    [ "baecon::bvhar::ExogenForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbaecon_1_1bvhar_1_1ExogenForecaster.html", [
+      [ "baecon::bvhar::CtaExogenForecaster", "classbaecon_1_1bvhar_1_1CtaExogenForecaster.html", [
+        [ "baecon::bvhar::CtaFactorForecaster", "classbaecon_1_1bvhar_1_1CtaFactorForecaster.html", [
+          [ "baecon::bvhar::CtaFactorNormalForecaster", "classbaecon_1_1bvhar_1_1CtaFactorNormalForecaster.html", null ]
         ] ]
       ] ],
-      [ "bvhar::OlsExogenForecaster", "classbvhar_1_1OlsExogenForecaster.html", null ]
+      [ "baecon::bvhar::OlsExogenForecaster", "classbaecon_1_1bvhar_1_1OlsExogenForecaster.html", null ]
     ] ],
-    [ "bvhar::FactorAugmenter", "classbvhar_1_1FactorAugmenter.html", [
-      [ "bvhar::FactorNormalAugmenter", "classbvhar_1_1FactorNormalAugmenter.html", null ]
+    [ "baecon::bvhar::FactorAugmenter", "classbaecon_1_1bvhar_1_1FactorAugmenter.html", [
+      [ "baecon::bvhar::FactorNormalAugmenter", "classbaecon_1_1bvhar_1_1FactorNormalAugmenter.html", null ]
     ] ],
-    [ "bvhar::FuncMin", "classbvhar_1_1FuncMin.html", [
-      [ "bvhar::MhMinnLogLik", "classbvhar_1_1MhMinnLogLik.html", null ],
-      [ "bvhar::MinnesotaLogLik", "classbvhar_1_1MinnesotaLogLik.html", null ]
-    ] ],
-    [ "bvhar::GlobalLocalRecords", "structbvhar_1_1GlobalLocalRecords.html", [
-      [ "bvhar::HorseshoeRecords", "structbvhar_1_1HorseshoeRecords.html", null ],
-      [ "bvhar::NgRecords", "structbvhar_1_1NgRecords.html", null ]
+    [ "baecon::bvhar::FuncMin", "classbaecon_1_1bvhar_1_1FuncMin.html", [
+      [ "baecon::bvhar::MhMinnLogLik", "classbaecon_1_1bvhar_1_1MhMinnLogLik.html", null ],
+      [ "baecon::bvhar::MinnesotaLogLik", "classbaecon_1_1bvhar_1_1MinnesotaLogLik.html", null ]
     ] ],
     [ "boost::random::inverse_gaussian_distribution< RealType >", "classboost_1_1random_1_1inverse__gaussian__distribution.html", null ],
-    [ "bvhar::McmcAlgo", "classbvhar_1_1McmcAlgo.html", [
-      [ "bvhar::McmcTriangular", "classbvhar_1_1McmcTriangular.html", [
-        [ "bvhar::McmcReg", "classbvhar_1_1McmcReg.html", [
-          [ "bvhar::McmcDl< BaseMcmc, isGroup >", "classbvhar_1_1McmcDl.html", null ],
-          [ "bvhar::McmcGdp< BaseMcmc >", "classbvhar_1_1McmcGdp.html", null ],
-          [ "bvhar::McmcHierminn< BaseMcmc >", "classbvhar_1_1McmcHierminn.html", null ],
-          [ "bvhar::McmcHorseshoe< BaseMcmc, isGroup >", "classbvhar_1_1McmcHorseshoe.html", null ],
-          [ "bvhar::McmcMinn< BaseMcmc >", "classbvhar_1_1McmcMinn.html", null ],
-          [ "bvhar::McmcNg< BaseMcmc, isGroup >", "classbvhar_1_1McmcNg.html", null ],
-          [ "bvhar::McmcSsvs< BaseMcmc >", "classbvhar_1_1McmcSsvs.html", null ]
-        ] ],
-        [ "bvhar::McmcReg", "classbvhar_1_1McmcReg.html", null ],
-        [ "bvhar::McmcSv", "classbvhar_1_1McmcSv.html", null ],
-        [ "bvhar::McmcSv", "classbvhar_1_1McmcSv.html", null ]
-      ] ],
-      [ "bvhar::McmcTriangular", "classbvhar_1_1McmcTriangular.html", null ]
-    ] ],
-    [ "bvhar::McmcForecaster", "classbvhar_1_1McmcForecaster.html", [
-      [ "bvhar::RegForecaster", "classbvhar_1_1RegForecaster.html", [
-        [ "bvhar::CtaVarForecaster< RegForecaster >", "classbvhar_1_1CtaVarForecaster.html", null ],
-        [ "bvhar::CtaVharForecaster< RegForecaster >", "classbvhar_1_1CtaVharForecaster.html", null ],
-        [ "bvhar::McmcVarForecaster< RegForecaster >", "classbvhar_1_1McmcVarForecaster.html", null ],
-        [ "bvhar::McmcVharForecaster< RegForecaster >", "classbvhar_1_1McmcVharForecaster.html", null ],
-        [ "bvhar::CtaVarForecaster< BaseForecaster >", "classbvhar_1_1CtaVarForecaster.html", [
-          [ "bvhar::CtaVarSelectForecaster< BaseForecaster >", "classbvhar_1_1CtaVarSelectForecaster.html", null ]
-        ] ],
-        [ "bvhar::CtaVharForecaster< BaseForecaster >", "classbvhar_1_1CtaVharForecaster.html", [
-          [ "bvhar::CtaVharSelectForecaster< BaseForecaster >", "classbvhar_1_1CtaVharSelectForecaster.html", null ]
-        ] ],
-        [ "bvhar::McmcVarForecaster< BaseForecaster >", "classbvhar_1_1McmcVarForecaster.html", [
-          [ "bvhar::McmcVarSelectForecaster< BaseForecaster >", "classbvhar_1_1McmcVarSelectForecaster.html", null ]
-        ] ],
-        [ "bvhar::McmcVharForecaster< BaseForecaster >", "classbvhar_1_1McmcVharForecaster.html", [
-          [ "bvhar::McmcVharSelectForecaster< BaseForecaster >", "classbvhar_1_1McmcVharSelectForecaster.html", null ]
-        ] ]
-      ] ],
-      [ "bvhar::SvForecaster", "classbvhar_1_1SvForecaster.html", null ]
-    ] ],
-    [ "bvhar::McmcMniw", "classbvhar_1_1McmcMniw.html", null ],
-    [ "bvhar::McmcOutforecastInterface< BaseForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", [
-      [ "bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, isUpdate >", "classbvhar_1_1McmcOutForecastRun.html", [
-        [ "bvhar::CtaOutforecastRun< RegForecaster, true >", "classbvhar_1_1CtaOutforecastRun.html", null ]
-      ] ],
-      [ "bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, true >", "classbvhar_1_1McmcOutForecastRun.html", null ],
-      [ "bvhar::McmcOutforecastRun< RegForecaster, true >", "classbvhar_1_1McmcOutforecastRun.html", null ],
-      [ "bvhar::McmcOutForecastRun< ReturnType, DataType, isUpdate >", "classbvhar_1_1McmcOutForecastRun.html", [
-        [ "bvhar::CtaOutforecastRun< BaseForecaster, isUpdate >", "classbvhar_1_1CtaOutforecastRun.html", [
-          [ "bvhar::CtaExpandforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaExpandforecastRun.html", null ],
-          [ "bvhar::CtaRollforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1CtaRollforecastRun.html", null ]
-        ] ]
-      ] ],
-      [ "bvhar::McmcOutforecastRun< BaseForecaster, isUpdate >", "classbvhar_1_1McmcOutforecastRun.html", [
-        [ "bvhar::McmcExpandforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcExpandforecastRun.html", null ],
-        [ "bvhar::McmcRollforecastRun< BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcRollforecastRun.html", null ]
+    [ "baecon::bvhar::McmcAlgo", "classbaecon_1_1bvhar_1_1McmcAlgo.html", [
+      [ "baecon::bvhar::McmcTriangular", "classbaecon_1_1bvhar_1_1McmcTriangular.html", [
+        [ "baecon::bvhar::McmcReg", "classbaecon_1_1bvhar_1_1McmcReg.html", null ],
+        [ "baecon::bvhar::McmcSv", "classbaecon_1_1bvhar_1_1McmcSv.html", null ]
       ] ]
     ] ],
-    [ "bvhar::McmcOutforecastInterface< RegForecaster >", "classbvhar_1_1McmcOutforecastInterface.html", null ],
-    [ "bvhar::McmcParams", "structbvhar_1_1McmcParams.html", [
-      [ "bvhar::RegParams", "structbvhar_1_1RegParams.html", [
-        [ "bvhar::HorseshoeParams< BaseRegParams >", "structbvhar_1_1HorseshoeParams.html", null ],
-        [ "bvhar::SvParams", "structbvhar_1_1SvParams.html", null ],
-        [ "bvhar::SvParams", "structbvhar_1_1SvParams.html", null ]
+    [ "baecon::bvhar::McmcMniw", "classbaecon_1_1bvhar_1_1McmcMniw.html", null ],
+    [ "baecon::bvhar::McmcOutforecastInterface", "classbaecon_1_1bvhar_1_1McmcOutforecastInterface.html", [
+      [ "baecon::bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, isUpdate >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", [
+        [ "baecon::bvhar::CtaOutforecastRun< RegForecaster, true >", "classbaecon_1_1bvhar_1_1CtaOutforecastRun.html", null ]
       ] ],
-      [ "bvhar::RegParams", "structbvhar_1_1RegParams.html", null ]
+      [ "baecon::bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, true >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", null ],
+      [ "baecon::bvhar::McmcOutForecastRun< ReturnType, DataType, isUpdate >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", [
+        [ "baecon::bvhar::CtaOutforecastRun< BaseForecaster, isUpdate >", "classbaecon_1_1bvhar_1_1CtaOutforecastRun.html", [
+          [ "baecon::bvhar::CtaExpandforecastRun< BaseForecaster, isGroup, isUpdate >", "classbaecon_1_1bvhar_1_1CtaExpandforecastRun.html", null ],
+          [ "baecon::bvhar::CtaRollforecastRun< BaseForecaster, isGroup, isUpdate >", "classbaecon_1_1bvhar_1_1CtaRollforecastRun.html", null ]
+        ] ]
+      ] ]
     ] ],
-    [ "McmcRollforecastRun", null, [
-      [ "bvhar::McmcVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVarforecastRun.html", null ],
-      [ "bvhar::McmcVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbvhar_1_1McmcVharforecastRun.html", null ]
+    [ "baecon::bvhar::McmcOutforecastRun< ReturnType, DataType, isUpdate >", "classbaecon_1_1bvhar_1_1McmcOutforecastRun.html", null ],
+    [ "baecon::bvhar::McmcParams", "structbaecon_1_1bvhar_1_1McmcParams.html", [
+      [ "baecon::bvhar::RegParams", "structbaecon_1_1bvhar_1_1RegParams.html", [
+        [ "baecon::bvhar::SvParams", "structbaecon_1_1bvhar_1_1SvParams.html", null ]
+      ] ]
     ] ],
-    [ "bvhar::McmcRun", "classbvhar_1_1McmcRun.html", [
-      [ "bvhar::CtaRun< BaseMcmc, isGroup >", "classbvhar_1_1CtaRun.html", null ],
-      [ "bvhar::CtaRun< BaseMcmc, isGroup >", "classbvhar_1_1CtaRun.html", null ]
+    [ "baecon::bvhar::McmcRun", "classbaecon_1_1bvhar_1_1McmcRun.html", [
+      [ "baecon::bvhar::CtaRun< BaseMcmc, isGroup >", "classbaecon_1_1bvhar_1_1CtaRun.html", null ]
     ] ],
-    [ "bvhar::McmcSpillover", "classbvhar_1_1McmcSpillover.html", [
-      [ "bvhar::McmcVarSpillover< RecordType >", "classbvhar_1_1McmcVarSpillover.html", null ],
-      [ "bvhar::McmcVarSpillover< RecordType >", "classbvhar_1_1McmcVarSpillover.html", null ],
-      [ "bvhar::McmcVharSpillover< RecordType >", "classbvhar_1_1McmcVharSpillover.html", null ],
-      [ "bvhar::McmcVharSpillover< RecordType >", "classbvhar_1_1McmcVharSpillover.html", null ]
+    [ "baecon::bvhar::McmcSpillover", "classbaecon_1_1bvhar_1_1McmcSpillover.html", [
+      [ "baecon::bvhar::McmcVarSpillover< RecordType >", "classbaecon_1_1bvhar_1_1McmcVarSpillover.html", null ],
+      [ "baecon::bvhar::McmcVharSpillover< RecordType >", "classbaecon_1_1bvhar_1_1McmcVharSpillover.html", null ]
     ] ],
-    [ "bvhar::McmcSpilloverRun< RecordType >", "classbvhar_1_1McmcSpilloverRun.html", null ],
-    [ "bvhar::MhMinnInits", "structbvhar_1_1MhMinnInits.html", null ],
-    [ "bvhar::MhMinnRecords", "structbvhar_1_1MhMinnRecords.html", null ],
-    [ "bvhar::MhMinnSpec", "structbvhar_1_1MhMinnSpec.html", null ],
-    [ "bvhar::MinnBvar", "classbvhar_1_1MinnBvar.html", null ],
-    [ "bvhar::MinnBvhar", "classbvhar_1_1MinnBvhar.html", [
-      [ "bvhar::MinnBvharL", "classbvhar_1_1MinnBvharL.html", null ],
-      [ "bvhar::MinnBvharS", "classbvhar_1_1MinnBvharS.html", null ]
+    [ "baecon::bvhar::McmcSpilloverRun< RecordType >", "classbaecon_1_1bvhar_1_1McmcSpilloverRun.html", null ],
+    [ "baecon::bvhar::MhMinnInits", "structbaecon_1_1bvhar_1_1MhMinnInits.html", null ],
+    [ "baecon::bvhar::MhMinnRecords", "structbaecon_1_1bvhar_1_1MhMinnRecords.html", null ],
+    [ "baecon::bvhar::MhMinnSpec", "structbaecon_1_1bvhar_1_1MhMinnSpec.html", null ],
+    [ "baecon::bvhar::MinnBvar", "classbaecon_1_1bvhar_1_1MinnBvar.html", null ],
+    [ "baecon::bvhar::MinnBvhar", "classbaecon_1_1bvhar_1_1MinnBvhar.html", [
+      [ "baecon::bvhar::MinnBvharL", "classbaecon_1_1bvhar_1_1MinnBvharL.html", null ],
+      [ "baecon::bvhar::MinnBvharS", "classbaecon_1_1bvhar_1_1MinnBvharS.html", null ]
     ] ],
-    [ "bvhar::Minnesota", "classbvhar_1_1Minnesota.html", [
-      [ "bvhar::MhMinnesota", "classbvhar_1_1MhMinnesota.html", null ]
+    [ "baecon::bvhar::Minnesota", "classbaecon_1_1bvhar_1_1Minnesota.html", [
+      [ "baecon::bvhar::MhMinnesota", "classbaecon_1_1bvhar_1_1MhMinnesota.html", null ]
     ] ],
-    [ "bvhar::MinnFit", "structbvhar_1_1MinnFit.html", null ],
-    [ "bvhar::MinnFlat", "classbvhar_1_1MinnFlat.html", null ],
-    [ "bvhar::MinnForecaster", "classbvhar_1_1MinnForecaster.html", [
-      [ "bvhar::BvarForecaster", "classbvhar_1_1BvarForecaster.html", null ],
-      [ "bvhar::BvharForecaster", "classbvhar_1_1BvharForecaster.html", null ]
+    [ "baecon::bvhar::MinnFit", "structbaecon_1_1bvhar_1_1MinnFit.html", null ],
+    [ "baecon::bvhar::MinnFlat", "classbaecon_1_1bvhar_1_1MinnFlat.html", null ],
+    [ "baecon::bvhar::MinnForecaster", "classbaecon_1_1bvhar_1_1MinnForecaster.html", [
+      [ "baecon::bvhar::BvarForecaster", "classbaecon_1_1bvhar_1_1BvarForecaster.html", null ],
+      [ "baecon::bvhar::BvharForecaster", "classbaecon_1_1bvhar_1_1BvharForecaster.html", null ]
     ] ],
-    [ "bvhar::MinnRecords", "structbvhar_1_1MinnRecords.html", null ],
-    [ "bvhar::MinnSpec", "structbvhar_1_1MinnSpec.html", [
-      [ "bvhar::BvarSpec", "structbvhar_1_1BvarSpec.html", null ],
-      [ "bvhar::BvharSpec", "structbvhar_1_1BvharSpec.html", null ]
+    [ "baecon::bvhar::MinnRecords", "structbaecon_1_1bvhar_1_1MinnRecords.html", null ],
+    [ "baecon::bvhar::MinnSpec", "structbaecon_1_1bvhar_1_1MinnSpec.html", [
+      [ "baecon::bvhar::BvarSpec", "structbaecon_1_1bvhar_1_1BvarSpec.html", null ],
+      [ "baecon::bvhar::BvharSpec", "structbaecon_1_1bvhar_1_1BvharSpec.html", null ]
     ] ],
-    [ "bvhar::MinnSpillover", "classbvhar_1_1MinnSpillover.html", [
-      [ "bvhar::BvharSpillover", "classbvhar_1_1BvharSpillover.html", null ]
+    [ "baecon::bvhar::MinnSpillover", "classbaecon_1_1bvhar_1_1MinnSpillover.html", [
+      [ "baecon::bvhar::BvharSpillover", "classbaecon_1_1bvhar_1_1BvharSpillover.html", null ]
     ] ],
-    [ "bvhar::MultiOls", "classbvhar_1_1MultiOls.html", [
-      [ "bvhar::LltOls", "classbvhar_1_1LltOls.html", null ],
-      [ "bvhar::QrOls", "classbvhar_1_1QrOls.html", null ]
+    [ "baecon::bvhar::MultiOls", "classbaecon_1_1bvhar_1_1MultiOls.html", [
+      [ "baecon::bvhar::LltOls", "classbaecon_1_1bvhar_1_1LltOls.html", null ],
+      [ "baecon::bvhar::QrOls", "classbaecon_1_1bvhar_1_1QrOls.html", null ]
     ] ],
-    [ "bvhar::MultistepForecaster< ReturnType, DataType >", "classbvhar_1_1MultistepForecaster.html", [
-      [ "bvhar::BayesForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1BayesForecaster.html", [
-        [ "bvhar::CtaForecaster", "classbvhar_1_1CtaForecaster.html", [
-          [ "bvhar::RegForecaster", "classbvhar_1_1RegForecaster.html", null ],
-          [ "bvhar::SvForecaster", "classbvhar_1_1SvForecaster.html", null ]
+    [ "baecon::bvhar::MultistepForecaster< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1MultistepForecaster.html", [
+      [ "baecon::bvhar::BayesForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbaecon_1_1bvhar_1_1BayesForecaster.html", [
+        [ "baecon::bvhar::CtaForecaster", "classbaecon_1_1bvhar_1_1CtaForecaster.html", [
+          [ "baecon::bvhar::RegForecaster", "classbaecon_1_1bvhar_1_1RegForecaster.html", [
+            [ "baecon::bvhar::CtaVarForecaster< RegForecaster >", "classbaecon_1_1bvhar_1_1CtaVarForecaster.html", null ],
+            [ "baecon::bvhar::CtaVharForecaster< RegForecaster >", "classbaecon_1_1bvhar_1_1CtaVharForecaster.html", null ],
+            [ "baecon::bvhar::CtaVarForecaster< BaseForecaster >", "classbaecon_1_1bvhar_1_1CtaVarForecaster.html", [
+              [ "baecon::bvhar::CtaVarSelectForecaster< BaseForecaster >", "classbaecon_1_1bvhar_1_1CtaVarSelectForecaster.html", null ]
+            ] ],
+            [ "baecon::bvhar::CtaVharForecaster< BaseForecaster >", "classbaecon_1_1bvhar_1_1CtaVharForecaster.html", [
+              [ "baecon::bvhar::CtaVharSelectForecaster< BaseForecaster >", "classbaecon_1_1bvhar_1_1CtaVharSelectForecaster.html", null ]
+            ] ]
+          ] ],
+          [ "baecon::bvhar::SvForecaster", "classbaecon_1_1bvhar_1_1SvForecaster.html", null ]
         ] ]
       ] ],
-      [ "bvhar::BayesForecaster< ReturnType, DataType >", "classbvhar_1_1BayesForecaster.html", null ]
+      [ "baecon::bvhar::BayesForecaster< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1BayesForecaster.html", null ]
     ] ],
-    [ "bvhar::MultistepForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1MultistepForecaster.html", [
-      [ "bvhar::OlsForecaster", "classbvhar_1_1OlsForecaster.html", [
-        [ "bvhar::VarForecaster", "classbvhar_1_1VarForecaster.html", null ],
-        [ "bvhar::VharForecaster", "classbvhar_1_1VharForecaster.html", null ]
+    [ "baecon::bvhar::MultistepForecaster< Eigen::MatrixXd, Eigen::VectorXd >", "classbaecon_1_1bvhar_1_1MultistepForecaster.html", [
+      [ "baecon::bvhar::OlsForecaster", "classbaecon_1_1bvhar_1_1OlsForecaster.html", [
+        [ "baecon::bvhar::VarForecaster", "classbaecon_1_1bvhar_1_1VarForecaster.html", null ],
+        [ "baecon::bvhar::VharForecaster", "classbaecon_1_1bvhar_1_1VharForecaster.html", null ]
       ] ]
     ] ],
-    [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", null ],
-    [ "bvhar::MultistepForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1MultistepForecastRun.html", [
-      [ "bvhar::OlsForecastRun", "classbvhar_1_1OlsForecastRun.html", null ],
-      [ "bvhar::OlsSimulator", "classbvhar_1_1OlsSimulator.html", null ]
-    ] ],
-    [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", [
-      [ "bvhar::McmcForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbvhar_1_1McmcForecastRun.html", [
-        [ "bvhar::CtaForecastRun< BaseForecaster >", "classbvhar_1_1CtaForecastRun.html", null ]
+    [ "baecon::bvhar::MultistepForecastRun< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1MultistepForecastRun.html", [
+      [ "baecon::bvhar::McmcForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbaecon_1_1bvhar_1_1McmcForecastRun.html", [
+        [ "baecon::bvhar::CtaForecastRun< BaseForecaster >", "classbaecon_1_1bvhar_1_1CtaForecastRun.html", null ]
       ] ],
-      [ "bvhar::McmcForecastRun< BaseForecaster >", "classbvhar_1_1McmcForecastRun.html", null ]
+      [ "baecon::bvhar::McmcForecastRun< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1McmcForecastRun.html", null ]
     ] ],
-    [ "bvhar::OlsDynamicSpillover", "classbvhar_1_1OlsDynamicSpillover.html", null ],
-    [ "bvhar::OlsFit", "structbvhar_1_1OlsFit.html", [
-      [ "bvhar::StructuralFit", "structbvhar_1_1StructuralFit.html", null ]
+    [ "baecon::bvhar::MultistepForecastRun< Eigen::MatrixXd, Eigen::VectorXd >", "classbaecon_1_1bvhar_1_1MultistepForecastRun.html", [
+      [ "baecon::bvhar::OlsForecastRun", "classbaecon_1_1bvhar_1_1OlsForecastRun.html", null ],
+      [ "baecon::bvhar::OlsSimulator", "classbaecon_1_1bvhar_1_1OlsSimulator.html", null ]
     ] ],
-    [ "bvhar::OlsInterface", "classbvhar_1_1OlsInterface.html", [
-      [ "bvhar::OlsVar", "classbvhar_1_1OlsVar.html", null ],
-      [ "bvhar::OlsVhar", "classbvhar_1_1OlsVhar.html", null ]
+    [ "baecon::bvhar::OlsDynamicSpillover", "classbaecon_1_1bvhar_1_1OlsDynamicSpillover.html", null ],
+    [ "baecon::bvhar::OlsFit", "structbaecon_1_1bvhar_1_1OlsFit.html", [
+      [ "baecon::bvhar::StructuralFit", "structbaecon_1_1bvhar_1_1StructuralFit.html", null ]
     ] ],
-    [ "bvhar::OlsOutforecastRun", "classbvhar_1_1OlsOutforecastRun.html", [
-      [ "bvhar::OlsExpandforecastRun", "classbvhar_1_1OlsExpandforecastRun.html", null ],
-      [ "bvhar::OlsRollforecastRun", "classbvhar_1_1OlsRollforecastRun.html", [
-        [ "bvhar::VarOutforecastRun< BaseOutForecast >", "classbvhar_1_1VarOutforecastRun.html", null ],
-        [ "bvhar::VharOutforecastRun< BaseOutForecast >", "classbvhar_1_1VharOutforecastRun.html", null ]
+    [ "baecon::bvhar::OlsInterface", "classbaecon_1_1bvhar_1_1OlsInterface.html", [
+      [ "baecon::bvhar::OlsVar", "classbaecon_1_1bvhar_1_1OlsVar.html", null ],
+      [ "baecon::bvhar::OlsVhar", "classbaecon_1_1bvhar_1_1OlsVhar.html", null ]
+    ] ],
+    [ "baecon::bvhar::OlsOutforecastRun", "classbaecon_1_1bvhar_1_1OlsOutforecastRun.html", [
+      [ "baecon::bvhar::OlsExpandforecastRun", "classbaecon_1_1bvhar_1_1OlsExpandforecastRun.html", null ],
+      [ "baecon::bvhar::OlsRollforecastRun", "classbaecon_1_1bvhar_1_1OlsRollforecastRun.html", [
+        [ "baecon::bvhar::VarOutforecastRun< BaseOutForecast >", "classbaecon_1_1bvhar_1_1VarOutforecastRun.html", null ],
+        [ "baecon::bvhar::VharOutforecastRun< BaseOutForecast >", "classbaecon_1_1bvhar_1_1VharOutforecastRun.html", null ]
       ] ]
     ] ],
-    [ "bvhar::OlsSpilloverRun", "classbvhar_1_1OlsSpilloverRun.html", null ],
-    [ "bvhar::OlsVarSpillover", "classbvhar_1_1OlsVarSpillover.html", [
-      [ "bvhar::OlsVharSpillover", "classbvhar_1_1OlsVharSpillover.html", null ]
+    [ "baecon::bvhar::OlsSpilloverRun", "classbaecon_1_1bvhar_1_1OlsSpilloverRun.html", null ],
+    [ "baecon::bvhar::OlsVarSpillover", "classbaecon_1_1bvhar_1_1OlsVarSpillover.html", [
+      [ "baecon::bvhar::OlsVharSpillover", "classbaecon_1_1bvhar_1_1OlsVharSpillover.html", null ]
     ] ],
-    [ "bvhar::OptimLbfgsb", "classbvhar_1_1OptimLbfgsb.html", null ],
+    [ "baecon::bvhar::OptimLbfgsb", "classbaecon_1_1bvhar_1_1OptimLbfgsb.html", null ],
     [ "boost::random::generalized_inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1generalized__inverse__gaussian__distribution_1_1param__type.html", null ],
     [ "boost::random::inverse_gaussian_distribution< RealType >::param_type", "classboost_1_1random_1_1inverse__gaussian__distribution_1_1param__type.html", null ],
-    [ "bvhar::ProgressInterface", "classbvhar_1_1ProgressInterface.html", [
-      [ "bvhar::BarProgress", "classbvhar_1_1BarProgress.html", null ],
-      [ "bvhar::SpdlogProgress", "classbvhar_1_1SpdlogProgress.html", null ]
+    [ "baecon::bvhar::ProgressInterface", "classbaecon_1_1bvhar_1_1ProgressInterface.html", [
+      [ "baecon::bvhar::BarProgress", "classbaecon_1_1bvhar_1_1BarProgress.html", null ],
+      [ "baecon::bvhar::SpdlogProgress", "classbaecon_1_1bvhar_1_1SpdlogProgress.html", null ]
     ] ],
     [ "spdlog::sinks::r_sink", null, [
-      [ "bvhar::sinks::bvhar_sink< Mutex >", "classbvhar_1_1sinks_1_1bvhar__sink.html", null ]
+      [ "baecon::bvhar::sinks::bvhar_sink< Mutex >", "classbaecon_1_1bvhar_1_1sinks_1_1bvhar__sink.html", null ]
     ] ],
-    [ "bvhar::RegInits", "structbvhar_1_1RegInits.html", [
-      [ "bvhar::LdltInits", "structbvhar_1_1LdltInits.html", [
-        [ "bvhar::GlInits< LdltInits >", "structbvhar_1_1GlInits.html", null ]
+    [ "baecon::bvhar::RegInits", "structbaecon_1_1bvhar_1_1RegInits.html", [
+      [ "baecon::bvhar::LdltInits", "structbaecon_1_1bvhar_1_1LdltInits.html", null ],
+      [ "baecon::bvhar::SvInits", "structbaecon_1_1bvhar_1_1SvInits.html", null ]
+    ] ],
+    [ "baecon::bvhar::RegRecords", "structbaecon_1_1bvhar_1_1RegRecords.html", [
+      [ "baecon::bvhar::LdltRecords", "structbaecon_1_1bvhar_1_1LdltRecords.html", null ],
+      [ "baecon::bvhar::SvRecords", "structbaecon_1_1bvhar_1_1SvRecords.html", null ]
+    ] ],
+    [ "baecon::bvhar::ShrinkageInits", "structbaecon_1_1bvhar_1_1ShrinkageInits.html", [
+      [ "baecon::bvhar::GdpInits", "structbaecon_1_1bvhar_1_1GdpInits.html", null ],
+      [ "baecon::bvhar::GlInits", "structbaecon_1_1bvhar_1_1GlInits.html", [
+        [ "baecon::bvhar::HorseshoeInits", "structbaecon_1_1bvhar_1_1HorseshoeInits.html", [
+          [ "baecon::bvhar::NgInits", "structbaecon_1_1bvhar_1_1NgInits.html", null ]
+        ] ]
       ] ],
-      [ "bvhar::LdltInits", "structbvhar_1_1LdltInits.html", null ],
-      [ "bvhar::SvInits", "structbvhar_1_1SvInits.html", null ],
-      [ "bvhar::SvInits", "structbvhar_1_1SvInits.html", null ]
+      [ "baecon::bvhar::HierminnInits", "structbaecon_1_1bvhar_1_1HierminnInits.html", null ],
+      [ "baecon::bvhar::SsvsInits", "structbaecon_1_1bvhar_1_1SsvsInits.html", null ]
     ] ],
-    [ "bvhar::RegRecords", "structbvhar_1_1RegRecords.html", [
-      [ "bvhar::LdltRecords", "structbvhar_1_1LdltRecords.html", null ],
-      [ "bvhar::LdltRecords", "structbvhar_1_1LdltRecords.html", null ],
-      [ "bvhar::SvRecords", "structbvhar_1_1SvRecords.html", null ],
-      [ "bvhar::SvRecords", "structbvhar_1_1SvRecords.html", null ]
+    [ "baecon::bvhar::ShrinkageParams", "structbaecon_1_1bvhar_1_1ShrinkageParams.html", [
+      [ "baecon::bvhar::DlParams", "structbaecon_1_1bvhar_1_1DlParams.html", null ],
+      [ "baecon::bvhar::GdpParams", "structbaecon_1_1bvhar_1_1GdpParams.html", null ],
+      [ "baecon::bvhar::MinnParams", "structbaecon_1_1bvhar_1_1MinnParams.html", [
+        [ "baecon::bvhar::HierminnParams", "structbaecon_1_1bvhar_1_1HierminnParams.html", null ]
+      ] ],
+      [ "baecon::bvhar::NgParams", "structbaecon_1_1bvhar_1_1NgParams.html", null ],
+      [ "baecon::bvhar::SsvsParams", "structbaecon_1_1bvhar_1_1SsvsParams.html", null ]
     ] ],
-    [ "bvhar::ShrinkageInits", "structbvhar_1_1ShrinkageInits.html", [
-      [ "bvhar::GlInits< LdltInits >", "structbvhar_1_1GlInits.html", null ],
-      [ "bvhar::GdpInits< BaseRegInits >", "structbvhar_1_1GdpInits.html", null ],
-      [ "bvhar::GlInits< BaseRegInits >", "structbvhar_1_1GlInits.html", null ],
-      [ "bvhar::HierminnInits< BaseRegInits >", "structbvhar_1_1HierminnInits.html", null ],
-      [ "bvhar::SsvsInits< BaseRegInits >", "structbvhar_1_1SsvsInits.html", null ]
+    [ "baecon::bvhar::ShrinkageUpdater", "classbaecon_1_1bvhar_1_1ShrinkageUpdater.html", [
+      [ "baecon::bvhar::DlUpdater< isGroup >", "classbaecon_1_1bvhar_1_1DlUpdater.html", null ],
+      [ "baecon::bvhar::GdpUpdater< isGroup >", "classbaecon_1_1bvhar_1_1GdpUpdater.html", null ],
+      [ "baecon::bvhar::HierminnUpdater", "classbaecon_1_1bvhar_1_1HierminnUpdater.html", null ],
+      [ "baecon::bvhar::HorseshoeUpdater< isGroup >", "classbaecon_1_1bvhar_1_1HorseshoeUpdater.html", null ],
+      [ "baecon::bvhar::MinnUpdater", "classbaecon_1_1bvhar_1_1MinnUpdater.html", null ],
+      [ "baecon::bvhar::NgUpdater< isGroup >", "classbaecon_1_1bvhar_1_1NgUpdater.html", null ],
+      [ "baecon::bvhar::SsvsUpdater", "classbaecon_1_1bvhar_1_1SsvsUpdater.html", null ]
     ] ],
-    [ "bvhar::ShrinkageParams", "structbvhar_1_1ShrinkageParams.html", [
-      [ "bvhar::DlParams< BaseRegParams >", "structbvhar_1_1DlParams.html", null ],
-      [ "bvhar::GdpParams< BaseRegParams >", "structbvhar_1_1GdpParams.html", null ],
-      [ "bvhar::MinnParams< BaseRegParams >", "structbvhar_1_1MinnParams.html", null ],
-      [ "bvhar::NgParams< BaseRegParams >", "structbvhar_1_1NgParams.html", null ],
-      [ "bvhar::SsvsParams< BaseRegParams >", "structbvhar_1_1SsvsParams.html", null ]
-    ] ],
-    [ "bvhar::ShrinkageUpdater", "classbvhar_1_1ShrinkageUpdater.html", [
-      [ "bvhar::DlUpdater< isGroup >", "classbvhar_1_1DlUpdater.html", null ],
-      [ "bvhar::GdpUpdater< isGroup >", "classbvhar_1_1GdpUpdater.html", null ],
-      [ "bvhar::HierminnUpdater", "classbvhar_1_1HierminnUpdater.html", null ],
-      [ "bvhar::HorseshoeUpdater< isGroup >", "classbvhar_1_1HorseshoeUpdater.html", null ],
-      [ "bvhar::MinnUpdater", "classbvhar_1_1MinnUpdater.html", null ],
-      [ "bvhar::NgUpdater< isGroup >", "classbvhar_1_1NgUpdater.html", null ],
-      [ "bvhar::SsvsUpdater", "classbvhar_1_1SsvsUpdater.html", null ]
-    ] ],
-    [ "bvhar::SparseRecords", "structbvhar_1_1SparseRecords.html", null ],
-    [ "bvhar::SsvsRecords", "structbvhar_1_1SsvsRecords.html", null ]
+    [ "baecon::bvhar::SparseRecords", "structbaecon_1_1bvhar_1_1SparseRecords.html", null ]
 ];

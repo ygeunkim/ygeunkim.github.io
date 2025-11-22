@@ -1,6 +1,6 @@
 var bayes_2mniw_2forecaster_8h =
 [
-    [ "bvhar::MinnForecaster", "classbvhar_1_1MinnForecaster.html", "classbvhar_1_1MinnForecaster" ],
-    [ "bvhar::BvarForecaster", "classbvhar_1_1BvarForecaster.html", "classbvhar_1_1BvarForecaster" ],
-    [ "bvhar::BvharForecaster", "classbvhar_1_1BvharForecaster.html", "classbvhar_1_1BvharForecaster" ]
+    [ "baecon::bvhar::MinnForecaster", "classbaecon_1_1bvhar_1_1MinnForecaster.html", "classbaecon_1_1bvhar_1_1MinnForecaster" ],
+    [ "baecon::bvhar::BvarForecaster", "classbaecon_1_1bvhar_1_1BvarForecaster.html", "classbaecon_1_1bvhar_1_1BvarForecaster" ],
+    [ "baecon::bvhar::BvharForecaster", "classbaecon_1_1bvhar_1_1BvharForecaster.html", "classbaecon_1_1bvhar_1_1BvharForecaster" ]
 ];

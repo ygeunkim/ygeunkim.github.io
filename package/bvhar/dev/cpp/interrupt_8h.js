@@ -1,4 +1,4 @@
 var interrupt_8h =
 [
-    [ "bvhar::bvharinterrupt", "classbvhar_1_1bvharinterrupt.html", "classbvhar_1_1bvharinterrupt" ]
+    [ "baecon::bvhar::bvharinterrupt", "classbaecon_1_1bvhar_1_1bvharinterrupt.html", "classbaecon_1_1bvhar_1_1bvharinterrupt" ]
 ];

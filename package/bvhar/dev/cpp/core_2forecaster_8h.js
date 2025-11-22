@@ -1,7 +1,7 @@
 var core_2forecaster_8h =
 [
-    [ "bvhar::MultistepForecaster< ReturnType, DataType >", "classbvhar_1_1MultistepForecaster.html", "classbvhar_1_1MultistepForecaster" ],
-    [ "bvhar::MultistepForecastRun< ReturnType, DataType >", "classbvhar_1_1MultistepForecastRun.html", "classbvhar_1_1MultistepForecastRun" ],
-    [ "bvhar::ExogenForecaster< ReturnType, DataType >", "classbvhar_1_1ExogenForecaster.html", "classbvhar_1_1ExogenForecaster" ],
-    [ "bvhar::AutoregGenerator< ReturnType, DataType >", "classbvhar_1_1AutoregGenerator.html", "classbvhar_1_1AutoregGenerator" ]
+    [ "baecon::bvhar::MultistepForecaster< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1MultistepForecaster.html", "classbaecon_1_1bvhar_1_1MultistepForecaster" ],
+    [ "baecon::bvhar::MultistepForecastRun< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1MultistepForecastRun.html", "classbaecon_1_1bvhar_1_1MultistepForecastRun" ],
+    [ "baecon::bvhar::ExogenForecaster< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1ExogenForecaster.html", "classbaecon_1_1bvhar_1_1ExogenForecaster" ],
+    [ "baecon::bvhar::AutoregGenerator< ReturnType, DataType >", "classbaecon_1_1bvhar_1_1AutoregGenerator.html", "classbaecon_1_1bvhar_1_1AutoregGenerator" ]
 ];

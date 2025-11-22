@@ -1,9 +1,9 @@
 var hs__helper_8h =
 [
-    [ "horseshoe_global_sparsity", "hs__helper_8h.html#a2b5b4de485e90808112dd381283a21c3", null ],
-    [ "horseshoe_mn_global_sparsity", "hs__helper_8h.html#aaeb0687916928cc77fd03286dc2ea1e0", null ],
-    [ "horseshoe_mn_sparsity", "hs__helper_8h.html#a050d68b8412dab8caa700833d6dc53ee", null ],
-    [ "horseshoe_latent", "hs__helper_8h.html#ab12aae0b67db7dfdf56b809eff4655f4", null ],
-    [ "horseshoe_latent", "hs__helper_8h.html#ae9b3ad147b42d84c9e5e644106c29278", null ],
-    [ "horseshoe_local_sparsity", "hs__helper_8h.html#a5fef6637f9ee6c4f3b37c954af99cb2c", null ]
+    [ "horseshoe_global_sparsity", "hs__helper_8h.html#a33007008c2898151a5a21e940de369f5", null ],
+    [ "horseshoe_mn_global_sparsity", "hs__helper_8h.html#a49b255d34c10532f5bf08fe0a74970e0", null ],
+    [ "horseshoe_mn_sparsity", "hs__helper_8h.html#ab6303980b223a7c8fd339c52de3a14cf", null ],
+    [ "horseshoe_latent", "hs__helper_8h.html#a24455367e038368878d3d9f7abf59191", null ],
+    [ "horseshoe_latent", "hs__helper_8h.html#a62061404819ea4d1fa342d853872b14f", null ],
+    [ "horseshoe_local_sparsity", "hs__helper_8h.html#ae897a6c79d0d50080b6fbecc6c9a6a6a", null ]
 ];

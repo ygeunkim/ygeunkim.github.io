@@ -1,12 +1,12 @@
 var ols_8h =
 [
-    [ "bvhar::OlsFit", "structbvhar_1_1OlsFit.html", "structbvhar_1_1OlsFit" ],
-    [ "bvhar::StructuralFit", "structbvhar_1_1StructuralFit.html", "structbvhar_1_1StructuralFit" ],
-    [ "bvhar::MultiOls", "classbvhar_1_1MultiOls.html", "classbvhar_1_1MultiOls" ],
-    [ "bvhar::LltOls", "classbvhar_1_1LltOls.html", "classbvhar_1_1LltOls" ],
-    [ "bvhar::QrOls", "classbvhar_1_1QrOls.html", "classbvhar_1_1QrOls" ],
-    [ "bvhar::OlsInterface", "classbvhar_1_1OlsInterface.html", "classbvhar_1_1OlsInterface" ],
-    [ "bvhar::OlsVar", "classbvhar_1_1OlsVar.html", "classbvhar_1_1OlsVar" ],
-    [ "bvhar::OlsVhar", "classbvhar_1_1OlsVhar.html", "classbvhar_1_1OlsVhar" ],
-    [ "initialize_ols", "ols_8h.html#acda5e699ee17e95846684ee79c9db8f3", null ]
+    [ "baecon::bvhar::OlsFit", "structbaecon_1_1bvhar_1_1OlsFit.html", "structbaecon_1_1bvhar_1_1OlsFit" ],
+    [ "baecon::bvhar::StructuralFit", "structbaecon_1_1bvhar_1_1StructuralFit.html", "structbaecon_1_1bvhar_1_1StructuralFit" ],
+    [ "baecon::bvhar::MultiOls", "classbaecon_1_1bvhar_1_1MultiOls.html", "classbaecon_1_1bvhar_1_1MultiOls" ],
+    [ "baecon::bvhar::LltOls", "classbaecon_1_1bvhar_1_1LltOls.html", "classbaecon_1_1bvhar_1_1LltOls" ],
+    [ "baecon::bvhar::QrOls", "classbaecon_1_1bvhar_1_1QrOls.html", "classbaecon_1_1bvhar_1_1QrOls" ],
+    [ "baecon::bvhar::OlsInterface", "classbaecon_1_1bvhar_1_1OlsInterface.html", "classbaecon_1_1bvhar_1_1OlsInterface" ],
+    [ "baecon::bvhar::OlsVar", "classbaecon_1_1bvhar_1_1OlsVar.html", "classbaecon_1_1bvhar_1_1OlsVar" ],
+    [ "baecon::bvhar::OlsVhar", "classbaecon_1_1bvhar_1_1OlsVhar.html", "classbaecon_1_1bvhar_1_1OlsVhar" ],
+    [ "initialize_ols", "ols_8h.html#ab50c6936ac11b6e9bcb72267d3c58b19", null ]
 ];

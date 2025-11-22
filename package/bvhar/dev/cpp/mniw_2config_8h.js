@@ -1,11 +1,11 @@
 var mniw_2config_8h =
 [
-    [ "bvhar::MinnSpec", "structbvhar_1_1MinnSpec.html", "structbvhar_1_1MinnSpec" ],
-    [ "bvhar::BvarSpec", "structbvhar_1_1BvarSpec.html", "structbvhar_1_1BvarSpec" ],
-    [ "bvhar::BvharSpec", "structbvhar_1_1BvharSpec.html", "structbvhar_1_1BvharSpec" ],
-    [ "bvhar::MinnFit", "structbvhar_1_1MinnFit.html", "structbvhar_1_1MinnFit" ],
-    [ "bvhar::MhMinnInits", "structbvhar_1_1MhMinnInits.html", "structbvhar_1_1MhMinnInits" ],
-    [ "bvhar::MhMinnSpec", "structbvhar_1_1MhMinnSpec.html", "structbvhar_1_1MhMinnSpec" ],
-    [ "bvhar::MinnRecords", "structbvhar_1_1MinnRecords.html", "structbvhar_1_1MinnRecords" ],
-    [ "bvhar::MhMinnRecords", "structbvhar_1_1MhMinnRecords.html", "structbvhar_1_1MhMinnRecords" ]
+    [ "baecon::bvhar::MinnSpec", "structbaecon_1_1bvhar_1_1MinnSpec.html", "structbaecon_1_1bvhar_1_1MinnSpec" ],
+    [ "baecon::bvhar::BvarSpec", "structbaecon_1_1bvhar_1_1BvarSpec.html", "structbaecon_1_1bvhar_1_1BvarSpec" ],
+    [ "baecon::bvhar::BvharSpec", "structbaecon_1_1bvhar_1_1BvharSpec.html", "structbaecon_1_1bvhar_1_1BvharSpec" ],
+    [ "baecon::bvhar::MinnFit", "structbaecon_1_1bvhar_1_1MinnFit.html", "structbaecon_1_1bvhar_1_1MinnFit" ],
+    [ "baecon::bvhar::MhMinnInits", "structbaecon_1_1bvhar_1_1MhMinnInits.html", "structbaecon_1_1bvhar_1_1MhMinnInits" ],
+    [ "baecon::bvhar::MhMinnSpec", "structbaecon_1_1bvhar_1_1MhMinnSpec.html", "structbaecon_1_1bvhar_1_1MhMinnSpec" ],
+    [ "baecon::bvhar::MinnRecords", "structbaecon_1_1bvhar_1_1MinnRecords.html", "structbaecon_1_1bvhar_1_1MinnRecords" ],
+    [ "baecon::bvhar::MhMinnRecords", "structbaecon_1_1bvhar_1_1MhMinnRecords.html", "structbaecon_1_1bvhar_1_1MhMinnRecords" ]
 ];

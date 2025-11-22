@@ -1,5 +1,5 @@
 var augment_8h =
 [
-    [ "bvhar::FactorAugmenter", "classbvhar_1_1FactorAugmenter.html", "classbvhar_1_1FactorAugmenter" ],
-    [ "bvhar::FactorNormalAugmenter", "classbvhar_1_1FactorNormalAugmenter.html", "classbvhar_1_1FactorNormalAugmenter" ]
+    [ "baecon::bvhar::FactorAugmenter", "classbaecon_1_1bvhar_1_1FactorAugmenter.html", "classbaecon_1_1bvhar_1_1FactorAugmenter" ],
+    [ "baecon::bvhar::FactorNormalAugmenter", "classbaecon_1_1bvhar_1_1FactorNormalAugmenter.html", "classbaecon_1_1bvhar_1_1FactorNormalAugmenter" ]
 ];
