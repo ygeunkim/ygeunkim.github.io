@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"structbaecon_1_1bvhar_1_1RegParams.html#a4a2ec3c9f9916f168b45c977d0ba527e":[1,0,0,0,110,18],
+"structbaecon_1_1bvhar_1_1RegParams.html#a5120172ff13e57d7310dafa520415b87":[1,0,0,0,110,11],
 "structbaecon_1_1bvhar_1_1RegParams.html#a5120172ff13e57d7310dafa520415b87":[2,0,0,0,110,11],
 "structbaecon_1_1bvhar_1_1RegParams.html#a5aa2495e488ca9556e1695e55f0a827e":[1,0,0,0,110,23],
 "structbaecon_1_1bvhar_1_1RegParams.html#a5aa2495e488ca9556e1695e55f0a827e":[2,0,0,0,110,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "sv__helper_8h.html#abf891dc3456cf4d9c4c220e391caa1dd":[3,0,0,1,0,0,0,1,10,2],
 "sv__helper_8h.html#aed1eabc81c66ec5786de0dd5105a697d":[3,0,0,1,0,0,0,1,10,1],
 "sv__helper_8h_source.html":[3,0,0,1,0,0,0,1,10],
-"svforecaster_8h.html":[3,0,0,1,0,0,0,4,5],
-"svforecaster_8h.html#a019c9bae0f5dc2468322f2224586e926":[3,0,0,1,0,0,0,4,5,2],
-"svforecaster_8h.html#a17d63461067a26cb865eb89f83655fb6":[3,0,0,1,0,0,0,4,5,1]
+"svforecaster_8h.html":[3,0,0,1,0,0,0,4,5]
 };

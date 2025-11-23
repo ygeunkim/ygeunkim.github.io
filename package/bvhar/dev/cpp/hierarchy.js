@@ -9,8 +9,8 @@ var hierarchy =
     ] ],
     [ "baecon::bvhar::bvharinterrupt", "classbaecon_1_1bvhar_1_1bvharinterrupt.html", null ],
     [ "CtaRollforecastRun", null, [
-      [ "baecon::bvhar::CtaVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbaecon_1_1bvhar_1_1CtaVarforecastRun.html", null ],
-      [ "baecon::bvhar::CtaVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isUpdate >", "classbaecon_1_1bvhar_1_1CtaVharforecastRun.html", null ]
+      [ "baecon::bvhar::CtaVarforecastRun< BaseOutForecast, BaseForecaster, isGroup, isPath, isUpdate >", "classbaecon_1_1bvhar_1_1CtaVarforecastRun.html", null ],
+      [ "baecon::bvhar::CtaVharforecastRun< BaseOutForecast, BaseForecaster, isGroup, isPath, isUpdate >", "classbaecon_1_1bvhar_1_1CtaVharforecastRun.html", null ]
     ] ],
     [ "baecon::bvhar::DfmParams", "structbaecon_1_1bvhar_1_1DfmParams.html", null ],
     [ "baecon::bvhar::DfmRecords", "structbaecon_1_1bvhar_1_1DfmRecords.html", null ],
@@ -41,18 +41,18 @@ var hierarchy =
     ] ],
     [ "baecon::bvhar::McmcMniw", "classbaecon_1_1bvhar_1_1McmcMniw.html", null ],
     [ "baecon::bvhar::McmcOutforecastInterface", "classbaecon_1_1bvhar_1_1McmcOutforecastInterface.html", [
-      [ "baecon::bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, isUpdate >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", [
-        [ "baecon::bvhar::CtaOutforecastRun< RegForecaster, true >", "classbaecon_1_1bvhar_1_1CtaOutforecastRun.html", null ]
+      [ "baecon::bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, isPath, isUpdate >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", [
+        [ "baecon::bvhar::CtaOutforecastRun< RegForecaster, false, true >", "classbaecon_1_1bvhar_1_1CtaOutforecastRun.html", null ]
       ] ],
-      [ "baecon::bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, true >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", null ],
-      [ "baecon::bvhar::McmcOutForecastRun< ReturnType, DataType, isUpdate >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", [
-        [ "baecon::bvhar::CtaOutforecastRun< BaseForecaster, isUpdate >", "classbaecon_1_1bvhar_1_1CtaOutforecastRun.html", [
-          [ "baecon::bvhar::CtaExpandforecastRun< BaseForecaster, isGroup, isUpdate >", "classbaecon_1_1bvhar_1_1CtaExpandforecastRun.html", null ],
-          [ "baecon::bvhar::CtaRollforecastRun< BaseForecaster, isGroup, isUpdate >", "classbaecon_1_1bvhar_1_1CtaRollforecastRun.html", null ]
+      [ "baecon::bvhar::McmcOutForecastRun< Eigen::MatrixXd, Eigen::VectorXd, false, true >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", null ],
+      [ "baecon::bvhar::McmcOutForecastRun< ReturnType, DataType, isPath, isUpdate >", "classbaecon_1_1bvhar_1_1McmcOutForecastRun.html", [
+        [ "baecon::bvhar::CtaOutforecastRun< BaseForecaster, isPath, isUpdate >", "classbaecon_1_1bvhar_1_1CtaOutforecastRun.html", [
+          [ "baecon::bvhar::CtaExpandforecastRun< BaseForecaster, isGroup, isPath, isUpdate >", "classbaecon_1_1bvhar_1_1CtaExpandforecastRun.html", null ],
+          [ "baecon::bvhar::CtaRollforecastRun< BaseForecaster, isGroup, isPath, isUpdate >", "classbaecon_1_1bvhar_1_1CtaRollforecastRun.html", null ]
         ] ]
       ] ]
     ] ],
-    [ "baecon::bvhar::McmcOutforecastRun< ReturnType, DataType, isUpdate >", "classbaecon_1_1bvhar_1_1McmcOutforecastRun.html", null ],
+    [ "baecon::bvhar::McmcOutforecastRun< typename, typename, bool, bool >", "classbaecon_1_1bvhar_1_1McmcOutforecastRun.html", null ],
     [ "baecon::bvhar::McmcParams", "structbaecon_1_1bvhar_1_1McmcParams.html", [
       [ "baecon::bvhar::RegParams", "structbaecon_1_1bvhar_1_1RegParams.html", [
         [ "baecon::bvhar::SvParams", "structbaecon_1_1bvhar_1_1SvParams.html", null ]

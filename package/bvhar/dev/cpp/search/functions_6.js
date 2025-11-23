@@ -20,7 +20,7 @@ var searchData=
   ['getsize_17',['getSize',['../classbaecon_1_1bvhar_1_1CtaExogenForecaster.html#a593109ede80abcb8cf4cb22292a67cde',1,'baecon::bvhar::CtaExogenForecaster']]],
   ['getspillover_18',['getSpillover',['../classbaecon_1_1bvhar_1_1DynamicLdltSpillover.html#a8a0aae114063570279d2f7b711ccc39d',1,'baecon::bvhar::DynamicLdltSpillover']]],
   ['getstatus_19',['getStatus',['../classbaecon_1_1bvhar_1_1OptimLbfgsb.html#ac9bb8f120e91fc6ff5bb04b7cec84974',1,'baecon::bvhar::OptimLbfgsb']]],
-  ['getvalid_20',['getvalid',['../classbaecon_1_1bvhar_1_1CtaOutforecastRun.html#af98eaf21adc5ea7aa5c44f600abcd0ee',1,'baecon::bvhar::CtaOutforecastRun::getValid()'],['../classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#a912a0599866879febf173351e96c63c1',1,'baecon::bvhar::McmcOutForecastRun::getValid()']]],
+  ['getvalid_20',['getvalid',['../classbaecon_1_1bvhar_1_1CtaOutforecastRun.html#acb1266264065c7f9e7452fb96a507ab7',1,'baecon::bvhar::CtaOutforecastRun::getValid()'],['../classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#ac3aa680b1c791fb6ade8abeae7bb94d6',1,'baecon::bvhar::McmcOutForecastRun::getValid()']]],
   ['getvalue_21',['getValue',['../classbaecon_1_1bvhar_1_1OptimLbfgsb.html#a1af7c7caa9a7beae0fc1727f9ac43833',1,'baecon::bvhar::OptimLbfgsb']]],
   ['glinits_22',['glinits',['../structbaecon_1_1bvhar_1_1GlInits.html#a99d9583a70aa9c1eb50209283bcc7cf5',1,'baecon::bvhar::GlInits::GlInits(Rcpp::List &amp;init)'],['../structbaecon_1_1bvhar_1_1GlInits.html#a5d8763ed39f6a69e4e093211f6e72466',1,'baecon::bvhar::GlInits::GlInits(Rcpp::List &amp;init, int num_design)']]]
 ];

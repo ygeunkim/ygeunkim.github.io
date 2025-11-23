@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"classboost_1_1random_1_1inverse__gaussian__distribution_1_1param__type.html#afb239a2de6472713a54199eb5288b84e":[1,0,1,0,0,0,5],
+"classboost_1_1random_1_1inverse__gaussian__distribution_1_1param__type.html#afb239a2de6472713a54199eb5288b84e":[2,0,1,0,0,0,5],
 "classes.html":[2,1],
 "coef__helper_8h.html":[3,0,0,1,0,0,0,1,0],
 "coef__helper_8h.html#a3cb51f7959767665867602959e1eb455":[3,0,0,1,0,0,0,1,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "namespacebaecon_1_1bvhar.html#a4ca9e10ea5a85ef402ce7174349b9e64":[1,0,0,0,173],
 "namespacebaecon_1_1bvhar.html#a514b1d75671b93e1522f7f1628408b21":[1,0,0,0,251],
 "namespacebaecon_1_1bvhar.html#a55ad7c74f7c5ffa89cadca0a5033bf00":[1,0,0,0,207],
-"namespacebaecon_1_1bvhar.html#a56c9ae70d1cac7b61b50f1812857a4b3":[1,0,0,0,130],
-"namespacebaecon_1_1bvhar.html#a58c1c6bd19018c8c7a576a024883542b":[1,0,0,0,133],
-"namespacebaecon_1_1bvhar.html#a591dabc02db8bde6257cb2e6228926d7":[1,0,0,0,174]
+"namespacebaecon_1_1bvhar.html#a56c9ae70d1cac7b61b50f1812857a4b3":[1,0,0,0,130]
 };

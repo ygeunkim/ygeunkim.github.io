@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="apple-touch-icon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9014</span>
+   <div id="projectname">bvhar<span id="projectnumber">&#160;2.3.0.9015</span>
    </div>
    <div id="projectbrief">C++ headers by bvhar package</div>
   </td>
@@ -111,14 +111,14 @@ Inheritance diagram for baecon::bvhar::McmcOutforecastInterface:</div>
 <area shape="poly" title=" " alt="" coords="257,109,290,109,290,114,257,114"/>
 <area shape="rect" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html" title="Base class for pseudo out&#45;of&#45;sample forecasting." alt="" coords="291,163,529,217"/>
 <area shape="poly" title=" " alt="" coords="211,132,311,160,309,165,210,138"/>
-<area shape="rect" href="classbaecon_1_1bvhar_1_1CtaOutforecastRun.html" title=" " alt="" coords="589,13,809,53"/>
-<area shape="poly" title=" " alt="" coords="543,30,589,30,589,35,543,35"/>
-<area shape="rect" href="classbaecon_1_1bvhar_1_1CtaOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="577,170,820,210"/>
+<area shape="rect" href="classbaecon_1_1bvhar_1_1CtaOutforecastRun.html" title=" " alt="" coords="577,5,797,60"/>
+<area shape="poly" title=" " alt="" coords="543,30,577,30,577,35,543,35"/>
+<area shape="rect" href="classbaecon_1_1bvhar_1_1CtaOutforecastRun.html" title="Out&#45;of&#45;sample forecasting class." alt="" coords="577,163,797,217"/>
 <area shape="poly" title=" " alt="" coords="543,187,577,187,577,193,543,193"/>
-<area shape="rect" href="classbaecon_1_1bvhar_1_1CtaExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="868,123,1113,177"/>
-<area shape="poly" title=" " alt="" coords="833,169,867,164,868,169,834,174"/>
-<area shape="rect" href="classbaecon_1_1bvhar_1_1CtaRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="879,201,1103,256"/>
-<area shape="poly" title=" " alt="" coords="834,205,879,211,878,216,833,211"/>
+<area shape="rect" href="classbaecon_1_1bvhar_1_1CtaExpandforecastRun.html" title="Expanding&#45;window forecast class." alt="" coords="845,123,1091,177"/>
+<area shape="poly" title=" " alt="" coords="810,170,845,165,846,170,811,175"/>
+<area shape="rect" href="classbaecon_1_1bvhar_1_1CtaRollforecastRun.html" title="Rolling&#45;window forecast class." alt="" coords="856,201,1080,256"/>
+<area shape="poly" title=" " alt="" coords="811,204,856,211,855,216,811,210"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -212,7 +212,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Out-of-sample forecasting. </p>
 
-<p>Implemented in <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#ae40345566e7bbf15b7263ab92b8aaf08">baecon::bvhar::McmcOutForecastRun&lt; ReturnType, DataType, isUpdate &gt;</a>, <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#ae40345566e7bbf15b7263ab92b8aaf08">baecon::bvhar::McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, isUpdate &gt;</a>, and <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#ae40345566e7bbf15b7263ab92b8aaf08">baecon::bvhar::McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, true &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#a9773be4455debc184fb804f7374112a5">baecon::bvhar::McmcOutForecastRun&lt; ReturnType, DataType, isPath, isUpdate &gt;</a>, <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#a9773be4455debc184fb804f7374112a5">baecon::bvhar::McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, false, true &gt;</a>, and <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#a9773be4455debc184fb804f7374112a5">baecon::bvhar::McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, isPath, isUpdate &gt;</a>.</p>
 
 </div>
 </div>
@@ -242,7 +242,7 @@ Public Member Functions</h2></td></tr>
 <p>Return out-of-sample forecasting draws. </p>
 <dl class="section return"><dt>Returns</dt><dd>BVHAR_LIST <code>BVHAR_LIST</code> containing forecast draws. Include ALPL when <code>get_lpl</code> is <code>true</code>. </dd></dl>
 
-<p>Implemented in <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#ab80f9bbe2e17c554c90227369c61feb3">baecon::bvhar::McmcOutForecastRun&lt; ReturnType, DataType, isUpdate &gt;</a>, <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#ab80f9bbe2e17c554c90227369c61feb3">baecon::bvhar::McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, isUpdate &gt;</a>, and <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#ab80f9bbe2e17c554c90227369c61feb3">baecon::bvhar::McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, true &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#aa98149ddd38a3c40f3b3a28cf2783aec">baecon::bvhar::McmcOutForecastRun&lt; ReturnType, DataType, isPath, isUpdate &gt;</a>, <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#aa98149ddd38a3c40f3b3a28cf2783aec">baecon::bvhar::McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, false, true &gt;</a>, and <a class="el" href="classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#aa98149ddd38a3c40f3b3a28cf2783aec">baecon::bvhar::McmcOutForecastRun&lt; Eigen::MatrixXd, Eigen::VectorXd, isPath, isUpdate &gt;</a>.</p>
 
 </div>
 </div>

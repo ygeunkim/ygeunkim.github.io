@@ -5,7 +5,7 @@ var searchData=
   ['mcmcforecastrun_2',['McmcForecastRun',['../classbaecon_1_1bvhar_1_1McmcForecastRun.html#a9fcbb1258a9f130e705ca58b800d64df',1,'baecon::bvhar::McmcForecastRun']]],
   ['mcmcmniw_3',['McmcMniw',['../classbaecon_1_1bvhar_1_1McmcMniw.html#a13a16ed52c3828b07ea18711c929f7f8',1,'baecon::bvhar::McmcMniw']]],
   ['mcmcoutforecastinterface_4',['McmcOutforecastInterface',['../classbaecon_1_1bvhar_1_1McmcOutforecastInterface.html#a85c3c8d4a0e1953f98207a16a7520658',1,'baecon::bvhar::McmcOutforecastInterface']]],
-  ['mcmcoutforecastrun_5',['McmcOutForecastRun',['../classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#a5225e1059fda196a0e87196151c3b58d',1,'baecon::bvhar::McmcOutForecastRun']]],
+  ['mcmcoutforecastrun_5',['McmcOutForecastRun',['../classbaecon_1_1bvhar_1_1McmcOutForecastRun.html#a85403c52184c3f35d406a481fccf91d2',1,'baecon::bvhar::McmcOutForecastRun']]],
   ['mcmcparams_6',['McmcParams',['../structbaecon_1_1bvhar_1_1McmcParams.html#a1989a4fbcb2e5215f01ef033bd367685',1,'baecon::bvhar::McmcParams']]],
   ['mcmcreg_7',['McmcReg',['../classbaecon_1_1bvhar_1_1McmcReg.html#a4f2a553ec0d0275ced22129afbc0e879',1,'baecon::bvhar::McmcReg']]],
   ['mcmcrun_8',['McmcRun',['../classbaecon_1_1bvhar_1_1McmcRun.html#a11a9fa63cb21b2677eeb3e88f9ab464f',1,'baecon::bvhar::McmcRun']]],

@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['svspillover_0',['SvSpillover',['../namespacebaecon_1_1bvhar.html#ae46be730772edd0f1462a9e71fcbed3f',1,'baecon::bvhar']]],
-  ['svvarforecaster_1',['SvVarForecaster',['../namespacebaecon_1_1bvhar.html#aa561a68c952e3b2a4671da3fbefdde5d',1,'baecon::bvhar']]],
-  ['svvarselectforecaster_2',['SvVarSelectForecaster',['../namespacebaecon_1_1bvhar.html#a019c9bae0f5dc2468322f2224586e926',1,'baecon::bvhar']]],
-  ['svvharforecaster_3',['SvVharForecaster',['../namespacebaecon_1_1bvhar.html#a17d63461067a26cb865eb89f83655fb6',1,'baecon::bvhar']]],
-  ['svvharselectforecaster_4',['SvVharSelectForecaster',['../namespacebaecon_1_1bvhar.html#a7f4b613caa7123e9c464041b4d60b8e8',1,'baecon::bvhar']]],
-  ['svvharspillover_5',['SvVharSpillover',['../namespacebaecon_1_1bvhar.html#a8c59079530817dc3e5ecb55e62d8b45a',1,'baecon::bvhar']]]
+  ['recordtype_0',['RecordType',['../classbaecon_1_1bvhar_1_1CtaOutforecastRun.html#a90d08cfe9838369da84cfc7e97a9d4c3',1,'baecon::bvhar::CtaOutforecastRun']]],
+  ['regspillover_1',['RegSpillover',['../namespacebaecon_1_1bvhar.html#a58c1c6bd19018c8c7a576a024883542b',1,'baecon::bvhar']]],
+  ['regvarforecaster_2',['RegVarForecaster',['../namespacebaecon_1_1bvhar.html#a449a4e2261ac12f4168566e5f4063d0a',1,'baecon::bvhar']]],
+  ['regvarselectforecaster_3',['RegVarSelectForecaster',['../namespacebaecon_1_1bvhar.html#a5c3ffbced620e1f869778ace8c1c8304',1,'baecon::bvhar']]],
+  ['regvharforecaster_4',['RegVharForecaster',['../namespacebaecon_1_1bvhar.html#a56c9ae70d1cac7b61b50f1812857a4b3',1,'baecon::bvhar']]],
+  ['regvharselectforecaster_5',['RegVharSelectForecaster',['../namespacebaecon_1_1bvhar.html#a7b95ac0f9cb30775d108e246fd98a7d1',1,'baecon::bvhar']]],
+  ['regvharspillover_6',['RegVharSpillover',['../namespacebaecon_1_1bvhar.html#a96ffaf074afc58d6be6ccf604dffb141',1,'baecon::bvhar']]],
+  ['result_5ftype_7',['result_type',['../classboost_1_1random_1_1inverse__gaussian__distribution.html#ac62cfdf21f66196c86f57ad809dbb603',1,'boost::random::inverse_gaussian_distribution']]]
 ];
