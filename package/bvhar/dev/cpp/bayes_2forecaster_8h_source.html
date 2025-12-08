@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('bayes_2forecaster_8h_source.html','');
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> chain = 0; chain &lt; num_chains; ++chain) {</div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>      <a class="code hl_define" href="spdlog_8h.html#afca36798c70bcf95dd2ec673771064e4">BVHAR_DEBUG_LOG</a>(<a class="code hl_variable" href="classbaecon_1_1bvhar_1_1MultistepForecastRun.html#a44bc9be4b6dca7c3ba87c5d8ce1726d8">debug_logger</a>, <span class="stringliteral">&quot;[Thread {}] chain={} / num_chains={}&quot;</span>, <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::to_string</a>(omp_get_thread_num()), chain, num_chains);</div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>      density_forecast[chain] = <a class="code hl_variable" href="classbaecon_1_1bvhar_1_1McmcForecastRun.html#a6863afee3511930931ffe65f9093c6fb">forecaster</a>[chain]-&gt;doForecast();</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>      <a class="code hl_variable" href="classbaecon_1_1bvhar_1_1McmcForecastRun.html#a6863afee3511930931ffe65f9093c6fb">forecaster</a>[chain].reset();</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>      <span class="comment">// forecaster[chain].reset();</span></div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    }</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>  }</div>
 </div>
@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('bayes_2forecaster_8h_source.html','');
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> chain = 0; chain &lt; num_chains; ++chain) {</div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>      <a class="code hl_define" href="spdlog_8h.html#afca36798c70bcf95dd2ec673771064e4">BVHAR_DEBUG_LOG</a>(<a class="code hl_variable" href="classbaecon_1_1bvhar_1_1MultistepForecastRun.html#a44bc9be4b6dca7c3ba87c5d8ce1726d8">debug_logger</a>, <span class="stringliteral">&quot;[Thread {}] chain={} / num_chains={}&quot;</span>, <a class="code hl_function" href="namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b">std::to_string</a>(omp_get_thread_num()), chain, num_chains);</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>      density_forecast[chain] = <a class="code hl_variable" href="classbaecon_1_1bvhar_1_1McmcForecastRun.html#a6863afee3511930931ffe65f9093c6fb">forecaster</a>[chain]-&gt;doPredict();</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>      <a class="code hl_variable" href="classbaecon_1_1bvhar_1_1McmcForecastRun.html#a6863afee3511930931ffe65f9093c6fb">forecaster</a>[chain].reset();</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>      <span class="comment">// forecaster[chain].reset();</span></div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    }</div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>  }</div>
 </div>
