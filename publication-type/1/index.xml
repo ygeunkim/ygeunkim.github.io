@@ -1,42 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>1 | Young Geun Kim</title>
-    <link>https://ygeunkim.github.io/publication-type/1/</link>
-      <atom:link href="https://ygeunkim.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
-    <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Young Geun Kim</copyright><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
-      <title>1</title>
-      <link>https://ygeunkim.github.io/publication-type/1/</link>
-    </image>
-    
-    <item>
-      <title>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</title>
-      <link>https://ygeunkim.github.io/publication/nndsac/</link>
-      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/nndsac/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
-&lt;div id=&#34;ref-yunsac2022&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Yun, Jeong-Han, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, and Byung-Gil Min. 2022. “Residual Size Is Not Enough for Anomaly Detection: Improving Detection Performance Using Residual Similarity in Multivariate Time Series.” In &lt;em&gt;Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing&lt;/em&gt;, 87–96. SAC ’22. New York, NY, USA: Association for Computing Machinery. &lt;a href=&#34;https://doi.org/10.1145/3477314.3506990&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3477314.3506990&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
-      <link>https://ygeunkim.github.io/publication/somifip/</link>
-      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/somifip/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
-&lt;div id=&#34;ref-kimifip2021&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Kim, Young Geun, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, and Simon S. Woo. 2021. “Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns.” In &lt;em&gt;ICT Systems Security and Privacy Protection&lt;/em&gt;, edited by Audun Jøsang, Lynn Futcher, and Janne Hagen, 382–97. Cham: Springer International Publishing. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-78120-0_25&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/978-3-030-78120-0_25&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-  </channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Young Geun Kim</title>
+<link>https://ygeunkim.github.io/publication-type/1/</link>
+<atom:link href="https://ygeunkim.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Mon, 25 Apr 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</title>
+  <dc:creator>Jeong-Han Yun, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, Byung-Gil Min</dc:creator>
+  <link>https://ygeunkim.github.io/publications/nndsac/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/publications/nndsac/</guid>
+  <pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
+  <dc:creator>Young Geun Kim, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, Simon S. Woo</dc:creator>
+  <link>https://ygeunkim.github.io/publications/somifip/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<!-- Detecting rare cases of anomalies in Cyber-Physical Systems (CPSs) is an extremely challenging task. It is especially difficult to accurately model various instances of CPS measurements due to the dearth of anomaly samples and the subtlety of how their patterns appear. Moreover, the detection performance may be severely limited owing to mediocre or inaccurate forecasting by the underlying prediction models. In this work, we focus on improving the anomaly detection performance by leveraging the forecasting error patterns generated from prediction models, such as Sequence-to-Sequence (seq2seq), Mixture Density Networks (MDNs), and Recurrent Neural Networks (RNNs). To this end, we introduce Self-Organizing Map-based Anomaly Detector (SOMAD), an anomaly detection framework based on a novel test statistic, *SomAnomaly*, for Cyber-Physical System (CPS) security. Upon evaluation on two popular CPS datasets, we demonstrate that SOMAD outperforms baseline approaches through online multiple testing, using Time-Series Aware Precision and Recall (TaPR) metrics. Accordingly, we empirically demonstrate that forecasting error patterns of raw CPS data can be useful when detecting anomalies through a fast, statistical multiple testing approach such as ours.
+
+### Article Metrics
+
+<div class="badge-box"
+  style="margin-top:1rem; margin-bottom:6rem;">
+<div class="__dimensions_badge_embed__"
+  data-doi="10.1007/978-3-030-78120-0_25"
+  data-style="small_circle"
+  data-hide-zero-citations="false"
+  data-legend="hover-right"></div>
+
+<div class="altmetric-embed"
+  data-doi="10.1007/978-3-030-78120-0_25"
+    data-badge-popover="right"
+    data-badge-type="donut"
+    data-hide-no-mentions="false"></div>
+
+<div class="plx-pop">
+<a target="_blank"
+  href="https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25"
+  class="plumx-plum-print-popup"
+  data-popup="right"
+  data-size="large"
+  data-hide-when-empty="false"></a>
+</div>
+</div> -->
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/publications/somifip/</guid>
+  <pubDate>Thu, 24 Jun 2021 00:00:00 GMT</pubDate>
+</item>
+</channel>
 </rss>

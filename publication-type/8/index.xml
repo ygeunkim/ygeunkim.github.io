@@ -1,29 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>8 | Young Geun Kim</title>
-    <link>https://ygeunkim.github.io/publication-type/8/</link>
-      <atom:link href="https://ygeunkim.github.io/publication-type/8/index.xml" rel="self" type="application/rss+xml" />
-    <description>8</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Young Geun Kim</copyright><lastBuildDate>Mon, 27 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
-      <title>8</title>
-      <link>https://ygeunkim.github.io/publication-type/8/</link>
-    </image>
-    
-    <item>
-      <title>Apparatus and method for detecting outliers in cyber-physical systems</title>
-      <link>https://ygeunkim.github.io/publication/somanomaly/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/somanomaly/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
-&lt;div id=&#34;ref-kim_simon_2023&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Woo, Simon S, and Young Geun Kim. 2023. Apparatus and method for detecting outliers in cyber-physical systems. 1026080180000, issued November 27, 2023. &lt;a href=&#34;https://doi.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/&lt;/a&gt;&lt;a href=&#34;https://doi.org/10.8080/1020220003261&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.8080/1020220003261&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-  </channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Young Geun Kim</title>
+<link>https://ygeunkim.github.io/publication-type/8/</link>
+<atom:link href="https://ygeunkim.github.io/publication-type/8/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Mon, 27 Nov 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Apparatus and method for detecting outliers in cyber-physical systems</title>
+  <dc:creator>Simon S. Woo, Young Geun Kim</dc:creator>
+  <link>https://ygeunkim.github.io/publications/somanomaly/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/publications/somanomaly/</guid>
+  <pubDate>Mon, 27 Nov 2023 00:00:00 GMT</pubDate>
+</item>
+</channel>
 </rss>

@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "software/index.html",
+    "href": "software/index.html",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "All\n  \n    C++\n  \n    Python\n  \n    R\n  \n\n\n\n\n  \n  \n    \n      \n        \n          \n        \n      \n    \n    \n      bvhar\n      \n      Bayesian Vector Heterogeneous Autoregressive Modeling\n      \n      \n        R and Python package for Bayesian multivariate time series modeling referring to [Kim and Baek (2023)](https://doi.org/10.1080/00949655.2023.2281644), et cetera.\n        \n      \n      \n      \n      \n        Github\n      \n      \n        DOI\n      \n      \n        CRAN\n        \n      \n      \n      \n    \n  \n\n  \n  \n    \n      \n        \n          \n        \n      \n    \n    \n      somanomaly\n      \n      Self Organizing Map for Anomaly Detection\n      \n      \n        Python module for SOMAD research, [https://doi.org/10.1007/978-3-030-78120-0_25](https://link.springer.com/chapter/10.1007/978-3-030-78120-0_25)\n        \n      \n      \n      \n      \n        Github\n      \n      \n      \n      \n      \n    \n  \n\n  \n  \n    \n      \n        \n          \n        \n      \n    \n    \n      swatanomaly\n      \n      Anomaly Detection using KL Divergence\n      \n      \n        Python module for SOMAD research, [https://doi.org/10.1007/978-3-030-78120-0_25](https://link.springer.com/chapter/10.1007/978-3-030-78120-0_25)\n        \n      \n      \n      \n      \n        Github\n      \n      \n      \n      \n      \n    \n  \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYoung Geun Kim, Changryong Baek (2023) Bayesian Vector Heterogeneous Autoregressive Modeling. JSCS.\nPDF DOI Dataset Codes\n \n\n\n\n\n\n\n  \n\n\nJeong-Han Yun, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, Byung-Gil Min (2022) Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series. SAC '22.\nDOI\n \n\n\n\n\n\n\n  \n\n\nYoung Geun Kim, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, Simon S. Woo (2021) Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns. IFIP SEC 2021.\nPDF DOI Codes\n \n\n\n\n\n\n\n  \n\n\nJinwoo Cho, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon S. Woo (2019) Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence. MILETS '19.\nPDF Codes\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publication-type/8/index.html",
+    "href": "publication-type/8/index.html",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "Apparatus and method for detecting outliers in cyber-physical systems\n\n\n(Translated by kipris) The present invention provides an abnormal value detection device of a cyber-physical system which comprises: a learning module that learns a self-organization map by learning multivariate time series data; a calculation module that calculates a distance function between a codebook matrix output of the self-organization map and real-time data and replaces the distance function with a Frobenius norm to calculate statistics when inputting the real-time data; and a detection module that detects an abnormal value of the real-time data by performing real-time multiple testing on the statistics.COPYRIGHT KIPO 2024\n\n\n\n\n\n2023\n\n\nSimon S. Woo, Young Geun Kim\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publication-type/1/index.html",
+    "href": "publication-type/1/index.html",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series\n\n\nUnsupervised anomaly detection is commonly performed by identifying unusual data samples (or anomalies) from the residual size produced by machine learning algorithms based on normal data (e.g., the residuals of regression models or reconstruction errors of autoencoder models), assuming that anomalies cause large residuals. Unfortunately, anomalies do not always cause large residu- als. Anomaly detection algorithms based on residual size can miss anomalies that cause only small or noisy residuals for each variable in a multivariate time-series. To overcome this issue, we propose “neighbors to residuals” (N2RE), a novel anomaly scoring function based on residual similarity using nearest neighbor distance (NND). Even if residuals of anomalies are small, they show patterns that are different from those of residuals of normal data. Using N2RE can improve anomaly detection performance and reduce the variation in anomaly detection performance due to threshold changes. Experiments with various models on three cyber-physical system datasets verify that N2RE can achieve 19% higher anomaly detection performance than previous approaches without changes to the models.\n\n\n\n\n\n2022\n\n\nJeong-Han Yun, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, Byung-Gil Min\n\n\n\n\n\n\n\n\n\n\n\n\nRevitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns\n\n\nDetecting rare cases of anomalies in Cyber-Physical Systems (CPSs) is an extremely challenging task. It is especially difficult to accurately model various instances of CPS measurements due to the dearth of anomaly samples and the subtlety of how their patterns appear. Moreover, the detection performance may be severely limited owing to mediocre or inaccurate forecasting by the underlying prediction models. In this work, we focus on improving the anomaly detection performance by leveraging the forecasting error patterns generated from prediction models, such as Sequence-to-Sequence (seq2seq), Mixture Density Networks (MDNs), and Recurrent Neural Networks (RNNs). To this end, we introduce Self-Organizing Map-based Anomaly Detector (SOMAD), an anomaly detection framework based on a novel test statistic, SomAnomaly, for Cyber-Physical System (CPS) security. Upon evaluation on two popular CPS datasets, we demonstrate that SOMAD outperforms baseline approaches through online multiple testing, using Time-Series Aware Precision and Recall (TaPR) metrics. Accordingly, we empirically demonstrate that forecasting error patterns of raw CPS data can be useful when detecting anomalies through a fast, statistical multiple testing approach such as ours.\n\n\n\n\n\n2021\n\n\nYoung Geun Kim, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, Simon S. Woo\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/nsr_project/index.html",
+    "href": "projects/nsr_project/index.html",
+    "title": "Anomaly detection in Cyber-Physical Systems",
+    "section": "",
+    "text": "This deep learning project tried to detect anomalies in real time. I collaborated with DASH lab members.\nThe given dataset is error data generated by deep learning model. Original dataset is SWaT (Secure Water Treatment) dataset and HAI (HIL-based Augmented ICS) security dataset."
+  },
+  {
+    "objectID": "projects/bvhar_research/index.html",
+    "href": "projects/bvhar_research/index.html",
+    "title": "Bayesian Approaches to High-Dimensional Long-Range-Dependent Time Series",
+    "section": "",
+    "text": "This research project develops Bayesian econometrics model that shares prior with Bayesian VAR (VAR). It aims at extending them to Vector heterogeneous autoregressive (VHAR) model."
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "Postdoctoral Researcher\n\n\nMarch 2025 - Present\n\n\nYonsei University\n\n\nDepartment of Applied Statistics\nBasic Research Laboratory"
+  },
+  {
+    "objectID": "contact/index.html#experience",
+    "href": "contact/index.html#experience",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "Postdoctoral Researcher\n\n\nMarch 2025 - Present\n\n\nYonsei University\n\n\nDepartment of Applied Statistics\nBasic Research Laboratory"
+  },
+  {
+    "objectID": "contact/index.html#teaching-assistantships",
+    "href": "contact/index.html#teaching-assistantships",
+    "title": "Young Geun Kim",
+    "section": "Teaching Assistantships",
+    "text": "Teaching Assistantships\n\nOff-campus\nManufacturing solution division data boot-campus, Hyundai NGV | Mentored Hyundai motor group employee’s data boot-campus personal projects. | Sep 2024 - Jul 2024\nTime Series Analysis and its Applications, The University of Samsung Electronics | Instructor: Changryong Baek, Time series analysis course for Samsung Electronics employees, Data science track | May 2024\nTime Series Analysis and its Applications, The University of Samsung Electronics | Instructor: Changryong Baek, Time series analysis course for Samsung Electronics employees, Data science track, PyTorch Lab for time series forecasting | Aug 2023\nData Analysis and Modeling 2, SKK GSB | Instructor: Changryong Baek, Time series analysis course for KB bank employees, in AI MBA | Nov 2020 – Dec 2020\n\n\nOn-campus\nInsurance Statistics, SKKU | Instructor: SooYeon Kwon | Mar 2020 – Jun 2020\nIntroduction to Time Series Analysis, SKKU, STA3001 | Instructor: Changryong Baek | Mar 2020 – Jun 2020\nRecent Advances in Applied Statistics, SKKU (STA5037) | Instructor: Changryong Baek | Mar 2020 – Jun 2020\nMathematics for Statistics, SKKU (STA2008) | Instructor: Soo-Hyung An | Sep 2019 – Dec 2019\nMatrix Algebra for Statistics, SKKU (STA2017) | Instructor: Soo-Hyung An | Mar 2019 – Jun 2019"
+  },
+  {
+    "objectID": "contact/index.html#contact",
+    "href": "contact/index.html#contact",
+    "title": "Young Geun Kim",
+    "section": "Contact",
+    "text": "Contact\n\n\n Email me"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "Young Geun Kim received his Ph.D. in Statistics from Sungkyunkwan University (SKKU) in 2025, advised by Professor Changryong Baek. His dissertation, Bayesian Modeling and Forecasting of High Dimensional Long Range Dependent Time Series, focused on Bayesian econometric time series forecasting. Currently, He’s developing Bayesian methods for matrix-valued time series modeling. He’s also actively developing R and Python packages to make advanced Bayesian econometric time series analysis more accessible."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Young Geun Kim",
+    "section": "Education",
+    "text": "Education\n Ph.D. in Statistics, 2025\n\nSungkyunkwan University (SKKU), Seoul, Korea\nDissertation title: Bayesian Modeling and Forecasting of High Dimensional Long Range Dependent Time Series\n\n\n BEc in Statistics, 2019\n\nSungkyunkwan University (SKKU), Seoul, Korea"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Young Geun Kim",
+    "section": "Interests",
+    "text": "Interests\n\nBayesian econometrics\nHigh-dimensional time series\nLong-range dependence\nTime series anomaly detection\nStatistical software development"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "All\n  \n    Anomaly Detection\n  \n    Bayesian Econometrics\n  \n    Time Series\n  \n\n\n\n\n  \n  \n    \n      \n        Bayesian Approaches to High-Dimensional Long-Range-Dependent Time Series\n        \n        \n          Forecast high-dimensional long-memory time series using Bayesian Vector Heterogeneous Autoregressive (BVHAR) model\n          \n        \n        \n          \n          \n            Changryong Baek, Young Geun Kim\n          \n          \n          \n            2022-06 -\n            \n              2025-02\n            \n          \n          \n        \n        \n        \n      \n      \n        \n          \n          \n        \n      \n    \n  \n\n  \n  \n    \n      \n        Anomaly detection in Cyber-Physical Systems\n        \n        \n          Anomaly detection based on the deep neural network error.\n          \n        \n        \n          \n          \n            Simon S. Woo, Yujin Shin, Sangyup Lee, Shahroz Tariq, Young Geun Kim, Jinwoo Cho, Seoyoung Park, Youngrok Choi\n          \n          \n          \n            2019-04 -\n            \n              2020-02\n            \n          \n          \n        \n        \n        \n      \n      \n        \n          \n          \n        \n      \n    \n  \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publication-type/0/index.html",
+    "href": "publication-type/0/index.html",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence\n\n\nWe investigate anomaly detection in Cyber-Physical System (CPS), where often anomalies are attacks to CPS to disrupt the operations of critical infrastructures. We use secure water treatment (SWaT) systems dataset, where normal and attack states are simulated at the water tanks. Among different types of anomalies, we focus on detecting contextual anomaly, which can be difficult to detect from Out-Of-Limit threshold method. Recent research shows the promising result in detecting anomalies from analyzing error distributions from the machine learning classifier. In a similar way, we statistically analyze prediction error patterns from RNN and MDN classifiers to detect anomalies. First, we generate anomaly scores with Local Outlier Factor (LOF) and remove point anomalies. With the fixed window size, empirical probability distribution is estimated, and we apply the sliding window to measure the difference of probability distributions between the other windows. To measure the difference efficiently between anomalies and normal data, we use Kullback-Leibler divergence. Our preliminary result shows that we can effectively detect contextual anomalies compared with Nearest Neighbor Distance (NND) approach.\n\n\n\n\n\n2019\n\n\nJinwoo Cho, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon S. Woo\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publication-type/2/index.html",
+    "href": "publication-type/2/index.html",
+    "title": "Young Geun Kim",
+    "section": "",
+    "text": "Bayesian Vector Heterogeneous Autoregressive Modeling\n\n\nThe Bayesian vector autoregressive (BVAR) model with the Minnesota prior proposed by Litterman [Litterman RB. Forecasting with bayesian vector autoregressions-five years of experience. J Business Economic Statist.1986;4(1):25–38.] has been very successful in multivariate time series modelling, providing better forecasting performance. However, the conventional Minnesota prior for BVAR depends only on the latest lag; in turn, it is not suitable for multivariate long memory time series forecasting. This study extends BVAR to (possibly) high-dimensional long memory time series. To this end, we incorporate a vector heterogeneous autoregressive (VHAR) structure to accommodate long-term persistence and impose priors on distant lags as well. Our proposed Bayesian VHAR (BVHAR) models, the so-called BVHAR-S and BVHAR-L, are easy to implement by using the Normal-inverse-Wishart prior and added dummy variable approach of [Bańbura M, Giannone D, Reichlin L. Large bayesian vector auto regressions. J Appl Econom. 2010;25(1):71–92.]. A supporting simulation study also proves posterior consistency. We further apply our models to nine CBOE Volatility Indices (VIXs) and show that our BVHAR models perform best in forecasting with the narrowest forecasting region.\n\n\n\n\n\n2023\n\n\nYoung Geun Kim, Changryong Baek\n\n\n\n\n\nNo matching items"
+  }
+]

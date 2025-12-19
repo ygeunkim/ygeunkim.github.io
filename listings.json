@@ -1,0 +1,51 @@
+[
+  {
+    "listing": "/software/index.html",
+    "items": [
+      "/software/bvhar/index.html",
+      "/software/someanomaly/index.html",
+      "/software/swatanomaly/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/bvhar/index.html",
+      "/publications/nndsac/index.html",
+      "/publications/somifip/index.html",
+      "/publications/kl_poster/index.html"
+    ]
+  },
+  {
+    "listing": "/publication-type/8/index.html",
+    "items": [
+      "/publications/somanomaly/index.html"
+    ]
+  },
+  {
+    "listing": "/publication-type/1/index.html",
+    "items": [
+      "/publications/nndsac/index.html",
+      "/publications/somifip/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/bvhar_research/index.html",
+      "/projects/nsr_project/index.html"
+    ]
+  },
+  {
+    "listing": "/publication-type/0/index.html",
+    "items": [
+      "/publications/kl_poster/index.html"
+    ]
+  },
+  {
+    "listing": "/publication-type/2/index.html",
+    "items": [
+      "/publications/bvhar/index.html"
+    ]
+  }
+]

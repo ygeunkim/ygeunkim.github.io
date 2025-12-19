@@ -1,29 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>0 | Young Geun Kim</title>
-    <link>https://ygeunkim.github.io/publication-type/0/</link>
-      <atom:link href="https://ygeunkim.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
-    <description>0</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Young Geun Kim</copyright><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://ygeunkim.github.io/media/logo_huef44c54553e55ef916287ffc639d7a40_272316_300x300_fit_lanczos_3.png</url>
-      <title>0</title>
-      <link>https://ygeunkim.github.io/publication-type/0/</link>
-    </image>
-    
-    <item>
-      <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</title>
-      <link>https://ygeunkim.github.io/publication/kl_poster/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://ygeunkim.github.io/publication/kl_poster/</guid>
-      <description>&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34; entry-spacing=&#34;0&#34;&gt;
-&lt;div id=&#34;ref-chomilets2019&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon S. Woo. 2019. “Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.” Anchorage, Alaska, USA.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-  </channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Young Geun Kim</title>
+<link>https://ygeunkim.github.io/publication-type/0/</link>
+<atom:link href="https://ygeunkim.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Mon, 05 Aug 2019 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</title>
+  <dc:creator>Jinwoo Cho, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon S. Woo</dc:creator>
+  <link>https://ygeunkim.github.io/publications/kl_poster/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/publications/kl_poster/</guid>
+  <pubDate>Mon, 05 Aug 2019 00:00:00 GMT</pubDate>
+</item>
+</channel>
 </rss>

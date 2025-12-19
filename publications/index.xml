@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Young Geun Kim</title>
+<link>https://ygeunkim.github.io/publications/</link>
+<atom:link href="https://ygeunkim.github.io/publications/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Wed, 15 Nov 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bayesian Vector Heterogeneous Autoregressive Modeling</title>
+  <dc:creator>Young Geun Kim, Changryong Baek</dc:creator>
+  <link>https://ygeunkim.github.io/publications/bvhar/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/publications/bvhar/</guid>
+  <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</title>
+  <dc:creator>Jeong-Han Yun, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, Byung-Gil Min</dc:creator>
+  <link>https://ygeunkim.github.io/publications/nndsac/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/publications/nndsac/</guid>
+  <pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</title>
+  <dc:creator>Young Geun Kim, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, Simon S. Woo</dc:creator>
+  <link>https://ygeunkim.github.io/publications/somifip/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<!-- Detecting rare cases of anomalies in Cyber-Physical Systems (CPSs) is an extremely challenging task. It is especially difficult to accurately model various instances of CPS measurements due to the dearth of anomaly samples and the subtlety of how their patterns appear. Moreover, the detection performance may be severely limited owing to mediocre or inaccurate forecasting by the underlying prediction models. In this work, we focus on improving the anomaly detection performance by leveraging the forecasting error patterns generated from prediction models, such as Sequence-to-Sequence (seq2seq), Mixture Density Networks (MDNs), and Recurrent Neural Networks (RNNs). To this end, we introduce Self-Organizing Map-based Anomaly Detector (SOMAD), an anomaly detection framework based on a novel test statistic, *SomAnomaly*, for Cyber-Physical System (CPS) security. Upon evaluation on two popular CPS datasets, we demonstrate that SOMAD outperforms baseline approaches through online multiple testing, using Time-Series Aware Precision and Recall (TaPR) metrics. Accordingly, we empirically demonstrate that forecasting error patterns of raw CPS data can be useful when detecting anomalies through a fast, statistical multiple testing approach such as ours.
+
+### Article Metrics
+
+<div class="badge-box"
+  style="margin-top:1rem; margin-bottom:6rem;">
+<div class="__dimensions_badge_embed__"
+  data-doi="10.1007/978-3-030-78120-0_25"
+  data-style="small_circle"
+  data-hide-zero-citations="false"
+  data-legend="hover-right"></div>
+
+<div class="altmetric-embed"
+  data-doi="10.1007/978-3-030-78120-0_25"
+    data-badge-popover="right"
+    data-badge-type="donut"
+    data-hide-no-mentions="false"></div>
+
+<div class="plx-pop">
+<a target="_blank"
+  href="https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25"
+  class="plumx-plum-print-popup"
+  data-popup="right"
+  data-size="large"
+  data-hide-when-empty="false"></a>
+</div>
+</div> -->
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/publications/somifip/</guid>
+  <pubDate>Thu, 24 Jun 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</title>
+  <dc:creator>Jinwoo Cho, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon S. Woo</dc:creator>
+  <link>https://ygeunkim.github.io/publications/kl_poster/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/publications/kl_poster/</guid>
+  <pubDate>Mon, 05 Aug 2019 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
