@@ -310,3 +310,251 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 #mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, #mlb2-4240669.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
   padding: 0px !important;
 }
+
+/* Listings
+-----------------------------------------------------------------------------*/
+li {
+  margin: 10px 0;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border: none;
+}
+
+tr {
+  border: none;
+  /* display: block;
+  margin-bottom: 20px; */
+  margin-bottom: 20px;
+}
+
+td {
+  border: none;
+  padding: 10px 0;
+  vertical-align: top;
+}
+
+/* Publications */
+td.publication-content {
+  width: 80%;
+}
+
+td.badge-cell {
+  width: 20%;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.publication-section {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.publication-section h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.highlight-author {
+  font-weight: bold;
+}
+.listing-author {
+  font-weight: normal;
+}
+.listing-author strong {
+  font-weight: bold !important;
+}
+
+.badge-container {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.__dimensions_badge_embed__ {
+  /* margin-left: 3rem;
+  position: absolute; */
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.altmetric-embed {
+  /* margin-left: 10rem;
+  position: absolute; */
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.plx-pop {
+  /* margin-top: -1.5rem;
+  margin-left: 15rem;
+  position: absolute; */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#badge-box {
+  text-align: center;
+}
+.__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
+  display: inline;
+}
+
+#badge-box {
+  text-align: center;
+}
+.__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
+  display: inline;
+}
+
+/* Projects */
+/* td.featured-cell {
+  width: 20%;
+  text-align: left;
+  vertical-align: middle;
+}
+
+td.featured-cell img {
+  width: 80%;
+  height: auto;
+} */
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.project-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-container a:hover {
+  text-decoration: none;
+}
+
+.project-card {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #f8f9fa;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card.hidden {
+  display: none;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    flex-shrink: 0;
+    width: 150px;
+  }
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.project-content {
+  flex-grow: 1;
+}
+
+/* Software */
+.software-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.software-card {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #f8f9fa;
+  transition: box-shadow 0.3s ease;
+}
+
+.software-card.hidden {
+  display: none;
+}
+
+.software-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Filtering tool */
+.filter-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid #dee2e6;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.filter-btn:hover {
+  background: #e9ecef;
+}
+
+.filter-btn.active {
+  background: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .filter-toolbar,
+  .project-container {
+    max-width: 100%;
+  }
+
+  .project-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .software-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .logo-container {
+    width: 100px;
+    align-self: center;
+  }
+}

@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-date-format','listing-format','listing-comments','listing-language','listing-sidebar','listing-author-title','listing-title','listing-author','listing-date','listing-category','listing-Status','listing-doi','listing-link','listing-github','listing-publication_types','listing-url_dataset','listing-publication','listing-publication_url','listing-publication_short','listing-abstract','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-date-format','listing-format','listing-comments','listing-language','listing-sidebar','listing-author-title','listing-title','listing-author','listing-date','listing-category','listing-Status','listing-doi','listing-link','listing-github','listing-publication_types','listing-url_dataset','listing-publication','listing-publication_url','listing-publication_short','listing-abstract','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-publication_types"],
+      searchColumns: ["listing-project","listing-website","listing-date-format","listing-format","listing-comments","listing-language","listing-sidebar","listing-author-title","listing-title","listing-author","listing-date","listing-category","listing-Status","listing-doi","listing-link","listing-github","listing-publication_types","listing-url_dataset","listing-publication","listing-publication_url","listing-publication_short","listing-abstract","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -349,131 +349,20 @@ gtag('config', 'G-EJKKXZT0QV', { 'anonymize_ip': true});
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<style>
-  li {
-    margin: 10px 0;
-    padding-bottom: 10px;
-  }
-
-  table {
-    width: 80%;
-    border-collapse: collapse;
-    border: none;
-  }
-  
-  tr {
-    border: none;
-  }
-  
-  td {
-    border: none;
-    padding: 10px 0;
-    vertical-align: top;
-  }
-  
-  td.publication-content {
-    width: 80%;
-  }
-  
-  td.badge-cell {
-    width: 20%;
-    text-align: left;
-    vertical-align: middle;
-  }
-
-  .publication-section {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-
-  .publication-section h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
-  }
-
-  .highlight-author {
-    font-weight: bold;
-  }
-  .listing-author {
-    font-weight: normal;
-  }
-  .listing-author strong {
-    font-weight: bold !important;
-  }
-
-  .badge-container {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: middle;
-  }
-
-  .__dimensions_badge_embed__ {
-    /* margin-left: 3rem;
-    position: absolute; */
-    display: inline-block;
-    margin-right: 5px;
-    vertical-align: middle;
-  }
-  
-  .altmetric-embed {
-    /* margin-left: 10rem;
-    position: absolute; */
-    display: inline-block;
-    margin-right: 5px;
-    vertical-align: middle;
-  }
-  
-  .plx-pop {
-    /* margin-top: -1.5rem;
-    margin-left: 15rem;
-    position: absolute; */
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-  #badge-box {
-    text-align: center;
-  }
-  .__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
-    display: inline;
-  }
-  
-  #badge-box {
-    text-align: center;
-  }
-  .__dimensions_badge_embed__, .altmetric-embed, .plx-pop {
-    display: inline;
-  }
-</style>
-
 <!--  -->
 
 <!-- <ul class="list"> -->
+<div class="filter-toolbar">
+  <button class="filter-btn active" data-tag="all">All</button>
+  
+    <button class="filter-btn" data-tag="Journal Articles">Journal Articles</button>
+  
+    <button class="filter-btn" data-tag="Conference Papers">Conference Papers</button>
+  
+    <button class="filter-btn" data-tag="Workshops &amp; Posters">Workshops &amp; Posters</button>
+  
+</div>
+
 
 <table class="caption-top table">
 <colgroup>
@@ -481,43 +370,22 @@ gtag('config', 'G-EJKKXZT0QV', { 'anonymize_ip': true});
 <col style="width: 50%">
 </colgroup>
 <tbody>
-<tr class="odd" data-index="0" data-listing-date-sort="1700006400000" data-listing-file-modified-sort="1766573963643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<tr class="publication-row odd" data-tags="Journal Articles" data-index="1" data-listing-date-sort="1700006400000" data-listing-file-modified-sort="1766803424025" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <td class="publication-content"><a href="../publications/bvhar/index.html" class="listing-author"><strong>Young Geun Kim</strong>, Changryong Baek (<span class="listing-date">2023</span>) <span class="listing-title">Bayesian Vector Heterogeneous Autoregressive Modeling</span>. <span class="listing-details"><em>JSCS</em></span>.</a><br>
 <a href="https://www.tandfonline.com/eprint/ZIRSC2CDJ9JM9FK2E3WD/full?target=10.1080/00949655.2023.2281644" class="badge badge-small badge-blue">PDF</a> <a href="https://doi.org/10.1080/00949655.2023.2281644" class="badge badge-small badge-blue">DOI</a> <a href="https://fred.stlouisfed.org/searchresults/?st=CBOE%20etf" class="badge badge-small badge-blue">Dataset</a> <a href="http://github.com/ygeunkim/paper-bvhar" class="badge badge-small badge-blue">Codes</a></td>
-<td class="badge-cell"><span class="badge-container"> </span>
-<div class="altmetric-embed" data-badge-popover="left" data-badge-type="donut" data-doi="10.1080/00949655.2023.2281644" data-condensed="true" data-hide-no-mentions="true">
-
-</div>
-<div class="__dimensions_badge_embed__" data-doi="10.1080/00949655.2023.2281644" data-legend="hover-left" data-style="small_circle">
-
-</div>
-<a href="https://plu.mx/plum/a/?doi=10.1080/00949655.2023.2281644" class="plumx-plum-print-popup" data-popup="bottom" data-size="medium" data-site="plum" data-hide-when-empty="true" data-pass-hidden-categories="true"></a>  <!-- </li> --></td>
+<td class="badge-cell"><span class="badge-container"> <span class="altmetric-embed" data-badge-popover="left" data-badge-type="donut" data-doi="10.1080/00949655.2023.2281644" data-condensed="true" data-hide-no-mentions="true"></span> <span class="__dimensions_badge_embed__" data-doi="10.1080/00949655.2023.2281644" data-legend="hover-left" data-style="small_circle"></span> <a href="https://plu.mx/plum/a/?doi=10.1080/00949655.2023.2281644" class="plumx-plum-print-popup" data-popup="bottom" data-size="medium" data-site="plum" data-hide-when-empty="true" data-pass-hidden-categories="true"></a> </span> <!-- </li> --></td>
 </tr>
-<tr class="even" data-index="1" data-listing-date-sort="1650844800000" data-listing-file-modified-sort="1766573963645" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<tr class="publication-row even" data-tags="Conference Papers" data-index="3" data-listing-date-sort="1650844800000" data-listing-file-modified-sort="1766803424027" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <td class="publication-content"><a href="../publications/nndsac/index.html" class="listing-author">Jeong-Han Yun, Jonguk Kim, Won-Seok Hwang, <strong>Young Geun Kim</strong>, Simon S. Woo, Byung-Gil Min (<span class="listing-date">2022</span>) <span class="listing-title">Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</span>. <span class="listing-details"><em>SAC '22</em></span>.</a><br>
 <a href="https://doi.org/10.1145/3477314.3506990" class="badge badge-small badge-blue">DOI</a></td>
-<td class="badge-cell"><span class="badge-container"> </span>
-<div class="altmetric-embed" data-badge-popover="left" data-badge-type="donut" data-doi="10.1145/3477314.3506990" data-condensed="true" data-hide-no-mentions="true">
-
-</div>
-<div class="__dimensions_badge_embed__" data-doi="10.1145/3477314.3506990" data-legend="hover-left" data-style="small_circle">
-
-</div>
-<a href="https://plu.mx/plum/a/?doi=10.1145/3477314.3506990" class="plumx-plum-print-popup" data-popup="bottom" data-size="medium" data-site="plum" data-hide-when-empty="true" data-pass-hidden-categories="true"></a>  <!-- </li> --></td>
+<td class="badge-cell"><span class="badge-container"> <span class="altmetric-embed" data-badge-popover="left" data-badge-type="donut" data-doi="10.1145/3477314.3506990" data-condensed="true" data-hide-no-mentions="true"></span> <span class="__dimensions_badge_embed__" data-doi="10.1145/3477314.3506990" data-legend="hover-left" data-style="small_circle"></span> <a href="https://plu.mx/plum/a/?doi=10.1145/3477314.3506990" class="plumx-plum-print-popup" data-popup="bottom" data-size="medium" data-site="plum" data-hide-when-empty="true" data-pass-hidden-categories="true"></a> </span> <!-- </li> --></td>
 </tr>
-<tr class="odd" data-index="2" data-listing-date-sort="1624492800000" data-listing-file-modified-sort="1766573963653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<tr class="publication-row odd" data-tags="Conference Papers" data-index="5" data-listing-date-sort="1624492800000" data-listing-file-modified-sort="1766803424032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
 <td class="publication-content"><a href="../publications/somifip/index.html" class="listing-author"><strong>Young Geun Kim</strong>, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, Simon S. Woo (<span class="listing-date">2021</span>) <span class="listing-title">Revitalizing Self-Organizing Map: Anomaly Detection using Forecasting Error Patterns</span>. <span class="listing-details"><em>IFIP SEC 2021</em></span>.</a><br>
 <a href="https://link.springer.com/content/pdf/10.1007%2F978-3-030-78120-0_25.pdf" class="badge badge-small badge-blue">PDF</a> <a href="https://doi.org/10.1007/978-3-030-78120-0_25" class="badge badge-small badge-blue">DOI</a> <a href="http://github.com/ygeunkim/somanomaly" class="badge badge-small badge-blue">Codes</a></td>
-<td class="badge-cell"><span class="badge-container"> </span>
-<div class="altmetric-embed" data-badge-popover="left" data-badge-type="donut" data-doi="10.1007/978-3-030-78120-0_25" data-condensed="true" data-hide-no-mentions="true">
-
-</div>
-<div class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-78120-0_25" data-legend="hover-left" data-style="small_circle">
-
-</div>
-<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25" class="plumx-plum-print-popup" data-popup="bottom" data-size="medium" data-site="plum" data-hide-when-empty="true" data-pass-hidden-categories="true"></a>  <!-- </li> --></td>
+<td class="badge-cell"><span class="badge-container"> <span class="altmetric-embed" data-badge-popover="left" data-badge-type="donut" data-doi="10.1007/978-3-030-78120-0_25" data-condensed="true" data-hide-no-mentions="true"></span> <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-78120-0_25" data-legend="hover-left" data-style="small_circle"></span> <a href="https://plu.mx/plum/a/?doi=10.1007/978-3-030-78120-0_25" class="plumx-plum-print-popup" data-popup="bottom" data-size="medium" data-site="plum" data-hide-when-empty="true" data-pass-hidden-categories="true"></a> </span> <!-- </li> --></td>
 </tr>
-<tr class="even" data-index="3" data-listing-date-sort="1564963200000" data-listing-file-modified-sort="1766573963645" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<tr class="publication-row even" data-tags="Workshops &amp; Posters" data-index="7" data-listing-date-sort="1564963200000" data-listing-file-modified-sort="1766803424026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <td class="publication-content"><a href="../publications/kl_poster/index.html" class="listing-author">Jinwoo Cho, Shahroz Tariq, Sangyup Lee, <strong>Young Geun Kim</strong>, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, Simon S. Woo (<span class="listing-date">2019</span>) <span class="listing-title">Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence</span>. <span class="listing-details"><em>MILETS '19</em></span>.</a><br>
 <a href="https://milets19.github.io/papers/milets19_poster_6.pdf" class="badge badge-small badge-blue">PDF</a> <a href="http://github.com/ygeunkim/swatanomaly" class="badge badge-small badge-blue">Codes</a></td>
 <td class="badge-cell"><!-- </li> --></td>
@@ -527,6 +395,34 @@ gtag('config', 'G-EJKKXZT0QV', { 'anonymize_ip': true});
 
 <!-- </ul> -->
 <!-- </span> -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const rows = document.querySelectorAll('.publication-row');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const selectedTag = this.dataset.tag;
+
+        // Update active button
+        filterBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+
+        // Filter rows
+        rows.forEach(row => {
+          const rowTags = row.dataset.tags.split(',').filter(t => t);
+          
+          if (selectedTag === 'all' || rowTags.includes(selectedTag)) {
+            row.style.display = '';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
