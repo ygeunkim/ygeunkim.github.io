@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">bvhar</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9015</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">2.3.0.9016</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -268,36 +268,17 @@ $$\Sigma_e \sim IW(S_0, \alpha_0)$$
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># Perform the function using etf_vix dataset</span></span></span>
-<span class="r-in"><span><span class="va">fit</span> <span class="op">&lt;-</span> <span class="fu">bvar_minnesota</span><span class="op">(</span>y <span class="op">=</span> <span class="va">etf_vix</span><span class="op">[</span>,<span class="fl">1</span><span class="op">:</span><span class="fl">3</span><span class="op">]</span>, p <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="kw">if</span> <span class="op">(</span><span class="cn">FALSE</span><span class="op">)</span> <span class="op">{</span> <span class="co"># \dontrun{</span></span></span>
+<span class="r-in"><span><span class="va">fit</span> <span class="op">&lt;-</span> <span class="fu">bvar_minnesota</span><span class="op">(</span>y <span class="op">=</span> <span class="va">etf_vix</span><span class="op">[</span>, <span class="fl">1</span><span class="op">:</span><span class="fl">3</span><span class="op">]</span>, p <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/class.html" class="external-link">class</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "bvarmn"   "bvharmod" "normaliw"</span>
+<span class="r-in"><span><span class="op">}</span> <span class="co"># }</span></span></span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Extract coef, fitted values, and residuals</span></span></span>
+<span class="r-in"><span><span class="kw">if</span> <span class="op">(</span><span class="cn">FALSE</span><span class="op">)</span> <span class="op">{</span> <span class="co"># \dontrun{</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="coef.html">coef</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                   GVZCLS        OVXCLS     VXFXICLS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_1     3.982565707  7.078052e-05  -0.04347898</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_1    -0.029438768  9.969427e-01  -0.06551816</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_1  -0.042774658 -5.004290e-04   3.98232985</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> GVZCLS_2    -0.026123047  3.679383e-05  -0.01060962</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> OVXCLS_2    -0.006764906 -2.965650e-04  -0.01611587</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> VXFXICLS_2  -0.010381054 -1.234613e-04  -0.02633963</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> const      -51.638356862  1.024188e-01 -70.16861120</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="residuals.html">residuals</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>            [,1]       [,2]       [,3]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,]  -8.286242  0.1126333 -10.952168</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] -12.341901  1.1024219 -12.239058</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3,]  -9.764979 -0.9345405  -8.717157</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [4,]  -7.972633 -0.7916668 -13.540428</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [5,]  -8.617840 -0.7945605 -12.279901</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [6,]  -9.922119 -1.3526203 -11.325575</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="fu"><a href="fitted.html">fitted</a></span><span class="op">(</span><span class="va">fit</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>        GVZCLS   OVXCLS VXFXICLS</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 30.62624 35.40737 40.01217</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 33.94190 35.48758 40.69906</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 30.96498 36.55454 38.25716</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 29.37263 35.58667 42.64543</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 30.21784 34.76456 40.94990</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 31.06212 33.94262 39.28558</span>
+<span class="r-in"><span><span class="op">}</span> <span class="co"># }</span></span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
