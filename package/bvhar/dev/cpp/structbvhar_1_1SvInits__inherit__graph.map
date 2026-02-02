@@ -1,6 +1,0 @@
-<map id="bvhar::SvInits" name="bvhar::SvInits">
-<area shape="rect" id="Node000001" title="MCMC initial values for McmcSv" alt="" coords="10,79,121,104"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1RegInits.html" title="MCMC initial values for McmcTriangular" alt="" coords="5,5,125,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,44,61,78,56,79,54,45"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="77,45,75,79,70,78,71,44"/>
-</map>

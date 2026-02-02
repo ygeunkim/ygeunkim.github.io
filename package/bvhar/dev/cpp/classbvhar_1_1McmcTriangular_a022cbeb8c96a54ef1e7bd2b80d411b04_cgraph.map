@@ -1,9 +1,0 @@
-<map id="bvhar::McmcTriangular::returnLdltRecords" name="bvhar::McmcTriangular::returnLdltRecords">
-<area shape="rect" id="Node000001" title="Return LdltRecords" alt="" coords="5,35,176,75"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1LdltRecords.html#ac86e1473be45b7d47709c3eea689651e" title="Return LdltRecords" alt="" coords="224,35,369,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,52,210,52,210,57,176,57"/>
-<area shape="rect" id="Node000003" href="$structbvhar_1_1LdltRecords.html#aab6adcfb970211d58799d5e3c4094938" title=" " alt="" coords="417,5,560,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="369,41,403,36,404,41,370,46"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a81b6366bc137dc98f6eba01649ab2229" title=" " alt="" coords="419,70,559,95"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="370,63,405,68,404,73,369,68"/>
-</map>

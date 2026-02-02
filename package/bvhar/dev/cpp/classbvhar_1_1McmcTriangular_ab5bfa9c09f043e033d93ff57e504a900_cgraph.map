@@ -1,9 +1,0 @@
-<map id="bvhar::McmcTriangular::returnSvRecords" name="bvhar::McmcTriangular::returnSvRecords">
-<area shape="rect" id="Node000001" title="Return SvRecords" alt="" coords="5,23,176,63"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1SvRecords.html#add1494c20733bca6412ff445b55a4886" title="Return SvRecords" alt="" coords="224,23,407,63"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,41,210,41,210,46,177,46"/>
-<area shape="rect" id="Node000003" href="$structbvhar_1_1SvRecords.html#a0bc510aacbd79a183e5aa6d02b68b4d7" title=" " alt="" coords="455,5,665,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="407,31,441,28,441,33,407,37"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a81b6366bc137dc98f6eba01649ab2229" title=" " alt="" coords="490,55,630,80"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="407,50,476,56,476,62,407,55"/>
-</map>

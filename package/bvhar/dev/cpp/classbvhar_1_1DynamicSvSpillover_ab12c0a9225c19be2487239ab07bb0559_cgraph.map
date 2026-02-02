@@ -1,8 +1,0 @@
-<map id="bvhar::DynamicSvSpillover::DynamicSvSpillover" name="bvhar::DynamicSvSpillover::DynamicSvSpillover">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,204,62"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a1224002b59d40bdb49f43d14a0461b05" title="Initialize MCMC record used in forecast classes." alt="" coords="252,29,423,55"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,39,238,39,238,45,204,45"/>
-<area shape="rect" id="Node000003" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="471,29,608,55"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="423,39,457,39,457,45,423,45"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="506,31,499,21,503,11,517,5,539,3,567,6,578,16,575,20,565,11,539,8,518,10,507,15,505,20,511,28"/>
-</map>

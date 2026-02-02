@@ -1,5 +1,0 @@
-<map id="bvhar::initialize_ctaforecaster" name="bvhar::initialize_ctaforecaster">
-<area shape="rect" id="Node000001" title="Initialize the vector of forecast class smart pointer." alt="" coords="5,5,221,31"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a8a35481038e8aba9b0da146628163d1e" title="Initialize MCMC record used in forecast classes." alt="" coords="269,5,440,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,15,256,15,256,21,221,21"/>
-</map>

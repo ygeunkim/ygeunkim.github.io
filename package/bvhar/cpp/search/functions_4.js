@@ -1,6 +1,0 @@
-var searchData=
-[
-  ['estimatecoef_0',['estimatecoef',['../classbvhar_1_1Minnesota.html#a4325187271ecb293c45e0d06482e9789',1,'bvhar::Minnesota::estimateCoef()'],['../classbvhar_1_1MinnFlat.html#ab289e3fdda6ba1711990fbe3b1d5dc5c',1,'bvhar::MinnFlat::estimateCoef()'],['../classbvhar_1_1MultiOls.html#ab21bf93e78fc5b2ba66e16739f0ae0c0',1,'bvhar::MultiOls::estimateCoef()'],['../classbvhar_1_1LltOls.html#a942a152d94c8fabf6ab2be6ee0a00d6a',1,'bvhar::LltOls::estimateCoef()'],['../classbvhar_1_1QrOls.html#a52ab4cb63e4dd703fcf0b89fba929f46',1,'bvhar::QrOls::estimateCoef()']]],
-  ['estimatecov_1',['estimatecov',['../classbvhar_1_1Minnesota.html#ae289a905b55d4fa7f882bcfd3ef08168',1,'bvhar::Minnesota::estimateCov()'],['../classbvhar_1_1MinnFlat.html#ab000ea0d38ab82096b677d12a5a8a95d',1,'bvhar::MinnFlat::estimateCov()'],['../classbvhar_1_1MultiOls.html#a822f9929bc4e7d9e7e6e199f40153172',1,'bvhar::MultiOls::estimateCov()']]],
-  ['exogenforecaster_2',['exogenforecaster',['../classbvhar_1_1ExogenForecaster.html#a78da81309413ef2ebf30c881b53dbbd4',1,'bvhar::ExogenForecaster::ExogenForecaster()'],['../classbvhar_1_1ExogenForecaster.html#a92a771caba946c1475d7330e3cd2b132',1,'bvhar::ExogenForecaster::ExogenForecaster(int lag, const ReturnType &amp;exogen)']]]
-];

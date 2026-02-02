@@ -9,7 +9,7 @@
 <link>https://ygeunkim.github.io/publication-type/1/</link>
 <atom:link href="https://ygeunkim.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.26</generator>
+<generator>quarto-1.8.27</generator>
 <lastBuildDate>Mon, 25 Apr 2022 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Residual Size is Not Enough for Anomaly Detection: Improving Detection Performance using Residual Similarity in Multivariate Time Series</title>

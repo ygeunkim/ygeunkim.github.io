@@ -1,8 +1,0 @@
-<map id="bvhar::McmcForecastRun::returnForecast" name="bvhar::McmcForecastRun::returnForecast">
-<area shape="rect" id="Node000001" title="Return forecast draws." alt="" coords="5,22,192,62"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcForecastRun.html#a8820adb91a5baad86cb87999a4c68fd9" title="Forecast." alt="" coords="240,22,427,62"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,39,226,39,226,45,192,45"/>
-<area shape="rect" id="Node000003" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="475,29,612,55"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="427,39,461,39,461,45,427,45"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="509,31,502,21,506,11,520,5,543,3,572,6,584,15,580,20,570,11,543,8,521,10,509,15,507,20,513,28"/>
-</map>

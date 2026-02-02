@@ -1,9 +1,0 @@
-<map id="bvhar::minnesota_logml" name="bvhar::minnesota_logml">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,185,80"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a6f04749bb537a4c13614d26b4751c854" title=" " alt="" coords="235,5,399,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,52,245,31,247,36,154,57"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#a8f898c60e82830ea8a8146d681020a50" title=" " alt="" coords="235,55,399,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,65,221,65,221,70,186,70"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#ac68ceac28554c2c5e77832a2ce027760" title=" " alt="" coords="233,104,401,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,77,247,98,245,104,153,83"/>
-</map>

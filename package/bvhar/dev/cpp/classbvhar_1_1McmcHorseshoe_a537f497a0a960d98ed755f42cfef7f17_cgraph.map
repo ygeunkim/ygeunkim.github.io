@@ -1,9 +1,0 @@
-<map id="bvhar::McmcHorseshoe::updateImpactPrec" name="bvhar::McmcHorseshoe::updateImpactPrec">
-<area shape="rect" id="Node000001" title="Draw precision of contemporaneous coefficient based on each shrinkage priors." alt="" coords="5,63,180,103"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a2b5b4de485e90808112dd381283a21c3" title=" " alt="" coords="228,5,409,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,60,226,46,227,51,173,65"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#ab12aae0b67db7dfdf56b809eff4655f4" title=" " alt="" coords="229,70,408,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,80,215,80,215,85,180,85"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a5fef6637f9ee6c4f3b37c954af99cb2c" title=" " alt="" coords="233,120,405,160"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="173,100,227,114,226,119,171,105"/>
-</map>

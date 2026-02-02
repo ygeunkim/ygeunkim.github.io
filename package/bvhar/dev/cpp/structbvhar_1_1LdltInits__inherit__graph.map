@@ -1,8 +1,0 @@
-<map id="bvhar::LdltInits" name="bvhar::LdltInits">
-<area shape="rect" id="Node000001" title="MCMC initial values for McmcReg" alt="" coords="41,79,160,104"/>
-<area shape="rect" id="Node000003" href="$structbvhar_1_1GlInits.html" title=" " alt="" coords="5,152,196,177"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="103,118,103,152,98,152,98,118"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1RegInits.html" title="MCMC initial values for McmcTriangular" alt="" coords="41,5,161,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,96,78,91,79,89,45"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="112,45,110,79,105,78,107,44"/>
-</map>

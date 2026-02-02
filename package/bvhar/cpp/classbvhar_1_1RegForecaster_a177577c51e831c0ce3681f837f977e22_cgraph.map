@@ -1,6 +1,0 @@
-<map id="bvhar::RegForecaster::RegForecaster" name="bvhar::RegForecaster::RegForecaster">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,165,62"/>
-<area shape="rect" id="Node000002" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="213,29,351,55"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,39,200,39,200,45,166,45"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="250,31,243,21,247,11,260,5,282,3,309,6,320,15,317,19,307,11,282,8,261,10,250,15,248,20,254,28"/>
-</map>

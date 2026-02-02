@@ -1,6 +1,0 @@
-<map id="bvhar::LdltRecords" name="bvhar::LdltRecords">
-<area shape="rect" id="Node000001" title="MCMC records for McmcReg" alt="" coords="6,79,149,104"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1RegRecords.html" title="MCMC records for McmcTriangular" alt="" coords="5,5,149,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,44,73,78,68,79,66,45"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="89,45,87,79,82,78,83,44"/>
-</map>

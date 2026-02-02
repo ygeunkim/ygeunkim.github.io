@@ -1,9 +1,0 @@
-<map id="bvhar::McmcDl::updateRecords" name="bvhar::McmcDl::updateRecords">
-<area shape="rect" id="Node000001" title="Save MCMC records." alt="" coords="5,45,231,70"/>
-<area shape="rect" id="Node000002" href="$structbvhar_1_1GlobalLocalRecords.html#a7d5671ed0ffe6e5efba0ffd3f2b1a822" title="Assign MCMC draw to the draw matrix." alt="" coords="289,5,483,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,42,275,36,276,41,225,47"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcReg.html#ac899f94435e63dc9073fa640f4866c56" title="Save coefficient records." alt="" coords="279,69,493,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,67,265,72,265,78,224,73"/>
-<area shape="rect" id="Node000004" href="$structbvhar_1_1SparseRecords.html#a8ceaf55ece71219dc670eb13113b0b71" title="Assign MCMC draw to the draw matrix." alt="" coords="541,69,704,109"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="493,87,528,87,528,92,493,92"/>
-</map>

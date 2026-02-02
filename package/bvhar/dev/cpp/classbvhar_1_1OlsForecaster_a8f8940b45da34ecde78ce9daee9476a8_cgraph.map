@@ -1,5 +1,0 @@
-<map id="bvhar::OlsForecaster::OlsForecaster" name="bvhar::OlsForecaster::OlsForecaster">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,161,45"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1OlsForecaster.html#a771603f54b2ef03bbc7974498f86cb9b" title="Initialize lagged predictors &#39;point_forecast&#39;, &#39;last_pvec&#39; and &#39;tmp_vec&#39;." alt="" coords="209,5,365,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,23,196,23,196,28,161,28"/>
-</map>

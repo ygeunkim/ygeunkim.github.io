@@ -1,9 +1,0 @@
-<map id="bvhar::MinnSpillover::updateMniw" name="bvhar::MinnSpillover::updateMniw">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,161,63"/>
-<area shape="rect" id="Node000002" href="$namespacebvhar.html#a7a0a588ca841b959be2a134105c591c5" title=" " alt="" coords="209,31,351,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,41,195,41,195,46,161,46"/>
-<area shape="rect" id="Node000003" href="$namespacebvhar.html#ac20c97e92d1e9eb026ed1fd7e9d1f364" title=" " alt="" coords="399,5,533,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="351,31,385,26,386,32,352,36"/>
-<area shape="rect" id="Node000004" href="$namespacebvhar.html#a8a823406839d5172c3dd17c290e87257" title=" " alt="" coords="407,55,525,80"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="352,50,393,55,393,61,351,55"/>
-</map>

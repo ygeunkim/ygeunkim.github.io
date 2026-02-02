@@ -1,8 +1,0 @@
-<map id="bvhar::bvharinterrupt::bvharinterrupt" name="bvhar::bvharinterrupt::bvharinterrupt">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,51,165,91"/>
-<area shape="rect" id="Node000002" href="$namespacestd.html#a03d5ca705e3360c607bf2586e9a9de3b" title=" " alt="" coords="225,29,362,55"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,57,211,51,211,56,166,63"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1bvharinterrupt.html#a07364e5ec2fd4defdb5d8bf7fbd6157a" title=" " alt="" coords="213,79,373,119"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="166,79,200,84,199,89,165,85"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="259,31,252,21,256,11,270,5,293,3,322,6,334,15,330,20,320,11,293,8,271,10,259,15,257,20,263,28"/>
-</map>

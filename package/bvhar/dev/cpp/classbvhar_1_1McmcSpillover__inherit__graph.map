@@ -1,9 +1,0 @@
-<map id="bvhar::McmcSpillover" name="bvhar::McmcSpillover">
-<area shape="rect" id="Node000001" title="Spillover class for McmcTriangular" alt="" coords="123,5,285,31"/>
-<area shape="rect" id="Node000002" href="$classbvhar_1_1McmcVarSpillover.html" title="Spillover class for VAR with McmcTriangular" alt="" coords="5,79,189,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,40,117,81,114,76,169,36"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="186,42,132,81,129,76,183,38"/>
-<area shape="rect" id="Node000003" href="$classbvhar_1_1McmcVharSpillover.html" title="Spillover class for VHAR with McmcTriangular" alt="" coords="214,79,407,119"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="225,38,279,76,276,81,222,42"/>
-<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="239,36,294,76,291,81,236,40"/>
-</map>
