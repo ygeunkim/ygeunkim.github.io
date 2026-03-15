@@ -32,6 +32,8 @@
   {
     "listing": "/projects/index.html",
     "items": [
+      "/projects/baecon_project/index.html",
+      "/projects/bfamar_research/index.html",
       "/projects/bvhar_research/index.html",
       "/projects/nsr_project/index.html"
     ]

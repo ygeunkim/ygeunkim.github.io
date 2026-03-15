@@ -10,7 +10,57 @@
 <atom:link href="https://ygeunkim.github.io/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 01 Jun 2022 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 01 Mar 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>baecon: Bayesian Econometric Time Series Toolkit</title>
+  <dc:creator>Young Geun Kim</dc:creator>
+  <link>https://ygeunkim.github.io/projects/baecon_project/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/projects/baecon_project/</guid>
+  <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://ygeunkim.github.io/projects/baecon_project/featured.png" medium="image" type="image/png" height="167" width="144"/>
+</item>
+<item>
+  <title>Bayesian Modeling and Forecasting of Matrix-Valued Time Series</title>
+  <dc:creator>Taeyoung Park, Young Geun Kim</dc:creator>
+  <link>https://ygeunkim.github.io/projects/bfamar_research/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?%5C%7B%20Y_t%20%5Cin%20R%5E%7Bn%20%5Ctimes%20k%7D%20:%20t%20=%201,%20%5Cldots,%20T%20%5C%7D">: Variables x Regions</li>
+<li>New Challenge in Empirical Macroeconomics:
+<ul>
+<li>Many macroeconomic variables show extreme movements after the COVID-19 pandemic</li>
+<li>Recent studies suggest addressing COVID-19 outliers in Bayesian VARs</li>
+<li>This project <strong>extends the issue into matrix-valued time series</strong></li>
+</ul></li>
+<li>Central question: <em>Can we forecast global economy during COVID-19 period</em>?</li>
+</ul>
+<!-- This research project develops Bayesian econometrics model that shares prior with Bayesian VAR (VAR).
+It aims at extending them to Vector heterogeneous autoregressive (VHAR) model.
+
+## Related papers -->
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/projects/bfamar_research/</guid>
+  <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://ygeunkim.github.io/projects/bfamar_research/featured.png" medium="image" type="image/png" height="89" width="144"/>
+</item>
 <item>
   <title>Bayesian Approaches to High-Dimensional Long-Range-Dependent Time Series</title>
   <dc:creator>Changryong Baek, Young Geun Kim</dc:creator>
