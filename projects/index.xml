@@ -9,7 +9,7 @@
 <link>https://ygeunkim.github.io/projects/</link>
 <atom:link href="https://ygeunkim.github.io/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.27</generator>
+<generator>quarto-1.9.38</generator>
 <lastBuildDate>Sat, 01 Mar 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>baecon: Bayesian Econometric Time Series Toolkit</title>
@@ -79,7 +79,7 @@ It aims at extending them to Vector heterogeneous autoregressive (VHAR) model.
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Related papers</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Related papers</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-kim2023" class="csl-entry">
 Kim, Young Geun, and Changryong Baek. 2024. <span>“Bayesian Vector Heterogeneous Autoregressive Modeling.”</span> <em>Journal of Statistical Computation and Simulation</em> 94 (6): 1139–57. <a href="https://doi.org/10.1080/00949655.2023.2281644">https://doi.org/10.1080/00949655.2023.2281644</a>.
 </div>
@@ -108,15 +108,15 @@ Kim, Young Geun, and Changryong Baek. 2024. <span>“Bayesian Vector Heterogeneo
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Papers I am involved in</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Papers I am involved in</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-chomilets2019" class="csl-entry">
-Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim, and Simon S. Woo. 2019. <span>“Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence.”</span> Anchorage, Alaska, USA.
+Cho, Jinwoo, Shahroz Tariq, Sangyup Lee, et al. 2019. <em>Contextual Anomaly Detection by Correlated Probability Distributions Using Kullback-Leibler Divergence</em>. Anchorage, Alaska, USA.
 </div>
 <div id="ref-kimifip2021" class="csl-entry">
-Kim, Young Geun, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, and Simon S. Woo. 2021. <span>“Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns.”</span> In <em>ICT Systems Security and Privacy Protection</em>, edited by Audun Jøsang, Lynn Futcher, and Janne Hagen, 382–97. Cham: Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-78120-0_25">https://doi.org/10.1007/978-3-030-78120-0_25</a>.
+Kim, Young Geun, Jeong-Han Yun, Siho Han, Hyoung Chun Kim, and Simon S. Woo. 2021. <span>“Revitalizing Self-Organizing Map: Anomaly Detection Using Forecasting Error Patterns.”</span> In <em>ICT Systems Security and Privacy Protection</em>, edited by Audun Jøsang, Lynn Futcher, and Janne Hagen. Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-78120-0_25">https://doi.org/10.1007/978-3-030-78120-0_25</a>.
 </div>
 <div id="ref-yunsac2022" class="csl-entry">
-Yun, Jeong-Han, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, and Byung-Gil Min. 2022. <span>“Residual Size Is Not Enough for Anomaly Detection: Improving Detection Performance Using Residual Similarity in Multivariate Time Series.”</span> In <em>Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing</em>, 87–96. SAC ’22. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/3477314.3506990">https://doi.org/10.1145/3477314.3506990</a>.
+Yun, Jeong-Han, Jonguk Kim, Won-Seok Hwang, Young Geun Kim, Simon S. Woo, and Byung-Gil Min. 2022. <span>“Residual Size Is Not Enough for Anomaly Detection: Improving Detection Performance Using Residual Similarity in Multivariate Time Series.”</span> <em>Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing</em> (New York, NY, USA), SAC ’22, 87–96. <a href="https://doi.org/10.1145/3477314.3506990">https://doi.org/10.1145/3477314.3506990</a>.
 </div>
 </div></section></div> ]]></description>
   <guid>https://ygeunkim.github.io/projects/nsr_project/</guid>
