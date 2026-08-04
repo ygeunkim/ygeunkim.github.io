@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c55d4304e50a82d046d89eb19d200d61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-8d3446174daee14f00180156d2f79101.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-c55d4304e50a82d046d89eb19d200d61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-70604584140880fda46f776f9c839f12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-b0a0e16c399c04abf86489833185d643.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-70604584140880fda46f776f9c839f12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -120,7 +123,59 @@ gtag('config', 'G-EJKKXZT0QV', { 'anonymize_ip': true});
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="https://cdn.plu.mx/widget-popup.js"></script>
 
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const en = [...document.querySelectorAll(".navbar a")]
+    .find(a => a.textContent.trim() === "English");
+  const ko = [...document.querySelectorAll(".navbar a")]
+    .find(a => a.textContent.trim() === "한국어");
+
+  if (!en || !ko) return;
+
+  const currentPath = window.location.pathname.split("?")[0].split("#")[0];
+
+  const normalizePath = (p) => {
+    if (!p || p === "/") return "/";
+    if (p.endsWith(".html")) return p;
+    if (p.endsWith("/")) return `${p}index.html`;
+    return `${p}/index.html`;
+  };
+
+  const stripLangSuffix = (p) => {
+    if (p.endsWith("/index.ko.html")) return p.replace(/\/index\.ko\.html$/, "");
+    if (p.endsWith("/index.html")) return p.replace(/\/index\.html$/, "");
+    return p;
+  };
+
+  const normalized = normalizePath(currentPath);
+  const base = stripLangSuffix(normalized);
+
+  const enHref = base === "/" ? "/index.html" : `${base}/index.html`;
+  const koHref = base === "/" ? "/index.ko.html" : `${base}/index.ko.html`;
+
+  en.href = enHref;
+
+  fetch(koHref, { method: "HEAD" })
+    .then(res => {
+      if (res.ok) {
+        ko.href = koHref;
+        ko.classList.remove("disabled");
+        ko.removeAttribute("aria-disabled");
+      } else {
+        ko.removeAttribute("href");
+        ko.classList.add("disabled");
+        ko.setAttribute("aria-disabled", "true");
+      }
+    })
+    .catch(() => {
+      ko.removeAttribute("href");
+      ko.classList.add("disabled");
+      ko.setAttribute("aria-disabled", "true");
+    });
+});
+</script>
+
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="alternate" type="application/rss+xml" title="Young Geun Kim" href="index.xml" data-external="1"></head>
@@ -325,6 +380,23 @@ gtag('config', 'G-EJKKXZT0QV', { 'anonymize_ip': true});
 <span class="menu-text">About/Contact</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-language" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Language</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-language">    
+        <li>
+    <a class="dropdown-item" href="../.">
+ <span class="dropdown-text">English</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../index.ko.html">
+ <span class="dropdown-text">한국어</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -372,28 +444,28 @@ gtag('config', 'G-EJKKXZT0QV', { 'anonymize_ip': true});
 <col style="width: 50%" />
 </colgroup>
 <tbody>
-<tr class="odd" data-index="0" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1784780720710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<tr class="odd" data-index="0" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1785811732987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <td class="project-content"><a href="../projects/baecon_project/index.qmd" class="listing-title"><strong>baecon: Bayesian Econometric Time Series Toolkit</strong></a><br />
 Develop software packages for Bayesian econometric time series analysis<br />
 <span class="listing-author">Young Geun Kim (2022-06 - )</span><br />
 <a href="baeconverse" class="badge badge-small badge-blue">Codes</a></td>
 <td class="featured-cell"><img src="../projects/baecon_project/featured.png" class="img-fluid" /></td>
 </tr>
-<tr class="even" data-index="1" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1784780720711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+<tr class="even" data-index="1" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1785811732987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
 <td class="project-content"><a href="../projects/bfamar_research/index.qmd" class="listing-title"><strong>Bayesian Modeling and Forecasting of Matrix-Valued Time Series</strong></a><br />
 Forecast global economy during COVID-19 Pandemic Shocks<br />
 <span class="listing-author">Taeyoung Park, Young Geun Kim (2025-03 - 2026-02)</span><br />
 </td>
 <td class="featured-cell"><img src="../projects/bfamar_research/featured.png" class="img-fluid" /></td>
 </tr>
-<tr class="odd" data-index="2" data-listing-date-sort="1654041600000" data-listing-file-modified-sort="1784780720711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+<tr class="odd" data-index="2" data-listing-date-sort="1654041600000" data-listing-file-modified-sort="1785811732988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
 <td class="project-content"><a href="../projects/bvhar_research/index.qmd" class="listing-title"><strong>Bayesian Approaches to High-Dimensional Long-Range-Dependent Time Series</strong></a><br />
 Forecast high-dimensional long-memory time series using Bayesian Vector Heterogeneous Autoregressive (BVHAR) model<br />
 <span class="listing-author">Changryong Baek, Young Geun Kim (2022-06 - 2025-02)</span><br />
 <a href="https://fred.stlouisfed.org/searchresults?st=cboe" class="badge badge-small badge-blue">Dataset</a> <a href="ygeunkim/bvhar" class="badge badge-small badge-blue">Codes</a></td>
 <td class="featured-cell"><img src="../projects/bvhar_research/featured.png" class="img-fluid" /></td>
 </tr>
-<tr class="even" data-index="3" data-listing-date-sort="1554076800000" data-listing-file-modified-sort="1784780720712" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+<tr class="even" data-index="3" data-listing-date-sort="1554076800000" data-listing-file-modified-sort="1785811732990" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
 <td class="project-content"><a href="../projects/nsr_project/index.qmd" class="listing-title"><strong>Anomaly detection in Cyber-Physical Systems</strong></a><br />
 Anomaly detection based on the deep neural network error.<br />
 <span class="listing-author">Simon S. Woo, Yujin Shin, Sangyup Lee, Shahroz Tariq, Young Geun Kim, Jinwoo Cho, Seoyoung Park, Youngrok Choi (2019-04 - 2020-02)</span><br />
@@ -422,7 +494,7 @@ Anomaly detection based on the deep neural network error.<br />
   
     <a href="https://baeconverse.org" target="_blank" rel="noopener noreferrer">
   
-    <div class="project-card" data-tags="Time Series,Bayesian Econometrics,Software" data-index="4" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1784780720710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="project-card" data-tags="Time Series,Bayesian Econometrics,Software" data-index="4" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1785811732987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
       <div class="project-content">
         <strong>baecon: Bayesian Econometric Time Series Toolkit</strong>
         <br>
@@ -467,7 +539,7 @@ Anomaly detection based on the deep neural network error.<br />
   
     <a href="../projects/bfamar_research/index.html">
   
-    <div class="project-card" data-tags="Time Series,Bayesian Econometrics" data-index="5" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1784780720711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+    <div class="project-card" data-tags="Time Series,Bayesian Econometrics" data-index="5" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1785811732987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
       <div class="project-content">
         <strong>Bayesian Modeling and Forecasting of Matrix-Valued Time Series</strong>
         <br>
@@ -510,7 +582,7 @@ Anomaly detection based on the deep neural network error.<br />
   
     <a href="../projects/bvhar_research/index.html">
   
-    <div class="project-card" data-tags="Time Series,Bayesian Econometrics" data-index="6" data-listing-date-sort="1654041600000" data-listing-file-modified-sort="1784780720711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+    <div class="project-card" data-tags="Time Series,Bayesian Econometrics" data-index="6" data-listing-date-sort="1654041600000" data-listing-file-modified-sort="1785811732988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
       <div class="project-content">
         <strong>Bayesian Approaches to High-Dimensional Long-Range-Dependent Time Series</strong>
         <br>
@@ -557,7 +629,7 @@ Anomaly detection based on the deep neural network error.<br />
   
     <a href="../projects/nsr_project/index.html">
   
-    <div class="project-card" data-tags="Anomaly Detection,Time Series" data-index="7" data-listing-date-sort="1554076800000" data-listing-file-modified-sort="1784780720712" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+    <div class="project-card" data-tags="Anomaly Detection,Time Series" data-index="7" data-listing-date-sort="1554076800000" data-listing-file-modified-sort="1785811732990" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
       <div class="project-content">
         <strong>Anomaly detection in Cyber-Physical Systems</strong>
         <br>
