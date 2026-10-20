@@ -9,8 +9,26 @@
 <link>https://ygeunkim.github.io/projects/</link>
 <atom:link href="https://ygeunkim.github.io/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.10.18</generator>
-<lastBuildDate>Sat, 01 Mar 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Tue, 20 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>algotradelib: C++ Library for Algorithmic Trading</title>
+  <dc:creator>Young Geun Kim</dc:creator>
+  <link>https://ygeunkim.github.io/projects/atl_project/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://ygeunkim.github.io/projects/atl_project/</guid>
+  <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ygeunkim.github.io/projects/atl_project/featured.png" medium="image" type="image/png" height="167" width="144"/>
+</item>
 <item>
   <title>baecon: Bayesian Econometric Time Series Toolkit</title>
   <dc:creator>Young Geun Kim</dc:creator>

@@ -2,6 +2,7 @@
   {
     "listing": "/software/index.html",
     "items": [
+      "/software/algotradelib/index.html",
       "/software/baymar/index.html",
       "/software/bvhar/index.html",
       "/software/someanomaly/index.html",
@@ -9,24 +10,18 @@
     ]
   },
   {
-    "listing": "/publication-type/2/index.html",
+    "listing": "/publications/index.html",
     "items": [
-      "/publications/bvhar/index.html"
-    ]
-  },
-  {
-    "listing": "/publication-type/0/index.html",
-    "items": [
+      "/publications/bvhar/index.html",
+      "/publications/nndsac/index.html",
+      "/publications/somifip/index.html",
       "/publications/kl_poster/index.html"
     ]
   },
   {
-    "listing": "/projects/index.html",
+    "listing": "/publication-type/8/index.html",
     "items": [
-      "/projects/baecon_project/index.html",
-      "/projects/bfamar_research/index.html",
-      "/projects/bvhar_research/index.html",
-      "/projects/nsr_project/index.html"
+      "/publications/somanomaly/index.html"
     ]
   },
   {
@@ -37,18 +32,25 @@
     ]
   },
   {
-    "listing": "/publication-type/8/index.html",
+    "listing": "/projects/index.html",
     "items": [
-      "/publications/somanomaly/index.html"
+      "/projects/atl_project/index.html",
+      "/projects/baecon_project/index.html",
+      "/projects/bfamar_research/index.html",
+      "/projects/bvhar_research/index.html",
+      "/projects/nsr_project/index.html"
     ]
   },
   {
-    "listing": "/publications/index.html",
+    "listing": "/publication-type/0/index.html",
     "items": [
-      "/publications/bvhar/index.html",
-      "/publications/nndsac/index.html",
-      "/publications/somifip/index.html",
       "/publications/kl_poster/index.html"
+    ]
+  },
+  {
+    "listing": "/publication-type/2/index.html",
+    "items": [
+      "/publications/bvhar/index.html"
     ]
   }
 ]
